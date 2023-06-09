@@ -31,8 +31,8 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Description**                             | Checks if the element matches the TopProperties.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L23) |
 
 ---
@@ -49,8 +49,8 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Description**                             | Creates a new TopProperties.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>uiFinder	- The `axuielement` object that represents this element.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L34) |
 
 ---
@@ -65,7 +65,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.TopProperties.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the TopProperties group.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L49) |
 
 ---

@@ -34,8 +34,8 @@ require("cp.docs").generate()
 | **Description**                             | Generates the CommandPost Developers Guide.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/docs/init.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L24) |
 
 ---
@@ -50,8 +50,8 @@ require("cp.docs").generate()
 | **Description**                             | Returns markup of all of the API links for a specific group of extensions.                                                                     |
 | **Parameters**                              | <ul><li>folder - The folder you want to process (i.e. "cp", "plugins" or "hs").</li></ul> |
 | **Returns**                                 | <ul><li>The result as a string, otherwise `nil` if an error occurs.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/docs/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L130) |
 
 ---
@@ -66,8 +66,8 @@ require("cp.docs").generate()
 | **Description**                             | Updates the Developer Guide Summary.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/docs/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L53) |
 
 ---

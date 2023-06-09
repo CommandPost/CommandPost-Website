@@ -38,7 +38,7 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Parameters**                              | <ul><li>values  - a `table` value, or a `function` which returns a table.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>List(someTable)</li><li>```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/List.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/List.lua#L26) |
 
 ---
@@ -56,7 +56,7 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Sorted` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):Sorted()</li><li>```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/List.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/List.lua#L74) |
 
 ---
@@ -72,7 +72,7 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `SortedBy` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):SortedBy(function(a, b) return b < a)</li><li>```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/List.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/List.lua#L103) |
 
 ---

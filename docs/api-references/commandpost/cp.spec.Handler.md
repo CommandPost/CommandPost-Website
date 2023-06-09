@@ -43,8 +43,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Gets and sets the current default `Handler` implementation. This is used when processing test runs.                                                                     |
 | **Parameters**                              | <ul><li>handler - (optional) when provided, sets the default to the specified handler.</li></ul> |
 | **Returns**                                 | <ul><li>The current `Handler` implementation.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L16) |
 
 ---
@@ -61,8 +61,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Creates a new `Handler`                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L36) |
 
 ---
@@ -79,8 +79,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has had an abort.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li><li>msg - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L119) |
 
 ---
@@ -95,8 +95,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Indicates if either the handler or the individual [Run](cp.spec.Run.md) is "verbose". If so, more messages may be output by the handler.                                                                     |
 | **Parameters**                              | <ul><li>run</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L61) |
 
 ---
@@ -111,8 +111,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has failed.                                                                     |
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>msg       - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L107) |
 
 ---
@@ -127,8 +127,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) is running due to being filtered.                                                                     |
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>msg       - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L143) |
 
 ---
@@ -143,8 +143,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has passed.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L96) |
 
 ---
@@ -159,8 +159,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has started.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L74) |
 
 ---
@@ -175,8 +175,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has completed.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L85) |
 
 ---
@@ -191,8 +191,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has passed with the given [report](cp.spec.Report.md).                                                                     |
 | **Parameters**                              | <ul><li>run  - The test run.</li><li>report - The test reports.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L155) |
 
 ---
@@ -207,8 +207,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Indicate that the handler is (or is not) verbose. If not provided, this is set to `true`.                                                                     |
 | **Parameters**                              | <ul><li>isVerbose - (optional) If set to `false`, the handler will not be verbose. Defaults to `true`.</li></ul> |
 | **Returns**                                 | <ul><li>The `Handler` instance, for chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L47) |
 
 ---
@@ -223,8 +223,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate that the run is waiting asynchronously.                                                                     |
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>timeout  - The timeout, in seconds.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Handler.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L131) |
 
 ---

@@ -30,7 +30,7 @@ Notifications Manager Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.manager -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event Types                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L16) |
 
 ---
@@ -45,7 +45,7 @@ Notifications Manager Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.manager.watchers -> watcher`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watchers                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L139) |
 
 ---
@@ -62,8 +62,8 @@ Notifications Manager Plugin.
 | **Description**                             | Start Watchers                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the watcher to unwatch as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L159) |
 
 ---
@@ -78,8 +78,8 @@ Notifications Manager Plugin.
 | **Description**                             | Start Watchers                                                                     |
 | **Parameters**                              | <ul><li>events - Events to watch</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the watcher as string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L144) |
 
 ---

@@ -59,8 +59,8 @@ Browser Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L50) |
 
 ---
@@ -77,8 +77,8 @@ Browser Module.
 | **Description**                             | Creates a new `Browser` instance.                                                                     |
 | **Parameters**                              | <ul><li>app - The Final Cut Pro app instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Browser`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L67) |
 
 ---
@@ -93,7 +93,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.generators <cp.apple.finalcutpro.main.GeneratorsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Generators Browser object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 354](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L354) |
 
 ---
@@ -106,7 +106,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.generatorsShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Generators' button active, and thus showing?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L139) |
 
 ---
@@ -119,7 +119,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.isOnPrimary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Browser on the Primary Window?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L115) |
 
 ---
@@ -132,7 +132,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.isOnSecondary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Browser on the Secondary Window?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L105) |
 
 ---
@@ -147,7 +147,7 @@ Browser Module.
 | **Description**                             | The [module](package.module.md) object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `LibrariesBrowser` object.</li></ul>          |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L334) |
 
 ---
@@ -160,7 +160,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.librariesShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Libraries' button active, and thus showing?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L125) |
 
 ---
@@ -173,7 +173,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.markerPopover <BrowserMarkerPopover>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Browser Marker Popover object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 361](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L361) |
 
 ---
@@ -186,7 +186,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.media <cp.apple.finalcutpro.main.MediaBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Media Browser object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 347](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L347) |
 
 ---
@@ -199,7 +199,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.mediaShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Media' button active, and thus showing?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L132) |
 
 ---
@@ -212,7 +212,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showGenerators <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The CheckBox indicating if the Generators Browser is showing.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 320](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L320) |
 
 ---
@@ -225,7 +225,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showLibraries <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if Libraries is showing, and can be clicked to toggle.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L292) |
 
 ---
@@ -238,7 +238,7 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | CheckBox indicating if the  Media Browser is showing.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L306) |
 
 ---
@@ -255,8 +255,8 @@ Browser Module.
 | **Description**                             | The Clip [AppearanceAndFiltering](cp.apple.finalcutpro.main.AppearanceAndFiltering.md) Menu Popover                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesBrowser.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesBrowser.lua#L256) |
 
 ---
@@ -271,8 +271,8 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will hide the Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 271](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L271) |
 
 ---
@@ -287,8 +287,8 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will ensure the Browser is showing. If it's currently showing on the Secondary Screen it will stay there, otherwise it will get shown on the Primary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L239) |
 
 ---
@@ -303,8 +303,8 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the Browser on Primary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 176](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L176) |
 
 ---
@@ -319,8 +319,8 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the Browser on Secondary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L218) |
 
 ---
@@ -335,8 +335,8 @@ Browser Module.
 | **Description**                             | Hides the Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 254](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L254) |
 
 ---
@@ -351,8 +351,8 @@ Browser Module.
 | **Description**                             | Loads a Browser layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the Browser layout settings - created using `cp.apple.finalcutpro.main.Browser:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 395](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L395) |
 
 ---
@@ -367,8 +367,8 @@ Browser Module.
 | **Description**                             | Saves the current Browser layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Browser Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 368](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L368) |
 
 ---
@@ -383,8 +383,8 @@ Browser Module.
 | **Description**                             | Show Browser on Primary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L152) |
 
 ---
@@ -399,8 +399,8 @@ Browser Module.
 | **Description**                             | Show Browser on Secondary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Browser.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Browser.lua#L199) |
 
 ---

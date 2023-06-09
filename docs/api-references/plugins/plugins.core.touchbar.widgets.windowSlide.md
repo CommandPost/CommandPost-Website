@@ -26,8 +26,8 @@ Window Slide Widget for Touch Bar.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/widgets/windowSlide.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/windowSlide.lua#L84) |
 
 ---
@@ -42,8 +42,8 @@ Window Slide Widget for Touch Bar.
 | **Description**                             | The Widget                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/widgets/windowSlide.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/windowSlide.lua#L18) |
 
 ---

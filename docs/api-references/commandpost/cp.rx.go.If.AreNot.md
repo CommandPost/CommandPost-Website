@@ -25,8 +25,8 @@ A [Statement.Modifier](cp.rx.go.Statement.Modifier.md) for [If](cp.rx.go.If.md) 
 | **Description**                             | Specifies what happens after the [If](cp.rx.go.If.md) test passes.                                                                     |
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` items to process.</li></ul> |
 | **Returns**                                 | <ul><li>An [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/If.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L314) |
 
 ---

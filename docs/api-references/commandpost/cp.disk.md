@@ -51,8 +51,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Unmounts and ejects (where appropriate) all disks matching the provided `options`.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//disk.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L214) |
 
 ---
@@ -67,8 +67,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Mounts all disks matching the provided `options`.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//disk.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L184) |
 
 ---
@@ -83,8 +83,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Unmounts all disks matching the provided `options`.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//disk.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L199) |
 
 ---
@@ -99,8 +99,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Visits all drives matching the `options` and executes the `fn` function with the `deviceID` string (e.g. "disk0" or "disk2s1") and a table of additional data about the drive.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li><li>fn        - The function to execute.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//disk.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L165) |
 
 ---

@@ -26,8 +26,8 @@ Volume Slider
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/widgets/volume.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/volume.lua#L42) |
 
 ---
@@ -42,8 +42,8 @@ Volume Slider
 | **Description**                             | The Widget                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/widgets/volume.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/volume.lua#L17) |
 
 ---

@@ -33,8 +33,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Constructs the panel, initialising the parent and the [UI](cp.ui.Element.md#UI).                                                                     |
 | **Parameters**                              | <ul><li>parent        - The parent [Element](cp.ui.Element.md).</li><li>panelType     - The panel type string, as defined in [Inspector.INSPECTOR_TABS](cp.apple.finalcutpro.inspector.Inspector.md#INSPECTOR_TABS).</li></ul> |
 | **Returns**                                 | <ul><li>The new `BasePanel` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L16) |
 
 ---
@@ -51,8 +51,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that hides the panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful and sending an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L101) |
 
 ---
@@ -67,8 +67,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Hides the panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L85) |
 
 ---
@@ -83,8 +83,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Gets the type of panel this is.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The panel type identifier.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L41) |
 
 ---
@@ -99,8 +99,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Shows the panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L54) |
 
 ---

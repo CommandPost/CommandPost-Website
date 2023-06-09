@@ -30,8 +30,8 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Returns the callbackFn of the current Update Location Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L79) |
 
 ---
@@ -46,8 +46,8 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Deletes a Update Location Callback based on an ID.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L92) |
 
 ---
@@ -62,8 +62,8 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Gets an Update Location Callback based on an ID.                                                                     |
 | **Parameters**                              | <ul><li>`id`      - The unique ID for the callback you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L40) |
 
 ---
@@ -78,8 +78,8 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Returns all of the created Update Location Callbacks                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L53) |
 
 ---
@@ -94,8 +94,8 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Returns the ID of the current Update Location Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the current File Dropped to Dock Icon Callback as a `string`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L66) |
 
 ---
@@ -110,8 +110,8 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Creates a new Update Location Callback                                                                     |
 | **Parameters**                              | <ul><li>`id` - The unique ID for this callback.</li><li>`callbackFn` - The callback function.</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L13) |
 
 ---

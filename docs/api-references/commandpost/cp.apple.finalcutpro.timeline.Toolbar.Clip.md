@@ -27,7 +27,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.audioSkimming <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is played while skimming.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L318) |
 
 ---
@@ -40,7 +40,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.skimming <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if video/audio skimming is active.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L307) |
 
 ---
@@ -53,7 +53,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.snapping <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if snapping is enabled.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L340) |
 
 ---
@@ -66,7 +66,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.solo <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is soloed on the selected clip(s).                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L329) |
 
 ---

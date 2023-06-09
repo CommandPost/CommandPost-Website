@@ -51,7 +51,7 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 | **Signature**                               | `hs.window.switcher.ui`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allows customization of the switcher behaviour and user interface                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/window/window_switcher.lua line 53](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_switcher.lua#L53) |
 
 ---
@@ -69,7 +69,7 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>the switcher will be dismissed (and the selected window focused) when all modifier keys are released</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/window/window_switcher.lua line 318](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_switcher.lua#L318) |
 
 ---
@@ -85,7 +85,7 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>the switcher will be dismissed (and the selected window focused) when all modifier keys are released</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/window/window_switcher.lua line 331](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_switcher.lua#L331) |
 
 ---
@@ -102,8 +102,8 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 | **Description**                             | Creates a new switcher instance; it can use a windowfilter to determine which windows to show                                                                     |
 | **Parameters**                              | <ul><li>windowfilter - (optional) if omitted or nil, use the default windowfilter; otherwise it must be a windowfilter instance or constructor table</li><li>uiPrefs - (optional) a table to override UI preferences for this instance; its keys and values must follow the conventions described in `hs.window.switcher.ui`; this parameter allows you to have multiple switcher instances with different behaviour (for example, with and without thumbnails and/or titles) using different hotkeys</li><li>logname - (optional) name of the `hs.logger` instance for the new switcher; if omitted, the class logger will be used</li><li>loglevel - (optional) log level for the `hs.logger` instance for the new switcher</li></ul> |
 | **Returns**                                 | <ul><li>the new instance</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/window/window_switcher.lua line 393](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_switcher.lua#L393) |
 
 ---
@@ -121,7 +121,7 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>the switcher will be dismissed (and the selected window focused) when all modifier keys are released</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/window/window_switcher.lua line 285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_switcher.lua#L285) |
 
 ---
@@ -137,7 +137,7 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>the switcher will be dismissed (and the selected window focused) when all modifier keys are released</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/window/window_switcher.lua line 298](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_switcher.lua#L298) |
 
 ---

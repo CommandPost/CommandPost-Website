@@ -25,8 +25,8 @@ Block.
 | **Description**                             | Checks if the `value` is an `cp.web.block`.                                                                     |
 | **Parameters**                              | <ul><li>value		- the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/web/block.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/block.lua#L283) |
 
 ---

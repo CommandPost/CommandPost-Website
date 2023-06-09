@@ -26,7 +26,7 @@ Plugins Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.plugins.SETTINGS_DISABLED`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugins Disabled                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/preferences/panels/plugins/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/plugins/init.lua#L26) |
 
 ---
@@ -43,8 +43,8 @@ Plugins Preferences Panel
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>deps - The plugin dependencies.</li><li>env  - The plugin environment.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/preferences/panels/plugins/init.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/plugins/init.lua#L248) |
 
 ---

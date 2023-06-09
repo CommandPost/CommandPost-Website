@@ -27,8 +27,8 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Description**                             | Gets the action ID from the parameters table.                                                                     |
 | **Parameters**                              | <ul><li>params - Parameters table.</li></ul> |
 | **Returns**                                 | <ul><li>Action ID as string.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/menu/menuaction.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/menuaction.lua#L56) |
 
 ---
@@ -43,8 +43,8 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Description**                             | Initialises the Menu Action plugin                                                                     |
 | **Parameters**                              | <ul><li>`actionmanager` - the Action Manager plugin</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/menu/menuaction.lua line 1261](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/menuaction.lua#L1261) |
 
 ---

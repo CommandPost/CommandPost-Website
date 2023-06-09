@@ -29,8 +29,8 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Description**                             | Returns the callbackFn of the current Dock Icon Click Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 685](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L685) |
 
 ---
@@ -45,8 +45,8 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Description**                             | Creates a new Dock Icon Click Callback.                                                                     |
 | **Parameters**                              | <ul><li>`id`		- The unique ID for the callback you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 646](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L646) |
 
 ---
@@ -61,8 +61,8 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Description**                             | Returns all of the created Dock Icon Click Callbacks                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 659](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L659) |
 
 ---
@@ -77,8 +77,8 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Description**                             | Returns the ID of the current Dock Icon Click Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the current File Dropped to Dock Icon Callback as a `string`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 672](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L672) |
 
 ---
@@ -93,8 +93,8 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Description**                             | Creates a new File Dropped to Dock Icon Callback.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The unique ID for this callback.</li><li>`callbackFn` - The callback function</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L619) |
 
 ---

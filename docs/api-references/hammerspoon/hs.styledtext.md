@@ -145,7 +145,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Signature**                               | `hs.styledtext.fontTraits -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table for containing Font Trait masks for use with `hs.styledtext.fontNamesWithTraits(...)`                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 379](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L379) |
 
 ---
@@ -203,8 +203,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
   name - the name of the font (defaults to the system font)
   size - the point size of the font (defaults to the default system font size)</li><li>trait - a number corresponding to a trait listed in `hs.styledtext.fontTraits` you wish to add or remove (unboldFont and unitalicFont) from the given font, or a boolean indicating whether you want a heavier version (true) or a lighter version (false).</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the name and size of the font which most closely matches the specified font and the trait change requested.  If no such font is available, then the original font is returned unchanged.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 305](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L305) |
 
 ---
@@ -219,8 +219,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Returns the names of all font families installed for the system.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the names of every font family installed for the system.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 268](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L268) |
 
 ---
@@ -237,8 +237,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
   name - the name of the font (defaults to the system font)
   size - the point size of the font (defaults to the default system font size)</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the following keys:</li><li>  fontName           - The font's internally recognized name.</li><li>  familyName         - The font's family name.</li><li>  displayName        - The font’s display name is typically localized for the user’s language.</li><li>  fixedPitch         - A boolean value indicating whether all glyphs in the font have the same advancement.</li><li>  ascender           - The top y-coordinate, offset from the baseline, of the font’s longest ascender.</li><li>  boundingRect       - A table containing the font’s bounding rectangle, scaled to the font’s size.  This rectangle is the union of the bounding rectangles of every glyph in the font.</li><li>  capHeight          - The cap height of the font.</li><li>  descender          - The bottom y-coordinate, offset from the baseline, of the font’s longest descender.</li><li>  italicAngle        - The number of degrees that the font is slanted counterclockwise from the vertical. (read-only)</li><li>  leading            - The leading value of the font.</li><li>  maximumAdvancement - A table containing the maximum advance of any of the font’s glyphs.</li><li>  numberOfGlyphs     - The number of glyphs in the font.</li><li>  pointSize          - The point size of the font.</li><li>  underlinePosition  - The baseline offset to use when drawing underlines with the font.</li><li>  underlineThickness - The thickness to use when drawing underlines with the font.</li><li>  xHeight            - The x-height of the font.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 449](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L449) |
 
 ---
@@ -253,8 +253,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Returns the names of all installed fonts for the system.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the names of every font installed for the system.  The individual names are strings which can be used in the `hs.drawing:setTextFont(fontname)` method.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L246) |
 
 ---
@@ -270,7 +270,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>traits - a number, specifying the fontTraitMask, or a table containing traits listed in `hs.styledtext.fontTraits` which are logically 'OR'ed together to create the fontTraitMask used.</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the names of every font installed for the system which matches the fontTraitMask specified.  The individual names are strings which can be used in the `hs.drawing:setTextFont(fontname)` method.</li></ul>          |
 | **Notes**                                   | <ul><li>specifying 0 or an empty table will match all fonts that are neither italic nor bold.  This would be the same list as you'd get with { hs.styledtext.fontTraits.unBold, hs.styledtext.fontTraits.unItalic } as the parameter.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 335](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L335) |
 
 ---
@@ -285,8 +285,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Get the path of a font.                                                                     |
 | **Parameters**                              | <ul><li>font - a string containing the name of the font you want to check.</li></ul> |
 | **Returns**                                 | <ul><li>The path to the font or `nil` if the font name is not valid.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 532](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L532) |
 
 ---
@@ -301,8 +301,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Returns an array containing fonts available for the specified font family or nil if no fonts for the specified family are present.                                                                     |
 | **Parameters**                              | <ul><li>`familyName` - a string specifying the font family to return available fonts for. The strings should be one of the values returned by the [hs.styledtext.fontFamilies](#fontFamilies) function.</li></ul> |
 | **Returns**                                 | <ul><li>a table containing an array of available fonts for the specified family. Each array entry will be a table, also as an array, in the following order:</li><li>  a string specifying the font name which can be used in the `hs.drawing:setTextFont(fontname)` method.</li><li>  a string specifying the basic style of the font (e.g. Bold, Italic, Roman, etc.)</li><li>  a table containing one or more strings specifying common names for the weight of the font. ISO equivalent names are preceded with "ISO:". Possible values are:</li><li>            `{ "ultralight" }`</li><li>            `{ "thin", "ISO:ultralight" }`</li><li>            `{ "light", "extralight", "ISO:extralight" }`</li><li>            `{ "book", "ISO:light" }`</li><li>            `{ "regular", "plain", "display", "roman", "ISO:semilight" }`</li><li>            `{ "medium", "ISO:medium" }`</li><li>            `{ "demi", "demibold" }`</li><li>            `{ "semi", "semibold", "ISO:semibold" }`</li><li>            `{ "bold", "ISO:bold" }`</li><li>            `{ "extra", "extrabold", "ISO:extrabold" }`</li><li>            `{ "heavy", "heavyface" }`</li><li>            `{ "black", "super", "ISO:ultrabold" }`</li><li>            `{ "ultra", "ultrablack", "fat" }`</li><li>            `{ "extrablack", "obese", "nord" }`</li><li>  a table specifying zero or more traits for the font as defined in the [hs.styledtext.fontTraits](#fontTraits) table. A field with the key `_numeric` is also set which specified the numeric value corresponding to the traits for easy use with the [hs.styledtext.convertFont](#convertFont) function.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/styledtext.lua line 196](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/styledtext.lua#L196) |
 
 ---
@@ -317,8 +317,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Loads a font from a file at the specified path.                                                                     |
 | **Parameters**                              | <ul><li>`path` - the path and filename of the font file to attempt to load</li></ul> |
 | **Returns**                                 | <ul><li>If the font can be registered returns `true`, otherwise `false` and an error message as string.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 1283](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L1283) |
 
 ---
@@ -333,8 +333,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Checks to see if a font is valid.                                                                     |
 | **Parameters**                              | <ul><li>font - a string containing the name of the font you want to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if valid, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 424](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L424) |
 
 ---
@@ -352,7 +352,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>string     - The string containing the text with ANSI SGR sequences to be converted.</li><li>attributes - an optional table containing attribute key-value pairs to apply to the entire `hs.styledtext` object to be returned.</li></ul> |
 | **Returns**                                 | <ul><li>an `hs.styledtext` object</li></ul>          |
 | **Notes**                                   | <ul><li>Because a font is required for the SGR sequences indicating Bold and Italic, the base font is determined using the following logic:</li><li>* if no `attributes` table is provided, the font is assumed to be the default for `hs.drawing` as returned by the `hs.drawing.defaultTextStyle` function</li><li>* if an `attributes` table is provided and it defines a `font` attribute, this font is used.</li><li>* if an `attributes` table is provided, but it does not provide a `font` attribute, the NSAttributedString default of Helvetica at 12 points is used.</li><li>As the most common use of this constructor is likely to be from the output of a terminal shell command, you will most likely want to specify a fixed-pitch (monospace) font.  You can get a list of installed fixed-pitch fonts by typing `hs.styledtext.fontNamesWithTraits(hs.styledtext.fontTraits.fixedPitchFont)` into the Hammerspoon console.</li><li></li><li>See the module description documentation (`help.hs.styledtext`) for a description of the attributes table format which can be provided for the optional second argument.</li><li></li><li>This function was modeled after the ANSIEscapeHelper.m file at https://github.com/balthamos/geektool-3 in the /NerdTool/classes directory.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/styledtext.lua line 287](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/styledtext.lua#L287) |
 
 ---
@@ -378,7 +378,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
   "open"       - OASIS Open Document text document format.</li></ul> |
 | **Returns**                                 | <ul><li>the styledText object</li></ul>          |
 | **Notes**                                   | <ul><li>See also `hs.styledtext.getStyledTextFromFile`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 96](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L96) |
 
 ---
@@ -404,7 +404,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
   "open"       - OASIS Open Document text document format.</li></ul> |
 | **Returns**                                 | <ul><li>the styledText object</li></ul>          |
 | **Notes**                                   | <ul><li>See also `hs.styledtext.getStyledTextFromData`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 174](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L174) |
 
 ---
@@ -420,7 +420,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>string     - a string, table, or `hs.styledtext` object to create a new `hs.styledtext` object from.</li><li>attributes - an optional table containing attribute key-value pairs to apply to the entire `hs.styledtext` object to be returned.</li></ul> |
 | **Returns**                                 | <ul><li>an `hs.styledtext` object</li></ul>          |
 | **Notes**                                   | <ul><li>See `hs.styledtext:asTable` for a description of the table representation of an `hs.styledtext` object</li><li>See the module description documentation (`help.hs.styledtext`) for a description of the attributes table format which can be provided for the optional second argument.</li><li></li><li>Passing an `hs.styledtext` object as the first parameter without specifying an `attributes` table is the equivalent of invoking `hs.styledtext:copy`.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L62) |
 
 ---
@@ -438,7 +438,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>starts - an optional index position within the text of the `hs.styledtext` object indicating the beginning of the substring to return the table for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object's text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the `hs.styledtext` object indicating the end of the substring to return the table for.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object's text.</li></ul> |
 | **Returns**                                 | <ul><li>a table representing the `hs.styledtext` object.  The table will be an array with the following structure:</li><li>  index 1             - the text of the `hs.styledtext` object as a Lua String.</li><li>  index 2+            - a table with the following keys:</li><li>    starts            - the index position in the original styled text object where this list of attributes is first applied</li><li>    ends              - the index position in the original styled text object where the application of this list of attributes ends</li><li>    attributes        - a table of attribute key-value pairs that apply to the string between the positions of `starts` and `ends`</li><li>    unsupportedFields - this field only exists, and will be set to `true` when an attribute that was included in the attributes table that this module cannot modify.  A best effort will be made to render the attributes assigned value in the attributes table, but modifying the attribute and re-applying it with `hs.styledtext:setStyle` will be silently ignored.</li></ul>          |
 | **Notes**                                   | <ul><li>`starts` and `ends` follow the conventions of `i` and `j` for Lua's `string.sub` function.</li><li>The attribute which contains an attachment (image) for a converted RTFD or other document is known to set the `unsupportedFields` flag.</li><li></li><li>The indexes in the table returned are relative to their position in the original `hs.styledtext` object.  If you want the table version of a substring which does not start at index position 1 that can be safely fed as a "proper" table version of an `hs.styledtext` object into another function or constructor, the proper way to generate it is `destination = object:sub(i,j):asTable().</li><li></li><li>See the module description documentation (`help.hs.styledtext`) for a description of the attributes table format</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 741](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L741) |
 
 ---
@@ -454,7 +454,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>starts - an optional index position within the text of the `hs.styledtext` object indicating the beginning of the substring to return numerical values for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object's text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the `hs.styledtext` object indicating the end of the substring to return numerical values for.  Defaults to the value of `starts`.  If this number is negative, it is counted backwards from the end of the object's text.</li></ul> |
 | **Returns**                                 | <ul><li>a list of integers representing the internal numeric representation of the characters in the `hs.styledtext` object specified by the given indices.</li></ul>          |
 | **Notes**                                   | <ul><li>`starts` and `ends` follow the conventions of `i` and `j` for Lua's `string.sub` function.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/styledtext.lua line 84](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/styledtext.lua#L84) |
 
 ---
@@ -478,8 +478,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
   "openXML"    - ECMA Office Open XML text document format.
   "open"       - OASIS Open Document text document format.</li></ul> |
 | **Returns**                                 | <ul><li>a string containing the converted data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 1216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L1216) |
 
 ---
@@ -494,8 +494,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Create a copy of the `hs.styledtext` object.                                                                     |
 | **Parameters**                              | <ul><li>styledText - an `hs.styledtext` object</li></ul> |
 | **Returns**                                 | <ul><li>a copy of the styledText object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 703](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L703) |
 
 ---
@@ -511,7 +511,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>pattern  - a string containing the pattern to locate.  See the Lua manual, section 6.4.1 (`help.lua._man._6_4_1`) for more details.</li><li>init     - an optional integer specifying the location within the text to start the pattern search</li><li>plain    - an optional boolean specifying whether or not to treat the pattern as plain text (i.e. an exact match).  Defaults to false.  If you wish to specify this argument, you must also specify init.</li></ul> |
 | **Returns**                                 | <ul><li>if a match is found, `start` and `end` will be the indices where the pattern was first located.  If captures were specified in the pattern, they will also be returned as additional arguments after `start` and `end`.  If the pattern was not found in the text, then this method returns nil.</li></ul>          |
 | **Notes**                                   | <ul><li>Any captures returned are returned as Lua Strings, not as `hs.styledtext` objects.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/styledtext.lua line 99](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/styledtext.lua#L99) |
 
 ---
@@ -527,7 +527,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>starts - an optional index position within the text of the `hs.styledtext` object indicating the beginning of the substring to return the string for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object's text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the `hs.styledtext` object indicating the end of the substring to return the string for.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object's text.</li></ul> |
 | **Returns**                                 | <ul><li>a string containing the text of the `hs.styledtext` object specified</li></ul>          |
 | **Notes**                                   | <ul><li>`starts` and `ends` follow the conventions of `i` and `j` for Lua's `string.sub` function.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 893](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L893) |
 
 ---
@@ -543,7 +543,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>pattern  - a string containing the pattern to locate.  See the Lua manual, section 6.4.1 (`help.lua._man._6_4_1`) for more details.</li></ul> |
 | **Returns**                                 | <ul><li>an iterator function which will return the captures (or the entire pattern) of the next match of the specified pattern in the text of the `hs.styledtext` object each time it is called.</li></ul>          |
 | **Notes**                                   | <ul><li>Any captures (or the entire pattern) returned by the iterator are returned as Lua Strings, not as `hs.styledtext` objects.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/styledtext.lua line 130](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/styledtext.lua#L130) |
 
 ---
@@ -559,7 +559,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>styledText - an `hs.styledtext` object</li></ul> |
 | **Returns**                                 | <ul><li>a boolean value indicating whether or not the styled text objects are identical, both in text content and attributes specified.</li></ul>          |
 | **Notes**                                   | <ul><li>comparing two `hs.styledtext` objects with the `==` operator only compares whether or not the string values are identical.  This method also compares their attributes.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 720](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L720) |
 
 ---
@@ -574,8 +574,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Returns the length of the text of the `hs.styledtext` object.  Mimics the Lua `string.len` function.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an integer which is the length of the text of the `hs.styledtext` object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 2285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L2285) |
 
 ---
@@ -590,8 +590,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Returns a copy of the `hs.styledtext` object with all alpha characters converted to lower case.  Mimics the Lua `string.lower` function.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a copy of the `hs.styledtext` object with all alpha characters converted to lower case</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 1335](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L1335) |
 
 ---
@@ -607,7 +607,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>pattern  - a string containing the pattern to locate.  See the Lua manual, section 6.4.1 (`help.lua._man._6_4_1`) for more details.</li><li>init     - an optional integer specifying the location within the text to start the pattern search</li></ul> |
 | **Returns**                                 | <ul><li>if a match is found, the captures in the specified pattern (or the complete pattern, if no captures are specified).  If the pattern was not found in the text, then this method returns nil.</li></ul>          |
 | **Notes**                                   | <ul><li>Any captures (or the entire pattern) returned are returned as Lua Strings, not as `hs.styledtext` objects.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/styledtext.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/styledtext.lua#L115) |
 
 ---
@@ -623,7 +623,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>attributes - an array of attribute labels to remove (set to `nil`) from the `hs.styledtext` object.</li><li>starts     - an optional index position within the text of the `hs.styledtext` object indicating the beginning of the substring to remove attributes for.  Defaults to 1, the beginning of the object's text.  If this number is negative, it is counted backwards from the end of the object's text (i.e. -1 would be the last character position).</li><li>ends       - an optional index position within the text of the `hs.styledtext` object indicating the end of the substring to remove attributes for.  Defaults to the length of the object's text.  If this number is negative, it is counted backwards from the end of the object's text.</li></ul> |
 | **Returns**                                 | <ul><li>a copy of the `hs.styledtext` object with the attributes specified removed from the given range of the original object.</li></ul>          |
 | **Notes**                                   | <ul><li>`starts` and `ends` follow the conventions of `i` and `j` for Lua's `string.sub` function.</li><li></li><li>See the module description documentation (`help.hs.styledtext`) for a list of officially recognized attribute label names.</li><li>The officially recognized attribute labels were chosen for brevity or for consistency with conventions used in Hammerspoon's other modules.  If you know the Objective-C name for an attribute, you can list it instead of an officially recognized label, allowing the removal of attributes which this module cannot manipulate in other ways.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 1018](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L1018) |
 
 ---
@@ -638,8 +638,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Returns an `hs.styledtext` object which contains `n` repetitions of the `hs.styledtext` object, optionally with `separator` between each repetition.  Mimics the Lua `string.rep` function.                                                                     |
 | **Parameters**                              | <ul><li>n         - the number of times to repeat the `hs.styledtext` object.</li><li>separator - an optional string or `hs.styledtext` object to insert between repetitions.</li></ul> |
 | **Returns**                                 | <ul><li>an `hs.styledtext` object which contains `n` repetitions of the object, including `separator` between repetitions, if it is specified.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/styledtext.lua line 145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/styledtext.lua#L145) |
 
 ---
@@ -655,7 +655,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>string     - a string, table, or `hs.styledtext` object to insert or replace the substring specified.</li><li>starts     - an optional index position within the text of the `hs.styledtext` object indicating the beginning of the destination for the specified string.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object's text (i.e. -1 would be the last character position).</li><li>ends       - an optional index position within the text of the `hs.styledtext` object indicating the end of destination for the specified string.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object's text.  If this number is 0, then the substring is inserted at the index specified by `starts` rather than replacing it.</li><li>clear      - an optional boolean indicating whether or not the attributes of the new string should be included (true) or whether the new substring should inherit the attributes of the first character replaced (false).  Defaults to false if `string` is a Lua String or number; otherwise defaults to true.</li></ul> |
 | **Returns**                                 | <ul><li>a copy of the `hs.styledtext` object with the specified substring replacement to the original object, or nil if an error occurs</li></ul>          |
 | **Notes**                                   | <ul><li>`starts` and `ends` follow the conventions of `i` and `j` for Lua's `string.sub` function except that `starts` must refer to an index preceding or equal to `ends`, even after negative and out-of-bounds indices are adjusted for.</li><li></li><li>See the module description documentation (`help.hs.styledtext`) for a description of the attributes table format</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 1133](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L1133) |
 
 ---
@@ -671,7 +671,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>attributes - a table of attribute key-value pairs to apply to the object between the positions of `starts` and `ends`</li><li>starts     - an optional index position within the text of the `hs.styledtext` object indicating the beginning of the substring to set attributes for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object's text (i.e. -1 would be the last character position).</li><li>ends       - an optional index position within the text of the `hs.styledtext` object indicating the end of the substring to set attributes for.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object's text.</li><li>clear      - an optional boolean indicating whether or not the attributes specified should completely replace the existing attributes (true) or be added to/modify them (false).  Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>a copy of the `hs.styledtext` object with the attributes specified applied to the given range of the original object.</li></ul>          |
 | **Notes**                                   | <ul><li>`starts` and `ends` follow the conventions of `i` and `j` for Lua's `string.sub` function.</li><li></li><li>See the module description documentation (`help.hs.styledtext`) for a description of the attributes table format</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 948](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L948) |
 
 ---
@@ -687,7 +687,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Parameters**                              | <ul><li>starts - the index position within the text of the `hs.styledtext` object indicating the beginning of the substring to return.  If this number is negative, it is counted backwards from the end of the object's text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the `hs.styledtext` object indicating the end of the substring to return.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object's text.</li></ul> |
 | **Returns**                                 | <ul><li>an `hs.styledtext` object containing the specified substring.</li></ul>          |
 | **Notes**                                   | <ul><li>`starts` and `ends` follow the conventions of `i` and `j` for Lua's `string.sub` function.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 1359](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L1359) |
 
 ---
@@ -702,8 +702,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
 | **Description**                             | Returns a copy of the `hs.styledtext` object with all alpha characters converted to upper case.  Mimics the Lua `string.upper` function.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a copy of the `hs.styledtext` object with all alpha characters converted to upper case</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/styledtext/libstyledtext.m line 1311](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/styledtext/libstyledtext.m#L1311) |
 
 ---

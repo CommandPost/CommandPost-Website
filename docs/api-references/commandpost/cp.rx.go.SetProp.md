@@ -36,7 +36,7 @@ the value.
 | **Parameters**                              | <ul><li>theProp - The `cp.prop` which will be updated.</li></ul> |
 | **Returns**                                 | <ul><li>The `SetProp` `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>It can then optionally execute some other statements and finally, reset the property to its original value.</li><li></li><li>Example:</li><li></li><li>```lua</li><li>local myProp = prop.VALUE("foo")</li><li>SetProp(myProp):To("bar"):Then(</li><li>    function() ... end</li><li>):ThenReset()</li><li>```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L24) |
 
 ---
@@ -54,7 +54,7 @@ the value.
 | **Parameters**                              | <ul><li>value - The value or "callable" to update the prop to.</li></ul> |
 | **Returns**                                 | <ul><li>The `SetProp.To` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>SetProp(foo):To("bar") -- will always set to "bar"</li><li>SetProp(modDate):To(os.time) -- will set to the current value returned by `os.time()` every time it's executed.</li><li>```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L103) |
 
 ---

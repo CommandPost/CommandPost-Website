@@ -34,8 +34,8 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Description**                             | Checks the state of the caps lock via HID                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hid/hid.lua line 16](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L16) |
 
 ---
@@ -50,8 +50,8 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Description**                             | Assigns capslock to the desired state                                                                     |
 | **Parameters**                              | <ul><li>state - A boolean indicating desired state</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hid/hid.lua line 42](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L42) |
 
 ---
@@ -66,8 +66,8 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Description**                             | Toggles the state of caps lock via HID                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hid/hid.lua line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L29) |
 
 ---

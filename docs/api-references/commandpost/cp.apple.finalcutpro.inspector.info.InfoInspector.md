@@ -36,7 +36,7 @@ Video Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoInspector.metadataViews -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Metadata Views                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L29) |
 
 ---
@@ -53,8 +53,8 @@ Video Inspector Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L46) |
 
 ---
@@ -71,8 +71,8 @@ Video Inspector Module.
 | **Description**                             | Creates a new InfoInspector object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A InfoInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L61) |
 
 ---
@@ -87,7 +87,7 @@ Video Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoInspector.metadataView <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the name of the current metadata view.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L126) |
 
 ---
@@ -100,7 +100,7 @@ Video Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoInspector.metadataViewButton <cp.io.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Info Inspector Metadata View Button.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L152) |
 
 ---
@@ -117,8 +117,8 @@ Video Inspector Module.
 | **Description**                             | Returns the `hs.axuielement` object for the Properties UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.axuielement` object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L109) |
 
 ---

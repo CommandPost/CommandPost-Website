@@ -42,7 +42,7 @@ if only the trial version of FCPX is installed and use that instead.
 | **Signature**                               | `cp.apple.finalcutpro.application <cp.prop: hs.application; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the running `hs.application` for Final Cut Pro, or `nil` if it's not running.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L256) |
 
 ---

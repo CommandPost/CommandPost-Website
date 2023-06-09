@@ -38,7 +38,7 @@ Accessibility Plugin.
 | **Signature**                               | `plugins.core.accessibility.enabled <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Is `true` if Accessibility permissions have been enabled for CommandPost.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L27) |
 
 ---
@@ -53,7 +53,7 @@ Accessibility Plugin.
 | **Signature**                               | `plugins.core.accessibility.shouldWeTryCloseSystemPreferences -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Should we try and close system preferences?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L17) |
 
 ---
@@ -66,7 +66,7 @@ Accessibility Plugin.
 | **Signature**                               | `plugins.core.accessibility.systemPreferencesAlreadyOpen -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Was System Preferences already open?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L22) |
 
 ---
@@ -83,8 +83,8 @@ Accessibility Plugin.
 | **Description**                             | Called when the setup panel for accessibility was shown and is ready to complete.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L54) |
 
 ---
@@ -99,8 +99,8 @@ Accessibility Plugin.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>setup - Dependancies setup</li></ul> |
 | **Returns**                                 | <ul><li>The module as a table</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L85) |
 
 ---
@@ -115,8 +115,8 @@ Accessibility Plugin.
 | **Description**                             | Called when the Setup Panel should be shown to prompt the user about enabling Accessbility.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L70) |
 
 ---

@@ -35,8 +35,8 @@ Primary Window Module.
 | **Description**                             | Checks to see if a window matches the PrimaryWindow requirements                                                                     |
 | **Parameters**                              | <ul><li>w - The window to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matched otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L23) |
 
 ---
@@ -53,8 +53,8 @@ Primary Window Module.
 | **Description**                             | Creates a new PrimaryWindow.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>PrimaryWindow</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L40) |
 
 ---
@@ -70,7 +70,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the Primary Window.                                                                     |
 | **Returns**                                 | <ul><li>The `Statement`, which resolves as either `true` or sends an error.</li></ul>          |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L92) |
 
 ---
@@ -83,7 +83,7 @@ Primary Window Module.
 | **Signature**                               | `cp.blackmagic.resolve.main.PrimaryWindow.resolve -> cp.blackmagic.resolve`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main `Resolve` application root.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L51) |
 
 ---
@@ -100,8 +100,8 @@ Primary Window Module.
 | **Description**                             | Shows the Primary Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `PrimaryWindow` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L75) |
 
 ---

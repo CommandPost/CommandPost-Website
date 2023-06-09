@@ -43,8 +43,8 @@ end)
 | **Description**                             | Allows another set of `resolvables` to be processed after a `Then` has resolved.                                                                     |
 | **Parameters**                              | <ul><li>...      - The list of `resolvable` values to process.</li></ul> |
 | **Returns**                                 | <ul><li>Another [Do.Then](cp.rx.go.Do.Then.md) instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/Do.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Do.lua#L96) |
 
 ---

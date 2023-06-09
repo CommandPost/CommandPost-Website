@@ -28,8 +28,8 @@ Twenty Four Button Panel for the Final Cut Pro HUD.
 | **Description**                             | Update the Buttons Panel HTML content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/twentyfourbuttons/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/twentyfourbuttons/init.lua#L34) |
 
 ---
@@ -44,7 +44,7 @@ Twenty Four Button Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.twentyfourbuttons.buttons <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of HUD button values.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/twentyfourbuttons/init.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/twentyfourbuttons/init.lua#L29) |
 
 ---

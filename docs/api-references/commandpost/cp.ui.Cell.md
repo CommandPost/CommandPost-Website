@@ -53,8 +53,8 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Checks if the `element` is an `AXCell`.                                                                     |
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L30) |
 
 ---
@@ -70,7 +70,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Parameters**                              | <ul><li>... - One or more arguments to pass to the constructor.</li></ul> |
 | **Returns**                                 | <ul><li>A [Cell.Builder](cp.ui.Cell.Builder.md)</li></ul>          |
 | **Notes**                                   | <ul><li>For example, if a cell contains a [Button](cp.ui.Button.md), you can use `cp.ui.Cell:with(Button)`, and it will return a `Cell`</li><li>   `Builder` that accepts the `parent` and `uiFinder` parameters, and whose contents is expected to be a `Button`.</li><li>   That `Button` instance can be accessed via the `children[1]` value.</li><li>   ```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L41) |
 
 ---
@@ -87,8 +87,8 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Creates a new `Cell` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent `Element`.</li><li>uiFinder - A `cp.prop` or `axuielement` that will be used to find this `Cell`'s `axuielement`.</li><li>... - The list of child `Element` builders to initialize.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Cell` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L57) |
 
 ---
@@ -103,7 +103,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.Cell.children <table of cp.ui.Element; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Element`s which are children of this `Cell`, if the `childInits` were provided to the constructor.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L101) |
 
 ---
@@ -116,7 +116,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.Cell.childrenUI <cp.prop: table of axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `axuielement`s which are children of this `Cell`.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L94) |
 
 ---
@@ -129,7 +129,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.Cell.columnIndexRange <cp.prop: table; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a table of `{len,loc}`, which indicates if the cell covers multiple columns.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L73) |
 
 ---
@@ -142,7 +142,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.Cell.rowIndexRange <cp.prop: table; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a table of `{len,loc}`, which indicates if the cell covers multiple rows.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L80) |
 
 ---
@@ -155,7 +155,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.Cell.selected <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the cell is currently selected.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L87) |
 
 ---
@@ -168,7 +168,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.Cell.value <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The cell value, if it is a string.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L115) |
 
 ---
@@ -185,8 +185,8 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Checks if the cell's text value equals `value`.                                                                     |
 | **Parameters**                              | <ul><li>`value`	- The text value to compare.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the cell text value equals the provided `value`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L122) |
 
 ---

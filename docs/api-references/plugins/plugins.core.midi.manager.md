@@ -54,7 +54,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.defaultLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default MIDI Layout                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L67) |
 
 ---
@@ -67,7 +67,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.defaultLoupedeckLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck Layout                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L72) |
 
 ---
@@ -80,7 +80,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.defaultLoupedeckPlusLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck+ Layout                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L77) |
 
 ---
@@ -93,7 +93,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.lastActiveBundleID -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last Active Bundle ID. Used for AudioSwift workaround.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L87) |
 
 ---
@@ -106,7 +106,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.learningMode -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Whether or not the MIDI Manager is in learning mode.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L82) |
 
 ---
@@ -119,7 +119,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.maxItems -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of MIDI items per bank.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L32) |
 
 ---
@@ -136,8 +136,8 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a table of Physical MIDI Device Names.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of Physical MIDI Device Names.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 751](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L751) |
 
 ---
@@ -152,8 +152,8 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a MIDI Device.                                                                     |
 | **Parameters**                              | <ul><li>deviceName - The device name.</li><li>virtual - A boolean that defines whether or not the device is virtual.</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.midi` object or nil if no MIDI device by that name exists.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 777](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L777) |
 
 ---
@@ -168,8 +168,8 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a MIDI item from Preferences.                                                                     |
 | **Parameters**                              | <ul><li>item - The item you want to get.</li><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>A table otherwise `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 506](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L506) |
 
 ---
@@ -184,8 +184,8 @@ MIDI Manager Plugin.
 | **Description**                             | Starts the MIDI Plugin                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 794](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L794) |
 
 ---
@@ -200,8 +200,8 @@ MIDI Manager Plugin.
 | **Description**                             | Stops the MIDI Plugin                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 879](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L879) |
 
 ---
@@ -216,8 +216,8 @@ MIDI Manager Plugin.
 | **Description**                             | Updates the MIDI Watchers.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 898](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L898) |
 
 ---
@@ -232,8 +232,8 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a table of Virtual MIDI Source Names.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of Virtual MIDI Source Names.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 764](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L764) |
 
 ---
@@ -248,7 +248,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.activeBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L42) |
 
 ---
@@ -261,7 +261,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.activeLoupedeckBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L47) |
 
 ---
@@ -274,7 +274,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.activeLoupedeckPlusBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L52) |
 
 ---
@@ -287,7 +287,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.displayMessageWhenChangingBanks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display message when changing banks?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L37) |
 
 ---
@@ -300,7 +300,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable MIDI Support.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 920](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L920) |
 
 ---
@@ -313,7 +313,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.enabledLoupedeck <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable MIDI Loupedeck Support.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 925](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L925) |
 
 ---
@@ -326,7 +326,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.enabledLoupedeckPlus <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable MIDI Loupedeck+ Support.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 930](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L930) |
 
 ---
@@ -339,7 +339,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.ignoreEverySecondControlDialCommand <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A preference for ignoring double actions when turning the Control Dial                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L62) |
 
 ---
@@ -352,7 +352,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.ignoreEverySecondP1ToP8WheelCommand <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A preference for ignoring double actions when turning a P1 to P8 wheel.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L57) |
 
 ---
@@ -365,7 +365,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.numberOfMidiDevices -> <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Total number of MIDI Devices detected (including both physical and virtual).                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/manager/init.lua line 915](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L915) |
 
 ---

@@ -73,7 +73,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.activeMemory <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Grid Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L148) |
 
 ---
@@ -86,7 +86,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.basicGridEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Grid Enabled?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L113) |
 
 ---
@@ -99,7 +99,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.capslock <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggle Viewer Overlays with Caps Lock.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L188) |
 
 ---
@@ -112,7 +112,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.crossHairAlpha <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Alpha                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L123) |
 
 ---
@@ -125,7 +125,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.crossHairColor <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L118) |
 
 ---
@@ -138,7 +138,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.crossHairEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Cross Hair Enabled?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L98) |
 
 ---
@@ -151,7 +151,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.customCrossHairColor <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Cross Hair Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L183) |
 
 ---
@@ -164,7 +164,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.customGridColor <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Grid Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L138) |
 
 ---
@@ -177,7 +177,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.customGuideColor <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Guide Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 178](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L178) |
 
 ---
@@ -190,7 +190,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.disabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are all the Viewer Overlay's disabled?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L93) |
 
 ---
@@ -203,7 +203,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.draggableGuideEnabled <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Grid Enabled?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L158) |
 
 ---
@@ -216,7 +216,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.enableViewerRightClick <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allow the user to right click on the top of the viewer to access the menu?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L88) |
 
 ---
@@ -229,7 +229,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.gridAlpha <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Alpha                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L133) |
 
 ---
@@ -242,7 +242,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.gridColor <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L128) |
 
 ---
@@ -255,7 +255,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.gridSpacing <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Grid Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L143) |
 
 ---
@@ -268,7 +268,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.guideAlpha <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Guide Alpha                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L173) |
 
 ---
@@ -281,7 +281,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.guideColor <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Guide Color as HTML value                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L168) |
 
 ---
@@ -294,7 +294,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.guidePosition <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Guide Position.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L163) |
 
 ---
@@ -307,7 +307,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.letterboxEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Letterbox Enabled?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L103) |
 
 ---
@@ -320,7 +320,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.letterboxHeight <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Letterbox Height                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L108) |
 
 ---
@@ -333,7 +333,7 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.stillsLayout <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Stills layout.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L153) |
 
 ---
@@ -350,8 +350,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Deletes a memory.                                                                     |
 | **Parameters**                              | <ul><li>id - An identifier in the form of a number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1125](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1125) |
 
 ---
@@ -366,8 +366,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Disable all draggable guides.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1502](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1502) |
 
 ---
@@ -382,8 +382,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Are any draggable guides enabled?                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if at least one draggable guide is enabled otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 596](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L596) |
 
 ---
@@ -398,8 +398,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Enable all draggable guides.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1484](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1484) |
 
 ---
@@ -414,8 +414,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Custom Guide Color.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1403](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1403) |
 
 ---
@@ -430,8 +430,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Enabled.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1520](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1520) |
 
 ---
@@ -446,8 +446,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Alpha.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1373](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1373) |
 
 ---
@@ -462,8 +462,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Color.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1388](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1388) |
 
 ---
@@ -478,8 +478,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Position.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1358](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1358) |
 
 ---
@@ -494,8 +494,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Gets an image from memory.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the memory you want to retrieve.</li></ul> |
 | **Returns**                                 | <ul><li>The memory as a `hs.image` or `nil` if the memory could not be retrieved.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1209](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1209) |
 
 ---
@@ -510,8 +510,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Gets the stills folder path.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The stills folder path as a string or `nil` if an error occurs.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1100) |
 
 ---
@@ -526,8 +526,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Hides the Viewer Grid.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 580](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L580) |
 
 ---
@@ -542,8 +542,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Import a file to memory.                                                                     |
 | **Parameters**                              | <ul><li>id - An identifier in the form of a number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1179](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1179) |
 
 ---
@@ -558,8 +558,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Reset a specific Draggable Guide.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1556](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1556) |
 
 ---
@@ -574,8 +574,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Resets all overlays to their default values.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1594](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1594) |
 
 ---
@@ -590,8 +590,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Saves a still frame to file.                                                                     |
 | **Parameters**                              | <ul><li>id - An identifier in the form of a number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1149](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1149) |
 
 ---
@@ -606,8 +606,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Pops up a Color Dialog box allowing the user to select a custom colour for cross hairs.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1319](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1319) |
 
 ---
@@ -622,8 +622,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Pops up a Color Dialog box allowing the user to select a custom colour for grid lines.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1296](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1296) |
 
 ---
@@ -638,8 +638,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Pops up a Color Dialog box allowing the user to select a custom colour for guide lines.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1454](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1454) |
 
 ---
@@ -654,8 +654,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Grid Alpha.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1268](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1268) |
 
 ---
@@ -670,8 +670,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Grid Color.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1282](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1282) |
 
 ---
@@ -686,8 +686,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Grid Spacing.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1254](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1254) |
 
 ---
@@ -702,8 +702,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Guide Alpha.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1418](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1418) |
 
 ---
@@ -718,8 +718,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Guide Color.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1436](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1436) |
 
 ---
@@ -734,8 +734,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Show's the Viewer Grid.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L200) |
 
 ---
@@ -750,8 +750,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Toggle Guide Enabled.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1535](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1535) |
 
 ---
@@ -766,8 +766,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Updates the Viewer Grid.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 961](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L961) |
 
 ---
@@ -782,8 +782,8 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | View a memory.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the memory you want to retrieve.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/viewer/overlays.lua line 1232](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/viewer/overlays.lua#L1232) |
 
 ---

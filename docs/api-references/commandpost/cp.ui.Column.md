@@ -33,8 +33,8 @@ Represents a Column in a Table.
 | **Description**                             | Checks if the `axuielement` is a `Column`.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is a Column.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L10) |
 
 ---
@@ -49,7 +49,7 @@ Represents a Column in a Table.
 | **Signature**                               | `cp.ui.Column.index <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this column in the overall container, with `0` being the first item.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L23) |
 
 ---
@@ -62,7 +62,7 @@ Represents a Column in a Table.
 | **Signature**                               | `cp.ui.Column.selected <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the column is currently selected. May be set.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L30) |
 
 ---
@@ -79,8 +79,8 @@ Represents a Column in a Table.
 | **Description**                             | Returns a `table` of [Row](cp.ui.OldRow.md)s contained in the Column.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L37) |
 
 ---
@@ -95,8 +95,8 @@ Represents a Column in a Table.
 | **Description**                             | Returns a `table` of [Row](cp.ui.OldRow.md)s which are currently visible on screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L54) |
 
 ---

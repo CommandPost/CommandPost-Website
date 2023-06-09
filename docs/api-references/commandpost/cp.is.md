@@ -60,8 +60,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a blank string value - either `nil` or `tostring(value) == ""`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L222) |
 
 ---
@@ -76,8 +76,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `function`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L93) |
 
 ---
@@ -92,8 +92,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a callable - either a `function` or a `table` with `__call` in it's metatable hierarchy.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 209](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L209) |
 
 ---
@@ -108,8 +108,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `falsey` value. A value is considered to be `falsey` if it is `nil` or `false`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L171) |
 
 ---
@@ -124,8 +124,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `function`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L67) |
 
 ---
@@ -140,8 +140,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is an instance of the provided class `table`. It is considered an instance if the `class` is either the value itself, or is the `__index` or `__class` field of the `metatable`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li><li>class     - the class table to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L235) |
 
 ---
@@ -156,8 +156,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `list`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L145) |
 
 ---
@@ -172,8 +172,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is `nil`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L28) |
 
 ---
@@ -188,8 +188,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `number`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L80) |
 
 ---
@@ -204,8 +204,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `object`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L132) |
 
 ---
@@ -220,8 +220,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is not `nil`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L41) |
 
 ---
@@ -236,8 +236,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a string.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L54) |
 
 ---
@@ -252,8 +252,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `table`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L106) |
 
 ---
@@ -268,8 +268,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `truthy` value. A value is considered to be truthy if it is not `nil` nor `false`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L158) |
 
 ---
@@ -284,8 +284,8 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `userdata` object.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//is.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//is.lua#L119) |
 
 ---

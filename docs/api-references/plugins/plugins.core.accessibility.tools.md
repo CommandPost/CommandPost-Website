@@ -26,7 +26,7 @@ Actions for control user interface elements via the Accessibility API.
 | **Signature**                               | `plugins.core.accessibility.tools.currentlyDragging -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we currently dragging something?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/tools.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L24) |
 
 ---
@@ -43,8 +43,8 @@ Actions for control user interface elements via the Accessibility API.
 | **Description**                             | Change the value of a Accessibility Element under the mouse.                                                                     |
 | **Parameters**                              | <ul><li>increase - A boolean to set the direction.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/accessibility/tools.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L37) |
 
 ---

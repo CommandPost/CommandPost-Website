@@ -34,8 +34,8 @@ Search Console
 | **Description**                             | Registers an application specific Search Console.                                                                     |
 | **Parameters**                              | <ul><li>bundleID - The bundle ID of the application</li><li>activatorFn - A function that returns an activator.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/console/console.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L23) |
 
 ---
@@ -50,8 +50,8 @@ Search Console
 | **Description**                             | Shows the Search Console.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/console/console.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L37) |
 
 ---

@@ -35,7 +35,7 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.defaultIconPath -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L32) |
 
 ---
@@ -48,7 +48,7 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.maxItems -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of Touch Bar items per group.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L52) |
 
 ---
@@ -61,7 +61,7 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.supportedExtensions -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Touch Bar Icons.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L27) |
 
 ---
@@ -78,8 +78,8 @@ Touch Bar Preferences Panel
 | **Description**                             | Gets the Group Editor                                                                     |
 | **Parameters**                              | <ul><li>groupId - Group ID</li></ul> |
 | **Returns**                                 | <ul><li>Group Editor</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 376](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L376) |
 
 ---
@@ -94,8 +94,8 @@ Touch Bar Preferences Panel
 | **Description**                             | Initialise the Module.                                                                     |
 | **Parameters**                              | <ul><li>deps - Dependancies Table</li><li>env - Environment Table</li></ul> |
 | **Returns**                                 | <ul><li>The Module</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 566](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L566) |
 
 ---
@@ -110,8 +110,8 @@ Touch Bar Preferences Panel
 | **Description**                             | Sets the Group Editor                                                                     |
 | **Parameters**                              | <ul><li>groupId - Group ID</li><li>editorFn - Editor Function</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L359) |
 
 ---
@@ -126,7 +126,7 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Touch Bar Support.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L37) |
 
 ---
@@ -139,7 +139,7 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.lastGroup <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L42) |
 
 ---
@@ -152,7 +152,7 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.scrollBarPosition <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L47) |
 
 ---

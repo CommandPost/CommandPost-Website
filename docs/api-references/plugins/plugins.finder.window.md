@@ -35,7 +35,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Signature**                               | `plugins.finder.window.gridparts`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | An integer specifying how many gridparts the screen should be divided into. Defaults to 30.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L72) |
 
 ---
@@ -52,8 +52,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Center the cursor on the focused window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L42) |
 
 ---
@@ -68,8 +68,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Shows a modal keyboard driven interface for interactive window resizing.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L16) |
 
 ---
@@ -84,8 +84,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Displays a keyboard hint for switching focus to each window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L29) |
 
 ---
@@ -100,8 +100,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Move and resize the focused window.                                                                     |
 | **Parameters**                              | <ul><li>option - A string specifying the option, valid strings are: `halfleft`, `halfright`, `halfup`, `halfdown`, `cornerNW`, `cornerSW`, `cornerNE`, `cornerSE`, `center`, `fullscreen`, `expand`, `shrink`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L182) |
 
 ---
@@ -116,8 +116,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Move the focused window between all of the screens in the `direction`.                                                                     |
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`, `next`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L237) |
 
 ---
@@ -132,8 +132,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Move the focused window in the `direction` by one step. The step scale equals to the width/height of one gridpart.                                                                     |
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L77) |
 
 ---
@@ -148,8 +148,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Resize the focused window in the `direction` by on step.                                                                     |
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L128) |
 
 ---
@@ -164,8 +164,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Undo the last window manipulation. Only those "moveAndResize" manipulations can be undone.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finder/window/window.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L106) |
 
 ---

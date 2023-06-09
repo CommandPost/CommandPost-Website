@@ -26,8 +26,8 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 | **Description**                             | Creates the new two-thirds title.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` that will create the new title.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/editnewtitle.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/editnewtitle.lua#L66) |
 
 ---
@@ -42,8 +42,8 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 | **Description**                             | Creates the new default title.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` that will create the new title.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/editnewtitle.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/editnewtitle.lua#L51) |
 
 ---

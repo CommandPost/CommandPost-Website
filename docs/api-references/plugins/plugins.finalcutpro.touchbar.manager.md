@@ -23,7 +23,7 @@ Final Cut Pro Touch Bar Manager.
 | **Signature**                               | `plugins.finalcutpro.touchbar.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/touchbar/manager/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/manager/init.lua#L26) |
 
 ---

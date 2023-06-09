@@ -26,8 +26,8 @@ Playback Plugin.
 | **Description**                             | 'Pause' in Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/playback.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/playback.lua#L36) |
 
 ---
@@ -42,8 +42,8 @@ Playback Plugin.
 | **Description**                             | 'Play' in Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/playback.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/playback.lua#L19) |
 
 ---

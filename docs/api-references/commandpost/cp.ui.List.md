@@ -33,8 +33,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Checks if the provided `axuielement` is an `AXList`.                                                                     |
 | **Parameters**                              | <ul><li>element  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an `AXList`, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/List.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L14) |
 
 ---
@@ -51,8 +51,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Creates a new List.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent table. Should have a `isShowing` property.</li><li>uiFinder - The `function` or `cp.prop` that provides the current `hs.axuielement`.</li><li>itemAdaptorFn - Item adapter function</li></ul> |
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/List.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L27) |
 
 ---
@@ -69,8 +69,8 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Returns the children as items, as adapted by the `itemAdaptor` in the constructor                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/List.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L51) |
 
 ---

@@ -93,7 +93,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.frontmostApp <cp.prop: cp.app; read-only; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Returns the most recent 'registered' app that was active, other than CommandPost itself.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L127) |
 
 ---
@@ -110,8 +110,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns a list of all apps that have been requested via [forBundleID](#forBundleID), in no particular order.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A list of `cp.app` instances.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L108) |
 
 ---
@@ -126,8 +126,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns a list of Bundle IDs which have been requested via [forBundleID](#forBundleID).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A list of Bundle IDs.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L91) |
 
 ---
@@ -142,8 +142,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Checks if the provided `thing` is a `cp.app` instance.                                                                     |
 | **Parameters**                              | <ul><li>thing        - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a `cp.app` instance, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L78) |
 
 ---
@@ -160,8 +160,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns the `cp.app` for the specified Bundle ID. If the app has already been created, the same instance of `cp.app` will be returned on subsequent calls.                                                                     |
 | **Parameters**                              | <ul><li>bundleID      - The application bundle ID to find the app for.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.app` for the bundle.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L153) |
 
 ---
@@ -176,7 +176,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.baseLocale <cp.prop: cp.i18n.localeID; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the [localeID](cp.i18n.localeID.md) of the development region. This is the 'Base' locale for I18N.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 603](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L603) |
 
 ---
@@ -189,7 +189,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.baseResourcesPath <cp.prop: string; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [prop](cp.prop.md) for the file path to the `Content/Resources/Base.lproj` folder                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 740](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L740) |
 
 ---
@@ -202,7 +202,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.currentLocale <cp.prop: cp.i18n.localeID; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets and sets the current locale for the application.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 647](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L647) |
 
 ---
@@ -215,7 +215,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.description -> string`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the short description of the class as "cp.app: <bundleID>"                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1048](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1048) |
 
 ---
@@ -228,7 +228,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.displayName <cp.prop: string; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The application display name as a string.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 586](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L586) |
 
 ---
@@ -241,7 +241,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.focusedWindow <cp.prop: cp.ui.Window; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The currently-focused [Window](cp.ui.Window.md). This may be a subclass of `Window` if                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 452](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L452) |
 
 ---
@@ -254,7 +254,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.focusedWindowUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI containing the currently-focused window for the app.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 462](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L462) |
 
 ---
@@ -267,7 +267,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.frontmost <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the application currently frontmost?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 312](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L312) |
 
 ---
@@ -280,7 +280,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.hsApplication <cp.prop: hs.application; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the running `hs.application` for the application, or `nil` if it's not running.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L245) |
 
 ---
@@ -293,7 +293,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.info <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The info table for the application, if available.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 533](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L533) |
 
 ---
@@ -306,7 +306,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.installed <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the application currently installed.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 596](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L596) |
 
 ---
@@ -319,7 +319,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.isWindowAnimationEnabled <cp.prop: bool; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [prop](cp.prop.md) that determines if window animations (eg. popups, etc.) are enabled for the                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 771](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L771) |
 
 ---
@@ -332,7 +332,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.localeResourcesPath <cp.prop: string; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [prop](cp.prop.md) for the file path to the locale-specific resources                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 751](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L751) |
 
 ---
@@ -345,7 +345,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.mainWindowUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI containing the currently-focused window for the app.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 481](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L481) |
 
 ---
@@ -358,7 +358,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.modalDialogOpen <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if a modal dialog window is currently opon.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 491](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L491) |
 
 ---
@@ -371,7 +371,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.path <cp.prop: string; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Path to the application, or `nil` if not found.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 504](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L504) |
 
 ---
@@ -384,7 +384,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.pid <cp.prop: number; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the PID for the currently-running application, or `nil` if it's not running.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 267](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L267) |
 
 ---
@@ -397,7 +397,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.preferences <cp.app.prefs>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current [preferences](cp.app.prefs.md) for the application.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L238) |
 
 ---
@@ -410,7 +410,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.resourcesPath <cp.prop: string; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [prop](cp.prop.md) for the file path to the `Contents/Resources` folder inside the app.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 730](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L730) |
 
 ---
@@ -423,7 +423,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.running <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the application currently is running.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 277](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L277) |
 
 ---
@@ -436,7 +436,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.showing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the app visible on screen?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 299](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L299) |
 
 ---
@@ -449,7 +449,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.supportedLocales <cp.prop: table of cp.i18n.localeID; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a list of `cp.i18n.localeID` values for locales that are supported by this app.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 614](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L614) |
 
 ---
@@ -462,7 +462,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.UI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the application's `axuielement`, if available.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 287](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L287) |
 
 ---
@@ -501,7 +501,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.windows <cp.prop: table of cp.ui.Window; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a list containing the [Window](cp.ui.Window.md) instances currently available.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 418](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L418) |
 
 ---
@@ -514,7 +514,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Signature**                               | `cp.app.windowsUI <cp.prop: table of hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI containing the list of windows in the app.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 432](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L432) |
 
 ---
@@ -531,8 +531,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Finds the closest match for the specified locale. The returned locale will be in the same language as the provided locale, and as close a match as possible with the region and script.                                                                     |
 | **Parameters**                              | <ul><li>locale    - The local to match</li></ul> |
 | **Returns**                                 | <ul><li>The closest supported locale or `nil` if none are available in the language.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1105) |
 
 ---
@@ -547,8 +547,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns the Bundle ID for the app.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Bundle ID.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L198) |
 
 ---
@@ -563,8 +563,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns a `Statement` which will hide the app if it's currently running.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement`, resolving to `true` if the app is running and was successfully hidden, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1017](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1017) |
 
 ---
@@ -580,7 +580,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Parameters**                              | <ul><li>waitSeconds - (optional) The number of seconds to wait for it to load. Defaults to 30 seconds.</li><li>path - (optional) The alternate path of the app to launch.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` after the app is frontmost.</li></ul>          |
 | **Notes**                                   | <ul><li>By default the `Statement` will time out after 30 seconds, sending an error signal.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 823](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L823) |
 
 ---
@@ -596,7 +596,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Parameters**                              | <ul><li>None.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the app was running and was quit successfully, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>The Statement will time out after 60 seconds by default. This can be changed by calling the `TimeoutAfter` method on the Statement before executing.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 895](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L895) |
 
 ---
@@ -612,7 +612,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Parameters**                              | <ul><li>None.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the app was running and was quit and restarted successfully, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>The Statement will time out after 60 seconds by default. This can be changed by calling the `TimeoutAfter` method on the Statement before executing.</li><li>If you have multiple versions of the same app on your system, this will restart with the same version that was running when the restart was requested.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 918](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L918) |
 
 ---
@@ -627,8 +627,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns a `Statement` which will show the app if it's currently running.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement`, resolving to `true` if the app is running and was successfully shown, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 977](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L977) |
 
 ---
@@ -643,8 +643,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Hides the application, if it's currently running.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.app` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1000](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1000) |
 
 ---
@@ -659,8 +659,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns the application icon as a `hs.image`                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The icon as a `hs.image` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L211) |
 
 ---
@@ -675,8 +675,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Checks if the specified locale is supported. The `locale` can be either a string with the locale code (eg. "en_AU") or a `cp.i18n.localeID`.                                                                     |
 | **Parameters**                              | <ul><li>locale    - The locale code string or `localeID` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is supported, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1083](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1083) |
 
 ---
@@ -691,8 +691,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Generates and emits a single keystroke event pair for the supplied keyboard modifiers and character to the application.                                                                     |
 | **Parameters**                              | <ul><li>modifiers - A table containing the keyboard modifiers to apply ("fn", "ctrl", "alt", "cmd" or "shift")</li><li>character - A string containing a character to be emitted</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 224](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L224) |
 
 ---
@@ -707,8 +707,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Launches the application, or brings it to the front if it was already running.                                                                     |
 | **Parameters**                              | <ul><li>`waitSeconds` - If provided, the number of seconds to wait until the launch completes. If `nil`, it will return immediately.</li><li>`path`        - An optional full path to an application without an extension (i.e `/Applications/Final Cut Pro 10.3.4`). This allows you to load previous versions of the application.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.app` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 786](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L786) |
 
 ---
@@ -723,8 +723,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Returns a `notifier` that is tracking the application UI element. It has already been started.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1035](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1035) |
 
 ---
@@ -739,8 +739,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Asks the application to quit, if it's running. The app may not have actually quit after this function runs, even if `true` is returned. The application may take some time, or may be prompting the user for input, etc.                                                                     |
 | **Parameters**                              | <ul><li>`waitSeconds`    - If povided, the number of seconds to wait until the quit completes. If `nil`, it will return immediately.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.app` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 875](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L875) |
 
 ---
@@ -756,7 +756,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Parameters**                              | <ul><li>windowClass       - The class that will be used to create the window. It should be a subclass of [Window](cp.ui.Window.md)</li><li>options           - (optional) if provided, it will be passed the `hs.asm.axuielement` being wrapped, and should return `true` or `false`.</li></ul> |
 | **Returns**                                 | <ul><li>the same instance of the `cp.app` for further configuration.</li></ul>          |
 | **Notes**                                   | <ul><li>Options:</li><li>   `matches`: a `function` that will receive the AXWindow instance and should return `true` or `false`.</li><li>   `persistent`: if set to `true`, the Window instance will be cached and checked when windows appear and disappear.</li><li>By default, it will use the `matches` function on the class itself to check. An alternate function can be provided by putting it in the `{matches = <function>}` property of the `options` table.</li><li></li><li>By default, Windows instances are assumed to be short-lived, and will not persist beyond the window opening or closing.</li><li>To indicate that it should stick around, add `persistent = true` to the `options` table.</li><li>If the new `AXWindow` matches, this class will be used when requesting the set of windows via the [#windows] method or the [#focusedWindow] or [#mainWindow] props.</li><li>Classes registered later will supersede those registered earlier, so ensure that matchers are specific enough to not recognise more window UIs than they should.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L325) |
 
 ---
@@ -772,7 +772,7 @@ This extension differs from the `hs.application` extension in several ways:
 | **Parameters**                              | <ul><li>value     - The string value to search for.</li></ul> |
 | **Returns**                                 | <ul><li>`hs.task` which is already running, searching for the `value`. Results will be output in the Error Log.</li></ul>          |
 | **Notes**                                   | <ul><li>This may take some time to complete, depending on how many resources the app contains.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1163](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1163) |
 
 ---
@@ -787,8 +787,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Ensure the app is onscreen if it is currently running.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.app` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 955](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L955) |
 
 ---
@@ -803,8 +803,8 @@ This extension differs from the `hs.application` extension in several ways:
 | **Description**                             | Updates the app, triggering any watchers if values have changed.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.app` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//app.lua line 1133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L1133) |
 
 ---

@@ -32,8 +32,8 @@ Final Cut Pro Browser List View Columns
 | **Description**                             | Constructs a new Columns object.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object</li></ul> |
 | **Returns**                                 | <ul><li>The new `Columns` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L22) |
 
 ---
@@ -48,7 +48,7 @@ Final Cut Pro Browser List View Columns
 | **Signature**                               | `cp.apple.finalcutpro.browser.Columns.menu <cp.ui.Menu>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Columns menu object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L81) |
 
 ---
@@ -65,8 +65,8 @@ Final Cut Pro Browser List View Columns
 | **Description**                             | Is the Columns menu popup showing?                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the columns menu popup is showing, otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L68) |
 
 ---
@@ -81,8 +81,8 @@ Final Cut Pro Browser List View Columns
 | **Description**                             | Shows the Browser List View columns menu popup.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L38) |
 
 ---

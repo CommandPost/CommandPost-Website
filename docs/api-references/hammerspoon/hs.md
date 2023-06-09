@@ -167,7 +167,7 @@ Core Hammerspoon functionality
 | **Signature**                               | `hs.configdir`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A string containing Hammerspoon's configuration directory. Typically `~/.hammerspoon/`                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 44](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L44) |
 
 ---
@@ -180,7 +180,7 @@ Core Hammerspoon functionality
 | **Signature**                               | `hs.docstrings_json_file`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A string containing the full path to the `docs.json` file inside Hammerspoon's app bundle. This contains the full Hammerspoon API documentation and can be accessed in the Console using `help("someAPI")`. It can also be loaded and processed by the `hs.doc` extension                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 144](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L144) |
 
 ---
@@ -193,7 +193,7 @@ Core Hammerspoon functionality
 | **Signature**                               | `hs.processInfo`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing read-only information about the Hammerspoon application instance currently running.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 229](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L229) |
 
 ---
@@ -293,7 +293,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>shouldPrompt - an optional boolean value indicating if the dialog box asking if the System Preferences application should be opened should be presented when Accessibility is not currently enabled for Hammerspoon.  Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>True or False indicating whether or not Accessibility is enabled for Hammerspoon.</li></ul>          |
 | **Notes**                                   | <ul><li>Since this check is done automatically when Hammerspoon loads, it is probably of limited use except for skipping things that are known to fail when Accessibility is not enabled.  Evettaps which try to capture keyUp and keyDown events, for example, will fail until Accessibility is enabled and the Hammerspoon application is relaunched.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 275](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L275) |
 
 ---
@@ -309,7 +309,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>state - an optional boolean which will set whether or not external Hammerspoon's AppleScript commands are allowed.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, `true` if Hammerspoon's AppleScript commands are (or has just been) allowed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>AppleScript access is disallowed by default.</li><li>However due to the way AppleScript support works, Hammerspoon will always allow AppleScript commands that are part of the "Standard Suite", such as `name`, `quit`, `version`, etc. However, Hammerspoon will only allow commands from the "Hammerspoon Suite" if `hs.allowAppleScript()` is set to `true`.</li><li>For a full list of AppleScript Commands:</li><li>     - Open `/Applications/Utilities/Script Editor.app`</li><li>     - Click `File > Open Dictionary...`</li><li>     - Select Hammerspoon from the list of Applications</li><li>     - This will now open a Dictionary containing all of the available Hammerspoon AppleScript commands.</li><li>Note that strings within the Lua code you pass from AppleScript can be delimited by `[[` and `]]` rather than normal quotes</li><li>Example:</li><li>   ```lua</li><li>   tell application "Hammerspoon"</li><li>     execute lua code "hs.alert([[Hello from AppleScript]])"</li><li>   end tell```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 675](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L675) |
 
 ---
@@ -324,8 +324,8 @@ Core Hammerspoon functionality
 | **Description**                             | Set or display the "Launch on Login" status for Hammerspoon.                                                                     |
 | **Parameters**                              | <ul><li>state - an optional boolean which will set whether or not Hammerspoon should be launched automatically when you log into your computer.</li></ul> |
 | **Returns**                                 | <ul><li>True if Hammerspoon is currently (or has just been) set to launch on login or False if Hammerspoon is not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 68](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L68) |
 
 ---
@@ -341,7 +341,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>setting - an optional boolean variable indicating if Hammerspoon should (true) or should not (false) check for updates.</li></ul> |
 | **Returns**                                 | <ul><li>The current (or newly set) value indicating whether or not automatic update checks should occur for Hammerspoon.</li></ul>          |
 | **Notes**                                   | <ul><li>If you are running a non-release or locally compiled version of Hammerspoon then the results of this function are unspecified.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 492](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L492) |
 
 ---
@@ -357,7 +357,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>shouldPrompt - an optional boolean value indicating if we should request camera access. Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>`true` or `false` indicating whether or not Camera access is enabled for Hammerspoon.</li></ul>          |
 | **Notes**                                   | <ul><li>Will always return `true` on macOS 10.13 or earlier.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 433](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L433) |
 
 ---
@@ -373,7 +373,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a boolean indicating whether or not the Sparkle framework is available to check for Hammerspoon updates</li></ul>          |
 | **Notes**                                   | <ul><li>The Sparkle framework is included in all regular releases of Hammerspoon but not included if you are running a non-release or locally compiled version of Hammerspoon, so this function can be used as a simple test to determine whether or not you are running a formal release Hammerspoon or not.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 626](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L626) |
 
 ---
@@ -389,7 +389,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>silent - An optional boolean. If true, no UI will be displayed if an update is available. Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If you are running a non-release or locally compiled version of Hammerspoon then the results of this function are unspecified.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 551](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L551) |
 
 ---
@@ -405,7 +405,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>inString - the string to be cleaned up</li></ul> |
 | **Returns**                                 | <ul><li>outString - the cleaned up version of the input string.</li></ul>          |
 | **Notes**                                   | <ul><li>This function is applied automatically to all output which appears in the Hammerspoon console, but not to the output provided by the `hs` command line tool.</li><li>This function does not modify the original string - to actually replace it, assign the result of this function to the original string.</li><li>This function is a more specifically targeted version of the `hs.utf8.fixUTF8(...)` function.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 765](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L765) |
 
 ---
@@ -420,8 +420,8 @@ Core Hammerspoon functionality
 | **Description**                             | Closes the Hammerspoon Console window                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 179](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L179) |
 
 ---
@@ -436,8 +436,8 @@ Core Hammerspoon functionality
 | **Description**                             | Closes the Hammerspoon Preferences window                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 149](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L149) |
 
 ---
@@ -452,8 +452,8 @@ Core Hammerspoon functionality
 | **Description**                             | Set or display whether or not the Hammerspoon console is always on top when visible.                                                                     |
 | **Parameters**                              | <ul><li>state - an optional boolean which will set whether or not the Hammerspoon console is always on top when visible.</li></ul> |
 | **Returns**                                 | <ul><li>True if the console is currently set (or has just been) to be always on top when visible or False if it is not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L103) |
 
 ---
@@ -469,7 +469,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>`delay` - an optional number, default `hs.math.minFloat`, specifying the number of seconds from when this function is executed that the `coroutine.resume` should be scheduled for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>this function will return an error if invoked outside of a coroutine.</li><li>unlike `coroutine.yield`, this function does not allow the passing of (new) information to or from the coroutine while it is running; this function is to allow long running tasks to yield time to the Hammerspoon application so other timers and scheduled events can occur without requiring the programmer to add code for an explicit resume.</li><li></li><li>this function is added to the lua `coroutine` library as `coroutine.applicationYield` as an alternative name.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 106](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L106) |
 
 ---
@@ -485,7 +485,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>state - an optional boolean which will set whether or not the Hammerspoon dock icon should be visible.</li></ul> |
 | **Returns**                                 | <ul><li>True if the icon is currently set (or has just been) to be visible or False if it is not.</li></ul>          |
 | **Notes**                                   | <ul><li>This function is a wrapper to functions found in the `hs.dockicon` module, but is provided here to provide an interface consistent with other selectable preference items.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 262](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L262) |
 
 ---
@@ -501,7 +501,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>command - a string containing the shell command to execute</li><li>with_user_env - optional boolean argument which if provided and is true, executes the command in the users login shell as an "interactive" login shell causing the user's local profile (or other login scripts) to be loaded first.</li></ul> |
 | **Returns**                                 | <ul><li>output -- the stdout of the command as a string.  May contain an extra terminating new-line (\n).</li><li>status -- `true` if the command terminated successfully or nil otherwise.</li><li>type   -- a string value of "exit" or "signal" indicating whether the command terminated of its own accord or if it was terminated by a signal (killed, segfault, etc.)</li><li>rc     -- if the command exited of its own accord, then this number will represent the exit code (usually 0 for success, not 0 for an error, though this is very command specific, so check man pages when there is a question).  If the command was killed by a signal, then this number corresponds to the signal type that caused the command to terminate.</li></ul>          |
 | **Notes**                                   | <ul><li>Setting `with_user_env` to true does incur noticeable overhead, so it should only be used if necessary (to set the path or other environment variables).</li><li>Because this function returns the stdout as it's first return value, it is not quite a drop-in replacement for `os.execute`.  In most cases, it is probable that `stdout` will be the empty string when `status` is nil, but this is not guaranteed, so this trade off of shifting os.execute's results was deemed acceptable.</li><li>This particular function is most useful when you're more interested in the command's output then a simple check for completion and result codes.  If you only require the result codes or verification of command completion, then `os.execute` will be slightly more efficient.</li><li>If you need to execute commands that have spaces in their paths, use a form like: `hs.execute [["/Some/Path To/An/Executable" "--first-arg" "second-arg"]]`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 231](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L231) |
 
 ---
@@ -516,8 +516,8 @@ Core Hammerspoon functionality
 | **Description**                             | Makes Hammerspoon the foreground app.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 735](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L735) |
 
 ---
@@ -532,8 +532,8 @@ Core Hammerspoon functionality
 | **Description**                             | Fetches the Lua metatable for objects produced by an extension                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the name of a module to fetch object metadata for (e.g. `"hs.screen"`)</li></ul> |
 | **Returns**                                 | <ul><li>The extension's object metatable, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 749](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L749) |
 
 ---
@@ -549,7 +549,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>identifier - A string containing the signature of some part of Hammerspoon's API (e.g. `"hs.reload"`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function is mainly for runtime API help while using Hammerspoon's Console</li><li>You can also access the results of this function by the following methods from the console:</li><li>  help("identifier") -- quotes are required, e.g. `help("hs.reload")`</li><li>  help.identifier.path -- no quotes are required, e.g. `help.hs.reload`</li><li>Lua information can be accessed by using the `lua` prefix, rather than `hs`.</li><li>  the identifier `lua._man` provides the table of contents for the Lua 5.3 manual.  You can pull up a specific section of the lua manual by including the chapter (and subsection) like this: `lua._man._3_4_8`.</li><li>  the identifier `lua._C` will provide information specifically about the Lua C API for use when developing modules which require external libraries.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 370](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L370) |
 
 ---
@@ -565,7 +565,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>identifier - An optional string containing the signature of some part of Hammerspoon's API (e.g. `"hs.reload"`).  If no string is provided, then the table of contents for the Hammerspoon documentation is displayed.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>You can also access the results of this function by the following methods from the console:</li><li>  hs.hsdocs.identifier.path -- no quotes are required, e.g. `hs.hsdocs.hs.reload`</li><li>See `hs.doc.hsdocs` for more information about the available settings for the documentation browser.</li><li>This function provides documentation for Hammerspoon modules, functions, and methods similar to the Hammerspoon Dash docset, but does not require any additional software.</li><li>This currently only provides documentation for the built in Hammerspoon modules, functions, and methods.  The Lua documentation and third-party modules are not presently supported, but may be added in a future release.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 393](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L393) |
 
 ---
@@ -581,7 +581,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>name - The name of a Spoon (without the trailing `.spoon`)</li><li>global - An optional boolean. If true, this function will insert the spoon into Lua's global namespace as `spoon.NAME`. Defaults to true.</li></ul> |
 | **Returns**                                 | <ul><li>The object provided by the Spoon (which can be ignored if you chose to make the Spoon global)</li></ul>          |
 | **Notes**                                   | <ul><li>Spoons are a way of distributing self-contained units of Lua functionality, for Hammerspoon. For more information, see https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md</li><li>This function will load the Spoon and call its `:init()` method if it has one. If you do not wish this to happen, or wish to use a Spoon that somehow doesn't fit with the behaviours of this function, you can also simply `require('name')` to load the Spoon</li><li>If the Spoon has a `:start()` method you are responsible for calling it before using the functionality of the Spoon.</li><li>If the Spoon provides documentation, it will be loaded by made available in hs.docs</li><li>To learn how to distribute your own code as a Spoon, see https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 282](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L282) |
 
 ---
@@ -596,8 +596,8 @@ Core Hammerspoon functionality
 | **Description**                             | Set or display whether or not the Hammerspoon menu icon is visible.                                                                     |
 | **Parameters**                              | <ul><li>state - an optional boolean which will set whether or not the Hammerspoon menu icon should be visible.</li></ul> |
 | **Returns**                                 | <ul><li>True if the icon is currently set (or has just been) to be visible or False if it is not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 83](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L83) |
 
 ---
@@ -613,7 +613,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>shouldPrompt - an optional boolean value indicating if we should request microphone access. Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>`true` or `false` indicating whether or not Microphone access is enabled for Hammerspoon.</li></ul>          |
 | **Notes**                                   | <ul><li>Will always return `true` on macOS 10.13 or earlier.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 374](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L374) |
 
 ---
@@ -628,8 +628,8 @@ Core Hammerspoon functionality
 | **Description**                             | Opens a file as if it were opened with /usr/bin/open                                                                     |
 | **Parameters**                              | <ul><li>filePath - A string containing the path to a file/bundle to open</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the file was opened successfully, otherwise false</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 193](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L193) |
 
 ---
@@ -644,8 +644,8 @@ Core Hammerspoon functionality
 | **Description**                             | Displays the OS X About panel for Hammerspoon; implicitly focuses Hammerspoon.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 118](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L118) |
 
 ---
@@ -660,8 +660,8 @@ Core Hammerspoon functionality
 | **Description**                             | Opens the Hammerspoon Console window and optionally focuses it.                                                                     |
 | **Parameters**                              | <ul><li>bringToFront - if true (default), the console will be focused as well as opened.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 163](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L163) |
 
 ---
@@ -677,7 +677,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>state - An optional boolean, true if the console window should open, false if not</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the console window will open when the dock icon</li></ul>          |
 | **Notes**                                   | <ul><li>This only refers to dock icon clicks while Hammerspoon is already running. The console window is not opened by launching the app</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 711](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L711) |
 
 ---
@@ -692,8 +692,8 @@ Core Hammerspoon functionality
 | **Description**                             | Displays the Hammerspoon Preferences panel; implicitly focuses Hammerspoon.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 133](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L133) |
 
 ---
@@ -708,8 +708,8 @@ Core Hammerspoon functionality
 | **Description**                             | Set or display whether or not the Preferences panel should display in dark mode.                                                                     |
 | **Parameters**                              | <ul><li>state - an optional boolean which will set whether or not the Preferences panel should display in dark mode.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if dark mode is enabled otherwise false.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 653](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L653) |
 
 ---
@@ -725,7 +725,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>format - A format string</li><li>... - Zero or more arguments to fill the placeholders in the format string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a simple wrapper around the Lua code `print(string.format(...))`.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 13](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L13) |
 
 ---
@@ -741,7 +741,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>aString - A string to be printed</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Hammerspoon overrides Lua's print() function, but this is a reference we retain to is, should you need it for any reason</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 205](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L205) |
 
 ---
@@ -756,8 +756,8 @@ Core Hammerspoon functionality
 | **Description**                             | Quits and relaunches Hammerspoon.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 92](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L92) |
 
 ---
@@ -772,8 +772,8 @@ Core Hammerspoon functionality
 | **Description**                             | Reloads your init-file in a fresh Lua environment.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 213](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L213) |
 
 ---
@@ -789,7 +789,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>shouldPrompt - an optional boolean value indicating if the dialog box asking if the System Preferences application should be opened should be presented when Screen Recording is not currently enabled for Hammerspoon.  Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>True or False indicating whether or not Screen Recording is enabled for Hammerspoon.</li></ul>          |
 | **Notes**                                   | <ul><li>If you trigger the prompt and the user denies it, you cannot bring up the prompt again - the user must manually enable it in System Preferences.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 348](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L348) |
 
 ---
@@ -805,7 +805,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>err - A string containing an error message</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function is called whenever an (uncaught) error occurs or is thrown (via `error()`)</li><li>The default implementation shows a notification, opens the Console, and prints the error message and stacktrace</li><li>You can override this function if you wish to route errors differently (e.g. for remote systems)</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 149](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L149) |
 
 ---
@@ -821,7 +821,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If the console is not currently open, it will be opened. If it is open and not the focused window, it will be brought forward and focused.</li><li>If the console is focused, it will be closed.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/_coresetup/_coresetup.lua line 181](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/_coresetup/_coresetup.lua#L181) |
 
 ---
@@ -837,7 +837,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the display version of the latest release, or a boolean false if no update is available</li><li>A string containing the build number of the latest release, or `nil` if no update is available</li></ul>          |
 | **Notes**                                   | <ul><li>This is not a live check, it is a cached result of whatever the previous update check found. By default Hammerspoon checks for updates every few hours, but you can also add your own timer to check for updates more frequently with `hs.checkForUpdates()`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 590](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L590) |
 
 ---
@@ -853,7 +853,7 @@ Core Hammerspoon functionality
 | **Parameters**                              | <ul><li>state - An optional boolean, true to upload crash reports, false to not</li></ul> |
 | **Returns**                                 | <ul><li>True if Hammerspoon is currently (or has just been) set to upload crash data or False otherwise</li></ul>          |
 | **Notes**                                   | <ul><li>If at all possible, please do allow Hammerspoon to upload crash reports to us, it helps a great deal in keeping Hammerspoon stable</li><li>Our Privacy Policy can be found here: [https://www.hammerspoon.org/privacy.html](https://www.hammerspoon.org/privacy.html)</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [Hammerspoon//MJLua.m line 49](https://github.com/CommandPost/CommandPost-App/blob/master/Hammerspoon//MJLua.m#L49) |
 
 ---

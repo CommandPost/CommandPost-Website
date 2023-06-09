@@ -48,8 +48,8 @@ Requires Final Cut Pro 10.4 or later.
 | **Description**                             | Checks if the specified element is the Color Curves element.                                                                     |
 | **Parameters**                              | <ul><li>element	- The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is the Color Curves.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L43) |
 
 ---
@@ -66,8 +66,8 @@ Requires Final Cut Pro 10.4 or later.
 | **Description**                             | Creates a new HueSaturationCurves object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L62) |
 
 ---
@@ -82,7 +82,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.colorVsSat <HueSaturationCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [HueSaturationCurve](cp.apple.finalcutpro.inspector.color.HueSaturationCurve.md)                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L227) |
 
 ---
@@ -95,7 +95,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` representing the content element of the HueSaturationCurves corrector.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L117) |
 
 ---
@@ -108,7 +108,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.hueVsHue <HueSaturationCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [HueSaturationCurve](cp.apple.finalcutpro.inspector.color.HueSaturationCurve.md)                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L187) |
 
 ---
@@ -121,7 +121,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.hueVsLuma <HueSaturationCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [HueSaturationCurve](cp.apple.finalcutpro.inspector.color.HueSaturationCurve.md)                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L203) |
 
 ---
@@ -134,7 +134,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.hueVsSat <HueSaturationCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [HueSaturationCurve](cp.apple.finalcutpro.inspector.color.HueSaturationCurve.md)                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L195) |
 
 ---
@@ -147,7 +147,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.lumaVsSat <HueSaturationCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [HueSaturationCurve](cp.apple.finalcutpro.inspector.color.HueSaturationCurve.md)                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L211) |
 
 ---
@@ -160,7 +160,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.mix <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The mix amount for this corrector. A number ranging from `0` to `1`.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L266) |
 
 ---
@@ -173,7 +173,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.mixRow <cp.ui.PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Mix' parameter, and `axuielement`                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L236) |
 
 ---
@@ -186,7 +186,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.mixSlider <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the 'Mix' slider.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L244) |
 
 ---
@@ -199,7 +199,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.satVsSat <HueSaturationCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [HueSaturationCurve](cp.apple.finalcutpro.inspector.color.HueSaturationCurve.md)                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 219](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L219) |
 
 ---
@@ -212,7 +212,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.viewingAllCurves <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Reports and modifies whether the corrector is showing "All Curves" (`true`) or "Single Curves" (`false`).                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L143) |
 
 ---
@@ -225,7 +225,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.viewModeButton <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) for the View Mode.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L130) |
 
 ---
@@ -238,7 +238,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurves.wheelType <RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` that allows selection of the curve type. Only available when                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L170) |
 
 ---
@@ -255,8 +255,8 @@ Requires Final Cut Pro 10.4 or later.
 | **Description**                             | Show's the Color Board within the Color Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>HueSaturationCurves object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurves.lua#L95) |
 
 ---

@@ -124,7 +124,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the default style attributes `hs.drawing` uses for text drawing objects in the `hs.styledtext` attributes table format.</li></ul>          |
 | **Notes**                                   | <ul><li>This method returns the default font, size, color, and paragraphStyle used by `hs.drawing` for text objects.  If you modify a drawing object's defaults with `hs.drawing:setColor`, `hs.drawing:setTextFont`, or `hs.drawing:setTextSize`, the changes will not be reflected by this function.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 774](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L774) |
 
 ---
@@ -140,7 +140,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This method can be used to allow multiple changes which are being made to the users display appear as if they all occur simultaneously by holding off on updating the screen on the regular schedule.</li><li>This method should always be balanced with a call to [hs.drawing.enableScreenUpdates](#enableScreenUpdates) when your updates have been completed.  Failure to do so will be logged in the system logs.</li><li>The window server will only allow you to pause updates for up to 1 second.  This prevents a rogue or hung process from locking the systems display completely.  Updates will be resumed when [hs.drawing.enableScreenUpdates](#enableScreenUpdates) is encountered or after 1 second, whichever comes first.</li><li>The underlying OS function for disabling screen updates is deprecated.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 85](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L85) |
 
 ---
@@ -156,7 +156,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>In conjunction with [hs.drawing.disableScreenUpdates](#disableScreenUpdates), this method can be used to allow multiple changes which are being made to the users display appear as if they all occur simultaneously by holding off on updating the screen on the regular schedule.</li><li>The window server will only allow you to pause updates for up to 1 second.  This prevents a rogue or hung process from locking the systems display completely.  Updates will be resumed when this function is encountered  or after 1 second, whichever comes first.</li><li>The underlying OS function for enabling screen updates is deprecated.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 101](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L101) |
 
 ---
@@ -172,7 +172,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>styledTextObject - an object created with the hs.styledtext module or its table representation (see `hs.styledtext`).</li><li>textStyle - an optional table containing one or more of the following keys to set for the text of the drawing object (if textStyle is nil or missing, the `hs.drawing` defaults are used):</li></ul> |
 | **Returns**                                 | <ul><li>sizeTable - a table containing the Height and Width necessary to fully display the text drawing object, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>This function assumes the default values specified for any key which is not included in the provided textStyle.</li><li>The size returned is an approximation and may return a width that is off by about 4 points.  Use the returned size as a minimum starting point. Sometimes using the "clip" or "truncateMiddle" lineBreak modes or "justified" alignment will fit, but its safest to add in your own buffer if you have the space in your layout.</li><li>Multi-line text (separated by a newline or return) is supported.  The height will be for the multiple lines and the width returned will be for the longest line.</li><li>The following simplified style format is supported for use with `hs.drawing:setText` and `hs.drawing.setTextStyle`.</li><li> theText   - the text which is to be displayed.</li><li> textStyle - a table containing one or more of the following keys to set for the text of the drawing object (if textStyle is nil or missing, the `hs.drawing` defaults are used):</li><li>   font      - the name of the font to use (default: the system font)</li><li>   size      - the font point size to use (default: 27.0)</li><li>   color     - ignored, but accepted for compatibility with `hs.drawing:setTextStyle()`</li><li>   alignment - a string of one of the following indicating the texts alignment within the drawing objects frame:</li><li>     "left"      - the text is visually left aligned.</li><li>     "right"     - the text is visually right aligned.</li><li>     "center"    - the text is visually center aligned.</li><li>     "justified" - the text is justified</li><li>     "natural"   - (default) the natural alignment of the text’s script</li><li>   lineBreak - a string of one of the following indicating how to wrap text which exceeds the drawing object's frame:</li><li>     "wordWrap"       - (default) wrap at word boundaries, unless the word itself doesn’t fit on a single line</li><li>     "charWrap"       - wrap before the first character that doesn’t fit</li><li>     "clip"           - do not draw past the edge of the drawing object frame</li><li>     "truncateHead"   - the line is displayed so that the end fits in the frame and the missing text at the beginning of the line is indicated by an ellipsis</li><li>     "truncateTail"   - the line is displayed so that the beginning fits in the frame and the missing text at the end of the line is indicated by an ellipsis</li><li>     "truncateMiddle" - the line is displayed so that the beginning and end fit in the frame and the missing text in the middle is indicated by an ellipsis</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 787](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L787) |
 
 ---
@@ -189,8 +189,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Creates a new image object with the icon of a given app                                                                     |
 | **Parameters**                              | <ul><li>sizeRect - A rect-table containing the location/size of the image. If the size values are -1 then the image will be displayed at the icon's native size</li><li>bundleID - A string containing the bundle identifier of an app (e.g. "com.apple.Safari")</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 38](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L38) |
 
 ---
@@ -206,7 +206,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>centerPoint - A point-table containing the center of the circle used to define the arc</li><li>radius      - The radius of the circle used to define the arc</li><li>startAngle  - The starting angle of the arc, measured in degrees clockwise from the y-axis.</li><li>endAngle    - The ending angle of the arc, measured in degrees clockwise from the y-axis.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li></ul>          |
 | **Notes**                                   | <ul><li>This constructor is actually a wrapper for the `hs.drawing.ellipticalArc` constructor.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L69) |
 
 ---
@@ -221,8 +221,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Creates a new circle object                                                                     |
 | **Parameters**                              | <ul><li>sizeRect - A rect-table containing the location/size of the circle</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 116](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L116) |
 
 ---
@@ -237,8 +237,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Creates a new elliptical arc object                                                                     |
 | **Parameters**                              | <ul><li>sizeRect    - A rect-table containing the location and size of the ellipse used to define the arc</li><li>startAngle  - The starting angle of the arc, measured in degrees clockwise from the y-axis.</li><li>endAngle    - The ending angle of the arc, measured in degrees clockwise from the y-axis.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 126](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L126) |
 
 ---
@@ -257,7 +257,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
   A string beginning with `ASCII:` which signifies that the rest of the string is interpreted as a special form of ASCII diagram, which will be rendered to an image. See the notes below for information about the special format of ASCII diagram.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li><li>Paths relative to the PWD of Hammerspoon (typically ~/.hammerspoon/) will work, but paths relative to the UNIX homedir character, `~` will not</li><li>Animated GIFs are supported. They're not super friendly on your CPU, but they work</li></ul>          |
 | **Notes**                                   | <ul><li>To use the ASCII diagram image support, see http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/ and be sure to preface your ASCII diagram with the special string `ASCII:`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 170](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L170) |
 
 ---
@@ -272,8 +272,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Creates a new line object                                                                     |
 | **Parameters**                              | <ul><li>originPoint - A point-table containing the co-ordinates of the starting point of the line</li><li>endPoint - A point-table containing the co-ordinates of the end point of the line</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L148) |
 
 ---
@@ -288,8 +288,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Creates a new rectangle object                                                                     |
 | **Parameters**                              | <ul><li>sizeRect - A rect-table containing the location/size of the rectangle</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 138](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L138) |
 
 ---
@@ -304,8 +304,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Creates a new text object                                                                     |
 | **Parameters**                              | <ul><li>sizeRect - A rect-table containing the location/size of the text</li><li>message - A string containing the text to be displayed.   May also be any of the types supported by `hs.styledtext`.  See `hs.styledtext` for more details.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.drawing` object, or nil if an error occurs</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 159](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L159) |
 
 ---
@@ -322,8 +322,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Get the alpha level of the window containing the hs.drawing object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current alpha level for the hs.drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 650](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L650) |
 
 ---
@@ -338,8 +338,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Returns the current behavior of the hs.drawing object with respect to Spaces and Exposé for the object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The numeric representation of the current behaviors for the hs.drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 754](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L754) |
 
 ---
@@ -354,8 +354,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Returns a table of the labels for the current behaviors of the object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns a table of the labels for the current behaviors with respect to Spaces and Exposé for the object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 59](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L59) |
 
 ---
@@ -371,7 +371,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>aboveEverything - An optional boolean value that controls how far to the front the drawing should be placed. `true` to place the drawing on top of all windows (including the dock and menubar), `false` to place the drawing above normal windows, but below the dock and menubar. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>As of macOS Sierra and later, if you want a `hs.drawing` object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: `hs.dockicon.hide()`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 627](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L627) |
 
 ---
@@ -387,7 +387,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>flag - an optional boolean indicating whether or not clicking on a drawing with a click callback function defined should activate Hammerspoon and bring its windows forward.  Defaults to true.</li></ul> |
 | **Returns**                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>Setting this to false changes a drawing object's AXsubrole value and may affect the results of filters defined for hs.window.filter, depending upon how they are defined.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 567](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L567) |
 
 ---
@@ -403,7 +403,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>rect - an optional rectangle specifying the visible area of the screen where the drawing's contents are visible.  If an explicit `nil` is specified, no clipping rectangle is set.  Defaults to nil</li></ul> |
 | **Returns**                                 | <ul><li>if an argument is provided, returns the drawing object; otherwise the current value is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>This method can be used to specify the area of the display where this drawing should be visible.  If any portion of the drawing extends beyond this rectangle, the image is clipped so that only the portion within this rectangle is visible.</li><li>The rectangle defined by this method is independent of the drawing's actual frame -- if you move the drawing with [hs.drawing:setFrame](#setFrame) or [hs.drawing:setTopLeft](#setTopLeft), this rectangle retains its current value.</li><li></li><li>This method does not work for image objects at present.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 284](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L284) |
 
 ---
@@ -419,7 +419,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This method immediately destroys the drawing object. If you want it to fade out, use `:hide()` first, with some suitable time, and `hs.timer.doAfter()` to schedule the `:delete()` call</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 614](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L614) |
 
 ---
@@ -434,8 +434,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Gets the frame of a drawingObject in absolute coordinates                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.geometry` object containing the frame of the drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 310](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L310) |
 
 ---
@@ -451,7 +451,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an `hs.styledtext` object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on text drawing objects</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L216) |
 
 ---
@@ -466,8 +466,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Hides the drawing object                                                                     |
 | **Parameters**                              | <ul><li>fadeOut - An optional number of seconds over which to fade out the drawing object. Defaults to zero</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 604](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L604) |
 
 ---
@@ -491,8 +491,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
   bottom       - the image's bottom match the drawing frame's bottom and will be centered horizontally
   bottomRight  - the image's bottom right corner will match the drawing frame's bottom right corner</li></ul> |
 | **Returns**                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 548](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L548) |
 
 ---
@@ -507,8 +507,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Get or set whether or not an animated GIF image should cycle through its animation.                                                                     |
 | **Parameters**                              | <ul><li>flag - an optional boolean flag indicating whether or not an animated GIF image should cycle through its animation.  Defaults to true.</li></ul> |
 | **Returns**                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 520](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L520) |
 
 ---
@@ -529,7 +529,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
   button - a convex bezel with a gray background that makes the image stand out in relief, like a button.</li></ul> |
 | **Returns**                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>Apple considers the photo, groove, and button style frames "stylistically obsolete" and if a frame is required, recommend that you use the bezel style or draw your own to more closely match the OS look and feel.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 530](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L530) |
 
 ---
@@ -548,8 +548,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
   none                - perform no scaling or resizing of the image.
   scaleProportionally - shrink or expand the image to fully fill the drawing frame, preserving the aspect ration.</li></ul> |
 | **Returns**                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 506](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L506) |
 
 ---
@@ -564,8 +564,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Moves drawing object above drawing object2, or all drawing objects in the same presentation level, if object2 is not provided.                                                                     |
 | **Parameters**                              | <ul><li>Optional drawing object to place the drawing object above.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.drawing` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 670](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L670) |
 
 ---
@@ -580,8 +580,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Moves drawing object below drawing object2, or all drawing objects in the same presentation level, if object2 is not provided.                                                                     |
 | **Parameters**                              | <ul><li>Optional drawing object to place the drawing object below.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.drawing` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 680](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L680) |
 
 ---
@@ -597,7 +597,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>angle - the angle in degrees to rotate the image around its center in a clockwise direction.</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>* This method works by rotating the image view within its drawing window.  This means that an image which completely fills its viewing area will most likely be cropped in some places.  Best results are achieved with images that have clear space around their edges or with `hs.drawing.imageScaling` set to "none".</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 493](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L493) |
 
 ---
@@ -612,8 +612,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Places the drawing object behind normal windows, between the desktop wallpaper and desktop icons                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 640](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L640) |
 
 ---
@@ -628,8 +628,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Sets the alpha level of the window containing the hs.drawing object.                                                                     |
 | **Parameters**                              | <ul><li>level - the alpha level (0.0 - 1.0) to set the object to</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.drawing` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 660](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L660) |
 
 ---
@@ -645,7 +645,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>startAngle  - The starting angle of the arc, measured in degrees clockwise from the y-axis.</li><li>endAngle    - The ending angle of the arc, measured in degrees clockwise from the y-axis.</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on arc drawing objects</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 377](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L377) |
 
 ---
@@ -660,8 +660,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Sets the window behaviors represented by the number provided for the window containing the hs.drawing object.                                                                     |
 | **Parameters**                              | <ul><li>behavior - the numeric representation of the behaviors to set for the window of the object</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.drawing` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 764](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L764) |
 
 ---
@@ -676,8 +676,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Sets the window behaviors based upon the labels specified in the table provided.                                                                     |
 | **Parameters**                              | <ul><li>a table of label strings or numbers.  Recognized values can be found in `hs.drawing.windowBehaviors`.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.drawing` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 49](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L49) |
 
 ---
@@ -693,7 +693,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>mouseUpFn - A function, can be nil, that will be called when the drawing object is clicked on and the mouse button is released. If this argument is nil, any existing callback is removed.</li><li>mouseDownFn - A function, can be nil, that will be called when the drawing object is clicked on and the mouse button is first pressed down. If this argument is nil, any existing callback is removed.</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>No distinction is made between the left, right, or other mouse buttons -- they all invoke the same up or down function.  If you need to determine which specific button was pressed, use `hs.eventtap.checkMouseButtons()` within your callback to check.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 580](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L580) |
 
 ---
@@ -709,7 +709,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>doFill - A boolean, true to fill the drawing object, false to not fill</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 444](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L444) |
 
 ---
@@ -725,7 +725,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>color - a color table as described in `hs.drawing.color`</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on rectangle, circle, or arc drawing objects</li><li>Calling this method will remove any gradient fill colors previously set with `hs.drawing:setFillGradient()`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 363](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L363) |
 
 ---
@@ -749,7 +749,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
   alpha (default 1.0)</li><li>angle - A number representing the angle of the gradient, measured in degrees, counter-clockwise, from the left of the drawing object</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on rectangle, circle, or arc drawing objects</li><li>Calling this method will remove any fill color previously set with `hs.drawing:setFillColor()`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 391](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L391) |
 
 ---
@@ -764,8 +764,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Sets the frame of the drawingObject in absolute coordinates                                                                     |
 | **Parameters**                              | <ul><li>rect - A rect-table containing the co-ordinates and size that should be applied to the drawingObject</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 300](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L300) |
 
 ---
@@ -780,8 +780,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Sets the image of a drawing object                                                                     |
 | **Parameters**                              | <ul><li>image - An `hs.image` object</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 483](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L483) |
 
 ---
@@ -797,7 +797,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>ascii - A string containing the ASCII image to render</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>To use the ASCII diagram image support, see http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 25](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L25) |
 
 ---
@@ -813,7 +813,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>imagePath - A string containing the path to an image file</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on an image drawing object</li><li>Paths relative to the PWD of Hammerspoon (typically ~/.hammerspoon/) will work, but paths relative to the UNIX homedir character, `~` will not</li><li>Animated GIFs are supported. They're not super friendly on your CPU, but they work</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 10](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L10) |
 
 ---
@@ -829,7 +829,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>theLevel - the level specified as a number or as a string where this object should be drawn.  If it is a string, it must match one of the keys in `hs.drawing.windowLevels`.</li></ul> |
 | **Returns**                                 | <ul><li>the drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li><li>These levels may be unable to explicitly place drawing objects around full-screen macOS windows</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 740](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L740) |
 
 ---
@@ -845,7 +845,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>xradius - A number containing the radius of each corner along the x-axis</li><li>yradius - A number containing the radius of each corner along the y-axis</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on rectangle drawing objects</li><li>If either radius value is greater than half the width/height (as appropriate) of the rectangle, the value will be clamped at half the width/height</li><li>If either (or both) radius values are 0, the rectangle will be drawn without rounded corners</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 428](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L428) |
 
 ---
@@ -861,7 +861,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>size - A size-table containing the width and height the drawing object should be resized to</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>If this is called on an `hs.drawing.text` object, only its window will be resized. If you also want to change the font size, use `:setTextSize()`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 271](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L271) |
 
 ---
@@ -877,7 +877,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>doStroke - A boolean, true to stroke the drawing object, false to not stroke</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 457](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L457) |
 
 ---
@@ -893,7 +893,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>color - a color table as described in `hs.drawing.color`</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 415](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L415) |
 
 ---
@@ -909,7 +909,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>width - A number containing the width in points to stroke a drawing object</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 470](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L470) |
 
 ---
@@ -925,7 +925,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>message - Any of the types supported by `hs.styledtext`.  See `hs.styledtext` for more details.</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on text drawing objects</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 203](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L203) |
 
 ---
@@ -941,7 +941,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>message - A string containing the text to display</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on text drawing objects</li><li>If the text of the drawing object is emptied (i.e. "") then style changes may be lost.  Use a placeholder such as a space (" ") or hide the object if style changes need to be saved but the text should disappear for a while.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L189) |
 
 ---
@@ -957,7 +957,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>color - a color table as described in `hs.drawing.color`</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be called on text drawing objects</li><li>This method changes the font color for portions of an `hs.drawing` text object which do not have a specific font set in their attributes list (see `hs.styledtext` for more details).</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 348](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L348) |
 
 ---
@@ -973,7 +973,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>fontname - A string containing the name of the font to use</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on text drawing objects</li><li>This method changes the font for portions of an `hs.drawing` text object which do not have a specific font set in their attributes list (see `hs.styledtext` for more details).</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 320](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L320) |
 
 ---
@@ -989,7 +989,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Parameters**                              | <ul><li>size - A number containing the font size to use</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on text drawing objects</li><li>This method changes the font size for portions of an `hs.drawing` text object which do not have a specific font set in their attributes list (see `hs.styledtext` for more details).</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 334](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L334) |
 
 ---
@@ -1010,7 +1010,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
   lineBreak - a string of one of the following indicating how to wrap text which exceeds the drawing object's frame:"wordWrap"       - (default) wrap at word boundaries, unless the word itself doesn’t fit on a single line"charWrap"       - wrap before the first character that doesn’t fit"clip"           - do not draw past the edge of the drawing object frame"truncateHead"   - the line is displayed so that the end fits in the frame and the missing text at the beginning of the line is indicated by an ellipsis"truncateTail"   - the line is displayed so that the beginning fits in the frame and the missing text at the end of the line is indicated by an ellipsis"truncateMiddle" - the line is displayed so that the beginning and end fit in the frame and the missing text in the middle is indicated by an ellipsis</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on text drawing objects</li><li>If the text of the drawing object is currently empty (i.e. "") then style changes may be lost.  Use a placeholder such as a space (" ") or hide the object if style changes need to be saved but the text should disappear for a while.</li><li>Only the keys specified are changed.  To reset an object to all of its defaults, call this method with an explicit nil as its only parameter (e.g. `hs.drawing:setTextStyle(nil)`</li><li>The font, font size, and font color can also be set by their individual specific methods as well; this method is provided so that style components can be stored and applied collectively, as well as used by `hs.drawing.getTextDrawingSize()` to determine the proper rectangle size for a textual drawing object.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 229](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L229) |
 
 ---
@@ -1025,8 +1025,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Moves the drawingObject to a given point                                                                     |
 | **Parameters**                              | <ul><li>point - A point-table containing the absolute co-ordinates the drawing object should be moved to</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 261](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L261) |
 
 ---
@@ -1041,8 +1041,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 | **Description**                             | Displays the drawing object                                                                     |
 | **Parameters**                              | <ul><li>fadeInTime - An optional number of seconds over which to fade in the drawing object. Defaults to zero</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/drawing/drawing.lua line 594](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L594) |
 
 ---

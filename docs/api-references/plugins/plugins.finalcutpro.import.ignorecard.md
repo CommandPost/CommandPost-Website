@@ -28,7 +28,7 @@ Ignore Final Cut Pro's Media Import Window.
 | **Signature**                               | `plugins.finalcutpro.import.ignorecard.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggles the Ignore Card Plugin                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L141) |
 
 ---
@@ -45,8 +45,8 @@ Ignore Final Cut Pro's Media Import Window.
 | **Description**                             | Starts the Media Import Window Watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L42) |
 
 ---
@@ -61,8 +61,8 @@ Ignore Final Cut Pro's Media Import Window.
 | **Description**                             | Stops the Media Import Window Watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L105) |
 
 ---
@@ -77,8 +77,8 @@ Ignore Final Cut Pro's Media Import Window.
 | **Description**                             | Starts to stops the Ignore Card device watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L124) |
 
 ---

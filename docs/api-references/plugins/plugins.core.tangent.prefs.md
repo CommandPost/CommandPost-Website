@@ -25,8 +25,8 @@ Tangent Preferences Panel
 | **Description**                             | Initialise Module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/tangent/prefs/init.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/prefs/init.lua#L408) |
 
 ---

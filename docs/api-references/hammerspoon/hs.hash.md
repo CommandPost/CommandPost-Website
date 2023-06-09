@@ -36,8 +36,8 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary MD5 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 169](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L169) |
 
 ---
@@ -52,8 +52,8 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary SHA1 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L103) |
 
 ---
@@ -68,8 +68,8 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary SHA256 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L125) |
 
 ---
@@ -84,8 +84,8 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary SHA512 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L147) |
 
 ---
@@ -100,8 +100,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and an MD5 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L236) |
 
 ---
@@ -116,8 +116,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and a SHA1 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 194](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L194) |
 
 ---
@@ -132,8 +132,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and a SHA256 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L208) |
 
 ---
@@ -148,8 +148,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and a SHA512 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 222](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L222) |
 
 ---
@@ -164,8 +164,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an MD5 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L87) |
 
 ---
@@ -180,8 +180,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an SHA1 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L48) |
 
 ---
@@ -196,8 +196,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an SHA256 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 61](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L61) |
 
 ---
@@ -212,8 +212,8 @@ Various hashing algorithms
 | **Description**                             | Calculates an SHA512 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hash/libhash.m line 74](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L74) |
 
 ---

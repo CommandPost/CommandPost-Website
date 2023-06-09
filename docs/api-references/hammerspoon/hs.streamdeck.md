@@ -61,8 +61,8 @@ This module would not have been possible without standing on the shoulders of ot
   A boolean, true if a device was connected, false if a device was disconnected
   An hs.streamdeck object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 51](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L51) |
 
 ---
@@ -77,8 +77,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets an hs.streamdeck object for the specified device                                                                     |
 | **Parameters**                              | <ul><li>num - A number that should be within the bounds of the number of connected devices</li></ul> |
 | **Returns**                                 | <ul><li>An hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 92](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L92) |
 
 ---
@@ -96,7 +96,7 @@ This module would not have been possible without standing on the shoulders of ot
   An hs.streamdeck object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 25](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L25) |
 
 ---
@@ -111,8 +111,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the number of Stream Deck devices connected                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the number of Stream Deck devices attached to the system</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L75) |
 
 ---
@@ -132,8 +132,8 @@ This module would not have been possible without standing on the shoulders of ot
   A number containing the button that was pressed/released
   A boolean indicating whether the button was pressed (true) or released (false)</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 109](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L109) |
 
 ---
@@ -148,8 +148,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the layout of buttons a Stream Deck device has                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of columns</li><li>The number of rows</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L274) |
 
 ---
@@ -169,8 +169,8 @@ This module would not have been possible without standing on the shoulders of ot
   A boolean indicating that the button was turned left
   A boolean indicating that the button was turned right</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L136) |
 
 ---
@@ -185,8 +185,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the firmware version of a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the firmware version of the deck</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 255](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L255) |
 
 ---
@@ -201,8 +201,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the width and height of the buttons in pixels                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An table with keys `w` and `h` containing the width and height, respectively, of images expected by the Stream Deck</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L295) |
 
 ---
@@ -217,8 +217,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Resets a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L216) |
 
 ---
@@ -239,8 +239,8 @@ This module would not have been possible without standing on the shoulders of ot
   The X position of where the screen was last touched (if swiping)
   The Y position of where the screen was last touched (if swiping)</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 165](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L165) |
 
 ---
@@ -255,8 +255,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the serial number of a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the serial number of the deck</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L236) |
 
 ---
@@ -271,8 +271,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets the brightness of a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>brightness - A whole number between 0 and 100 indicating the percentage brightness level to set</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 195](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L195) |
 
 ---
@@ -287,8 +287,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets a button on the Stream Deck device to the specified color                                                                     |
 | **Parameters**                              | <ul><li>button - A number (from 1 to 15) describing which button to set the color on</li><li>color - An hs.drawing.color object</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 359](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L359) |
 
 ---
@@ -303,8 +303,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets the image of a button on the Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>button - A number (from 1 to 15) describing which button to set the image for</li><li>image - An hs.image object</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L315) |
 
 ---
@@ -319,8 +319,8 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets the image of the screen on the Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>encoder - A number (from 1 to 4) describing which encoder to set the image for</li><li>image - An hs.image object</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 337](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L337) |
 
 ---

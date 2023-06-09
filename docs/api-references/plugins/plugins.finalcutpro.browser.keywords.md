@@ -28,7 +28,7 @@ Browser Keywords Presets.
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.NUMBER_OF_PRESETS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of presets available.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L22) |
 
 ---
@@ -41,7 +41,7 @@ Browser Keywords Presets.
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.NUMBER_OF_SHORTCUTS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of Keyword Keyboard shortcuts available.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L27) |
 
 ---
@@ -58,8 +58,8 @@ Browser Keywords Presets.
 | **Description**                             | Restores a Keyword preset.                                                                     |
 | **Parameters**                              | <ul><li>preset - A preset number between 1 and the value of `plugins.finalcutpro.browser.keywords.NUMBER_OF_PRESETS`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L64) |
 
 ---
@@ -74,8 +74,8 @@ Browser Keywords Presets.
 | **Description**                             | Saves a Keyword preset.                                                                     |
 | **Parameters**                              | <ul><li>preset - A preset number between 1 and the value of `plugins.finalcutpro.browser.keywords.NUMBER_OF_PRESETS`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L32) |
 
 ---

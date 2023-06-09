@@ -26,8 +26,8 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 | **Description**                             | Opens Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/open/init.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/open/init.lua#L12) |
 
 ---
@@ -42,8 +42,8 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 | **Description**                             | Opens the Final Cut Pro Command Editor                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/open/init.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/open/init.lua#L25) |
 
 ---

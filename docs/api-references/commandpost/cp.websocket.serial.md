@@ -40,7 +40,7 @@ Note that it does not support any websocket extensions.
 | **Parameters**                              | <ul><li>deviceName - The name of the USB Device</li><li>baudRate - The connection baud rate</li><li>dataBits - The data bits.</li><li>stopBits - The stop bits.</li><li>callback - A function that's triggered by websocket actions.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.websocket` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback should accept two parameters.</li><li>The first parameter is a `cp.websocket.event` value.</li><li>The second parameter is a `string` with the received message or an error message.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/websocket/serial.lua line 178](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/serial.lua#L178) |
 
 ---
@@ -58,7 +58,7 @@ Note that it does not support any websocket extensions.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.websocket.serial` object</li></ul>          |
 | **Notes**                                   | <ul><li>The `status` may be either `closing` or `closed` after calling this method.</li><li>To be notified the close has completed, listen for the `cp.websocket.event.closed` event in the callback.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/websocket/serial.lua line 382](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/serial.lua#L382) |
 
 ---
@@ -73,8 +73,8 @@ Note that it does not support any websocket extensions.
 | **Description**                             | Gets whether or not the serial websocket is fully open.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/websocket/serial.lua line 337](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/serial.lua#L337) |
 
 ---
@@ -89,8 +89,8 @@ Note that it does not support any websocket extensions.
 | **Description**                             | Attempts to open a websocket connection with the configured serial connection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.websocket.status` after attempting to open.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/websocket/serial.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/serial.lua#L300) |
 
 ---
@@ -106,7 +106,7 @@ Note that it does not support any websocket extensions.
 | **Parameters**                              | <ul><li>message - A string containing the message to send.</li><li>isData - An optional boolean that sends the message as binary data (defaults to true).</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.websocket.serial` object</li></ul>          |
 | **Notes**                                   | <ul><li>Forcing a text representation by setting isData to `false` may alter the data if it</li><li>  contains invalid UTF8 character sequences (the default string behavior is to make</li><li>  sure everything is "printable" by converting invalid sequences into the Unicode</li><li>  Invalid Character sequence).</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/websocket/serial.lua line 414](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/serial.lua#L414) |
 
 ---
@@ -121,8 +121,8 @@ Note that it does not support any websocket extensions.
 | **Description**                             | Returns the current connection status.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current `cp.websocket.status`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/websocket/serial.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/serial.lua#L214) |
 
 ---

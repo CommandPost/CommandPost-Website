@@ -41,7 +41,7 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.NUMBER_OF_FAVOURITES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of favourites                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L38) |
 
 ---
@@ -56,7 +56,7 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.favourites <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A `cp.prop` that that contains all the Monogram Favourites.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L63) |
 
 ---
@@ -69,7 +69,7 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.performAction -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of actions that are triggered by the callback function.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L68) |
 
 ---
@@ -86,8 +86,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Installs the Loupedeck Plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false` if fails.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L199) |
 
 ---
@@ -102,8 +102,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Registers a new Loupedeck Plugin Action.                                                                     |
 | **Parameters**                              | <ul><li>name - The name of the action.</li><li>fn - The function to trigger.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L73) |
 
 ---
@@ -118,8 +118,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Removes the Loupedeck Plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Will always return `true`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L379) |
 
 ---
@@ -134,8 +134,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Triggered when the Loupedeck Service requests a JSON of commands                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/loupedeckplugin/init.lua line 942](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/loupedeckplugin/init.lua#L942) |
 
 ---
@@ -150,8 +150,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Sends a websocket message.                                                                     |
 | **Parameters**                              | <ul><li>message - The message to send</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L134) |
 
 ---
@@ -166,8 +166,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Enables or disables Loupedeck Plugin Support.                                                                     |
 | **Parameters**                              | <ul><li>enabled - A boolean</li></ul> |
 | **Returns**                                 | <ul><li>`true` if Loupedeck Plugin support is enabled, otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L405) |
 
 ---
@@ -182,8 +182,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Starts the WebSocket Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L149) |
 
 ---
@@ -198,8 +198,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Stops the WebSocket Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L173) |
 
 ---
@@ -214,8 +214,8 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Updates the Loupedeck Plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L293) |
 
 ---
@@ -230,7 +230,7 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Monogram Support.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L188) |
 
 ---

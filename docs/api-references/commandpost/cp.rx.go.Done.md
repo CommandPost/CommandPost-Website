@@ -31,8 +31,8 @@ Done()
 | **Description**                             | Creates a new `Done` `Statement` that will complete without sending any values.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will complete immediately.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/Done.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Done.lua#L14) |
 
 ---

@@ -25,8 +25,8 @@ Alert UI Module.
 | **Description**                             | Creates a new `Alert` instance. It will automatically search the parent's children for Alerts.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Alert.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Alert.lua#L13) |
 
 ---

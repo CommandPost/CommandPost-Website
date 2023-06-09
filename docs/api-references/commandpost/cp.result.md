@@ -67,8 +67,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Checks if the `value` is an instance of a `cp.result`.                                                                     |
 | **Parameters**                              | <ul><li>`value`  - The value to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is an instance of `cp.result`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L44) |
 
 ---
@@ -85,8 +85,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Creates a new `failure` result, with the specified error `message`.                                                                     |
 | **Parameters**                              | <ul><li>message - Error message</li></ul> |
 | **Returns**                                 | <ul><li>A new result</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L74) |
 
 ---
@@ -101,8 +101,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Provides a simple wrapper for the common `value, err` pattern of function error handling in Lua. If the `err` value is not `nil`, it will result in a `failure`, otherwise the `value` is passed to a `success`.                                                                     |
 | **Parameters**                              | <ul><li>value - The value if successful.</li><li>err - The error message if there was a failure.</li></ul> |
 | **Returns**                                 | <ul><li>A `result.success` or `result.failure`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L91) |
 
 ---
@@ -117,8 +117,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Provides a simple wrapper for the common `ok, value|err` pattern of function error handling in Lua. If `ok` is true, `value` is the successful result, otherwise `value` is the error message.                                                                     |
 | **Parameters**                              | <ul><li>ok - if `true`, the operation was successful.</li><li>value - `ok` is true, the successful value, otherwise the error message.</li></ul> |
 | **Returns**                                 | <ul><li>A `result.success` or `result.failure`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L127) |
 
 ---
@@ -133,8 +133,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Creates a new `success` result, with the specified `value`.                                                                     |
 | **Parameters**                              | <ul><li>value - The specified value</li></ul> |
 | **Returns**                                 | <ul><li>A new result</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L61) |
 
 ---
@@ -149,8 +149,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Provides a simple wrapper for the common `value, err` pattern of function error handling in Lua. If the `err` is not `nil` it will result in a `failure` with the message, otherwise the `value` is passed to a `success`.                                                                     |
 | **Parameters**                              | <ul><li>value - The value if successful.</li><li>err - The error message if there was a failure.</li></ul> |
 | **Returns**                                 | <ul><li>A `result.success` or `result.failure`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L109) |
 
 ---
@@ -167,8 +167,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Gets the successful value, or throws an `error` with the provided `message`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `value` if it was a `success`, otherwise throws an `error`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L145) |
 
 ---
@@ -183,8 +183,8 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Description**                             | Logs the result to either the default channel (if `success`) or error channel (if `failure`), with the `context` string (if provided).                                                                     |
 | **Parameters**                              | <ul><li>context - A `string` that provides context for the logged value.</li></ul> |
 | **Returns**                                 | <ul><li>The same `cp.result` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//result.lua line 178](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//result.lua#L178) |
 
 ---

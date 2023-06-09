@@ -36,7 +36,7 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.FILE_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | File name of settings file.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L25) |
 
 ---
@@ -49,7 +49,7 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.FOLDER_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Folder Name where settings file is contained.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L30) |
 
 ---
@@ -62,7 +62,7 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.HISTORY_MAXIMUM_SIZE -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum Size of Pasteboard History                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L35) |
 
 ---
@@ -79,8 +79,8 @@ Pasteboard History
 | **Description**                             | Adds an item to the Pasteboard history.                                                                     |
 | **Parameters**                              | <ul><li>data - The data</li><li>label - The label</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L63) |
 
 ---
@@ -95,8 +95,8 @@ Pasteboard History
 | **Description**                             | Clears the Pasteboard History.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L50) |
 
 ---
@@ -111,8 +111,8 @@ Pasteboard History
 | **Description**                             | Returns a function which will paste a Pasteboard History Item when executed.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the Pasteboard history item.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to be executed.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L95) |
 
 ---
@@ -127,8 +127,8 @@ Pasteboard History
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>manager - The Pasteboard manager object.</li></ul> |
 | **Returns**                                 | <ul><li>Pasteboard History Object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L191) |
 
 ---
@@ -143,8 +143,8 @@ Pasteboard History
 | **Description**                             | Enable or disable the Pasteboard History.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L167) |
 
 ---
@@ -159,7 +159,7 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history._history <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved Touch Bar Buttons                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L45) |
 
 ---
@@ -172,7 +172,7 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the Pasteboard History.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L40) |
 
 ---

@@ -32,7 +32,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Signature**                               | `cp.nib.archiver.SIGNATURE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Marks the data stream as an `NIBArchive`.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/nib/archiver.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L324) |
 
 ---
@@ -49,8 +49,8 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Description**                             | Checks if the given `data` is an NIBArchive.                                                                     |
 | **Parameters**                              | <ul><li>data - The data to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `data` is an NIBArchive, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/nib/archiver.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L329) |
 
 ---
@@ -67,8 +67,8 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Description**                             | Creates a new `cp.nib.archiver` instance, with the specified list of `decoders`.                                                                     |
 | **Parameters**                              | <ul><li>decoders - The list of `cp.nib.decoder` functions to use.</li></ul> |
 | **Returns**                                 | <ul><li>The new `cp.nib.archiver` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/nib/archiver.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L343) |
 
 ---
@@ -85,8 +85,8 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Description**                             | Attempts to read the specified `filename` and unarchives it into a `table`, if it is a valid NIBArchive.                                                                     |
 | **Parameters**                              | <ul><li>filename - The `string` of the file to read.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` containing the archive data, or `nil` if the file could not be read.</li><li>The `string` error message, if any.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/nib/archiver.lua line 381](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L381) |
 
 ---

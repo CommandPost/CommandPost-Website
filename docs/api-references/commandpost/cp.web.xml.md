@@ -61,8 +61,8 @@ There are two 'special' tag names:
 | **Description**                             | Checks if the `value` is an `cp.web.xml` block.                                                                     |
 | **Parameters**                              | <ul><li>value		- the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/web/xml.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/xml.lua#L77) |
 
 ---

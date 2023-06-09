@@ -28,8 +28,8 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is below element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is below `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/axutils.lua line 467](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L467) |
 
 ---
@@ -44,8 +44,8 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is left of element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is left of `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/axutils.lua line 419](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L419) |
 
 ---
@@ -60,8 +60,8 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is right of element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is right of `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/axutils.lua line 435](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L435) |
 
 ---
@@ -76,8 +76,8 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is above element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/axutils.lua line 451](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L451) |
 
 ---

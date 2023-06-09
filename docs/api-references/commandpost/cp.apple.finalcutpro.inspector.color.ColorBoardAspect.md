@@ -41,7 +41,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.ids -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing the list of aspect IDs ("color", "saturation", "exposure").                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L20) |
 
 ---
@@ -58,8 +58,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Description**                             | Creates a new `ColorBoardAspect` object.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>index - The Color Board Aspect Index.</li><li>hasAngle - If `true`, the aspect has an `angle` parameter. Defaults to `false`</li></ul> |
 | **Returns**                                 | <ul><li>A new `ColorBoardAspect object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L38) |
 
 ---
@@ -74,7 +74,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.highlights <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Highlights ColorPuck object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L222) |
 
 ---
@@ -87,7 +87,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.master <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Master ColorPuck object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 189](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L189) |
 
 ---
@@ -100,7 +100,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.midtones <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Midtones ColorPuck object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L211) |
 
 ---
@@ -113,7 +113,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:selected() -> boolean`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Color Board Aspect selected?                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L68) |
 
 ---
@@ -126,7 +126,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.shadows <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Shadows ColorPuck object.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L200) |
 
 ---
@@ -143,8 +143,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that shows this Color Board Aspect.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or throwing an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L94) |
 
 ---
@@ -159,8 +159,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Description**                             | Checks if the aspect has an `angle` property.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it has an `angle` propery.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L128) |
 
 ---
@@ -175,8 +175,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Description**                             | Gets the Color Board Aspect ID.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID as string.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L141) |
 
 ---
@@ -191,8 +191,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Description**                             | Gets the Color Board Aspect index.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L115) |
 
 ---
@@ -207,8 +207,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that resets all pucks in the the Color Board Aspect.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if sucessful, or throws an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L172) |
 
 ---
@@ -223,8 +223,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Description**                             | Shows the Color Board Aspect                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ColorBoardAspect` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoardAspect.lua#L75) |
 
 ---

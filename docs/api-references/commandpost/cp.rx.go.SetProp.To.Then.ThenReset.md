@@ -23,7 +23,7 @@ A `Statement.Modifier` that specifies that the `cp.prop` is reset to its origina
 | **Signature**                               | `cp.rx.go.SetProp.To.Then.ThenReset <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp.To.Then`, which should be created via `SetProp:To(...):Then(...):ThenReset()`.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L175) |
 
 ---

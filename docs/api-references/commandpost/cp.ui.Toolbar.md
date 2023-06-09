@@ -35,8 +35,8 @@ Toolbar Module.
 | **Description**                             | Checks if the `element` is a `Button`, returning `true` if so.                                                                     |
 | **Parameters**                              | <ul><li>element		- The `hs.axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` is a `Button`, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L15) |
 
 ---
@@ -53,8 +53,8 @@ Toolbar Module.
 | **Description**                             | Creates a new `Toolbar` instance, given the specified `parent` and `uiFinder`                                                                     |
 | **Parameters**                              | <ul><li>parent   - The parent object.</li><li>uiFinder   - The `cp.prop` or `function` that finds the `hs.axuielement` that represents the `Toolbar`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Toolbar` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L28) |
 
 ---
@@ -69,7 +69,7 @@ Toolbar Module.
 | **Signature**                               | `cp.ui.Toolbar.overflowButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "overflow" button which appears if there are more toolbar items                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L64) |
 
 ---
@@ -82,7 +82,7 @@ Toolbar Module.
 | **Signature**                               | `cp.ui.Toolbar.selectedTitle <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The title of the first selected item, if available.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L51) |
 
 ---
@@ -99,8 +99,8 @@ Toolbar Module.
 | **Description**                             | Returns a `Statement` that will select the toolbar item with the specified title.                                                                     |
 | **Parameters**                              | <ul><li>title - The title to select, if present.</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement` that when executed returns `true` if the item was found and selected, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L75) |
 
 ---

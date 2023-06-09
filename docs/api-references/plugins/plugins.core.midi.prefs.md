@@ -27,7 +27,7 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last application used in the Preferences Drop Down.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L42) |
 
 ---
@@ -40,7 +40,7 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastBank <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last bank used in the Preferences Drop Down.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L47) |
 
 ---
@@ -53,7 +53,7 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L57) |
 
 ---
@@ -66,7 +66,7 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L62) |
 
 ---
@@ -79,7 +79,7 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.scrollBarPosition <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Scroll Bar Position                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L52) |
 
 ---

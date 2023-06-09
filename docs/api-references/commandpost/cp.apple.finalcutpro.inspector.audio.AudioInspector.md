@@ -72,7 +72,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector.EQ_MODES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | EQ Modes                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L187) |
 
 ---
@@ -85,7 +85,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector.PAN_MODES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pan Modes                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L167) |
 
 ---
@@ -102,8 +102,8 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Checks if the provided element could be a AudioInspector.                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L72) |
 
 ---
@@ -120,8 +120,8 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Creates a new `AudioInspector` object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A `AudioInspector` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L99) |
 
 ---
@@ -136,7 +136,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector.audioConfiguration <AudioConfiguration>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `AudioConfiguration` instance.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L160) |
 
 ---

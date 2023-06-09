@@ -49,8 +49,8 @@ Menu Button Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L26) |
 
 ---
@@ -67,8 +67,8 @@ Menu Button Module.
 | **Description**                             | Creates a new MenuButton.                                                                     |
 | **Parameters**                              | <ul><li>parent        - The parent object. Should have an `isShowing` property.</li><li>uiFinder      - A `cp.prop` or function which will return a `hs.axuielement`, or `nil` if it's not available.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L39) |
 
 ---
@@ -83,7 +83,7 @@ Menu Button Module.
 | **Signature**                               | `cp.ui.MenuButton.menuUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AXMenu` for the MenuButton if it is currently visible.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L80) |
 
 ---
@@ -96,7 +96,7 @@ Menu Button Module.
 | **Signature**                               | `cp.ui.MenuButton.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the title for the MenuButton.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L100) |
 
 ---
@@ -109,7 +109,7 @@ Menu Button Module.
 | **Signature**                               | `cp.ui.MenuButton.value <cp.prop: anything>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns or sets the current MenuButton value.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L47) |
 
 ---
@@ -126,8 +126,8 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that presses the `MenuButton`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L306) |
 
 ---
@@ -142,8 +142,8 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `MenuButton` by index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index number of the item to match.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L154) |
 
 ---
@@ -158,8 +158,8 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `MenuButton` by pattern.                                                                     |
 | **Parameters**                              | <ul><li>pattern - The pattern to match.</li><li>[altPattern] - An optional alternate pattern to match if the first pattern fails.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L232) |
 
 ---
@@ -174,8 +174,8 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `MenuButton` by value.                                                                     |
 | **Parameters**                              | <ul><li>value - The value of the item to match.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L170) |
 
 ---
@@ -190,8 +190,8 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that presses the `MenuButton` if the menu is not showing.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L325) |
 
 ---
@@ -206,8 +206,8 @@ Menu Button Module.
 | **Description**                             | Gets the `MenuButton` title.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `MenuButton` title as string, or `nil` if the title cannot be determined.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L249) |
 
 ---
@@ -222,8 +222,8 @@ Menu Button Module.
 | **Description**                             | Gets the `MenuButton` value.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `MenuButton` value as string, or `nil` if the value cannot be determined.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L262) |
 
 ---
@@ -238,8 +238,8 @@ Menu Button Module.
 | **Description**                             | Loads a `MenuButton` layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the `MenuButton` layout settings - created using [saveLayout](#saveLayout).</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 355](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L355) |
 
 ---
@@ -254,8 +254,8 @@ Menu Button Module.
 | **Description**                             | Presses the MenuButton.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L289) |
 
 ---
@@ -270,8 +270,8 @@ Menu Button Module.
 | **Description**                             | Saves the current `MenuButton` layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current `MenuButton` Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L340) |
 
 ---
@@ -286,8 +286,8 @@ Menu Button Module.
 | **Description**                             | Select an item on the `MenuButton` by index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the item you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successfully selected, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L124) |
 
 ---
@@ -302,8 +302,8 @@ Menu Button Module.
 | **Description**                             | Select an item on the `MenuButton` by pattern.                                                                     |
 | **Parameters**                              | <ul><li>pattern - A pattern used to select the `MenuButton` item.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successfully selected, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L186) |
 
 ---
@@ -318,8 +318,8 @@ Menu Button Module.
 | **Description**                             | Sets the `MenuButton` value.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set the `MenuButton` to.</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L275) |
 
 ---
@@ -334,8 +334,8 @@ Menu Button Module.
 | **Description**                             | Show's the MenuButton.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L107) |
 
 ---

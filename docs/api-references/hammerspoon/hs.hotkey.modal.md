@@ -46,7 +46,7 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
   "shift" or "⇧"</li><li>key - A string containing the name of a keyboard key (as found in [hs.keycodes.map](hs.keycodes.html#map) ), or a raw keycode number</li><li>message - A string containing a message to be displayed via `hs.alert()` when the hotkey has been triggered, or nil for no alert</li></ul> |
 | **Returns**                                 | <ul><li>A new `hs.hotkey.modal` object</li></ul>          |
 | **Notes**                                   | <ul><li>If `key` is nil, no global hotkey will be registered (all other parameters will be ignored)</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hotkey/hotkey.lua line 552](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L552) |
 
 ---
@@ -67,8 +67,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
   "alt", "option" or "⌥"
   "shift" or "⇧"</li><li>key - A string containing the name of a keyboard key (as found in [hs.keycodes.map](hs.keycodes.html#map) ), or a raw keycode number</li><li>message - A string containing a message to be displayed via `hs.alert()` when the hotkey has been triggered, or nil for no alert</li><li>pressedfn - A function that will be called when the hotkey has been pressed, or nil</li><li>releasedfn - A function that will be called when the hotkey has been released, or nil</li><li>repeatfn - A function that will be called when a pressed hotkey is repeating, or nil</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hotkey/hotkey.lua line 482](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L482) |
 
 ---
@@ -83,8 +83,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Description**                             | Deletes a modal hotkey object without calling :exited()                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hotkey/hotkey.lua line 580](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L580) |
 
 ---
@@ -100,7 +100,7 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>This method will enable all of the hotkeys defined in the modal state via `hs.hotkey.modal:bind()`,</li><li>   and disable the hotkey that entered the modal state (if one was defined)</li><li>If the modal state was created with a keyboard combination, this method will be called automatically</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hotkey/hotkey.lua line 506](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L506) |
 
 ---
@@ -116,7 +116,7 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hotkey/hotkey.lua line 452](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L452) |
 
 ---
@@ -132,7 +132,7 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>This method will disable all of the hotkeys defined in the modal state, and enable the hotkey for entering the modal state (if one was defined)</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hotkey/hotkey.lua line 530](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L530) |
 
 ---
@@ -148,7 +148,7 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/hotkey/hotkey.lua line 467](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L467) |
 
 ---

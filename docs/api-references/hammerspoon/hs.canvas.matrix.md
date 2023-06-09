@@ -48,7 +48,7 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the identity matrix.</li></ul>          |
 | **Notes**                                   | <ul><li>The identity matrix can be thought of as "apply no transformations at all" or "render as specified".</li><li>Mathematically this is represented as:</li><li>~~~</li><li>[ 1,  0,  0 ]</li><li>[ 0,  1,  0 ]</li><li>[ 0,  0,  1 ]</li><li>~~~</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 15](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L15) |
 
 ---
@@ -66,7 +66,7 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Parameters**                              | <ul><li>`matrix` - the table to append to the current matrix.</li></ul> |
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul><li>Mathematically this method multiples the original matrix by the new one and returns the result of the multiplication.</li><li>You can use this method to "stack" additional transformations on top of existing transformations, without having to know what the existing transformations in effect for the canvas element are.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 66](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L66) |
 
 ---
@@ -82,7 +82,7 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the inverted matrix.</li></ul>          |
 | **Notes**                                   | <ul><li>Inverting a matrix which represents a series of transformations has the effect of reversing or undoing the original transformations.</li><li>This is useful when used with [hs.canvas.matrix.append](#append) to undo a previously applied transformation without actually replacing all of the transformations which may have been applied to a canvas element.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 43](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L43) |
 
 ---
@@ -98,7 +98,7 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Parameters**                              | <ul><li>`matrix` - the table to append to the current matrix.</li></ul> |
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul><li>Mathematically this method multiples the new matrix by the original one and returns the result of the multiplication.</li><li>You can use this method to apply a transformation *before* the currently applied transformations, without having to know what the existing transformations in effect for the canvas element are.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 91](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L91) |
 
 ---
@@ -114,7 +114,7 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Parameters**                              | <ul><li>`angle` - the number of degrees to rotate in a clockwise direction.</li></ul> |
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul><li>The rotation of an element this matrix is applied to will be rotated about the origin (zero point).  To rotate an object about another point (its center for example), prepend a translation to the point to rotate about, and append a translation reversing the initial translation.</li><li>  e.g. `hs.canvas.matrix.translate(x, y):rotate(angle):translate(-x, -y)`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 116](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L116) |
 
 ---
@@ -129,8 +129,8 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Description**                             | Applies a scaling transformation to the matrix.  This method can be used as a constructor or a method.                                                                     |
 | **Parameters**                              | <ul><li>`xFactor` - the scaling factor to apply to the object in the horizontal orientation.</li><li>`yFactor` - an optional argument specifying a different scaling factor in the vertical orientation.  If this argument is not provided, the `xFactor` argument will be used for both orientations.</li></ul> |
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L148) |
 
 ---
@@ -145,8 +145,8 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Description**                             | Applies a shearing transformation to the matrix.  This method can be used as a constructor or a method.                                                                     |
 | **Parameters**                              | <ul><li>`xFactor` - the shearing factor to apply to the object in the horizontal orientation.</li><li>`yFactor` - an optional argument specifying a different shearing factor in the vertical orientation.  If this argument is not provided, the `xFactor` argument will be used for both orientations.</li></ul> |
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 181](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L181) |
 
 ---
@@ -161,8 +161,8 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Description**                             | Applies a translation transformation to the matrix.  This method can be used as a constructor or a method.                                                                     |
 | **Parameters**                              | <ul><li>`x` - the distance to translate the object in the horizontal direction.</li><li>`y` - the distance to translate the object in the vertical direction.</li></ul> |
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/canvas/libcanvas_matrix.m line 220](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L220) |
 
 ---

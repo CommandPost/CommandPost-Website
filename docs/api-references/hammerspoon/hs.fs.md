@@ -59,7 +59,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Parameters**                              | <ul><li>filepath - A string containing the path of a file to inspect</li><li>aName - An optional attribute name. If this value is specified, only the attribute requested, is returned</li></ul> |
 | **Returns**                                 | <ul><li>A table with the file attributes corresponding to filepath (or nil followed by an error message in case of error). If the second optional argument is given, then a string is returned with the value of the named attribute. attribute mode is a string, all the others are numbers, and the time related attributes use the same time reference of os.time:</li><li> dev - A number containing the device the file resides on</li><li> ino - A number containing the inode of the file</li><li> mode - A string containing the type of the file (possible values are: file, directory, link, socket, named pipe, char device, block device or other)</li><li> nlink - A number containing a count of hard links to the file</li><li> uid - A number containing the user-id of owner</li><li> gid - A number containing the group-id of owner</li><li> rdev - A number containing the type of device, for files that are char/block devices</li><li> access - A number containing the time of last access modification (as seconds since the UNIX epoch)</li><li> change - A number containing the time of last file status change (as seconds since the UNIX epoch)</li><li> modification - A number containing the time of the last file contents change (as seconds since the UNIX epoch)</li><li> permissions - A 9 character string specifying the user access permissions for the file. The first three characters represent Read/Write/Execute permissions for the file owner. The first character will be "r" if the user has read permissions, "-" if they do not; the second will be "w" if they have write permissions, "-" if they do not; the third will be "x" if they have execute permissions, "-" if they do not. The second group of three characters follow the same convention, but refer to whether or not the file's group have Read/Write/Execute permissions, and the final three characters follow the same convention, but apply to other system users not covered by the Owner or Group fields.</li><li> creation - A number containing the time the file was created (as seconds since the UNIX epoch)</li><li> size - A number containing the file size, in bytes</li><li> blocks - A number containing the number of blocks allocated for file</li><li> blksize - A number containing the optimal file system I/O blocksize</li></ul>          |
 | **Notes**                                   | <ul><li>This function uses `stat()` internally thus if the given filepath is a symbolic link, it is followed (if it points to another link the chain is followed recursively) and the information is about the file it refers to. To obtain information about the link itself, see function `hs.fs.symlinkAttributes()`</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 742](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L742) |
 
 ---
@@ -74,8 +74,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Changes the current working directory to the given path.                                                                     |
 | **Parameters**                              | <ul><li>path - A string containing the path to change working directory to</li></ul> |
 | **Returns**                                 | <ul><li>If successful, returns true, otherwise returns nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 127](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L127) |
 
 ---
@@ -90,8 +90,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Gets the current working directory                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the current working directory, or if an error occurred, nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 155](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L155) |
 
 ---
@@ -107,7 +107,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Parameters**                              | <ul><li>path - A string containing a directory to iterate</li></ul> |
 | **Returns**                                 | <ul><li>An iterator function</li><li>A data object to pass to the iterator function or an error message as a string</li><li>`nil` as the initial argument for the iterator (unused and unnecessary in this case, but conforms to Lua spec for iterators). Ignore this value if you are not using this function with `for` (see Notes).</li><li>A second data object used by `for` to close the directory object immediately when the loop terminates. Ignore this value if you are not using this function with `for` (see Notes).</li></ul>          |
 | **Notes**                                   | <ul><li>Unlike most functions in this module, `hs.fs.dir` will throw a Lua error if the supplied path cannot be iterated.</li><li></li><li>The simplest way to use this function is with a `for` loop. When used in this manner, the `for` loop itself will take care of closing the directory stream for us, even if we break out of the loop early.</li><li>   ```</li><li>      for file in hs.fs.dir("/Users/Guest/Documents") do</li><li>          print(file)</li><li>      end</li><li>   ```</li><li></li><li>It is also possible to use the dir_obj directly if you wish:</li><li>   ```</li><li>      local iterFn, dirObj = hs.fs.dir("/Users/Guest/Documents")</li><li>      local file = dirObj:next() -- get the first file in the directory</li><li>      while (file) do</li><li>          print(file)</li><li>          file = dirObj:next() -- get the next file in the directory</li><li>      end</li><li>      dirObj:close() -- necessary to make sure that the directory stream is closed</li><li>   ```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 473](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L473) |
 
 ---
@@ -122,8 +122,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Returns the display name of the file or directory at a specified path.                                                                     |
 | **Parameters**                              | <ul><li>filepath - The path to the file or directory</li></ul> |
 | **Returns**                                 | <ul><li>a string containing the display name of the file or directory at a specified path; returns nil if no file with the specified path exists.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 1026](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1026) |
 
 ---
@@ -138,8 +138,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Returns the Uniform Type Identifier for the file location specified.                                                                     |
 | **Parameters**                              | <ul><li>path - the path to the file to return the UTI for.</li></ul> |
 | **Returns**                                 | <ul><li>a string containing the Uniform Type Identifier for the file location specified or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 938](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L938) |
 
 ---
@@ -157,8 +157,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
   `pasteboard` - as an NSPasteboard type (see `hs.pasteboard`).
   `ostype`     - four character file type, most common pre OS X, but still used in some legacy APIs.</li></ul> |
 | **Returns**                                 | <ul><li>the file UTI in the alternate format or nil if the UTI does not have an alternate of the specified type.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 962](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L962) |
 
 ---
@@ -174,7 +174,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Parameters**                              | <ul><li>path - the path to the file or directory you wish to get the comments of</li></ul> |
 | **Returns**                                 | <ul><li>a string containing the Finder comments for the file or directory specified.  If no comments have been set for the file, returns an empty string.  If an error occurs, most commonly an invalid path, this function will throw a Lua error.</li></ul>          |
 | **Notes**                                   | <ul><li>This function uses `hs.osascript` to access the file comments through AppleScript</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/fs.lua line 68](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L68) |
 
 ---
@@ -189,8 +189,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Creates a link                                                                     |
 | **Parameters**                              | <ul><li>old - A string containing a path to a filesystem object to link from</li><li>new - A string containing a path to create the link at</li><li>symlink - An optional boolean, true to create a symlink, false to create a hard link. Defaults to false</li></ul> |
 | **Returns**                                 | <ul><li>True if the link was created, otherwise nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 346](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L346) |
 
 ---
@@ -205,8 +205,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Locks a file, or part of it                                                                     |
 | **Parameters**                              | <ul><li>filehandle - An open file</li><li>mode - A string containing either "r" for a shared read lock, or "w" for an exclusive write lock</li><li>start - An optional number containing an offset into the file to start the lock at. Defaults to 0</li><li>length - An optional number containing the length of the file to lock. Defaults to the full size of the file</li></ul> |
 | **Returns**                                 | <ul><li>True if the lock was obtained successfully, otherwise nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 209](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L209) |
 
 ---
@@ -222,7 +222,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Parameters**                              | <ul><li>path - A string containing the path to a directory</li><li>seconds_stale - An optional number containing an age (in seconds) beyond which to consider an existing lock as stale. Defaults to INT_MAX (which is, broadly speaking, equivalent to "never")</li></ul> |
 | **Returns**                                 | <ul><li>If successful, a lock object, otherwise nil and an error string</li></ul>          |
 | **Notes**                                   | <ul><li>This is not a low level OS feature, the lock is actually a file created in the path, called `lockfile.lfs`, so the directory must be writable for this function to succeed</li><li>The returned lock object can be freed with ```lock:free()```</li><li>If the lock already exists and is not stale, the error string returned will be "File exists"</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 241](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L241) |
 
 ---
@@ -237,8 +237,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Creates a new directory                                                                     |
 | **Parameters**                              | <ul><li>dirname - A string containing the path of a directory to create</li></ul> |
 | **Returns**                                 | <ul><li>True if the directory was created, otherwise nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 382](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L382) |
 
 ---
@@ -254,7 +254,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Parameters**                              | <ul><li>data - The binary encoded Bookmark.</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the path to the Bookmark URL or `nil` if an error occurs.</li><li>An error message if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul><li>A bookmark provides a persistent reference to a file-system resource.</li><li>   When you resolve a bookmark, you obtain a URL to the resource’s current location.</li><li>   A bookmark’s association with a file-system resource (typically a file or folder)</li><li>   usually continues to work if the user moves or renames the resource, or if the</li><li>   user relaunches your app or restarts the system.</li><li>No volumes are mounted during the resolution of the bookmark data.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 1078](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1078) |
 
 ---
@@ -269,8 +269,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Gets the absolute path of a given path                                                                     |
 | **Parameters**                              | <ul><li>filepath - Any kind of file or directory path, be it relative or not</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the absolute path of `filepath` (i.e. one that doesn't include `.`, `..` or symlinks)</li><li>Note that symlinks will be resolved to their target file</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 999](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L999) |
 
 ---
@@ -285,8 +285,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Returns the path as binary encoded bookmark data.                                                                     |
 | **Parameters**                              | <ul><li>path - The path to encode</li></ul> |
 | **Returns**                                 | <ul><li>Bookmark data in a binary encoded string or `nil` if path is invalid.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 1047](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1047) |
 
 ---
@@ -301,8 +301,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Removes an existing directory                                                                     |
 | **Parameters**                              | <ul><li>dirname - A string containing the path to a directory to remove</li></ul> |
 | **Returns**                                 | <ul><li>True if the directory was removed, otherwise nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 411](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L411) |
 
 ---
@@ -318,7 +318,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Parameters**                              | <ul><li>path    - the path to the file or directory you wish to set the comments of</li><li>comment - a string specifying the comment to set.  If this parameter is missing or is an explicit nil, the existing comment is cleared.</li></ul> |
 | **Returns**                                 | <ul><li>true on success; on error, most commonly an invalid path, this function will throw a Lua error.</li></ul>          |
 | **Notes**                                   | <ul><li>This function uses `hs.osascript` to access the file comments through AppleScript</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/fs.lua line 95](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L95) |
 
 ---
@@ -334,7 +334,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Parameters**                              | <ul><li>filepath - A string containing the path of a link to inspect</li><li>aName - An optional attribute name. If this value is specified, only the attribute requested, is returned</li></ul> |
 | **Returns**                                 | <ul><li>A table or string if the values could be found, otherwise nil and an error string.</li></ul>          |
 | **Notes**                                   | <ul><li>The return values for this function are identical to those provided by `hs.fs.attributes()` with the following addition: the attribute name "target" is added and specifies a string containing the absolute path that the symlink points to.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/fs.lua line 127](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L127) |
 
 ---
@@ -349,8 +349,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Adds one or more tags to the Finder tags of a file                                                                     |
 | **Parameters**                              | <ul><li>filepath - A string containing the path of a file</li><li>tags - A table containing one or more strings, each containing a tag name</li></ul> |
 | **Returns**                                 | <ul><li>true if the tags were updated; throws a lua error if an error occurs updating the tags</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 857](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L857) |
 
 ---
@@ -365,8 +365,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Gets the Finder tags of a file                                                                     |
 | **Parameters**                              | <ul><li>filepath - A string containing the path of a file</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the list of the file's tags, or nil if the file has no tags assigned; throws a lua error if an error accessing the file occurs</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 825](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L825) |
 
 ---
@@ -381,8 +381,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Removes Finder tags from a file                                                                     |
 | **Parameters**                              | <ul><li>filepath - A string containing the path of a file</li><li>tags - A table containing one or more strings, each containing a tag name</li></ul> |
 | **Returns**                                 | <ul><li>true if the tags were updated; throws a lua error if an error occurs updating the tags</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 901](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L901) |
 
 ---
@@ -397,8 +397,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Sets the Finder tags of a file, removing any that are already set                                                                     |
 | **Parameters**                              | <ul><li>filepath - A string containing the path of a file</li><li>tags - A table containing zero or more strings, each containing a tag name</li></ul> |
 | **Returns**                                 | <ul><li>true if the tags were set; throws a lua error if an error occurs setting the new tags</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 880](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L880) |
 
 ---
@@ -413,8 +413,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Returns the path of the temporary directory for the current user.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The path to the system designated temporary directory for the current user.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 924](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L924) |
 
 ---
@@ -429,8 +429,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Updates the access and modification times of a file                                                                     |
 | **Parameters**                              | <ul><li>filepath - A string containing the path of a file to touch</li><li>atime - An optional number containing the new access time of the file to set (as seconds since the Epoch). Defaults to now</li><li>mtime - An optional number containing the new modification time of the file to set (as seconds since the Epoch). Defaults to the value of atime</li></ul> |
 | **Returns**                                 | <ul><li>True if the operation was successful, otherwise nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 599](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L599) |
 
 ---
@@ -445,8 +445,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Unlocks a file or a part of it.                                                                     |
 | **Parameters**                              | <ul><li>filehandle - An open file</li><li>start - An optional number containing an offset from the start of the file, to unlock. Defaults to 0</li><li>length - An optional number containing the length of file to unlock. Defaults to the full size of the file</li></ul> |
 | **Returns**                                 | <ul><li>True if the unlock succeeded, otherwise nil and an error string</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L315) |
 
 ---
@@ -461,8 +461,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 | **Description**                             | Returns the encoded URL from a path.                                                                     |
 | **Parameters**                              | <ul><li>path - The path</li></ul> |
 | **Returns**                                 | <ul><li>A string or `nil` if path is invalid.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/fs/libfs.m line 1130](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1130) |
 
 ---

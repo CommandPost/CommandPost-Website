@@ -25,8 +25,8 @@ Each [Otherwise](cp.rx.go.If.Then.Otherwise.md) can have a subsequent `Then` whi
 | **Description**                             | Specifies additional `resolvables` to resolve after the previous `Then`.                                                                     |
 | **Parameters**                              | <ul><li>...      - The list of `resolvable` values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Then` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/If.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L202) |
 
 ---

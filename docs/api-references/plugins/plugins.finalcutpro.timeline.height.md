@@ -28,7 +28,7 @@ Shortcut for changing Final Cut Pro's Timeline Height
 | **Signature**                               | `plugins.finalcutpro.timeline.height.changeTimelineClipHeightAlreadyInProgress -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Change timeline clip height already in progress.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/height.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/height.lua#L18) |
 
 ---
@@ -45,8 +45,8 @@ Shortcut for changing Final Cut Pro's Timeline Height
 | **Description**                             | Change the Timeline Clip Height                                                                     |
 | **Parameters**                              | <ul><li>direction - "up" or "down"</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/height.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/height.lua#L64) |
 
 ---
@@ -61,8 +61,8 @@ Shortcut for changing Final Cut Pro's Timeline Height
 | **Description**                             | Change Timeline Clip Height Release.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/height.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/height.lua#L50) |
 
 ---
@@ -77,8 +77,8 @@ Shortcut for changing Final Cut Pro's Timeline Height
 | **Description**                             | Shift Clip Height                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/height.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/height.lua#L23) |
 
 ---

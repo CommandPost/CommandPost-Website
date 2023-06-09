@@ -25,8 +25,8 @@ Provides an Error message, which can be thrown via the `error` function.
 | **Description**                             | Checks if the `other` is an instance of the `Error` class.                                                                     |
 | **Parameters**                              | <ul><li>other - An object to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/spec/Error.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Error.lua#L9) |
 
 ---

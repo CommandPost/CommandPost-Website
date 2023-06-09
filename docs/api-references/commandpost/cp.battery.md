@@ -99,7 +99,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.designCapacity <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the design capacity of the battery in mAh.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L43) |
 
 ---
@@ -112,7 +112,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.health <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the health status of the battery; either "Good", "Fair" or "Poor",                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L47) |
 
 ---
@@ -125,7 +125,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.healthCondition <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the health condition status of the battery:                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L52) |
 
 ---
@@ -138,7 +138,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.isCharged <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Checks if the battery is fully charged.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L59) |
 
 ---
@@ -151,7 +151,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.isCharging <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Checks if the battery is currently charging.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L63) |
 
 ---
@@ -164,7 +164,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.isFinishingCharge <cp.prop: boolean | string; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Checks if the battery is trickle charging;                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L67) |
 
 ---
@@ -190,7 +190,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.otherBatteryInfo <cp.prop: table | nil; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns information about non-PSU batteries (e.g. bluetooth accessories). If none are found, `nil` is returned.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L79) |
 
 ---
@@ -203,7 +203,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.percentage <cp.prop; string; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the current source of power; either `"AC Power"`, `"Battery Power"` or `"Off Line"`.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L83) |
 
 ---
@@ -216,7 +216,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.psuSerial <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the serial number of the attached power supply, or `0` if not present.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L87) |
 
 ---
@@ -242,7 +242,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.timeToFullCharge <cp.prop; number; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the time remaining for the battery to be fully charged, in minutes, or `-`` if still being calculated.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L101) |
 
 ---
@@ -255,7 +255,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.voltage <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the current voltage of the battery in mV.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L105) |
 
 ---
@@ -268,7 +268,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery.watts <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the power entering or leaving the battery, in W.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L109) |
 
 ---
@@ -283,7 +283,7 @@ the `cp.prop` watchers to trigger.
 | **Signature**                               | `cp.battery._watcher -> hs.battery.watcher object`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The battery watcher.                                                                     |
-| **Notes**                                   | - None |
+| **Notes**                                   | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L133) |
 
 ---
@@ -300,8 +300,8 @@ the `cp.prop` watchers to trigger.
 | **Description**                             | Starts the battery watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L147) |
 
 ---
@@ -316,8 +316,8 @@ the `cp.prop` watchers to trigger.
 | **Description**                             | Stops the battery watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp//battery.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L160) |
 
 ---

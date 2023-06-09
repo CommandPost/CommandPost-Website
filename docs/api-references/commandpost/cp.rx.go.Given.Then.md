@@ -32,8 +32,8 @@ Given(anObservable):Then(function(value) return value:doSomething() end)
 | **Description**                             | Allows another set of `resolvables` to be processed after a `Then` has resolved.                                                                     |
 | **Parameters**                              | <ul><li>...      - The list of `resolvable` values to process.</li></ul> |
 | **Returns**                                 | <ul><li>Another [Given.Then](cp.rx.go.Given.Then.md) instance.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [src/extensions/cp/rx/go/Given.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Given.lua#L105) |
 
 ---

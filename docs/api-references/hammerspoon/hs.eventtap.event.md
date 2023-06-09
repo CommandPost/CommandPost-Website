@@ -126,7 +126,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>modifiers - A table containing the keyboard modifiers to apply ("cmd", "alt", "shift", "ctrl", "rightCmd", "rightAlt", "rightShift", "rightCtrl", or "fn")</li><li>character - A string containing a character to be emitted</li></ul> |
 | **Returns**                                 | <ul><li>a table with events which contains the individual events that Apple recommends for building up a keystroke combination (see [hs.eventtap.event.newKeyEvent](#newKeyEvents)) in the order that they should be posted (i.e. the first half will contain keyDown events and the second half will contain keyUp events)</li></ul>          |
 | **Notes**                                   | <ul><li>The `modifiers` table must contain the full name of the modifiers you wish used for the keystroke as defined in `hs.keycodes.map` -- the Unicode equivalents are not supported by this function.</li><li>The returned table will always contain an even number of events -- the first half will be the keyDown events and the second half will be the keyUp events.</li><li>The events have not been posted; the table can be used without change as the return value for a callback to a watcher defined with [hs.eventtap.new](#new).</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/eventtap.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/eventtap.lua#L87) |
 
 ---
@@ -143,8 +143,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Description**                             | Duplicates an `hs.eventtap.event` event for further modification or injection                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A new `hs.eventtap.event` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 22](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L22) |
 
 ---
@@ -160,7 +160,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a new `hs.eventtap.event` object</li></ul>          |
 | **Notes**                                   | <ul><li>this is an empty event that you should set a type for and whatever other properties may be appropriate before posting.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 41](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L41) |
 
 ---
@@ -175,8 +175,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Description**                             | Creates an event from the data encoded in the string provided.                                                                     |
 | **Parameters**                              | <ul><li>data - a string containing binary data provided by [hs.eventtap.event:asData](#asData) representing an event.</li></ul> |
 | **Returns**                                 | <ul><li>a new `hs.eventtap.event` object or nil if the string did not represent a valid event</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 60](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L60) |
 
 ---
@@ -213,7 +213,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   fn</li><li>key - A string containing the name of a key (see `hs.hotkey` for more information) or an integer specifying the virtual keycode for the key.</li><li>isdown - A boolean, true if the event should be a key-down, false if it should be a key-up</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.eventtap.event` object</li></ul>          |
 | **Notes**                                   | <ul><li>The original version of this constructor utilized a shortcut which merged `flagsChanged` and `keyUp`/`keyDown` events into one.  This approach is still supported for backwards compatibility and because it *does* work in most cases.</li><li>According to Apple Documentation, the proper way to perform a keypress with modifiers is through multiple key events; for example to generate 'Å', you should do the following:</li><li> ~~~lua</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.shift, true):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.alt, true):post()</li><li>    hs.eventtap.event.newKeyEvent("a", true):post()</li><li>    hs.eventtap.event.newKeyEvent("a", false):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.alt, false):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.shift, false):post()</li><li> ~~~</li><li>The shortcut method is still supported, though if you run into odd behavior or need to generate `flagsChanged` events without a corresponding `keyUp` or `keyDown`, please check out the syntax demonstrated above.</li><li> ~~~lua</li><li>    hs.eventtap.event.newKeyEvent({"shift", "alt"}, "a", true):post()</li><li>    hs.eventtap.event.newKeyEvent({"shift", "alt"}, "a", false):post()</li><li> ~~~</li><li>The shortcut approach is still limited to generating only the left version of modifiers.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 826](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L826) |
 
 ---
@@ -233,8 +233,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   ctrl
   fn</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.eventtap` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/eventtap.lua line 113](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/eventtap.lua#L113) |
 
 ---
@@ -254,8 +254,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   ctrl
   fn</li><li>unit - An optional string containing the name of the unit for scrolling. Either "line" (the default) or "pixel"</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.eventtap.event` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 1004](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L1004) |
 
 ---
@@ -293,7 +293,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   NUM_LOCK</li><li>isdown - A boolean, true if the event should be a key-down, false if it should be a key-up</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.eventtap.event` object</li></ul>          |
 | **Notes**                                   | <ul><li>To set modifiers on a system key event (e.g. cmd/ctrl/etc), see the `hs.eventtap.event:setFlags()` method</li><li>The event names are case sensitive</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 904](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L904) |
 
 ---
@@ -311,7 +311,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a string representing the event or nil if the event cannot be represented as a string</li></ul>          |
 | **Notes**                                   | <ul><li>You can recreate the event for later posting with [hs.eventtap.event.newEventFromData](#newEventFromData)</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 264](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L264) |
 
 ---
@@ -327,7 +327,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>button - A number between 0 and 31. The left mouse button is 0, the right mouse button is 1 and the middle mouse button is 2. The meaning of the remaining buttons varies by hardware, and their functionality varies by application (typically they are not present on a mouse and have no effect in an application)</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the specified mouse button is to be clicked by the event</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be called on mouse events</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 767](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L767) |
 
 ---
@@ -343,7 +343,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>clean -- an optional parameter, default `false`, which indicates if key modifiers, other than Shift, should be stripped from the keypress before converting to Unicode.</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Unicode character represented by the keyDown or keyUp event, or nil if the event is not a keyUp or keyDown.</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on keyboard events</li><li>If `clean` is true, all modifiers except for Shift are stripped from the character before converting to the Unicode character represented by the keypress.</li><li>If the keypress does not correspond to a valid Unicode character, an empty string is returned (e.g. if `clean` is false, then Opt-E will return an empty string, while Opt-Shift-E will return an accent mark).</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 511](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L511) |
 
 ---
@@ -358,8 +358,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Description**                             | Gets the keyboard modifiers of an event                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the keyboard modifiers that present in the event - i.e. zero or more of the following keys, each with a value of `true`:</li><li> cmd</li><li> alt</li><li> shift</li><li> ctrl</li><li> fn</li><li>The table responds to the following methods:</li><li> contain(mods) -> boolean</li><li>  Returns true if the modifiers contain all of given modifiers</li><li> containExactly(mods) -> boolean</li><li>  Returns true if the modifiers contain all of given modifiers exactly and nothing else</li><li>Parameter mods is a table containing zero or more of the following:</li><li> cmd or ⌘</li><li> alt or ⌥</li><li> shift or ⇧</li><li> ctrl or ⌃</li><li> fn</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 385](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L385) |
 
 ---
@@ -375,7 +375,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the raw keycode, taken from `hs.keycodes.map`</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on keyboard events</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 541](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L541) |
 
 ---
@@ -391,7 +391,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>prop - A value taken from `hs.eventtap.event.properties`</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the value of the requested property</li></ul>          |
 | **Notes**                                   | <ul><li>The properties are `CGEventField` values, as documented at https://developer.apple.com/library/mac/documentation/Carbon/Reference/QuartzEventServicesRef/index.html#//apple_ref/c/tdef/CGEventField</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 735](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L735) |
 
 ---
@@ -407,7 +407,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table with two keys:</li><li>  CGEventData -- a table with keys containing CGEvent data about the event.</li><li>  NSEventData -- a table with keys containing NSEvent data about the event.</li></ul>          |
 | **Notes**                                   | <ul><li>Most of the data in `CGEventData` is already available through other methods, but is presented here without any cleanup or parsing.</li><li>This method is expected to be used mostly for testing and expanding the range of possibilities available with the hs.eventtap module.  If you find that you are regularly using specific data from this method for common or re-usable purposes, consider submitting a request for adding a more targeted method to hs.eventtap or hs.eventtap.event -- it will likely be more efficient and faster for common tasks, something eventtaps need to be to minimize affecting system responsiveness.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 458](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L458) |
 
 ---
@@ -422,8 +422,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Description**                             | Returns a table containing more information about some touch related events.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>if the event is a touch event (i.e. is an event of type `hs.eventtap.event.types.gesture`), then this method returns a table with zero or more of the following key-value pairs:</li><li>  if the gesture is for a pressure event:</li><li>    `pressure`         - a number between 0.0 and 1.0 inclusive indicating the relative amount of pressure applied by the touch; trackpads which are not pressure sensitive will only report the discrete values of 0.0 and 1.0.</li><li>    `stage`            - an integer between 0 and 2 specifying the stage. 0 represents a touch transitioning to a state too light to be considered a touch, usually at the end of a click; 1 represents a touch with enough pressure to be considered a mouseDown event; 2 represents additional pressure, usually what would trigger a "deep" or "force" touch.</li><li>    `stageTransition`  - a number between 0.0 and 1.0. As the pressure increases and transition between stages begins, this will rise from 0.0 to 1.0; as the pressure decreases and a transition between stages begins, this will fall from 0.0 to -1.0. When the pressure is solidly within a specific stage, this will remain 0.0.</li><li>    `pressureBehavior` - a string specifying the effect or purpose of the pressure. Note that the exact meaning (in terms of haptic feedback or action being performed) of each label is target application or ui element specific. Valid values for this key are:</li><li>      "unknown", "default", "click", "generic", "accelerator", "deepClick", "deepDrag"</li><li>  if the gesture is for a magnification event:</li><li>    `magnification` - a number specifying the change in magnification that should be added to the current scaling of an item to achieve the new scale factor.</li><li>  if the gesture is for a rotation event:</li><li>    `rotation` - a number specifying in degrees the change in rotation that should be added as specified by this event. Clockwise rotation is indicated by a negative number while counter-clockwise rotation will be positive.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 1239](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L1239) |
 
 ---
@@ -439,7 +439,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>if the event is of the type gesture, returns a table; otherwise returns nil.</li></ul>          |
 | **Notes**                                   | <ul><li>if the event is of the type gesture, the table will contain one or more tables in an array. Each member table of the array will have the following key-value pairs:</li><li>  `device`                     - a string containing a unique identifier for the device on which the touch occurred. At present we do not have a way to match the identifier to a specific touch device, but if multiple such devices are attached to the computer, this value will differ between them.</li><li>  `deviceSize`                 - a size table containing keys `h` and `w` for the height and width of the touch device in points (72 PPI resolution).</li><li>  `force`                      - a number representing a measure of the force of the touch when the device is a forcetouch trackpad. This will be 0.0 for non-forcetouch trackpads and the touchbar.</li><li>  `identity`                   - a string specifying a unique identifier for the touch guaranteed to be unique for the life of the touch. This identifier may be used to track the movement of a specific touch (e.g. finger) as it moves through successive callbacks.</li><li>  `phase`                      - a string specifying the current phase the touch is considered to be in. The possible values are: "began", "moved", "stationary", "ended", or "cancelled".</li><li>  `resting`                    - Resting touches occur when a user simply rests their thumb on the trackpad device. Requires that the foreground window has views accepting resting touches.</li><li>  `timestamp`                  - a number representing the time the touch was detected. This number corresponds to seconds since the last system boot, not including time the computer has been asleep. Comparable to `hs.timer.absoluteTime() / 1000000000`.</li><li>  `touching`                   - a boolean specifying whether or not the touch phase is "began", "moved", or "stationary" (i.e. is *not* "ended" or "cancelled").</li><li>  `type`                       - a string specifying the type of touch. A "direct" touch will indicate a touchbar, while a trackpad will report "indirect".</li><li>The following fields will be present when the touch is from a touchpad (`type` == "indirect")`</li><li> `normalizedPosition`         - a point table specifying the `x` and `y` coordinates of the touch, each normalized to be a value between 0.0 and 1.0. `{ x = 0, y = 0 }` is the lower left corner of the touch device.</li><li> `previousNormalizedPosition` - a point table specifying the `x` and `y` coordinates of the previous position for this specific touch (as linked by `identity`) normalized to values between 0.0 and 1.0.</li><li>The following fields will be present when the touch is from the touchbar (`type` == "direct")`</li><li> `location`                   - a point table specifying the `x` and `y` coordinates of the touch location within the touchbar.</li><li> `previousLocation`           - a point table specifying the `x` and `y` coordinates of the previous location for this specific touch (as linked by `identity`) within the touchbar.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 1197](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L1197) |
 
 ---
@@ -455,7 +455,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>`nsSpecificType` - an optional boolean, default false, specifying whether or not a more specific Cocoa NSEvent type should be returned, if available.</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the type of the event, taken from `hs.eventtap.event.types`</li></ul>          |
 | **Notes**                                   | <ul><li>some newer events are grouped into a more generic event for watching purposes and the specific event type is determined by examining the event through the Cocoa API. The primary example of this is for gestures on a trackpad or touches of the touchbar, as all of these are grouped under the `hs.eventtap.event.types.gesture` event. For example:</li><li>     ```lua</li><li>     myTap = hs.eventtap.new( { hs.eventtap.event.types.gesture }, function(e)</li><li>         local gestureType = e:getType(true)</li><li>         if gestureType == hs.eventtap.types.directTouch then</li><li>             -- they touched the touch bar</li><li>         elseif gestureType == hs.eventtap.types.gesture then</li><li>             -- they are touching the trackpad, but it's not for a gesture</li><li>         elseif gestureType == hs.eventtap.types.magnify then</li><li>             -- they're preforming a magnify gesture</li><li>         -- etc -- see hs.eventtap.event.types for more</li><li>         endif</li><li>     end</li><li>     ```</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 694](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L694) |
 
 ---
@@ -470,8 +470,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Description**                             | Gets the single unicode character of an event                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the unicode character</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 580](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L580) |
 
 ---
@@ -487,7 +487,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>pointTable - an optional point table specifying the x and y coordinates of the mouse pointer location for the event</li></ul> |
 | **Returns**                                 | <ul><li>if pointTable is provided, returns the `hs.eventtap.event` object; otherwise returns a point table containing x and y key-value pairs specifying the mouse pointer location as specified for this event.</li></ul>          |
 | **Notes**                                   | <ul><li>the use or effect of this method is undefined if the event is not a mouse type event.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 288](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L288) |
 
 ---
@@ -502,8 +502,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Description**                             | Posts the event to the OS - i.e. emits the keyboard/mouse input defined by the event                                                                     |
 | **Parameters**                              | <ul><li>app - An optional `hs.application` object. If specified, the event will only be sent to that application</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.eventtap.event` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 652](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L652) |
 
 ---
@@ -519,7 +519,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>flags - an optional integer, made by logically combining values from [hs.eventtap.event.rawFlagMasks](#rawFlagMasks) specifying the modifier keys which should be set for this event</li></ul> |
 | **Returns**                                 | <ul><li>if flags is provided, returns the `hs.eventtap.event` object; otherwise returns the current flags set as an integer</li></ul>          |
 | **Notes**                                   | <ul><li>This method is experimental and may undergo changes or even removal in the future</li><li>See [hs.eventtap.event.rawFlagMasks](#rawFlagMasks) for more information</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 359](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L359) |
 
 ---
@@ -539,8 +539,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   ctrl
   fn</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.eventap.event` object.</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 426](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L426) |
 
 ---
@@ -556,7 +556,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>keycode - A number containing a raw keycode, taken from `hs.keycodes.map`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.eventtap.event` object</li></ul>          |
 | **Notes**                                   | <ul><li>This method should only be used on keyboard events</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 559](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L559) |
 
 ---
@@ -572,7 +572,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>prop - A value from `hs.eventtap.event.properties`</li><li>value - A number containing the value of the specified property</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.eventtap.event` object.</li></ul>          |
 | **Notes**                                   | <ul><li>The properties are `CGEventField` values, as documented at https://developer.apple.com/library/mac/documentation/Carbon/Reference/QuartzEventServicesRef/index.html#//apple_ref/c/tdef/CGEventField</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 790](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L790) |
 
 ---
@@ -587,8 +587,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Description**                             | Set the type for this event.                                                                     |
 | **Parameters**                              | <ul><li>type - an integer matching one of the event types described in [hs.eventtap.event.types](#types)</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.eventtap.event` object</li></ul>          |
-| **Notes**                                   | <ul></ul> |
-| **Examples**                                | <ul></ul> |
+| **Notes**                                   | <ul><li>None</li></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 341](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L341) |
 
 ---
@@ -604,7 +604,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>string - A string containing unicode characters, which will be applied to the event</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.eventtap.event` object</li></ul>          |
 | **Notes**                                   | <ul><li>Calling this method will reset any flags previously set on the event (because they don't make any sense, and you should not try to set flags again)</li><li>This is likely to only work with short unicode strings that resolve to a single character</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 609](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L609) |
 
 ---
@@ -620,7 +620,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>If the event is a NSSystemDefined event of subtype AUX_CONTROL_BUTTONS, a table with the following keys defined:</li><li>  key    -- a string containing one of the following labels indicating the key involved:</li><li>    SOUND_UP</li><li>    SOUND_DOWN</li><li>    MUTE</li><li>    BRIGHTNESS_UP</li><li>    BRIGHTNESS_DOWN</li><li>    CONTRAST_UP</li><li>    CONTRAST_DOWN</li><li>    POWER</li><li>    LAUNCH_PANEL</li><li>    VIDMIRROR</li><li>    PLAY</li><li>    EJECT</li><li>    NEXT</li><li>    PREVIOUS</li><li>    FAST</li><li>    REWIND</li><li>    ILLUMINATION_UP</li><li>    ILLUMINATION_DOWN</li><li>    ILLUMINATION_TOGGLE</li><li>    CAPS_LOCK</li><li>    HELP</li><li>    NUM_LOCK</li><li>     or "undefined" if the key detected is unrecognized.</li><li>  keyCode -- the numeric keyCode corresponding to the key specified in `key`.</li><li>  down   -- a boolean value indicating if the key is pressed down (true) or just released (false)</li><li>  repeat -- a boolean indicating if this event is because the keydown is repeating.  This will always be false for a key release.</li><li>If the event does not correspond to a NSSystemDefined event of subtype AUX_CONTROL_BUTTONS, then an empty table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>CAPS_LOCK seems to sometimes generate 0 or 2 key release events (down == false), especially on builtin laptop keyboards, so it is probably safest (more reliable) to look for cases where down == true only.</li><li>If the key field contains "undefined", you can use the number in keyCode to look it up in `/System/Library/Frameworks/IOKit.framework/Headers/hidsystem/ev_keymap.h`.  If you believe the numeric value is part of a new system update or was otherwise mistakenly left out, please submit the label (it will defined in the header file as `NX_KEYTYPE_something`) and number to the Hammerspoon maintainers at https://github.com/Hammerspoon/hammerspoon with a request for inclusion in the next Hammerspoon update.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 1103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L1103) |
 
 ---
@@ -636,7 +636,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 | **Parameters**                              | <ul><li>absolutetime - an optional integer specifying the timestamp for the event.</li></ul> |
 | **Returns**                                 | <ul><li>if absolutetime is provided, returns the `hs.eventtap.event` object; otherwise returns the current timestamp for the event.</li></ul>          |
 | **Notes**                                   | <ul><li>Synthesized events have a timestamp of 0 by default.</li><li>The timestamp, if specified, is expressed as an integer representing the number of nanoseconds since the system was last booted.  See `hs.timer.absoluteTime`.</li><li>This field appears to be informational only and is not required when crafting your own events with this module.</li></ul> |
-| **Examples**                                | <ul></ul> |
+| **Examples**                                | <ul><li>None</li></ul> |
 | **Source**                                  | [extensions/eventtap/libeventtap_event.m line 314](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/eventtap/libeventtap_event.m#L314) |
 
 ---
