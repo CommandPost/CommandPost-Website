@@ -25,7 +25,7 @@ The header of the Commands.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.command <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Command". Pressing more than                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L62){target="_blank"} |
 
 ---
@@ -38,7 +38,7 @@ The header of the Commands.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.key <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Key". Pressing more than                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L78){target="_blank"} |
 
 ---
@@ -51,7 +51,7 @@ The header of the Commands.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.modifiers <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Modifiers". Pressing more than                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L70){target="_blank"} |
 
 ---

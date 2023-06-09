@@ -44,8 +44,8 @@ Represents the Speed Popover.
 | **Description**                             | Checks if the element is a "Video" Role.                                                                     |
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L50){target="_blank"} |
 
 ---
@@ -62,8 +62,8 @@ Represents the Speed Popover.
 | **Description**                             | Creates a new instance with the specified `parent` and `uiFinder`.                                                                     |
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `SpeedPopover`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L64){target="_blank"} |
 
 ---
@@ -78,7 +78,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:byDuration <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Duration" radio button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L157){target="_blank"} |
 
 ---
@@ -91,7 +91,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:byRate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Rate" radio button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L150){target="_blank"} |
 
 ---
@@ -104,7 +104,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:direction <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioGroup](cp.ui.RadioGroup.md) for the "Direction" radio group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L114){target="_blank"} |
 
 ---
@@ -117,7 +117,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:duration <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextField](cp.ui.TextField.md) for the "Duration" text field.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L184){target="_blank"} |
 
 ---
@@ -130,7 +130,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:forward <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Forward" radio button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L123){target="_blank"} |
 
 ---
@@ -143,7 +143,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:rate <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextField](cp.ui.TextField.md) for the "Rate" text field.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L173){target="_blank"} |
 
 ---
@@ -156,7 +156,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:reverse <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Reverse" radio button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L132){target="_blank"} |
 
 ---
@@ -169,7 +169,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:ripple <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) for the "Ripple" checkbox.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L164){target="_blank"} |
 
 ---
@@ -182,7 +182,7 @@ Represents the Speed Popover.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:setSpeed <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioGroup](cp.ui.RadioGroup.md) for the "Set Speed" radio group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L141){target="_blank"} |
 
 ---
@@ -199,8 +199,8 @@ Represents the Speed Popover.
 | **Description**                             | Returns a `Statement` that will show the Speed Popover.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement` which will send `true` if it successful, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/SpeedPopover.lua#L92){target="_blank"} |
 
 ---

@@ -26,8 +26,8 @@ Functions for managing text on the web.
 | **Description**                             | Escapes a string                                                                     |
 | **Parameters**                              | <ul><li>s - The string you want to escape</li></ul> |
 | **Returns**                                 | <ul><li>The string, escaped for XML.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/text.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/text.lua#L42){target="_blank"} |
 
 ---
@@ -42,8 +42,8 @@ Functions for managing text on the web.
 | **Description**                             | Unescapes a string from XML encoding.                                                                     |
 | **Parameters**                              | <ul><li>s - The string you want to unescape</li></ul> |
 | **Returns**                                 | <ul><li>The string, unescaped.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/text.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/text.lua#L19){target="_blank"} |
 
 ---

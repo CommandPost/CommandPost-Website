@@ -23,7 +23,7 @@ Orders clips on a timeline by timecode.
 | **Signature**                               | `plugins.finalcutpro.toolbox.autosequence.removeGaps <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Gaps?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/toolbox/autosequence/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/autosequence/init.lua#L35){target="_blank"} |
 
 ---

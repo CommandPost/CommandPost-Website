@@ -23,7 +23,7 @@ Disable Waveforms Plugin.
 | **Signature**                               | `plugins.finalcutpro.advanced.disablewaveforms.disableWaveform <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Waveforms Disabled?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/advanced/disablewaveforms.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/disablewaveforms.lua#L13){target="_blank"} |
 
 ---

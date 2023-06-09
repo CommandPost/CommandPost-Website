@@ -32,8 +32,8 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Executes the action with the provided parameters.                                                                     |
 | **Parameters**                              | <ul><li>`action`  - A table representing the action</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L110){target="_blank"} |
 
 ---
@@ -48,8 +48,8 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Gets the ID from an action.                                                                     |
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L97){target="_blank"} |
 
 ---
@@ -64,8 +64,8 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Get ID.                                                                     |
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L317){target="_blank"} |
 
 ---
@@ -80,8 +80,8 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>actionmanager - The action manager object</li><li>cmds - Final Cut Pro commands manager</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L32){target="_blank"} |
 
 ---
@@ -96,8 +96,8 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Adds available choices to the selection.                                                                     |
 | **Parameters**                              | <ul><li>`choices` - The optional `cp.choices` to add choices to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L241){target="_blank"} |
 
 ---
@@ -112,8 +112,8 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | On Execute.                                                                     |
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L330){target="_blank"} |
 
 ---
@@ -128,8 +128,8 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Resets the set of choices.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L150){target="_blank"} |
 
 ---

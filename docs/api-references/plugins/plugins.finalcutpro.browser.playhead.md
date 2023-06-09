@@ -36,8 +36,8 @@ Browser Playhead Plugin.
 | **Description**                             | Prompts the user to change the Playhead Highlight Colour.                                                                     |
 | **Parameters**                              | <ul><li>value - An RGB table with the selected colour (see `hs.drawing.color`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L100){target="_blank"} |
 
 ---
@@ -52,8 +52,8 @@ Browser Playhead Plugin.
 | **Description**                             | Delete's the highlight if it's currently visible on the screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L273){target="_blank"} |
 
 ---
@@ -68,8 +68,8 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current highlight colour.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L48){target="_blank"} |
 
 ---
@@ -84,8 +84,8 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current custom highlight colour.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L74){target="_blank"} |
 
 ---
@@ -100,8 +100,8 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current highlight shape.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>"Rectangle", "Circle" or "Diamond" or `nil`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L123){target="_blank"} |
 
 ---
@@ -116,8 +116,8 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current highlight playhead time.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number or `nil`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L149){target="_blank"} |
 
 ---
@@ -132,8 +132,8 @@ Browser Playhead Plugin.
 | **Description**                             | Highlight's the Final Cut Pro Browser Playhead.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L175){target="_blank"} |
 
 ---
@@ -148,8 +148,8 @@ Browser Playhead Plugin.
 | **Description**                             | Highlights a specific frame.                                                                     |
 | **Parameters**                              | <ul><li>frame - Frame as per `hs.geometry.rect`</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L200){target="_blank"} |
 
 ---
@@ -164,8 +164,8 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Playhead Highlight Colour.                                                                     |
 | **Parameters**                              | <ul><li>value - An RGB table with the selected colour (see `hs.drawing.color`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L61){target="_blank"} |
 
 ---
@@ -180,8 +180,8 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Custom Playhead Highlight Colour.                                                                     |
 | **Parameters**                              | <ul><li>value - An RGB table with the selected colour (see `hs.drawing.color`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L87){target="_blank"} |
 
 ---
@@ -196,8 +196,8 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Custom Playhead Highlight Shape.                                                                     |
 | **Parameters**                              | <ul><li>value - A string which can be "Rectangle", "Circle" or "Diamond".</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L136){target="_blank"} |
 
 ---
@@ -212,8 +212,8 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Custom Playhead Highlight Time.                                                                     |
 | **Parameters**                              | <ul><li>value - A number</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L162){target="_blank"} |
 
 ---

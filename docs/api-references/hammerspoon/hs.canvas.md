@@ -97,7 +97,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Signature**                               | `hs.canvas.compositeTypes[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing the possible compositing rules for elements within the canvas.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3728](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3728){target="_blank"} |
 
 ---
@@ -110,7 +110,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Signature**                               | `hs.canvas.windowBehaviors[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Array of window behavior labels for determining how a canvas or drawing object is handled in Spaces and Exposé                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3757](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3757){target="_blank"} |
 
 ---
@@ -141,7 +141,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the default style attributes `hs.canvas` uses for text drawing objects in the `hs.styledtext` attributes table format.</li></ul>          |
 | **Notes**                                   | <ul><li>This method is intended to be used in conjunction with `hs.styledtext` to create styledtext objects that are based on, or a slight variation of, the defaults used by `hs.canvas`.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2395](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2395){target="_blank"} |
 
 ---
@@ -157,7 +157,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the attributes and specifications defined for this module.</li></ul>          |
 | **Notes**                                   | <ul><li>This is primarily for debugging purposes and may be removed in the future.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2376](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2376){target="_blank"} |
 
 ---
@@ -172,8 +172,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Provides specification information for the recognized attributes, or the specific attribute specified.                                                                     |
 | **Parameters**                              | <ul><li>`attribute` - an optional string specifying an element attribute. If this argument is not provided, all attributes are listed.</li></ul> |
 | **Returns**                                 | <ul><li>a string containing some of the information provided by the [hs.canvas.elementSpec](#elementSpec) in a manner that is easy to reference from the Hammerspoon console.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 716](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L716){target="_blank"} |
 
 ---
@@ -189,7 +189,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`state` - an optional boolean, default true, specifying whether or not canvas containers should use a custom accessibility subrole.</li></ul> |
 | **Returns**                                 | <ul><li>the current, possibly changed, value as a boolean</li></ul>          |
 | **Notes**                                   | <ul><li>Under some conditions, it has been observed that Hammerspoon's `hs.window.filter` module will misidentify Canvas and Drawing objects as windows of the Hammerspoon application that it should consider when evaluating its filters. To eliminate this, `hs.canvas` objects (and previously `hs.drawing` objects, which are now deprecated and pass through to `hs.canvas`) were given a nonstandard accessibility subrole to prevent them from being included. This has caused some issues with third party tools, like Yabai, which also use the accessibility subroles for determining what actions it may take with Hammerspoon windows.</li><li></li><li>By passing `false` to this function, all canvas objects will revert to specifying the standard subrole for the containing windows by default and should work as expected with third party tools. Note that this may cause issues or slowdowns if you are also using `hs.window.filter`; a more permanent solution is being considered.</li><li></li><li>If you need to control the subrole of canvas objects more specifically, or only for some canvas objects, see [hs.canvas:_accessibilitySubrole](#_accessibilitySubrole).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2316](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2316){target="_blank"} |
 
 ---
@@ -207,7 +207,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`rect` - A rect-table containing the co-ordinates and size for the canvas object</li></ul> |
 | **Returns**                                 | <ul><li>a new, empty, canvas object, or nil if the canvas cannot be created with the specified coordinates</li></ul>          |
 | **Notes**                                   | <ul><li>The size of the canvas defines the visible area of the canvas -- any portion of a canvas element which extends past the canvas's edges will be clipped.</li><li>a rect-table is a table with key-value pairs specifying the top-left coordinate on the screen for the canvas (keys `x`  and `y`) and the size (keys `h` and `w`) of the canvas. The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2343](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2343){target="_blank"} |
 
 ---
@@ -266,7 +266,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`subrole` - an optional string or explicit nil which specifies what accessibility subrole value should be returned when canvas objects are queried through the macOS accessibility framework. See Notes for a discussion of how this value is interpreted. Defaults to `nil`.</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is specified, returns the canvasObject; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>Most people will probably not need to use this method; See [hs.canvas.useCustomAccessibilitySubrole](#useCustomAccessibilitySubrole) for a discussion as to why this method may be of use when Hammerspoon is being controlled through the accessibility framework by other applications.</li><li></li><li>If a non empty string is specified as the argument to this method, the string will be returned whenever the canvas object's containing window is queried for its accessibility subrole.</li><li>The other possible values depend upon the value registered with [hs.canvas.useCustomAccessibilitySubrole](#useCustomAccessibilitySubrole):</li><li>  If `useCustomAccessibilitySubrole` is set to true (the default):</li><li>    If an explicit `nil` (the default) is specified for this method, the string returned when the canvas object's accessibility is queried will be the default macOS subrole for the canvas's window with the string ".Hammerspoon` appended to it.</li><li>    If the empty string is specified (e.g. `""`), then the default macOS subrole for the canvas's window will be returned.</li><li>  If `useCustomAccessibilitySubrole` is set to false:</li><li>    If an explicit `nil` (the default) is specified for this method, then the default macOS subrole for the canvas's window will be returned.</li><li>    If the empty string is specified (e.g. `""`), the string returned when the canvas object's accessibility is queried will be the default macOS subrole for the canvas's window with the string ".Hammerspoon` appended to it.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2474](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2474){target="_blank"} |
 
 ---
@@ -281,8 +281,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Get or set the alpha level of the window containing the canvasObject.                                                                     |
 | **Parameters**                              | <ul><li>`alpha` - an optional number specifying the new alpha level (0.0 - 1.0, inclusive) for the canvasObject</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2986](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2986){target="_blank"} |
 
 ---
@@ -298,7 +298,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`element` - a table containing key-value pairs that define the element to be appended to the canvas.  You can specify one or more elements and they will be appended in the order they are listed.</li></ul> |
 | **Returns**                                 | <ul><li>the canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>You can also specify multiple elements in a table as an array, where each index in the table contains an element table, and use the array as a single argument to this method if this style works better in your code.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 348](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L348){target="_blank"} |
 
 ---
@@ -314,7 +314,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`elementTable` - a table containing key-value pairs that define the element to be added to the canvas.</li><li>`index`        - an optional integer between 1 and the canvas element count + 1 specifying the index position to put the new element.  Any element currently at that index will be replaced.  Defaults to the canvas element count + 1 (i.e. after the end of the currently defined elements).</li></ul> |
 | **Returns**                                 | <ul><li>the canvasObject</li></ul>          |
 | **Notes**                                   | <ul><li>When the index specified is the canvas element count + 1, the behavior of this method is the same as [hs.canvas:insertElement](#insertElement); i.e. it adds the new element to the end of the currently defined element list.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3664](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3664){target="_blank"} |
 
 ---
@@ -332,8 +332,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
   string  - a single key from [hs.canvas.windowBehaviors](#windowBehaviors) which will be toggled in the current window behavior.
   table   - a list of keys from [hs.canvas.windowBehaviors](#windowBehaviors) which will be combined to make the final behavior by combining their values with the logical or operator.</li></ul> |
 | **Returns**                                 | <ul><li>if an argument is provided, then the canvasObject is returned; otherwise the current behavior value is returned.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 160](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L160){target="_blank"} |
 
 ---
@@ -348,8 +348,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Get or set the window behavior settings for the canvas object using labels defined in [hs.canvas.windowBehaviors](#windowBehaviors).                                                                     |
 | **Parameters**                              | <ul><li>behaviorTable - an optional table of strings and/or integers specifying the desired window behavior for the canvas object.</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value as a table of strings.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 204](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L204){target="_blank"} |
 
 ---
@@ -367,7 +367,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
   if false, place the canvas above normal windows, but below the dock, menubar and fullscreen windows.</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>As of macOS Sierra and later, if you want a `hs.canvas` object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: `hs.dockicon.hide()`</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 286](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L286){target="_blank"} |
 
 ---
@@ -383,7 +383,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`keyName` - the element default to examine or modify</li><li>`value`   - an optional new value to set as the default fot his canvas when not specified explicitly in an element declaration.</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>Not all keys will apply to all element types.</li><li>Currently set and built-in defaults may be retrieved in a table with [hs.canvas:canvasDefaults](#canvasDefaults).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3272](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3272){target="_blank"} |
 
 ---
@@ -398,8 +398,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Returns a list of the key names for the attributes set for the canvas defaults.                                                                     |
 | **Parameters**                              | <ul><li>`module` - an optional boolean flag, default false, indicating whether the key names for the module defaults (true) should be included in the list.  If false, only those defaults which have been explicitly set for the canvas are included.</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the key names for the defaults which are set for this canvas. May also optionally include key names for all attributes which have a default value defined by the module.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3566](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3566){target="_blank"} |
 
 ---
@@ -415,7 +415,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`module` - an optional boolean flag, default false, indicating whether module defaults (true) should be included in the table.  If false, only those defaults which have been explicitly set for the canvas are returned.</li></ul> |
 | **Returns**                                 | <ul><li>a table containing key-value pairs for the defaults which apply to the canvas.</li></ul>          |
 | **Notes**                                   | <ul><li>Not all keys will apply to all element types.</li><li>To change the defaults for the canvas, use [hs.canvas:canvasDefaultFor](#canvasDefaultFor).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3533](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3533){target="_blank"} |
 
 ---
@@ -430,8 +430,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Returns an array containing the elements defined for this canvas.  Each array entry will be a table containing the key-value pairs which have been set for that canvas element.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an array of element tables which are defined for the canvas.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3594](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3594){target="_blank"} |
 
 ---
@@ -447,7 +447,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`down`      - an optional boolean, or nil placeholder, specifying whether or not the mouse button being pushed down should generate a callback for the canvas areas not otherwise covered by an element with mouse tracking enabled.</li><li>`up`        - an optional boolean, or nil placeholder, specifying whether or not the mouse button being released should generate a callback for the canvas areas not otherwise covered by an element with mouse tracking enabled.</li><li>`enterExit` - an optional boolean, or nil placeholder, specifying whether or not the mouse pointer entering or exiting the canvas bounds should generate a callback for the canvas areas not otherwise covered by an element with mouse tracking enabled.</li><li>`move`      - an optional boolean, or nil placeholder, specifying whether or not the mouse pointer moving within the canvas bounds should generate a callback for the canvas areas not otherwise covered by an element with mouse tracking enabled.</li></ul> |
 | **Returns**                                 | <ul><li>If any arguments are provided, returns the canvas Object, otherwise returns the current values as four separate boolean values (i.e. not in a table).</li></ul>          |
 | **Notes**                                   | <ul><li>Each value that you wish to set must be provided in the order given above, but you may specify a position as `nil` to indicate that whatever it's current state, no change should be applied.  For example, to activate a callback for entering and exiting the canvas without changing the current callback status for up or down button clicks, you could use: `hs.canvas:canvasMouseTracking(nil, nil, true)`.</li><li></li><li>Use [hs.canvas:mouseCallback](#mouseCallback) to set the callback function.  The identifier field in the callback's argument list will be "_canvas_", but otherwise identical to those specified in [hs.canvas:mouseCallback](#mouseCallback).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2777](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2777){target="_blank"} |
 
 ---
@@ -463,7 +463,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`flag` - an optional boolean indicating whether or not clicking on a canvas with a click callback function defined should activate Hammerspoon and bring its windows forward. Defaults to true.</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, returns the canvas object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>Setting this to false changes a canvas object's AXsubrole value and may affect the results of filters used with `hs.window.filter`, depending upon how they are defined.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2742](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2742){target="_blank"} |
 
 ---
@@ -479,7 +479,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a copy of the canvas</li></ul>          |
 | **Notes**                                   | <ul><li>The copy of the canvas will be identical in all respects except:</li><li>  The new canvas will not have a callback function assigned, even if the original canvas does.</li><li>  The new canvas will not initially be visible, even if the original is.</li><li>The new canvas is an independent entity -- any subsequent changes to either canvas will not be reflected in the other canvas.</li><li></li><li>This method allows you to display a canvas in multiple places or use it as a canvas element multiple times.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 431](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L431){target="_blank"} |
 
 ---
@@ -495,7 +495,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`fadeOutTime` - An optional number of seconds over which to fade out the canvas object. Defaults to zero.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3170](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3170){target="_blank"} |
 
 ---
@@ -511,7 +511,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`fn`   - A function, can be nil, that will be called when an item is dragged onto the canvas.  An explicit nil, the default, disables drag-and-drop for this canvas.</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 3 arguments and optionally return 1: the canvas object itself, a message specifying the type of dragging event, and a table containing details about the item(s) being dragged.  The key-value pairs of the details table will be the following:</li><li>  `pasteboard` - the name of the pasteboard that contains the items being dragged</li><li>  `sequence`   - an integer that uniquely identifies the dragging session.</li><li>  `mouse`      - a point table containing the location of the mouse pointer within the canvas corresponding to when the callback occurred.</li><li>  `operation`  - a table containing string descriptions of the type of dragging the source application supports. Potentially useful for determining if your callback function should accept the dragged item or not.</li><li></li><li>* The possible messages the callback function may receive are as follows:</li><li>  "enter"   - the user has dragged an item into the canvas.  When your callback receives this message, you can optionally return false to indicate that you do not wish to accept the item being dragged.</li><li>  "exit"    - the user has moved the item out of the canvas; if the previous "enter" callback returned false, this message will also occur when the user finally releases the items being dragged.</li><li>  "receive" - indicates that the user has released the dragged object while it is still within the canvas frame.  When your callback receives this message, you can optionally return false to indicate to the sending application that you do not want to accept the dragged item -- this may affect the animations provided by the sending application.</li><li></li><li>You can use the sequence number in the details table to match up an "enter" with an "exit" or "receive" message.</li><li></li><li>You should capture the details you require from the drag-and-drop operation during the callback for "receive" by using the pasteboard field of the details table and the `hs.pasteboard` module.  Because of the nature of "promised items", it is not guaranteed that the items will still be on the pasteboard after your callback completes handling this message.</li><li></li><li>A canvas object can only accept drag-and-drop items when its window level is at [hs.canvas.windowLevels.dragging](#windowLevels) or lower.</li><li>a canvas object can only accept drag-and-drop items when it accepts mouse events.  You must define a [hs.canvas:mouseCallback](#mouseCallback) function, even if it is only a placeholder, e.g. `hs.canvas:mouseCallback(function() end)`</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2428](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2428){target="_blank"} |
 
 ---
@@ -526,8 +526,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Get or set the attribute `key` for the canvas element at the specified index.                                                                     |
 | **Parameters**                              | <ul><li>`index` - the index of the canvas element whose attribute is to be retrieved or set.</li><li>`key`   - the key name of the attribute to get or set.</li><li>`value` - an optional value to assign to the canvas element's attribute.</li></ul> |
 | **Returns**                                 | <ul><li>if a value for the attribute is specified, returns the canvas object; otherwise returns the current value for the specified attribute.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3411](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3411){target="_blank"} |
 
 ---
@@ -543,7 +543,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`index` - the index of the canvas element to get the bounds for</li></ul> |
 | **Returns**                                 | <ul><li>a rect table containing the smallest rectangle which can fully contain the canvas element.</li></ul>          |
 | **Notes**                                   | <ul><li>For many elements, this will be the same as the element frame.  For items without a frame (e.g. `segments`, `circle`, etc.) this will be the smallest rectangle which can fully contain the canvas element as specified by it's attributes.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3612](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3612){target="_blank"} |
 
 ---
@@ -558,8 +558,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Returns the number of elements currently defined for the canvas object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the number of elements currently defined for the canvas object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3516](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3516){target="_blank"} |
 
 ---
@@ -575,7 +575,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`index`    - the index of the element to get the assigned key list from.</li><li>`optional` - an optional boolean, default false, indicating whether optional, but unset, keys relevant to this canvas object should also be included in the list returned.</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the keys that are set for this canvas element.  May also optionally include keys which are not specifically set for this element but use inherited values from the canvas or module defaults.</li></ul>          |
 | **Notes**                                   | <ul><li>Any attribute which has been explicitly set for the element will be included in the key list (even if it is ignored for the element type).  If the `optional` flag is set to true, the *additional* attribute names added to the list will only include those which are relevant to the element type.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3475](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3475){target="_blank"} |
 
 ---
@@ -591,7 +591,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>rect - An optional rect-table containing the co-ordinates and size the canvas object should be moved and set to</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the canvas (keys `x`  and `y`) and the new size (keys `h` and `w`).  The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li><li></li><li>elements in the canvas that have the `absolutePosition` attribute set to false will be moved so that their relative position within the canvas remains the same with respect to the new size.</li><li>elements in the canvas that have the `absoluteSize` attribute set to false will be resized so that their relative size with respect to the canvas remains the same with respect to the new size.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 247](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L247){target="_blank"} |
 
 ---
@@ -606,8 +606,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Hides the canvas object                                                                     |
 | **Parameters**                              | <ul><li>`fadeOutTime` - An optional number of seconds over which to fade out the canvas object. Defaults to zero.</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2655](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2655){target="_blank"} |
 
 ---
@@ -623,7 +623,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an `hs.image` object</li></ul>          |
 | **Notes**                                   | <ul><li>The canvas does not have to be visible in order for an image to be generated from it.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2867](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2867){target="_blank"} |
 
 ---
@@ -639,7 +639,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`elementTable` - a table containing key-value pairs that define the element to be added to the canvas.</li><li>`index`        - an optional integer between 1 and the canvas element count + 1 specifying the index position to put the new element.  Any element currently at that index, and those that follow, will be moved one position up in the element array.  Defaults to the canvas element count + 1 (i.e. after the end of the currently defined elements).</li></ul> |
 | **Returns**                                 | <ul><li>the canvasObject</li></ul>          |
 | **Notes**                                   | <ul><li>see also [hs.canvas:assignElement](#assignElement).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3329](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3329){target="_blank"} |
 
 ---
@@ -655,7 +655,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a boolean indicating whether or not the canvas is currently being occluded.</li></ul>          |
 | **Notes**                                   | <ul><li>If any part of the canvas is visible (even if that portion of the canvas does not contain any canvas elements), then the canvas is not considered occluded.</li><li>a canvas which is completely covered by one or more opaque windows is considered occluded; however, if the windows covering the canvas are not opaque, then the canvas is not occluded.</li><li>a canvas that is currently hidden or with a height of 0 or a width of 0 is considered occluded.</li><li>See also [hs.canvas:isShowing](#isShowing).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3242](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3242){target="_blank"} |
 
 ---
@@ -671,7 +671,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a boolean indicating whether or not the canvas is currently being shown (true) or is currently hidden (false).</li></ul>          |
 | **Notes**                                   | <ul><li>This method only determines whether or not the canvas is being shown or is hidden -- it does not indicate whether or not the canvas is currently off screen or is occluded by other objects.</li><li>See also [hs.canvas:isOccluded](#isOccluded).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3214](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3214){target="_blank"} |
 
 ---
@@ -687,7 +687,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a boolean indicating whether or not the canvas is currently visible.</li></ul>          |
 | **Notes**                                   | <ul><li>This is syntactic sugar for `not hs.canvas:isOccluded()`.</li><li>See [hs.canvas:isOccluded](#isOccluded) for more details.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 333](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L333){target="_blank"} |
 
 ---
@@ -702,8 +702,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Sets the window level more precisely than sendToBack and bringToFront.                                                                     |
 | **Parameters**                              | <ul><li>`level` - an optional level, specified as a number or as a string, specifying the new window level for the canvasObject. If it is a string, it must match one of the keys in [hs.canvas.windowLevels](#windowLevels).</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3055](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3055){target="_blank"} |
 
 ---
@@ -719,7 +719,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`index` - an optional index specifying the element in the canvas which contains the text attributes which should be used when determining the size of the text. If not provided, the canvas defaults will be used instead. Ignored if `text` is an hs.styledtext object.</li><li>`text`  - a string or hs.styledtext object specifying the text.</li></ul> |
 | **Returns**                                 | <ul><li>a size table specifying the height and width of a rectangle which could fully contain the text when displayed in the canvas</li></ul>          |
 | **Notes**                                   | <ul><li>Multi-line text (separated by a newline or return) is supported.  The height will be for the multiple lines and the width returned will be for the longest line.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2510](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2510){target="_blank"} |
 
 ---
@@ -735,7 +735,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`mouseCallbackFn`   - A function, can be nil, that will be called when a mouse event occurs within the canvas, and an element beneath the mouse's current position has one of the `trackMouse...` attributes set to true.</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 5 arguments: the canvas object itself, a message specifying the type of mouse event, the canvas element `id` (or index position in the canvas if the `id` attribute is not set for the element), the x position of the mouse when the event was triggered within the rendered portion of the canvas element, and the y position of the mouse when the event was triggered within the rendered portion of the canvas element.</li><li>See also [hs.canvas:canvasMouseEvents](#canvasMouseEvents) for tracking mouse events in regions of the canvas not covered by an element with mouse tracking enabled.</li><li></li><li>The following mouse attributes may be set to true for a canvas element and will invoke the callback with the specified message:</li><li>  `trackMouseDown`      - indicates that a callback should be invoked when a mouse button is clicked down on the canvas element.  The message will be "mouseDown".</li><li>  `trackMouseUp`        - indicates that a callback should be invoked when a mouse button has been released over the canvas element.  The message will be "mouseUp".</li><li>  `trackMouseEnterExit` - indicates that a callback should be invoked when the mouse pointer enters or exits the  canvas element.  The message will be "mouseEnter" or "mouseExit".</li><li>  `trackMouseMove`      - indicates that a callback should be invoked when the mouse pointer moves within the canvas element.  The message will be "mouseMove".</li><li></li><li>The callback mechanism uses reverse z-indexing to determine which element will receive the callback -- the topmost element of the canvas which has enabled callbacks for the specified message will be invoked.</li><li></li><li>No distinction is made between the left, right, or other mouse buttons. If you need to determine which specific button was pressed, use `hs.eventtap.checkMouseButtons()` within your callback to check.</li><li></li><li>The hit point detection occurs by comparing the mouse pointer location to the rendered content of each individual canvas object... if an object which obscures a lower object does not have mouse tracking enabled, the lower object will still receive the event if it does have tracking enabled.</li><li></li><li>Clipping regions which remove content from the visible area of a rendered object are ignored for the purposes of element hit-detection.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2691](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2691){target="_blank"} |
 
 ---
@@ -751,7 +751,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`canvas2` -An optional canvas object to place the canvas object above.</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>If the canvas object and canvas2 are not at the same presentation level, this method will move the canvas object as close to the desired relationship as possible without changing the canvas object's presentation level. See [hs.canvas.level](#level).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3023](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3023){target="_blank"} |
 
 ---
@@ -767,7 +767,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`canvas2` -An optional canvas object to place the canvas object below.</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>If the canvas object and canvas2 are not at the same presentation level, this method will move the canvas object as close to the desired relationship as possible without changing the canvas object's presentation level. See [hs.canvas.level](#level).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3039](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3039){target="_blank"} |
 
 ---
@@ -782,8 +782,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Insert a new element into the canvas at the specified index.                                                                     |
 | **Parameters**                              | <ul><li>`index`        - an optional integer between 1 and the canvas element count specifying the index of the canvas element to remove. Any elements that follow, will be moved one position down in the element array.  Defaults to the canvas element count (i.e. the last element of the currently defined elements).</li></ul> |
 | **Returns**                                 | <ul><li>the canvasObject</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3378](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3378){target="_blank"} |
 
 ---
@@ -799,7 +799,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`element` - a table containing key-value pairs that define the element to be assigned to the canvas.  You can specify one or more elements and they will be appended in the order they are listed.</li></ul> |
 | **Returns**                                 | <ul><li>the canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>You can also specify multiple elements in a table as an array, where each index in the table contains an element table, and use the array as a single argument to this method if this style works better in your code.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 367](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L367){target="_blank"} |
 
 ---
@@ -815,7 +815,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`index`  - the index of the element to rotate</li><li>`angle`  - the angle to rotate the object in a clockwise direction</li><li>`point`  - an optional point table, defaulting to the elements center, specifying the point around which the object should be rotated</li><li>`append` - an optional boolean, default false, specifying whether or not the rotation transformation matrix should be appended to the existing transformation assigned to the element (true) or replace it (false).</li></ul> |
 | **Returns**                                 | <ul><li>the canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>a point-table is a table with key-value pairs specifying a coordinate in the canvas (keys `x`  and `y`). The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li><li>The center of the object is determined by getting the element's bounds with [hs.canvas:elementBounds](#elementBounds).</li><li>If the third argument is a boolean value, the `point` argument is assumed to be the element's center and the boolean value is used as the `append` argument.</li><li></li><li>This method uses [hs.canvas.matrix](MATRIX.md) to generate the rotation transformation and provides a wrapper for `hs.canvas.matrix.translate(x, y):rotate(angle):translate(-x, -y)` which is then assigned or appended to the element's existing `transformation` attribute.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 387](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L387){target="_blank"} |
 
 ---
@@ -830,8 +830,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Description**                             | Places the canvas object behind normal windows, between the desktop wallpaper and desktop icons                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/canvas.lua line 314](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L314){target="_blank"} |
 
 ---
@@ -847,7 +847,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`fadeInTime` - An optional number of seconds over which to fade in the canvas object. Defaults to zero.</li></ul> |
 | **Returns**                                 | <ul><li>The canvas object</li></ul>          |
 | **Notes**                                   | <ul><li>if the canvas is in use as an element in another canvas, this method will result in an error.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2617](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2617){target="_blank"} |
 
 ---
@@ -863,7 +863,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`size` - An optional size-table specifying the width and height the canvas object should be resized to</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a size-table is a table with key-value pairs specifying the size (keys `h` and `w`) the canvas should be resized to. The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li><li></li><li>elements in the canvas that have the `absolutePosition` attribute set to false will be moved so that their relative position within the canvas remains the same with respect to the new size.</li><li>elements in the canvas that have the `absoluteSize` attribute set to false will be resized so that their relative size with respect to the canvas remains the same with respect to the new size.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2892](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2892){target="_blank"} |
 
 ---
@@ -879,7 +879,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`point` - An optional point-table specifying the new coordinate the top-left of the canvas object should be moved to</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the canvas (keys `x`  and `y`). The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2830](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2830){target="_blank"} |
 
 ---
@@ -895,7 +895,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`matrix` - an optional table specifying the matrix table, as defined by the [hs.canvas.matrix](MATRIX.md) module, to be applied to every element of the canvas, or an explicit `nil` to reset the transformation to the identity matrix.</li></ul> |
 | **Returns**                                 | <ul><li>if an argument is provided, returns the canvasObject, otherwise returns the current value</li></ul>          |
 | **Notes**                                   | <ul><li>An example use for this method would be to change the canvas's origin point { x = 0, y = 0 } from the lower left corner of the canvas to somewhere else, like the middle of the canvas.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 2588](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2588){target="_blank"} |
 
 ---
@@ -911,7 +911,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 | **Parameters**                              | <ul><li>`flag` - optional boolean (default false) which indicates whether the canvas object should be rendered by the containing view (false) or by Core Animation (true).</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the canvas object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>This method can help smooth the display of small text objects on non-Retina monitors.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/canvas/libcanvas.m line 3105](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3105){target="_blank"} |
 
 ---

@@ -41,8 +41,8 @@ Browser Marker Popup.
 | **Description**                             | Checks to see if a GUI element is the Browser Marker Popover or not                                                                     |
 | **Parameters**                              | <ul><li>element - The element you want to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` is the Browser Marker Popover otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L26){target="_blank"} |
 
 ---
@@ -59,8 +59,8 @@ Browser Marker Popup.
 | **Description**                             | Constructs a new Browser Marker Popover                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object</li></ul> |
 | **Returns**                                 | <ul><li>The new `BrowserMarkerPopover` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L39){target="_blank"} |
 
 ---
@@ -75,7 +75,7 @@ Browser Marker Popup.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.chapter <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Chapter" Marker button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L133){target="_blank"} |
 
 ---
@@ -90,7 +90,7 @@ Browser Marker Popup.
 | **Description**                             | Gets the "Completed" checkbox. This only available if you have a "To Do" marker selected.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L172){target="_blank"} |
 
 ---
@@ -105,7 +105,7 @@ Browser Marker Popup.
 | **Description**                             | Gets the "Delete" [Button](cp.ui.Button.md).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L157){target="_blank"} |
 
 ---
@@ -120,7 +120,7 @@ Browser Marker Popup.
 | **Description**                             | The "Done" [Button](cp.ui.Button.md).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L142){target="_blank"} |
 
 ---
@@ -135,7 +135,7 @@ Browser Marker Popup.
 | **Description**                             | Gets the Marker Name [TextField](cp.ui.TextField.md).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `TextField` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L187){target="_blank"} |
 
 ---
@@ -148,7 +148,7 @@ Browser Marker Popup.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.standard <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Standard" Marker button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L115){target="_blank"} |
 
 ---
@@ -161,7 +161,7 @@ Browser Marker Popup.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.toDo <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "To Do" Marker button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L124){target="_blank"} |
 
 ---
@@ -178,8 +178,8 @@ Browser Marker Popup.
 | **Description**                             | Hides the Browser Marker Popover by clicking "Done" on the popover.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>BrowserMarkerPopover object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L81){target="_blank"} |
 
 ---
@@ -194,8 +194,8 @@ Browser Marker Popup.
 | **Description**                             | Shows the Browser Marker Popover by triggering "Add Marker and Modify" from the menu bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>BrowserMarkerPopover object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L65){target="_blank"} |
 
 ---

@@ -33,8 +33,8 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Description**                             | Returns the name of the attribute the spotlightGroupObject results are grouped by.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the attribute name as a string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/spotlight/libspotlight.m line 686](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L686){target="_blank"} |
 
 ---
@@ -50,7 +50,7 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an integer specifying the number of results that match the attribute and value represented by this spotlightGroup object.</li></ul>          |
 | **Notes**                                   | <ul><li>For convenience, metamethods have been added to the spotlightGroupObject which allow you to use `#spotlightGroupObject` as a shortcut for `spotlightGroupObject:count()`.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/spotlight/libspotlight.m line 722](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L722){target="_blank"} |
 
 ---
@@ -66,7 +66,7 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Parameters**                              | <ul><li>`index` - an integer specifying the index of the result to return.</li></ul> |
 | **Returns**                                 | <ul><li>the spotlightItemObject at the specified index or an error if the index is out of bounds.</li></ul>          |
 | **Notes**                                   | <ul><li>For convenience, metamethods have been added to the spotlightGroupObject which allow you to use `spotlightGroupObject[index]` as a shortcut for `spotlightGroupObject:resultAtIndex(index)`.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/spotlight/libspotlight.m line 743](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L743){target="_blank"} |
 
 ---
@@ -82,7 +82,7 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an array table containing the subgroups of the spotlightGroupObject or nil if no subgroups exist</li></ul>          |
 | **Notes**                                   | <ul><li>Subgroups are created when you supply more than one grouping attribute to `hs.spotlight:groupingAttributes`.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/spotlight/libspotlight.m line 774](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L774){target="_blank"} |
 
 ---
@@ -97,8 +97,8 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Description**                             | Returns the value for the attribute the spotlightGroupObject results are grouped by.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the attribute value as an appropriate data type</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/spotlight/libspotlight.m line 704](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L704){target="_blank"} |
 
 ---

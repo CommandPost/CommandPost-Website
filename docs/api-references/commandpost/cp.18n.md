@@ -25,8 +25,8 @@ CommandPost's Internationalisation & Localisation Manger.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/i18n/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/init.lua#L26){target="_blank"} |
 
 ---

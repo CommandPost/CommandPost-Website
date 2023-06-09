@@ -31,8 +31,8 @@ Throw("There was an error: %s", errorMessage)
 | **Description**                             | Creates a new `Throw` `Statement` that will throw the message when executed.                                                                     |
 | **Parameters**                              | <ul><li>message  - The optional message to return. May contain `string.format` tokens</li><li>...      - The optional list of parameters to inject into the message.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will send the provided error message.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/rx/go/Throw.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Throw.lua#L16){target="_blank"} |
 
 ---

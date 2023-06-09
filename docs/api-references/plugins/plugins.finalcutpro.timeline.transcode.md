@@ -31,7 +31,7 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.transcodeType -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Transcode type.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L34){target="_blank"} |
 
 ---
@@ -48,8 +48,8 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected browser clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L208){target="_blank"} |
 
 ---
@@ -64,8 +64,8 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L263){target="_blank"} |
 
 ---
@@ -80,8 +80,8 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected timeline clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L232){target="_blank"} |
 
 ---
@@ -96,8 +96,8 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Create optimised media for selected clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L182){target="_blank"} |
 
 ---
@@ -112,8 +112,8 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Create Proxies for selected clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L195){target="_blank"} |
 
 ---
@@ -128,8 +128,8 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Transcode selected clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L42){target="_blank"} |
 
 ---

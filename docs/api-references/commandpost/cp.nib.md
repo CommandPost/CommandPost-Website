@@ -32,8 +32,8 @@ Provides support for NIB files.
 | **Description**                             | Unarchives the given `string` of bytes into a `table`, if it is a valid `NIBArchive`.                                                                     |
 | **Parameters**                              | <ul><li>data - The `string` of bytes to unarchive.</li></ul> |
 | **Returns**                                 | <ul><li>The `table` containing the unarchived data, or `nil` if the `archive` is not a valid `NIBArchive`.</li><li>The `string` error message, if any.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/nib/archiver.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L358){target="_blank"} |
 
 ---

@@ -27,8 +27,8 @@ A `Builder` for `GridElement`s.
 | **Description**                             | Adds a `Column` initializer to the `GridElement` builder.                                                                     |
 | **Parameters**                              | <ul><li>columnInit - A `Column` initializer.</li></ul> |
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L52){target="_blank"} |
 
 ---
@@ -43,8 +43,8 @@ A `Builder` for `GridElement`s.
 | **Description**                             | Adds a `Header` initializer to the `GridElement` builder.                                                                     |
 | **Parameters**                              | <ul><li>headerInit - A `Header` initializer.</li></ul> |
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L32){target="_blank"} |
 
 ---
@@ -59,8 +59,8 @@ A `Builder` for `GridElement`s.
 | **Description**                             | Adds a `Row` initializer to the `GridElement` builder.                                                                     |
 | **Parameters**                              | <ul><li>rowInit - A `Row` initializer.</li></ul> |
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L42){target="_blank"} |
 
 ---

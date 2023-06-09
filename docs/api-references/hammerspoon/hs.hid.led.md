@@ -26,7 +26,7 @@ HID LED interface for Hammerspoon, controls the state of keyboard LEDs
 | **Parameters**                              | <ul><li>name  - LED name: "caps", "scroll" or "num"</li><li>state - A boolean indicating desired state</li></ul> |
 | **Returns**                                 | <ul><li>true if success, false if error</li></ul>          |
 | **Notes**                                   | <ul><li>This function controls the LED state only, to modify capslock state, use hs.hid.capslock.set</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/hid/hid.lua line 66](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L66){target="_blank"} |
 
 ---

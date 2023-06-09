@@ -31,8 +31,8 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Description**                             | Checks if the element matches the MainProperties.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L30){target="_blank"} |
 
 ---
@@ -49,8 +49,8 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Description**                             | Creates a new MainProperties.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>uiFinder	- The `axuielement` object that represents this element.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L41){target="_blank"} |
 
 ---
@@ -65,7 +65,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.MainProperties.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the MainProperties group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L102){target="_blank"} |
 
 ---

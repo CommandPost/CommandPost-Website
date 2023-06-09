@@ -124,7 +124,7 @@ The document has moved
 | **Parameters**                              | <ul><li>`sockaddr` - A binary socket address structure, usually obtained from the [`info`](#info) method or in [`hs.socket.udp`](./hs.socket.udp.html)'s [read callback](./hs.socket.udp.html#setCallback).</li></ul> |
 | **Returns**                                 | <ul><li>A table describing the address with the following keys or `nil`:</li><li> host - A string containing the host IP.</li><li> port - A number containing the port.</li><li> addressFamily - A number containing the address family.</li></ul>          |
 | **Notes**                                   | <ul><li>Some address family definitions from `<sys/socket.h>`:</li><li></li><li>address family | number | description</li><li>:--- | :--- | :</li><li>AF_UNSPEC | 0 | unspecified</li><li>AF_UNIX | 1 | local to host (pipes)</li><li>AF_LOCAL | AF_UNIX | backward compatibility</li><li>AF_INET | 2 | internetwork: UDP, TCP, etc.</li><li>AF_NS | 6 | XEROX NS protocols</li><li>AF_CCITT | 10 | CCITT protocols, X.25 etc</li><li>AF_APPLETALK | 16 | Apple Talk</li><li>AF_ROUTE | 17 | Internal Routing Protocol</li><li>AF_LINK | 18 | Link layer interface</li><li>AF_INET6 | 30 | IPv6</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L187){target="_blank"} |
 
 ---
@@ -141,8 +141,8 @@ The document has moved
 | **Description**                             | Creates an unconnected asynchronous TCP socket object.                                                                     |
 | **Parameters**                              | <ul><li>`fn` - An optional [callback function](#setCallback) for reading data from the socket, settable here for convenience.</li></ul> |
 | **Returns**                                 | <ul><li>An [`hs.socket`](#new) object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L154){target="_blank"} |
 
 ---
@@ -157,8 +157,8 @@ The document has moved
 | **Description**                             | Creates a TCP socket, and binds it to either a port or path (Unix domain socket) for listening.                                                                     |
 | **Parameters**                              | <ul><li>`port` - A port number [0-65535]. Ports [1-1023] are privileged. Port 0 allows the OS to select any available port.</li><li>`path` - A string containing the path to the Unix domain socket.</li><li>`fn` - An optional [callback function](#setCallback) for reading data from the socket, settable here for convenience.</li></ul> |
 | **Returns**                                 | <ul><li>An [`hs.socket`](#new) object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/socket.lua line 190](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L190){target="_blank"} |
 
 ---
@@ -176,7 +176,7 @@ The document has moved
 | **Parameters**                              | <ul><li>`host` - A string containing the hostname or IP address.</li><li>`port` - A port number [1-65535].</li><li>`path` - A string containing the path to the Unix domain socket.</li><li>`fn` - An optional single-use callback function to execute after establishing the connection. The callback receives no parameters.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Either a host/port pair OR a Unix domain socket path must be supplied. If no port is passed, the first parameter is assumed to be a path to the socket file.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 234](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L234){target="_blank"} |
 
 ---
@@ -192,7 +192,7 @@ The document has moved
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the socket is connected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>If the socket is bound for listening, this method returns `true` if there is at least one connection.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L572){target="_blank"} |
 
 ---
@@ -208,7 +208,7 @@ The document has moved
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of connections to the socket.</li></ul>          |
 | **Notes**                                   | <ul><li>This method returns at most 1 for default (non-listening) sockets.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 593](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L593){target="_blank"} |
 
 ---
@@ -224,7 +224,7 @@ The document has moved
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>If called on a listening socket with multiple connections, each client is disconnected.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 345](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L345){target="_blank"} |
 
 ---
@@ -239,8 +239,8 @@ The document has moved
 | **Description**                             | Returns information about the socket.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the following keys:</li><li>  connectedAddress - `string` (`sockaddr` struct)</li><li>  connectedHost - `string`</li><li>  connectedPort - `number`</li><li>  connectedURL - `string`</li><li>  connections - `number`</li><li>  isConnected - `boolean`</li><li>  isDisconnected - `boolean`</li><li>  isIPv4 - `boolean`</li><li>  isIPv4Enabled - `boolean`</li><li>  isIPv4PreferredOverIPv6 - `boolean`</li><li>  isIPv6 - `boolean`</li><li>  isIPv6Enabled - `boolean`</li><li>  isSecure - `boolean`</li><li>  localAddress - `string` (`sockaddr` struct)</li><li>  localHost - `string`</li><li>  localPort - `number`</li><li>  timeout - `number`</li><li>  unixSocketPath - `string`</li><li>  userData - `string`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 614](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L614){target="_blank"} |
 
 ---
@@ -255,8 +255,8 @@ The document has moved
 | **Description**                             | Binds an unconnected socket to either a port or path (Unix domain socket) for listening.                                                                     |
 | **Parameters**                              | <ul><li>`port` - A port number [0-65535]. Ports [1-1023] are privileged. Port 0 allows the OS to select any available port.</li><li>`path` - A string containing the path to the Unix domain socket.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object, or `nil` if an error occurred.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 297](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L297){target="_blank"} |
 
 ---
@@ -272,7 +272,7 @@ The document has moved
 | **Parameters**                              | <ul><li>`delimiter` - Either a number of bytes to read, or a string delimiter such as "\\n" or "\\r\\n". Data is read up to and including the delimiter.</li><li>`tag` - An optional integer to assist with labeling reads. It is passed to the callback to assist with implementing [state machines](https://github.com/robbiehanson/CocoaAsyncSocket/wiki/Intro_GCDAsyncSocket#reading--writing) for processing complex protocols.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Results are passed to the socket's [callback function](#setCallback), which must be set to use this method.</li><li>If called on a listening socket with multiple connections, data is read from each of them.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 369](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L369){target="_blank"} |
 
 ---
@@ -287,7 +287,7 @@ The document has moved
 | **Description**                             | Alias for [`hs.socket:read`](#read)                                                                     |
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/socket/socket.lua line 225](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L225){target="_blank"} |
 
 ---
@@ -302,7 +302,7 @@ The document has moved
 | **Description**                             | Alias for [`hs.socket:write`](#write)                                                                     |
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/socket/socket.lua line 231](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L231){target="_blank"} |
 
 ---
@@ -320,7 +320,7 @@ The document has moved
   `tag` - The integer tag associated with the read call, which defaults to `-1`.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>A callback must be set in order to read data from the socket.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 473](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L473){target="_blank"} |
 
 ---
@@ -336,7 +336,7 @@ The document has moved
 | **Parameters**                              | <ul><li>`timeout` - A number containing the timeout duration, in seconds.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li> If the timeout value is negative, the operations will not use a timeout, which is the default.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 503](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L503){target="_blank"} |
 
 ---
@@ -352,7 +352,7 @@ The document has moved
 | **Parameters**                              | <ul><li>`verify` - An optional boolean that, if `false`, allows TLS handshaking with servers with self-signed certificates and does not evaluate the chain of trust. Defaults to `true` and omitted if `peerName` is supplied</li><li>`peerName` - An optional string containing the fully qualified domain name of the peer to validate against — for example, `store.apple.com`. It should match the name in the X.509 certificate given by the remote party. See the important security note below.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>The socket will disconnect immediately if TLS negotiation fails. </li><li>**IMPORTANT SECURITY NOTE**: The default settings will check to make sure the remote party's certificate is signed by a trusted 3rd party certificate agency (e.g. verisign) and that the certificate is not expired.  However it will not verify the name on the certificate unless you give it a name to verify against via `peerName`.  The security implications of this are important to understand.  Imagine you are attempting to create a secure connection to MySecureServer.com, but your socket gets directed to MaliciousServer.com because of a hacked DNS server.  If you simply use the default settings, and MaliciousServer.com has a valid certificate, the default settings will not detect any problems since the certificate is valid.  To properly secure your connection in this particular scenario you should set `peerName` to "MySecureServer.com".</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 527](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L527){target="_blank"} |
 
 ---
@@ -368,7 +368,7 @@ The document has moved
 | **Parameters**                              | <ul><li>`message` - A string containing data to be sent on the socket.</li><li>`tag` - An optional integer to assist with labeling writes.</li><li>`fn` - An optional single-use callback function to execute after writing data to the socket. The callback receives the tag parameter provided here.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>If called on a listening socket with multiple connections, data is broadcast to all connected sockets.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/socket/libsocket.m line 429](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L429){target="_blank"} |
 
 ---

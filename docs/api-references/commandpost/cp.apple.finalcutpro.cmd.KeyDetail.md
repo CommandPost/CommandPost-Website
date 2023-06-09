@@ -32,8 +32,8 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Description**                             | Checks if the element matches the criteria for this class.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L24){target="_blank"} |
 
 ---
@@ -48,7 +48,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.contentGroupUI <cp.prop: axuielement>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [axuielement](cp.prop.axuielement) for the content Group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L52){target="_blank"} |
 
 ---
@@ -61,7 +61,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.contents <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Table` that displays the contents.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L87){target="_blank"} |
 
 ---
@@ -74,7 +74,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.detail <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ScrollArea` that displays the detail.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L77){target="_blank"} |
 
 ---
@@ -87,7 +87,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.key <cp.ui.Image>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Image` that displays the key.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L68){target="_blank"} |
 
 ---
@@ -100,7 +100,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.label <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `StaticText` that displays the label.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L59){target="_blank"} |
 
 ---

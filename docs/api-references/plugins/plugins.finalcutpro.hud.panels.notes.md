@@ -25,8 +25,8 @@ Notes Panel for the Final Cut Pro HUD.
 | **Description**                             | Update the Notes Panel HTML content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/notes/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/notes/init.lua#L64){target="_blank"} |
 
 ---

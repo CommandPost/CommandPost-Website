@@ -23,7 +23,7 @@ Show Timeline In Player.
 | **Signature**                               | `plugins.finalcutpro.advanced.showtimelineinviewers.enabled <cp.prop: boolean; live>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Show Timeline in Player Enabled?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/advanced/showtimelineinviewers.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/showtimelineinviewers.lua#L14){target="_blank"} |
 
 ---

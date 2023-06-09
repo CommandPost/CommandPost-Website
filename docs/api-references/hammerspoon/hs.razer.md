@@ -87,8 +87,8 @@ Special thanks to the authors of these awesome documents & resources:
   A boolean, true if a device was connected, false if a device was disconnected
   An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L48){target="_blank"} |
 
 ---
@@ -103,8 +103,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets an hs.razer object for the specified device                                                                     |
 | **Parameters**                              | <ul><li>num - A number that should be within the bounds of the number of connected devices</li></ul> |
 | **Returns**                                 | <ul><li>An hs.razer object or `nil` if something goes wrong</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 92](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L92){target="_blank"} |
 
 ---
@@ -122,7 +122,7 @@ Special thanks to the authors of these awesome documents & resources:
   An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L23){target="_blank"} |
 
 ---
@@ -137,8 +137,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets the number of Razer devices connected                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the number of Razer devices attached to the system</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L75){target="_blank"} |
 
 ---
@@ -154,7 +154,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Because `hs.razer` relies on a physical device to</li><li>   be connected for testing, this method exists so that</li><li>   Hammerspoon developers can test the extension outside</li><li>   of the usual GitHub tests. It can also be used for</li><li>   user troubleshooting.</li><li>This feature currently only works on the Razer Tartarus V2.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/razer.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L87){target="_blank"} |
 
 ---
@@ -172,7 +172,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Parameters**                              | <ul><li>[color] - An optional `hs.drawing.color` value</li><li>[secondaryColor] - An optional secondary `hs.drawing.color`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>If neither `color` nor `secondaryColor` is provided, then random colors will be used.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 844](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L844){target="_blank"} |
 
 ---
@@ -188,7 +188,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Parameters**                              | <ul><li>colors - A table of `hs.drawing.color` objects for each individual button on your device (i.e. if there's 20 buttons, you should have twenty colors in the table).</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>The order is top to bottom, left to right. You can use `nil` for any buttons you don't want to light up.</li><li>Example usage: ```lua</li><li>  hs.razer.new(0):backlightsCustom({hs.drawing.color.red, nil, hs.drawing.color.green, hs.drawing.color.blue})</li><li>  ```</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 891](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L891){target="_blank"} |
 
 ---
@@ -203,8 +203,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Changes the keyboard backlights mode.                                                                     |
 | **Parameters**                              | <ul><li>mode - "static", "flashing", "fading"</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 555](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L555){target="_blank"} |
 
 ---
@@ -219,8 +219,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Turns all the keyboard backlights off.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 630](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L630){target="_blank"} |
 
 ---
@@ -235,8 +235,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Changes the keyboard backlights to the reactive mode.                                                                     |
 | **Parameters**                              | <ul><li>speed - A number between 1 (fast) and 4 (slow)</li><li>color - A `hs.drawing.color` object</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 744](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L744){target="_blank"} |
 
 ---
@@ -251,8 +251,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Changes the keyboard backlights to the spectrum mode.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 712](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L712){target="_blank"} |
 
 ---
@@ -268,7 +268,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Parameters**                              | <ul><li>speed - A number between 1 (fast) and 3 (slow)</li><li>[color] - An optional `hs.drawing.color` value</li><li>[secondaryColor] - An optional secondary `hs.drawing.color`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>If neither `color` nor `secondaryColor` is provided, then random colors will be used.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 787](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L787){target="_blank"} |
 
 ---
@@ -283,8 +283,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Changes the keyboard backlights to a single static color.                                                                     |
 | **Parameters**                              | <ul><li>color - A `hs.drawing.color` object.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 596](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L596){target="_blank"} |
 
 ---
@@ -299,8 +299,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Changes the keyboard backlights to the wave mode.                                                                     |
 | **Parameters**                              | <ul><li>speed - A number between 1 (fast) and 255 (slow)</li><li>direction - "left" or "right" as a string</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 662](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L662){target="_blank"} |
 
 ---
@@ -315,8 +315,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets or sets the blue status light.                                                                     |
 | **Parameters**                              | <ul><li>value - `true` for on, `false` for off`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 443](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L443){target="_blank"} |
 
 ---
@@ -331,8 +331,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets or sets the brightness of a Razer keyboard.                                                                     |
 | **Parameters**                              | <ul><li>value - The brightness value - a number between 0 (off) and 100 (brightest).</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>The brightness as a number or `nil` if something goes wrong.</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L221){target="_blank"} |
 
 ---
@@ -348,7 +348,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Parameters**                              | <ul><li>`callbackFn` - a function to set as the callback for this `hs.razer` object.  If the value provided is `nil`, any currently existing callback function is removed.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  `razerObject` - The serial port object that triggered the callback.</li><li>  `buttonName` - The name of the button as a string.</li><li>  `buttonAction` - A string containing "pressed", "released", "up" or "down".</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L147){target="_blank"} |
 
 ---
@@ -363,8 +363,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Allows you to remap the default Keyboard Layout on a Razer device so that the buttons no longer trigger their factory default actions, or restore the default keyboard layout.                                                                     |
 | **Parameters**                              | <ul><li>enabled - If `true` the Razer default will use its default keyboard layout.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/razer.lua line 52](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L52){target="_blank"} |
 
 ---
@@ -379,8 +379,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets or sets the green status light.                                                                     |
 | **Parameters**                              | <ul><li>value - `true` for on, `false` for off`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 388](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L388){target="_blank"} |
 
 ---
@@ -395,8 +395,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Returns the human readable device name of the Razer device.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The device name as a string.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L125){target="_blank"} |
 
 ---
@@ -411,8 +411,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets or sets the orange status light.                                                                     |
 | **Parameters**                              | <ul><li>value - `true` for on, `false` for off`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 278](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L278){target="_blank"} |
 
 ---
@@ -427,8 +427,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets or sets the red status light.                                                                     |
 | **Parameters**                              | <ul><li>value - `true` for on, `false` for off`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 498](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L498){target="_blank"} |
 
 ---
@@ -443,8 +443,8 @@ Special thanks to the authors of these awesome documents & resources:
 | **Description**                             | Gets or sets the orange status light.                                                                     |
 | **Parameters**                              | <ul><li>value - `true` for on, `false` for off`</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/razer/librazer.m line 333](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L333){target="_blank"} |
 
 ---

@@ -26,7 +26,7 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.createMulticamOptimizedMedia <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Create Multicam Optimised Media                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/import/preferences.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/preferences.lua#L18){target="_blank"} |
 
 ---
@@ -39,7 +39,7 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.createOptimizedMedia <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Create Optimised Media                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/import/preferences.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/preferences.lua#L13){target="_blank"} |
 
 ---
@@ -52,7 +52,7 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.createProxyMedia <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Create Proxy Media                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/import/preferences.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/preferences.lua#L23){target="_blank"} |
 
 ---
@@ -65,7 +65,7 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.leaveInPlace <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Leave In Place.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/import/preferences.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/preferences.lua#L28){target="_blank"} |
 
 ---

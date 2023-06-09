@@ -25,8 +25,8 @@ Feedback Menu Item.
 | **Description**                             | Opens CommandPost Credits Window                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/helpandsupport/feedback.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/helpandsupport/feedback.lua#L12){target="_blank"} |
 
 ---

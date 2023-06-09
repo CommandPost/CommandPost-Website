@@ -27,7 +27,7 @@ Final Cut Pro Font Console
 | **Signature**                               | `plugins.finalcutpro.console.font.processedFonts -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of font paths which have already been loaded or skipped.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L37){target="_blank"} |
 
 ---
@@ -44,8 +44,8 @@ Final Cut Pro Font Console
 | **Description**                             | Handles Console Activations.                                                                     |
 | **Parameters**                              | <ul><li>_ - Placeholder</li><li>action - Action table.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L106){target="_blank"} |
 
 ---
@@ -60,8 +60,8 @@ Final Cut Pro Font Console
 | **Description**                             | Shows the Font Console.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L196){target="_blank"} |
 
 ---

@@ -28,8 +28,8 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 | **Description**                             | Checks if the `element` matches an `IndexRolesArea`.                                                                     |
 | **Parameters**                              | <ul><li>element	- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L15){target="_blank"} |
 
 ---
@@ -44,7 +44,7 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRolesArea.list <cp.apple.finalcutpro.timeline.IndexRolesList>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesList](cp.apple.finalcutpro.timeline.IndexRolesList.md) that serves as the list of the scroll area.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L32){target="_blank"} |
 
 ---

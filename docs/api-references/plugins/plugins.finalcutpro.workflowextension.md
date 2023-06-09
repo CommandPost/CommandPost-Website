@@ -74,7 +74,7 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.connected -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is CommandPost connecting to the Workflow Extension?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L97){target="_blank"} |
 
 ---
@@ -87,7 +87,7 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.lastPlayheadPosition -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last playhead position.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L107){target="_blank"} |
 
 ---
@@ -100,7 +100,7 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.skimmingRestoreTimer -> hs.timer.delayed`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Delayed Timer to Restore the Skimming Feature (if required)                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 371](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L371){target="_blank"} |
 
 ---
@@ -113,7 +113,7 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.wasSkimmingEnabled -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Was the Skimming Feature enabled?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 366](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L366){target="_blank"} |
 
 ---
@@ -130,8 +130,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Triggers when the Socket receives data.                                                                     |
 | **Parameters**                              | <ul><li>data - The incoming data.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 229](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L229){target="_blank"} |
 
 ---
@@ -146,8 +146,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Connect to the Workflow Extension Socket Server.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L257){target="_blank"} |
 
 ---
@@ -162,8 +162,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Triggers when the Socket makes a connection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L158){target="_blank"} |
 
 ---
@@ -178,8 +178,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Decrements the Final Cut Pro playhead via the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>frames - The amount of frames to increment by</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 424](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L424){target="_blank"} |
 
 ---
@@ -194,8 +194,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Disconnects from the Workflow Extension Socket Server.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L295){target="_blank"} |
 
 ---
@@ -210,8 +210,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Forcefully installs the Workflow Extension.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 615](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L615){target="_blank"} |
 
 ---
@@ -226,8 +226,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Increments the Final Cut Pro playhead via the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>frames - The amount of frames to increment by</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 409](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L409){target="_blank"} |
 
 ---
@@ -242,8 +242,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Moves the Final Cut Pro playhead via the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>seconds - The value you want the timeline playhead to move to in seconds</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 439](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L439){target="_blank"} |
 
 ---
@@ -258,8 +258,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Sends a ping to the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 452](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L452){target="_blank"} |
 
 ---
@@ -274,8 +274,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Repositions the Workflow Extension.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 527](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L527){target="_blank"} |
 
 ---
@@ -290,8 +290,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Sends a command to the Workflow                                                                     |
 | **Parameters**                              | <ul><li>command - The command as a string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L331){target="_blank"} |
 
 ---
@@ -306,8 +306,8 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Setup the Workflow Extension Actions                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 466](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L466){target="_blank"} |
 
 ---
@@ -322,7 +322,7 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.hasWorkflowExtensionBeenAddedVersion -> cp.prop`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the CommandPost Version String for the last time the Workflow Extension was added.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L82){target="_blank"} |
 
 ---
@@ -335,7 +335,7 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.hasWorkflowExtensionBeenMovedVersion -> cp.prop`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the CommandPost Version String for the last time the Workflow Extension was moved.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/workflowextension/init.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/workflowextension/init.lua#L87){target="_blank"} |
 
 ---

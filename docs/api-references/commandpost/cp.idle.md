@@ -27,8 +27,8 @@ or mouse movement.
 | **Description**                             | Adds an action to the idle queue, which will be run after the the computer has been idle for at least the specified number of seconds. It may be longer, if other items are on the queue, or if other tasks are running in the application.                                                                     |
 | **Parameters**                              | <ul><li>`idleSeconds`		- The number of seconds of idle time must have elapsed run the action</li><li>`actionFn`		- The function to execute</li><li>`retryOnError`	- Optional. If set to `true`, the action will try running again if there is an error.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/idle/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/idle/init.lua#L48){target="_blank"} |
 
 ---

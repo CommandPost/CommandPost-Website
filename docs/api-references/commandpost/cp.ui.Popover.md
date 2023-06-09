@@ -32,8 +32,8 @@ UI Group.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/Popover.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L12){target="_blank"} |
 
 ---
@@ -50,8 +50,8 @@ UI Group.
 | **Description**                             | Creates a new `Popover` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Popover` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/Popover.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L25){target="_blank"} |
 
 ---
@@ -68,8 +68,8 @@ UI Group.
 | **Description**                             | Returns a `Statement` which will hide the popover.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/Popover.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L53){target="_blank"} |
 
 ---
@@ -84,8 +84,8 @@ UI Group.
 | **Description**                             | Hides a popover.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/Popover.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L36){target="_blank"} |
 
 ---

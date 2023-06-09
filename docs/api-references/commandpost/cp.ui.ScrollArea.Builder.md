@@ -25,8 +25,8 @@
 | **Description**                             | Sets the content `Element` type/builder to the specified value.                                                                     |
 | **Parameters**                              | <ul><li>contentBuilder - A `callable` that accepts a `parent` and `uiFinder` parameter, and returns an `Element` instance.</li></ul> |
 | **Returns**                                 | <ul><li>The `Builder` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L61){target="_blank"} |
 
 ---

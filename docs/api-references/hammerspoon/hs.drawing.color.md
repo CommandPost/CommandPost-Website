@@ -131,7 +131,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>color - a table specifying a color as described in the module definition (see `hs.drawing.color` in the online help or Dash documentation)</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the hue, saturation, brightness, and alpha keys representing the specified color as HSB or a string describing the color's colorspace if conversion is not possible.</li></ul>          |
 | **Notes**                                   | <ul><li>See also `hs.drawing.color.asRGB`</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/drawing/color/libdrawing_color.m line 66](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/libdrawing_color.m#L66){target="_blank"} |
 
 ---
@@ -147,7 +147,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>color - a table specifying a color as described in the module definition (see `hs.drawing.color` in the online help or Dash documentation)</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the red, blue, green, and alpha keys representing the specified color as RGB or a string describing the color's colorspace if conversion is not possible.</li></ul>          |
 | **Notes**                                   | <ul><li>See also `hs.drawing.color.asHSB`</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/drawing/color/libdrawing_color.m line 34](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/libdrawing_color.m#L34){target="_blank"} |
 
 ---
@@ -163,7 +163,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>list - the name of the list to provide colors for</li></ul> |
 | **Returns**                                 | <ul><li>a table whose keys are made from the colors provided by the color list or nil if the list does not exist.</li></ul>          |
 | **Notes**                                   | <ul><li>Where possible, each color node is provided as its RGB color representation.  Where this is not possible, the color node contains the keys `list` and `name` which identify the indicated color.  This means that you can use the following wherever a color parameter is expected: `hs.drawing.color.colorsFor(list)["color-name"]`</li><li>This function provides a tostring metatable method which allows listing the defined colors in the list in the Hammerspoon console with: `hs.drawing.colorsFor(list)`</li><li>See also `hs.drawing.color.lists`</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/drawing/color/drawing_color.lua line 100](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/drawing_color.lua#L100){target="_blank"} |
 
 ---
@@ -179,7 +179,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table whose keys are made from the currently defined system color lists and hs.drawing.color collections.  Each color list key refers to a table whose keys make up the colors provided by the specific color list.</li></ul>          |
 | **Notes**                                   | <ul><li>Where possible, each color node is provided as its RGB color representation.  Where this is not possible, the color node contains the keys `list` and `name` which identify the indicated color.  This means that you can use the following wherever a color parameter is expected: `hs.drawing.color.lists()["list-name"]["color-name"]`</li><li>This function provides a tostring metatable method which allows listing the defined color lists in the Hammerspoon console with: `hs.drawing.color.lists()`</li><li>See also `hs.drawing.color.colorsFor`</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/drawing/color/libdrawing_color.m line 8](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/libdrawing_color.m#L8){target="_blank"} |
 
 ---

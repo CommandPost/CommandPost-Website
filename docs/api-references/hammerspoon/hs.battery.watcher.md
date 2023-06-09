@@ -32,7 +32,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>A function that will be called when the battery state changes. The function should accept no arguments.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.battery.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>Because the callback function accepts no arguments, tracking of state of changing battery attributes is the responsibility of the user (see https://github.com/Hammerspoon/hammerspoon/issues/166 for discussion)</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/battery/libbattery_watcher.m line 44](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/battery/libbattery_watcher.m#L44){target="_blank"} |
 
 ---
@@ -49,8 +49,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Starts the battery watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.battery.watcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/battery/libbattery_watcher.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/battery/libbattery_watcher.m#L75){target="_blank"} |
 
 ---
@@ -65,8 +65,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Stops the battery watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.battery.watcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/battery/libbattery_watcher.m line 97](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/battery/libbattery_watcher.m#L97){target="_blank"} |
 
 ---

@@ -66,7 +66,7 @@ file.
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.busy -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we already in the process of doing something?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L78){target="_blank"} |
 
 ---
@@ -79,7 +79,7 @@ file.
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.lastCollection -> string | nil`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last collection registered.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 681](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L681){target="_blank"} |
 
 ---
@@ -96,8 +96,8 @@ file.
 | **Description**                             | Get active column names in a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of active column names or an empty table if something goes wrong.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L155){target="_blank"} |
 
 ---
@@ -112,8 +112,8 @@ file.
 | **Description**                             | Gets the Clip Name Size as a string.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Clip Name Size as a string or `nil` if cannot be found.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L134){target="_blank"} |
 
 ---
@@ -128,8 +128,8 @@ file.
 | **Description**                             | If a single collection is selected in the browser it's value is returned as a string.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string if successful otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 577](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L577){target="_blank"} |
 
 ---
@@ -145,7 +145,7 @@ file.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>An error sound will play if there's nothing to reset.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 657](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L657){target="_blank"} |
 
 ---
@@ -161,7 +161,7 @@ file.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>An error sound will play if there's nothing to restore.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 595](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L595){target="_blank"} |
 
 ---
@@ -176,8 +176,8 @@ file.
 | **Description**                             | Restore Layout from Table.                                                                     |
 | **Parameters**                              | <ul><li>layout - The layout settings in a table.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L181){target="_blank"} |
 
 ---
@@ -193,7 +193,7 @@ file.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>An error sound will play if there's nothing to save.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 630](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L630){target="_blank"} |
 
 ---
@@ -208,8 +208,8 @@ file.
 | **Description**                             | Save Layout to Table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the layout settings if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 435](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L435){target="_blank"} |
 
 ---
@@ -224,8 +224,8 @@ file.
 | **Description**                             | Creates or destroys the keyboard watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/browser/layouts.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/layouts.lua#L83){target="_blank"} |
 
 ---

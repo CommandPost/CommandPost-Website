@@ -23,7 +23,7 @@ Scripting Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.scripting.snippets <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/preferences/panels/scripting/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/scripting/init.lua#L36){target="_blank"} |
 
 ---

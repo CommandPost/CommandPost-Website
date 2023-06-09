@@ -34,8 +34,8 @@ outputs via the standard `print` function.
 | **Description**                             | Prints an "[ABORT]" message.                                                                     |
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>msg       - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L110){target="_blank"} |
 
 ---
@@ -50,8 +50,8 @@ outputs via the standard `print` function.
 | **Description**                             | Prints a "[FAIL]" message.                                                                     |
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>msg       - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L96){target="_blank"} |
 
 ---
@@ -66,8 +66,8 @@ outputs via the standard `print` function.
 | **Description**                             | Prints a "[FILTER]" message.                                                                     |
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>msg       - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L141){target="_blank"} |
 
 ---
@@ -82,8 +82,8 @@ outputs via the standard `print` function.
 | **Description**                             | Prints a spacer (if not the first line), followed by the text, optionally formatted with the provided parameters.                                                                     |
 | **Parameters**                              | <ul><li>text - The message to print.</li><li>... - The parameters to interpolate into the text message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L38){target="_blank"} |
 
 ---
@@ -98,8 +98,8 @@ outputs via the standard `print` function.
 | **Description**                             | Prints a blank line if this is not the first time it has been called.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L22){target="_blank"} |
 
 ---
@@ -114,8 +114,8 @@ outputs via the standard `print` function.
 | **Description**                             | If the handler or run is verbose, prints a "[PASS]" message.                                                                     |
 | **Parameters**                              | <ul><li>run - the [run](cp.spec.Run.md)</li><li>msg - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L79){target="_blank"} |
 
 ---
@@ -130,8 +130,8 @@ outputs via the standard `print` function.
 | **Description**                             | If the handler or run is verbose, prints a "[STOP]" message.                                                                     |
 | **Parameters**                              | <ul><li>run - the [run](cp.spec.Run.md)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L66){target="_blank"} |
 
 ---
@@ -146,8 +146,8 @@ outputs via the standard `print` function.
 | **Description**                             | If the handler or run is verbose, prints a "[RESULT]" message.                                                                     |
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>report    - the [report](cp.spec.Report.md)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L155){target="_blank"} |
 
 ---
@@ -162,8 +162,8 @@ outputs via the standard `print` function.
 | **Description**                             | Prints a "[WAIT]" message with the timeout value..                                                                     |
 | **Parameters**                              | <ul><li>run - run</li><li>timeout - timeout</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L124){target="_blank"} |
 
 ---

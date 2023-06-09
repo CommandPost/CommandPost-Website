@@ -27,7 +27,7 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/tourbox/prefs/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/prefs/init.lua#L43){target="_blank"} |
 
 ---
@@ -40,7 +40,7 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastControlType <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control Type used in the Preferences Panel.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/tourbox/prefs/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/prefs/init.lua#L53){target="_blank"} |
 
 ---
@@ -53,7 +53,7 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/tourbox/prefs/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/prefs/init.lua#L63){target="_blank"} |
 
 ---
@@ -66,7 +66,7 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/tourbox/prefs/init.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/prefs/init.lua#L58){target="_blank"} |
 
 ---
@@ -79,7 +79,7 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastPage <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Page used in the Preferences Panel.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/tourbox/prefs/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/prefs/init.lua#L48){target="_blank"} |
 
 ---

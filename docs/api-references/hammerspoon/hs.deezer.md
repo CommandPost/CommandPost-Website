@@ -49,7 +49,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Signature**                               | `hs.deezer.state_paused`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is paused                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 13](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L13){target="_blank"} |
 
 ---
@@ -62,7 +62,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Signature**                               | `hs.deezer.state_playing`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is playing                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 18](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L18){target="_blank"} |
 
 ---
@@ -75,7 +75,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Signature**                               | `hs.deezer.state_stopped`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is stopped                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L23){target="_blank"} |
 
 ---
@@ -92,8 +92,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Displays information for current track on screen                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 100](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L100){target="_blank"} |
 
 ---
@@ -108,8 +108,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips the playback position forwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L295){target="_blank"} |
 
 ---
@@ -124,8 +124,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the name of the album of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 129](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L129){target="_blank"} |
 
 ---
@@ -140,8 +140,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the name of the artist of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 116](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L116){target="_blank"} |
 
 ---
@@ -156,8 +156,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the name of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 142](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L142){target="_blank"} |
 
 ---
@@ -172,8 +172,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the current playback state of deezer                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.deezer.state_stopped`</li><li>   - `hs.deezer.state_paused`</li><li>   - `hs.deezer.state_playing`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 155](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L155){target="_blank"} |
 
 ---
@@ -188,8 +188,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the playback position (in seconds) in the current song                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 255](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L255){target="_blank"} |
 
 ---
@@ -204,8 +204,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the deezer volume setting                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the volume deezer is set to between 1 and 100</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 207](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L207){target="_blank"} |
 
 ---
@@ -220,8 +220,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Returns whether deezer is currently playing                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether deezer is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 184](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L184){target="_blank"} |
 
 ---
@@ -236,8 +236,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Returns whether deezer is currently open. Most other functions in hs.deezer will automatically start the application, so this function can be used to guard against that.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether the deezer application is running.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 171](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L171){target="_blank"} |
 
 ---
@@ -252,8 +252,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips to the next deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 74](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L74){target="_blank"} |
 
 ---
@@ -268,8 +268,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Pauses the current deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 61](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L61){target="_blank"} |
 
 ---
@@ -284,8 +284,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Plays the current deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L48){target="_blank"} |
 
 ---
@@ -300,8 +300,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Toggles play/pause of current deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 35](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L35){target="_blank"} |
 
 ---
@@ -316,8 +316,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips to previous deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L87){target="_blank"} |
 
 ---
@@ -332,8 +332,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips the playback position backwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 306](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L306){target="_blank"} |
 
 ---
@@ -348,8 +348,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Sets the playback position in the current song                                                                     |
 | **Parameters**                              | <ul><li>pos - A number containing the position (in seconds) to jump to in the current song</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 266](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L266){target="_blank"} |
 
 ---
@@ -364,8 +364,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Sets the deezer volume setting                                                                     |
 | **Parameters**                              | <ul><li>vol - A number between 1 and 100</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 218](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L218){target="_blank"} |
 
 ---
@@ -380,8 +380,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Reduces the volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 244](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L244){target="_blank"} |
 
 ---
@@ -396,8 +396,8 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Increases the volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/deezer/deezer.lua line 233](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/deezer/deezer.lua#L233){target="_blank"} |
 
 ---

@@ -28,8 +28,8 @@ Twelve Button Panel for the Final Cut Pro HUD.
 | **Description**                             | Update the Buttons Panel HTML content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua#L34){target="_blank"} |
 
 ---
@@ -44,7 +44,7 @@ Twelve Button Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.twelvebuttons.buttons <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of HUD button values.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua#L29){target="_blank"} |
 
 ---

@@ -55,7 +55,7 @@ Timeline Contents Module.
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L274){target="_blank"} |
 
 ---
@@ -70,8 +70,8 @@ Timeline Contents Module.
 | **Description**                             | Checks if an `axuielementObject` matches the `Contents` type.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L28){target="_blank"} |
 
 ---
@@ -87,7 +87,7 @@ Timeline Contents Module.
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L345){target="_blank"} |
 
 ---
@@ -103,7 +103,7 @@ Timeline Contents Module.
 | **Parameters**                              | <ul><li>position     - The `X` (or horizontal) position value to find clips under.</li><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is `true` any `AXGroup` items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L318){target="_blank"} |
 
 ---
@@ -119,7 +119,7 @@ Timeline Contents Module.
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L363){target="_blank"} |
 
 ---
@@ -136,8 +136,8 @@ Timeline Contents Module.
 | **Description**                             | Creates a new Timeline `Contents` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent `Timeline`</li></ul> |
 | **Returns**                                 | <ul><li>A new `Contents` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L43){target="_blank"} |
 
 ---
@@ -152,7 +152,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.children <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current set of child elements in the Contents.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L115){target="_blank"} |
 
 ---
@@ -165,7 +165,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.isLoaded <cp.prop: booelan; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline has content loaded.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L139){target="_blank"} |
 
 ---
@@ -178,7 +178,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.playhead <cp.apple.finalcutpro.main.Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main Playhead.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L196){target="_blank"} |
 
 ---
@@ -191,7 +191,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.scrollArea <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ScrollArea` for the Contents element.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L94){target="_blank"} |
 
 ---
@@ -204,7 +204,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.scrollAreaUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The parent `ScrollArea` UI of the Timeline Contents area.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L84){target="_blank"} |
 
 ---
@@ -217,7 +217,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.selectedChildren <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current set of selected child elements in the Contents.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L127){target="_blank"} |
 
 ---
@@ -230,7 +230,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.skimmingPlayhead <cp.apple.finalcutpro.main.Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Playhead that tracks with the mouse pointer.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L203){target="_blank"} |
 
 ---
@@ -243,7 +243,7 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.viewFrame <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current 'frame' of the internal timeline content,  or `nil` if not available.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L108){target="_blank"} |
 
 ---
@@ -260,8 +260,8 @@ Timeline Contents Module.
 | **Description**                             | Returns the active Playhead. If the Skimming Playhead is available, return that, otherwise, return the normal Playhead.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The active `Playhead`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L211){target="_blank"} |
 
 ---
@@ -276,8 +276,8 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) which will focus on the `Contents`.                                                                     |
 | **Parameters**                              | <ul><li>show      - if `true`, the `Contents` will be shown before focusing.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 576](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L576){target="_blank"} |
 
 ---
@@ -292,8 +292,8 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to hide the Timeline Contents.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 177](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L177){target="_blank"} |
 
 ---
@@ -308,8 +308,8 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) which will select the specified single `hs.axuielement` value in the Timeline Contents area.                                                                     |
 | **Parameters**                              | <ul><li>clipUI       - The `hs._asm.axuilement` values to select.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that will select the clip or throw an error if there is an issue.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 529](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L529){target="_blank"} |
 
 ---
@@ -324,8 +324,8 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) which will select the specified list of `hs.axuielement` values in the Timeline Contents area.                                                                     |
 | **Parameters**                              | <ul><li>clipsUI       - The table of `hs._asm.axuilement` values to select.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that will select the clips or throw an error if there is an issue.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 502](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L502){target="_blank"} |
 
 ---
@@ -340,8 +340,8 @@ Timeline Contents Module.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will clear any clip selection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 480](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L480){target="_blank"} |
 
 ---
@@ -356,8 +356,8 @@ Timeline Contents Module.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) that will select the top clip at the given position, resolving to the top clip if available.                                                                     |
 | **Parameters**                              | <ul><li>position - (optional) The position `table` to select the top clip at. If not provided, the current active playhead position is used.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement)</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 550](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L550){target="_blank"} |
 
 ---
@@ -372,8 +372,8 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to show the Timeline Contents.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L158){target="_blank"} |
 
 ---
@@ -388,8 +388,8 @@ Timeline Contents Module.
 | **Description**                             | Returns the UI for the current 'Range Selection', if present.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The 'Range Selection' UI or `nil`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L300){target="_blank"} |
 
 ---
@@ -405,7 +405,7 @@ Timeline Contents Module.
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of selected axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Contents.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Contents.lua#L252){target="_blank"} |
 
 ---

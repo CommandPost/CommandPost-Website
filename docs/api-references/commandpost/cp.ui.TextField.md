@@ -46,8 +46,8 @@ Text Field Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li><li>subrole - (optional) If provided, the field must have the specified subrole.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L85){target="_blank"} |
 
 ---
@@ -92,7 +92,7 @@ Text Field Module.
 | **Signature**                               | `cp.ui.TextField.value <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L131){target="_blank"} |
 
 ---
@@ -109,8 +109,8 @@ Text Field Module.
 | **Description**                             | Clears the value of a Text Field.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L204){target="_blank"} |
 
 ---
@@ -125,8 +125,8 @@ Text Field Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will confirm the current text value.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L218){target="_blank"} |
 
 ---
@@ -141,8 +141,8 @@ Text Field Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to focus on the current `TextField`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L237){target="_blank"} |
 
 ---
@@ -157,8 +157,8 @@ Text Field Module.
 | **Description**                             | Configures the TextField to force a focus on the field before editing. Some fields seem to require this to actually update the text value.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L163){target="_blank"} |
 
 ---
@@ -173,8 +173,8 @@ Text Field Module.
 | **Description**                             | Gets the value of the Text Field.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The value of the Text Field as a string.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 177](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L177){target="_blank"} |
 
 ---
@@ -189,8 +189,8 @@ Text Field Module.
 | **Description**                             | Loads a Text Field layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the Text Field layout settings - created using `cp.ui.TextField:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 271](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L271){target="_blank"} |
 
 ---
@@ -205,8 +205,8 @@ Text Field Module.
 | **Description**                             | Saves the current Text Field layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Text Field Layout.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L256){target="_blank"} |
 
 ---
@@ -221,8 +221,8 @@ Text Field Module.
 | **Description**                             | Sets the value of the Text Field.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set the Text Field to as a string.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L190){target="_blank"} |
 
 ---
@@ -238,7 +238,7 @@ Text Field Module.
 | **Parameters**                              | <ul><li>parent   - The parent object.</li><li>uiFinder - The function will return the `axuielement` for the TextField.</li><li>getConvertFn    - (optional) If provided, will be passed the `string` value when returning.</li><li>setConvertFn    - (optional) If provided, will be passed the `number` value when setting.</li></ul> |
 | **Returns**                                 | <ul><li>The new `TextField`.</li></ul>          |
 | **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li></li><li> For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = TextField(parent, function() return ... end, tonumber, tostring)</li><li>```</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L100){target="_blank"} |
 
 ---

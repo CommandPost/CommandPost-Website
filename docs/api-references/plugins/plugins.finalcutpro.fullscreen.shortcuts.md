@@ -29,7 +29,7 @@ Fullscreen Shortcuts
 | **Signature**                               | `plugins.finalcutpro.fullscreen.shortcuts.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the module enabled?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L61){target="_blank"} |
 
 ---
@@ -46,8 +46,8 @@ Fullscreen Shortcuts
 | **Description**                             | Checks to see if a shortcut has been pressed, then processes.                                                                     |
 | **Parameters**                              | <ul><li>whichModifier - Which modifier key to check.</li><li>whichKey - Which key to check.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L156){target="_blank"} |
 
 ---
@@ -62,8 +62,8 @@ Fullscreen Shortcuts
 | **Description**                             | Performs a Ninja Key Stoke.                                                                     |
 | **Parameters**                              | <ul><li>whichModifier - Modifier Key</li><li>whichKey - Key</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L105){target="_blank"} |
 
 ---
@@ -78,8 +78,8 @@ Fullscreen Shortcuts
 | **Description**                             | Performs a command.                                                                     |
 | **Parameters**                              | <ul><li>cmd - The Command.</li><li>whichModifier - Which modifier key to check.</li><li>whichKey - Which key to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L132){target="_blank"} |
 
 ---
@@ -94,8 +94,8 @@ Fullscreen Shortcuts
 | **Description**                             | Toggles the watches for monitoring fullscreen playback.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L34){target="_blank"} |
 
 ---

@@ -29,7 +29,7 @@ General Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.GeneralPanel.TIME_DISPLAY -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The time display options.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L20){target="_blank"} |
 
 ---
@@ -46,8 +46,8 @@ General Panel Module.
 | **Description**                             | Gets to sets the Time Display value.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional value to set the Time Display.</li></ul> |
 | **Returns**                                 | <ul><li>The time display if successful, otherwise `nil` if an error occurs.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L30){target="_blank"} |
 
 ---
@@ -64,8 +64,8 @@ General Panel Module.
 | **Description**                             | Creates a new `GeneralPanel` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `GeneralPanel` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L76){target="_blank"} |
 
 ---

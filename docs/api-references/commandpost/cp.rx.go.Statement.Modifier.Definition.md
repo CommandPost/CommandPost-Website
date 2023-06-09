@@ -30,8 +30,8 @@ all of it's methods also.
 | **Description**                             | Checks if the `thing` is a `Statement.Modifier.Definition`.                                                                     |
 | **Parameters**                              | <ul><li>thing    - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thing is a `Statement.Modifier.Definition`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 755](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L755){target="_blank"} |
 
 ---
@@ -48,8 +48,8 @@ all of it's methods also.
 | **Description**                             | Defines the `Statement.Modifier`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new [Statement.Modifier](cp.rx.go.Statement.Modifier.md) definition.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 768](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L768){target="_blank"} |
 
 ---

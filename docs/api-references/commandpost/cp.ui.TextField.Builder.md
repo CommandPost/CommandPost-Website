@@ -27,7 +27,7 @@ Defines a `TextField` [Builder](cp.ui.Builder.md).
 | **Parameters**                              | <ul><li>getter - A `function` that will be called to get the value from the `TextField`.</li></ul> |
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
 | **Notes**                                   | <ul><li>The `getter` will be called with the `string` value from the `TextField` as its only parameter.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L25){target="_blank"} |
 
 ---
@@ -43,7 +43,7 @@ Defines a `TextField` [Builder](cp.ui.Builder.md).
 | **Parameters**                              | <ul><li>setter - A `function` that will be called to set the value in the `TextField`.</li></ul> |
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
 | **Notes**                                   | <ul><li>The `setter` will be called with the input value from a `TextField:value(...)` call as its only parameter.</li><li>   It should return a `string` to be saved into the `TextField`.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/TextField.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextField.lua#L38){target="_blank"} |
 
 ---

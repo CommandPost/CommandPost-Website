@@ -26,8 +26,8 @@ Info Panel for the Final Cut Pro HUD.
 | **Description**                             | Update the Info Panel HTML content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/info/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/info/init.lua#L32){target="_blank"} |
 
 ---
@@ -42,8 +42,8 @@ Info Panel for the Final Cut Pro HUD.
 | **Description**                             | Sets up or destroys the Info Panel watchers.                                                                     |
 | **Parameters**                              | <ul><li>enabled - `true` to setup, `false` to destroy</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/info/init.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/info/init.lua#L90){target="_blank"} |
 
 ---

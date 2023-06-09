@@ -30,7 +30,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Signature**                               | `plugins.finalcutpro.feedback.bugreport.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Height                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L33){target="_blank"} |
 
 ---
@@ -43,7 +43,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Signature**                               | `plugins.finalcutpro.feedback.bugreport.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Width                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L28){target="_blank"} |
 
 ---
@@ -60,8 +60,8 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Description**                             | Opens Final Cut Pro Feedback Screen                                                                     |
 | **Parameters**                              | <ul><li>bugReport - Is it a bug report or an enhancement request?</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L257){target="_blank"} |
 
 ---
@@ -76,7 +76,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Signature**                               | `plugins.finalcutpro.feedback.bugreport.position -> <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Webview Position                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L38){target="_blank"} |
 
 ---

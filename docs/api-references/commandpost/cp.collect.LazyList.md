@@ -34,7 +34,7 @@ lists that are expensive to create, but are only required when they are actually
 | **Parameters**                              | <ul><li>lenFn - A function that returns the length of the list.</li><li>getFn - A function that returns the item at the specified index.</li><li>options - A table of options.</li></ul> |
 | **Returns**                                 | <ul><li>A new `LazyList` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `lenFn` function has the signature `function() -> number`.</li><li>The `getFn` function has the signature `function(index) -> item`.</li><li>The `options` table has the following keys:</li><li> `cached` - A boolean indicating whether the list should cache the results of the `getFn`. Defaults to `false`.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/collect/LazyList.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/LazyList.lua#L17){target="_blank"} |
 
 ---

@@ -28,7 +28,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Signature**                               | `plugins.core.shortcuts.actions.eventTapCount -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A counter to detect how many times the event tap has been triggered.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L34){target="_blank"} |
 
 ---
@@ -41,7 +41,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Signature**                               | `plugins.core.shortcuts.actions.heldKeys -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of held down modifier keys.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L29){target="_blank"} |
 
 ---
@@ -58,8 +58,8 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Description**                             | Start Event Tap                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L39){target="_blank"} |
 
 ---
@@ -74,8 +74,8 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Description**                             | Start Event Tap                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L53){target="_blank"} |
 
 ---

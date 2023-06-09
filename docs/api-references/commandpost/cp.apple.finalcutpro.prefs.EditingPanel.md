@@ -33,8 +33,8 @@ Editing Panel Module.
 | **Description**                             | Creates a new `EditingPanel` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `EditingPanel` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L21){target="_blank"} |
 
 ---
@@ -49,7 +49,7 @@ Editing Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.audioFadeDuration <cp.ui.TextField: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Audio Fade Duration" `TextField` with a `number` value.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L61){target="_blank"} |
 
 ---
@@ -62,7 +62,7 @@ Editing Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.positionPlayheadAfterEditOperation <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Position playhead after edit operation" `CheckBox`.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L43){target="_blank"} |
 
 ---
@@ -75,7 +75,7 @@ Editing Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.showDetailedTrimmingFeedback <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Show detailed trimming feedback" `CheckBox`.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L34){target="_blank"} |
 
 ---
@@ -88,7 +88,7 @@ Editing Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.showReferenceWaveforms <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Show reference waveforms" `CheckBox`.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L52){target="_blank"} |
 
 ---
@@ -101,7 +101,7 @@ Editing Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.stillImageDuration <cp.ui.TextField: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Still image Duration" `TextField` with a `number` value.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L70){target="_blank"} |
 
 ---
@@ -114,7 +114,7 @@ Editing Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.transitionDuration <cp.ui.TextField: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Transition Duration" `TextField` with a `number` value.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L79){target="_blank"} |
 
 ---

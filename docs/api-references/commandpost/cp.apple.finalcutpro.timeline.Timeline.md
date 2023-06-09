@@ -60,7 +60,7 @@ on the `contents` property can be called on the Timeline module.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>`element` should be an `AXGroup`, which contains an `AXSplitGroup` with an</li><li>   `AXIdentifier` of `_NS:237` (as of Final Cut Pro 10.4)</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L42){target="_blank"} |
 
 ---
@@ -76,7 +76,7 @@ on the `contents` property can be called on the Timeline module.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>`element` should be an `AXSplitGroup` with an `AXIdentifier` of `_NS:237`</li><li>   (as of Final Cut Pro 10.4)</li><li>Because the timeline contents is hard to detect, we look for the timeline</li><li>   toolbar instead.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L62){target="_blank"} |
 
 ---
@@ -93,8 +93,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Creates a new `Timeline` instance.                                                                     |
 | **Parameters**                              | <ul><li>app - The `cp.apple.finalcutpro` object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Timeline` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L107){target="_blank"} |
 
 ---
@@ -109,7 +109,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.contents <cp.apple.finalcutpro.timeline.Contents>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Timeline Contents. The Content is the main body of the timeline,                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 380](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L380){target="_blank"} |
 
 ---
@@ -122,7 +122,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.effects <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The (sometimes hidden) Effect Browser.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 388](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L388){target="_blank"} |
 
 ---
@@ -135,7 +135,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.index <cp.apple.finalcutpro.timeline.Index>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Index](cp.apple.finalcutpro.timeline.Index.md).                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 427](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L427){target="_blank"} |
 
 ---
@@ -148,7 +148,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isFocused <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the timeline focused?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L179){target="_blank"} |
 
 ---
@@ -161,7 +161,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isOnPrimary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline is on the Primary Display.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L138){target="_blank"} |
 
 ---
@@ -174,7 +174,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isOnSecondary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline is on the Secondary Display.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L128){target="_blank"} |
 
 ---
@@ -187,7 +187,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isPlaying <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the timeline playing?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L172){target="_blank"} |
 
 ---
@@ -200,7 +200,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline is showing on either the Primary or Secondary display.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L148){target="_blank"} |
 
 ---
@@ -213,7 +213,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.mainUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the 'timeline', or `nil` if not available.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L158){target="_blank"} |
 
 ---
@@ -226,7 +226,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.rangeSelected <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if a range is selected in the timeline.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 416](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L416){target="_blank"} |
 
 ---
@@ -239,7 +239,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.speedPopover <cp.apple.finalcutpro.timeline.SpeedPopover>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [SpeedPopover](cp.apple.finalcutpro.timeline.SpeedPopover.md).                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 472](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L472){target="_blank"} |
 
 ---
@@ -252,7 +252,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.title <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [StaticText](cp.ui.StaticText.md) containing the title.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 409](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L409){target="_blank"} |
 
 ---
@@ -265,7 +265,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.toolbar <Toolbar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The bar at the top of the timeline.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L402){target="_blank"} |
 
 ---
@@ -278,7 +278,7 @@ on the `contents` property can be called on the Timeline module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.transitions <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The (sometimes hidden) Transitions Browser.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 395](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L395){target="_blank"} |
 
 ---
@@ -295,8 +295,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Returns the app instance representing Final Cut Pro.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>App</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L186){target="_blank"} |
 
 ---
@@ -311,8 +311,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Returns a `Statement` that will hide the Timeline (regardless of whether it was on the Primary or Secondary window).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement` ready to run.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 342](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L342){target="_blank"} |
 
 ---
@@ -328,7 +328,7 @@ on the `contents` property can be called on the Timeline module.
 | **Parameters**                              | <ul><li>title - The title of the project you want to open.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to run.</li></ul>          |
 | **Notes**                                   | <ul><li>The title supports patterns, so you can do things like:</li><li>   `require("cp.apple.finalcutpro").timeline:doOpenProject("Audio.*"):Now()`</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 448](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L448){target="_blank"} |
 
 ---
@@ -343,8 +343,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Returns a `Statement` that will ensure the timeline is in the primary window.                                                                     |
 | **Parameters**                              | <ul><li>timeout  - The timeout period for the operation.</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement` which will send `true` if it successful, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L252){target="_blank"} |
 
 ---
@@ -359,8 +359,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Returns a `Statement` that will ensure the timeline is in the secondary window.                                                                     |
 | **Parameters**                              | <ul><li>timeout  - The timeout period for the operation.</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement` which will send `true` if it successful, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L300){target="_blank"} |
 
 ---
@@ -375,8 +375,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Hide's the Timeline (regardless of whether it was on the Primary or Secondary display).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 321](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L321){target="_blank"} |
 
 ---
@@ -391,8 +391,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Show's the Timeline on the Primary Display.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L205){target="_blank"} |
 
 ---
@@ -407,8 +407,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Show's the Timeline on the Primary Display.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L228){target="_blank"} |
 
 ---
@@ -423,8 +423,8 @@ on the `contents` property can be called on the Timeline module.
 | **Description**                             | Show's the Timeline on the Secondary Display.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Timeline.lua#L280){target="_blank"} |
 
 ---

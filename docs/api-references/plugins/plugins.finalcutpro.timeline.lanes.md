@@ -25,8 +25,8 @@ Controls Final Cut Pro's Lanes.
 | **Description**                             | Select Clip at Lane in Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>whichLane - Lane Number</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/lanes.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/lanes.lua#L20){target="_blank"} |
 
 ---

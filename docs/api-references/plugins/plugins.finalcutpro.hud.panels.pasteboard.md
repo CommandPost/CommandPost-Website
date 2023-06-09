@@ -23,7 +23,7 @@ FCPXML Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.pasteboard.lastValue <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last value in FCPXML HUD.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/hud/panels/pasteboard/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/pasteboard/init.lua#L33){target="_blank"} |
 
 ---

@@ -67,7 +67,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.DEFAULT_GROUP -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L31){target="_blank"} |
 
 ---
@@ -80,7 +80,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.FILE_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | File name of settings file.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L36){target="_blank"} |
 
 ---
@@ -93,7 +93,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.FOLDER_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Folder Name where settings file is contained.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L41){target="_blank"} |
 
 ---
@@ -108,7 +108,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.maxItems -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of Touch Bar items per group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L71){target="_blank"} |
 
 ---
@@ -121,7 +121,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.numberOfSubGroups -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The number of Sub Groups per Touch Bar Group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L76){target="_blank"} |
 
 ---
@@ -138,8 +138,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns the active group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns the active group or `manager.defaultGroup` as a string.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 584](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L584){target="_blank"} |
 
 ---
@@ -154,8 +154,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns the active sub-group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns the active sub group as string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 603](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L603){target="_blank"} |
 
 ---
@@ -170,8 +170,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Clears the Touch Bar items.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L131){target="_blank"} |
 
 ---
@@ -186,8 +186,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Loads a specific sub-group.                                                                     |
 | **Parameters**                              | <ul><li>combinedGroupAndSubGroupID - The group and subgroup as a single string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 638](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L638){target="_blank"} |
 
 ---
@@ -202,8 +202,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Action.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Action as string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 369](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L369){target="_blank"} |
 
 ---
@@ -218,8 +218,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Action Handler ID.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Action as string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 350](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L350){target="_blank"} |
 
 ---
@@ -234,8 +234,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Action Title.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Action as string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L331){target="_blank"} |
 
 ---
@@ -250,8 +250,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Bank Label.                                                                     |
 | **Parameters**                              | <ul><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Label as string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 407](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L407){target="_blank"} |
 
 ---
@@ -266,8 +266,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Icon.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Icon data as string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 312](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L312){target="_blank"} |
 
 ---
@@ -282,8 +282,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Label.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Label as string</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 388](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L388){target="_blank"} |
 
 ---
@@ -298,8 +298,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Loads a specific sub-group.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the sub-group.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L622){target="_blank"} |
 
 ---
@@ -314,8 +314,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a group's visibility status.                                                                     |
 | **Parameters**                              | <ul><li>groupID - the group you want to update as a string.</li><li>status - the status of the group as a boolean.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 845](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L845){target="_blank"} |
 
 ---
@@ -330,8 +330,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Increments the active sub-group                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 709](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L709){target="_blank"} |
 
 ---
@@ -346,8 +346,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The module.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 860](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L860){target="_blank"} |
 
 ---
@@ -362,8 +362,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Goes to the next sub-group for the active group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 667](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L667){target="_blank"} |
 
 ---
@@ -378,8 +378,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Goes to the previous sub-group for the active group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 688](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L688){target="_blank"} |
 
 ---
@@ -394,8 +394,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Starts the CommandPost Touch Bar module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 425](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L425){target="_blank"} |
 
 ---
@@ -410,8 +410,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Stops the CommandPost Touch Bar module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 467](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L467){target="_blank"} |
 
 ---
@@ -426,8 +426,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Toggles the CommandPost Touch Bar module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 485](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L485){target="_blank"} |
 
 ---
@@ -442,8 +442,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns the `hs._asm.undocumented.touchbar` object if it exists.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`hs._asm.undocumented.touchbar`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L109){target="_blank"} |
 
 ---
@@ -458,8 +458,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates the Touch Bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 755](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L755){target="_blank"} |
 
 ---
@@ -474,8 +474,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar action.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li><li>actionTitle - Action Title as string</li><li>handlerID - Handler ID as string</li><li>action - Action as table</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successfully updated, or `false` if a duplicate entry was found</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L214){target="_blank"} |
 
 ---
@@ -490,8 +490,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar Bank Label.                                                                     |
 | **Parameters**                              | <ul><li>group - Group ID as string</li><li>label - Label as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L290){target="_blank"} |
 
 ---
@@ -506,8 +506,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar icon.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li><li>icon - Icon Data as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L186){target="_blank"} |
 
 ---
@@ -522,8 +522,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar label.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li><li>label - Label as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L262){target="_blank"} |
 
 ---
@@ -538,8 +538,8 @@ Touch Bar Manager Plugin.
 | **Description**                             | Shifts a Touch Bar button either up or down.                                                                     |
 | **Parameters**                              | <ul><li>direction - Either "up" or "down"</li><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L145){target="_blank"} |
 
 ---
@@ -554,7 +554,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.buttons <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved Touch Bar Buttons                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L92){target="_blank"} |
 
 ---
@@ -567,7 +567,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Touch Bar Support.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L81){target="_blank"} |
 
 ---
@@ -580,7 +580,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.supported <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the Touch Bar is supported on this version of macOS.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L101){target="_blank"} |
 
 ---

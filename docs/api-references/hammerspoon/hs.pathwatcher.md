@@ -38,7 +38,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
   `flagTables`: a table containing a list of tables denoting how each corresponding file in `paths` has changed, each containing boolean values indicating which types of events occurred; The possible keys are:mustScanSubDirsuserDroppedkernelDroppedeventIdsWrappedhistoryDonerootChangedmountunmountitemCreateditemRemoveditemInodeMetaModitemRenameditemModifieditemFinderInfoModitemChangeOwneritemXattrModitemIsFileitemIsDiritemIsSymlinkownEvent (OS X 10.9+)itemIsHardlink (OS X 10.10+)itemIsLastHardlink (OS X 10.10+)</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.pathwatcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>For more information about the event flags, see [the official documentation](https://developer.apple.com/reference/coreservices/1455361-fseventstreameventflags/)</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 83](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L83){target="_blank"} |
 
 ---
@@ -55,8 +55,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Starts a path watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.pathwatcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 153](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L153){target="_blank"} |
 
 ---
@@ -71,8 +71,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Stops a path watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 175](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L175){target="_blank"} |
 
 ---

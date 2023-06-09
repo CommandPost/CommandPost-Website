@@ -36,7 +36,7 @@ Represents a clip of media inside FCP.
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.type.filmstrip`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A constant for clips which are represented by a filmstrip.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L18){target="_blank"} |
 
 ---
@@ -49,7 +49,7 @@ Represents a clip of media inside FCP.
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.type.row`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A constant for clips which are represented by a table row.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L23){target="_blank"} |
 
 ---
@@ -66,8 +66,8 @@ Represents a clip of media inside FCP.
 | **Description**                             | Checks if the specified `thing` is a `Clip` instance.                                                                     |
 | **Parameters**                              | <ul><li>`thing`  - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `Clip`, otherwise returns `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L125){target="_blank"} |
 
 ---
@@ -85,7 +85,7 @@ Represents a clip of media inside FCP.
 | **Parameters**                              | <ul><li>`element`        - The `axuielement` the clip represents.</li><li>`options`        - A table containing the options for the clip.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Clip`.</li></ul>          |
 | **Notes**                                   | <ul><li>The options may be:</li><li> ** `columnIndex`   - A number which will be used to specify the column number to find the title in, if relevant.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L102){target="_blank"} |
 
 ---
@@ -102,8 +102,8 @@ Represents a clip of media inside FCP.
 | **Description**                             | Returns the title of the clip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The clip title.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L54){target="_blank"} |
 
 ---
@@ -118,8 +118,8 @@ Represents a clip of media inside FCP.
 | **Description**                             | Returns the type of clip (one of the `Clip.type` values)                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Clip.type` value (e.g. `Clip.type.row` or Clip.type.filmstrip`)</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L41){target="_blank"} |
 
 ---
@@ -134,8 +134,8 @@ Represents a clip of media inside FCP.
 | **Description**                             | Sets the title of a clip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L73){target="_blank"} |
 
 ---
@@ -150,8 +150,8 @@ Represents a clip of media inside FCP.
 | **Description**                             | Returns the `axuielement` for the clip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` for the clip.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/content/Clip.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/content/Clip.lua#L28){target="_blank"} |
 
 ---

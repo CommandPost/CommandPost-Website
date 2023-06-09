@@ -57,8 +57,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Checks if the provided `hs.axuielement` is a RadioButton.                                                                     |
 | **Parameters**                              | <ul><li>element		- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L32){target="_blank"} |
 
 ---
@@ -73,7 +73,7 @@ myButton(false) == false	-- now false
 | **Signature**                               | `cp.ui.RadioButton.checked <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the checkbox is currently checked. May be set by calling as a function with `true` or `false` to the function.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L59){target="_blank"} |
 
 ---
@@ -90,8 +90,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will check the button value when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L110){target="_blank"} |
 
 ---
@@ -106,8 +106,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will apply the layout provided, if possible.                                                                     |
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L202){target="_blank"} |
 
 ---
@@ -122,8 +122,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will press the button when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L157){target="_blank"} |
 
 ---
@@ -138,8 +138,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will toggle the button value when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L91){target="_blank"} |
 
 ---
@@ -154,8 +154,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will uncheck the button value when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L125){target="_blank"} |
 
 ---
@@ -170,8 +170,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Processes the `layout` table to restore this to match the provided `layout`.                                                                     |
 | **Parameters**                              | <ul><li>layout - the table of state values to restore to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L186){target="_blank"} |
 
 ---
@@ -186,8 +186,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Attempts to press the button. May fail if the `UI` is not available.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L140){target="_blank"} |
 
 ---
@@ -202,8 +202,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Creates a new RadioButton.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>finderFn		- A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `RadioButton`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L45){target="_blank"} |
 
 ---
@@ -218,8 +218,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `table` with the button's current state. This can be passed to [#loadLayout] later to restore the original state.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The table of the layout state.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L171){target="_blank"} |
 
 ---
@@ -234,8 +234,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Toggles the `checked` status of the button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L77){target="_blank"} |
 
 ---

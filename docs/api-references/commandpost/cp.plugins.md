@@ -197,7 +197,7 @@ These modules will not be accessible to other plugins or to the main application
 | **Signature**                               | `cp.plugins.CACHE -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugin Cache                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L174){target="_blank"} |
 
 ---
@@ -210,7 +210,7 @@ These modules will not be accessible to other plugins or to the main application
 | **Signature**                               | `cp.plugins.SETTINGS_DISABLED -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugin Disabled Code                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L195){target="_blank"} |
 
 ---
@@ -225,7 +225,7 @@ These modules will not be accessible to other plugins or to the main application
 | **Signature**                               | `cp.plugins.IDS -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Plugin Status Codes                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L184){target="_blank"} |
 
 ---
@@ -242,8 +242,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Adds the `dependentPlugin` as a dependent of the plugin with the specified id.                                                                     |
 | **Parameters**                              | <ul><li>`id`                 - The plugin package ID.</li><li>`dependentPlugin`    - The plugin which is a dependent</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 450](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L450){target="_blank"} |
 
 ---
@@ -258,8 +258,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Disabled the plugin(s) with the specified IDs and reloads the application.                                                                     |
 | **Parameters**                              | <ul><li>`...` - The list of plugin package IDs.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugin was disabled, or `false` if any of the plugins failed.</li><li>If disabling failed, the first ID that failed is returned as the second value.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 481](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L481){target="_blank"} |
 
 ---
@@ -274,8 +274,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Enables the plugin with the specified ID, and reloads the application.                                                                     |
 | **Parameters**                              | <ul><li>`...` - The plugin package ID.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugins had been disabled and are now enabled.</li><li>If enabling failed, the plugin ID which could not be enabled is returned as the second value.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 529](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L529){target="_blank"} |
 
 ---
@@ -290,8 +290,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Retrieves the list of dependent plugins for the specified plugin id.                                                                     |
 | **Parameters**                              | <ul><li>`id`      - The plugin ID.</li></ul> |
 | **Returns**                                 | <ul><li>The table of dependents.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 467](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L467){target="_blank"} |
 
 ---
@@ -306,8 +306,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Retrieves a plugin from the cache by ID.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the plugin you want to get</li></ul> |
 | **Returns**                                 | <ul><li>The plugin</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L255){target="_blank"} |
 
 ---
@@ -322,8 +322,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Retrieves an array of the loaded plugin IDs.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the list of plugin IDs.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L242){target="_blank"} |
 
 ---
@@ -338,8 +338,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Returns an initialised plugin result with the specified `id`.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The plugin package ID.</li></ul> |
 | **Returns**                                 | <ul><li>the result of the plugin's `init(...)` function call.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L228){target="_blank"} |
 
 ---
@@ -354,8 +354,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Retrieves an array of details about the set of loaded plugins.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the list of plugins.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L268){target="_blank"} |
 
 ---
@@ -371,7 +371,7 @@ These modules will not be accessible to other plugins or to the main application
 | **Parameters**                              | <ul><li>`paths` - An array of paths to search for plugins in.</li></ul> |
 | **Returns**                                 | <ul><li>`cp.plugins` - The module.</li></ul>          |
 | **Notes**                                   | <ul><li>Plugins in earlier packages will take precedence over those in later paths, if there are duplicates.</li><li></li><li>Eg:</li><li></li><li>```lua</li><li>plugins.init({"~/Library/Application Support/CommandPost/Plugins"})</li><li>```</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 653](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L653){target="_blank"} |
 
 ---
@@ -387,7 +387,7 @@ These modules will not be accessible to other plugins or to the main application
 | **Parameters**                              | <ul><li>`id` - The LUA package to look in</li></ul> |
 | **Returns**                                 | <ul><li>the result of the plugin's `init(...)` function call.</li></ul>          |
 | **Notes**                                   | <ul><li>The plugin will only be loaded once, and the result of its `init(...)` function will be cached for future calls.</li><li></li><li>Eg:</li><li></li><li>```</li><li>plugins.initPlugin("cp.plugins.test.helloworld")</li><li>```</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L300){target="_blank"} |
 
 ---
@@ -402,8 +402,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Initialises all registered plugins.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 285](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L285){target="_blank"} |
 
 ---
@@ -418,8 +418,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Checks if the specified plugin ID is disabled. Plugins are enabled by default.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The plugin package ID.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugin is disabled.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 561](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L561){target="_blank"} |
 
 ---
@@ -435,7 +435,7 @@ These modules will not be accessible to other plugins or to the main application
 | **Parameters**                              | <ul><li>`path` - The plugin package ID.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugin is successfully post-initialised.</li></ul>          |
 | **Notes**                                   | <ul><li>Complex plugins can also have other resources, accessible via an `cp.plugins.env` parameter passed to the `init()` function. For example, an image stored in the `images` folder inside the plugin can be accessed via:</li><li></li><li>```lua</li><li>function plugin.init(dependencies, env)</li><li>    local imagePath = env:pathToAbsolute("image/example.jpg")</li><li>end</li><li>```</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 810](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L810){target="_blank"} |
 
 ---
@@ -450,8 +450,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Loads the list of dependencies for the provided plugin.                                                                     |
 | **Parameters**                              | <ul><li>`plugin` - The plugin object</li></ul> |
 | **Returns**                                 | <ul><li>an array of the dependencies required by the plugin, or `nil` if any could not be loaded.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 410](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L410){target="_blank"} |
 
 ---
@@ -466,8 +466,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Loads a 'simple' plugin, where it is defined by a single LUA script.                                                                     |
 | **Parameters**                              | <ul><li>`path` - The plugin package ID.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugin is successfully post-initialised.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 779](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L779){target="_blank"} |
 
 ---
@@ -482,8 +482,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Runs any post-initialisation functions declared for the specified plugin ID. Any dependencies will be post-initialised prior to the plugin being post-initialised.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The plugin package ID.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugin is successfully post-initialised.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 596](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L596){target="_blank"} |
 
 ---
@@ -498,8 +498,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Performs any post-initialisation required for plugins.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 575](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L575){target="_blank"} |
 
 ---
@@ -515,7 +515,7 @@ These modules will not be accessible to other plugins or to the main application
 | **Parameters**                              | <ul><li>`directoryPath` - The path to the directory to scan.</li></ul> |
 | **Returns**                                 | <ul><li>boolean - `true` if the path was loaded successfully, false if there were any issues.</li></ul>          |
 | **Notes**                                   | <ul><li>Plugins can be simple or complex. Simple plugins are a single `*.lua` file, not named `init.lua`. Complex plugins are folders containing an `init.lua` file.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 718](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L718){target="_blank"} |
 
 ---
@@ -530,8 +530,8 @@ These modules will not be accessible to other plugins or to the main application
 | **Description**                             | Watches the plugin paths for changes and reloads the  application if any change.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/plugins/init.lua line 700](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/init.lua#L700){target="_blank"} |
 
 ---

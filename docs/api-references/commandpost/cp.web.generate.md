@@ -31,8 +31,8 @@ Functions for Generating HTML UI Items
 | **Description**                             | Generates a HTML Button                                                                     |
 | **Parameters**                              | <ul><li>data - Table containing the data you want to display on the Checkbox</li><li>customTrigger - Custom label used for JavaScript Callback</li><li>customWidth - Number to set the width of the button to</li><li>customID - Overrides the random HTML ID</li></ul> |
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/generate.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L141){target="_blank"} |
 
 ---
@@ -47,8 +47,8 @@ Functions for Generating HTML UI Items
 | **Description**                             | Generates a HTML Checkbox                                                                     |
 | **Parameters**                              | <ul><li>data - Table containing the data you want to display on the Checkbox</li><li>customTrigger - Custom label used for JavaScript Callback</li><li>customID - Custom ID used for the HTML objects</li></ul> |
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/generate.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L59){target="_blank"} |
 
 ---
@@ -63,8 +63,8 @@ Functions for Generating HTML UI Items
 | **Description**                             | Generates a HTML Dropdown                                                                     |
 | **Parameters**                              | <ul><li>title - Title to put in front of the Dropdown. Can be "".</li><li>data - Table containing the data you want to display on the Checkbox</li><li>customTrigger - Custom label used for JavaScript Callback</li></ul> |
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/generate.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L183){target="_blank"} |
 
 ---
@@ -79,8 +79,8 @@ Functions for Generating HTML UI Items
 | **Description**                             | Generates a HTML Heading                                                                     |
 | **Parameters**                              | <ul><li>data - Table containing the data you want to display on the Checkbox</li></ul> |
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/generate.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L115){target="_blank"} |
 
 ---
@@ -95,8 +95,8 @@ Functions for Generating HTML UI Items
 | **Description**                             | Generates a HTML Heading                                                                     |
 | **Parameters**                              | <ul><li>data - Table containing the data you want to display on the Checkbox</li><li>context - The context</li></ul> |
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/generate.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L98){target="_blank"} |
 
 ---
@@ -111,8 +111,8 @@ Functions for Generating HTML UI Items
 | **Description**                             | Sets the WebView Label                                                                     |
 | **Parameters**                              | <ul><li>value - WebView Label as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/generate.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L46){target="_blank"} |
 
 ---
@@ -127,8 +127,8 @@ Functions for Generating HTML UI Items
 | **Description**                             | Generates a blank HTML                                                                     |
 | **Parameters**                              | <ul><li>data - Table containing the data you want to display.</li></ul> |
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/web/generate.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L128){target="_blank"} |
 
 ---

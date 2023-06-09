@@ -28,8 +28,8 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 | **Description**                             | Opens Final Cut Pro Feedback Screen                                                                     |
 | **Parameters**                              | <ul><li>bugReport - Is it a bug report or an enhancement request?</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/compressor/feedback/bugreport.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/compressor/feedback/bugreport.lua#L244){target="_blank"} |
 
 ---
@@ -44,7 +44,7 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 | **Signature**                               | `plugins.compressor.feedback.bugreport.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The webview position.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/compressor/feedback/bugreport.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/compressor/feedback/bugreport.lua#L38){target="_blank"} |
 
 ---

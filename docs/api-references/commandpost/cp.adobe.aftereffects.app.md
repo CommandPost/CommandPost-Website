@@ -23,7 +23,7 @@ The `cp.app` for Adobe After Effects.
 | **Signature**                               | `cp.adobe.aftereffects.app <cp.app>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app` for After Effects.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L30){target="_blank"} |
 
 ---

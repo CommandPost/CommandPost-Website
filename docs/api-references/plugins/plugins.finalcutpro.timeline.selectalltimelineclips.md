@@ -25,8 +25,8 @@ Select All Timeline Clips
 | **Description**                             | Selects all timeline clips to the left or right of the timeline playhead in Final Cut Pro.                                                                     |
 | **Parameters**                              | <ul><li>forwards - `true` if you want to select forwards</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/selectalltimelineclips.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/selectalltimelineclips.lua#L13){target="_blank"} |
 
 ---

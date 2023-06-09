@@ -34,8 +34,8 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Description**                             | Initialises the plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L63){target="_blank"} |
 
 ---
@@ -50,8 +50,8 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Description**                             | Sends a notification.                                                                     |
 | **Parameters**                              | <ul><li>message - The message you want to send as a string.</li><li>[title] - An optional Title for the message as a string.</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L77){target="_blank"} |
 
 ---
@@ -66,8 +66,8 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Description**                             | Enables or disables ifttt Notifications depending on the user's preferences.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L38){target="_blank"} |
 
 ---
@@ -82,7 +82,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Signature**                               | `plugins.finalcutpro.notifications.ifttt.appAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Application API Key                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L28){target="_blank"} |
 
 ---
@@ -95,7 +95,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Signature**                               | `plugins.finalcutpro.notifications.ifttt.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L33){target="_blank"} |
 
 ---
@@ -108,7 +108,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Signature**                               | `plugins.finalcutpro.notifications.ifttt.userAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | User API Key                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L23){target="_blank"} |
 
 ---

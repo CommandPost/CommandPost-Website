@@ -31,7 +31,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Signature**                               | `plugins.motion.feedback.bugreport.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Height                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L34){target="_blank"} |
 
 ---
@@ -44,7 +44,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Signature**                               | `plugins.motion.feedback.bugreport.DEFAULT_TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Title                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L39){target="_blank"} |
 
 ---
@@ -57,7 +57,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Signature**                               | `plugins.motion.feedback.bugreport.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Width                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L29){target="_blank"} |
 
 ---
@@ -74,8 +74,8 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Description**                             | Opens Final Cut Pro Feedback Screen                                                                     |
 | **Parameters**                              | <ul><li>bugReport - Is it a bug report or an enhancement request?</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L248){target="_blank"} |
 
 ---
@@ -90,7 +90,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Signature**                               | `plugins.motion.feedback.bugreport.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Webview Position                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L44){target="_blank"} |
 
 ---

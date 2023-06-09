@@ -28,7 +28,7 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.closed <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket has closed.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/websocket/event.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/event.lua#L17){target="_blank"} |
 
 ---
@@ -41,7 +41,7 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.closing <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is attempting to close.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/websocket/event.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/event.lua#L13){target="_blank"} |
 
 ---
@@ -54,7 +54,7 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.error <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | There was an error. The connection may still be open.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/websocket/event.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/event.lua#L21){target="_blank"} |
 
 ---
@@ -67,7 +67,7 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.message <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket has sent a message.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/websocket/event.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/event.lua#L25){target="_blank"} |
 
 ---
@@ -80,7 +80,7 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.opened <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket has opened.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/websocket/event.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/event.lua#L9){target="_blank"} |
 
 ---
@@ -93,7 +93,7 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.opening <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is attempting to open.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/websocket/event.lua line 5](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/event.lua#L5){target="_blank"} |
 
 ---

@@ -28,7 +28,7 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Signature**                               | `plugins.finalcutpro.actions.custom.shortcuts <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of shortcuts.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/actions/custom.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/actions/custom.lua#L28){target="_blank"} |
 
 ---
@@ -45,8 +45,8 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Description**                             | Applies a shortcut.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The Custom Action ID.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/actions/custom.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/actions/custom.lua#L40){target="_blank"} |
 
 ---
@@ -61,8 +61,8 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Description**                             | Assigns an Action to a Shortcut via a Console.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The Custom Action ID.</li><li>`completionFn` - An optional completion function that triggers when a selection is made.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/actions/custom.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/actions/custom.lua#L66){target="_blank"} |
 
 ---

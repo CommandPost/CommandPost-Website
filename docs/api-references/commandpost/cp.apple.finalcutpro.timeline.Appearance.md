@@ -38,8 +38,8 @@ Timeline Appearance Popup module.
 | **Description**                             | Creates a new `Appearance` instance.                                                                     |
 | **Parameters**                              | <ul><li>toggle - The parent CheckBox toggle.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Appearance` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L25){target="_blank"} |
 
 ---
@@ -54,7 +54,7 @@ Timeline Appearance Popup module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Appearance.angles <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Angles                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L136){target="_blank"} |
 
 ---
@@ -67,7 +67,7 @@ Timeline Appearance Popup module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Appearance.clipHeight <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Clip Height Slider.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L98){target="_blank"} |
 
 ---
@@ -80,7 +80,7 @@ Timeline Appearance Popup module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Appearance.clipNames <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Clip Names                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L127){target="_blank"} |
 
 ---
@@ -93,7 +93,7 @@ Timeline Appearance Popup module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Appearance.clipRoles <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Clip Roles                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L145){target="_blank"} |
 
 ---
@@ -106,7 +106,7 @@ Timeline Appearance Popup module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Appearance.clipWaveformHeight <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Waveform Height Radio Group.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L118){target="_blank"} |
 
 ---
@@ -119,7 +119,7 @@ Timeline Appearance Popup module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Appearance.laneHeaders <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Lane Headers                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L154){target="_blank"} |
 
 ---
@@ -132,7 +132,7 @@ Timeline Appearance Popup module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Appearance.zoomAmount <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Zoom Slider.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L109){target="_blank"} |
 
 ---
@@ -149,8 +149,8 @@ Timeline Appearance Popup module.
 | **Description**                             | A `Statement` that shows the Timeline Appearance popup.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L73){target="_blank"} |
 
 ---
@@ -165,8 +165,8 @@ Timeline Appearance Popup module.
 | **Description**                             | Show the Timeline Appearance popup.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Appearance` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L54){target="_blank"} |
 
 ---

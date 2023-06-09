@@ -72,7 +72,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.EFFECTS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Effects.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L33){target="_blank"} |
 
 ---
@@ -85,7 +85,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.TRANSITIONS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Transitions.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L38){target="_blank"} |
 
 ---
@@ -100,7 +100,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.isShowing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the Effects Browser showing?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L101){target="_blank"} |
 
 ---
@@ -117,8 +117,8 @@ Effects Browser Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L43){target="_blank"} |
 
 ---
@@ -135,8 +135,8 @@ Effects Browser Module.
 | **Description**                             | Creates a new `EffectsBrowser` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>type - A string determining whether the Effects Browser is for Effects (`cp.apple.finalcutpro.main.EffectsBrowser.EFFECTS`) or Transitions (`cp.apple.finalcutpro.main.EffectsBrowser.TRANSITIONS`).</li></ul> |
 | **Returns**                                 | <ul><li>A new `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L56){target="_blank"} |
 
 ---
@@ -151,7 +151,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.contents <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Effects Browser Contents.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 651](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L651){target="_blank"} |
 
 ---
@@ -164,7 +164,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.group <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group `PopUpButton`.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 671](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L671){target="_blank"} |
 
 ---
@@ -177,7 +177,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:mainGroupUI() -> <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Main Group UI.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 629](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L629){target="_blank"} |
 
 ---
@@ -190,7 +190,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.search <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Search `PopUpButton` object.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 680](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L680){target="_blank"} |
 
 ---
@@ -203,7 +203,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.sidebar <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The sidebar `Table` object.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 642](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L642){target="_blank"} |
 
 ---
@@ -216,7 +216,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.sidebarToggle <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sidebar Toggle.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 662](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L662){target="_blank"} |
 
 ---
@@ -229,7 +229,7 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.toggleButton <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Effects Browser Toggle Button.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L108){target="_blank"} |
 
 ---
@@ -246,8 +246,8 @@ Effects Browser Module.
 | **Description**                             | Applies an item by double clicking on it.                                                                     |
 | **Parameters**                              | <ul><li>itemUI - The `axuielementObject` of the item you want to apply.</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 580](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L580){target="_blank"} |
 
 ---
@@ -262,8 +262,8 @@ Effects Browser Module.
 | **Description**                             | Gets the Audio Category Rows UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 395](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L395){target="_blank"} |
 
 ---
@@ -278,8 +278,8 @@ Effects Browser Module.
 | **Description**                             | Gets the current items UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 533](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L533){target="_blank"} |
 
 ---
@@ -294,8 +294,8 @@ Effects Browser Module.
 | **Description**                             | Returns a `Statement` that will hide the Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L240){target="_blank"} |
 
 ---
@@ -310,8 +310,8 @@ Effects Browser Module.
 | **Description**                             | Returns a `Statement` that will show the Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L170){target="_blank"} |
 
 ---
@@ -326,8 +326,8 @@ Effects Browser Module.
 | **Description**                             | Returns a `Statement` that will show the Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L210){target="_blank"} |
 
 ---
@@ -342,8 +342,8 @@ Effects Browser Module.
 | **Description**                             | A `Statement` to toggle the Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 267](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L267){target="_blank"} |
 
 ---
@@ -358,8 +358,8 @@ Effects Browser Module.
 | **Description**                             | Returns the list of titles for all effects/transitions currently visible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 604](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L604){target="_blank"} |
 
 ---
@@ -374,8 +374,8 @@ Effects Browser Module.
 | **Description**                             | Hide the Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L153){target="_blank"} |
 
 ---
@@ -390,8 +390,8 @@ Effects Browser Module.
 | **Description**                             | Hide Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L223){target="_blank"} |
 
 ---
@@ -406,8 +406,8 @@ Effects Browser Module.
 | **Description**                             | Checks to see if an item is selected.                                                                     |
 | **Parameters**                              | <ul><li>itemUI - A `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the item is selected, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 559](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L559){target="_blank"} |
 
 ---
@@ -422,8 +422,8 @@ Effects Browser Module.
 | **Description**                             | Loads a Effects Browser layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the Effects Browser layout settings - created using `cp.apple.finalcutpro.main.Browser:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 717](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L717){target="_blank"} |
 
 ---
@@ -438,8 +438,8 @@ Effects Browser Module.
 | **Description**                             | Saves the current Effects Browser layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Effects Browser Layout.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 689](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L689){target="_blank"} |
 
 ---
@@ -454,8 +454,8 @@ Effects Browser Module.
 | **Description**                             | Gets the selected items UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 546](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L546){target="_blank"} |
 
 ---
@@ -470,8 +470,8 @@ Effects Browser Module.
 | **Description**                             | Show the Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L121){target="_blank"} |
 
 ---
@@ -486,8 +486,8 @@ Effects Browser Module.
 | **Description**                             | Show All Audio Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L483){target="_blank"} |
 
 ---
@@ -502,8 +502,8 @@ Effects Browser Module.
 | **Description**                             | Show All Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 308](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L308){target="_blank"} |
 
 ---
@@ -518,8 +518,8 @@ Effects Browser Module.
 | **Description**                             | Show All Transitions.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 323](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L323){target="_blank"} |
 
 ---
@@ -534,8 +534,8 @@ Effects Browser Module.
 | **Description**                             | Show All Video Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L441){target="_blank"} |
 
 ---
@@ -550,8 +550,8 @@ Effects Browser Module.
 | **Description**                             | Ensures the sidebar is showing and that the selected 'Audio' category is selected, if available.                                                                     |
 | **Parameters**                              | <ul><li>`name`		- The category name, in the current language.</li></ul> |
 | **Returns**                                 | <ul><li>The browser.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 510](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L510){target="_blank"} |
 
 ---
@@ -566,8 +566,8 @@ Effects Browser Module.
 | **Description**                             | Show Installed Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L280){target="_blank"} |
 
 ---
@@ -582,8 +582,8 @@ Effects Browser Module.
 | **Description**                             | Show Installed Transitions.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L294){target="_blank"} |
 
 ---
@@ -598,8 +598,8 @@ Effects Browser Module.
 | **Description**                             | Show Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L194){target="_blank"} |
 
 ---
@@ -614,8 +614,8 @@ Effects Browser Module.
 | **Description**                             | Ensures the sidebar is showing and that the selected 'Transitions' category is selected, if available.                                                                     |
 | **Parameters**                              | <ul><li>name - The category name, in the current language.</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L336){target="_blank"} |
 
 ---
@@ -630,8 +630,8 @@ Effects Browser Module.
 | **Description**                             | Ensures the sidebar is showing and that the selected 'Video' category is selected, if available.                                                                     |
 | **Parameters**                              | <ul><li>name - The category name, in the current language.</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 468](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L468){target="_blank"} |
 
 ---
@@ -646,8 +646,8 @@ Effects Browser Module.
 | **Description**                             | Toggle Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 253](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L253){target="_blank"} |
 
 ---
@@ -662,8 +662,8 @@ Effects Browser Module.
 | **Description**                             | Type of Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>App</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L82){target="_blank"} |
 
 ---
@@ -678,8 +678,8 @@ Effects Browser Module.
 | **Description**                             | Gets the Video Category Rows UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua line 372](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/EffectsBrowser.lua#L372){target="_blank"} |
 
 ---

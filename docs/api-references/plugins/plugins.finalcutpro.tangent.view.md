@@ -26,7 +26,7 @@ Final Cut Pro Tangent View Group
 | **Signature**                               | `plugins.finalcutpro.tangent.view.group`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `core.tangent.manager.group` that collects Final Cut Pro View actions/parameters/etc.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/plugins/finalcutpro/tangent/view.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/view.lua#L15){target="_blank"} |
 
 ---
@@ -43,8 +43,8 @@ Final Cut Pro Tangent View Group
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/tangent/view.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/view.lua#L20){target="_blank"} |
 
 ---

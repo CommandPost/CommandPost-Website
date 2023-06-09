@@ -63,7 +63,7 @@ misrepresented as being the original software.
 | **Parameters**                              | <ul><li>An optional point table containing the absolute x and y co-ordinates to move the mouse pointer to</li></ul> |
 | **Returns**                                 | <ul><li>A point table containing the absolute x and y co-ordinates of the mouse pointer</li></ul>          |
 | **Notes**                                   | <ul><li>If no parameters are supplied, the current position will be returned. If a point table parameter is supplied, the mouse pointer position will be set and the new co-ordinates returned</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/libmouse.m line 202](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L202){target="_blank"} |
 
 ---
@@ -79,7 +79,7 @@ misrepresented as being the original software.
 | **Parameters**                              | <ul><li>includeInternal - A boolean which sets whether or not you want to include internal Trackpad's in the count. Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>The number of mice connected to your system</li></ul>          |
 | **Notes**                                   | <ul><li>This function leverages code from [ManyMouse](http://icculus.org/manymouse/).</li><li>This function considers any mouse labelled as "Apple Internal Keyboard / Trackpad" to be an internal mouse.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/libmouse.m line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L154){target="_blank"} |
 
 ---
@@ -95,7 +95,7 @@ misrepresented as being the original software.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string.</li></ul>          |
 | **Notes**                                   | <ul><li>Possible values include: arrowCursor, contextualMenuCursor, closedHandCursor, crosshairCursor, disappearingItemCursor, dragCopyCursor, dragLinkCursor, IBeamCursor, operationNotAllowedCursor, pointingHandCursor, resizeDownCursor, resizeLeftCursor, resizeLeftRightCursor, resizeRightCursor, resizeUpCursor, resizeUpDownCursor, IBeamCursorForVerticalLayout or unknown if the cursor type cannot be determined.</li><li>This function can also return daVinciResolveHorizontalArrows, when hovering over mouse-draggable text-boxes in DaVinci Resolve. This is determined using the "hotspot" value of the cursor.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/libmouse.m line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L274){target="_blank"} |
 
 ---
@@ -111,7 +111,7 @@ misrepresented as being the original software.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns an array containing indices starting from 1 up to the highest numbered button currently being pressed where the index is `true` if the button is currently pressed or `false` if it is not.</li><li>Special hash tag synonyms for `left` (button 1), `right` (button 2), and `middle` (button 3) are also set to true if these buttons are currently being pressed.</li></ul>          |
 | **Notes**                                   | <ul><li>This function is a wrapper to `hs.eventtap.checkMouseButtons`</li><li>This is an instantaneous poll of the current mouse buttons, not a callback.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/mouse.lua line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L154){target="_blank"} |
 
 ---
@@ -126,8 +126,8 @@ misrepresented as being the original software.
 | **Description**                             | Gets the screen the mouse pointer is on                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.screen` object that the mouse pointer is on, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/mouse.lua line 140](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L140){target="_blank"} |
 
 ---
@@ -143,7 +143,7 @@ misrepresented as being the original software.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A point-table containing the relative x and y co-ordinates of the mouse pointer, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>The co-ordinates returned by this function are relative to the top left pixel of the screen the mouse is on (see `hs.mouse.getAbsolutePosition` if you need the location in the full desktop space)</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/mouse.lua line 84](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L84){target="_blank"} |
 
 ---
@@ -159,7 +159,7 @@ misrepresented as being the original software.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing strings of all the mice connected to the system.</li></ul>          |
 | **Notes**                                   | <ul><li>This function leverages code from [ManyMouse](http://icculus.org/manymouse/).</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/libmouse.m line 182](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L182){target="_blank"} |
 
 ---
@@ -174,8 +174,8 @@ misrepresented as being the original software.
 | **Description**                             | Gets the system-wide direction of scrolling                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string, either "natural" or "normal"</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/libmouse.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L257){target="_blank"} |
 
 ---
@@ -190,8 +190,8 @@ misrepresented as being the original software.
 | **Description**                             | Sets the co-ordinates of the mouse pointer, relative to a screen                                                                     |
 | **Parameters**                              | <ul><li>point - A point-table containing the relative x and y co-ordinates to move the mouse pointer to</li><li>screen - An optional `hs.screen` object. Defaults to the screen the mouse pointer is currently on</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/mouse.lua line 112](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L112){target="_blank"} |
 
 ---
@@ -207,7 +207,7 @@ misrepresented as being the original software.
 | **Parameters**                              | <ul><li>speed - An optional number containing the new tracking speed to set. If this is omitted, the current setting is returned</li></ul> |
 | **Returns**                                 | <ul><li>A number indicating the current tracking speed setting for mice</li></ul>          |
 | **Notes**                                   | <ul><li>This is represented in the System Preferences as the "Tracking speed" setting for mice</li><li>Note that not all values will work, they should map to the steps defined in the System Preferences app, which are:</li><li>  0.0, 0.125, 0.5, 0.6875, 0.875, 1.0, 1.5, 2.0, 2.5, 3.0</li><li>Note that changes to this value will not be noticed immediately by macOS</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/mouse/libmouse.m line 227](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L227){target="_blank"} |
 
 ---

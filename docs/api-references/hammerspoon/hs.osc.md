@@ -51,8 +51,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Creates a new OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>host - A string of the host path.</li><li>port - A number of the port.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.osc` object or `nil` if an error occured.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 167](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L167){target="_blank"} |
 
 ---
@@ -67,8 +67,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Creates a new OSC Server.                                                                     |
 | **Parameters**                              | <ul><li>listeningPort - A number for the listening port.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.osc` object or `nil` if an error occured.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L136){target="_blank"} |
 
 ---
@@ -86,7 +86,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Parameters**                              | <ul><li>`callbackFn` - a function to set as the callback for this OSC Server.  If the value provided is `nil`, any currently existing callback function is removed.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 3 arguments and should not return anything:</li><li>  `oscObject` - The OSC object that triggered the callback.</li><li>  `addressParts` - A table of address parts.</li><li>  `arguments` - A table of arguments.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 202](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L202){target="_blank"} |
 
 ---
@@ -101,8 +101,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the host path of a OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The host as a string.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 278](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L278){target="_blank"} |
 
 ---
@@ -117,8 +117,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets whether or not a OSC Server or Client is active.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 361](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L361){target="_blank"} |
 
 ---
@@ -133,8 +133,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the listening port of a OSC Server.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The port as a number.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 244](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L244){target="_blank"} |
 
 ---
@@ -149,8 +149,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the port of a OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The port as a number.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 261](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L261){target="_blank"} |
 
 ---
@@ -165,8 +165,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Sends a message from an OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>address - A string of the OSC address.</li><li>arguments - A table of arguments.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 331](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L331){target="_blank"} |
 
 ---
@@ -181,8 +181,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Starts an OSC Server or Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L295){target="_blank"} |
 
 ---
@@ -197,8 +197,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Stops an OSC Server or Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/osc/libosc.m line 313](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/osc/libosc.m#L313){target="_blank"} |
 
 ---

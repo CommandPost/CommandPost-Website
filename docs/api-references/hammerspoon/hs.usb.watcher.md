@@ -34,8 +34,8 @@ Watch for USB device connection/disconnection events
   vendorID - A number containing the Vendor ID of the device
   productID - A number containing the Product ID of the device</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.usb.watcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/usb/libusb_watcher.m line 177](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L177){target="_blank"} |
 
 ---
@@ -52,8 +52,8 @@ Watch for USB device connection/disconnection events
 | **Description**                             | Starts the USB watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/usb/libusb_watcher.m line 212](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L212){target="_blank"} |
 
 ---
@@ -68,8 +68,8 @@ Watch for USB device connection/disconnection events
 | **Description**                             | Stops the USB watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/usb/libusb_watcher.m line 251](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L251){target="_blank"} |
 
 ---

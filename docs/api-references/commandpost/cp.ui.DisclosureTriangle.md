@@ -59,8 +59,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Checks if the provided `hs.axuielement` is a DisclosureTriangle.                                                                     |
 | **Parameters**                              | <ul><li>element		- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L36){target="_blank"} |
 
 ---
@@ -77,8 +77,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Creates a new DisclosureTriangle.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>uiFinder		- A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `DisclosureTriangle`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L49){target="_blank"} |
 
 ---
@@ -93,7 +93,7 @@ myButton(false) == false	-- now false
 | **Signature**                               | `cp.ui.DisclosureTriangle.opened <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the disclosure triangle is currently opened.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L70){target="_blank"} |
 
 ---
@@ -106,7 +106,7 @@ myButton(false) == false	-- now false
 | **Signature**                               | `cp.ui.DisclosureTriangle.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L63){target="_blank"} |
 
 ---
@@ -123,8 +123,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Performs a single mouse click on the triangle.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L89){target="_blank"} |
 
 ---
@@ -139,8 +139,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will ensure the `DisclosureTriangle` is unopened.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L180){target="_blank"} |
 
 ---
@@ -155,8 +155,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will ensure the `DisclosureTriangle` is opened.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L161){target="_blank"} |
 
 ---
@@ -171,8 +171,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will press the button when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L140){target="_blank"} |
 
 ---
@@ -187,8 +187,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Applies the settings in the provided layout table.                                                                     |
 | **Parameters**                              | <ul><li>layout - The table containing layout settings. Usually created by the `saveLayout` method.</li></ul> |
 | **Returns**                                 | <ul><li>nil</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L214){target="_blank"} |
 
 ---
@@ -203,8 +203,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Attempts to press the button. May fail if the `UI` is not available.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L123){target="_blank"} |
 
 ---
@@ -219,8 +219,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a table containing the layout settings. This table may be passed to the `loadLayout` method to restore the saved layout.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A settings table.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L199){target="_blank"} |
 
 ---
@@ -235,8 +235,8 @@ myButton(false) == false	-- now false
 | **Description**                             | Toggles the `opened` status of the button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L109){target="_blank"} |
 
 ---

@@ -28,8 +28,8 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Description**                             | Checks if the specified value is a `ColorCurve`.                                                                     |
 | **Parameters**                              | <ul><li>element       - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches a ColorCurve element.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua#L25){target="_blank"} |
 
 ---
@@ -46,8 +46,8 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Description**                             | Creates a new `ColorCurve` [Element](cp.ui.Element.md).                                                                     |
 | **Parameters**                              | <ul><li>parent    - The parent `Element`.</li><li>type     - The [TYPE](#TYPE) of curve.</li></ul> |
 | **Returns**                                 | <ul><li>The new `ColorCurve`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua#L40){target="_blank"} |
 
 ---

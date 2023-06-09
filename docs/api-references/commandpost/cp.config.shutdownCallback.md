@@ -29,8 +29,8 @@ Shutdown Callback Module.
 | **Description**                             | Returns the callbackFn of the current Shutdown Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L403){target="_blank"} |
 
 ---
@@ -45,8 +45,8 @@ Shutdown Callback Module.
 | **Description**                             | Creates a new Shutdown Callback.                                                                     |
 | **Parameters**                              | <ul><li>`id`		- The unique ID for the callback you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L364){target="_blank"} |
 
 ---
@@ -61,8 +61,8 @@ Shutdown Callback Module.
 | **Description**                             | Returns all of the created Shutdown Callbacks                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 377](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L377){target="_blank"} |
 
 ---
@@ -77,8 +77,8 @@ Shutdown Callback Module.
 | **Description**                             | Returns the ID of the current Shutdown Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the current Shutdown Callback as a `string`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 390](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L390){target="_blank"} |
 
 ---
@@ -93,8 +93,8 @@ Shutdown Callback Module.
 | **Description**                             | Creates a new Shutdown Callback.                                                                     |
 | **Parameters**                              | <ul><li>`id`	- The unique ID for this callback.</li><li>`callbackFn` - The callback function</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/config/init.lua line 337](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L337){target="_blank"} |
 
 ---

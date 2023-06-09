@@ -39,8 +39,8 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L41){target="_blank"} |
 
 ---
@@ -57,8 +57,8 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | Creates a new FCPX `FullScreenPlayer` instance.                                                                     |
 | **Parameters**                              | <ul><li>app       - The FCP app instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `FullScreenPlayer`.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L58){target="_blank"} |
 
 ---
@@ -73,7 +73,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.isFullScreen <cp.prop; boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the window is full-screen.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L112){target="_blank"} |
 
 ---
@@ -86,7 +86,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.rootGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The root `AXGroup`.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L79){target="_blank"} |
 
 ---
@@ -99,7 +99,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.viewerGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Viewer's group UI element.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L91){target="_blank"} |
 
 ---
@@ -116,8 +116,8 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | A `Statement` that attempts to show the full screen window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L155){target="_blank"} |
 
 ---
@@ -132,8 +132,8 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | Attempts to show the full screen window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The window instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L141){target="_blank"} |
 
 ---

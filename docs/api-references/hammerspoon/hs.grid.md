@@ -82,7 +82,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Signature**                               | `hs.grid.ui`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allows customization of the modal resizing grid user interface                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [extensions/grid/grid.lua line 650](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L650){target="_blank"} |
 
 ---
@@ -99,8 +99,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Calls a user specified function to adjust a window's cell                                                                     |
 | **Parameters**                              | <ul><li>fn - a function that accepts a cell object as its only argument. The function should modify it as needed and return nothing</li><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 372](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L372){target="_blank"} |
 
 ---
@@ -115,8 +115,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Gets the cell describing a window                                                                     |
 | **Parameters**                              | <ul><li>an `hs.window` object to get the cell of</li></ul> |
 | **Returns**                                 | <ul><li>a cell object (i.e. an `hs.geometry` rect), or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 243](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L243){target="_blank"} |
 
 ---
@@ -131,8 +131,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Gets the `hs.geometry` rect for a cell on a particular screen                                                                     |
 | **Parameters**                              | <ul><li>cell - a cell object, i.e. an `hs.geometry` rect or argument to construct one</li><li>screen - an `hs.screen` object or argument to `hs.screen.find()` where the cell is located</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.geometry` rect for a cell on a particular screen or nil if the screen isn't found</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 266](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L266){target="_blank"} |
 
 ---
@@ -148,7 +148,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Parameters**                              | <ul><li>screen - an `hs.screen` object, or a valid argument to `hs.screen.find()`, indicating the screen to get the grid of; if omitted or nil, gets the default grid, which is used when no specific grid is found for any given screen/resolution</li></ul> |
 | **Returns**                                 | <ul><li> an `hs.geometry` size object indicating the number of columns and rows in the grid</li></ul>          |
 | **Notes**                                   | <ul><li> if a grid was not set for the specified screen or geometry, the default grid will be returned</li><li></li><li>Usage:</li><li>local mygrid = hs.grid.getGrid('1920x1080') -- gets the defined grid for all screens with a 1920x1080 resolution</li><li>local defgrid=hs.grid.getGrid() defgrid.w=defgrid.w+2 -- increases the number of columns in the default grid by 2</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 117](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L117){target="_blank"} |
 
 ---
@@ -163,8 +163,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Gets the defined grid frame for a given screen or screen resolution.                                                                     |
 | **Parameters**                              | <ul><li>screen - an `hs.screen` object, or a valid argument to `hs.screen.find()`, indicating the screen to get the grid frame of</li></ul> |
 | **Returns**                                 | <ul><li> an `hs.geometry` rect object indicating the frame used by the grid for the given screen; if no custom frame</li><li>    was given via `hs.grid.setGrid()`, returns the screen's frame</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L154){target="_blank"} |
 
 ---
@@ -180,7 +180,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Call this function if you need to make sure the modal is exited without waiting for the user to press `esc`.</li><li>If an exit callback was provided when invoking the modal interface, calling `.hide()` will call it</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 207](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L207){target="_blank"} |
 
 ---
@@ -195,8 +195,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Moves and resizes a window to fill the entire grid                                                                     |
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 400](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L400){target="_blank"} |
 
 ---
@@ -211,8 +211,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Moves a window one grid cell down the screen, or onto the adjacent screen's grid when necessary                                                                     |
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 515](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L515){target="_blank"} |
 
 ---
@@ -227,8 +227,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Moves a window one grid cell to the left, or onto the adjacent screen's grid when necessary                                                                     |
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 430](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L430){target="_blank"} |
 
 ---
@@ -243,8 +243,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Moves a window one cell to the right, or onto the adjacent screen's grid when necessary                                                                     |
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 454](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L454){target="_blank"} |
 
 ---
@@ -259,8 +259,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Moves a window one grid cell up the screen, or onto the adjacent screen's grid when necessary                                                                     |
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 540](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L540){target="_blank"} |
 
 ---
@@ -275,8 +275,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Resizes a window so its bottom edge moves one grid cell higher                                                                     |
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 564](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L564){target="_blank"} |
 
 ---
@@ -292,7 +292,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>if the window hits the bottom edge of the screen and is asked to become taller, its top edge will shift further up</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 577](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L577){target="_blank"} |
 
 ---
@@ -307,8 +307,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Resizes a window to be one cell thinner                                                                     |
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 502](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L502){target="_blank"} |
 
 ---
@@ -324,7 +324,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Parameters**                              | <ul><li>window - an `hs.window` object to act on; if omitted, the focused or frontmost window will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>if the window hits the right edge of the screen and is asked to become wider, its left edge will shift further left</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 479](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L479){target="_blank"} |
 
 ---
@@ -339,8 +339,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Sets the cell for a window on a particular screen                                                                     |
 | **Parameters**                              | <ul><li>win - an `hs.window` object representing the window to operate on</li><li>cell - a cell object, i.e. an `hs.geometry` rect or argument to construct one, to apply to the window</li><li>screen - (optional) an `hs.screen` object or argument to `hs.screen.find()` representing the screen to place the window on; if omitted the window's current screen will be used</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L295){target="_blank"} |
 
 ---
@@ -355,7 +355,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Sets the grid size for a given screen or screen resolution                                                                     |
 | **Parameters**                              | <ul><li>grid - an `hs.geometry` size, or argument to construct one, indicating the number of columns and rows for the grid</li><li>screen - an `hs.screen` object, or a valid argument to `hs.screen.find()`, indicating the screen(s) to apply the grid to; if omitted or nil, sets the default grid, which is used when no specific grid is found for any given screen/resolution</li><li>frame - an `hs.geometry` rect object indicating the frame that the grid will occupy for the given screen; if omitted or nil, the screen's `:frame()` will be used; use this argument if you want e.g. to leave a strip of the desktop unoccluded when using GeekTool or similar. The `screen` argument *must* be non-nil when setting a custom grid frame.</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Examples**                                | <ul><li>hs.grid.setGrid('5x3','Color LCD') -- sets the grid to 5x3 for any screen named "Color LCD"</li><li>hs.grid.setGrid('8x5','1920x1080') -- sets the grid to 8x5 for all screens with a 1920x1080 resolution</li><li>hs.grid.setGrid'4x4' -- sets the default grid to 4x4</li></ul> |
 | **Source**                                  | [extensions/grid/grid.lua line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L48){target="_blank"} |
 
@@ -371,8 +371,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Sets the margins between windows                                                                     |
 | **Parameters**                              | <ul><li>margins - an `hs.geometry` point or size, or argument to construct one, indicating the desired margins between windows in screen points</li></ul> |
 | **Returns**                                 | <ul><li> the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 98](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L98){target="_blank"} |
 
 ---
@@ -388,7 +388,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Parameters**                              | <ul><li>exitedCallback - (optional) a function that will be called after the user dismisses the modal interface</li><li>multipleWindows - (optional) if `true`, the resizing grid won't automatically go away after selecting the desired cells for the frontmost window; instead, it'll switch to the next window</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>In most cases this function should be invoked via `hs.hotkey.bind` with some keyboard shortcut.</li><li>In the modal interface, press the arrow keys to jump to adjacent screens; spacebar to maximize/unmaximize; esc to quit without any effect</li><li>Pressing `tab` or `shift-tab` in the modal interface will cycle to the next or previous window; if `multipleWindows`</li><li>   is false or omitted, the first press will just enable the multiple windows behaviour</li><li>The keyboard hints assume a QWERTY layout; if you use a different layout, change `hs.grid.HINTS` accordingly</li><li>If grid dimensions are greater than 10x10 then you may have to change `hs.grid.HINTS` depending on your</li><li>   requirements. See note in `HINTS`.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L187){target="_blank"} |
 
 ---
@@ -403,8 +403,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Snaps a window into alignment with the nearest grid lines                                                                     |
 | **Parameters**                              | <ul><li>win - an `hs.window` object to snap</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.grid` module for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 353](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L353){target="_blank"} |
 
 ---
@@ -419,8 +419,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 | **Description**                             | Toggles the grid and modal resizing mode - see `hs.grid.show()` and `hs.grid.hide()`                                                                     |
 | **Parameters**                              | <ul><li>exitedCallback - (optional) a function that will be called after the user dismisses the modal interface</li><li>multipleWindows - (optional) if `true`, the resizing grid won't automatically go away after selecting the desired cells for the frontmost window; instead, it'll switch to the next window</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/grid/grid.lua line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/grid/grid.lua#L221){target="_blank"} |
 
 ---

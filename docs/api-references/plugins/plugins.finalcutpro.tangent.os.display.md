@@ -25,8 +25,8 @@ Tangent Display Functions.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>deps - Dependancies</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/tangent/os/display.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/display.lua#L17){target="_blank"} |
 
 ---

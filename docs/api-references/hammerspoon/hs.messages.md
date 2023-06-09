@@ -28,8 +28,8 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 | **Description**                             | Sends an iMessage                                                                     |
 | **Parameters**                              | <ul><li>targetAddress - A string containing a phone number or email address registered with iMessage, to send the iMessage to</li><li>message - A string containing the message to send</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/messages/messages.lua line 18](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/messages/messages.lua#L18){target="_blank"} |
 
 ---
@@ -44,8 +44,8 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 | **Description**                             | Sends an SMS using SMS Relay                                                                     |
 | **Parameters**                              | <ul><li>targetNumber - A string containing a phone number to send an SMS to</li><li>message - A string containing the message to send</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [extensions/messages/messages.lua line 32](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/messages/messages.lua#L32){target="_blank"} |
 
 ---

@@ -29,7 +29,7 @@ that appear in Final Cut Pro.
 | **Signature**                               | `cp.apple.finalcutpro.strings <cp.strings>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.strings` providing access to common FCPX text values.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L166){target="_blank"} |
 
 ---
@@ -46,8 +46,8 @@ that appear in Final Cut Pro.
 | **Description**                             | Looks up an application string with the specified `key`. If no `context` value is provided, the [current context](#context) is used.                                                                     |
 | **Parameters**                              | <ul><li>`key`	- The key to look up.</li><li>`locale` - Optional locale to retrieve the key for, if available. May be a `string` or `cp.i18n.localeID`.</li><li>`quiet`	- Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/strings.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/strings.lua#L142){target="_blank"} |
 
 ---
@@ -63,7 +63,7 @@ that appear in Final Cut Pro.
 | **Parameters**                              | <ul><li>`string`	- The string to look up.</li><li>`lang`	- The language (defaults to current FCPX language).</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys with a matching string.</li></ul>          |
 | **Notes**                                   | <ul><li>This method may be very inefficient, since it has to search through every possible key/value pair to find matches. It is not recommended that this is used in production.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/strings.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/strings.lua#L169){target="_blank"} |
 
 ---

@@ -51,8 +51,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Creates a new test run.                                                                     |
 | **Parameters**                              | <ul><li>name          - The name of the run.</li><li>source        - The object (typically a [Definition](cp.spec.Definition.md)) that initiated the run.</li></ul> |
 | **Returns**                                 | <ul><li>cp.spec.Run</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 573](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L573){target="_blank"} |
 
 ---
@@ -67,7 +67,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Signature**                               | `cp.spec.Run.phase <cp.spec.Run.phase>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current [phase](#phase) of the run.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 612](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L612){target="_blank"} |
 
 ---
@@ -80,7 +80,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Signature**                               | `cp.spec.Run.report <cp.spec.Report>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The reports of the run.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 585](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L585){target="_blank"} |
 
 ---
@@ -93,7 +93,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Signature**                               | `cp.spec.Run.result <cp.spec.Run.result>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current result. Defaults to `Run.result.passing`.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 617](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L617){target="_blank"} |
 
 ---
@@ -106,7 +106,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Signature**                               | `cp.spec.Run.shared <table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The set of data shared by all phases of the Run. Data from parent Runs will also be available.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 600](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L600){target="_blank"} |
 
 ---
@@ -119,7 +119,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Signature**                               | `cp.spec.Run.source`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The object that initiated the run. Typically a [Definition](cp.spec.Definition.md).                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 593](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L593){target="_blank"} |
 
 ---
@@ -136,8 +136,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Enables debugging on this `Run`. Any calls to [#log] will be output to the console.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The same `Run` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 670](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L670){target="_blank"} |
 
 ---
@@ -153,7 +153,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Parameters**                              | <ul><li>messagePattern - The pattern to check the fail message against. If not provided, any message will match.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Run` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the it doesn't occur at some point during the run, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual abort/`error` would occur.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L186){target="_blank"} |
 
 ---
@@ -169,7 +169,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Parameters**                              | <ul><li>messagePattern - The pattern to check the fail message against. If not provided, any message will match.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Run` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the fail doesn't occur, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual assert/fail would occur.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L99){target="_blank"} |
 
 ---
@@ -184,8 +184,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Checks if `debug` has been enabled on this or any parent `Run`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 684](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L684){target="_blank"} |
 
 ---
@@ -200,8 +200,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Checks if the run is expecting a abort/error to occur. If so, it will return the expected message pattern as the second value, if specified.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>boolean - `true`, if a fail is expected.</li><li>string - the message pattern, if specified.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L226){target="_blank"} |
 
 ---
@@ -216,8 +216,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Checks if the run is expecting a fail to occur. If so, it will return the expected message pattern, if specified.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>boolean - `true`, if a fail is expected.</li><li>string - the message pattern, if specified.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L139){target="_blank"} |
 
 ---
@@ -232,8 +232,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | When the current [Run](cp.spec.Run.md) is in [debug](#debug) mode, output the message to the console.                                                                     |
 | **Parameters**                              | <ul><li>message   - the text message to output.</li><li>...       - optional parameters, to be injected into the message, ala `string.format`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 697](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L697){target="_blank"} |
 
 ---
@@ -248,8 +248,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Adds a callback function to run prior to executing the actual test.                                                                     |
 | **Parameters**                              | <ul><li>actionFn - The function to run, passed this `Run.This` as the first parameter.</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 885](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L885){target="_blank"} |
 
 ---
@@ -264,8 +264,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Adds a callback function to run after to executing the actual test, pass or fail.                                                                     |
 | **Parameters**                              | <ul><li>actionFn      - The function to run, passed this `Run` as the first parameter.</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 911](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L911){target="_blank"} |
 
 ---
@@ -280,8 +280,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Adds a callback function to run during the test.                                                                     |
 | **Parameters**                              | <ul><li>runningFn - The function to run, passed [Run.This](cp.spec.Run.This.md) as the first parameter.</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 898](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L898){target="_blank"} |
 
 ---
@@ -297,7 +297,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Parameters**                              | <ul><li>parent        - (optional) If set, will set the parent `Run`.</li></ul> |
 | **Returns**                                 | <ul><li>The current parent `Run`.</li></ul>          |
 | **Notes**                                   | <ul><li>If a `parent` is provided and there is already another Run set as a parent, an error is thrown.</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 838](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L838){target="_blank"} |
 
 ---
@@ -312,8 +312,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Description**                             | Either sets the `verbose` value and returns itself for further chaining, or returns the current verbose status.                                                                     |
 | **Parameters**                              | <ul><li>isVerbose - (optional) if `true` or `false` will update the verbose status and return this `Run`.</li></ul> |
 | **Returns**                                 | <ul><li>The current `verbose` status, or this `Run` if `isVerbose` is provided.</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/spec/Run.lua line 862](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L862){target="_blank"} |
 
 ---

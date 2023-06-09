@@ -30,7 +30,7 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.defaultHeight -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview height.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/feedback/init.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L37){target="_blank"} |
 
 ---
@@ -43,7 +43,7 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.defaultTitle -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview title.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/feedback/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L42){target="_blank"} |
 
 ---
@@ -56,7 +56,7 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.defaultWidth -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview width.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/feedback/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L32){target="_blank"} |
 
 ---
@@ -69,7 +69,7 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.position -> prop`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Webview Position.                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/feedback/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L52){target="_blank"} |
 
 ---
@@ -82,7 +82,7 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.quitOnComplete -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Quit on complete?                                                                     |
-| **Notes**                                   | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/feedback/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L47){target="_blank"} |
 
 ---
@@ -99,8 +99,8 @@ Feedback Form.
 | **Description**                             | Displays the Feedback Screen.                                                                     |
 | **Parameters**                              | <ul><li>quitOnComplete - `true` if you want CommandPost to quit after the Feedback is complete otherwise `false`</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>None</li></ul> |
-| **Examples**                                | <ul><li>None</li></ul> |
+| **Notes**                                   | None |
+| **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/feedback/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L162){target="_blank"} |
 
 ---
