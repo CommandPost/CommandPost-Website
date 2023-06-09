@@ -20,21 +20,32 @@ Represents a clip of media inside FCP.
 
 ### Constants
 
-| [filmstrip](#filmstrip)         |                                                                                     |
+
+### [filmstrip](#filmstrip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.type.filmstrip`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A constant for clips which are represented by a filmstrip.                                                                     |
 
-| [row](#row)         |                                                                                     |
+---
+
+### [row](#row)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.type.row`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A constant for clips which are represented by a table row.                                                                     |
 
+---
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,9 +54,13 @@ Represents a clip of media inside FCP.
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `Clip`, otherwise returns `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.new(element[, options]) -> Clip`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -54,9 +69,13 @@ Represents a clip of media inside FCP.
 | **Returns**                                 | <ul><li>The new `Clip`.</li></ul>          |
 | **Notes**                                   | <ul><li>The options may be:</li><li> ** `columnIndex`   - A number which will be used to specify the column number to find the title in, if relevant.</li></ul>                |
 
+---
 ### Methods
 
-| [getTitle](#getTitle)         |                                                                                     |
+
+### [getTitle](#getTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip:getTitle() -> String`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,7 +84,11 @@ Represents a clip of media inside FCP.
 | **Returns**                                 | <ul><li>The clip title.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getType](#getType)         |                                                                                     |
+---
+
+### [getType](#getType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip:getType() -> Clip.type`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +97,11 @@ Represents a clip of media inside FCP.
 | **Returns**                                 | <ul><li>The `Clip.type` value (e.g. `Clip.type.row` or Clip.type.filmstrip`)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setTitle](#setTitle)         |                                                                                     |
+---
+
+### [setTitle](#setTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip:setTitle(title) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,7 +110,11 @@ Represents a clip of media inside FCP.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [UI](#UI)         |                                                                                     |
+---
+
+### [UI](#UI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip:UI() -> axuielement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -92,3 +123,4 @@ Represents a clip of media inside FCP.
 | **Returns**                                 | <ul><li>The `axuielement` for the clip.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

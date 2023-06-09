@@ -32,7 +32,10 @@ return describe "a specification" {
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Specification.is(instance) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,9 +44,13 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>`true` if it's a `Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Specification](#Specification)         |                                                                                     |
+
+### [Specification](#Specification)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Specification(name) -> cp.spec.Specification`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -52,9 +59,13 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>A `cp.spec.Specification` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [onAfterEach](#onAfterEach)         |                                                                                     |
+
+### [onAfterEach](#onAfterEach)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Specification:onAfterEach(afterEachFn) -> cp.spec.Specification`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +74,11 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The same `cp.spec.Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onBeforeEach](#onBeforeEach)         |                                                                                     |
+---
+
+### [onBeforeEach](#onBeforeEach)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Specification:onBeforeEach(beforeEachFn) -> cp.spec.Specification`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,7 +87,11 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The same `cp.spec.Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [run](#run)         |                                                                                     |
+---
+
+### [run](#run)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Specification:run() -> cp.spec.Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -81,7 +100,11 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The [Run](cp.spec.Run.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [with](#with)         |                                                                                     |
+---
+
+### [with](#with)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Specification:with(...) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -90,3 +113,4 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The same `Specification` instance, with the definitions added.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

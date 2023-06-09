@@ -32,16 +32,23 @@ Note:
 
 ### Variables
 
-| [COLORRAMP](#COLORRAMP)         |                                                                                     |
+
+### [COLORRAMP](#COLORRAMP)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.COLORRAMP`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table holding the gamma values for given color temperatures; each key must be a color temperature number in K (useful values are between                                                                     |
 | **Notes**                                   | <ul><li>`hs.inspect(hs.redshift.COLORRAMP)` from the console will show you how the table is built</li><li>the default ramp has entries from 1000K to 10000K every 100K</li></ul>                |
 
+---
 ### Functions
 
-| [invertSubscribe](#invertSubscribe)         |                                                                                     |
+
+### [invertSubscribe](#invertSubscribe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.invertSubscribe([id,]fn)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +57,11 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>You can use this to dynamically adjust the UI colors in your modules or configuration, if appropriate.</li></ul>                |
 
-| [invertUnsubscribe](#invertUnsubscribe)         |                                                                                     |
+---
+
+### [invertUnsubscribe](#invertUnsubscribe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.invertUnsubscribe(id)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,7 +70,11 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isInverted](#isInverted)         |                                                                                     |
+---
+
+### [isInverted](#isInverted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.isInverted() -> string or false`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -68,7 +83,11 @@ Note:
 | **Returns**                                 | <ul><li>false if the colors are not currently inverted; otherwise, a string indicating the reason, one of:</li><li>  "user" for the user override (see `hs.redshift.toggleInvert()`)</li><li>  "redshift-night" if `hs.redshift.start()` was called with `invertAtNight` set to true,</li><li>     and it's currently night time</li><li>  the ID string (usually the module name) provided to `hs.redshift.requestInvert()`, if another module requested color inversion</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [requestInvert](#requestInvert)         |                                                                                     |
+---
+
+### [requestInvert](#requestInvert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.requestInvert(id,v)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -77,7 +96,11 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>you can use this function e.g. to automatically invert colors if the ambient light sensor reading drops below</li><li>   a certain threshold (`hs.brightness.DDCauto()` can optionally do exactly that)</li><li>if the user's configuration doesn't explicitly start the redshift module, calling this will have no effect</li></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.start(colorTemp,nightStart,nightEnd[,transition[,invertAtNight[,windowfilterDisable[,dayColorTemp]]]])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -86,7 +109,11 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.stop()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -95,7 +122,11 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggle](#toggle)         |                                                                                     |
+---
+
+### [toggle](#toggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.toggle([v])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -104,7 +135,11 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function should be bound to a hotkey, e.g.: `hs.hotkey.bind('ctrl-cmd','-','Redshift',hs.redshift.toggle)`</li></ul>                |
 
-| [toggleInvert](#toggleInvert)         |                                                                                     |
+---
+
+### [toggleInvert](#toggleInvert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.redshift.toggleInvert([v])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -113,3 +148,4 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function should be bound to a hotkey, e.g.: `hs.hotkey.bind('ctrl-cmd','=','Invert',hs.redshift.toggleInvert)`</li></ul>                |
 
+---

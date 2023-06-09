@@ -10,7 +10,10 @@ Provides an Error message, which can be thrown via the `error` function.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Error.is(other) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Provides an Error message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

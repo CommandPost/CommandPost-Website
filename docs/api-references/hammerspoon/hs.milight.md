@@ -22,21 +22,32 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ### Constants
 
-| [maxBrightness](#maxBrightness)         |                                                                                     |
+
+### [maxBrightness](#maxBrightness)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight.maxBrightness`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Specifies the maximum brightness value that can be used. Defaults to 25                                                                     |
 
-| [minBrightness](#minBrightness)         |                                                                                     |
+---
+
+### [minBrightness](#minBrightness)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight.minBrightness`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Specifies the minimum brightness value that can be used. Defaults to 0                                                                     |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight.new(ip[, port]) -> bridge`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,9 +56,13 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>An `hs.milight` object</li></ul>          |
 | **Notes**                                   | <ul><li>You can not use 255.255.255.255 as the IP address, to do so requires elevated privileges for the Hammerspoon process</li></ul>                |
 
+---
 ### Methods
 
-| [delete](#delete)         |                                                                                     |
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:delete()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -56,7 +71,11 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disco](#disco)         |                                                                                     |
+---
+
+### [disco](#disco)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:disco() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,7 +84,11 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [send](#send)         |                                                                                     |
+---
+
+### [send](#send)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:send(cmd[, value]) -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +97,11 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>This is a low level command, you typically should use a specific method for the operation you want to perform</li></ul>                |
 
-| [zoneBrightness](#zoneBrightness)         |                                                                                     |
+---
+
+### [zoneBrightness](#zoneBrightness)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:zoneBrightness(zone, value) -> integer`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,7 +110,11 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>A number containing the value that was sent to the WiFi bridge, or -1 if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [zoneColor](#zoneColor)         |                                                                                     |
+---
+
+### [zoneColor](#zoneColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:zoneColor(zone, value) -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -92,7 +123,11 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>The color value is not a normal RGB colour, but rather a lookup in an internal table in the light hardware. While any number between 0 and 255 is valid, there are some useful values worth knowing:</li><li> 00 - Violet</li><li> 16 - Royal Blue</li><li> 32 - Baby Blue</li><li> 48 - Aqua</li><li> 64 - Mint Green</li><li> 80 - Seafoam Green</li><li> 96 - Green</li><li> 112 - Lime Green</li><li> 128 - Yellow</li><li> 144 - Yellowy Orange</li><li> 160 - Orange</li><li> 176 - Red</li><li> 194 - Pink</li><li> 210 - Fuchsia</li><li> 226 - Lilac</li><li> 240 - Lavender</li></ul>                |
 
-| [zoneOff](#zoneOff)         |                                                                                     |
+---
+
+### [zoneOff](#zoneOff)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:zoneOff(zone) -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -101,7 +136,11 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [zoneOn](#zoneOn)         |                                                                                     |
+---
+
+### [zoneOn](#zoneOn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:zoneOn(zone) -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,7 +149,11 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [zoneWhite](#zoneWhite)         |                                                                                     |
+---
+
+### [zoneWhite](#zoneWhite)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.milight:zoneWhite(zone) -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -119,3 +162,4 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

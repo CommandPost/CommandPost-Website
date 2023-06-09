@@ -35,7 +35,10 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 
 ### Constructors
 
-| [Do](#Do)         |                                                                                     |
+
+### [Do](#Do)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Do(...) -> Do`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -44,9 +47,13 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 | **Returns**                                 | <ul><li>A new `Do` `Statement` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Do:Then(...) -> Do.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,3 +62,4 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 | **Returns**                                 | <ul><li>The [Then](cp.rx.go.Do.Then.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -14,7 +14,10 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 
 ### Constructors
 
-| [OfRows](#OfRows)         |                                                                                     |
+
+### [OfRows](#OfRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.OfRows(...) -> cp.ui.GridElement.OfRows`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -23,9 +26,13 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Returns**                                 | <ul><li>A new `GridElement.OfRows` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [createRow](#createRow)         |                                                                                     |
+
+### [createRow](#createRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.OfRows:createRow(tbl, rowFinder) -> cp.ui.Row`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -34,7 +41,11 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Returns**                                 | <ul><li>The new `Row` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [createRows](#createRows)         |                                                                                     |
+---
+
+### [createRows](#createRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.OfRows:createRows(tbl, rowsFinder) -> table of cp.ui.Row`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -43,3 +54,4 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Returns**                                 | <ul><li>A table of `Row`s.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -35,7 +35,10 @@ o:start()
 
 ### Functions
 
-| [notifiersForBundleID](#notifiersForBundleID)         |                                                                                     |
+
+### [notifiersForBundleID](#notifiersForBundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier.notifiersForBundleID(bundleID) -> table of cp.ui.notifier`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,9 +47,13 @@ o:start()
 | **Returns**                                 | <ul><li>A table of `cp.ui.notifier` instances.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier.new(bundleID, elementFinderFn) -> cp.ui.notifier`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -55,9 +62,13 @@ o:start()
 | **Returns**                                 | <ul><li>A new `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The function has a signature of `function() -> hs.axuielement`.</li><li>It simply returns the current element being observed, or `nil` if none is available.</li><li>The function will be called multiple times over the life of the notifier.</li></ul>                |
 
+---
 ### Methods
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:app() -> hs.application`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +77,11 @@ o:start()
 | **Returns**                                 | <ul><li>The running `hs.application` for the notifier's `bundleID`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [bundleID](#bundleID)         |                                                                                     |
+---
+
+### [bundleID](#bundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:bundleID()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,7 +90,11 @@ o:start()
 | **Returns**                                 | <ul><li>The application 'bundle ID' string (e.g. "com.apple.FinalCut")</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [currentElement](#currentElement)         |                                                                                     |
+---
+
+### [currentElement](#currentElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:currentElement() -> hs.axuielement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +103,11 @@ o:start()
 | **Returns**                                 | <ul><li>The `axuielement`, or `nil` if not available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [debugging](#debugging)         |                                                                                     |
+---
+
+### [debugging](#debugging)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:debugging([enabled]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,7 +116,11 @@ o:start()
 | **Returns**                                 | <ul><li>`true` if currently debugging, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pid](#pid)         |                                                                                     |
+---
+
+### [pid](#pid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:pid() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -102,7 +129,11 @@ o:start()
 | **Returns**                                 | <ul><li>The PID, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:reset() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -111,7 +142,11 @@ o:start()
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:start() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -120,7 +155,11 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:update([force]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +168,11 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watchAll](#watchAll)         |                                                                                     |
+---
+
+### [watchAll](#watchAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:watchAll(callbackFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,7 +181,11 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This should generally just be used for debugging purposes. It's best to use `watchFor`[#watchFor] in most cases.</li><li>The callback function should expect 3 arguments and return none. The arguments passed to the callback will be as follows:</li><li>    the `hs.axuielement` object for the accessibility element which generated the notification.</li><li>    a string with the notification type.</li><li>    A table containing key-value pairs with more information about the notification, if provided. Commonly this will be an empty table.</li></ul>                |
 
-| [watchFor](#watchFor)         |                                                                                     |
+---
+
+### [watchFor](#watchFor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.notifier:watchFor(notification, callbackFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -147,3 +194,4 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 3 arguments and return none. The arguments passed to the callback will be as follows:</li><li>    the `hs.axuielement` object for the accessibility element which generated the notification.</li><li>    a string with the notification type.</li><li>    A table containing key-value pairs with more information about the notification, if provided. Commonly this will be an empty table.</li></ul>                |
 
+---

@@ -15,21 +15,32 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 
 ### Constants
 
-| [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)         |                                                                                     |
+
+### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.feedback.bugreport.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Height                                                                     |
 
-| [DEFAULT_WIDTH](#DEFAULT_WIDTH)         |                                                                                     |
+---
+
+### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.feedback.bugreport.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Width                                                                     |
 
+---
 ### Functions
 
-| [open](#open)         |                                                                                     |
+
+### [open](#open)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.feedback.bugreport.open(bugReport) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -38,11 +49,16 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [position](#position)         |                                                                                     |
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.feedback.bugreport.position -> <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Webview Position                                                                     |
 
+---

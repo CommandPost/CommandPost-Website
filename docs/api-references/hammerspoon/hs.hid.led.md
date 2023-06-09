@@ -10,7 +10,10 @@ HID LED interface for Hammerspoon, controls the state of keyboard LEDs
 
 ### Functions
 
-| [set](#set)         |                                                                                     |
+
+### [set](#set)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hid.led.set(name, state) -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ HID LED interface for Hammerspoon, controls the state of keyboard LEDs
 | **Returns**                                 | <ul><li>true if success, false if error</li></ul>          |
 | **Notes**                                   | <ul><li>This function controls the LED state only, to modify capslock state, use hs.hid.capslock.set</li></ul>                |
 
+---

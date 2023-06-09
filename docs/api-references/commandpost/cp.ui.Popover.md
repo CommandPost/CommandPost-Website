@@ -15,7 +15,10 @@ UI Group.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Popover.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -24,9 +27,13 @@ UI Group.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Popover](#Popover)         |                                                                                     |
+
+### [Popover](#Popover)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Popover(parent, uiFinder) -> Popover`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -35,9 +42,13 @@ UI Group.
 | **Returns**                                 | <ul><li>A new `Popover` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [doHide](#doHide)         |                                                                                     |
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Popover:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ UI Group.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Popover:hide() -> Popover`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,3 +70,4 @@ UI Group.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

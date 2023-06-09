@@ -15,23 +15,34 @@ Notifications Manager Plugin.
 
 ### Constants
 
-| [manager](#manager)         |                                                                                     |
+
+### [manager](#manager)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.manager -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event Types                                                                     |
 
+---
 ### Variables
 
-| [watchers](#watchers)         |                                                                                     |
+
+### [watchers](#watchers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.manager.watchers -> watcher`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watchers                                                                     |
 
+---
 ### Functions
 
-| [unwatch](#unwatch)         |                                                                                     |
+
+### [unwatch](#unwatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.manager.unwatch(id) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Notifications Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watch](#watch)         |                                                                                     |
+---
+
+### [watch](#watch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.manager.watch(event) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,3 +64,4 @@ Notifications Manager Plugin.
 | **Returns**                                 | <ul><li>The ID of the watcher as string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -17,7 +17,10 @@ Registers itself with the `core.action.manager`.
 
 ### Functions
 
-| [execute](#execute)         |                                                                                     |
+
+### [execute](#execute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.commands.actions.execute(action) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,7 +29,11 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getId](#getId)         |                                                                                     |
+---
+
+### [getId](#getId)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.commands.actionss.getId(action) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +42,11 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getId](#getId)         |                                                                                     |
+---
+
+### [getId](#getId)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.commands.actions.getId(action) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +55,11 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.commands.actions.init(actionmanager, cmds) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,7 +68,11 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onChoices](#onChoices)         |                                                                                     |
+---
+
+### [onChoices](#onChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.commands.actions.onChoices([choices]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -62,7 +81,11 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onExecute](#onExecute)         |                                                                                     |
+---
+
+### [onExecute](#onExecute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.commands.actions.onExecute(action) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -71,7 +94,11 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.commands.actions.reset() -> nothing`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -80,3 +107,4 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

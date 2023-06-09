@@ -20,27 +20,42 @@ Touch Bar Preferences Panel
 
 ### Variables
 
-| [defaultIconPath](#defaultIconPath)         |                                                                                     |
+
+### [defaultIconPath](#defaultIconPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.defaultIconPath -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
 
-| [maxItems](#maxItems)         |                                                                                     |
+---
+
+### [maxItems](#maxItems)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.maxItems -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of Touch Bar items per group.                                                                     |
 
-| [supportedExtensions](#supportedExtensions)         |                                                                                     |
+---
+
+### [supportedExtensions](#supportedExtensions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.supportedExtensions -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Touch Bar Icons.                                                                     |
 
+---
 ### Functions
 
-| [getGroupEditor](#getGroupEditor)         |                                                                                     |
+
+### [getGroupEditor](#getGroupEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.getGroupEditor(groupId) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,7 +64,11 @@ Touch Bar Preferences Panel
 | **Returns**                                 | <ul><li>Group Editor</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.init(deps, env) -> module`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,7 +77,11 @@ Touch Bar Preferences Panel
 | **Returns**                                 | <ul><li>The Module</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setGroupEditor](#setGroupEditor)         |                                                                                     |
+---
+
+### [setGroupEditor](#setGroupEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.setGroupEditor(groupId, editorFn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -67,23 +90,36 @@ Touch Bar Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Touch Bar Support.                                                                     |
 
-| [lastGroup](#lastGroup)         |                                                                                     |
+---
+
+### [lastGroup](#lastGroup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.lastGroup <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
 
-| [scrollBarPosition](#scrollBarPosition)         |                                                                                     |
+---
+
+### [scrollBarPosition](#scrollBarPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.prefs.scrollBarPosition <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
 
+---

@@ -26,15 +26,22 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 
 ### Variables
 
-| [ui](#ui)         |                                                                                     |
+
+### [ui](#ui)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.highlight.ui`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allows customization of the highlight overlays and behaviour.                                                                     |
 
+---
 ### Functions
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.highlight.start([windowfilterIsolate[, windowfilterOverlay]])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +50,11 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>overlay mode is disabled by default - see `hs.window.highlight.ui.overlayColor`</li></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.highlight.stop()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +63,11 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggleIsolate](#toggleIsolate)         |                                                                                     |
+---
+
+### [toggleIsolate](#toggleIsolate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.highlight.toggleIsolate([v])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,3 +76,4 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function should be bound to a hotkey, e.g.: `hs.hotkey.bind('ctrl-cmd','\','Isolate',hs.window.highlight.toggleIsolate)`</li></ul>                |
 
+---

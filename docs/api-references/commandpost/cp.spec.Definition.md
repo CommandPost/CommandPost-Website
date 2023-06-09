@@ -16,7 +16,10 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Definition.is(instance) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,9 +28,13 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Returns**                                 | <ul><li>`true` if the instance is an instance of this class.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Definition](#Definition)         |                                                                                     |
+
+### [Definition](#Definition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Definition(name[, doing]) -> cp.spec.Definition`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -36,9 +43,13 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Returns**                                 | <ul><li>cp.spec.Definition object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [run](#run)         |                                                                                     |
+
+### [run](#run)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Definition:run([...]) -> cp.spec.Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -47,3 +58,4 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Returns**                                 | <ul><li>The [Run](cp.spec.Run.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

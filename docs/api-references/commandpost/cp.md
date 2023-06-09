@@ -66,7 +66,10 @@ Core CommandPost functionality.
 
 ### Functions
 
-| [imageBase64](#imageBase64)         |                                                                                     |
+
+### [imageBase64](#imageBase64)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.imageBase64(pathToImage) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,7 +78,11 @@ Core CommandPost functionality.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.init()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -84,11 +91,16 @@ Core CommandPost functionality.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [connectClip](#connectClip)         |                                                                                     |
+
+### [connectClip](#connectClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.cp.apple.finalcutpro.timeline.Timeline.connectClip <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) which connects a clip from the Browser to the Primary Storyline in the Timeline.                                                                     |
 
+---

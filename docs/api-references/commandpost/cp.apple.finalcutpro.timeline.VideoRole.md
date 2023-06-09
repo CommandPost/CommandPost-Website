@@ -16,7 +16,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.VideoRole.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,9 +28,13 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [VideoRole](#VideoRole)         |                                                                                     |
+
+### [VideoRole](#VideoRole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.VideoRole(parent, uiFinder)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -36,12 +43,17 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [subrolesExpanded](#subrolesExpanded)         |                                                                                     |
+
+### [subrolesExpanded](#subrolesExpanded)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.VideoRole.subrolesExpanded <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Button](cp.ui.Button.md) that toggles whether the sub-captions are visible.                                                                     |
 | **Notes**                                   | <ul><li>This [Button](cp.ui.Button.md) is only visible when the pointer is hovering over the Role.</li></ul>                |
 
+---

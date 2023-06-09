@@ -17,7 +17,10 @@ Search Console
 
 ### Functions
 
-| [register](#register)         |                                                                                     |
+
+### [register](#register)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.console.register(bundleID, activator) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,7 +29,11 @@ Search Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.console.show() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,3 +42,4 @@ Search Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

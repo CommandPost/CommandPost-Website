@@ -19,7 +19,10 @@ outputs via the standard `print` function.
 
 ### Methods
 
-| [aborted](#aborted)         |                                                                                     |
+
+### [aborted](#aborted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:aborted(run, msg)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -28,7 +31,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [failed](#failed)         |                                                                                     |
+---
+
+### [failed](#failed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:failed(run, msg) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -37,7 +44,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [filter](#filter)         |                                                                                     |
+---
+
+### [filter](#filter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:filter(run, msg) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [printf](#printf)         |                                                                                     |
+---
+
+### [printf](#printf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:printf(test, ...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +70,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [printSpacer](#printSpacer)         |                                                                                     |
+---
+
+### [printSpacer](#printSpacer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:printSpacer()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +83,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:start(run, msg)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +96,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:stop(run)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +109,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [summary](#summary)         |                                                                                     |
+---
+
+### [summary](#summary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:summary(run, report) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +122,11 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [waiting](#waiting)         |                                                                                     |
+---
+
+### [waiting](#waiting)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.DefaultHandler:waiting(run, timeout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,3 +135,4 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

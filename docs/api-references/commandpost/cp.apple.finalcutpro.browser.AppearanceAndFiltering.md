@@ -25,15 +25,22 @@ Clip Appearance & Filtering Menu Popover
 
 ### Constants
 
-| [DURATION](#DURATION)         |                                                                                     |
+
+### [DURATION](#DURATION)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.DURATION -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A lookup table of the duration values.                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -42,9 +49,13 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>`true` if the `element` is the "Clip Appearance & Filtering Menu" popover otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [AppearanceAndFiltering](#AppearanceAndFiltering)         |                                                                                     |
+
+### [AppearanceAndFiltering](#AppearanceAndFiltering)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering(parent) -> AppearanceAndFiltering`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -53,53 +64,85 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>The new `AppearanceAndFiltering` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [button](#button)         |                                                                                     |
+
+### [button](#button)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.button <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Clip Appearance & Filtering Menu" button.                                                                     |
 
-| [clipHeight](#clipHeight)         |                                                                                     |
+---
+
+### [clipHeight](#clipHeight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.clipHeight <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Clip Height Slider.                                                                     |
 
-| [continuousPlayback](#continuousPlayback)         |                                                                                     |
+---
+
+### [continuousPlayback](#continuousPlayback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.continuousPlayback <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Continuous Playback checkbox.                                                                     |
 
-| [duration](#duration)         |                                                                                     |
+---
+
+### [duration](#duration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.duration <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Duration Slider.                                                                     |
 
-| [groupBy](#groupBy)         |                                                                                     |
+---
+
+### [groupBy](#groupBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.groupBy <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Group By" popup button.                                                                     |
 
-| [sortBy](#sortBy)         |                                                                                     |
+---
+
+### [sortBy](#sortBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.sortBy <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Sort By" popup button.                                                                     |
 
-| [waveforms](#waveforms)         |                                                                                     |
+---
+
+### [waveforms](#waveforms)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering.waveforms <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Waveforms checkbox.                                                                     |
 
+---
 ### Methods
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -108,7 +151,11 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.AppearanceAndFiltering:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -117,3 +164,4 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

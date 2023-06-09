@@ -18,15 +18,22 @@ Touch Bar Widgets Manager
 
 ### Variables
 
-| [widgets](#widgets)         |                                                                                     |
+
+### [widgets](#widgets)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.manager.widgets -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Widget Manager                                                                     |
 
+---
 ### Functions
 
-| [allGroups](#allGroups)         |                                                                                     |
+
+### [allGroups](#allGroups)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.manager.widgets.allGroups() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,9 +42,13 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [get](#get)         |                                                                                     |
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.manager.widgets:get(id) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>table containing the widget</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getAll](#getAll)         |                                                                                     |
+---
+
+### [getAll](#getAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.manager.widgets:getAll() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +70,11 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.manager.widgets:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +83,11 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>The ID of the widget as a `string`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.manager.widgets:new(id, params) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +96,11 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [params](#params)         |                                                                                     |
+---
+
+### [params](#params)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.manager.widgets:params() -> function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,3 +109,4 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>The paramaters of the widget</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

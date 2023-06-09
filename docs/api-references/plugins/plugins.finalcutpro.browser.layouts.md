@@ -52,21 +52,32 @@ file.
 
 ### Variables
 
-| [busy](#busy)         |                                                                                     |
+
+### [busy](#busy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.busy -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we already in the process of doing something?                                                                     |
 
-| [lastCollection](#lastCollection)         |                                                                                     |
+---
+
+### [lastCollection](#lastCollection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.lastCollection -> string | nil`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last collection registered.                                                                     |
 
+---
 ### Functions
 
-| [getActiveColumnsNames](#getActiveColumnsNames)         |                                                                                     |
+
+### [getActiveColumnsNames](#getActiveColumnsNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.getActiveColumnsNames() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,7 +86,11 @@ file.
 | **Returns**                                 | <ul><li>A table of active column names or an empty table if something goes wrong.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getClipNameSize](#getClipNameSize)         |                                                                                     |
+---
+
+### [getClipNameSize](#getClipNameSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.getClipNameSize() -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -84,7 +99,11 @@ file.
 | **Returns**                                 | <ul><li>The Clip Name Size as a string or `nil` if cannot be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getSingleSelectedCollection](#getSingleSelectedCollection)         |                                                                                     |
+---
+
+### [getSingleSelectedCollection](#getSingleSelectedCollection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.getSingleSelectedCollection() -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -93,7 +112,11 @@ file.
 | **Returns**                                 | <ul><li>A string if successful otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [resetBrowserLayoutForSelectedCollection](#resetBrowserLayoutForSelectedCollection)         |                                                                                     |
+---
+
+### [resetBrowserLayoutForSelectedCollection](#resetBrowserLayoutForSelectedCollection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.resetBrowserLayoutForSelectedCollection() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -102,7 +125,11 @@ file.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>An error sound will play if there's nothing to reset.</li></ul>                |
 
-| [restoreBrowserLayoutForSelectedCollection](#restoreBrowserLayoutForSelectedCollection)         |                                                                                     |
+---
+
+### [restoreBrowserLayoutForSelectedCollection](#restoreBrowserLayoutForSelectedCollection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.restoreBrowserLayoutForSelectedCollection() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -111,7 +138,11 @@ file.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>An error sound will play if there's nothing to restore.</li></ul>                |
 
-| [restoreLayoutFromTable](#restoreLayoutFromTable)         |                                                                                     |
+---
+
+### [restoreLayoutFromTable](#restoreLayoutFromTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.restoreLayoutFromTable(layout) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -120,7 +151,11 @@ file.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveBrowserLayoutForSelectedCollection](#saveBrowserLayoutForSelectedCollection)         |                                                                                     |
+---
+
+### [saveBrowserLayoutForSelectedCollection](#saveBrowserLayoutForSelectedCollection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.saveBrowserLayoutForSelectedCollection() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -129,7 +164,11 @@ file.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>An error sound will play if there's nothing to save.</li></ul>                |
 
-| [saveLayoutToTable](#saveLayoutToTable)         |                                                                                     |
+---
+
+### [saveLayoutToTable](#saveLayoutToTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.saveLayoutToTable() -> table | boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -138,7 +177,11 @@ file.
 | **Returns**                                 | <ul><li>A table containing the layout settings if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setupWatcher](#setupWatcher)         |                                                                                     |
+---
+
+### [setupWatcher](#setupWatcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.setupWatcher() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -147,3 +190,4 @@ file.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

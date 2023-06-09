@@ -72,7 +72,10 @@ back after you restart FCPX.
 
 ### Functions
 
-| [indexOf](#indexOf)         |                                                                                     |
+
+### [indexOf](#indexOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.destinations.indexOf(name) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -81,7 +84,11 @@ back after you restart FCPX.
 | **Returns**                                 | <ul><li>The index of the named Destination, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [names](#names)         |                                                                                     |
+---
+
+### [names](#names)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.destinations.names() -> table | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -90,3 +97,4 @@ back after you restart FCPX.
 | **Returns**                                 | <ul><li>The table of Share Destination names, or `nil` if an error has occurred.</li><li>An error message as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -12,7 +12,10 @@ Extends [Element](cp.ui.Element.md).
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Image.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,3 +24,4 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it is an `AXImage`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

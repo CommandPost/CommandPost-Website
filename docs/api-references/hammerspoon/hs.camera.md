@@ -23,7 +23,10 @@ Inspect the system's camera devices
 
 ### Functions
 
-| [allCameras](#allCameras)         |                                                                                     |
+
+### [allCameras](#allCameras)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera.allCameras() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +35,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A table containing all of the known cameras</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isWatcherRunning](#isWatcherRunning)         |                                                                                     |
+---
+
+### [isWatcherRunning](#isWatcherRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera.isWatcherRunning() -> Boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,7 +48,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A boolean, True if the watcher is running, otherwise False</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setWatcherCallback](#setWatcherCallback)         |                                                                                     |
+---
+
+### [setWatcherCallback](#setWatcherCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera.setWatcherCallback(fn)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +61,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The callback will be called when a camera is added or removed from the system</li><li>To watch for changes within a single camera device, see `hs.camera:newWatcher()`</li><li>The callback function arguments are:</li><li> An hs.camera device object for the affected device</li><li> A string, either "Added" or "Removed" depending on whether the device was added or removed from the system</li><li>For "Removed" events, most methods on the hs.camera device object will not function correctly anymore and the device object passed to the callback is likely to be useless. It is recommended you re-check `hs.camera.allCameras()` and keep records of the cameras you care about</li><li>Passing nil will cause the watcher to stop if it is running</li></ul>                |
 
-| [startWatcher](#startWatcher)         |                                                                                     |
+---
+
+### [startWatcher](#startWatcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera.startWatcher()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,7 +74,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stopWatcher](#stopWatcher)         |                                                                                     |
+---
+
+### [stopWatcher](#stopWatcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera.stopWatcher()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -68,9 +87,13 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [connectionID](#connectionID)         |                                                                                     |
+
+### [connectionID](#connectionID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:connectionID() -> String`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,7 +102,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A number containing the connection ID of the camera</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isInUse](#isInUse)         |                                                                                     |
+---
+
+### [isInUse](#isInUse)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:isInUse() -> Boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -88,7 +115,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A boolean, True if the camera is in use, otherwise False</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isPropertyWatcherRunning](#isPropertyWatcherRunning)         |                                                                                     |
+---
+
+### [isPropertyWatcherRunning](#isPropertyWatcherRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:isPropertyWatcherRunning() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +128,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A boolean, True if the property watcher is running, otherwise False</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:name() -> String`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +141,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A string containing the name of the camera</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setPropertyWatcherCallback](#setPropertyWatcherCallback)         |                                                                                     |
+---
+
+### [setPropertyWatcherCallback](#setPropertyWatcherCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:setPropertyWatcherCallback(fn) -> hs.camera object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -120,7 +159,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [startPropertyWatcher](#startPropertyWatcher)         |                                                                                     |
+---
+
+### [startPropertyWatcher](#startPropertyWatcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:startPropertyWatcher()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +172,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stopPropertyWatcher](#stopPropertyWatcher)         |                                                                                     |
+---
+
+### [stopPropertyWatcher](#stopPropertyWatcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:stopPropertyWatcher()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,7 +185,11 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [uid](#uid)         |                                                                                     |
+---
+
+### [uid](#uid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.camera:uid() -> String`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -147,3 +198,4 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A string containing the UID of the camera</li></ul>          |
 | **Notes**                                   | <ul><li>The UID is not guaranteed to be stable across reboots</li></ul>                |
 
+---

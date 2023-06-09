@@ -31,7 +31,10 @@ Controls for VOX music player
 
 ### Functions
 
-| [addurl](#addurl)         |                                                                                     |
+
+### [addurl](#addurl)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.addurl(url)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +43,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [backward](#backward)         |                                                                                     |
+---
+
+### [backward](#backward)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.backward()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,7 +56,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [decreaseVolume](#decreaseVolume)         |                                                                                     |
+---
+
+### [decreaseVolume](#decreaseVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.decreaseVolume()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,7 +69,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fastBackward](#fastBackward)         |                                                                                     |
+---
+
+### [fastBackward](#fastBackward)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.fastBackward()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -67,7 +82,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fastForward](#fastForward)         |                                                                                     |
+---
+
+### [fastForward](#fastForward)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.fastForward()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -76,7 +95,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [forward](#forward)         |                                                                                     |
+---
+
+### [forward](#forward)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.forward()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -85,7 +108,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getAlbumArtist](#getAlbumArtist)         |                                                                                     |
+---
+
+### [getAlbumArtist](#getAlbumArtist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.getAlbumArtist()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -94,7 +121,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the artist of current Album, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentAlbum](#getCurrentAlbum)         |                                                                                     |
+---
+
+### [getCurrentAlbum](#getCurrentAlbum)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.getCurrentAlbum()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -103,7 +134,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentArtist](#getCurrentArtist)         |                                                                                     |
+---
+
+### [getCurrentArtist](#getCurrentArtist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.getCurrentArtist()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -112,7 +147,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPlayerState](#getPlayerState)         |                                                                                     |
+---
+
+### [getPlayerState](#getPlayerState)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.getPlayerState()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -121,7 +160,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>0 for paused</li><li>1 for playing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getUniqueID](#getUniqueID)         |                                                                                     |
+---
+
+### [getUniqueID](#getUniqueID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.getUniqueID()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -130,7 +173,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [increaseVolume](#increaseVolume)         |                                                                                     |
+---
+
+### [increaseVolume](#increaseVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.increaseVolume()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -139,7 +186,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isRunning](#isRunning)         |                                                                                     |
+---
+
+### [isRunning](#isRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.isRunning()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -148,7 +199,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether the vox application is running</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [next](#next)         |                                                                                     |
+---
+
+### [next](#next)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.next()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -157,7 +212,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pause](#pause)         |                                                                                     |
+---
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.pause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -166,7 +225,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [play](#play)         |                                                                                     |
+---
+
+### [play](#play)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.play()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -175,7 +238,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playpause](#playpause)         |                                                                                     |
+---
+
+### [playpause](#playpause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.playpause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -184,7 +251,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playurl](#playurl)         |                                                                                     |
+---
+
+### [playurl](#playurl)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.playurl(url)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -193,7 +264,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [previous](#previous)         |                                                                                     |
+---
+
+### [previous](#previous)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.previous()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -202,7 +277,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shuffle](#shuffle)         |                                                                                     |
+---
+
+### [shuffle](#shuffle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.shuffle()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -211,7 +290,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [togglePlaylist](#togglePlaylist)         |                                                                                     |
+---
+
+### [togglePlaylist](#togglePlaylist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.togglePlaylist()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -220,7 +303,11 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [trackInfo](#trackInfo)         |                                                                                     |
+---
+
+### [trackInfo](#trackInfo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.vox.trackInfo()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -229,3 +316,4 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

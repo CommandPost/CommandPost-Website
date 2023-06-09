@@ -10,7 +10,10 @@ Caption Tools
 
 ### Functions
 
-| [doPasteTextAsCaption](#doPasteTextAsCaption)         |                                                                                     |
+
+### [doPasteTextAsCaption](#doPasteTextAsCaption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.captions.doPasteTextAsCaption() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Caption Tools
 | **Returns**                                 | <ul><li>`cp.rx.go.Statement`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

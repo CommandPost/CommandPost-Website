@@ -17,7 +17,10 @@ A panel that allows users to select a color.
 
 ### Functions
 
-| [alpha](#alpha)         |                                                                                     |
+
+### [alpha](#alpha)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.alpha([value]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,7 +29,11 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>The current alpha value as a number.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.alpha(0.5)`</li></ul>                |
 
-| [callback](#callback)         |                                                                                     |
+---
+
+### [callback](#callback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.callback([callbackFn]) -> function or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +42,11 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>The last callbackFn or `nil` so you can save it and re-attach it if something needs to temporarily take the callbacks.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.callback(function(a,b) print("COLOR CALLBACK:\nSelected Color: " .. hs.inspect(a) .. "\nPanel Closed: " .. hs.inspect(b)) end)`</li></ul>                |
 
-| [color](#color)         |                                                                                     |
+---
+
+### [color](#color)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.color([value]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +55,11 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>A table of the currently selected color in the form of `hs.drawing.color`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.color(hs.drawing.color.blue)`</li></ul>                |
 
-| [continuous](#continuous)         |                                                                                     |
+---
+
+### [continuous](#continuous)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.continuous([value]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,7 +68,11 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>`true` if continuous is enabled otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.continuous(true)`</li></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.hide() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -62,7 +81,11 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.hide()`</li></ul>                |
 
-| [mode](#mode)         |                                                                                     |
+---
+
+### [mode](#mode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.mode([value]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -71,7 +94,11 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>The current mode as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.mode("RGB")`</li></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.show() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -80,7 +107,11 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.show()`</li></ul>                |
 
-| [showsAlpha](#showsAlpha)         |                                                                                     |
+---
+
+### [showsAlpha](#showsAlpha)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dialog.color.showsAlpha([value]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -89,3 +120,4 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>`true` if the opacity slider is displayed otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.showsAlpha(true)`</li></ul>                |
 
+---

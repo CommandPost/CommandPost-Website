@@ -20,45 +20,72 @@ Preferences Window Module.
 
 ### Fields
 
-| [editingPanel](#editingPanel)         |                                                                                     |
+
+### [editingPanel](#editingPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.editingPanel <EditingPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `EditingPanel` for the Preferences Window.                                                                     |
 
-| [generalPanel](#generalPanel)         |                                                                                     |
+---
+
+### [generalPanel](#generalPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.generalPanel <GeneralPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `GeneralPanel` for the Preferences Window.                                                                     |
 
-| [importPanel](#importPanel)         |                                                                                     |
+---
+
+### [importPanel](#importPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.importPanel <ImportPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ImportPanel` for the Preferences Window.                                                                     |
 
-| [playbackPanel](#playbackPanel)         |                                                                                     |
+---
+
+### [playbackPanel](#playbackPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.playbackPanel <PlaybackPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PlaybackPanel` for the Preferences Window.                                                                     |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.title <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `StaticText` for the Preferences Window title.                                                                     |
 
-| [toolbar](#toolbar)         |                                                                                     |
+---
+
+### [toolbar](#toolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.toolbar <cp.ui.Toolbar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Toolbar` for the Preferences Window.                                                                     |
 
+---
 ### Methods
 
-| [doHide](#doHide)         |                                                                                     |
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -67,7 +94,11 @@ Preferences Window Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -76,7 +107,11 @@ Preferences Window Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow:hide() -> PreferencesWindow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -85,7 +120,11 @@ Preferences Window Module.
 | **Returns**                                 | <ul><li>The same `PreferencesWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow:show() -> PreferencesWindow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -94,3 +133,4 @@ Preferences Window Module.
 | **Returns**                                 | <ul><li>The same `PreferencesWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

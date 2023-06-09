@@ -13,7 +13,10 @@ https://github.com/kikito/inspect.lua
 
 ### Functions
 
-| [inspect](#inspect)         |                                                                                     |
+
+### [inspect](#inspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.inspect.inspect(variable[, options]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -27,3 +30,4 @@ https://github.com/kikito/inspect.lua
 | **Returns**                                 | <ul><li>A string containing the human readable version of `variable`</li></ul>          |
 | **Notes**                                   | <ul><li>For convenience, you can call this function as `hs.inspect(variable)`</li><li>To view the output in Hammerspoon's Console, use `print(hs.inspect(variable))`</li><li>For more information on the options, and some examples, see [the upstream docs](https://github.com/kikito/inspect.lua)</li></ul>                |
 
+---

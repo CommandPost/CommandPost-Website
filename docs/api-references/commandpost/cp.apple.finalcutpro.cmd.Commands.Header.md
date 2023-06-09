@@ -12,21 +12,33 @@ The header of the Commands.
 
 ### Fields
 
-| [command](#command)         |                                                                                     |
+
+### [command](#command)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.command <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Command". Pressing more than                                                                     |
 
-| [key](#key)         |                                                                                     |
+---
+
+### [key](#key)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.key <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Key". Pressing more than                                                                     |
 
-| [modifiers](#modifiers)         |                                                                                     |
+---
+
+### [modifiers](#modifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.modifiers <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Modifiers". Pressing more than                                                                     |
 
+---

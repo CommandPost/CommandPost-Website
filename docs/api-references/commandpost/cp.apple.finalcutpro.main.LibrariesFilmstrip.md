@@ -29,7 +29,10 @@ Libraries Filmstrip Module.
 
 ### Functions
 
-| [clips](#clips)         |                                                                                     |
+
+### [clips](#clips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:clips(filterFn) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -38,7 +41,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [clipsUI](#clipsUI)         |                                                                                     |
+---
+
+### [clipsUI](#clipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:clipsUI(filterFn) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,7 +54,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deselectAll](#deselectAll)         |                                                                                     |
+---
+
+### [deselectAll](#deselectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:deselectAll() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +67,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [indexOfClip](#indexOfClip)         |                                                                                     |
+---
+
+### [indexOfClip](#indexOfClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:indexOfClip(clip) -> number | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +80,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>The index or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectAll](#selectAll)         |                                                                                     |
+---
+
+### [selectAll](#selectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:selectAll([clips]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +93,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClip](#selectClip)         |                                                                                     |
+---
+
+### [selectClip](#selectClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip.selectClip(clip) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +106,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClipAt](#selectClipAt)         |                                                                                     |
+---
+
+### [selectClipAt](#selectClipAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:selectClipAt(index) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +119,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClipTitled](#selectClipTitled)         |                                                                                     |
+---
+
+### [selectClipTitled](#selectClipTitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:selectClipTitled(title) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +132,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedClips](#selectedClips)         |                                                                                     |
+---
+
+### [selectedClips](#selectedClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:selectedClips() -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,7 +145,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedClipsUI](#selectedClipsUI)         |                                                                                     |
+---
+
+### [selectedClipsUI](#selectedClipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:selectedClipsUI() -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -119,7 +158,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showClip](#showClip)         |                                                                                     |
+---
+
+### [showClip](#showClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:showClip(clip) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -128,7 +171,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showClipAt](#showClipAt)         |                                                                                     |
+---
+
+### [showClipAt](#showClipAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:showClipAt(index) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -137,7 +184,11 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sortClips](#sortClips)         |                                                                                     |
+---
+
+### [sortClips](#sortClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip.sortClips(a,b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -146,9 +197,13 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if clip A is above clip B, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip.new(app) -> LibrariesFilmstrip`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -157,23 +212,35 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A new `LibrariesFilmstrip` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [playhead](#playhead)         |                                                                                     |
+
+### [playhead](#playhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip.playhead <Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries Filmstrip Playhead.                                                                     |
 
-| [skimmingPlayhead](#skimmingPlayhead)         |                                                                                     |
+---
+
+### [skimmingPlayhead](#skimmingPlayhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip.skimmingPlayhead <Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries Filmstrip Skimming Playhead.                                                                     |
 
+---
 ### Methods
 
-| [show](#show)         |                                                                                     |
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip:show() -> LibrariesFilmstrip`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -182,3 +249,4 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`LibrariesFilmstrip` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

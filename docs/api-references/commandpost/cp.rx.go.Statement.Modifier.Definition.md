@@ -14,7 +14,10 @@ all of it's methods also.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Modifier.Definition.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,9 +26,13 @@ all of it's methods also.
 | **Returns**                                 | <ul><li>`true` if the thing is a `Statement.Modifier.Definition`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [define](#define)         |                                                                                     |
+
+### [define](#define)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Modifier.Definition:define()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -34,3 +41,4 @@ all of it's methods also.
 | **Returns**                                 | <ul><li>The new [Statement.Modifier](cp.rx.go.Statement.Modifier.md) definition.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -27,45 +27,72 @@ Represents the Compressor application, providing functions that allow different 
 
 ### Constants
 
-| [ALLOWED_IMPORT_ALL_EXTENSIONS](#ALLOWED_IMPORT_ALL_EXTENSIONS)         |                                                                                     |
+
+### [ALLOWED_IMPORT_ALL_EXTENSIONS](#ALLOWED_IMPORT_ALL_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_ALL_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of all file extensions Final Cut Pro can import.                                                                     |
 
-| [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)         |                                                                                     |
+---
+
+### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_AUDIO_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of audio file extensions Final Cut Pro can import.                                                                     |
 
-| [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)         |                                                                                     |
+---
+
+### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_IMAGE_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of image file extensions Final Cut Pro can import.                                                                     |
 
-| [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)         |                                                                                     |
+---
+
+### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_VIDEO_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of video file extensions Final Cut Pro can import.                                                                     |
 
-| [BUNDLE_ID](#BUNDLE_ID)         |                                                                                     |
+---
+
+### [BUNDLE_ID](#BUNDLE_ID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor.BUNDLE_ID`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Compressor's Bundle ID                                                                     |
 
-| [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)         |                                                                                     |
+---
+
+### [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor.EARLIEST_SUPPORTED_VERSION <semver>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version this API supports.                                                                     |
 
+---
 ### Methods
 
-| [bundleID](#bundleID)         |                                                                                     |
+
+### [bundleID](#bundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:bundleID() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +101,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>A string of the Compressor Bundle ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doRestart](#doRestart)         |                                                                                     |
+---
+
+### [doRestart](#doRestart)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:doRestart() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,7 +114,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>`true` if the application was running and restarted successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:hide() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -92,7 +127,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>The compressor instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [launch](#launch)         |                                                                                     |
+---
+
+### [launch](#launch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:launch([waitSeconds]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -101,7 +140,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>`true` if Compressor was either launched or focused, otherwise false (e.g. if Compressor doesn't exist)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [notifier](#notifier)         |                                                                                     |
+---
+
+### [notifier](#notifier)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:notifier() -> cp.ui.notifier`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,7 +153,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [path](#path)         |                                                                                     |
+---
+
+### [path](#path)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:path() -> string or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -119,7 +166,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>A string containing Compressor's filesystem path, or `nil` if the bundle identifier could not be located</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [quit](#quit)         |                                                                                     |
+---
+
+### [quit](#quit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:quit([waitSeconds]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -128,7 +179,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>The `compressor` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.compressor:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -137,3 +192,4 @@ Represents the Compressor application, providing functions that allow different 
 | **Returns**                                 | <ul><li>The compressor instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

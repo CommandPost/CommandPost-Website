@@ -16,7 +16,10 @@ Functions for Generating HTML UI Items
 
 ### Functions
 
-| [button](#button)         |                                                                                     |
+
+### [button](#button)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.generate.button(data, customTrigger, customWidth, customID) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,7 +28,11 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [checkbox](#checkbox)         |                                                                                     |
+---
+
+### [checkbox](#checkbox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.generate.checkbox(data, customTrigger, customID) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +41,11 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [dropdown](#dropdown)         |                                                                                     |
+---
+
+### [dropdown](#dropdown)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.generate.dropdown(title, data, customTrigger) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +54,11 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [heading](#heading)         |                                                                                     |
+---
+
+### [heading](#heading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.generate.heading(data) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +67,11 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [javascript](#javascript)         |                                                                                     |
+---
+
+### [javascript](#javascript)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.generate.javascript(script, context) -> cp.web.html`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +80,11 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setWebviewLabel](#setWebviewLabel)         |                                                                                     |
+---
+
+### [setWebviewLabel](#setWebviewLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.generate.setWebviewLabel() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +93,11 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [text](#text)         |                                                                                     |
+---
+
+### [text](#text)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.generate.text(data) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,3 +106,4 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

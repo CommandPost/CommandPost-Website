@@ -29,21 +29,32 @@ Stream Deck Preferences Panel
 
 ### Variables
 
-| [defaultIconPath](#defaultIconPath)         |                                                                                     |
+
+### [defaultIconPath](#defaultIconPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.defaultIconPath -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
 
-| [supportedExtensions](#supportedExtensions)         |                                                                                     |
+---
+
+### [supportedExtensions](#supportedExtensions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.supportedExtensions -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Stream Deck Icons.                                                                     |
 
+---
 ### Functions
 
-| [buildIconFromLabel](#buildIconFromLabel)         |                                                                                     |
+
+### [buildIconFromLabel](#buildIconFromLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.buildIconFromLabel(params) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +63,11 @@ Stream Deck Preferences Panel
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [processEncodedIcon](#processEncodedIcon)         |                                                                                     |
+---
+
+### [processEncodedIcon](#processEncodedIcon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.processEncodedIcon(icon, controlType) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,83 +76,135 @@ Stream Deck Preferences Panel
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [automaticallyApplyIconFromAction](#automaticallyApplyIconFromAction)         |                                                                                     |
+
+### [automaticallyApplyIconFromAction](#automaticallyApplyIconFromAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.automaticallyApplyIconFromAction <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Automatically Apply Icon from Action                                                                     |
 
-| [backgroundColour](#backgroundColour)         |                                                                                     |
+---
+
+### [backgroundColour](#backgroundColour)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.backgroundColour <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Background Colour.                                                                     |
 
-| [iconHistory](#iconHistory)         |                                                                                     |
+---
+
+### [iconHistory](#iconHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.iconHistory <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Icon History                                                                     |
 
-| [lastDevice](#lastDevice)         |                                                                                     |
+---
+
+### [lastDevice](#lastDevice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.lastDevice <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Device used in the Preferences Panel.                                                                     |
 
-| [lastExportPath](#lastExportPath)         |                                                                                     |
+---
+
+### [lastExportPath](#lastExportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 
-| [lastIconPath](#lastIconPath)         |                                                                                     |
+---
+
+### [lastIconPath](#lastIconPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.lastIconPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last icon path.                                                                     |
 
-| [lastImportPath](#lastImportPath)         |                                                                                     |
+---
+
+### [lastImportPath](#lastImportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 
-| [lastUnit](#lastUnit)         |                                                                                     |
+---
+
+### [lastUnit](#lastUnit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.lastUnit <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Unit used in the Preferences Panel.                                                                     |
 
-| [pasteboard](#pasteboard)         |                                                                                     |
+---
+
+### [pasteboard](#pasteboard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.pasteboard <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pasteboard                                                                     |
 
-| [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)         |                                                                                     |
+---
+
+### [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.previewSelectedApplicationAndBankOnHardware <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we preview the selected application and bank on hardware?                                                                     |
 
-| [resizeImagesOnImport](#resizeImagesOnImport)         |                                                                                     |
+---
+
+### [resizeImagesOnImport](#resizeImagesOnImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.resizeImagesOnImport <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Resize Icons on Import Preference.                                                                     |
 
-| [snippetsRefreshFrequency](#snippetsRefreshFrequency)         |                                                                                     |
+---
+
+### [snippetsRefreshFrequency](#snippetsRefreshFrequency)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.snippetsRefreshFrequency <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | How often snippets are refreshed.                                                                     |
 
+---
 ### Methods
 
-| [setItem](#setItem)         |                                                                                     |
+
+### [setItem](#setItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.prefs.setItem(app, bank, button, key, [value]) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -146,3 +213,4 @@ Stream Deck Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

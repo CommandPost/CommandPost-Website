@@ -12,7 +12,10 @@ Add Note Plugin.
 
 ### Functions
 
-| [addNoteToSelectedClip](#addNoteToSelectedClip)         |                                                                                     |
+
+### [addNoteToSelectedClip](#addNoteToSelectedClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.addnote.addNoteToSelectedClip() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,11 +24,16 @@ Add Note Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [recentNotes](#recentNotes)         |                                                                                     |
+
+### [recentNotes](#recentNotes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.addnote.recentNotes <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of recent notes.                                                                     |
 
+---

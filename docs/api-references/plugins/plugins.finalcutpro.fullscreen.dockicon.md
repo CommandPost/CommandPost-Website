@@ -15,15 +15,23 @@ our drawing/canvas images will not display correctly.
 
 ### Variables
 
-| [dockIconEnabled](#dockIconEnabled)         |                                                                                     |
+
+### [dockIconEnabled](#dockIconEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.dockicon.dockIconEnabled <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` the CommandPost dock icon should be hidden.                                                                     |
 
-| [fcpActiveFullScreen](#fcpActiveFullScreen)         |                                                                                     |
+---
+
+### [fcpActiveFullScreen](#fcpActiveFullScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.dockicon.fcpActiveFullScreen <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` FCP is full-screen and the frontmost app.                                                                     |
 
+---

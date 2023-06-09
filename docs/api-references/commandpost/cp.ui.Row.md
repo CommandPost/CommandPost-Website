@@ -25,7 +25,10 @@ Represents an `AXRow` `axuielement`.
 
 ### Functions
 
-| [containing](#containing)         |                                                                                     |
+
+### [containing](#containing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row:containing(...) -> cp.ui.Row.Builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,9 +37,13 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The `Row.Builder`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Row](#Row)         |                                                                                     |
+
+### [Row](#Row)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row(parent, uiFinder, ...) -> cp.ui.Row`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,41 +52,65 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [childrenUI](#childrenUI)         |                                                                                     |
+
+### [childrenUI](#childrenUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row.childrenUI <cp.prop: table of axuielement>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `axuielement` children of the row.                                                                     |
 
-| [disclosing](#disclosing)         |                                                                                     |
+---
+
+### [disclosing](#disclosing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row.disclosing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the `Row` is disclosing other `Rows`.                                                                     |
 
-| [disclosureLevel](#disclosureLevel)         |                                                                                     |
+---
+
+### [disclosureLevel](#disclosureLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row.disclosureLevel <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The depth of disclosure. `0` is the top level.                                                                     |
 
-| [index](#index)         |                                                                                     |
+---
+
+### [index](#index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row.index <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this row in the overall container, with `0` being the first item.                                                                     |
 
-| [selected](#selected)         |                                                                                     |
+---
+
+### [selected](#selected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row.selected <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the row is currently selected. May be set.                                                                     |
 
+---
 ### Methods
 
-| [disclosedByRow](#disclosedByRow)         |                                                                                     |
+
+### [disclosedByRow](#disclosedByRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row:disclosedByRow() -> cp.ui.Row`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -88,7 +119,11 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>A `cp.ui.Row` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disclosedRows](#disclosedRows)         |                                                                                     |
+---
+
+### [disclosedRows](#disclosedRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row:disclosedRows() -> table of cp.ui.Row or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +132,11 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The `table` of Rows, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Row.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,3 +145,4 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

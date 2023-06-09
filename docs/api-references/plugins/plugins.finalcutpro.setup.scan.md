@@ -10,7 +10,10 @@ Show setup panel if Final Cut Pro needs scanning.
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.setup.scan.init(deps) -> self`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Show setup panel if Final Cut Pro needs scanning.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -17,7 +17,10 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 
 ### Functions
 
-| [interval](#interval)         |                                                                                     |
+
+### [interval](#interval)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.pasteboard.watcher.interval([value]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>The polling interval as a number.</li></ul>          |
 | **Notes**                                   | <ul><li>This only affects new watchers, not existing/running ones.</li><li>The default value is 0.25.</li></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.pasteboard.watcher.new(callbackFn[, name]) -> pasteboardWatcher`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -38,9 +45,13 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>An `hs.pasteboard.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>Internally this extension uses a single `NSTimer` to check for changes to the pasteboard count every half a second.</li><li>Example usage:</li><li> ```lua</li><li> generalPBWatcher = hs.pasteboard.watcher.new(function(v) print(string.format("General Pasteboard Contents: %s", v)) end)</li><li> specialPBWatcher = hs.pasteboard.watcher.new(function(v) print(string.format("Special Pasteboard Contents: %s", v)) end, "special")</li><li> hs.pasteboard.writeObjects("This is on the general pasteboard.")</li><li> hs.pasteboard.writeObjects("This is on the special pasteboard.", "special")```</li></ul>                |
 
+---
 ### Methods
 
-| [running](#running)         |                                                                                     |
+
+### [running](#running)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.pasteboard.watcher:running() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -49,7 +60,11 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>A boolean value indicating whether or not the timer is currently running.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.pasteboard.watcher:start() -> timer`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -58,7 +73,11 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>The `hs.pasteboard.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.pasteboard.watcher:stop() -> timer`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -67,3 +86,4 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>The `hs.pasteboard.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

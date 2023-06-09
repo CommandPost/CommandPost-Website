@@ -26,7 +26,10 @@ Represents the Speed Popover.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,9 +38,13 @@ Represents the Speed Popover.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [SpeedPopover](#SpeedPopover)         |                                                                                     |
+
+### [SpeedPopover](#SpeedPopover)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover(parent, uiFinder)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -46,65 +53,105 @@ Represents the Speed Popover.
 | **Returns**                                 | <ul><li>The new `SpeedPopover`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [byDuration](#byDuration)         |                                                                                     |
+
+### [byDuration](#byDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:byDuration <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Duration" radio button.                                                                     |
 
-| [byRate](#byRate)         |                                                                                     |
+---
+
+### [byRate](#byRate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:byRate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Rate" radio button.                                                                     |
 
-| [direction](#direction)         |                                                                                     |
+---
+
+### [direction](#direction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:direction <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioGroup](cp.ui.RadioGroup.md) for the "Direction" radio group.                                                                     |
 
-| [duration](#duration)         |                                                                                     |
+---
+
+### [duration](#duration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:duration <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextField](cp.ui.TextField.md) for the "Duration" text field.                                                                     |
 
-| [forward](#forward)         |                                                                                     |
+---
+
+### [forward](#forward)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:forward <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Forward" radio button.                                                                     |
 
-| [rate](#rate)         |                                                                                     |
+---
+
+### [rate](#rate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:rate <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextField](cp.ui.TextField.md) for the "Rate" text field.                                                                     |
 
-| [reverse](#reverse)         |                                                                                     |
+---
+
+### [reverse](#reverse)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:reverse <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Reverse" radio button.                                                                     |
 
-| [ripple](#ripple)         |                                                                                     |
+---
+
+### [ripple](#ripple)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:ripple <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) for the "Ripple" checkbox.                                                                     |
 
-| [setSpeed](#setSpeed)         |                                                                                     |
+---
+
+### [setSpeed](#setSpeed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:setSpeed <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioGroup](cp.ui.RadioGroup.md) for the "Set Speed" radio group.                                                                     |
 
+---
 ### Methods
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.SpeedPopover:doShow() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,3 +160,4 @@ Represents the Speed Popover.
 | **Returns**                                 | <ul><li>A `Statement` which will send `true` if it successful, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -13,15 +13,22 @@ Final Cut Pro Font Console
 
 ### Variables
 
-| [processedFonts](#processedFonts)         |                                                                                     |
+
+### [processedFonts](#processedFonts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.console.font.processedFonts -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of font paths which have already been loaded or skipped.                                                                     |
 
+---
 ### Functions
 
-| [onActivate](#onActivate)         |                                                                                     |
+
+### [onActivate](#onActivate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.console.font.onActivate(_, action) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -30,7 +37,11 @@ Final Cut Pro Font Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.console.font.show() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -39,3 +50,4 @@ Final Cut Pro Font Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

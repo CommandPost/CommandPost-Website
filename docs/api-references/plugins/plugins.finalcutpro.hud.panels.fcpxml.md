@@ -10,9 +10,13 @@ FCPXML Panel for the Final Cut Pro HUD.
 
 ### Fields
 
-| [lastValue](#lastValue)         |                                                                                     |
+
+### [lastValue](#lastValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.fcpxml.lastValue <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last value in FCPXML HUD.                                                                     |
 
+---

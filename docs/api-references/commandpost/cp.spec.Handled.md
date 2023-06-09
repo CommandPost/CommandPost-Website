@@ -10,7 +10,10 @@ An synchronous/asynchronous test library for Lua.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handled.is(other) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ An synchronous/asynchronous test library for Lua.
 | **Returns**                                 | <ul><li>A boolean.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -18,7 +18,10 @@ Pushover Notifications Plugin.
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -27,7 +30,11 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sendNotification](#sendNotification)         |                                                                                     |
+---
+
+### [sendNotification](#sendNotification)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.sendNotification(message, [title]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -36,7 +43,11 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.update() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -45,7 +56,11 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [validateAPIKeys](#validateAPIKeys)         |                                                                                     |
+---
+
+### [validateAPIKeys](#validateAPIKeys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.validateAPIKeys(userKey, appKey) -> success, errorMessage`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -54,29 +69,46 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [apiValidated](#apiValidated)         |                                                                                     |
+
+### [apiValidated](#apiValidated)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.apiValidated <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the API keys have been validated.                                                                     |
 
-| [appAPIKey](#appAPIKey)         |                                                                                     |
+---
+
+### [appAPIKey](#appAPIKey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.appAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Application API Key                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
 
-| [userAPIKey](#userAPIKey)         |                                                                                     |
+---
+
+### [userAPIKey](#userAPIKey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.userAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | User API Key                                                                     |
 
+---

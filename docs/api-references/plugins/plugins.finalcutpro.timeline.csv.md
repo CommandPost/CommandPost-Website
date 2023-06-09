@@ -10,7 +10,10 @@ Save Timeline Index to CSV
 
 ### Functions
 
-| [saveTimelineIndexToCSV](#saveTimelineIndexToCSV)         |                                                                                     |
+
+### [saveTimelineIndexToCSV](#saveTimelineIndexToCSV)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.csv.saveTimelineIndexToCSV() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Save Timeline Index to CSV
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -32,119 +32,194 @@ Text to Speech Plugin.
 
 ### Constants
 
-| [copyToMediaFolder](#copyToMediaFolder)         |                                                                                     |
+
+### [copyToMediaFolder](#copyToMediaFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.copyToMediaFolder <cp.prop: boolean; live>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Copy to Media Folder Preferences Key.                                                                     |
 
+---
 ### Variables
 
-| [addCaption](#addCaption)         |                                                                                     |
+
+### [addCaption](#addCaption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.addCaption`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Option to Add Text to Notes Field After Importing                                                                     |
 
-| [addCustomKeyword](#addCustomKeyword)         |                                                                                     |
+---
+
+### [addCustomKeyword](#addCustomKeyword)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.addCustomKeyword`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not to add a custom keyword.                                                                     |
 
-| [addKeywordForVoiceName](#addKeywordForVoiceName)         |                                                                                     |
+---
+
+### [addKeywordForVoiceName](#addKeywordForVoiceName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.addKeywordForVoiceName`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not a tag should be added for the voice.                                                                     |
 
-| [addTextToNotesFieldAfterImport](#addTextToNotesFieldAfterImport)         |                                                                                     |
+---
+
+### [addTextToNotesFieldAfterImport](#addTextToNotesFieldAfterImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.addTextToNotesFieldAfterImport`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Option to Add Text to Notes Field After Importing                                                                     |
 
-| [assignClipAudioRoleToVoiceName](#assignClipAudioRoleToVoiceName)         |                                                                                     |
+---
+
+### [assignClipAudioRoleToVoiceName](#assignClipAudioRoleToVoiceName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.assignClipAudioRoleToVoiceName`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Assign Clip Audio Role to Voice Name                                                                     |
 
-| [currentIncrementalNumber](#currentIncrementalNumber)         |                                                                                     |
+---
+
+### [currentIncrementalNumber](#currentIncrementalNumber)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.currentIncrementalNumber`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Current Incremental Number as number                                                                     |
 
-| [customPrefix](#customPrefix)         |                                                                                     |
+---
+
+### [customPrefix](#customPrefix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.customPrefix`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | String which contains the custom prefix.                                                                     |
 
-| [deleteFileAfterImport](#deleteFileAfterImport)         |                                                                                     |
+---
+
+### [deleteFileAfterImport](#deleteFileAfterImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.deleteFileAfterImport`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Delete File After Import                                                                     |
 
-| [enableCustomPrefix](#enableCustomPrefix)         |                                                                                     |
+---
+
+### [enableCustomPrefix](#enableCustomPrefix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.enableCustomPrefix`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not a custom prefix for the generated filename is enabled.                                                                     |
 
-| [includeTextInFilename](#includeTextInFilename)         |                                                                                     |
+---
+
+### [includeTextInFilename](#includeTextInFilename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.includeTextInFilename`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Includes the entered text in the filename                                                                     |
 
-| [insertIntoTimeline](#insertIntoTimeline)         |                                                                                     |
+---
+
+### [insertIntoTimeline](#insertIntoTimeline)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.insertIntoTimeline`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not new generated voice file are automatically added to the timeline or not.                                                                     |
 
-| [path](#path)         |                                                                                     |
+---
+
+### [path](#path)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.path`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Text to Speech Path for generated files.                                                                     |
 
-| [recentText](#recentText)         |                                                                                     |
+---
+
+### [recentText](#recentText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.recentText`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of recent items in Text to Speech Search.                                                                     |
 
-| [replaceSpaceWithUnderscore](#replaceSpaceWithUnderscore)         |                                                                                     |
+---
+
+### [replaceSpaceWithUnderscore](#replaceSpaceWithUnderscore)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.replaceSpaceWithUnderscore`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Replace Space with Underscore                                                                     |
 
-| [tag](#tag)         |                                                                                     |
+---
+
+### [tag](#tag)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.tag`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Tag that will be added to generated voice overs.                                                                     |
 
-| [useUnderscore](#useUnderscore)         |                                                                                     |
+---
+
+### [useUnderscore](#useUnderscore)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.useUnderscore`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` then an underscore will be used in the Custom Prefix filename otherwise a dash will be used.                                                                     |
 
-| [voice](#voice)         |                                                                                     |
+---
+
+### [voice](#voice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.voice`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Text to Speech Voice.                                                                     |
 
+---
 ### Functions
 
-| [chooseFolder](#chooseFolder)         |                                                                                     |
+
+### [chooseFolder](#chooseFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.chooseFolder() -> string or false`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -153,7 +228,11 @@ Text to Speech Plugin.
 | **Returns**                                 | <ul><li>A string of the selected path or `false` if cancelled.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [insertFromPasteboard](#insertFromPasteboard)         |                                                                                     |
+---
+
+### [insertFromPasteboard](#insertFromPasteboard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.insertFromPasteboard() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -162,7 +241,11 @@ Text to Speech Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.text2speech.show() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -171,3 +254,4 @@ Text to Speech Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

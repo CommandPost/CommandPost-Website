@@ -16,27 +16,42 @@ Transition Inspector Module.
 
 ### Constants
 
-| [EASE](#EASE)         |                                                                                     |
+
+### [EASE](#EASE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector.EASE -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Ease Types                                                                     |
 
-| [FADE_TYPES](#FADE_TYPES)         |                                                                                     |
+---
+
+### [FADE_TYPES](#FADE_TYPES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector.FADE_TYPES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Fade Types                                                                     |
 
-| [LOOKS](#LOOKS)         |                                                                                     |
+---
+
+### [LOOKS](#LOOKS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector.LOOKS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Cross Dissolve Looks                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -45,9 +60,13 @@ Transition Inspector Module.
 | **Returns**                                 | <ul><li>`true` if the element is a match, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [TransitionInspector](#TransitionInspector)         |                                                                                     |
+
+### [TransitionInspector](#TransitionInspector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector(parent) -> TransitionInspector`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -56,3 +75,4 @@ Transition Inspector Module.
 | **Returns**                                 | <ul><li>A `TransitionInspector` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

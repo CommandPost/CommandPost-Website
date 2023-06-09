@@ -12,7 +12,10 @@ A [TextField](cp.ui.TextField.md) with a subrole of `AXSearchField`.
 
 ### Functions
 
-| [matchesSearch](#matchesSearch)         |                                                                                     |
+
+### [matchesSearch](#matchesSearch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SearchField.matchesSearch(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,9 +24,13 @@ A [TextField](cp.ui.TextField.md) with a subrole of `AXSearchField`.
 | **Returns**                                 | <ul><li>`true` if matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [SearchField](#SearchField)         |                                                                                     |
+
+### [SearchField](#SearchField)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SearchField(parent, uiFinder[, convertFn]) -> cp.ui.SearchField`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -32,3 +39,4 @@ A [TextField](cp.ui.TextField.md) with a subrole of `AXSearchField`.
 | **Returns**                                 | <ul><li>The new `SearchField`.</li></ul>          |
 | **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li>For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = SearchField(parent, function() return ... end, tonumber)</li><li>```</li></ul>                |
 
+---

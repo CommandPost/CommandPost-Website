@@ -17,7 +17,10 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Subject.create() -> cp.rx.Subject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -26,9 +29,13 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>The `Subject`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [onCompleted](#onCompleted)         |                                                                                     |
+
+### [onCompleted](#onCompleted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Subject:onCompleted() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -37,7 +44,11 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onError](#onError)         |                                                                                     |
+---
+
+### [onError](#onError)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Subject:onError(message) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onNext](#onNext)         |                                                                                     |
+---
+
+### [onNext](#onNext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Subject:onNext(...) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +70,11 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subscribe](#subscribe)         |                                                                                     |
+---
+
+### [subscribe](#subscribe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Subject:subscribe(observer[, onError[, onCompleted]]) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,3 +83,4 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

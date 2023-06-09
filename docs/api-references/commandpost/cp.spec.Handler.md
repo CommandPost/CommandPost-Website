@@ -26,7 +26,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 
 ### Functions
 
-| [default](#default)         |                                                                                     |
+
+### [default](#default)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler.default([handler]) -> cp.spec.Handler`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,9 +38,13 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>The current `Handler` implementation.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Handler](#Handler)         |                                                                                     |
+
+### [Handler](#Handler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler() -> cp.spec.Handler`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -46,9 +53,13 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [aborted](#aborted)         |                                                                                     |
+
+### [aborted](#aborted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:aborted(run, msg) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -57,7 +68,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [checkVerbose](#checkVerbose)         |                                                                                     |
+---
+
+### [checkVerbose](#checkVerbose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:checkVerbose(run) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +81,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [failed](#failed)         |                                                                                     |
+---
+
+### [failed](#failed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:failed(run, msg) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,7 +94,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [filter](#filter)         |                                                                                     |
+---
+
+### [filter](#filter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:filter(run, msg) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +107,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [passed](#passed)         |                                                                                     |
+---
+
+### [passed](#passed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:passed(run) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,7 +120,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:start(run) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -102,7 +133,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:stop(run) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -111,7 +146,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [summary](#summary)         |                                                                                     |
+---
+
+### [summary](#summary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:summary(run, report) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -120,7 +159,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [verbose](#verbose)         |                                                                                     |
+---
+
+### [verbose](#verbose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:verbose([isVerbose]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +172,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>The `Handler` instance, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [waiting](#waiting)         |                                                                                     |
+---
+
+### [waiting](#waiting)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Handler:waiting(run, timeout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,3 +185,4 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

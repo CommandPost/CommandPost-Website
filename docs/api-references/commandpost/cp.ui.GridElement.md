@@ -45,7 +45,10 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -54,7 +57,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withColumnsOf](#withColumnsOf)         |                                                                                     |
+---
+
+### [withColumnsOf](#withColumnsOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:withColumnsOf(columnInit) -> cp.ui.GridElement.Builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -63,7 +70,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A new `Builder` for `GridElement`s.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withHeaderOf](#withHeaderOf)         |                                                                                     |
+---
+
+### [withHeaderOf](#withHeaderOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:withHeaderOf(headerInit) -> cp.ui.GridElement.Builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -72,7 +83,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A new `Builder` for `GridElement`s.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withRowsOf](#withRowsOf)         |                                                                                     |
+---
+
+### [withRowsOf](#withRowsOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:withRowsOf(...) -> function(parent, uiFinder) -> GridElement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -81,9 +96,13 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A function that will return a new `GridElement` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [GridElement](#GridElement)         |                                                                                     |
+
+### [GridElement](#GridElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement(parent, uiFinder, headerInit, rowInit, columnInit) -> cp.ui.GridElement`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -92,33 +111,53 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A new `GridElement` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `headerType`, `rowType` arguments are optional.</li></ul>                |
 
+---
 ### Fields
 
-| [columns](#columns)         |                                                                                     |
+
+### [columns](#columns)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.columns <table of cp.ui.Column; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Column`s which are children of this `GridElement`.                                                                     |
 
-| [columnsUI](#columnsUI)         |                                                                                     |
+---
+
+### [columnsUI](#columnsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.columnsUI <cp.prop: table of axuielement; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `axuielement`s which are children of this `GridElement`.                                                                     |
 
-| [firstRow](#firstRow)         |                                                                                     |
+---
+
+### [firstRow](#firstRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.firstRow <cp.ui.Element>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | An `Element` of the `rowInit` type that will always point at the first row (if available).                                                                     |
 
-| [header](#header)         |                                                                                     |
+---
+
+### [header](#header)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.header <cp.ui.Element>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Element` representing the `AXHeader` of the `GridElement`.                                                                     |
 
-| [headerUI](#headerUI)         |                                                                                     |
+---
+
+### [headerUI](#headerUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.headerUI <cp.prop: axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -126,69 +165,113 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The header UI element.</li></ul>          |
 
-| [lastRow](#lastRow)         |                                                                                     |
+---
+
+### [lastRow](#lastRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.lastRow <cp.ui.Element>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | An `Element` of the `rowInit` type that will always point at the last row (if available).                                                                     |
 
-| [rowsUI](#rowsUI)         |                                                                                     |
+---
+
+### [rowsUI](#rowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.rowsUI <cp.prop: table of axuielement; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Row`s which are children of this `GridElement`.                                                                     |
 
-| [selectedColumns](#selectedColumns)         |                                                                                     |
+---
+
+### [selectedColumns](#selectedColumns)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.selectedColumns <table of cp.ui.Column; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Column`s which are selected in this `GridElement`.                                                                     |
 
-| [selectedColumnsUI](#selectedColumnsUI)         |                                                                                     |
+---
+
+### [selectedColumnsUI](#selectedColumnsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.selectedColumnsUI <cp.prop: table of axuielement; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `axuielement` `AXColumn`s which are selected in this `GridElement`.                                                                     |
 
-| [selectedRows](#selectedRows)         |                                                                                     |
+---
+
+### [selectedRows](#selectedRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.selectedRows <table of cp.ui.Row; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Row`s which are selected in this `GridElement`.                                                                     |
 
-| [selectedRowsUI](#selectedRowsUI)         |                                                                                     |
+---
+
+### [selectedRowsUI](#selectedRowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.selectedRowsUI <cp.prop: table of cp.ui.Row; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Row`s which are selected in this `GridElement`.                                                                     |
 
-| [visibleColumns](#visibleColumns)         |                                                                                     |
+---
+
+### [visibleColumns](#visibleColumns)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.visibleColumns <table of cp.ui.Column; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Column`s which are visible in this `GridElement`.                                                                     |
 
-| [visibleColumnsUI](#visibleColumnsUI)         |                                                                                     |
+---
+
+### [visibleColumnsUI](#visibleColumnsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.visibleColumnsUI <cp.prop: table of axuielement; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Column`s which are visible in this `GridElement`.                                                                     |
 
-| [visibleRows](#visibleRows)         |                                                                                     |
+---
+
+### [visibleRows](#visibleRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.visibleRows <table of cp.ui.Row; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Row`s which are visible in this `GridElement`.                                                                     |
 
-| [visibleRowsUI](#visibleRowsUI)         |                                                                                     |
+---
+
+### [visibleRowsUI](#visibleRowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.visibleRowsUI <cp.prop: table of cp.ui.Row; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Row`s which are visible in this `GridElement`.                                                                     |
 
+---
 ### Methods
 
-| [doSelectRow](#doSelectRow)         |                                                                                     |
+
+### [doSelectRow](#doSelectRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:doSelectRow(path) -> [Statement](cp.rx.go.Statement.md)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -197,7 +280,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>The selected [Row](cp.ui.Row.md), or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fetchColumn](#fetchColumn)         |                                                                                     |
+---
+
+### [fetchColumn](#fetchColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:fetchColumn(columnsUI) -> table of cp.ui.Columns`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -206,7 +293,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A `table` with the same number of elements, containing the matching [Column](cp.ui.Column.md) instances.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findCell](#findCell)         |                                                                                     |
+---
+
+### [findCell](#findCell)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:findCell(rowNumber, columnId) -> `hs.axuielement` | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -215,7 +306,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A `hs.axuielement` object for the cell, or `nil` if the cell cannot be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findColumnIndex](#findColumnIndex)         |                                                                                     |
+---
+
+### [findColumnIndex](#findColumnIndex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:findColumnIndex(id) -> number | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -224,7 +319,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>A column index as a number, or `nil` if no index can be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [row](#row)         |                                                                                     |
+---
+
+### [row](#row)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:row(index) -> cp.ui.Element | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -233,7 +332,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>The `Element` at the specified `index`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectRow](#selectRow)         |                                                                                     |
+---
+
+### [selectRow](#selectRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:selectRow(row) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -242,7 +345,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectRowAt](#selectRowAt)         |                                                                                     |
+---
+
+### [selectRowAt](#selectRowAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:selectRowAt(path) -> cp.ui.Row`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -251,7 +358,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>The selected [Row](cp.ui.Row.md), or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectRows](#selectRows)         |                                                                                     |
+---
+
+### [selectRows](#selectRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:selectRows(rows) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -260,7 +371,11 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [visitRow](#visitRow)         |                                                                                     |
+---
+
+### [visitRow](#visitRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:visitRow(path, actionFn) -> cp.ui.Row`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -269,3 +384,4 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | **Returns**                                 | <ul><li>The row that was visited, or `nil` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

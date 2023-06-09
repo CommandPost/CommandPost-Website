@@ -47,7 +47,10 @@ misrepresented as being the original software.
 
 ### Functions
 
-| [absolutePosition](#absolutePosition)         |                                                                                     |
+
+### [absolutePosition](#absolutePosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.absolutePosition([point]) -> point`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +59,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>A point table containing the absolute x and y co-ordinates of the mouse pointer</li></ul>          |
 | **Notes**                                   | <ul><li>If no parameters are supplied, the current position will be returned. If a point table parameter is supplied, the mouse pointer position will be set and the new co-ordinates returned</li></ul>                |
 
-| [count](#count)         |                                                                                     |
+---
+
+### [count](#count)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.count([includeInternal]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +72,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>The number of mice connected to your system</li></ul>          |
 | **Notes**                                   | <ul><li>This function leverages code from [ManyMouse](http://icculus.org/manymouse/).</li><li>This function considers any mouse labelled as "Apple Internal Keyboard / Trackpad" to be an internal mouse.</li></ul>                |
 
-| [currentCursorType](#currentCursorType)         |                                                                                     |
+---
+
+### [currentCursorType](#currentCursorType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.currentCursorType() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +85,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>A string.</li></ul>          |
 | **Notes**                                   | <ul><li>Possible values include: arrowCursor, contextualMenuCursor, closedHandCursor, crosshairCursor, disappearingItemCursor, dragCopyCursor, dragLinkCursor, IBeamCursor, operationNotAllowedCursor, pointingHandCursor, resizeDownCursor, resizeLeftCursor, resizeLeftRightCursor, resizeRightCursor, resizeUpCursor, resizeUpDownCursor, IBeamCursorForVerticalLayout or unknown if the cursor type cannot be determined.</li><li>This function can also return daVinciResolveHorizontalArrows, when hovering over mouse-draggable text-boxes in DaVinci Resolve. This is determined using the "hotspot" value of the cursor.</li></ul>                |
 
-| [getButtons](#getButtons)         |                                                                                     |
+---
+
+### [getButtons](#getButtons)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.getButtons() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +98,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>Returns an array containing indices starting from 1 up to the highest numbered button currently being pressed where the index is `true` if the button is currently pressed or `false` if it is not.</li><li>Special hash tag synonyms for `left` (button 1), `right` (button 2), and `middle` (button 3) are also set to true if these buttons are currently being pressed.</li></ul>          |
 | **Notes**                                   | <ul><li>This function is a wrapper to `hs.eventtap.checkMouseButtons`</li><li>This is an instantaneous poll of the current mouse buttons, not a callback.</li></ul>                |
 
-| [getCurrentScreen](#getCurrentScreen)         |                                                                                     |
+---
+
+### [getCurrentScreen](#getCurrentScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.getCurrentScreen() -> screen or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +111,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>An `hs.screen` object that the mouse pointer is on, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getRelativePosition](#getRelativePosition)         |                                                                                     |
+---
+
+### [getRelativePosition](#getRelativePosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.getRelativePosition() -> point or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +124,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>A point-table containing the relative x and y co-ordinates of the mouse pointer, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>The co-ordinates returned by this function are relative to the top left pixel of the screen the mouse is on (see `hs.mouse.getAbsolutePosition` if you need the location in the full desktop space)</li></ul>                |
 
-| [names](#names)         |                                                                                     |
+---
+
+### [names](#names)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.names() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,7 +137,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>A table containing strings of all the mice connected to the system.</li></ul>          |
 | **Notes**                                   | <ul><li>This function leverages code from [ManyMouse](http://icculus.org/manymouse/).</li></ul>                |
 
-| [scrollDirection](#scrollDirection)         |                                                                                     |
+---
+
+### [scrollDirection](#scrollDirection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.scrollDirection() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -119,7 +150,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>A string, either "natural" or "normal"</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setRelativePosition](#setRelativePosition)         |                                                                                     |
+---
+
+### [setRelativePosition](#setRelativePosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.setRelativePosition(point[, screen])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -128,7 +163,11 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [trackingSpeed](#trackingSpeed)         |                                                                                     |
+---
+
+### [trackingSpeed](#trackingSpeed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.mouse.trackingSpeed([speed]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -137,3 +176,4 @@ misrepresented as being the original software.
 | **Returns**                                 | <ul><li>A number indicating the current tracking speed setting for mice</li></ul>          |
 | **Notes**                                   | <ul><li>This is represented in the System Preferences as the "Tracking speed" setting for mice</li><li>Note that not all values will work, they should map to the steps defined in the System Preferences app, which are:</li><li>  0.0, 0.125, 0.5, 0.6875, 0.875, 1.0, 1.5, 2.0, 2.5, 3.0</li><li>Note that changes to this value will not be noticed immediately by macOS</li></ul>                |
 
+---

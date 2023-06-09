@@ -12,15 +12,22 @@ Plugins Preferences Panel
 
 ### Constants
 
-| [SETTINGS_DISABLED](#SETTINGS_DISABLED)         |                                                                                     |
+
+### [SETTINGS_DISABLED](#SETTINGS_DISABLED)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.panels.plugins.SETTINGS_DISABLED`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugins Disabled                                                                     |
 
+---
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.panels.plugins.init(deps, env) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Plugins Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

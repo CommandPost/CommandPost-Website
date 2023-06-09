@@ -16,7 +16,10 @@ Done()
 
 ### Constructors
 
-| [Done](#Done)         |                                                                                     |
+
+### [Done](#Done)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Done() -> Done`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -25,3 +28,4 @@ Done()
 | **Returns**                                 | <ul><li>The `Statement` which will complete immediately.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

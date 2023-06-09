@@ -17,7 +17,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.CaptionsSubrole.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [CaptionsSubrole](#CaptionsSubrole)         |                                                                                     |
+
+### [CaptionsSubrole](#CaptionsSubrole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.CaptionsSubrole(parent, uiFinder)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -37,17 +44,26 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [format](#format)         |                                                                                     |
+
+### [format](#format)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.CaptionsSubrole.format <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [StaticText](cp.ui.StaticText.md) which represents the subtitle format (e.g. "ITT", "SRT").                                                                     |
 
-| [visibleInTimeline](#visibleInTimeline)         |                                                                                     |
+---
+
+### [visibleInTimeline](#visibleInTimeline)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.CaptionsSubrole.visibleInTimeline <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckBox](cp.ui.CheckBox.md) that indicates if the subtitle track is visible in the Viewer.                                                                     |
 
+---

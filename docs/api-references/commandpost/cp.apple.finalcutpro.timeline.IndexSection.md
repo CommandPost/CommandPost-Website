@@ -25,7 +25,10 @@ This will generally not be created directly, but will be created via subclass su
 
 ### Constructors
 
-| [IndexSection](#IndexSection)         |                                                                                     |
+
+### [IndexSection](#IndexSection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection(index) -> IndexSection`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,42 +37,66 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the section.                                                                     |
 | **Notes**                                   | <ul><li>Must be overridden in subclasses to provide the actual RadioButton.</li></ul>                |
 
-| [index](#index)         |                                                                                     |
+---
+
+### [index](#index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.index <cp.apple.finalcutpro.timeline.Index>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The parent [Index](cp.apple.finalcutpro.timeline.Index.md).                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.isShowing <cp.prop: boolean; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the section is currently showing.                                                                     |
 
-| [search](#search)         |                                                                                     |
+---
+
+### [search](#search)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.search <cp.ui.SearchField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The shared [SearchField](cp.ui.SearchField.md) for the [Index](cp.apple.finalcutpro.timeline.Index.md)                                                                     |
 
-| [UI](#UI)         |                                                                                     |
+---
+
+### [UI](#UI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.UI <cp.prop: axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` that represents the item.                                                                     |
 
+---
 ### Methods
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection:app() -> cp.apple.finalcutpro`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +105,11 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>The [Final Cut Pro](cp.apple.finalcutpro.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doActivateSearch](#doActivateSearch)         |                                                                                     |
+---
+
+### [doActivateSearch](#doActivateSearch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection:doActivateSearch() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +118,11 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>Returns a [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +131,11 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection:parent() -> cp.apple.finalcutpro.timeline.Index`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,3 +144,4 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>The parent index.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

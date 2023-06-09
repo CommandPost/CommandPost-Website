@@ -12,15 +12,22 @@ Final Cut Pro Tangent Viewer Overlay Group
 
 ### Constants
 
-| [group](#group)         |                                                                                     |
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.overlay.group`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `core.tangent.manager.group` that collects Final Cut Pro New actions/parameters/etc.                                                                     |
 
+---
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.overlay.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Final Cut Pro Tangent Viewer Overlay Group
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

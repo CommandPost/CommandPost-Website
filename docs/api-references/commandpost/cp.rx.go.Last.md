@@ -10,7 +10,10 @@ A `Statement` that will complete after the only the last result resolves.
 
 ### Constructors
 
-| [Last](#Last)         |                                                                                     |
+
+### [Last](#Last)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Last(resolvable) -> Last`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -19,3 +22,4 @@ A `Statement` that will complete after the only the last result resolves.
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>Last(someObservable)</li><li>```</li></ul>                |
 
+---

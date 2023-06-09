@@ -15,7 +15,10 @@ They also have a few additional methods to assist with managing the size.
 
 ### Constructors
 
-| [of](#of)         |                                                                                     |
+
+### [of](#of)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.List.of(...) -> cp.collect.List`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -24,7 +27,11 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sized](#sized)         |                                                                                     |
+---
+
+### [sized](#sized)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.List.sized([size[, defaultValue]]) -> cp.collect.List`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -33,9 +40,13 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [size](#size)         |                                                                                     |
+
+### [size](#size)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.List:size([newSize]) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -44,7 +55,11 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The size of the list.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [trim](#trim)         |                                                                                     |
+---
+
+### [trim](#trim)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.List:trim([minSize]) -> cp.collect.List`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -53,3 +68,4 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The same `List` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -40,7 +40,10 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 
 ### Constructors
 
-| [lookupAddress](#lookupAddress)         |                                                                                     |
+
+### [lookupAddress](#lookupAddress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.location.geocoder.lookupAddress(address, fn) -> geocoderObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -51,7 +54,11 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
 | **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul>                |
 
-| [lookupAddressNear](#lookupAddressNear)         |                                                                                     |
+---
+
+### [lookupAddressNear](#lookupAddressNear)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.location.geocoder.lookupAddressNear(address, [regionTable], fn) -> geocoderObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -62,7 +69,11 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
 | **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li><li>While a partial address can be given, the more information you provide, the more likely the results will be useful.  The `regionTable` only determines sort order if multiple entries are returned, it does not constrain the search.</li></ul>                |
 
-| [lookupLocation](#lookupLocation)         |                                                                                     |
+---
+
+### [lookupLocation](#lookupLocation)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.location.geocoder.lookupLocation(locationTable, fn) -> geocoderObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -73,9 +84,13 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
 | **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul>                |
 
+---
 ### Methods
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.location.geocoder:cancel() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +99,11 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Returns**                                 | <ul><li>nil to facilitate garbage collection by assigning this result to the geocodeObject</li></ul>          |
 | **Notes**                                   | <ul><li>This method has no effect if the geocoding process has already completed.</li></ul>                |
 
-| [geocoding](#geocoding)         |                                                                                     |
+---
+
+### [geocoding](#geocoding)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.location.geocoder:geocoding() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,3 +112,4 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Returns**                                 | <ul><li>a boolean indicating if the geocoding process is still active.  If false, then the callback function either has already been called or will be as soon as the main thread of Hammerspoon becomes idle again.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

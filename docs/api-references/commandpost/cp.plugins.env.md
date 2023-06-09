@@ -16,7 +16,10 @@ Provides access to resources in the plugin environment. In generally, this will 
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.env.new(rootPath) -> cp.plugins.env`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -25,9 +28,13 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The new `env` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [compileTemplate](#compileTemplate)         |                                                                                     |
+
+### [compileTemplate](#compileTemplate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.env:compileTemplate(view[, layout]) -> function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -36,7 +43,11 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>A function which will render the template.</li></ul>          |
 | **Notes**                                   | <ul><li>It returns a function which can have a `model` table passed in which will provide variables/functions/etc that the template can access while rendering. The function can be reused multiple times with different context values.</li></ul>                |
 
-| [pathToAbsolute](#pathToAbsolute)         |                                                                                     |
+---
+
+### [pathToAbsolute](#pathToAbsolute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.env:pathToAbsolute(resourcePath) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The absolute path to the resource, or `nil` if it does not exist.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pathToURL](#pathToURL)         |                                                                                     |
+---
+
+### [pathToURL](#pathToURL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.env:pathToURL(resourcePath) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The absolute URL to the resource, or `nil` if it does not exist.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [readResource](#readResource)         |                                                                                     |
+---
+
+### [readResource](#readResource)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.env:readResource(resourcePath) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +82,11 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The contents of the resouce, or `nil` if the file does not exist.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [renderTemplate](#renderTemplate)         |                                                                                     |
+---
+
+### [renderTemplate](#renderTemplate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.env:renderTemplate(view[, model[, layout]]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,3 +95,4 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>A function which will render the template.</li></ul>          |
 | **Notes**                                   | <ul><li>The `model` is a table which will provide variables/functions/etc that the template can access while rendering.</li></ul>                |
 
+---

@@ -21,7 +21,10 @@ Browser Playhead Plugin.
 
 ### Functions
 
-| [changeHighlightColor](#changeHighlightColor)         |                                                                                     |
+
+### [changeHighlightColor](#changeHighlightColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.changeHighlightColor([value]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -30,7 +33,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deleteHighlight](#deleteHighlight)         |                                                                                     |
+---
+
+### [deleteHighlight](#deleteHighlight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.deleteHighlight() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -39,7 +46,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHighlightColor](#getHighlightColor)         |                                                                                     |
+---
+
+### [getHighlightColor](#getHighlightColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.getHighlightColor() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,7 +59,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHighlightCustomColor](#getHighlightCustomColor)         |                                                                                     |
+---
+
+### [getHighlightCustomColor](#getHighlightCustomColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.getHighlightCustomColor() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,7 +72,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHighlightShape](#getHighlightShape)         |                                                                                     |
+---
+
+### [getHighlightShape](#getHighlightShape)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.getHighlightShape() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -66,7 +85,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>"Rectangle", "Circle" or "Diamond" or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHighlightTime](#getHighlightTime)         |                                                                                     |
+---
+
+### [getHighlightTime](#getHighlightTime)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.getHighlightTime() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,7 +98,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>A number or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [highlight](#highlight)         |                                                                                     |
+---
+
+### [highlight](#highlight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.highlight() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -84,7 +111,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [highlightFrame](#highlightFrame)         |                                                                                     |
+---
+
+### [highlightFrame](#highlightFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.highlightFrame([frame]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -93,7 +124,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setHighlightColor](#setHighlightColor)         |                                                                                     |
+---
+
+### [setHighlightColor](#setHighlightColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.setHighlightColor([value]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -102,7 +137,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setHighlightCustomColor](#setHighlightCustomColor)         |                                                                                     |
+---
+
+### [setHighlightCustomColor](#setHighlightCustomColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.setHighlightCustomColor([value]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -111,7 +150,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setHighlightShape](#setHighlightShape)         |                                                                                     |
+---
+
+### [setHighlightShape](#setHighlightShape)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.setHighlightShape([value]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -120,7 +163,11 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setHighlightTime](#setHighlightTime)         |                                                                                     |
+---
+
+### [setHighlightTime](#setHighlightTime)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.playhead.setHighlightTime([value]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -129,3 +176,4 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

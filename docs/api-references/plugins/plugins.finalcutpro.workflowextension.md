@@ -59,33 +59,52 @@ Commands that can be SENT to the Workflow Extension:
 
 ### Variables
 
-| [connected](#connected)         |                                                                                     |
+
+### [connected](#connected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.connected -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is CommandPost connecting to the Workflow Extension?                                                                     |
 
-| [lastPlayheadPosition](#lastPlayheadPosition)         |                                                                                     |
+---
+
+### [lastPlayheadPosition](#lastPlayheadPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.lastPlayheadPosition -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last playhead position.                                                                     |
 
-| [skimmingRestoreTimer](#skimmingRestoreTimer)         |                                                                                     |
+---
+
+### [skimmingRestoreTimer](#skimmingRestoreTimer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.skimmingRestoreTimer -> hs.timer.delayed`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Delayed Timer to Restore the Skimming Feature (if required)                                                                     |
 
-| [wasSkimmingEnabled](#wasSkimmingEnabled)         |                                                                                     |
+---
+
+### [wasSkimmingEnabled](#wasSkimmingEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.wasSkimmingEnabled -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Was the Skimming Feature enabled?                                                                     |
 
+---
 ### Functions
 
-| [callback](#callback)         |                                                                                     |
+
+### [callback](#callback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.callback() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -94,7 +113,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [connect](#connect)         |                                                                                     |
+---
+
+### [connect](#connect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.connect() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -103,7 +126,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [connectionCallback](#connectionCallback)         |                                                                                     |
+---
+
+### [connectionCallback](#connectionCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.connectionCallback() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -112,7 +139,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [decrementPlayhead](#decrementPlayhead)         |                                                                                     |
+---
+
+### [decrementPlayhead](#decrementPlayhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.decrementPlayhead(frames) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -121,7 +152,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disconnect](#disconnect)         |                                                                                     |
+---
+
+### [disconnect](#disconnect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.disconnect() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -130,7 +165,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [forcefullyInstall](#forcefullyInstall)         |                                                                                     |
+---
+
+### [forcefullyInstall](#forcefullyInstall)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.forcefullyInstall() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -139,7 +178,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [incrementPlayhead](#incrementPlayhead)         |                                                                                     |
+---
+
+### [incrementPlayhead](#incrementPlayhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.incrementPlayhead(frames) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -148,7 +191,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [movePlayheadToSeconds](#movePlayheadToSeconds)         |                                                                                     |
+---
+
+### [movePlayheadToSeconds](#movePlayheadToSeconds)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.movePlayheadToSeconds(seconds) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -157,7 +204,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ping](#ping)         |                                                                                     |
+---
+
+### [ping](#ping)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.ping() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -166,7 +217,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [repositionWorkflowExtension](#repositionWorkflowExtension)         |                                                                                     |
+---
+
+### [repositionWorkflowExtension](#repositionWorkflowExtension)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.repositionWorkflowExtension() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -175,7 +230,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sendCommand](#sendCommand)         |                                                                                     |
+---
+
+### [sendCommand](#sendCommand)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.sendCommand(command) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -184,7 +243,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setupActions](#setupActions)         |                                                                                     |
+---
+
+### [setupActions](#setupActions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.setupActions() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -193,17 +256,26 @@ Commands that can be SENT to the Workflow Extension:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [hasWorkflowExtensionBeenAddedVersion](#hasWorkflowExtensionBeenAddedVersion)         |                                                                                     |
+
+### [hasWorkflowExtensionBeenAddedVersion](#hasWorkflowExtensionBeenAddedVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.hasWorkflowExtensionBeenAddedVersion -> cp.prop`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the CommandPost Version String for the last time the Workflow Extension was added.                                                                     |
 
-| [hasWorkflowExtensionBeenMovedVersion](#hasWorkflowExtensionBeenMovedVersion)         |                                                                                     |
+---
+
+### [hasWorkflowExtensionBeenMovedVersion](#hasWorkflowExtensionBeenMovedVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.workflowextension.hasWorkflowExtensionBeenMovedVersion -> cp.prop`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the CommandPost Version String for the last time the Workflow Extension was moved.                                                                     |
 
+---

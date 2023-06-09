@@ -21,15 +21,22 @@ Adobe After Effects Extension
 
 ### Constants
 
-| [preferences](#preferences)         |                                                                                     |
+
+### [preferences](#preferences)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects.preferences <cp.app.prefs>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for After Effects.                                                                     |
 
+---
 ### Functions
 
-| [allowScriptsToWriteFilesAndAccessNetwork](#allowScriptsToWriteFilesAndAccessNetwork)         |                                                                                     |
+
+### [allowScriptsToWriteFilesAndAccessNetwork](#allowScriptsToWriteFilesAndAccessNetwork)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects:allowScriptsToWriteFilesAndAccessNetwork() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -38,7 +45,11 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [preferencesFilePath](#preferencesFilePath)         |                                                                                     |
+---
+
+### [preferencesFilePath](#preferencesFilePath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects:preferencesFilePath() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,7 +58,11 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [preferencesPath](#preferencesPath)         |                                                                                     |
+---
+
+### [preferencesPath](#preferencesPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects:preferencesPath() -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +71,11 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A string or `nil` if no path can be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [refreshPreferences](#refreshPreferences)         |                                                                                     |
+---
+
+### [refreshPreferences](#refreshPreferences)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects:refreshPreferences() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +84,11 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shortcutsPreferences](#shortcutsPreferences)         |                                                                                     |
+---
+
+### [shortcutsPreferences](#shortcutsPreferences)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects:shortcutsPreferences() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +97,11 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shortcutsPreferencesPath](#shortcutsPreferencesPath)         |                                                                                     |
+---
+
+### [shortcutsPreferencesPath](#shortcutsPreferencesPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects:shortcutsPreferencesPath() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,3 +110,4 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -17,7 +17,10 @@ Given(anObservable):Then(function(value) return value:doSomething() end)
 
 ### Methods
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Given.Then:Then(...) -> Given.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -26,3 +29,4 @@ Given(anObservable):Then(function(value) return value:doSomething() end)
 | **Returns**                                 | <ul><li>Another [Given.Then](cp.rx.go.Given.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

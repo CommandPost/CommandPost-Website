@@ -13,7 +13,10 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 
 ### Functions
 
-| [iMessage](#iMessage)         |                                                                                     |
+
+### [iMessage](#iMessage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.messages.iMessage(targetAddress, message)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -22,7 +25,11 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [SMS](#SMS)         |                                                                                     |
+---
+
+### [SMS](#SMS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.messages.SMS(targetNumber, message)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,3 +38,4 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

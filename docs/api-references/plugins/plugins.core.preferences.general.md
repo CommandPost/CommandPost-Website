@@ -20,27 +20,42 @@ General Preferences Panel.
 
 ### Variables
 
-| [dragAndDropFileActions](#dragAndDropFileActions)         |                                                                                     |
+
+### [dragAndDropFileActions](#dragAndDropFileActions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropFileActions -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of registered Drag & Drop File Actions.                                                                     |
 
-| [dragAndDropTextActions](#dragAndDropTextActions)         |                                                                                     |
+---
+
+### [dragAndDropTextActions](#dragAndDropTextActions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropTextActions -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of registered Drag & Drop Text Actions.                                                                     |
 
-| [openDebugConsoleOnDockClick](#openDebugConsoleOnDockClick)         |                                                                                     |
+---
+
+### [openDebugConsoleOnDockClick](#openDebugConsoleOnDockClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.openDebugConsoleOnDockClick <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Open Error Log on Dock Icon Click.                                                                     |
 
+---
 ### Functions
 
-| [registerDragAndDropFileAction](#registerDragAndDropFileAction)         |                                                                                     |
+
+### [registerDragAndDropFileAction](#registerDragAndDropFileAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.registerDragAndDropFileAction(id, label, fn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,7 +64,11 @@ General Preferences Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [registerDragAndDropTextAction](#registerDragAndDropTextAction)         |                                                                                     |
+---
+
+### [registerDragAndDropTextAction](#registerDragAndDropTextAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.registerDragAndDropTextAction(id, label, fn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,29 +77,46 @@ General Preferences Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [autoLaunch](#autoLaunch)         |                                                                                     |
+
+### [autoLaunch](#autoLaunch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.autoLaunch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Controls if CommandPost will automatically upload crash data to the developer.                                                                     |
 
-| [dockIcon](#dockIcon)         |                                                                                     |
+---
+
+### [dockIcon](#dockIcon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.dockIcon <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Controls whether or not CommandPost should show a dock icon.                                                                     |
 
-| [dragAndDropFileAction](#dragAndDropFileAction)         |                                                                                     |
+---
+
+### [dragAndDropFileAction](#dragAndDropFileAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropFileAction <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Which Drag & Drop File Action is enabled?                                                                     |
 
-| [dragAndDropTextAction](#dragAndDropTextAction)         |                                                                                     |
+---
+
+### [dragAndDropTextAction](#dragAndDropTextAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropTextAction <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Which Drag & Drop Text Action is enabled?                                                                     |
 
+---

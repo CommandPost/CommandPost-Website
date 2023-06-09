@@ -10,9 +10,13 @@ Adds correct timecode from Sony cameras in a FCPXML.
 
 ### Fields
 
-| [lastExportPath](#lastExportPath)         |                                                                                     |
+
+### [lastExportPath](#lastExportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.sonytimecode.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export Path                                                                     |
 
+---

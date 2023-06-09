@@ -10,9 +10,13 @@ The `cp.app` for Adobe After Effects.
 
 ### Constants
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects.app <cp.app>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app` for After Effects.                                                                     |
 
+---

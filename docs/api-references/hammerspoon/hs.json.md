@@ -16,7 +16,10 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ### Functions
 
-| [decode](#decode)         |                                                                                     |
+
+### [decode](#decode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.json.decode(jsonString) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,7 +28,11 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table representing the supplied JSON data</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for retrieving some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul>                |
 
-| [encode](#encode)         |                                                                                     |
+---
+
+### [encode](#encode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.json.encode(val[, prettyprint]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +41,11 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A string containing a JSON representation of the supplied table</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for storing some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul>                |
 
-| [read](#read)         |                                                                                     |
+---
+
+### [read](#read)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.json.read(path) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +54,11 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table representing the supplied JSON data, or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [write](#write)         |                                                                                     |
+---
+
+### [write](#write)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.json.write(data, path, [prettyprint], [replace]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,3 +67,4 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false` if an error has occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

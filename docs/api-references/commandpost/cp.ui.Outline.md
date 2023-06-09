@@ -10,7 +10,10 @@ A Outline UI element. It extends [GridElement](cp.ui.GridElement.md), so will in
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Outline.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ A Outline UI element. It extends [GridElement](cp.ui.GridElement.md), so will in
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

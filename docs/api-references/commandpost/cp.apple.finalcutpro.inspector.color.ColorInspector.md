@@ -30,15 +30,22 @@ Color Inspector Module.
 
 ### Constants
 
-| [CORRECTION_TYPES](#CORRECTION_TYPES)         |                                                                                     |
+
+### [CORRECTION_TYPES](#CORRECTION_TYPES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.CORRECTION_TYPES`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Correction Types:                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,59 +54,95 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>`true` if the element is the Color Inspector.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [colorBoard](#colorBoard)         |                                                                                     |
+
+### [colorBoard](#colorBoard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.colorBoard <ColorBoard>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard object.                                                                     |
 
-| [colorCurves](#colorCurves)         |                                                                                     |
+---
+
+### [colorCurves](#colorCurves)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.colorCurves <ColorCurves>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorCurves object.                                                                     |
 
-| [colorWheels](#colorWheels)         |                                                                                     |
+---
+
+### [colorWheels](#colorWheels)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.colorWheels <ColorWheels>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorWheels object.                                                                     |
 
-| [corrections](#corrections)         |                                                                                     |
+---
+
+### [corrections](#corrections)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.corrections <CorrectionsBar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CorrectionsBar` instance representing the available corrections,                                                                     |
 
-| [correctorUI](#correctorUI)         |                                                                                     |
+---
+
+### [correctorUI](#correctorUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.correctorUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object representing the currently-selected corrector panel.                                                                     |
 
-| [hueSaturationCurves](#hueSaturationCurves)         |                                                                                     |
+---
+
+### [hueSaturationCurves](#hueSaturationCurves)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.hueSaturationCurves <HueSaturationCurves>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The HueSaturationCurves object.                                                                     |
 
-| [topBarUI](#topBarUI)         |                                                                                     |
+---
+
+### [topBarUI](#topBarUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.topBarUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object representing the top bar.                                                                     |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.value <cp.prop: cp.drawing.color>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the Color Well Value as a `cp.drawing.color`.                                                                     |
 
+---
 ### Methods
 
-| [activateCorrection](#activateCorrection)         |                                                                                     |
+
+### [activateCorrection](#activateCorrection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector:activateCorrection(correctionType[, number]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -108,7 +151,11 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addCorrection](#addCorrection)         |                                                                                     |
+---
+
+### [addCorrection](#addCorrection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector:addCorrection(correctionType) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -117,7 +164,11 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ColorInspector](#ColorInspector)         |                                                                                     |
+---
+
+### [ColorInspector](#ColorInspector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector(parent) -> ColorInspector object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -126,7 +177,11 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doActivateCorrection](#doActivateCorrection)         |                                                                                     |
+---
+
+### [doActivateCorrection](#doActivateCorrection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector:doActivateCorrection(correctionType[, number]) -> cp.rx.go.Statement<boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -135,7 +190,11 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>The `Statement`, which sends a single `true` value if successful, or sends an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doAddCorrection](#doAddCorrection)         |                                                                                     |
+---
+
+### [doAddCorrection](#doAddCorrection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector:doAddCorrection(correctionType) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -144,7 +203,11 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful, or sending an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -153,7 +216,11 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or sending an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector:hide() -> ColorInspector`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -162,7 +229,11 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -171,3 +242,4 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

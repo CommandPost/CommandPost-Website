@@ -15,7 +15,10 @@ Represents a Tangent Binding
 
 ### Constructors
 
-| [binding](#binding)         |                                                                                     |
+
+### [binding](#binding)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.binding(name) -> binding`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -24,9 +27,13 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>the new `binding`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [member](#member)         |                                                                                     |
+
+### [member](#member)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.binding:member(parameter) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -35,7 +42,11 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The `binding` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [members](#members)         |                                                                                     |
+---
+
+### [members](#members)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.binding:members(...) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -44,7 +55,11 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The `binding` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.binding:name() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -53,7 +68,11 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The name.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.binding:xml() -> cp.web.xml`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -62,3 +81,4 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The `xml` for the Binding.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

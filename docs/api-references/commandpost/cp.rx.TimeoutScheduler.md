@@ -12,7 +12,10 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 
 ### Methods
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.TimeoutScheduler.create() -> cp.rx.TimeoutScheduler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -21,7 +24,11 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Returns**                                 | <ul><li>The new `TimeoutScheduler`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [schedule](#schedule)         |                                                                                     |
+---
+
+### [schedule](#schedule)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.TimeoutScheduler:schedule(action[, delay]) -> cp.rx.TimeoutScheduler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -30,7 +37,11 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stopAll](#stopAll)         |                                                                                     |
+---
+
+### [stopAll](#stopAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.TimeoutScheduler:stopAll() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,3 +50,4 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

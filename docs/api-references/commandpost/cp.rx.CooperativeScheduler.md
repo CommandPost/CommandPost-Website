@@ -15,7 +15,10 @@ manually.
 
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.CooperativeScheduler.create([currentTime]) -> cp.rx.CooperativeScheduler`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -24,9 +27,13 @@ manually.
 | **Returns**                                 | <ul><li>The new `CooperativeScheduler`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [isEmpth](#isEmpth)         |                                                                                     |
+
+### [isEmpth](#isEmpth)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.CooperativeScheduler:isEmpth() -> cp.rx.CooperativeScheduler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -35,7 +42,11 @@ manually.
 | **Returns**                                 | <ul><li>`true` if the scheduler is empty, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [schedule](#schedule)         |                                                                                     |
+---
+
+### [schedule](#schedule)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.CooperativeScheduler:schedule(action[, delay]) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -44,7 +55,11 @@ manually.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.CooperativeScheduler:update(delta) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -53,3 +68,4 @@ manually.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

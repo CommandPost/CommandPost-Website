@@ -34,15 +34,22 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ### Variables
 
-| [defaultLogLevel](#defaultLogLevel)         |                                                                                     |
+
+### [defaultLogLevel](#defaultLogLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.defaultLogLevel`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default log level for new logger instances.                                                                     |
 
+---
 ### Functions
 
-| [history](#history)         |                                                                                     |
+
+### [history](#history)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.history() -> list of log entries`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -51,7 +58,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>a list of (at most `hs.logger.historySize()`) log entries produced by all the logger instances, in chronological order;</li><li>   each entry is a table with the following fields:</li><li>  time - timestamp in seconds since the epoch</li><li>  level - a number between 1 (error) and 5 (verbose)</li><li>  id - a string containing the id of the logger instance that produced this entry</li><li>  message - a string containing the logged message</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [historySize](#historySize)         |                                                                                     |
+---
+
+### [historySize](#historySize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.historySize([size]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -60,7 +71,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>the current or new history size</li></ul>          |
 | **Notes**                                   | <ul><li>if you change history size (other than from 0) after creating any logger instances, things will likely break</li></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.new(id, loglevel) -> logger`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -69,7 +84,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>the new logger instance</li></ul>          |
 | **Notes**                                   | <ul><li>the logger instance created by this method is not a regular object, but a plain table with "static" functions;</li><li>   therefore, do not use the colon syntax for so-called "methods" in this module (as in `mylogger.setLogLevel(3)`);</li><li>   you must instead use the regular dot syntax: `mylogger.setLogLevel(3)`</li><li></li><li>Example:</li><li>```lua</li><li>local log = hs.logger.new('mymodule','debug')</li><li>log.i('Initializing') -- will print "[mymodule] Initializing" to the console```</li></ul>                |
 
-| [printHistory](#printHistory)         |                                                                                     |
+---
+
+### [printHistory](#printHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.printHistory([entries[, level[, filter[, caseSensitive]]]])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -78,7 +97,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setGlobalLogLevel](#setGlobalLogLevel)         |                                                                                     |
+---
+
+### [setGlobalLogLevel](#setGlobalLogLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.setGlobalLogLevel(lvl)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -87,7 +110,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setModulesLogLevel](#setModulesLogLevel)         |                                                                                     |
+---
+
+### [setModulesLogLevel](#setModulesLogLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.setModulesLogLevel(lvl)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -96,17 +123,25 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function only affects *module*-level loggers, object instances with their own loggers (e.g. windowfilters) won't be affected;</li><li>   you can use `hs.logger.setGlobalLogLevel()` for those</li></ul>                |
 
+---
 ### Fields
 
-| [level](#level)         |                                                                                     |
+
+### [level](#level)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.level`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The log level of the logger instance, as a number between 0 and 5                                                                     |
 
+---
 ### Methods
 
-| [d](#d)         |                                                                                     |
+
+### [d](#d)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.d(...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,7 +150,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [df](#df)         |                                                                                     |
+---
+
+### [df](#df)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.df(fmt,...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -124,7 +163,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [e](#e)         |                                                                                     |
+---
+
+### [e](#e)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.e(...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -133,7 +176,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ef](#ef)         |                                                                                     |
+---
+
+### [ef](#ef)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.ef(fmt,...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -142,7 +189,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [f](#f)         |                                                                                     |
+---
+
+### [f](#f)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.f(fmt,...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +202,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getLogLevel](#getLogLevel)         |                                                                                     |
+---
+
+### [getLogLevel](#getLogLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.getLogLevel() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +215,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>The log level of this logger as a number between 0 and 5</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [i](#i)         |                                                                                     |
+---
+
+### [i](#i)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.i(...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +228,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setLogLevel](#setLogLevel)         |                                                                                     |
+---
+
+### [setLogLevel](#setLogLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.setLogLevel(loglevel)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +241,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [v](#v)         |                                                                                     |
+---
+
+### [v](#v)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.v(...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +254,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [vf](#vf)         |                                                                                     |
+---
+
+### [vf](#vf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.vf(fmt,...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,7 +267,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [w](#w)         |                                                                                     |
+---
+
+### [w](#w)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.w(...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -205,7 +280,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [wf](#wf)         |                                                                                     |
+---
+
+### [wf](#wf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.logger.wf(fmt,...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -214,3 +293,4 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -41,7 +41,10 @@ on the `contents` property can be called on the Timeline module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +53,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>`element` should be an `AXGroup`, which contains an `AXSplitGroup` with an</li><li>   `AXIdentifier` of `_NS:237` (as of Final Cut Pro 10.4)</li></ul>                |
 
-| [matchesMain](#matchesMain)         |                                                                                     |
+---
+
+### [matchesMain](#matchesMain)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.matchesMain(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,9 +66,13 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>`element` should be an `AXSplitGroup` with an `AXIdentifier` of `_NS:237`</li><li>   (as of Final Cut Pro 10.4)</li><li>Because the timeline contents is hard to detect, we look for the timeline</li><li>   toolbar instead.</li></ul>                |
 
+---
 ### Constructors
 
-| [Timeline](#Timeline)         |                                                                                     |
+
+### [Timeline](#Timeline)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline(app) -> Timeline`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -70,95 +81,155 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>A new `Timeline` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contents](#contents)         |                                                                                     |
+
+### [contents](#contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.contents <cp.apple.finalcutpro.timeline.Contents>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Timeline Contents. The Content is the main body of the timeline,                                                                     |
 
-| [effects](#effects)         |                                                                                     |
+---
+
+### [effects](#effects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.effects <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The (sometimes hidden) Effect Browser.                                                                     |
 
-| [index](#index)         |                                                                                     |
+---
+
+### [index](#index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.index <cp.apple.finalcutpro.timeline.Index>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Index](cp.apple.finalcutpro.timeline.Index.md).                                                                     |
 
-| [isFocused](#isFocused)         |                                                                                     |
+---
+
+### [isFocused](#isFocused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isFocused <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the timeline focused?                                                                     |
 
-| [isOnPrimary](#isOnPrimary)         |                                                                                     |
+---
+
+### [isOnPrimary](#isOnPrimary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isOnPrimary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline is on the Primary Display.                                                                     |
 
-| [isOnSecondary](#isOnSecondary)         |                                                                                     |
+---
+
+### [isOnSecondary](#isOnSecondary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isOnSecondary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline is on the Secondary Display.                                                                     |
 
-| [isPlaying](#isPlaying)         |                                                                                     |
+---
+
+### [isPlaying](#isPlaying)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isPlaying <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the timeline playing?                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.isShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline is showing on either the Primary or Secondary display.                                                                     |
 
-| [mainUI](#mainUI)         |                                                                                     |
+---
+
+### [mainUI](#mainUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.mainUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the 'timeline', or `nil` if not available.                                                                     |
 
-| [rangeSelected](#rangeSelected)         |                                                                                     |
+---
+
+### [rangeSelected](#rangeSelected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.rangeSelected <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if a range is selected in the timeline.                                                                     |
 
-| [speedPopover](#speedPopover)         |                                                                                     |
+---
+
+### [speedPopover](#speedPopover)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.speedPopover <cp.apple.finalcutpro.timeline.SpeedPopover>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [SpeedPopover](cp.apple.finalcutpro.timeline.SpeedPopover.md).                                                                     |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.title <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [StaticText](cp.ui.StaticText.md) containing the title.                                                                     |
 
-| [toolbar](#toolbar)         |                                                                                     |
+---
+
+### [toolbar](#toolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.toolbar <Toolbar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The bar at the top of the timeline.                                                                     |
 
-| [transitions](#transitions)         |                                                                                     |
+---
+
+### [transitions](#transitions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline.transitions <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The (sometimes hidden) Transitions Browser.                                                                     |
 
+---
 ### Methods
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:app() -> App`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -167,7 +238,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -176,7 +251,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>A `Statement` ready to run.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doOpenProject](#doOpenProject)         |                                                                                     |
+---
+
+### [doOpenProject](#doOpenProject)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:doOpenProject(title) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -185,7 +264,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>The `Statement` to run.</li></ul>          |
 | **Notes**                                   | <ul><li>The title supports patterns, so you can do things like:</li><li>   `require("cp.apple.finalcutpro").timeline:doOpenProject("Audio.*"):Now()`</li></ul>                |
 
-| [doShowOnPrimary](#doShowOnPrimary)         |                                                                                     |
+---
+
+### [doShowOnPrimary](#doShowOnPrimary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:doShowOnPrimary() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -194,7 +277,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>A `Statement` which will send `true` if it successful, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowOnSecondary](#doShowOnSecondary)         |                                                                                     |
+---
+
+### [doShowOnSecondary](#doShowOnSecondary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:doShowOnSecondary() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -203,7 +290,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>A `Statement` which will send `true` if it successful, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:hide() -> Timeline`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -212,7 +303,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:show() -> Timeline`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -221,7 +316,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showOnPrimary](#showOnPrimary)         |                                                                                     |
+---
+
+### [showOnPrimary](#showOnPrimary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:showOnPrimary() -> Timeline`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -230,7 +329,11 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showOnSecondary](#showOnSecondary)         |                                                                                     |
+---
+
+### [showOnSecondary](#showOnSecondary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Timeline:showOnSecondary() -> Timeline`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -239,3 +342,4 @@ on the `contents` property can be called on the Timeline module.
 | **Returns**                                 | <ul><li>`Timeline` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

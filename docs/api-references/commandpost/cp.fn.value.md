@@ -14,7 +14,10 @@ A collection of functions for working with values.
 
 ### Functions
 
-| [default](#default)         |                                                                                     |
+
+### [default](#default)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.value.default(...) -> function(...) -> ...`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,7 +26,11 @@ A collection of functions for working with values.
 | **Returns**                                 | <ul><li>A function that accepts a list of values and returns the same number of values, with either the value passed in or the default value if that value is `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example: `cp.fn.value.default(1, 2, 3)(5, nil, 6) -- returns 5, 2, 6`</li></ul>                |
 
-| [filter](#filter)         |                                                                                     |
+---
+
+### [filter](#filter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.value.filter(predicate, ...) -> function(value) -> value | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +39,11 @@ A collection of functions for working with values.
 | **Returns**                                 | <ul><li>A function that takes a value and returns the value if the predicates all return `true`, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [is](#is)         |                                                                                     |
+---
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.value.is(other) -> function(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,7 +52,11 @@ A collection of functions for working with values.
 | **Returns**                                 | <ul><li>A function that takes a value and returns `true` if the value is equal to the other value, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [map](#map)         |                                                                                     |
+---
+
+### [map](#map)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.value.map(mapper) -> function(value) -> any | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +65,11 @@ A collection of functions for working with values.
 | **Returns**                                 | <ul><li>A function that takes a value and returns the result of the mapper function, or `nil` if the value is `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.value.matches(predicate, ...) -> function(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,3 +78,4 @@ A collection of functions for working with values.
 | **Returns**                                 | <ul><li>A function that takes a value and returns `true` if the value matches the all predicates, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

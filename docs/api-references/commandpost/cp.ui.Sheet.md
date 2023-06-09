@@ -25,7 +25,10 @@ Sheet UI Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,9 +37,13 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Sheet](#Sheet)         |                                                                                     |
+
+### [Sheet](#Sheet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet(parent, uiFinder) -> Sheet`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,29 +52,45 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>A new `Browser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet.cancel <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The cancel [Button](cp.ui.Button.md) for the `Sheet`.                                                                     |
 
-| [default](#default)         |                                                                                     |
+---
+
+### [default](#default)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet.default <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The default [Button](cp.ui.Button.md) for the `Sheet`.                                                                     |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet.title <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the title of the sheet.                                                                     |
 
+---
 ### Methods
 
-| [containsText](#containsText)         |                                                                                     |
+
+### [containsText](#containsText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:containsText(value[, plain]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -76,7 +99,11 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>`true` if an element's `AXValue` matches the text pattern exactly.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doCancel](#doCancel)         |                                                                                     |
+---
+
+### [doCancel](#doCancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:doCancel() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -85,7 +112,11 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute, resolving to `true` if the button was present and clicked, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doDefault](#doDefault)         |                                                                                     |
+---
+
+### [doDefault](#doDefault)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:doDefault() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -94,7 +125,11 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute, resolving to `true` if the button was present and clicked, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:doHide() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -103,7 +138,11 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute, resolving to `true` if the button was present and clicked, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doPress](#doPress)         |                                                                                     |
+---
+
+### [doPress](#doPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:doPress(buttonFromLeft) -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -112,7 +151,11 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>a [Statement](cp.rx.go.Statement.md) to execute, resolving in `true` if the button was found and pressed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:hide() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -121,7 +164,11 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pressCancel](#pressCancel)         |                                                                                     |
+---
+
+### [pressCancel](#pressCancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:pressCancel() -> self, boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -130,7 +177,11 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>The `Sheet` object.</li><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pressDefault](#pressDefault)         |                                                                                     |
+---
+
+### [pressDefault](#pressDefault)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Sheet:pressDefault() -> self, boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -139,3 +190,4 @@ Sheet UI Module.
 | **Returns**                                 | <ul><li>The `Sheet` object.</li><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

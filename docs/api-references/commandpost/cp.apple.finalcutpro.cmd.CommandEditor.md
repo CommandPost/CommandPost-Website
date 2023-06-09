@@ -38,7 +38,10 @@ Command Editor Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,9 +50,13 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [CommandEditor](#CommandEditor)         |                                                                                     |
+
+### [CommandEditor](#CommandEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor(app) -> CommandEditor`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -58,113 +65,185 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>A new `CommandEditor` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [closeButton](#closeButton)         |                                                                                     |
+
+### [closeButton](#closeButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.closeButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Close" [Button](cp.ui.Button.md).                                                                     |
 
-| [command](#command)         |                                                                                     |
+---
+
+### [command](#command)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.command <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Command" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 
-| [commandDetail](#commandDetail)         |                                                                                     |
+---
+
+### [commandDetail](#commandDetail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.commandDetail <cp.apple.finalcutpro.cmd.CommandDetail>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandDetail](cp.apple.finalcutpro.cmd.CommandDetail.md) section.                                                                     |
 
-| [commandGroups](#commandGroups)         |                                                                                     |
+---
+
+### [commandGroups](#commandGroups)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.commandGroups <cp.apple.finalcutpro.cmd.CommandGroups>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandGroups](cp.apple.finalcutpro.cmd.CommandGroups.md).                                                                     |
 
-| [commandList](#commandList)         |                                                                                     |
+---
+
+### [commandList](#commandList)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.commandList <cp.apple.finalcutpro.cmd.CommandList>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandList](cp.apple.finalcutpro.cmd.CommandList.md).                                                                     |
 
-| [commands](#commands)         |                                                                                     |
+---
+
+### [commands](#commands)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.commands <cp.apple.finalcutpro.cmd.Commands>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Commands](cp.apple.finalcutpro.cmd.Commands.md).                                                                     |
 
-| [commandSet](#commandSet)         |                                                                                     |
+---
+
+### [commandSet](#commandSet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.commandSet <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Command Set" [PopUpButton](cp.ui.PopUpButton.md).                                                                     |
 
-| [control](#control)         |                                                                                     |
+---
+
+### [control](#control)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.control <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Control" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 
-| [keyboard](#keyboard)         |                                                                                     |
+---
+
+### [keyboard](#keyboard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.keyboard <cp.ui.Group>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Group](cp.ui.Group.md) containing the keyboard shortcuts. Does not seem to expose the actual key buttons.                                                                     |
 
-| [keyboardToggle](#keyboardToggle)         |                                                                                     |
+---
+
+### [keyboardToggle](#keyboardToggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.keyboardToggle <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Keyboard Toggle" [CheckBox](cp.ui.CheckBox.md) (next to the Search field).                                                                     |
 
-| [keyDetail](#keyDetail)         |                                                                                     |
+---
+
+### [keyDetail](#keyDetail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.keyDetail <cp.appple.finalcutpro.cmd.KeyDetail>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [KeyDetail](cp.apple.finalcutpro.cmd.KeyDetail.md) section.                                                                     |
 
-| [modifiers](#modifiers)         |                                                                                     |
+---
+
+### [modifiers](#modifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.modifiers <cp.ui.Group>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Group](cp.ui.Group.md) containing 'modifier' checkboxes (Cmd, Shift, etc).                                                                     |
 
-| [option](#option)         |                                                                                     |
+---
+
+### [option](#option)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.option <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Option" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 
-| [save](#save)         |                                                                                     |
+---
+
+### [save](#save)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.save <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Save" [Button](cp.ui.Button.md).                                                                     |
 
-| [search](#search)         |                                                                                     |
+---
+
+### [search](#search)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.search <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Search" [TextField](cp.ui.TextField.md).                                                                     |
 
-| [shift](#shift)         |                                                                                     |
+---
+
+### [shift](#shift)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.shift <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Shift" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 
-| [UI](#UI)         |                                                                                     |
+---
+
+### [UI](#UI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor.UI <cp.prop: axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` for the window.                                                                     |
 
+---
 ### Methods
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor:app() -> App`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -173,7 +252,11 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doClose](#doClose)         |                                                                                     |
+---
+
+### [doClose](#doClose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor:doClose() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -182,7 +265,11 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the button was found and pushed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindCommandID](#doFindCommandID)         |                                                                                     |
+---
+
+### [doFindCommandID](#doFindCommandID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor:doFindCommandID(commandID, [highlight]) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -191,7 +278,11 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSave](#doSave)         |                                                                                     |
+---
+
+### [doSave](#doSave)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor:doSave() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -200,7 +291,11 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the button was found and pushed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor:doShow() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -209,7 +304,11 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if the CommandEditor is not showing or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor:hide() -> cp.apple.finalcutpro.cmd.CommandEditor`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -218,7 +317,11 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.cmd.CommandEditor` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandEditor:show() -> cp.apple.finalcutpro.cmd.CommandEditor`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -227,3 +330,4 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.cmd.CommandEditor` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

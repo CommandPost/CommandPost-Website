@@ -36,7 +36,10 @@ Timeline Contents Module.
 
 ### Functions
 
-| [clipsUI](#clipsUI)         |                                                                                     |
+
+### [clipsUI](#clipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:clipsUI(expandedGroups, filterFn) -> table of axuielements`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -45,7 +48,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -54,7 +61,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playheadClipsUI](#playheadClipsUI)         |                                                                                     |
+---
+
+### [playheadClipsUI](#playheadClipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:playheadClipsUI(expandedGroups, filterFn) -> table of axuielements`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -63,7 +74,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
 
-| [positionClipsUI](#positionClipsUI)         |                                                                                     |
+---
+
+### [positionClipsUI](#positionClipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:positionClipsUI(position, expandedGroups, filterFn) -> table of axuielements`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -72,7 +87,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is `true` any `AXGroup` items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
 
-| [skimmingPlayheadClipsUI](#skimmingPlayheadClipsUI)         |                                                                                     |
+---
+
+### [skimmingPlayheadClipsUI](#skimmingPlayheadClipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:skimmingPlayheadClipsUI(expandedGroups, filterFn) -> table of axuielements`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -81,9 +100,13 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
 
+---
 ### Constructors
 
-| [Contents](#Contents)         |                                                                                     |
+
+### [Contents](#Contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents(parent) -> Contents`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -92,59 +115,95 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>A new `Contents` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [children](#children)         |                                                                                     |
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.children <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current set of child elements in the Contents.                                                                     |
 
-| [isLoaded](#isLoaded)         |                                                                                     |
+---
+
+### [isLoaded](#isLoaded)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.isLoaded <cp.prop: booelan; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline has content loaded.                                                                     |
 
-| [playhead](#playhead)         |                                                                                     |
+---
+
+### [playhead](#playhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.playhead <cp.apple.finalcutpro.main.Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main Playhead.                                                                     |
 
-| [scrollArea](#scrollArea)         |                                                                                     |
+---
+
+### [scrollArea](#scrollArea)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.scrollArea <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ScrollArea` for the Contents element.                                                                     |
 
-| [scrollAreaUI](#scrollAreaUI)         |                                                                                     |
+---
+
+### [scrollAreaUI](#scrollAreaUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.scrollAreaUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The parent `ScrollArea` UI of the Timeline Contents area.                                                                     |
 
-| [selectedChildren](#selectedChildren)         |                                                                                     |
+---
+
+### [selectedChildren](#selectedChildren)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.selectedChildren <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current set of selected child elements in the Contents.                                                                     |
 
-| [skimmingPlayhead](#skimmingPlayhead)         |                                                                                     |
+---
+
+### [skimmingPlayhead](#skimmingPlayhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.skimmingPlayhead <cp.apple.finalcutpro.main.Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Playhead that tracks with the mouse pointer.                                                                     |
 
-| [viewFrame](#viewFrame)         |                                                                                     |
+---
+
+### [viewFrame](#viewFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.viewFrame <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current 'frame' of the internal timeline content,  or `nil` if not available.                                                                     |
 
+---
 ### Methods
 
-| [activePlayhead](#activePlayhead)         |                                                                                     |
+
+### [activePlayhead](#activePlayhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:activePlayhead() -> Playhead`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -153,7 +212,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The active `Playhead`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFocus](#doFocus)         |                                                                                     |
+---
+
+### [doFocus](#doFocus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:doFocus(show) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -162,7 +225,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -171,7 +238,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectClip](#doSelectClip)         |                                                                                     |
+---
+
+### [doSelectClip](#doSelectClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:doSelectClip(clipUI) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -180,7 +251,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that will select the clip or throw an error if there is an issue.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectClips](#doSelectClips)         |                                                                                     |
+---
+
+### [doSelectClips](#doSelectClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:doSelectClips(clipsUI) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -189,7 +264,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that will select the clips or throw an error if there is an issue.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectNone](#doSelectNone)         |                                                                                     |
+---
+
+### [doSelectNone](#doSelectNone)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:doSelectNone() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -198,7 +277,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectTopClip](#doSelectTopClip)         |                                                                                     |
+---
+
+### [doSelectTopClip](#doSelectTopClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:doSelectTopClip([position]) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -207,7 +290,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -216,7 +303,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rangeSelectionUI](#rangeSelectionUI)         |                                                                                     |
+---
+
+### [rangeSelectionUI](#rangeSelectionUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:rangeSelectionUI() -> axuielements`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -225,7 +316,11 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The 'Range Selection' UI or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedClipsUI](#selectedClipsUI)         |                                                                                     |
+---
+
+### [selectedClipsUI](#selectedClipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents:selectedClipsUI(expandedGroups, filterFn) -> table of axuielements`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -234,3 +329,4 @@ Timeline Contents Module.
 | **Returns**                                 | <ul><li>The table of selected axuielements that match the conditions</li></ul>          |
 | **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
 
+---

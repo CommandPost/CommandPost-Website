@@ -27,15 +27,22 @@ and if not, it will send an error.
 
 ### Constants
 
-| [OrThrow](#OrThrow)         |                                                                                     |
+
+### [OrThrow](#OrThrow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.OrThrow <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the message to throw if the requirement is not met.                                                                     |
 
+---
 ### Functions
 
-| [Require](#Require)         |                                                                                     |
+
+### [Require](#Require)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require(requirement) -> Require`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,9 +51,13 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `requirement` matches the requirement.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will require that all items in the requirement are not `nil` and completed.</li><li>This is most useful with `Given`, allowing retrieval and checking of values before continuing.</li><li>Example:</li><li></li><li>```lua</li><li>Given(</li><li>    Require(someObservable):Is(2):OrThrow("Must be 2")</li><li>):Then(function(someValue)</li><li>    -- do stuff with `someValue`</li><li>):Now()</li><li>```</li></ul>                |
 
+---
 ### Methods
 
-| [Are](#Are)         |                                                                                     |
+
+### [Are](#Are)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require:Are(value) -> Require.Are`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +66,11 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Are` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [AreNot](#AreNot)         |                                                                                     |
+---
+
+### [AreNot](#AreNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require:AreNot(value) -> Require.AreNot`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +79,11 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `AreNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [Is](#Is)         |                                                                                     |
+---
+
+### [Is](#Is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require:Is(value) -> Require.Is`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +92,11 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Is` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [IsNot](#IsNot)         |                                                                                     |
+---
+
+### [IsNot](#IsNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require:IsNot(value) -> Require.IsNot`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +105,11 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `IsNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [Matches](#Matches)         |                                                                                     |
+---
+
+### [Matches](#Matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require:Matches(predicate) -> Require.Matches`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +118,11 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Matches` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>Require(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul>                |
 
-| [OrThrow](#OrThrow)         |                                                                                     |
+---
+
+### [OrThrow](#OrThrow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require:OrThrow(message) -> Require.OrThrow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,3 +131,4 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `OrThrow` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

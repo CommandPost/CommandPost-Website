@@ -32,27 +32,42 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ### Deprecateds
 
-| [cliGetColors](#cliGetColors)         |                                                                                     |
+
+### [cliGetColors](#cliGetColors)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliGetColors() -> table`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | See [hs.ipc.cliColors](#cliColors).                                                                     |
 
-| [cliResetColors](#cliResetColors)         |                                                                                     |
+---
+
+### [cliResetColors](#cliResetColors)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliResetColors()`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | See [hs.ipc.cliColors](#cliColors).                                                                     |
 
-| [cliSetColors](#cliSetColors)         |                                                                                     |
+---
+
+### [cliSetColors](#cliSetColors)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliSetColors(table) -> table`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | See [hs.ipc.cliColors](#cliColors).                                                                     |
 
+---
 ### Functions
 
-| [cliColors](#cliColors)         |                                                                                     |
+
+### [cliColors](#cliColors)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliColors([colors]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +80,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>a table describing the colors used when colorizing output in the `hs` command line tool.</li></ul>          |
 | **Notes**                                   | <ul><li>For a brief intro into terminal colors, you can visit a web site like this one [http://jafrog.com/2013/11/23/colors-in-terminal.html](http://jafrog.com/2013/11/23/colors-in-terminal.html)</li><li>Lua doesn't support octal escapes in it's strings, so use `\x1b` or `\27` to indicate the `escape` character e.g. `ipc.cliSetColors{ initial = "", input = "\27[33m", output = "\27[38;5;11m" }`</li><li></li><li>Changes made with this function are saved with `hs.settings` with the following labels and will persist through a reload or restart of Hammerspoon: "ipc.cli.color_initial", "ipc.cli.color_input", "ipc.cli.color_output", and "ipc.cli.color_error"</li></ul>                |
 
-| [cliInstall](#cliInstall)         |                                                                                     |
+---
+
+### [cliInstall](#cliInstall)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliInstall([path][,silent]) -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +93,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>A boolean, true if the tool was successfully installed, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>If this function fails, it is likely that you have some old/broken symlinks. You can use `hs.ipc.cliUninstall()` to forcibly tidy them up</li><li>You may need to pre-create `/usr/local/bin` and `/usr/local/share/man/man1` in a terminal using sudo, and adjust permissions so your login user can write to them</li></ul>                |
 
-| [cliSaveHistory](#cliSaveHistory)         |                                                                                     |
+---
+
+### [cliSaveHistory](#cliSaveHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliSaveHistory([state]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +106,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the current, possibly changed, value</li></ul>          |
 | **Notes**                                   | <ul><li>If this is enabled, your history is saved in `hs.configDir .. ".cli.history"`, which is usually "~/.hammerspoon/.cli.history".</li><li>If you have multiple invocations of the command line tool running at the same time, only the history of the last one cleanly exited is saved; this is a limitation of the readline wrapper Apple has provided for libedit and at present no workaround is known.</li><li></li><li>Changes made with this function are saved with `hs.settings` with the label "ipc.cli.saveHistory" and will persist through a reload or restart of Hammerspoon.</li></ul>                |
 
-| [cliSaveHistorySize](#cliSaveHistorySize)         |                                                                                     |
+---
+
+### [cliSaveHistorySize](#cliSaveHistorySize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliSaveHistorySize([size]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +119,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the current, possibly changed, value</li></ul>          |
 | **Notes**                                   | <ul><li>When [hs.ipc.cliSaveHistory](#cliSaveHistory) is enabled, your history is saved in `hs.configDir .. ".cli.history"`, which is usually "~/.hammerspoon/.cli.history".</li><li>If you have multiple invocations of the command line tool running at the same time, only the history of the last one cleanly exited is saved; this is a limitation of the readline wrapper Apple has provided for libedit and at present no workaround is known.</li><li></li><li>Changes made with this function are saved with `hs.settings` with the label "ipc.cli.historyLimit" and will persist through a reload or restart of Hammerspoon.</li></ul>                |
 
-| [cliStatus](#cliStatus)         |                                                                                     |
+---
+
+### [cliStatus](#cliStatus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliStatus([path][,silent]) -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +132,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>A boolean, true if the `hs` command line tool is correctly installed, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [cliUninstall](#cliUninstall)         |                                                                                     |
+---
+
+### [cliUninstall](#cliUninstall)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.cliUninstall([path][,silent]) -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,9 +145,13 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>A boolean, true if the tool was successfully removed, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>This function used to be very conservative and refuse to remove symlinks it wasn't sure about, but now it will unconditionally remove whatever it finds at `path/bin/cmdpost` and `path/share/man/man1/cmdpost.1`. This is more likely to be useful in situations where this command is actually needed (please open an Issue on GitHub if you disagree!)</li></ul>                |
 
+---
 ### Constructors
 
-| [localPort](#localPort)         |                                                                                     |
+
+### [localPort](#localPort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.localPort(name, fn) -> ipcObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -121,7 +160,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the ipc object</li></ul>          |
 | **Notes**                                   | <ul><li>a remote port can send messages at any time to a local port; a local port can only respond to messages from a remote port</li></ul>                |
 
-| [remotePort](#remotePort)         |                                                                                     |
+---
+
+### [remotePort](#remotePort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc.remotePort(name) -> ipcObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -130,9 +173,13 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the ipc object</li></ul>          |
 | **Notes**                                   | <ul><li>a remote port can send messages at any time to a local port; a local port can only respond to messages from a remote port</li></ul>                |
 
+---
 ### Methods
 
-| [delete](#delete)         |                                                                                     |
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc:delete() -> None`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -141,7 +188,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isRemote](#isRemote)         |                                                                                     |
+---
+
+### [isRemote](#isRemote)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc:isRemote() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -150,7 +201,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>true if the object is a remote port, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>a remote port can send messages at any time to a local port; a local port can only respond to messages from a remote port</li></ul>                |
 
-| [isValid](#isValid)         |                                                                                     |
+---
+
+### [isValid](#isValid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc:isValid() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -159,7 +214,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>true if the object is a valid port, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc:name() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -168,7 +227,11 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the port name as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sendMessage](#sendMessage)         |                                                                                     |
+---
+
+### [sendMessage](#sendMessage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.ipc:sendMessage(data, msgID, [waitTimeout], [oneWay]) -> status, response`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -177,3 +240,4 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>status   - a boolean indicating whether or not the local port responded before the timeout (true) or if an error or timeout occurred waiting for the response (false)</li><li>response - the response from the local port, usually a string, but may be nil if there was no response returned.  If status is false, will contain an error message describing the error.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

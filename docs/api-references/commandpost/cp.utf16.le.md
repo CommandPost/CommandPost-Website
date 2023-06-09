@@ -15,7 +15,10 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 
 ### Functions
 
-| [char](#char)         |                                                                                     |
+
+### [char](#char)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.utf16.le.char(...) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -24,7 +27,11 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Returns**                                 | <ul><li>All the codepoints converted to UTF-16, concatonated into a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [codepoint](#codepoint)         |                                                                                     |
+---
+
+### [codepoint](#codepoint)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.utf16.le.codepoint(s [, i [, j]]) -> integer...`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -33,7 +40,11 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Returns**                                 | <ul><li>a list of codepoint integers for all characters in the matching range.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [codes](#codes)         |                                                                                     |
+---
+
+### [codes](#codes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.utf16.le.codes(s) -> iterator`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -42,7 +53,11 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Returns**                                 | <ul><li>An iterator</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>     for p, c in utf16.codes(s) do body end</li><li>```</li><li></li><li>will iterate over all characters in string `s`, with `p` being the position (in bytes) and `c` the code point of each character. It raises an error if it meets any invalid byte sequence.</li></ul>                |
 
-| [len](#len)         |                                                                                     |
+---
+
+### [len](#len)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.utf16.len (bigEndian, s [, i [, j]]) -> number | boolean, number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -51,7 +66,11 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Returns**                                 | <ul><li>the length, or `false` and the first invalid byte index.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [len](#len)         |                                                                                     |
+---
+
+### [len](#len)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.utf16.le.len (s [, i [, j]]) -> number | boolean, number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -60,7 +79,11 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Returns**                                 | <ul><li>the length, or `false` and the first invalid byte index.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [offset](#offset)         |                                                                                     |
+---
+
+### [offset](#offset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.utf16.le.offset (s, n [, i]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -69,3 +92,4 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Returns**                                 | <ul><li>The index</li></ul>          |
 | **Notes**                                   | <ul><li>As a special case, when `n` is 0 the function returns the start of the encoding of the character that contains the `i`-th byte of `s`.</li><li>This function assumes that `s` is a valid UTF-16 string</li></ul>                |
 
+---

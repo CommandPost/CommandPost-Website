@@ -22,7 +22,10 @@ The speech recognizer functions and methods provide a way to add commands which 
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener.new([title]) -> recognizerObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -31,9 +34,13 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>a speech recognizer object or nil, if the system was unable to create a new recognizer.</li></ul>          |
 | **Notes**                                   | <ul><li>You can change the title later with the `hs.speech.listener:title` method.</li></ul>                |
 
+---
 ### Methods
 
-| [blocksOtherRecognizers](#blocksOtherRecognizers)         |                                                                                     |
+
+### [blocksOtherRecognizers](#blocksOtherRecognizers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:blocksOtherRecognizers([flag]) -> recognizerObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,7 +49,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [commands](#commands)         |                                                                                     |
+---
+
+### [commands](#commands)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:commands([commandsArray]) -> recognizerObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -51,7 +62,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul><li>The list of commands will appear in the Dictation Commands window, if it is visible, under the title of this speech recognizer.  The text of each command is a possible value which may be sent as the second argument to a callback function for this speech recognizer, if one is defined.</li><li>Setting this to an empty list does not disable the speech recognizer, but it does make it of limited use, other than to provide a title in the Dictation Commands window.  To disable the recognizer, use the `hs.speech.listener:stop` or `hs.speech.listener:delete` methods.</li></ul>                |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:delete() -> recognizerObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +75,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>this disables the speech recognizer and removes it from the list in the Dictation Commands window.  The object is effectively destroyed, so you will need to create a new one with `hs.speech.listener.new` if you want to bring it back.</li><li>if this was the only speech recognizer currently available, the Dictation Commands window and feedback display will be removed from the users display.</li><li>this method is automatically called during a reload or restart of Hammerspoon.</li></ul>                |
 
-| [foregroundOnly](#foregroundOnly)         |                                                                                     |
+---
+
+### [foregroundOnly](#foregroundOnly)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:foregroundOnly([flag]) -> recognizerObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +88,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isListening](#isListening)         |                                                                                     |
+---
+
+### [isListening](#isListening)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:isListening() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +101,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>true if the listener is listening (has been started) or false if it is not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setCallback](#setCallback)         |                                                                                     |
+---
+
+### [setCallback](#setCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:setCallback(fn) -> recognizerObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +114,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>the recognizer object</li></ul>          |
 | **Notes**                                   | <ul><li>Possible string values for the command spoken are set with the `hs.speech.listener:commands` method.</li><li>Removing the callback does not disable the speech recognizer, but it does make it of limited use, other than to provide a list in the Dictation Commands window.  To disable the recognizer, use the `hs.speech.listener:stop` or `hs.speech.listener:delete` methods.</li></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:start() -> recognizerObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +127,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:stop() -> recognizerObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,7 +140,11 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul><li>this only disables the speech recognizer.  To completely remove it from the list in the Dictation Commands window, use `hs.speech.listener:delete`.</li></ul>                |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.speech.listener:title([title]) -> recognizerObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,3 +153,4 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

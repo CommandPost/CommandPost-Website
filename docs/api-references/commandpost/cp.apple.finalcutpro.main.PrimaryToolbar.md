@@ -21,7 +21,10 @@ Timeline Toolbar.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -30,9 +33,13 @@ Timeline Toolbar.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [PrimaryToolbar](#PrimaryToolbar)         |                                                                                     |
+
+### [PrimaryToolbar](#PrimaryToolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar(parent) -> PrimaryToolbar`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -41,53 +48,86 @@ Timeline Toolbar.
 | **Returns**                                 | <ul><li>A new `PrimaryToolbar` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [backgroundTasksWindow](#backgroundTasksWindow)         |                                                                                     |
+
+### [backgroundTasksWindow](#backgroundTasksWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.backgroundTasksWindow <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` that will open the `BackgroundTasksWindow` dialog                                                                     |
 
-| [browserShowing](#browserShowing)         |                                                                                     |
+---
+
+### [browserShowing](#browserShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.browserShowing <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the `Browser` is showing                                                                     |
 
-| [extensions](#extensions)         |                                                                                     |
+---
+
+### [extensions](#extensions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.extensions <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that will open the "Available Extensions" dialog, or trigger the only extension, if only one is installed.                                                                     |
 
-| [inspectorShowing](#inspectorShowing)         |                                                                                     |
+---
+
+### [inspectorShowing](#inspectorShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.inspectorShowing <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the Inspector is showing                                                                     |
 
-| [keywordEditor](#keywordEditor)         |                                                                                     |
+---
+
+### [keywordEditor](#keywordEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.keywordEditor <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` that will open the `KeywordEditor` dialog when checked.                                                                     |
 
-| [mediaImport](#mediaImport)         |                                                                                     |
+---
+
+### [mediaImport](#mediaImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.mediaImport <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that will open the `MediaImport` dialog                                                                     |
 
-| [shareButton](#shareButton)         |                                                                                     |
+---
+
+### [shareButton](#shareButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.shareButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Share Button.                                                                     |
 
-| [timelineShowing](#timelineShowing)         |                                                                                     |
+---
+
+### [timelineShowing](#timelineShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.timelineShowing <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the `Timeline` is showing                                                                     |
 
+---

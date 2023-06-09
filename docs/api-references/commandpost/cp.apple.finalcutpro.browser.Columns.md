@@ -15,7 +15,10 @@ Final Cut Pro Browser List View Columns
 
 ### Constructors
 
-| [Columns](#Columns)         |                                                                                     |
+
+### [Columns](#Columns)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.Columns(parent) -> Columns`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -24,17 +27,25 @@ Final Cut Pro Browser List View Columns
 | **Returns**                                 | <ul><li>The new `Columns` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [menu](#menu)         |                                                                                     |
+
+### [menu](#menu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.Columns.menu <cp.ui.Menu>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Columns menu object.                                                                     |
 
+---
 ### Methods
 
-| [isMenuShowing](#isMenuShowing)         |                                                                                     |
+
+### [isMenuShowing](#isMenuShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.Columns:isMenuShowing() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -43,7 +54,11 @@ Final Cut Pro Browser List View Columns
 | **Returns**                                 | <ul><li>`true` if the columns menu popup is showing, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser.Columns:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -52,3 +67,4 @@ Final Cut Pro Browser List View Columns
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -13,7 +13,10 @@ A `Statement.Modifier` that defines what value to set a `cp.prop` to.
 
 ### Methods
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.SetProp.To:Then(...) -> SetProp.To.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -22,3 +25,4 @@ A `Statement.Modifier` that defines what value to set a `cp.prop` to.
 | **Returns**                                 | <ul><li>A new [SetProp.To.Then](cp.rx.go.SetProp.To.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -68,21 +68,32 @@ a + b | c ~= a + (b | c)
 
 ### Constants
 
-| [everything](#everything)         |                                                                                     |
+
+### [everything](#everything)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.everything <cp.collect.Set>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Set` which contains the whole universe.                                                                     |
 
-| [nothing](#nothing)         |                                                                                     |
+---
+
+### [nothing](#nothing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.nothing <cp.collect.Set>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An empty `Set`.                                                                     |
 
+---
 ### Functions
 
-| [complement](#complement)         |                                                                                     |
+
+### [complement](#complement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.complement(set) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -91,7 +102,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [difference](#difference)         |                                                                                     |
+---
+
+### [difference](#difference)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.difference(left, right) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -100,7 +115,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [has](#has)         |                                                                                     |
+---
+
+### [has](#has)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.has(set, value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -109,7 +128,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>`true` if the value is contained in the `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [intersection](#intersection)         |                                                                                     |
+---
+
+### [intersection](#intersection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.intersection(left, right) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -118,7 +141,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>A new `Set` which contains an intersection `left` and `right`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [is](#is)         |                                                                                     |
+---
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -127,7 +154,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>`true` if it is a `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isComplement](#isComplement)         |                                                                                     |
+---
+
+### [isComplement](#isComplement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.isComplement(set) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -136,7 +167,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>`true` if the set is a complement.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [size](#size)         |                                                                                     |
+---
+
+### [size](#size)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.size(set) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -145,7 +180,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>the number of values in the set, or the number of values removed from a complement set.</li></ul>          |
 | **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul>                |
 
-| [symetricDifference](#symetricDifference)         |                                                                                     |
+---
+
+### [symetricDifference](#symetricDifference)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.symetricDifference(left, right) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -154,7 +193,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [union](#union)         |                                                                                     |
+---
+
+### [union](#union)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.union(left, right) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -163,9 +206,13 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>A new `Set` which contains a union of the `left` and `right` `Set`s.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [clone](#clone)         |                                                                                     |
+
+### [clone](#clone)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.clone(set) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -174,7 +221,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromList](#fromList)         |                                                                                     |
+---
+
+### [fromList](#fromList)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.fromList(list) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -183,7 +234,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromMap](#fromMap)         |                                                                                     |
+---
+
+### [fromMap](#fromMap)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.fromMap(map) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -192,7 +247,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [of](#of)         |                                                                                     |
+---
+
+### [of](#of)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set.of(...) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -201,9 +260,13 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [complement](#complement)         |                                                                                     |
+
+### [complement](#complement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:complement() -> cp.collect.Set`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -212,7 +275,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `-` or `~` prefix operators. E.g. `-a` or `~a`.</li></ul>                |
 
-| [difference](#difference)         |                                                                                     |
+---
+
+### [difference](#difference)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:difference(right) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -221,7 +288,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `-` operator. E.g. `a - b`.</li></ul>                |
 
-| [has](#has)         |                                                                                     |
+---
+
+### [has](#has)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:has(value) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -230,7 +301,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>`true` if the `Set` contains the `value`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also check for specific values via `mySet['key']` or `mySet.key`.</li></ul>                |
 
-| [intersection](#intersection)         |                                                                                     |
+---
+
+### [intersection](#intersection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:intersection(...) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -239,7 +314,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `&` operator. E.g. `a & b`.</li></ul>                |
 
-| [isComplement](#isComplement)         |                                                                                     |
+---
+
+### [isComplement](#isComplement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:isComplement() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -248,7 +327,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>`true` if the set is a complement.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [size](#size)         |                                                                                     |
+---
+
+### [size](#size)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:size() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -257,7 +340,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>the number of values in the set, or the number of values removed from a complement set.</li></ul>          |
 | **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul>                |
 
-| [symetricDifference](#symetricDifference)         |                                                                                     |
+---
+
+### [symetricDifference](#symetricDifference)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:symetricDifference(right) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -266,7 +353,11 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `~` operator. E.g. `a ~ b`.</li></ul>                |
 
-| [union](#union)         |                                                                                     |
+---
+
+### [union](#union)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Set:union(...) -> cp.collect.Set`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -275,3 +366,4 @@ a + b | c ~= a + (b | c)
 | **Returns**                                 | <ul><li>The new `Set` which is a union.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `\|` or `+` operator. E.g. `a \| b` or `a + b`.</li></ul>                |
 
+---

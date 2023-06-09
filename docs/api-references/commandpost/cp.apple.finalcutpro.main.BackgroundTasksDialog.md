@@ -15,7 +15,10 @@ Represents the Background Tasks warning dialog.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.BackgroundTasksDialog.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -24,9 +27,13 @@ Represents the Background Tasks warning dialog.
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `BackgroundTasksDialog``.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [BackgroundTasksDialog](#BackgroundTasksDialog)         |                                                                                     |
+
+### [BackgroundTasksDialog](#BackgroundTasksDialog)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.BackgroundTasksDialog(cpApp)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -35,17 +42,26 @@ Represents the Background Tasks warning dialog.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.BackgroundTasksDialog.cancel <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Cancel button.                                                                     |
 
-| [continue](#continue)         |                                                                                     |
+---
+
+### [continue](#continue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.BackgroundTasksDialog.continue <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Continue button.                                                                     |
 
+---

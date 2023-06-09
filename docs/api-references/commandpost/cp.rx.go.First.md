@@ -12,7 +12,10 @@ A [Statement](cp.rx.go.Statement.md) that will complete after the first result r
 
 ### Constructors
 
-| [First](#First)         |                                                                                     |
+
+### [First](#First)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.First(resolvable) -> First`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -21,3 +24,4 @@ A [Statement](cp.rx.go.Statement.md) that will complete after the first result r
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>First(someObservable)</li><li>```</li></ul>                |
 
+---

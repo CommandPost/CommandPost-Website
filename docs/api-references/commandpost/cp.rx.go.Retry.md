@@ -19,21 +19,32 @@ It can be limited to a set number of retries, and have a delay added between ret
 
 ### Constants
 
-| [DelayedBy](#DelayedBy)         |                                                                                     |
+
+### [DelayedBy](#DelayedBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Retry.DelayedBy <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the delay between retries.                                                                     |
 
-| [UpTo](#UpTo)         |                                                                                     |
+---
+
+### [UpTo](#UpTo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Retry.UpTo <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the number of times to retry.                                                                     |
 
+---
 ### Constructors
 
-| [Retry](#Retry)         |                                                                                     |
+
+### [Retry](#Retry)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Retry(resolvable) -> Retry`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -42,9 +53,13 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>Retry(someObservable)</li><li>```</li></ul>                |
 
+---
 ### Methods
 
-| [DelayedBy](#DelayedBy)         |                                                                                     |
+
+### [DelayedBy](#DelayedBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Retry:DelayedBy(milliseconds[, scheduler]) -> Retry.DelayedBy`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -53,7 +68,11 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Returns**                                 | <ul><li>The `DelayedBy` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [UpTo](#UpTo)         |                                                                                     |
+---
+
+### [UpTo](#UpTo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Retry:UpTo(count) -> Retry.UpTo`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -62,3 +81,4 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Returns**                                 | <ul><li>The `UpTo` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

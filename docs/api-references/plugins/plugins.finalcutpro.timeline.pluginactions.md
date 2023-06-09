@@ -10,7 +10,10 @@ Adds Final Cut Pro Plugins (i.e. Effects, Generators, Titles and Transitions) to
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.pluginactions.init(actionmanager, generators, titles, transitions, audioeffects, videoeffects) -> module`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Adds Final Cut Pro Plugins (i.e. Effects, Generators, Titles and Transitions) to
 | **Returns**                                 | <ul><li>The module</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

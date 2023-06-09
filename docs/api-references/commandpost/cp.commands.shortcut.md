@@ -25,7 +25,10 @@ Shortcut Commands
 
 ### Functions
 
-| [build](#build)         |                                                                                     |
+
+### [build](#build)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut.build(receiverFn) -> cp.commands.shortcut.builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +37,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`shortcut.builder` which can be used to create the shortcut.</li></ul>          |
 | **Notes**                                   | <ul><li>If provided, the receiver function will be called when the shortcut has been configured, and passed the new</li><li>  shortcut. The result of that function will be returned to the next stage.</li><li>  If no `receiverFn` is provided, the shortcut will be returned directly.</li><li></li><li>  The builder is additive. You can create a complex keystroke combo by</li><li>  chaining the shortcut names together.</li><li></li><li>  For example:</li><li></li><li>    `local myShortcut = shortcut.build():cmd():alt("x")`</li><li></li><li>  Alternately, provide a `receiver` function and it will get passed the shortcut instead:</li><li></li><li>    `shortcut.build(function(shortcut) self._myShortcut = shortcut end):cmd():alt("x")`</li></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut.new(modifiers, keyCode) -> shortcut`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,17 +50,25 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>shortcut - The shortcut that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [isEnabled](#isEnabled)         |                                                                                     |
+
+### [isEnabled](#isEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:isEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the shortcut is enabled.                                                                     |
 
+---
 ### Methods
 
-| [bind](#bind)         |                                                                                     |
+
+### [bind](#bind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:bind(pressedFn, releasedFn, repeatedFn) -> shortcut`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -62,7 +77,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul><li>If the shortcut is enabled, the hotkey will also be enabled at this point.</li></ul>                |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:delete() -> shortcut`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -71,7 +90,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disable](#disable)         |                                                                                     |
+---
+
+### [disable](#disable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:disable() -> shortcut`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -80,7 +103,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enable](#enable)         |                                                                                     |
+---
+
+### [enable](#enable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:enable() -> shortcut`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -89,7 +116,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getKeyCode](#getKeyCode)         |                                                                                     |
+---
+
+### [getKeyCode](#getKeyCode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:getKeyCode() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -98,7 +129,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`string` containing the keycode of the shortcut.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getModifiers](#getModifiers)         |                                                                                     |
+---
+
+### [getModifiers](#getModifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:getModifiers() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -107,7 +142,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`table` containing the modifiers of the shortcut.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [trigger](#trigger)         |                                                                                     |
+---
+
+### [trigger](#trigger)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:trigger([app]) -> shortcut`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -116,7 +155,11 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unbind](#unbind)         |                                                                                     |
+---
+
+### [unbind](#unbind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.shortcut:unbind() -> shortcut`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -125,3 +168,4 @@ Shortcut Commands
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

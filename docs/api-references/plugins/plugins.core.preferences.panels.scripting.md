@@ -10,9 +10,13 @@ Scripting Preferences Panel
 
 ### Fields
 
-| [snippets](#snippets)         |                                                                                     |
+
+### [snippets](#snippets)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.panels.scripting.snippets <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
 
+---

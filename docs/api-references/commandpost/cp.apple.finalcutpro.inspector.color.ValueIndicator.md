@@ -19,7 +19,10 @@ ValueIndicator Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,9 +31,13 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ValueIndicator](#ValueIndicator)         |                                                                                     |
+
+### [ValueIndicator](#ValueIndicator)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator(parent, uiFinder, minValue, maxValue, toAXValueFn, fromAXValueFn) -> ValueIndicator`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -39,9 +46,13 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>New `ValueIndicator` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [decrement](#decrement)         |                                                                                     |
+
+### [decrement](#decrement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator:decrement() -> cp.apple.finalcutpro.inspector.color.ValueIndicator`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -50,7 +61,11 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ValueIndicator` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [increment](#increment)         |                                                                                     |
+---
+
+### [increment](#increment)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator:increment() -> cp.apple.finalcutpro.inspector.color.ValueIndicator`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -59,7 +74,11 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ValueIndicator` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator:isShowing() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -68,7 +87,11 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>`true` if showing, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -77,7 +100,11 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +113,11 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>A table containing the layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftValue](#shiftValue)         |                                                                                     |
+---
+
+### [shiftValue](#shiftValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ValueIndicator:shiftValue(value) -> cp.apple.finalcutpro.inspector.color.ValueIndicator`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,3 +126,4 @@ ValueIndicator Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ValueIndicator` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

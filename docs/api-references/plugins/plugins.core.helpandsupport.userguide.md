@@ -10,7 +10,10 @@ User Guide Menu Item.
 
 ### Functions
 
-| [show](#show)         |                                                                                     |
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.helpandsupport.userguide.show() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ User Guide Menu Item.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

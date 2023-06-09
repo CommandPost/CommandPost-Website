@@ -36,23 +36,34 @@ Color Board Module.
 
 ### Constants
 
-| [aspect](#aspect)         |                                                                                     |
+
+### [aspect](#aspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.aspect -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing tables of all the aspect panel settings                                                                     |
 
+---
 ### Variables
 
-| [currentAspect](#currentAspect)         |                                                                                     |
+
+### [currentAspect](#currentAspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.currentAspect -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The current aspect as a string.                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,9 +72,13 @@ Color Board Module.
 | **Returns**                                 | <ul><li>`true` if the `element` is a Color Board otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ColorBoard](#ColorBoard)         |                                                                                     |
+
+### [ColorBoard](#ColorBoard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard(parent) -> ColorBoard object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -72,53 +87,85 @@ Color Board Module.
 | **Returns**                                 | <ul><li>A ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [aspectGroup](#aspectGroup)         |                                                                                     |
+
+### [aspectGroup](#aspectGroup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.aspectGroup <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` for the 'aspect' currently being controlled                                                                      |
 
-| [color](#color)         |                                                                                     |
+---
+
+### [color](#color)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.color <ColorBoardAspect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `color` aspect of the color board.                                                                     |
 
-| [contentUI](#contentUI)         |                                                                                     |
+---
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object for the Color Board's content.                                                                     |
 
-| [exposure](#exposure)         |                                                                                     |
+---
+
+### [exposure](#exposure)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.exposure <ColorBoardAspect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `exposure` aspect of the color board.                                                                     |
 
-| [isActive](#isActive)         |                                                                                     |
+---
+
+### [isActive](#isActive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:isActive <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Color Board is active                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.isShowing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Color Board is visible.                                                                     |
 
-| [saturation](#saturation)         |                                                                                     |
+---
+
+### [saturation](#saturation)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.saturation <ColorBoardAspect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `saturation` aspect of the color board.                                                                     |
 
+---
 ### Methods
 
-| [childUI](#childUI)         |                                                                                     |
+
+### [childUI](#childUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:childUI(id) -> hs.axuielement object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -127,7 +174,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>An `hs.axuielement` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [current](#current)         |                                                                                     |
+---
+
+### [current](#current)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:current() -> ColorBoardAspect`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -136,7 +187,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The currently active `ColorBoardAspect`, or the `color` aspect if none is showing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -145,7 +200,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will send a single `true` if successful, otherwise `false`, or an error being sent.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doNextAspect](#doNextAspect)         |                                                                                     |
+---
+
+### [doNextAspect](#doNextAspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:doNextAspect() -> cp.rx.go.Statement<boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -154,7 +213,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doResetCurrent](#doResetCurrent)         |                                                                                     |
+---
+
+### [doResetCurrent](#doResetCurrent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:doResetCurrent([range]) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -163,7 +226,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving with `true` if completed or an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectAspect](#doSelectAspect)         |                                                                                     |
+---
+
+### [doSelectAspect](#doSelectAspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:doSelectAspect(index) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -172,7 +239,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or throw an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -181,7 +252,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will send a single `true` if successful, otherwise `false`, or an error being sent.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:hide() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -190,7 +265,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [nextAspect](#nextAspect)         |                                                                                     |
+---
+
+### [nextAspect](#nextAspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:nextAspect() -> ColorBoard object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -199,7 +278,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:reset() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -208,7 +291,11 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:show() -> ColorBoard object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -217,3 +304,4 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -17,7 +17,10 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 
 ### Functions
 
-| [appFromName](#appFromName)         |                                                                                     |
+
+### [appFromName](#appFromName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.appfinder.appFromName(name) -> app or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,7 +29,11 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.application object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [appFromWindowTitle](#appFromWindowTitle)         |                                                                                     |
+---
+
+### [appFromWindowTitle](#appFromWindowTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.appfinder.appFromWindowTitle(title) -> app or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +42,11 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.application object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [appFromWindowTitlePattern](#appFromWindowTitlePattern)         |                                                                                     |
+---
+
+### [appFromWindowTitlePattern](#appFromWindowTitlePattern)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.appfinder.appFromWindowTitlePattern(pattern) -> app or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +55,11 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.application object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul><li>For more about Lua patterns, see http://lua-users.org/wiki/PatternsTutorial and http://www.lua.org/manual/5.2/manual.html#6.4.1</li></ul>                |
 
-| [windowFromWindowTitle](#windowFromWindowTitle)         |                                                                                     |
+---
+
+### [windowFromWindowTitle](#windowFromWindowTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.appfinder.windowFromWindowTitle(title) -> win or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,7 +68,11 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.window object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [windowFromWindowTitlePattern](#windowFromWindowTitlePattern)         |                                                                                     |
+---
+
+### [windowFromWindowTitlePattern](#windowFromWindowTitlePattern)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.appfinder.windowFromWindowTitlePattern(pattern) -> app or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -62,3 +81,4 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.window object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul><li>For more about Lua patterns, see http://lua-users.org/wiki/PatternsTutorial and http://www.lua.org/manual/5.2/manual.html#6.4.1</li></ul>                |
 
+---

@@ -27,27 +27,42 @@ Elgato Stream Deck Manager Plugin.
 
 ### Variables
 
-| [defaultLayout](#defaultLayout)         |                                                                                     |
+
+### [defaultLayout](#defaultLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.defaultLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Stream Deck Layout                                                                     |
 
-| [imageCache](#imageCache)         |                                                                                     |
+---
+
+### [imageCache](#imageCache)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.imageCache() -> none`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A cache of images used on the Stream Deck.                                                                     |
 
-| [repeatTimers](#repeatTimers)         |                                                                                     |
+---
+
+### [repeatTimers](#repeatTimers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.repeatTimers -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing `hs.timer` objects.                                                                     |
 
+---
 ### Functions
 
-| [buttonCallback](#buttonCallback)         |                                                                                     |
+
+### [buttonCallback](#buttonCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.buttonCallback(object, buttonID, pressed) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +71,11 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [discoveryCallback](#discoveryCallback)         |                                                                                     |
+---
+
+### [discoveryCallback](#discoveryCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.discoveryCallback(connected, object) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +84,11 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [encoderCallback](#encoderCallback)         |                                                                                     |
+---
+
+### [encoderCallback](#encoderCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.encoderCallback(object, buttonID, pressed, turningLeft, turningRight) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +97,11 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDeviceType](#getDeviceType)         |                                                                                     |
+---
+
+### [getDeviceType](#getDeviceType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.getDeviceType(object) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +110,11 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>"Mini", "Original" or "XL"</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getSnippetImage](#getSnippetImage)         |                                                                                     |
+---
+
+### [getSnippetImage](#getSnippetImage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.getSnippetImage(device, buttonData, isEncoder) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +123,11 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>An encoded image as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [screenCallback](#screenCallback)         |                                                                                     |
+---
+
+### [screenCallback](#screenCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.screenCallback(object, eventType, startX, startY, endX, endY) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +136,11 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.start() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,7 +149,11 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.update() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -119,35 +162,56 @@ Elgato Stream Deck Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [activeBanks](#activeBanks)         |                                                                                     |
+
+### [activeBanks](#activeBanks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.activeBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
 
-| [automaticallySwitchApplications](#automaticallySwitchApplications)         |                                                                                     |
+---
+
+### [automaticallySwitchApplications](#automaticallySwitchApplications)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.automaticallySwitchApplications <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Stream Deck Support.                                                                     |
 
-| [lastApplication](#lastApplication)         |                                                                                     |
+---
+
+### [lastApplication](#lastApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
 
-| [lastBundleID](#lastBundleID)         |                                                                                     |
+---
+
+### [lastBundleID](#lastBundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.streamdeck.manager.lastBundleID <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last Bundle ID.                                                                     |
 
+---

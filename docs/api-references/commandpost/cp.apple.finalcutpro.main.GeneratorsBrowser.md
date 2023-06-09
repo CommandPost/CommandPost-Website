@@ -40,23 +40,34 @@ Generators Browser Module.
 
 ### Constants
 
-| [TITLE](#TITLE)         |                                                                                     |
+
+### [TITLE](#TITLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser.TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Titles & Generators Title.                                                                     |
 
+---
 ### Variables
 
-| [isShowing](#isShowing)         |                                                                                     |
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser.isShowing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the Generators Browser showing?                                                                     |
 
+---
 ### Constructors
 
-| [GeneratorsBrowser](#GeneratorsBrowser)         |                                                                                     |
+
+### [GeneratorsBrowser](#GeneratorsBrowser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser(parent) -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -65,41 +76,65 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>A new `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contents](#contents)         |                                                                                     |
+
+### [contents](#contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser.contents <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Generators Browser Contents.                                                                     |
 
-| [group](#group)         |                                                                                     |
+---
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser.group <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group.                                                                     |
 
-| [mainGroupUI](#mainGroupUI)         |                                                                                     |
+---
+
+### [mainGroupUI](#mainGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser.mainGroupUI <cp.prop: axuielementObject>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Main Group UI.                                                                     |
 
-| [search](#search)         |                                                                                     |
+---
+
+### [search](#search)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser.search <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the Search TextField object.                                                                     |
 
-| [sidebar](#sidebar)         |                                                                                     |
+---
+
+### [sidebar](#sidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser.sidebar <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The sidebar object.                                                                     |
 
+---
 ### Methods
 
-| [applyItem](#applyItem)         |                                                                                     |
+
+### [applyItem](#applyItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:applyItem(itemUI) -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -108,7 +143,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [currentItemsUI](#currentItemsUI)         |                                                                                     |
+---
+
+### [currentItemsUI](#currentItemsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:currentItemsUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -117,7 +156,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentTitles](#getCurrentTitles)         |                                                                                     |
+---
+
+### [getCurrentTitles](#getCurrentTitles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:getCurrentTitles() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -126,7 +169,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getGeneratorsRowLabel](#getGeneratorsRowLabel)         |                                                                                     |
+---
+
+### [getGeneratorsRowLabel](#getGeneratorsRowLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:getGeneratorsRowLabel() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -135,7 +182,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The Generators Row Label as string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getTitlesRowLabel](#getTitlesRowLabel)         |                                                                                     |
+---
+
+### [getTitlesRowLabel](#getTitlesRowLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:getTitlesRowLabel() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -144,7 +195,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The 'Titles' label.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:hide() -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -153,7 +208,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [itemIsSelected](#itemIsSelected)         |                                                                                     |
+---
+
+### [itemIsSelected](#itemIsSelected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:itemIsSelected(itemUI) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -162,7 +221,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>`true` if the item is selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -171,7 +234,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -180,7 +247,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>A table containing the current Effects Browser Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedItemsUI](#selectedItemsUI)         |                                                                                     |
+---
+
+### [selectedItemsUI](#selectedItemsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:selectedItemsUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -189,7 +260,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:show() -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -198,7 +273,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showAllGenerators](#showAllGenerators)         |                                                                                     |
+---
+
+### [showAllGenerators](#showAllGenerators)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:showAllGenerators() -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -207,7 +286,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showAllTitles](#showAllTitles)         |                                                                                     |
+---
+
+### [showAllTitles](#showAllTitles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:showAllTitles() -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -216,7 +299,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showGeneratorsCategory](#showGeneratorsCategory)         |                                                                                     |
+---
+
+### [showGeneratorsCategory](#showGeneratorsCategory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:showGeneratorsCategory(name) -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -225,7 +312,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showInstalledGenerators](#showInstalledGenerators)         |                                                                                     |
+---
+
+### [showInstalledGenerators](#showInstalledGenerators)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:showInstalledGenerators() -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -234,7 +325,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showInstalledTitles](#showInstalledTitles)         |                                                                                     |
+---
+
+### [showInstalledTitles](#showInstalledTitles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:showInstalledTitles() -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -243,7 +338,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showSidebar](#showSidebar)         |                                                                                     |
+---
+
+### [showSidebar](#showSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:showSidebar() -> GeneratorsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -252,7 +351,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showTitlesCategory](#showTitlesCategory)         |                                                                                     |
+---
+
+### [showTitlesCategory](#showTitlesCategory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:showTitlesCategory(name) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -261,7 +364,11 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The Generators Browser.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [topCategoriesUI](#topCategoriesUI)         |                                                                                     |
+---
+
+### [topCategoriesUI](#topCategoriesUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.GeneratorsBrowser:topCategoriesUI() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -270,3 +377,4 @@ Generators Browser Module.
 | **Returns**                                 | <ul><li>The array of category rows.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

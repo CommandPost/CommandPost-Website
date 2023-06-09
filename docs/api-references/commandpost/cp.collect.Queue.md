@@ -48,7 +48,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ### Functions
 
-| [contains](#contains)         |                                                                                     |
+
+### [contains](#contains)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.contains(queue, item) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,7 +60,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>`true` if the item is in the queue.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [len](#len)         |                                                                                     |
+---
+
+### [len](#len)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.len(queue) -> anything`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -66,7 +73,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The total number of items.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [peekLeft](#peekLeft)         |                                                                                     |
+---
+
+### [peekLeft](#peekLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.peekLeft(queue) -> anything`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,7 +86,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [peekRight](#peekRight)         |                                                                                     |
+---
+
+### [peekRight](#peekRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.peekRight(queue) -> anything`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -84,7 +99,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [popLeft](#popLeft)         |                                                                                     |
+---
+
+### [popLeft](#popLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.popLeft(queue) -> anything`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -93,7 +112,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [popRight](#popRight)         |                                                                                     |
+---
+
+### [popRight](#popRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.popRight(queue) -> anything`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -102,7 +125,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pushLeft](#pushLeft)         |                                                                                     |
+---
+
+### [pushLeft](#pushLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.pushLeft(queue, ...) -> cp.collect.Queue`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -111,7 +138,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul>                |
 
-| [pushRight](#pushRight)         |                                                                                     |
+---
+
+### [pushRight](#pushRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.pushRight(queue, ...) -> cp.collect.Queue`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -120,7 +151,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul>                |
 
-| [removeItem](#removeItem)         |                                                                                     |
+---
+
+### [removeItem](#removeItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.removeItem(queue, item) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -129,7 +164,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The index of the item, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul>                |
 
-| [removeItem](#removeItem)         |                                                                                     |
+---
+
+### [removeItem](#removeItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:removeItem(item) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -138,9 +177,13 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The index of the item, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue.new([...]) -> cp.collect.Queue`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -149,9 +192,13 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>the new `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also create a new queue by calling `Queue(..)` directly.</li></ul>                |
 
+---
 ### Methods
 
-| [contains](#contains)         |                                                                                     |
+
+### [contains](#contains)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:contains(item) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +207,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>`true` if the item is in the queue.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [len](#len)         |                                                                                     |
+---
+
+### [len](#len)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:len(queue) -> anything`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +220,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The total number of items.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [peekLeft](#peekLeft)         |                                                                                     |
+---
+
+### [peekLeft](#peekLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:peekLeft() -> anything`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +233,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [peekRight](#peekRight)         |                                                                                     |
+---
+
+### [peekRight](#peekRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:peekRight() -> anything`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +246,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [popLeft](#popLeft)         |                                                                                     |
+---
+
+### [popLeft](#popLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:popLeft() -> anything`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,7 +259,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [popRight](#popRight)         |                                                                                     |
+---
+
+### [popRight](#popRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:popRight() -> anything`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -205,7 +272,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pushLeft](#pushLeft)         |                                                                                     |
+---
+
+### [pushLeft](#pushLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:pushLeft(...) -> cp.collect.Queue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -214,7 +285,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul>                |
 
-| [pushRight](#pushRight)         |                                                                                     |
+---
+
+### [pushRight](#pushRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.Queue:pushRight(...) -> cp.collect.Queue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -223,3 +298,4 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul>                |
 
+---

@@ -14,7 +14,10 @@ NOTE: This extension determines the number of a Space, using OS X APIs that have
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spaces.watcher.new(handler) -> watcher`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -23,9 +26,13 @@ NOTE: This extension determines the number of a Space, using OS X APIs that have
 | **Returns**                                 | <ul><li>An `hs.spaces.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spaces.watcher:start()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -34,7 +41,11 @@ NOTE: This extension determines the number of a Space, using OS X APIs that have
 | **Returns**                                 | <ul><li>The watcher object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spaces.watcher:stop()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -43,3 +54,4 @@ NOTE: This extension determines the number of a Space, using OS X APIs that have
 | **Returns**                                 | <ul><li>The watcher object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

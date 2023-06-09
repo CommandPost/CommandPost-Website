@@ -43,7 +43,10 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ### Functions
 
-| [cellTextValue](#cellTextValue)         |                                                                                     |
+
+### [cellTextValue](#cellTextValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.cellTextValue(cell) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +55,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>The combined text value of the cell.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [cellTextValueIs](#cellTextValueIs)         |                                                                                     |
+---
+
+### [cellTextValueIs](#cellTextValueIs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.cellTextValueIs(cell, value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +68,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if the cell text value equals the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [discloseRow](#discloseRow)         |                                                                                     |
+---
+
+### [discloseRow](#discloseRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.discloseRow(row) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +81,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if the row is disclosable and is now expanded.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findRow](#findRow)         |                                                                                     |
+---
+
+### [findRow](#findRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.findRow(rows, names) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,7 +94,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>The row that was visited, or `nil` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [is](#is)         |                                                                                     |
+---
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -88,7 +107,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if the thing is a `Table` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -97,7 +120,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if it matches.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matchesContent](#matchesContent)         |                                                                                     |
+---
+
+### [matchesContent](#matchesContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.matchesContent(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -106,7 +133,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if the element is a valid content element.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [visitRow](#visitRow)         |                                                                                     |
+---
+
+### [visitRow](#visitRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.visitRow(rows, names) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -115,9 +146,13 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>The row that was visited, or `nil` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [OldTable](#OldTable)         |                                                                                     |
+
+### [OldTable](#OldTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable(parent, uiFinder) -> self`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -126,35 +161,55 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>A new `Table` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contentUI](#contentUI)         |                                                                                     |
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` that contains the actual rows.                                                                     |
 
-| [horizontalScrollBarUI](#horizontalScrollBarUI)         |                                                                                     |
+---
+
+### [horizontalScrollBarUI](#horizontalScrollBarUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.horizontalScrollBarUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The horizontal scroll bar UI element, if present.                                                                     |
 
-| [isFocused](#isFocused)         |                                                                                     |
+---
+
+### [isFocused](#isFocused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.isFocused <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the table is focused by the user.                                                                     |
 
-| [verticalScrollBarUI](#verticalScrollBarUI)         |                                                                                     |
+---
+
+### [verticalScrollBarUI](#verticalScrollBarUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable.verticalScrollBarUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The vertical scroll bar UI element, if present.                                                                     |
 
+---
 ### Methods
 
-| [columnsUI](#columnsUI)         |                                                                                     |
+
+### [columnsUI](#columnsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:columnsUI() -> table of axuielements | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -163,7 +218,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>Table of column headers. If the table is visible but no column headers are defined, an empty table is returned. If it's not visible, `nil` is returned.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deselectAll](#deselectAll)         |                                                                                     |
+---
+
+### [deselectAll](#deselectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:deselectAll(rowUI) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -172,7 +231,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deselectRow](#deselectRow)         |                                                                                     |
+---
+
+### [deselectRow](#deselectRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:deselectRow(rowUI) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -181,7 +244,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deselectRowAt](#deselectRowAt)         |                                                                                     |
+---
+
+### [deselectRowAt](#deselectRowAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:deselectRowAt(index) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -190,7 +257,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findCellUI](#findCellUI)         |                                                                                     |
+---
+
+### [findCellUI](#findCellUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:findCellUI(rowNumber, columnId) -> `hs.axuielement` | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -199,7 +270,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>A `hs.axuielement` object for the cell, or `nil` if the cell cannot be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findColumnIndex](#findColumnIndex)         |                                                                                     |
+---
+
+### [findColumnIndex](#findColumnIndex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:findColumnIndex(id) -> number | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -208,7 +283,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>A column index as a number, or `nil` if no index can be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -217,7 +296,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rowsUI](#rowsUI)         |                                                                                     |
+---
+
+### [rowsUI](#rowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:rowsUI([filterFn]) -> table of axuielements | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -226,7 +309,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>Table of rows. If the table is visible but no rows match, it will be an empty table, otherwise it will be `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -235,7 +322,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>A table containing the current Table Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectAll](#selectAll)         |                                                                                     |
+---
+
+### [selectAll](#selectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:selectAll(rowUI) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -244,7 +335,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedRowsUI](#selectedRowsUI)         |                                                                                     |
+---
+
+### [selectedRowsUI](#selectedRowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:selectedRowsUI() -> table of axuielements | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -253,7 +348,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>Table of `hs.axuielement` objects, or `nil` if none could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectRow](#selectRow)         |                                                                                     |
+---
+
+### [selectRow](#selectRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:selectRow(rowUI) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -262,7 +361,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectRowAt](#selectRowAt)         |                                                                                     |
+---
+
+### [selectRowAt](#selectRowAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:selectRowAt(index) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -271,7 +374,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showRow](#showRow)         |                                                                                     |
+---
+
+### [showRow](#showRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:showRow(rowUI) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -280,7 +387,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showRowAt](#showRowAt)         |                                                                                     |
+---
+
+### [showRowAt](#showRowAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:showRowAt(index) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -289,7 +400,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toCSV](#toCSV)         |                                                                                     |
+---
+
+### [toCSV](#toCSV)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:toCSV() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -298,7 +413,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>A string or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [topRowsUI](#topRowsUI)         |                                                                                     |
+---
+
+### [topRowsUI](#topRowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:topRowsUI(filterFn) -> table of axuielements | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -307,7 +426,11 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>Table of rows. If the table is visible but no rows match, it will be an empty table, otherwise it will be `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [viewFrame](#viewFrame)         |                                                                                     |
+---
+
+### [viewFrame](#viewFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldTable:viewFrame() -> hs.geometry rect`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -316,3 +439,4 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Returns**                                 | <ul><li>The frame in the form of a `hs.geometry` rect object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

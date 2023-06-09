@@ -10,7 +10,10 @@
 
 ### Methods
 
-| [containing](#containing)         |                                                                                     |
+
+### [containing](#containing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.Builder:containing(contentBuilder) -> cp.ui.ScrollArea.Builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -19,3 +22,4 @@
 | **Returns**                                 | <ul><li>The `Builder` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

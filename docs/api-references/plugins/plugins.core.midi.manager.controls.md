@@ -18,15 +18,22 @@ MIDI Manager Controls.
 
 ### Variables
 
-| [controls](#controls)         |                                                                                     |
+
+### [controls](#controls)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.manager.controls -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Controls                                                                     |
 
+---
 ### Functions
 
-| [allGroups](#allGroups)         |                                                                                     |
+
+### [allGroups](#allGroups)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.manager.controls.allGroups() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,9 +42,13 @@ MIDI Manager Controls.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [get](#get)         |                                                                                     |
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.manager.controls:get(id) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ MIDI Manager Controls.
 | **Returns**                                 | <ul><li>table containing the widget</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getAll](#getAll)         |                                                                                     |
+---
+
+### [getAll](#getAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.manager.controls:getAll() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +70,11 @@ MIDI Manager Controls.
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.manager.controls:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +83,11 @@ MIDI Manager Controls.
 | **Returns**                                 | <ul><li>The ID of the widget as a `string`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.manager.controls:new(id, params) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +96,11 @@ MIDI Manager Controls.
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters table should include:</li><li>  group      - The group as a string (i.e. "fcpx")</li><li>  text       - The name of the control as it will appear in the Console</li><li>  subText    - The subtext of the control as it will appear in the Console</li><li>  fn         - The callback function. This functions should accept one parameter</li><li>                  which contains all the MIDI callback metadata.</li></ul>                |
 
-| [params](#params)         |                                                                                     |
+---
+
+### [params](#params)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.manager.controls:params() -> function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,3 +109,4 @@ MIDI Manager Controls.
 | **Returns**                                 | <ul><li>The paramaters of the widget</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

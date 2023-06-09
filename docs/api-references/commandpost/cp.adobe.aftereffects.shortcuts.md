@@ -12,21 +12,33 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 
 ### Constants
 
-| [keys](#keys)         |                                                                                     |
+
+### [keys](#keys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects.shortcuts.keys -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing key translations.                                                                     |
 
-| [labels](#labels)         |                                                                                     |
+---
+
+### [labels](#labels)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects.shortcuts.labels -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing label translations.                                                                     |
 
-| [modifiers](#modifiers)         |                                                                                     |
+---
+
+### [modifiers](#modifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.adobe.aftereffects.shortcuts.modifiers -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing modifier translations.                                                                     |
 
+---

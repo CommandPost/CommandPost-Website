@@ -16,7 +16,10 @@ Choices Builder Module.
 
 ### Functions
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices.builder.new(choiceType) -> builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,9 +28,13 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The new choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [id](#id)         |                                                                                     |
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices.builder:id(value) -> builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -36,7 +43,11 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [image](#image)         |                                                                                     |
+---
+
+### [image](#image)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices.builder:image(value) -> builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [params](#params)         |                                                                                     |
+---
+
+### [params](#params)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices.builder:params(value) -> builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subText](#subText)         |                                                                                     |
+---
+
+### [subText](#subText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices.builder:subText(value) -> builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +82,11 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [text](#text)         |                                                                                     |
+---
+
+### [text](#text)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices.builder:text(value) -> builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,3 +95,4 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

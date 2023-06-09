@@ -32,7 +32,10 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ### Constructors
 
-| [Run](#Run)         |                                                                                     |
+
+### [Run](#Run)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run(name, source) -> cp.spec.Run`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -41,41 +44,65 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>cp.spec.Run</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [phase](#phase)         |                                                                                     |
+
+### [phase](#phase)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.phase <cp.spec.Run.phase>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current [phase](#phase) of the run.                                                                     |
 
-| [report](#report)         |                                                                                     |
+---
+
+### [report](#report)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.report <cp.spec.Report>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The reports of the run.                                                                     |
 
-| [result](#result)         |                                                                                     |
+---
+
+### [result](#result)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.result <cp.spec.Run.result>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current result. Defaults to `Run.result.passing`.                                                                     |
 
-| [shared](#shared)         |                                                                                     |
+---
+
+### [shared](#shared)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.shared <table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The set of data shared by all phases of the Run. Data from parent Runs will also be available.                                                                     |
 
-| [source](#source)         |                                                                                     |
+---
+
+### [source](#source)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.source`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The object that initiated the run. Typically a [Definition](cp.spec.Definition.md).                                                                     |
 
+---
 ### Methods
 
-| [debug](#debug)         |                                                                                     |
+
+### [debug](#debug)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:debug() -> cp.spec.Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +111,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>The same `Run` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [expectAbort](#expectAbort)         |                                                                                     |
+---
+
+### [expectAbort](#expectAbort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:expectAbort([messagePattern]) -> Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,7 +124,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>The same `Run` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the it doesn't occur at some point during the run, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual abort/`error` would occur.</li></ul>                |
 
-| [expectFail](#expectFail)         |                                                                                     |
+---
+
+### [expectFail](#expectFail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:expectFail([messagePattern]) -> Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -102,7 +137,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>The same `Run` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the fail doesn't occur, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual assert/fail would occur.</li></ul>                |
 
-| [isDebugging](#isDebugging)         |                                                                                     |
+---
+
+### [isDebugging](#isDebugging)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:isDebugging() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -111,7 +150,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isExpectingAbort](#isExpectingAbort)         |                                                                                     |
+---
+
+### [isExpectingAbort](#isExpectingAbort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:isExpectingAbort() -> boolean, string or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -120,7 +163,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>boolean - `true`, if a fail is expected.</li><li>string - the message pattern, if specified.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isExpectingFail](#isExpectingFail)         |                                                                                     |
+---
+
+### [isExpectingFail](#isExpectingFail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:isExpectingFail() -> boolean, string or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +176,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>boolean - `true`, if a fail is expected.</li><li>string - the message pattern, if specified.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [log](#log)         |                                                                                     |
+---
+
+### [log](#log)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:log(message[, ...])`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,7 +189,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onBefore](#onBefore)         |                                                                                     |
+---
+
+### [onBefore](#onBefore)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:onBefore(actionFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -147,7 +202,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onBfter](#onBfter)         |                                                                                     |
+---
+
+### [onBfter](#onBfter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:onBfter(actionFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -156,7 +215,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onRunning](#onRunning)         |                                                                                     |
+---
+
+### [onRunning](#onRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:onRunning(actionFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -165,7 +228,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:parent([parent]) -> cp.spec.Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -174,7 +241,11 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>The current parent `Run`.</li></ul>          |
 | **Notes**                                   | <ul><li>If a `parent` is provided and there is already another Run set as a parent, an error is thrown.</li></ul>                |
 
-| [verbose](#verbose)         |                                                                                     |
+---
+
+### [verbose](#verbose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run:verbose([isVerbose]) -> boolean | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -183,3 +254,4 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 | **Returns**                                 | <ul><li>The current `verbose` status, or this `Run` if `isVerbose` is provided.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

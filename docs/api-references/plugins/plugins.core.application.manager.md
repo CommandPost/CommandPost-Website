@@ -13,7 +13,10 @@ Application manager.
 
 ### Functions
 
-| [defaultSearchConsoleToolbar](#defaultSearchConsoleToolbar)         |                                                                                     |
+
+### [defaultSearchConsoleToolbar](#defaultSearchConsoleToolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.application.manager.defaultSearchConsoleToolbar() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -22,7 +25,11 @@ Application manager.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getApplications](#getApplications)         |                                                                                     |
+---
+
+### [getApplications](#getApplications)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.application.manager.getApplications() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ Application manager.
 | **Returns**                                 | <ul><li>A table of all the registered applications.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getSearchConsoleToolbar](#getSearchConsoleToolbar)         |                                                                                     |
+---
+
+### [getSearchConsoleToolbar](#getSearchConsoleToolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.application.manager.getSearchConsoleToolbar(bundleID) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Application manager.
 | **Returns**                                 | <ul><li>A table of the Search Sonole Toolbar data for the specified application.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [registerApplication](#registerApplication)         |                                                                                     |
+---
+
+### [registerApplication](#registerApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.application.manager.registerApplication(data) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,3 +64,4 @@ Application manager.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The data table should contain:</li><li> displayName - The display name of the application</li><li> bundleID - The bundle ID of the application</li><li> searchConsoleToolbar - A table containing the Search Console Toolbar information</li><li> legacyGroupID - A string containing the legacy group ID (i.e. "fcpx")</li></ul>                |
 
+---

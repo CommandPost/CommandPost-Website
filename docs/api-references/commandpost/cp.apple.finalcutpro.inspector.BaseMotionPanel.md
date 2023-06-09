@@ -18,7 +18,10 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BaseMotionPanel.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -27,9 +30,13 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [BaseMotionPanel](#BaseMotionPanel)         |                                                                                     |
+
+### [BaseMotionPanel](#BaseMotionPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BaseMotionPanel(parent, panelType) -> cp.apple.finalcutpro.inspector.BaseMotionPanel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -38,17 +45,26 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Returns**                                 | <ul><li>A `BaseMotionPanel` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contentUI](#contentUI)         |                                                                                     |
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BaseMotionPanel.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The primary content `axuielement` for the panel.                                                                     |
 
-| [published](#published)         |                                                                                     |
+---
+
+### [published](#published)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BaseMotionPanel.published <cp.prop: cp.ui.PropertyRow; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'Published Parameters' section.                                                                     |
 
+---

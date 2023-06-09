@@ -12,7 +12,10 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurve.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,9 +24,13 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it matches a HueSaturationCurve element.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [HueSaturationCurve](#HueSaturationCurve)         |                                                                                     |
+
+### [HueSaturationCurve](#HueSaturationCurve)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurve(parent, type) -> HueSaturationCurve`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -32,3 +39,4 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `HueSaturationCurve`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

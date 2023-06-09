@@ -22,15 +22,22 @@ Represents the Motion application, providing functions that allow different task
 
 ### Constants
 
-| [BUNDLE_ID](#BUNDLE_ID)         |                                                                                     |
+
+### [BUNDLE_ID](#BUNDLE_ID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion.BUNDLE_ID`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Compressor's Bundle ID                                                                     |
 
+---
 ### Methods
 
-| [bundleID](#bundleID)         |                                                                                     |
+
+### [bundleID](#bundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:bundleID() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,7 +46,11 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>A string of the Compressor Bundle ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doRestart](#doRestart)         |                                                                                     |
+---
+
+### [doRestart](#doRestart)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:doRestart() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,7 +59,11 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>`true` if the application was running and restarted successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:hide() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -57,7 +72,11 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>The motion instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [launch](#launch)         |                                                                                     |
+---
+
+### [launch](#launch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:launch([waitSeconds]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +85,11 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>`true` if Compressor was either launched or focused, otherwise false (e.g. if Compressor doesn't exist)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [notifier](#notifier)         |                                                                                     |
+---
+
+### [notifier](#notifier)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:notifier() -> cp.ui.notifier`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,7 +98,11 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [path](#path)         |                                                                                     |
+---
+
+### [path](#path)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:path() -> string or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +111,11 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>A string containing Compressor's filesystem path, or `nil` if the bundle identifier could not be located</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [quit](#quit)         |                                                                                     |
+---
+
+### [quit](#quit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:quit([waitSeconds]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,7 +124,11 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>The `motion` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.motion:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -102,3 +137,4 @@ Represents the Motion application, providing functions that allow different task
 | **Returns**                                 | <ul><li>The motion instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

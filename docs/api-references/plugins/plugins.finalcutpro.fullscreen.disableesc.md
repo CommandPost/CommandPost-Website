@@ -10,9 +10,13 @@ Disables the ESC key when Final Cut Pro is in fullscreen mode.
 
 ### Variables
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.disableesc.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the Disable ESC Key Function enabled?                                                                     |
 
+---

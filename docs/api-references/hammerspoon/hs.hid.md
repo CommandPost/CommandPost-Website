@@ -17,7 +17,10 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 
 ### Functions
 
-| [get](#get)         |                                                                                     |
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hid.capslock.get() -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,7 +29,11 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [set](#set)         |                                                                                     |
+---
+
+### [set](#set)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hid.capslock.set(state) -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +42,11 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggle](#toggle)         |                                                                                     |
+---
+
+### [toggle](#toggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hid.capslock.toggle() -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,3 +55,4 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

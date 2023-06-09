@@ -19,7 +19,10 @@ UI Group.
 
 ### Functions
 
-| [containing](#containing)         |                                                                                     |
+
+### [containing](#containing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Group:containing(...) -> cp.ui.Group.Builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,7 +31,11 @@ UI Group.
 | **Returns**                                 | <ul><li>The `Group.Builder`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Group.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,9 +44,13 @@ UI Group.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Group](#Group)         |                                                                                     |
+
+### [Group](#Group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Group(parent, uiFinder[, contentsClass]) -> Alert`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -48,17 +59,26 @@ UI Group.
 | **Returns**                                 | <ul><li>A new `Group` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [children](#children)         |                                                                                     |
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Group.children <table of cp.ui.Element>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `Element` children of the group.                                                                     |
 
-| [childrenUI](#childrenUI)         |                                                                                     |
+---
+
+### [childrenUI](#childrenUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Group.childrenUI <cp.prop: table of axuielement>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `axuielement` children of the group.                                                                     |
 
+---

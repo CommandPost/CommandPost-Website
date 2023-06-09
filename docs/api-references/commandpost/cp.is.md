@@ -45,7 +45,10 @@ isnt_blank(nil) == false
 
 ### Functions
 
-| [blank](#blank)         |                                                                                     |
+
+### [blank](#blank)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.blank(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -54,7 +57,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [boolean](#boolean)         |                                                                                     |
+---
+
+### [boolean](#boolean)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.boolean(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -63,7 +70,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [callable](#callable)         |                                                                                     |
+---
+
+### [callable](#callable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.callable(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -72,7 +83,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [falsey](#falsey)         |                                                                                     |
+---
+
+### [falsey](#falsey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.falsey(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -81,7 +96,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fn](#fn)         |                                                                                     |
+---
+
+### [fn](#fn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.fn(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -90,7 +109,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [instance](#instance)         |                                                                                     |
+---
+
+### [instance](#instance)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.instance(value, class) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -99,7 +122,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it is an instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [list](#list)         |                                                                                     |
+---
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.list(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -108,7 +135,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [nothing](#nothing)         |                                                                                     |
+---
+
+### [nothing](#nothing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.nothing(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -117,7 +148,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [number](#number)         |                                                                                     |
+---
+
+### [number](#number)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.number(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -126,7 +161,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [object](#object)         |                                                                                     |
+---
+
+### [object](#object)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.object(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -135,7 +174,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [something](#something)         |                                                                                     |
+---
+
+### [something](#something)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.something(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -144,7 +187,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [string](#string)         |                                                                                     |
+---
+
+### [string](#string)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.string(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -153,7 +200,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [table](#table)         |                                                                                     |
+---
+
+### [table](#table)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.table(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -162,7 +213,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [truthy](#truthy)         |                                                                                     |
+---
+
+### [truthy](#truthy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.truthy(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -171,7 +226,11 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [userdata](#userdata)         |                                                                                     |
+---
+
+### [userdata](#userdata)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.is.userdata(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -180,3 +239,4 @@ isnt_blank(nil) == false
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -90,21 +90,32 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 
 ### Variables
 
-| [applyDelay](#applyDelay)         |                                                                                     |
+
+### [applyDelay](#applyDelay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout.applyDelay`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | When "active mode" windowlayouts apply a rule, they will pause briefly for this amount of time in seconds, to allow windows                                                                     |
 
-| [screensChangedDelay](#screensChangedDelay)         |                                                                                     |
+---
+
+### [screensChangedDelay](#screensChangedDelay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout.screensChangedDelay`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The number of seconds to wait, after a screen configuration change has been detected, before                                                                     |
 
+---
 ### Functions
 
-| [applyLayout](#applyLayout)         |                                                                                     |
+
+### [applyLayout](#applyLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout.applyLayout(rules)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -113,7 +124,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>this is a convenience wrapper for "passive mode" use that creates, applies, and deletes a windowlayout object;</li><li>   do *not* use shared windowfilters in `rules`, as they'll be deleted; you can just use constructor argument maps instead</li></ul>                |
 
-| [pauseAllInstances](#pauseAllInstances)         |                                                                                     |
+---
+
+### [pauseAllInstances](#pauseAllInstances)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout.pauseAllInstances()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -122,7 +137,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [resumeAllInstances](#resumeAllInstances)         |                                                                                     |
+---
+
+### [resumeAllInstances](#resumeAllInstances)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout.resumeAllInstances()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -131,9 +150,13 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout.new(rules[,logname[,loglevel]]) -> hs.window.layout object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -142,9 +165,13 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>a new windowlayout instance</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [apply](#apply)         |                                                                                     |
+
+### [apply](#apply)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout:apply()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -153,7 +180,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>if a screen configuration is defined for this windowfilter, and currently not satisfied, this method will do nothing</li></ul>                |
 
-| [getRules](#getRules)         |                                                                                     |
+---
+
+### [getRules](#getRules)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout:getRules() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -162,7 +193,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>a table containing the rules of this windowlayout; you can pass this table (optionally</li><li>   after performing valid manipulations) to `hs.window.layout.new()`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pause](#pause)         |                                                                                     |
+---
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout:pause() -> hs.window.layout object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -171,7 +206,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [resume](#resume)         |                                                                                     |
+---
+
+### [resume](#resume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout:resume() -> hs.window.layout object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -180,7 +219,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>if a screen configuration is defined for this windowfilter, and currently not satisfied, this method will do nothing</li></ul>                |
 
-| [setScreenConfiguration](#setScreenConfiguration)         |                                                                                     |
+---
+
+### [setScreenConfiguration](#setScreenConfiguration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout:setScreenConfiguration(screens) -> hs.window.layout object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -192,7 +235,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>If `screens` is `nil`, any previous screen configuration is removed, and this windowlayout will be always allowed</li><li>For "active" windowlayouts, call this method *before* calling `hs.window.layout:start()`</li><li>By using `hs.geometry` size objects as hints you can define separate layouts for the same physical screen at different resolutions</li><li>With this method you can define different windowlayouts for different screen configurations (as per System Preferences->Displays->Arrangement).</li><li>For example, suppose you define two "graphics design work" windowlayouts, one for "desk with dual monitors" and one for "laptop only mode":</li><li>  "passive mode" use: you call `:apply()` on *both* on your chosen hotkey (via `hs.hotkey:bind()`), but only the appropriate layout for the current arrangement will be applied</li><li>  "active mode" use: you just call `:start()` on both windowlayouts; as you switch between workplaces (by attaching or detaching external screens) the correct layout "kicks in" automatically - this is in effect a convenience wrapper that calls `:pause()` on the no longer relevant layout, and `:resume()` on the appropriate one, at every screen configuration change</li></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout:start() -> hs.window.layout object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -201,7 +248,11 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>If a screen configuration is defined for this windowfilter, and currently not satisfied, this windowfilter will be put in "active mode" but will remain paused until the screen configuration requirements are met</li><li>When in active mode, a windowlayout instance will constantly monitor the windowfilters for its rules, by subscribing to all the relevant events. As soon as any change is detected (e.g. when you drag a window, switch focus, open or close apps/windows, etc.) the relative rule will be automatically re-applied. In other words, the rules you defined will remain enforced all the time, instead of waiting for manual intervention via `hs.window.layout:apply()`.</li></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.window.layout:stop() -> hs.window.layout object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -210,3 +261,4 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

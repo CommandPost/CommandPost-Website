@@ -17,15 +17,22 @@ Watch Folder Media Panel.
 
 ### Variables
 
-| [watchFolderTableID](#watchFolderTableID)         |                                                                                     |
+
+### [watchFolderTableID](#watchFolderTableID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.watchFolderTableID -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watch Folder Table ID                                                                     |
 
+---
 ### Functions
 
-| [addWatchFolder](#addWatchFolder)         |                                                                                     |
+
+### [addWatchFolder](#addWatchFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.addWatchFolder() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +41,11 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [controllerCallback](#controllerCallback)         |                                                                                     |
+---
+
+### [controllerCallback](#controllerCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.controllerCallback(id, params) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +54,11 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generateTable](#generateTable)         |                                                                                     |
+---
+
+### [generateTable](#generateTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.generateTable() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +67,11 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>Returns a HTML table as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.init(mediaFolderManager, panelManager) -> self`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +80,11 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [refreshTable](#refreshTable)         |                                                                                     |
+---
+
+### [refreshTable](#refreshTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.refreshTable() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +93,11 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [styleSheet](#styleSheet)         |                                                                                     |
+---
+
+### [styleSheet](#styleSheet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.styleSheet() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,3 +106,4 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>Returns Style Sheet as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

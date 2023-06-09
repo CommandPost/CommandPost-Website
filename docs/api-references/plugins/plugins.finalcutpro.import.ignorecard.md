@@ -14,15 +14,22 @@ Ignore Final Cut Pro's Media Import Window.
 
 ### Variables
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.import.ignorecard.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggles the Ignore Card Plugin                                                                     |
 
+---
 ### Functions
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.import.ignorecard.start() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ Ignore Final Cut Pro's Media Import Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.import.ignorecard.stop() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Ignore Final Cut Pro's Media Import Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.import.ignorecard.update() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,3 +64,4 @@ Ignore Final Cut Pro's Media Import Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -14,21 +14,32 @@ Automatic Disk Mounting & Unmounting.
 
 ### Variables
 
-| [autoMountOnAC](#autoMountOnAC)         |                                                                                     |
+
+### [autoMountOnAC](#autoMountOnAC)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.disk.automount.autoMountOnAC <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically mount on connection to mains power.                                                                     |
 
-| [autoUnmountOnBattery](#autoUnmountOnBattery)         |                                                                                     |
+---
+
+### [autoUnmountOnBattery](#autoUnmountOnBattery)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.disk.automount.autoUnmountOnBattery <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically Unmount on disconnection from battery.                                                                     |
 
+---
 ### Functions
 
-| [mountPhysicalDrives](#mountPhysicalDrives)         |                                                                                     |
+
+### [mountPhysicalDrives](#mountPhysicalDrives)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.disk.automount.mountPhysicalDrives() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,7 +48,11 @@ Automatic Disk Mounting & Unmounting.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unmountPhysicalDrives](#unmountPhysicalDrives)         |                                                                                     |
+---
+
+### [unmountPhysicalDrives](#unmountPhysicalDrives)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.disk.automount.unmountPhysicalDrives() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -46,3 +61,4 @@ Automatic Disk Mounting & Unmounting.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

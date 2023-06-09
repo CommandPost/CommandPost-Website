@@ -14,21 +14,32 @@ Adds actions which allow you to trigger keyboard shortcuts.
 
 ### Variables
 
-| [eventTapCount](#eventTapCount)         |                                                                                     |
+
+### [eventTapCount](#eventTapCount)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.actions.eventTapCount -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A counter to detect how many times the event tap has been triggered.                                                                     |
 
-| [heldKeys](#heldKeys)         |                                                                                     |
+---
+
+### [heldKeys](#heldKeys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.actions.heldKeys -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of held down modifier keys.                                                                     |
 
+---
 ### Functions
 
-| [startEventTap](#startEventTap)         |                                                                                     |
+
+### [startEventTap](#startEventTap)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.actions.startEventTap() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,7 +48,11 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stopEventTap](#stopEventTap)         |                                                                                     |
+---
+
+### [stopEventTap](#stopEventTap)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.actions.stopEventTap() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -46,3 +61,4 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

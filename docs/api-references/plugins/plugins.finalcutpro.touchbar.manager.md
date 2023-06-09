@@ -10,9 +10,13 @@ Final Cut Pro Touch Bar Manager.
 
 ### Fields
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.touchbar.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
 
+---

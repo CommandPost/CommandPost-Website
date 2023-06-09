@@ -25,7 +25,10 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ### Constructors
 
-| [If](#If)         |                                                                                     |
+
+### [If](#If)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If(value) -> If`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,9 +37,13 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `resolvable` matches the requirement.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will check if the value is `truthy` - not `nil` and not `false`.</li><li>Other checks can be specified via the `If:Is/IsNot/Matches` methods.</li><li>If the check passes, the `If:Then(...)` method is processed. If not, the `Otherwise` method</li><li>can specify other `resolvables` to execute instead.</li><li></li><li>Example:</li><li></li><li>```lua</li><li>If(someObservable):Is(true):Then(</li><li>    function() ... end</li><li>):Otherwise(</li><li>    function() ... end</li><li>)</li><li>```</li></ul>                |
 
+---
 ### Methods
 
-| [Are](#Are)         |                                                                                     |
+
+### [Are](#Are)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If:Are(value) -> If.Are`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +52,11 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Returns**                                 | <ul><li>The [Are](cp.rx.go.If.Are.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [AreNot](#AreNot)         |                                                                                     |
+---
+
+### [AreNot](#AreNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If:AreNot(value) -> If.AreNot`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +65,11 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Returns**                                 | <ul><li>The [AreNot](cp.rx.go.If.AreNot.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [Is](#Is)         |                                                                                     |
+---
+
+### [Is](#Is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If:Is(value) -> If.Is`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +78,11 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Returns**                                 | <ul><li>The [Is](cp.rx.go.If.Is.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [IsNot](#IsNot)         |                                                                                     |
+---
+
+### [IsNot](#IsNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If:IsNot(value) -> If.IsNot`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,7 +91,11 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Returns**                                 | <ul><li>The [IsNot](cp.rx.go.If.IsNot.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [Matches](#Matches)         |                                                                                     |
+---
+
+### [Matches](#Matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If:Matches(predicate) -> If.Matches`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -81,7 +104,11 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Returns**                                 | <ul><li>The [Matches](cp.rx.go.If.Matches.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>If(someObservable):Matches(function(value) return value % 2 == 0 end):Then(doSomething())</li><li>```</li></ul>                |
 
-| [Then](#Then)         |                                                                                     |
+---
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If:Then(...) -> If.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -90,3 +117,4 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>```</li></ul>                |
 
+---

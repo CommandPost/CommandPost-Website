@@ -332,7 +332,10 @@ So, a little bit tricky. The general rule of thumb is:
 
 ### Constants
 
-| [NIL](#NIL)         |                                                                                     |
+
+### [NIL](#NIL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.NIL -> cp.prop`                                                                    |
 | **Type**                                    | Constant                                                                     |
@@ -340,9 +343,13 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a new `cp.prop` instance with a value of `nil`.</li></ul>          |
 
+---
 ### Functions
 
-| [bind](#bind)         |                                                                                     |
+
+### [bind](#bind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.bind(owner[, relaxed]) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -351,7 +358,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>A function which should be called, passing in a table of key/value pairs which are `string`/`cp.prop` value.</li></ul>          |
 | **Notes**                                   | <ul><li>If you are binding multiple `cp.prop` values that are dependent on other `cp.prop` values on the same owner (e.g. via `mutate` or a boolean join), you</li><li>  will have to break it up into multiple `prop.bind(...) {...}` calls, so that the dependent property can access the bound property.</li><li>If a `cp.prop` provided as bindings already has a bound owner, it will be wrapped instead of bound directly.</li><li>To use, do something like this:</li><li></li><li>```lua</li><li>local o = {}</li><li>prop.bind(o) {</li><li>    foo = prop.TRUE(),</li><li>    bar = prop.THIS("Hello world"),</li><li>}</li><li>```</li><li></li><li>This is equivalent to the following:</li><li></li><li>```lua</li><li>local o = {}</li><li>o.foo = prop.TRUE():bind(o):label("foo")</li><li>-- alternately...</li><li>prop.THIS("Hello world"):bind(o, "bar")</li><li>```</li><li></li><li>It has the added benefit of checking that the target properties ('foo' and 'bar' in this case) have not already been assigned a value.</li></ul>                |
 
-| [extend](#extend)         |                                                                                     |
+---
+
+### [extend](#extend)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.extend(target, source) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -360,7 +371,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The `target`, now extending the `source`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [is](#is)         |                                                                                     |
+---
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.is(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -369,9 +384,13 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>`true` if the value is an instance of `cp.prop`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [AND](#AND)         |                                                                                     |
+
+### [AND](#AND)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.AND(...) -> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -380,7 +399,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The value of this instance will resolve by lazily checking the `value` of the contained `cp.prop` instances in the order provided. The first `falsy` value will be returned. Otherwise the last `truthy` value is returned.</li><li>The instance is **immutable**.</li><li>Once you have created an 'AND', you cannot 'OR' as a method. Eg, this will fail: `prop.TRUE():AND(prop:FALSE()):OR(prop.TRUE())`. This is to avoid ambiguity as to whether the 'AND' or 'OR' takes precedence. Is it `(true and false) or true` or `true and (false or true)`?.</li><li>To combine 'AND' and 'OR' values, group them together when combining. Eg:</li><li> `(true and false) or true`: `prop.OR( prop.TRUE():AND(prop.FALSE()), prop.TRUE() )`</li><li> `true and (false or true)`: `prop.TRUE():AND( prop.FALSE():OR(prop.TRUE()) )`</li></ul>                |
 
-| [FALSE](#FALSE)         |                                                                                     |
+---
+
+### [FALSE](#FALSE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.FALSE() -> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -389,7 +412,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance defaulting to `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [FROM](#FROM)         |                                                                                     |
+---
+
+### [FROM](#FROM)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.FROM(value) --> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -398,7 +425,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The new `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If it's already a `cp.prop`, it will be returned directly.</li><li>If it's a function, it will be treated as a `get` function.</li><li>Otherwise, it will be returned as [THIS](#THIS)</li></ul>                |
 
-| [IMMUTABLE](#IMMUTABLE)         |                                                                                     |
+---
+
+### [IMMUTABLE](#IMMUTABLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.IMMUTABLE(propValue) -- cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -407,7 +438,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a new `cp.prop` instance which cannot be modified.</li></ul>          |
 | **Notes**                                   | <ul><li>The original `propValue` can still be modified (if appropriate) and watchers of the immutable value will be notified when it changes.</li></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.new(getFn, setFn, cloneFn) --> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -416,7 +451,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The new `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>`getFn` signature: `function([owner]) -> anything`</li><li> `owner`     - If this is attached as a method, the owner table is passed in.</li><li>`setFn` signature: `function(newValue[, owner])`</li><li> `newValue`  - The new value to store.</li><li> `owner`     - If this is attached as a method, the owner table is passed in.</li><li>`cloneFn` signature: `function(prop) -> new cp.prop`</li><li>This can also be executed by calling the module directly. E.g. `require('cp.prop')(myGetFunction)`</li></ul>                |
 
-| [NOT](#NOT)         |                                                                                     |
+---
+
+### [NOT](#NOT)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.NOT(propValue) -> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -425,7 +464,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance negating the `propValue`.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `propValue` is mutable, you can set the `NOT` property value and the underlying value</li><li>    will be set to the negated value. Be aware that the same negation rules apply when setting as when getting.</li><li>Values are negated as follows:</li><li>  `boolean`    - Switch between `true` and `false`</li><li>  `nil`        - Switches to `true`</li><li>  <other>  - Switches to `nil`.</li></ul>                |
 
-| [OR](#OR)         |                                                                                     |
+---
+
+### [OR](#OR)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.OR(...) -> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -434,7 +477,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The value of this instance will resolve by lazily checking the `value` of the contained `cp.prop` instances in the order provided. If any return `true`, no further instances will be checked.</li><li>The instance is immutable, since there is no realy way to flip the component values of an 'OR' in a way that makes sense.</li><li>Once you have created an 'OR', you cannot 'AND' as a method. Eg, this will fail: `prop.TRUE():OR(prop:FALSE()):AND(prop.TRUE())`. This is to avoid ambiguity as to whether the 'OR' or 'AND' takes precedence. Is it `(true or false) and true` or `true or (false and true)`?.</li><li>To combine 'AND' and 'OR' values, group them together when combining. Eg:</li><li> `(true or false) and true`: `prop.AND( prop.TRUE():OR(prop.FALSE()), prop.TRUE() )`</li><li> `true or (false and true)`: `prop.TRUE():OR( prop.FALSE():AND(prop.TRUE()) )`</li></ul>                |
 
-| [THIS](#THIS)         |                                                                                     |
+---
+
+### [THIS](#THIS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.THIS([initialValue]) -> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -443,7 +490,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a new `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [TRUE](#TRUE)         |                                                                                     |
+---
+
+### [TRUE](#TRUE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.TRUE() -> cp.prop`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -452,17 +503,25 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance defaulting to `true`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [mainWindow](#mainWindow)         |                                                                                     |
+
+### [mainWindow](#mainWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop.mainWindow <cp.prop: cp.ui.Window; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main [Window](cp.ui.Window.md), or `nil` if none is available.                                                                     |
 
+---
 ### Methods
 
-| [ABOVE](#ABOVE)         |                                                                                     |
+
+### [ABOVE](#ABOVE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:ABOVE() -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -471,7 +530,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is greater than `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [AND](#AND)         |                                                                                     |
+---
+
+### [AND](#AND)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:AND(...) -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -480,7 +543,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See the [AND Function](#and) for more details</li></ul>                |
 
-| [ATLEAST](#ATLEAST)         |                                                                                     |
+---
+
+### [ATLEAST](#ATLEAST)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:ATLEAST() -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -489,7 +556,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is less than or equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ATMOST](#ATMOST)         |                                                                                     |
+---
+
+### [ATMOST](#ATMOST)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:ATMOST() -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -498,7 +569,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is less than or equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [BELOW](#BELOW)         |                                                                                     |
+---
+
+### [BELOW](#BELOW)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:BELOW() -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -507,7 +582,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is less than `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [bind](#bind)         |                                                                                     |
+---
+
+### [bind](#bind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:bind(owner, [key]) -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -516,7 +595,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>the `cp.prop`</li></ul>          |
 | **Notes**                                   | <ul><li>Throws an `error` if the new owner is `nil`.</li><li>Throws an `error` if the owner already has a property with the name provided in `key`.</li><li>Throws an `error` if the `key` is not a string value.</li><li>Optionally, a key can be provided which will assign the `cp.prop` to the owner using that key.</li><li>If the `cp.prop` does not have a label, the key will be used as the label.</li></ul>                |
 
-| [cached](#cached)         |                                                                                     |
+---
+
+### [cached](#cached)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:cached() -> prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -525,7 +608,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This can help with performance, but if there are other ways of modifying the original value outside the prop, it will potentially return stale values.</li><li>You can force a reload via the [update](#update) method.</li></ul>                |
 
-| [clear](#clear)         |                                                                                     |
+---
+
+### [clear](#clear)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:clear() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -534,7 +621,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [clone](#clone)         |                                                                                     |
+---
+
+### [clone](#clone)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:clone() -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -543,7 +634,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New `cp.prop`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deepTable](#deepTable)         |                                                                                     |
+---
+
+### [deepTable](#deepTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:deepTable([skipMetatable]) -> prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -552,7 +647,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See [shallowTable](#shallowTable).</li></ul>                |
 
-| [EQ](#EQ)         |                                                                                     |
+---
+
+### [EQ](#EQ)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:EQ(something) -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -561,7 +660,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [get](#get)         |                                                                                     |
+---
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:get() -> value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -570,7 +673,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The current value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasWatchers](#hasWatchers)         |                                                                                     |
+---
+
+### [hasWatchers](#hasWatchers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:hasWatchers() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -579,7 +686,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>`true` if any watchers have been registered.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:id() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -588,7 +699,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The ID value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [IMMUTABLE](#IMMUTABLE)         |                                                                                     |
+---
+
+### [IMMUTABLE](#IMMUTABLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:IMMUTABLE() -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -597,7 +712,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a new `cp.prop` instance which cannot be modified.</li></ul>          |
 | **Notes**                                   | <ul><li>The original property can still be modified (if appropriate) and watchers of the immutable value will be notified when it changes.</li></ul>                |
 
-| [IS](#IS)         |                                                                                     |
+---
+
+### [IS](#IS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:IS(something) -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -606,7 +725,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ISNOT](#ISNOT)         |                                                                                     |
+---
+
+### [ISNOT](#ISNOT)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:ISNOT(something) -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -615,7 +738,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is NOT equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [label](#label)         |                                                                                     |
+---
+
+### [label](#label)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:label([newLabel]) -> string | cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -624,7 +751,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>Either the existing label, or the `cp.prop` itself if a new label was provided.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [mirror](#mirror)         |                                                                                     |
+---
+
+### [mirror](#mirror)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:mirror(otherProp) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -633,7 +764,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The same property.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [monitor](#monitor)         |                                                                                     |
+---
+
+### [monitor](#monitor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:monitor(...) -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -642,7 +777,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>`cp.prop`    - This prop value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [mutable](#mutable)         |                                                                                     |
+---
+
+### [mutable](#mutable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:mutable() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -651,7 +790,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>`true` if the value can be modified.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [mutate](#mutate)         |                                                                                     |
+---
+
+### [mutate](#mutate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:mutate(getFn, [setFn]) -> cp.prop <anything; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -660,7 +803,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>A new `cp.prop` which will return a mutation of the property value.</li></ul>          |
 | **Notes**                                   | <ul><li>Watchers of the mutant will be if a change in the current prop causes</li><li>the mutation to be a new value.</li><li></li><li>The `getFn` is a function with the following signature:</li><li></li><li>```lua</li><li>function(original, owner, prop) --> mutantValue</li><li>```</li><li></li><li>`originalProp`   - The original `cp.prop` being mutated.</li><li>`owner`          - The owner of the mutator property, if it has been bound.</li><li>`mutantProp`     - The mutant property.</li><li>`mutantValue`    - The new value based off the original.</li><li></li><li>You can ignore any parameters that you don't need. Most simply use the `original` prop.</li><li></li><li>The `setFn` is optional, and is a function with the following signature:</li><li></li><li>```lua</li><li>function(mutantValue, original, owner, prop) --> nil</li><li>```</li><li></li><li>`mutantValue`    - The new value being sent in.</li><li>`originalProp`   - The original property being mutated.</li><li>`owner`          - The owner of the mutant property, if it has been bound.</li><li>`mutantProp`     - The mutant property.</li><li></li><li>Again, you can ignore any parameters that you don't need.</li><li>If you want to set a new value to the `original` property, you can do so.</li><li>It's recommended that you use `original:set(...)`, which will allow setting `nil` values.</li><li></li><li>For example:</li><li></li><li>```lua</li><li>anyNumber   = prop.THIS(1)</li><li>isEven      = anyNumber:mutate(function(original) return original() % 2 == 0 end)</li><li>    :watch(function(even)</li><li>        if even() then</li><li>            print "even"</li><li>        else</li><li>            print "odd"</li><li>        end</li><li>    end)</li><li></li><li>isEven:update()     -- prints "odd"</li><li>anyNumber(10)       -- prints "even"</li><li>isEven() == true    -- no printing</li><li>```</li></ul>                |
 
-| [NEQ](#NEQ)         |                                                                                     |
+---
+
+### [NEQ](#NEQ)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:NEQ(something) -> cp.prop <boolean; read-only>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -669,7 +816,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is NOT equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [NOT](#NOT)         |                                                                                     |
+---
+
+### [NOT](#NOT)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:NOT() -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -678,7 +829,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance negating the current instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If this property is mutable, you can set the `NOT` property value and this property will be set to the negated value. Be aware that the same negation rules apply when setting as when getting.</li><li>Values are negated as follows:</li><li>  ** `boolean`    - Switch between `true` and `false`</li><li>  ** `nil`        - Switches to `true`</li><li>  ** <other>  - Switches to `nil`.</li></ul>                |
 
-| [OR](#OR)         |                                                                                     |
+---
+
+### [OR](#OR)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:OR(...) -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -687,7 +842,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See [OR Function](#or) for more details.</li></ul>                |
 
-| [owner](#owner)         |                                                                                     |
+---
+
+### [owner](#owner)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:owner() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -696,7 +855,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The owner table, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [preWatch](#preWatch)         |                                                                                     |
+---
+
+### [preWatch](#preWatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:preWatch(preWatchFn) -> cp.prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -705,7 +868,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>This allows configuration, typically for watching other events, but only if anything is actually watching this property value.</li><li>If the prop already has watchers, this function will be called imediately.</li></ul>                |
 
-| [set](#set)         |                                                                                     |
+---
+
+### [set](#set)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:set(newValue) -> value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -714,7 +881,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The current value of the prop. May not be the same as `newValue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shallowTable](#shallowTable)         |                                                                                     |
+---
+
+### [shallowTable](#shallowTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:shallowTable(skipMetatable) -> prop`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -723,7 +894,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See [deepTable](#deepTable).</li></ul>                |
 
-| [toggle](#toggle)         |                                                                                     |
+---
+
+### [toggle](#toggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:toggle() -> boolean | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -732,7 +907,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The new value.</li></ul>          |
 | **Notes**                                   | <ul><li>If the value is immutable, an error will be thrown.</li><li>If you toggle a non-boolean parameter twice, it will end up set to `true`.</li><li>Values are modified as follows:</li><li>  ** `boolean`    - Switch between `true` and `false`</li><li>  ** `nil`        - Switches to `true`</li><li>  ** <other>  - Switches to `nil`.</li></ul>                |
 
-| [toObservable](#toObservable)         |                                                                                     |
+---
+
+### [toObservable](#toObservable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:toObservable() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -741,7 +920,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The `Observable` instance for the property.</li></ul>          |
 | **Notes**                                   | <ul><li>It will only emit `onNext` events, never an `onError` or `onCompleted` event.</li><li>This will trigger an `update` each time it is called.</li></ul>                |
 
-| [unwatch](#unwatch)         |                                                                                     |
+---
+
+### [unwatch](#unwatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:unwatch(watchFn) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -750,7 +933,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>`true` if the function was watching and successfully removed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>An example of adding and removing a watch:</li><li></li><li>```lua</li><li>local prop, watcher = prop.TRUE():watch(function(value) print tostring(value) end)</li><li>prop:unwatch(watcher) == true</li><li>```</li></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:update() -> value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -759,7 +946,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The current value of the property.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:value([newValue]) -> value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -768,7 +959,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>The current boolean value.</li></ul>          |
 | **Notes**                                   | <ul><li>If you need to set the property to `nil`, use the [set method](#set), otherwise it will be ignored.</li><li>This method can also be called directly on the property, like so:</li><li></li><li>```lua</li><li>local foo = prop.TRUE()</li><li>foo() == foo:value()</li><li>```</li></ul>                |
 
-| [watch](#watch)         |                                                                                     |
+---
+
+### [watch](#watch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:watch(watchFn, notifyNow, uncloned) -> cp.prop, function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -777,7 +972,11 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>`cp.prop` - The same `cp.prop` instance</li><li>`function` - The watch function, which can be passed to [unwatch](#unwatch) to stop watching.</li></ul>          |
 | **Notes**                                   | <ul><li>You can watch immutable values. Wrapped `cp.prop` instances may not be immutable, and any changes to them will cause watchers to be notified up the chain.</li><li>The function should have the following signature:</li><li></li><li>```lua</li><li>function(value, owner, prop)</li><li>```</li><li>`value`  - The new value of the property</li><li>`owner`  - The property owner. May be `nil`.</li><li>`prop`   - The property itself.</li></ul>                |
 
-| [wrap](#wrap)         |                                                                                     |
+---
+
+### [wrap](#wrap)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.prop:wrap([owner[, key]]) -> cp.prop <anything>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -786,3 +985,4 @@ So, a little bit tricky. The general rule of thumb is:
 | **Returns**                                 | <ul><li>A new `cp.prop` which wraps this property.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -16,7 +16,10 @@ The Lua wrapper portion is licensed under the MIT license by the Hammerspoon dev
 
 ### Functions
 
-| [convert](#convert)         |                                                                                     |
+
+### [convert](#convert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.markdown.convert(markdown, [type]) -> output`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,3 +31,4 @@ The Lua wrapper portion is licensed under the MIT license by the Hammerspoon dev
 | **Returns**                                 | <ul><li>an HTML or plaintext representation of the markdown encoded text provided.</li></ul>          |
 | **Notes**                                   | <ul><li>The standard GitHub/Markdown extensions enabled for all conversions are:</li><li>  NO_INTRA_EMPHASIS -  disallow emphasis inside of words</li><li>  LAX_SPACING       - supports spacing like in Markdown 1.0.0 (i.e. do not require an empty line between two different blocks in a paragraph)</li><li>  STRIKETHROUGH     - support strikethrough with double tildes (~)</li><li>  TABLES            - support Markdown tables</li><li>  FENCED_CODE       - supports fenced code blocks surround by three back-ticks (`) or three tildes (~)</li><li>  AUTOLINK          - HTTP URL's are treated as links, even if they aren't marked as such with Markdown tags</li><li></li><li>The "gfm" type also includes the following extensions:</li><li> HARD_WRAP     - line breaks are replaced with <br> entities</li><li> SPACE_HEADERS - require a space between the `#` and the name of a header (prevents collisions with the Issues filter)</li></ul>                |
 
+---

@@ -10,9 +10,13 @@ Show Timeline In Player.
 
 ### Constants
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.advanced.showtimelineinviewers.enabled <cp.prop: boolean; live>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Show Timeline in Player Enabled?                                                                     |
 
+---

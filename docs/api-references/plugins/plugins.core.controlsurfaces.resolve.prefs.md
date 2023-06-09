@@ -19,57 +19,92 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ### Fields
 
-| [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)         |                                                                                     |
+
+### [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.changeBankOnHardwareWhenChangingHere <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we change bank on hardware when changing in preferences?                                                                     |
 
-| [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)         |                                                                                     |
+---
+
+### [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.displayMessageWhenChangingBanks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display a message when changing banks?                                                                     |
 
-| [lastDevice](#lastDevice)         |                                                                                     |
+---
+
+### [lastDevice](#lastDevice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastDevice <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Device used in the Preferences Panel.                                                                     |
 
-| [lastExportPath](#lastExportPath)         |                                                                                     |
+---
+
+### [lastExportPath](#lastExportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 
-| [lastImportPath](#lastImportPath)         |                                                                                     |
+---
+
+### [lastImportPath](#lastImportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 
-| [lastUnit](#lastUnit)         |                                                                                     |
+---
+
+### [lastUnit](#lastUnit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastUnit <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Unit used in the Preferences Panel.                                                                     |
 
-| [pasteboard](#pasteboard)         |                                                                                     |
+---
+
+### [pasteboard](#pasteboard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.pasteboard <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pasteboard                                                                     |
 
-| [snippetsRefreshFrequency](#snippetsRefreshFrequency)         |                                                                                     |
+---
+
+### [snippetsRefreshFrequency](#snippetsRefreshFrequency)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.snippetsRefreshFrequency <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | How often snippets are refreshed.                                                                     |
 
+---
 ### Methods
 
-| [setItem](#setItem)         |                                                                                     |
+
+### [setItem](#setItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.setItem(app, bank, button, key, [value]) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,3 +113,4 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

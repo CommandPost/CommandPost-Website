@@ -24,21 +24,32 @@ Menu Manager Plugin.
 
 ### Variables
 
-| [rootSection](#rootSection)         |                                                                                     |
+
+### [rootSection](#rootSection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.rootSection() -> section`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A new Root Section                                                                     |
 
-| [titleSuffix](#titleSuffix)         |                                                                                     |
+---
+
+### [titleSuffix](#titleSuffix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.titleSuffix() -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Title Suffix's                                                                     |
 
+---
 ### Functions
 
-| [addSection](#addSection)         |                                                                                     |
+
+### [addSection](#addSection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.addSection(priority) -> section`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,7 +58,11 @@ Menu Manager Plugin.
 | **Returns**                                 | <ul><li>section - The section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addTitleSuffix](#addTitleSuffix)         |                                                                                     |
+---
+
+### [addTitleSuffix](#addTitleSuffix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.addTitleSuffix(fnTitleSuffix)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +71,11 @@ Menu Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disable](#disable)         |                                                                                     |
+---
+
+### [disable](#disable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.disable(priority) -> menubaritem`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +84,11 @@ Menu Manager Plugin.
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enable](#enable)         |                                                                                     |
+---
+
+### [enable](#enable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.enable(priority) -> menubaritem`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +97,11 @@ Menu Manager Plugin.
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generateMenuTable](#generateMenuTable)         |                                                                                     |
+---
+
+### [generateMenuTable](#generateMenuTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.generateMenuTable()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +110,11 @@ Menu Manager Plugin.
 | **Returns**                                 | <ul><li>The Menu Table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +123,11 @@ Menu Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateMenubarIcon](#updateMenubarIcon)         |                                                                                     |
+---
+
+### [updateMenubarIcon](#updateMenubarIcon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.updateMenubarIcon(priority) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,11 +136,16 @@ Menu Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [displayMenubarAsIcon](#displayMenubarAsIcon)         |                                                                                     |
+
+### [displayMenubarAsIcon](#displayMenubarAsIcon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.displayMenubarAsIcon <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the menubar item will be the app icon. If not, it will be the app name.                                                                     |
 
+---

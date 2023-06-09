@@ -19,7 +19,10 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 
 ### Constructors
 
-| [List](#List)         |                                                                                     |
+
+### [List](#List)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.List(values) -> List`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -28,9 +31,13 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>List(someTable)</li><li>```</li></ul>                |
 
+---
 ### Methods
 
-| [Sorted](#Sorted)         |                                                                                     |
+
+### [Sorted](#Sorted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.List:Sorted() -> List.Sorted`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,7 +46,11 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Returns**                                 | <ul><li>The `Sorted` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):Sorted()</li><li>```</li></ul>                |
 
-| [SortedBy](#SortedBy)         |                                                                                     |
+---
+
+### [SortedBy](#SortedBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.List:SortedBy(...) -> List.SortedBy`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,3 +59,4 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Returns**                                 | <ul><li>The `SortedBy` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):SortedBy(function(a, b) return b < a)</li><li>```</li></ul>                |
 
+---

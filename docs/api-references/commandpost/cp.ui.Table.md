@@ -10,7 +10,10 @@ A Table UI element. It extends [GridElement](cp.ui.GridElement.md), so will inhe
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Table.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ A Table UI element. It extends [GridElement](cp.ui.GridElement.md), so will inhe
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

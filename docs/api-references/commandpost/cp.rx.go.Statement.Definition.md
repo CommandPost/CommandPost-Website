@@ -15,7 +15,10 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Definition.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -24,9 +27,13 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>`true` if the thing is a `Statement.Definition`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [define](#define)         |                                                                                     |
+
+### [define](#define)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Definition:define() -> Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -35,7 +42,11 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>The new [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onInit](#onInit)         |                                                                                     |
+---
+
+### [onInit](#onInit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Definition:onInit(initFn) -> Statement.Definition`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -44,7 +55,11 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>The Statement Definition</li></ul>          |
 | **Notes**                                   | <ul><li>* The function will be passed the `context` table as the first parameter,</li><li>  and any other parameters passed to the statement follow.</li></ul>                |
 
-| [onObservable](#onObservable)         |                                                                                     |
+---
+
+### [onObservable](#onObservable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Definition:onObservable(observableFn) -> Statement.Definition`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -53,3 +68,4 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>The `Statement.Definition`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -16,39 +16,62 @@ Feedback Form.
 
 ### Variables
 
-| [defaultHeight](#defaultHeight)         |                                                                                     |
+
+### [defaultHeight](#defaultHeight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.feedback.defaultHeight -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview height.                                                                     |
 
-| [defaultTitle](#defaultTitle)         |                                                                                     |
+---
+
+### [defaultTitle](#defaultTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.feedback.defaultTitle -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview title.                                                                     |
 
-| [defaultWidth](#defaultWidth)         |                                                                                     |
+---
+
+### [defaultWidth](#defaultWidth)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.feedback.defaultWidth -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview width.                                                                     |
 
-| [position](#position)         |                                                                                     |
+---
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.feedback.position -> prop`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Webview Position.                                                                     |
 
-| [quitOnComplete](#quitOnComplete)         |                                                                                     |
+---
+
+### [quitOnComplete](#quitOnComplete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.feedback.quitOnComplete -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Quit on complete?                                                                     |
 
+---
 ### Functions
 
-| [showFeedback](#showFeedback)         |                                                                                     |
+
+### [showFeedback](#showFeedback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.feedback.showFeedback(quitOnComplete) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,3 +80,4 @@ Feedback Form.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

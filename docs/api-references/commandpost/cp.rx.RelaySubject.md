@@ -14,7 +14,10 @@ produced values upon reference.
 
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.RelaySubject.create([n]) -> cp.rx.RelaySubject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -23,9 +26,13 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>The new `ReplaySubject.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [onNext](#onNext)         |                                                                                     |
+
+### [onNext](#onNext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.RelaySubject:onNext(...) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -34,7 +41,11 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subscribe](#subscribe)         |                                                                                     |
+---
+
+### [subscribe](#subscribe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.RelaySubject:subscribe([observer [, onError[, onCompleted]]]) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -43,3 +54,4 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

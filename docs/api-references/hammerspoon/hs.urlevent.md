@@ -31,23 +31,34 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ### Variables
 
-| [httpCallback](#httpCallback)         |                                                                                     |
+
+### [httpCallback](#httpCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.httpCallback`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A function that should handle http:// and https:// URL events                                                                     |
 | **Notes**                                   | <ul><li>The function should handle four arguments:</li><li> scheme - A string containing the URL scheme (i.e. "http")</li><li> host - A string containing the host requested (e.g. "www.commandpost.org")</li><li> params - A table containing the key/value pairs of all the URL parameters</li><li> fullURL - A string containing the full, original URL</li><li> senderPID - An integer containing the PID of the application that opened the URL, if available (otherwise -1)</li></ul>                |
 
-| [mailtoCallback](#mailtoCallback)         |                                                                                     |
+---
+
+### [mailtoCallback](#mailtoCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.mailtoCallback`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A function that should handle mailto: URL events                                                                     |
 | **Notes**                                   | <ul><li>The function should handle four arguments:</li><li> scheme - A string containing the URI scheme (i.e. "mailto")</li><li> host - A string containing the host requested (typically nil)</li><li> params - A table containing the key/value pairs of all the URL parameters, typically empty</li><li> fullURL - A string containing the full, original URI</li><li> senderPID - An integer containing the PID of the application that opened the URI, if available (otherwise -1)</li></ul>                |
 
+---
 ### Functions
 
-| [bind](#bind)         |                                                                                     |
+
+### [bind](#bind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.bind(eventName, callback)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +67,11 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should accept two parameters:</li><li> eventName - A string containing the name of the event</li><li> params - A table containing key/value string pairs containing any URL parameters that were specified in the URL</li><li> senderPID - An integer containing the PID of the sending application, if available (otherwise -1)</li><li>Given the URL `commandpost://doThingA?value=1` The event name is `doThingA` and the callback's `params` argument will be a table containing `{["value"] = "1"}`</li></ul>                |
 
-| [getAllHandlersForScheme](#getAllHandlersForScheme)         |                                                                                     |
+---
+
+### [getAllHandlersForScheme](#getAllHandlersForScheme)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.getAllHandlersForScheme(scheme) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +80,11 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Returns**                                 | <ul><li>A table containing the bundle identifiers of all applications that can handle the scheme</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDefaultHandler](#getDefaultHandler)         |                                                                                     |
+---
+
+### [getDefaultHandler](#getDefaultHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.getDefaultHandler(scheme) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +93,11 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Returns**                                 | <ul><li>A string containing the bundle identifier of the current default application</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [openURL](#openURL)         |                                                                                     |
+---
+
+### [openURL](#openURL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.openURL(url)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +106,11 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Returns**                                 | <ul><li>A boolean, true if the URL was opened successfully, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [openURLWithBundle](#openURLWithBundle)         |                                                                                     |
+---
+
+### [openURLWithBundle](#openURLWithBundle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.openURLWithBundle(url, bundleID) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +119,11 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Returns**                                 | <ul><li>True if the application was launched successfully, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setDefaultHandler](#setDefaultHandler)         |                                                                                     |
+---
+
+### [setDefaultHandler](#setDefaultHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.setDefaultHandler(scheme[, bundleID])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +132,11 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Changing the default handler for http/https URLs will display a system prompt asking the user to confirm the change</li></ul>                |
 
-| [setRestoreHandler](#setRestoreHandler)         |                                                                                     |
+---
+
+### [setRestoreHandler](#setRestoreHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.urlevent.setRestoreHandler(scheme, bundleID)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,3 +145,4 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>You don't have to call this function if you want CommandPost to permanently be your default handler. Only use this if you want the handler to be automatically reverted to something else when CommandPost exits/reloads.</li></ul>                |
 
+---

@@ -23,7 +23,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings.source.table.new(context) -> source`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -32,9 +35,13 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The new plist `source` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [add](#add)         |                                                                                     |
+
+### [add](#add)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings.source.table:add(keyValues) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -43,7 +50,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The `cp.string.source`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [context](#context)         |                                                                                     |
+---
+
+### [context](#context)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings.source.table:context([context]) -> table | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -52,7 +63,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>mySource:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul>                |
 
-| [find](#find)         |                                                                                     |
+---
+
+### [find](#find)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings.source.table:find(key) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -61,3 +76,4 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

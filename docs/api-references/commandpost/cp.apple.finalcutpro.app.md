@@ -13,18 +13,26 @@ if only the trial version of FCPX is installed and use that instead.
 
 ### Constants
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.app <cp.app>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The [app](cp.app.md) for Final Cut Pro.                                                                     |
 | **Notes**                                   | <ul><li>All values from [app](cp.app.md) can be accessed directly from the `finalcutpro` instance.</li></ul>                |
 
+---
 ### Fields
 
-| [application](#application)         |                                                                                     |
+
+### [application](#application)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.application <cp.prop: hs.application; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the running `hs.application` for Final Cut Pro, or `nil` if it's not running.                                                                     |
 
+---

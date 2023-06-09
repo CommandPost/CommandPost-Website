@@ -35,27 +35,42 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ### Constants
 
-| [state_paused](#state_paused)         |                                                                                     |
+
+### [state_paused](#state_paused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.state_paused`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is paused                                                                     |
 
-| [state_playing](#state_playing)         |                                                                                     |
+---
+
+### [state_playing](#state_playing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.state_playing`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is playing                                                                     |
 
-| [state_stopped](#state_stopped)         |                                                                                     |
+---
+
+### [state_stopped](#state_stopped)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.state_stopped`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is stopped                                                                     |
 
+---
 ### Functions
 
-| [displayCurrentTrack](#displayCurrentTrack)         |                                                                                     |
+
+### [displayCurrentTrack](#displayCurrentTrack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.displayCurrentTrack()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -64,7 +79,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ff](#ff)         |                                                                                     |
+---
+
+### [ff](#ff)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.ff()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -73,7 +92,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentAlbum](#getCurrentAlbum)         |                                                                                     |
+---
+
+### [getCurrentAlbum](#getCurrentAlbum)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.getCurrentAlbum()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -82,7 +105,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentArtist](#getCurrentArtist)         |                                                                                     |
+---
+
+### [getCurrentArtist](#getCurrentArtist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.getCurrentArtist()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -91,7 +118,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentTrack](#getCurrentTrack)         |                                                                                     |
+---
+
+### [getCurrentTrack](#getCurrentTrack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.getCurrentTrack()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -100,7 +131,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPlaybackState](#getPlaybackState)         |                                                                                     |
+---
+
+### [getPlaybackState](#getPlaybackState)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.getPlaybackState()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -109,7 +144,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.deezer.state_stopped`</li><li>   - `hs.deezer.state_paused`</li><li>   - `hs.deezer.state_playing`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPosition](#getPosition)         |                                                                                     |
+---
+
+### [getPosition](#getPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.getPosition()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -118,7 +157,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getVolume](#getVolume)         |                                                                                     |
+---
+
+### [getVolume](#getVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.getVolume()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -127,7 +170,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A number containing the volume deezer is set to between 1 and 100</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isPlaying](#isPlaying)         |                                                                                     |
+---
+
+### [isPlaying](#isPlaying)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.isPlaying()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -136,7 +183,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A boolean value indicating whether deezer is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isRunning](#isRunning)         |                                                                                     |
+---
+
+### [isRunning](#isRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.isRunning()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -145,7 +196,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>A boolean value indicating whether the deezer application is running.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [next](#next)         |                                                                                     |
+---
+
+### [next](#next)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.next()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -154,7 +209,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pause](#pause)         |                                                                                     |
+---
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.pause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -163,7 +222,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [play](#play)         |                                                                                     |
+---
+
+### [play](#play)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.play()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -172,7 +235,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playpause](#playpause)         |                                                                                     |
+---
+
+### [playpause](#playpause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.playpause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -181,7 +248,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [previous](#previous)         |                                                                                     |
+---
+
+### [previous](#previous)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.previous()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -190,7 +261,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rw](#rw)         |                                                                                     |
+---
+
+### [rw](#rw)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.rw()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -199,7 +274,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setPosition](#setPosition)         |                                                                                     |
+---
+
+### [setPosition](#setPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.setPosition(pos)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -208,7 +287,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setVolume](#setVolume)         |                                                                                     |
+---
+
+### [setVolume](#setVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.setVolume(vol)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -217,7 +300,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeDown](#volumeDown)         |                                                                                     |
+---
+
+### [volumeDown](#volumeDown)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.volumeDown()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -226,7 +313,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeUp](#volumeUp)         |                                                                                     |
+---
+
+### [volumeUp](#volumeUp)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.deezer.volumeUp()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -235,3 +326,4 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

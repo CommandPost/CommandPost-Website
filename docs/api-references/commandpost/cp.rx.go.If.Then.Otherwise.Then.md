@@ -10,7 +10,10 @@ Each [Otherwise](cp.rx.go.If.Then.Otherwise.md) can have a subsequent `Then` whi
 
 ### Methods
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If.Then.Otherwise.Then:Then(...) -> If.Then.Otherwise.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -19,3 +22,4 @@ Each [Otherwise](cp.rx.go.If.Then.Otherwise.md) can have a subsequent `Then` whi
 | **Returns**                                 | <ul><li>The new `Then` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

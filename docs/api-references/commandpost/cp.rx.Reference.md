@@ -13,7 +13,10 @@ work required to clean up after the Observable completes or the Observer cancels
 
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Reference.create(action) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -22,9 +25,13 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Returns**                                 | <ul><li>the [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Reference:cancel() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -33,3 +40,4 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

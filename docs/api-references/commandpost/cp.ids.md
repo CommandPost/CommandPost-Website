@@ -17,7 +17,10 @@ Allows managing values/IDs which can vary between versions.
 
 ### Functions
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ids.new(path[, currentVersionFn]) -> cp.ids`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A new `cp.ids` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [currentVersion](#currentVersion)         |                                                                                     |
+
+### [currentVersion](#currentVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ids:currentVersion() -> semver`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -37,7 +44,11 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A `semver` with the version number or `nil` if none is available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [load](#load)         |                                                                                     |
+---
+
+### [load](#load)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ids:load([version]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A table containing all the IDs</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [of](#of)         |                                                                                     |
+---
+
+### [of](#of)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ids:of(version, subset) -> function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +70,11 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A function that will return the value of the specified `subset` ID for the specified version.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>local id = ids:of("10.4.0", "CommandEditor")</li><li>print "bar = "..id("bar")</li><li>```</li></ul>                |
 
-| [ofCurrent](#ofCurrent)         |                                                                                     |
+---
+
+### [ofCurrent](#ofCurrent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ids:ofCurrent(subset) -> function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +83,11 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A function that will return the value of the specified `subset` ID for the current version.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [previousVersion](#previousVersion)         |                                                                                     |
+---
+
+### [previousVersion](#previousVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ids:previousVersion([version]) -> semver`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +96,11 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A `semver` instance for the previous version.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [versions](#versions)         |                                                                                     |
+---
+
+### [versions](#versions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ids:versions() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,3 +109,4 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A table of `semver` objects.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

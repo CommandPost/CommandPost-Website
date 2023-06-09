@@ -25,7 +25,10 @@ Represents a Tangent Group
 
 ### Constructors
 
-| [controls](#controls)         |                                                                                     |
+
+### [controls](#controls)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls(manager) -> Group`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,23 +37,35 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>A new `Group` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [active](#active)         |                                                                                     |
+
+### [active](#active)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls.active <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the controls are active. They will be active if `enabled` is `true`.                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the controls are enabled.                                                                     |
 
+---
 ### Methods
 
-| [action](#action)         |                                                                                     |
+
+### [action](#action)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:action(id[, name]) -> action`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -59,7 +74,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `action`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [controls](#controls)         |                                                                                     |
+---
+
+### [controls](#controls)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:controls() -> controls`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -68,7 +87,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The `controls instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findByID](#findByID)         |                                                                                     |
+---
+
+### [findByID](#findByID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:findByID(id) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -77,7 +100,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The control, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [group](#group)         |                                                                                     |
+---
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:group(name) -> group`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +113,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `group`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [menu](#menu)         |                                                                                     |
+---
+
+### [menu](#menu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:menu(id[, name]) -> menu`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +126,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `menu`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parameter](#parameter)         |                                                                                     |
+---
+
+### [parameter](#parameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:parameter(id[, name]) -> parameter`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,7 +139,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `parameter`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:parent() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,7 +152,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>`nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [register](#register)         |                                                                                     |
+---
+
+### [register](#register)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:register(control) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -122,7 +165,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tangent](#tangent)         |                                                                                     |
+---
+
+### [tangent](#tangent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:tangent() -> hs.tangent`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -131,7 +178,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The `hs.tangent`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unregister](#unregister)         |                                                                                     |
+---
+
+### [unregister](#unregister)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:unregister(control) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -140,7 +191,11 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.controls:xml() -> cp.web.xml`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -149,3 +204,4 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The `xml` for the Group.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

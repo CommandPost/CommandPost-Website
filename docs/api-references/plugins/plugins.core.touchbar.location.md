@@ -15,7 +15,10 @@ Virtual Touch Bar Update Location Callback
 
 ### Methods
 
-| [callbackFn](#callbackFn)         |                                                                                     |
+
+### [callbackFn](#callbackFn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.location:callbackFn() -> function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -24,7 +27,11 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.location:delete() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -33,7 +40,11 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [get](#get)         |                                                                                     |
+---
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.location:get(id) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,7 +53,11 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getAll](#getAll)         |                                                                                     |
+---
+
+### [getAll](#getAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.location:getAll() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -51,7 +66,11 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.location:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +79,11 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>The ID of the current File Dropped to Dock Icon Callback as a `string`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.location:new(id, callbackFn) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,3 +92,4 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

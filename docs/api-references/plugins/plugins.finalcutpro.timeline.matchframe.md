@@ -14,15 +14,22 @@ Match Frame Tools for Final Cut Pro.
 
 ### Variables
 
-| [hiddenKeywords](#hiddenKeywords)         |                                                                                     |
+
+### [hiddenKeywords](#hiddenKeywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.matchframe.hiddenKeywords <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Favourite Keywords                                                                     |
 
+---
 ### Functions
 
-| [getMulticamAngleFromSelectedClip](#getMulticamAngleFromSelectedClip)         |                                                                                     |
+
+### [getMulticamAngleFromSelectedClip](#getMulticamAngleFromSelectedClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.matchframe.getMulticamAngleFromSelectedClip() -> angle | boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ Match Frame Tools for Final Cut Pro.
 | **Returns**                                 | <ul><li>Angle or `false` on error</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matchFrame](#matchFrame)         |                                                                                     |
+---
+
+### [matchFrame](#matchFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.matchframe.matchFrame() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Match Frame Tools for Final Cut Pro.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [multicamMatchFrame](#multicamMatchFrame)         |                                                                                     |
+---
+
+### [multicamMatchFrame](#multicamMatchFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.matchframe.multicamMatchFrame(goBackToTimeline) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,3 +64,4 @@ Match Frame Tools for Final Cut Pro.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

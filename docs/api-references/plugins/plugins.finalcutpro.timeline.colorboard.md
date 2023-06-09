@@ -14,7 +14,10 @@ Color Board Plugins.
 
 ### Functions
 
-| [colorBoardMousePuckRelease](#colorBoardMousePuckRelease)         |                                                                                     |
+
+### [colorBoardMousePuckRelease](#colorBoardMousePuckRelease)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.colorboard.colorBoardMousePuckRelease() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,7 +26,11 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [nextAspect](#nextAspect)         |                                                                                     |
+---
+
+### [nextAspect](#nextAspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.colorboard.nextAspect() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +39,11 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [startMousePuck](#startMousePuck)         |                                                                                     |
+---
+
+### [startMousePuck](#startMousePuck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.colorboard.startMousePuck(aspect, property) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,7 +52,11 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [startShiftingPuck](#startShiftingPuck)         |                                                                                     |
+---
+
+### [startShiftingPuck](#startShiftingPuck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.colorboard.startShiftingPuck(puck, percentShift, angleShift) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +65,11 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stopShiftingPuck](#stopShiftingPuck)         |                                                                                     |
+---
+
+### [stopShiftingPuck](#stopShiftingPuck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.colorboard.stopShiftingPuck() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,3 +78,4 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

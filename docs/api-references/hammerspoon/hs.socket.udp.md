@@ -119,16 +119,23 @@ from host: 192.168.0.3 port: 53057
 
 ### Variables
 
-| [timeout](#timeout)         |                                                                                     |
+
+### [timeout](#timeout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp.timeout`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Timeout for the socket operations, in seconds.                                                                     |
 | **Notes**                                   | <ul><li>New [`hs.socket.udp`](#new) objects will be created with this timeout value, but can individually change it with the [`hs.socket.udp:setTimeout`](#setTimeout) method.</li><li></li><li>If the timeout value is negative, the operations will not use a timeout. The default value is `-1`.</li></ul>                |
 
+---
 ### Functions
 
-| [parseAddress](#parseAddress)         |                                                                                     |
+
+### [parseAddress](#parseAddress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp.parseAddress(sockaddr) -> table or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -137,9 +144,13 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp.new([fn]) -> hs.socket.udp object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -148,7 +159,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>An [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [server](#server)         |                                                                                     |
+---
+
+### [server](#server)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp.server(port[, fn]) -> hs.socket.udp object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -157,9 +172,13 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>An [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [broadcast](#broadcast)         |                                                                                     |
+
+### [broadcast](#broadcast)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:broadcast([flag]) -> self or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -168,7 +187,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, the underlying socket in the OS will not allow you to send broadcast messages.</li><li>In order to send broadcast messages, you need to enable this functionality in the socket.</li><li>A broadcast is a UDP message to addresses like "192.168.255.255" or "255.255.255.255" that is delivered to every host on the network.</li><li>The reason this is generally disabled by default (by the OS) is to prevent accidental broadcast messages from flooding the network.</li></ul>                |
 
-| [close](#close)         |                                                                                     |
+---
+
+### [close](#close)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:close() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -177,7 +200,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [closed](#closed)         |                                                                                     |
+---
+
+### [closed](#closed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:closed() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -186,7 +213,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>`true` if the socket is closed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>UDP sockets are typically meant to be connectionless.</li><li>Sending a packet anywhere, regardless of whether or not the destination receives it, opens the socket until it is explicitly closed.</li><li>An active listening socket will not be closed, but will not be 'connected' unless the [`hs.socket.udp:connect`](#connect) method has been called.</li></ul>                |
 
-| [connect](#connect)         |                                                                                     |
+---
+
+### [connect](#connect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:connect(host, port[, fn]) -> self or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -195,7 +226,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>* By design, UDP is a connectionless protocol, and connecting is not needed.</li><li>* Choosing to connect to a specific host/port has the following effect:</li><li> You will only be able to send data to the connected host/port;</li><li> You will only be able to receive data from the connected host/port;</li><li> You will receive ICMP messages that come from the connected host/port, such as "connection refused".</li><li>* The actual process of connecting a UDP socket does not result in any communication on the socket, it simply changes the internal state of the socket.</li><li>* You cannot bind a socket for listening after it has been connected.</li><li>* You can only connect a socket once.</li></ul>                |
 
-| [connected](#connected)         |                                                                                     |
+---
+
+### [connected](#connected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:connected() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -204,7 +239,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>`true` if connected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>UDP sockets are typically meant to be connectionless.</li><li>This method will only return `true` if the [`hs.socket.udp:connect`](#connect) method has been explicitly called.</li></ul>                |
 
-| [enableIPv](#enableIPv)         |                                                                                     |
+---
+
+### [enableIPv](#enableIPv)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:enableIPv(version[, flag]) -> self or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -213,7 +252,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Must be called before binding the socket. If you want to create an IPv6-only server, do something like:</li><li>  `hs.socket.udp.new(callback):enableIPv(4, false):listen(port):receive()`</li><li>The convenience constructor [`hs.socket.server`](#server) will automatically bind the socket and requires closing and relistening to use this method.</li></ul>                |
 
-| [info](#info)         |                                                                                     |
+---
+
+### [info](#info)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:info() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -222,7 +265,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>A table containing the following keys:</li><li>  connectedAddress - `string` (`sockaddr` struct)</li><li>  connectedHost - `string`</li><li>  connectedPort - `number`</li><li>  isClosed - `boolean`</li><li>  isConnected - `boolean`</li><li>  isIPv4 - `boolean`</li><li>  isIPv4Enabled - `boolean`</li><li>  isIPv4Preferred - `boolean`</li><li>  isIPv6 - `boolean`</li><li>  isIPv6Enabled - `boolean`</li><li>  isIPv6Preferred - `boolean`</li><li>  isIPVersionNeutral - `boolean`</li><li>  localAddress - `string` (`sockaddr` struct)</li><li>  localAddress_IPv4 - `string` (`sockaddr` struct)</li><li>  localAddress_IPv6 - `string` (`sockaddr` struct)</li><li>  localHost - `string`</li><li>  localHost_IPv4 - `string`</li><li>  localHost_IPv6 - `string`</li><li>  localPort - `number`</li><li>  localPort_IPv4 - `number`</li><li>  localPort_IPv6 - `number`</li><li>  maxReceiveIPv4BufferSize - `number`</li><li>  maxReceiveIPv6BufferSize - `number`</li><li>  timeout - `number`</li><li>  userData - `string`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [listen](#listen)         |                                                                                     |
+---
+
+### [listen](#listen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:listen(port) -> self or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -231,7 +278,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pause](#pause)         |                                                                                     |
+---
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:pause() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -240,7 +291,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object</li></ul>          |
 | **Notes**                                   | <ul><li>Call one of the receive methods to resume.</li></ul>                |
 
-| [preferIPv](#preferIPv)         |                                                                                     |
+---
+
+### [preferIPv](#preferIPv)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:preferIPv([version]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -249,7 +304,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>If a DNS lookup returns only IPv4 results, the socket will automatically use IPv4.</li><li>If a DNS lookup returns only IPv6 results, the socket will automatically use IPv6.</li><li>If a DNS lookup returns both IPv4 and IPv6 results, then the protocol used depends on the configured preference.</li></ul>                |
 
-| [read](#read)         |                                                                                     |
+---
+
+### [read](#read)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:read(delimiter[, tag]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -258,7 +317,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [readOne](#readOne)         |                                                                                     |
+---
+
+### [readOne](#readOne)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:readOne(delimiter[, tag]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -267,7 +330,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [receive](#receive)         |                                                                                     |
+---
+
+### [receive](#receive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:receive([fn]) -> self or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -276,7 +343,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Results are passed to the [callback function](#setCallback), which must be set to use this method.</li><li>There are two modes of operation for receiving packets: one-at-a-time & continuous.</li><li>In one-at-a-time mode, you call receiveOne every time you are ready process an incoming UDP packet.</li><li>Receiving packets one-at-a-time may be better suited for implementing certain state machine code where your state machine may not always be ready to process incoming packets.</li><li>In continuous mode, the callback is invoked immediately every time incoming udp packets are received.</li><li>Receiving packets continuously is better suited to real-time streaming applications.</li><li>You may switch back and forth between one-at-a-time mode and continuous mode.</li><li>If the socket is currently in one-at-a-time mode, calling this method will switch it to continuous mode.</li></ul>                |
 
-| [receiveOne](#receiveOne)         |                                                                                     |
+---
+
+### [receiveOne](#receiveOne)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:receiveOne([fn]) -> self or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -285,7 +356,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Results are passed to the [callback function](#setCallback), which must be set to use this method.</li><li>There are two modes of operation for receiving packets: one-at-a-time & continuous.</li><li>In one-at-a-time mode, you call receiveOne every time you are ready process an incoming UDP packet.</li><li>Receiving packets one-at-a-time may be better suited for implementing certain state machine code where your state machine may not always be ready to process incoming packets.</li><li>In continuous mode, the callback is invoked immediately every time incoming udp packets are received.</li><li>Receiving packets continuously is better suited to real-time streaming applications.</li><li>You may switch back and forth between one-at-a-time mode and continuous mode.</li><li>If the socket is currently in continuous mode, calling this method will switch it to one-at-a-time mode</li></ul>                |
 
-| [reusePort](#reusePort)         |                                                                                     |
+---
+
+### [reusePort](#reusePort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:reusePort([flag]) -> self or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -294,7 +369,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, only one socket can be bound to a given IP address & port at a time.</li><li>To enable multiple processes to simultaneously bind to the same address & port, you need to enable this functionality in the socket.</li><li>All processes that wish to use the address & port simultaneously must all enable reuse port on the socket bound to that port.</li><li>Must be called before binding the socket.</li></ul>                |
 
-| [send](#send)         |                                                                                     |
+---
+
+### [send](#send)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:send(message[, host, port][, tag, fn]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -303,7 +382,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>For non-connected sockets, the remote destination is specified for each packet.</li><li>If the socket has been explicitly connected with [`connect`](#connect), only the message parameter and an optional tag and/or write callback can be supplied.</li><li>Recall that connecting is optional for a UDP socket.</li><li>For connected sockets, data can only be sent to the connected address.</li></ul>                |
 
-| [setBufferSize](#setBufferSize)         |                                                                                     |
+---
+
+### [setBufferSize](#setBufferSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:setBufferSize(size[, version]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -312,7 +395,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>The default maximum size is 9216 bytes.</li><li>The theoretical maximum size of any IPv4 UDP packet is `UINT16_MAX = 65535`.</li><li>The theoretical maximum size of any IPv6 UDP packet is `UINT32_MAX = 4294967295`.</li><li>Since the OS notifies us of the size of each received UDP packet, the actual allocated buffer size for each packet is exact.</li><li>In practice the size of UDP packets is generally much smaller than the max. Most protocols will send and receive packets of only a few bytes, or will set a limit on the size of packets to prevent fragmentation in the IP layer.</li><li>If you set the buffer size too small, the sockets API in the OS will silently discard any extra data.</li></ul>                |
 
-| [setCallback](#setCallback)         |                                                                                     |
+---
+
+### [setCallback](#setCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:setCallback([fn]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -323,7 +410,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>A callback must be set in order to read data from the socket.</li></ul>                |
 
-| [setTimeout](#setTimeout)         |                                                                                     |
+---
+
+### [setTimeout](#setTimeout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:setTimeout(timeout) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -332,7 +423,11 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li> If the timeout value is negative, the operations will not use a timeout, which is the default.</li></ul>                |
 
-| [write](#write)         |                                                                                     |
+---
+
+### [write](#write)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp:write(message[, tag]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -341,3 +436,4 @@ from host: 192.168.0.3 port: 53057
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

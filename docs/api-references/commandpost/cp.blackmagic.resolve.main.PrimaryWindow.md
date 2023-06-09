@@ -17,7 +17,10 @@ Primary Window Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.blackmagic.resolve.main.PrimaryWindow.matches(w) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ Primary Window Module.
 | **Returns**                                 | <ul><li>`true` if matched otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [PrimaryWindow](#PrimaryWindow)         |                                                                                     |
+
+### [PrimaryWindow](#PrimaryWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.blackmagic.resolve.main.PrimaryWindow(app) -> PrimaryWindow object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -37,24 +44,36 @@ Primary Window Module.
 | **Returns**                                 | <ul><li>PrimaryWindow</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.blackmagic.resolve.main.PrimaryWindow:doShow() -> PrimaryWindow`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the Primary Window.                                                                     |
 | **Returns**                                 | <ul><li>The `Statement`, which resolves as either `true` or sends an error.</li></ul>          |
 
-| [resolve](#resolve)         |                                                                                     |
+---
+
+### [resolve](#resolve)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.blackmagic.resolve.main.PrimaryWindow.resolve -> cp.blackmagic.resolve`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main `Resolve` application root.                                                                     |
 
+---
 ### Methods
 
-| [show](#show)         |                                                                                     |
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.blackmagic.resolve.main.PrimaryWindow:show() -> PrimaryWindow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,3 +82,4 @@ Primary Window Module.
 | **Returns**                                 | <ul><li>The `PrimaryWindow` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

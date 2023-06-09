@@ -23,7 +23,10 @@ Requires Final Cut Pro 10.4 or later.
 
 ### Functions
 
-| [CorrectionsBar](#CorrectionsBar)         |                                                                                     |
+
+### [CorrectionsBar](#CorrectionsBar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar(parent) -> CorrectionsBar`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +35,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li>A new CorrectionsBar object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,23 +48,35 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [correction](#correction)         |                                                                                     |
+
+### [correction](#correction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar.correction <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `MenuButton` that lists the current correction.                                                                     |
 
-| [menuButton](#menuButton)         |                                                                                     |
+---
+
+### [menuButton](#menuButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar.menuButton <MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The menu button.                                                                     |
 
+---
 ### Methods
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar:activate(correctionType, number) -> cp.apple.finalcutpro.inspector.color.CorrectionsBar`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +85,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li> `cp.apple.finalcutpro.inspector.color.CorrectionsBar` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [add](#add)         |                                                                                     |
+---
+
+### [add](#add)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar:add(correctionType) -> cp.apple.finalcutpro.inspector.color.CorrectionsBar`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,7 +98,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li> `cp.apple.finalcutpro.inspector.color.CorrectionsBar` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doActivate](#doActivate)         |                                                                                     |
+---
+
+### [doActivate](#doActivate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar:doActivate(correctionType, number) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +111,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li> The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,7 +124,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or send an `error` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findCorrectionLabel](#findCorrectionLabel)         |                                                                                     |
+---
+
+### [findCorrectionLabel](#findCorrectionLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar:findCorrectionLabel(correctionType) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -102,7 +137,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li>The correction label as string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.CorrectionsBar:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -111,3 +150,4 @@ Requires Final Cut Pro 10.4 or later.
 | **Returns**                                 | <ul><li>The `CorrectionsBar` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

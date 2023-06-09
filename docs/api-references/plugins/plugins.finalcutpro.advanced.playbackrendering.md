@@ -10,9 +10,13 @@ Playback Rendering Plugin.
 
 ### Variables
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.advanced.playbackrendering.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Gets whether or not Playback Rendering is enabled.                                                                     |
 
+---

@@ -51,7 +51,10 @@ share:stabilization():smoothing():show():value(1.5)
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.share.ShareInspector.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -60,9 +63,13 @@ share:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.share.ShareInspector.new(parent) -> cp.apple.finalcutpro.share.ShareInspector`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -71,3 +78,4 @@ share:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `ShareInspector` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

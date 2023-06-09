@@ -14,15 +14,22 @@ This allows you to assign any action to a shortcut key in CommandPost.
 
 ### Variables
 
-| [shortcuts](#shortcuts)         |                                                                                     |
+
+### [shortcuts](#shortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.actions.custom.shortcuts <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of shortcuts.                                                                     |
 
+---
 ### Functions
 
-| [apply](#apply)         |                                                                                     |
+
+### [apply](#apply)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.actions.custom.apply(id) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [assign](#assign)         |                                                                                     |
+---
+
+### [assign](#assign)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.actions.custom.assign(id, handlerId) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,3 +51,4 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

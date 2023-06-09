@@ -10,7 +10,10 @@ CommandPost's Internationalisation & Localisation Manger.
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.18n.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ CommandPost's Internationalisation & Localisation Manger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

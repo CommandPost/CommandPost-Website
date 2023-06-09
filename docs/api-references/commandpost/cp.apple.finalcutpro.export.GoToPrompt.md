@@ -22,7 +22,10 @@ Go To Prompt.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +34,11 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt.new(app) -> GoToPrompt`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,35 +47,55 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>A new GoToPrompt object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt.cancel <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Cancel" `Button`.                                                                     |
 
-| [go](#go)         |                                                                                     |
+---
+
+### [go](#go)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt.go <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Go" `Button`.                                                                     |
 
-| [valueCombo](#valueCombo)         |                                                                                     |
+---
+
+### [valueCombo](#valueCombo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt.valueCombo <cp.ui.ComboBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ComboBox` containing the folder value, if available.                                                                     |
 
-| [valueText](#valueText)         |                                                                                     |
+---
+
+### [valueText](#valueText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt.valueText <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` containing the folder value, if available.                                                                     |
 
+---
 ### Methods
 
-| [hide](#hide)         |                                                                                     |
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt:hide() -> cp.apple.finalcutpro.export.GoToPrompt`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -77,7 +104,11 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.GoToPrompt` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setValue](#setValue)         |                                                                                     |
+---
+
+### [setValue](#setValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt:setValue(value) -> cp.apple.finalcutpro.export.GoToPrompt`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +117,11 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.GoToPrompt` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt:show() -> cp.apple.finalcutpro.export.GoToPrompt`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +130,11 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.GoToPrompt` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt:value([newValue]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,7 +143,11 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The current value of the path.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [valueField](#valueField)         |                                                                                     |
+---
+
+### [valueField](#valueField)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.GoToPrompt:valueField() -> TextField | ComboField`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,3 +156,4 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `TextField` or `ComboField` containing the value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

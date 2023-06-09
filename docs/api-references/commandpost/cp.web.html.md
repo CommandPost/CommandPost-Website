@@ -49,7 +49,10 @@ There are two 'special' tag names:
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.html.is(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,9 +61,13 @@ There are two 'special' tag names:
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [append](#append)         |                                                                                     |
+
+### [append](#append)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.html:append(newContent[, escaped]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +76,11 @@ There are two 'special' tag names:
 | **Returns**                                 | <ul><li>The same HTML block instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `newContent` may be almost any value. The default handling is below:</li><li> ** `cp.web.html` instance: Any other HTML block can be added. Default escaping: `false`.</li><li> ** `function`: Functions will be executed every time the HTML block is converted to a string. Default escaping: whatever the default is for the returned value.</li><li> ** `list`: Tables which are lists will be iterrated and each item will be evaluated each time the HTML block is converted to a string. Default escaping: the default for each item.</li><li> ** _everything else_: Converted to a string via the `tostring` function. Default escaping: `true`.</li></ul>                |
 
-| [prepend](#prepend)         |                                                                                     |
+---
+
+### [prepend](#prepend)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.html:prepend(newContent[, escaped]) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,3 +89,4 @@ There are two 'special' tag names:
 | **Returns**                                 | <ul><li>The same HTML block instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `newContent` may be almost any value. The default handling is below:</li><li> ** `cp.web.html` instance: Any other HTML block can be added. Default escaping: `false`.</li><li> ** `function`: Functions will be executed every time the HTML block is converted to a string. Default escaping: whatever the default is for the returned value.</li><li> ** `list`: Tables which are lists will be iterrated and each item will be evaluated each time the HTML block is converted to a string. Default escaping: the default for each item.</li><li> ** _everything else_: Converted to a string via the `tostring` function. Default escaping: `true`.</li></ul>                |
 
+---

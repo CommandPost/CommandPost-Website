@@ -10,7 +10,10 @@ A [Statement.Modifier](cp.rx.go.Statement.Modifier.md) for [If](cp.rx.go.If.md) 
 
 ### Methods
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If.AreNot:Then(...) -> If.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -19,3 +22,4 @@ A [Statement.Modifier](cp.rx.go.Statement.Modifier.md) for [If](cp.rx.go.If.md) 
 | **Returns**                                 | <ul><li>An [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

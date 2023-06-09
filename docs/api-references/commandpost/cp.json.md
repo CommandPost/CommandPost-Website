@@ -14,7 +14,10 @@ A collection of handy JSON tools.
 
 ### Functions
 
-| [decode](#decode)         |                                                                                     |
+
+### [decode](#decode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.json.decode(jsonString) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,7 +26,11 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>A table representing the supplied JSON data</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for retrieving some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul>                |
 
-| [encode](#encode)         |                                                                                     |
+---
+
+### [encode](#encode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.json.encode(val[, prettyprint]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +39,11 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>A string containing a JSON representation of the supplied table</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for storing some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul>                |
 
-| [prop](#prop)         |                                                                                     |
+---
+
+### [prop](#prop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.json.prop(path, folder, filename, defaultValue[, errorCallbackFn]) -> cp.prop`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,7 +52,11 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>A `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The optional `errorCallbackFn` should accept one parameter, a string with</li><li>   the error message.</li></ul>                |
 
-| [read](#read)         |                                                                                     |
+---
+
+### [read](#read)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.json.read(path) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +65,11 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>The JSON file converted into table, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [write](#write)         |                                                                                     |
+---
+
+### [write](#write)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.json.write(path, data) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,3 +78,4 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>`true` if successfully saved, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

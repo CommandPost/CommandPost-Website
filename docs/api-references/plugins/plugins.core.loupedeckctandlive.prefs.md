@@ -24,21 +24,32 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ### Variables
 
-| [defaultIconPath](#defaultIconPath)         |                                                                                     |
+
+### [defaultIconPath](#defaultIconPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs.defaultIconPath -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
 
-| [supportedExtensions](#supportedExtensions)         |                                                                                     |
+---
+
+### [supportedExtensions](#supportedExtensions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs.supportedExtensions -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Icons.                                                                     |
 
+---
 ### Functions
 
-| [buildIconFromLabel](#buildIconFromLabel)         |                                                                                     |
+
+### [buildIconFromLabel](#buildIconFromLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:buildIconFromLabel(params) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,7 +58,11 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [processEncodedIcon](#processEncodedIcon)         |                                                                                     |
+---
+
+### [processEncodedIcon](#processEncodedIcon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:processEncodedIcon(icon, controlType) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +71,11 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateUI](#updateUI)         |                                                                                     |
+---
+
+### [updateUI](#updateUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:updateUI([params]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,9 +84,13 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs.new() -> Loupedeck`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -76,9 +99,13 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The deviceType should be either `hs.loupedeck.deviceTypes.LIVE`</li><li>   or `hs.loupedeck.deviceTypes.CT`.</li></ul>                |
 
+---
 ### Methods
 
-| [generateContent](#generateContent)         |                                                                                     |
+
+### [generateContent](#generateContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:generateContent() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +114,11 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>HTML content as string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generateKnobImages](#generateKnobImages)         |                                                                                     |
+---
+
+### [generateKnobImages](#generateKnobImages)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:generateKnobImages(app, bank, id) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +127,11 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [panelCallback](#panelCallback)         |                                                                                     |
+---
+
+### [panelCallback](#panelCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:panelCallback(id, params) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,7 +140,11 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [refreshDevice](#refreshDevice)         |                                                                                     |
+---
+
+### [refreshDevice](#refreshDevice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:refreshDevice() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,7 +153,11 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [renderPanel](#renderPanel)         |                                                                                     |
+---
+
+### [renderPanel](#renderPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:renderPanel(context) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -123,7 +166,11 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>HTML content as string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setItem](#setItem)         |                                                                                     |
+---
+
+### [setItem](#setItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.prefs:setItem(app, bank, controlType, id, valueA, valueB) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -132,3 +179,4 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

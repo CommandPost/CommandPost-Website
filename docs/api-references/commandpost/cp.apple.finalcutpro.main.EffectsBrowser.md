@@ -54,29 +54,44 @@ Effects Browser Module.
 
 ### Constants
 
-| [EFFECTS](#EFFECTS)         |                                                                                     |
+
+### [EFFECTS](#EFFECTS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.EFFECTS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Effects.                                                                     |
 
-| [TRANSITIONS](#TRANSITIONS)         |                                                                                     |
+---
+
+### [TRANSITIONS](#TRANSITIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.TRANSITIONS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Transitions.                                                                     |
 
+---
 ### Variables
 
-| [isShowing](#isShowing)         |                                                                                     |
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.isShowing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the Effects Browser showing?                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -85,9 +100,13 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [EffectsBrowser](#EffectsBrowser)         |                                                                                     |
+
+### [EffectsBrowser](#EffectsBrowser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser(parent, type) -> EffectsBrowser`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -96,53 +115,85 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>A new `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contents](#contents)         |                                                                                     |
+
+### [contents](#contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.contents <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Effects Browser Contents.                                                                     |
 
-| [group](#group)         |                                                                                     |
+---
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.group <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group `PopUpButton`.                                                                     |
 
-| [mainGroupUI](#mainGroupUI)         |                                                                                     |
+---
+
+### [mainGroupUI](#mainGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:mainGroupUI() -> <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Main Group UI.                                                                     |
 
-| [search](#search)         |                                                                                     |
+---
+
+### [search](#search)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.search <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Search `PopUpButton` object.                                                                     |
 
-| [sidebar](#sidebar)         |                                                                                     |
+---
+
+### [sidebar](#sidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.sidebar <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The sidebar `Table` object.                                                                     |
 
-| [sidebarToggle](#sidebarToggle)         |                                                                                     |
+---
+
+### [sidebarToggle](#sidebarToggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.sidebarToggle <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sidebar Toggle.                                                                     |
 
-| [toggleButton](#toggleButton)         |                                                                                     |
+---
+
+### [toggleButton](#toggleButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.toggleButton <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Effects Browser Toggle Button.                                                                     |
 
+---
 ### Methods
 
-| [applyItem](#applyItem)         |                                                                                     |
+
+### [applyItem](#applyItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:applyItem(itemUI) -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +202,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [audioCategoryRowsUI](#audioCategoryRowsUI)         |                                                                                     |
+---
+
+### [audioCategoryRowsUI](#audioCategoryRowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:audioCategoryRowsUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +215,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [currentItemsUI](#currentItemsUI)         |                                                                                     |
+---
+
+### [currentItemsUI](#currentItemsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:currentItemsUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +228,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHideSidebar](#doHideSidebar)         |                                                                                     |
+---
+
+### [doHideSidebar](#doHideSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:doHideSidebar() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +241,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +254,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowSidebar](#doShowSidebar)         |                                                                                     |
+---
+
+### [doShowSidebar](#doShowSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:doShowSidebar() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,7 +267,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doToggleSidebar](#doToggleSidebar)         |                                                                                     |
+---
+
+### [doToggleSidebar](#doToggleSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:doToggleSidebar() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -205,7 +280,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentTitles](#getCurrentTitles)         |                                                                                     |
+---
+
+### [getCurrentTitles](#getCurrentTitles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:getCurrentTitles() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -214,7 +293,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:hide() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -223,7 +306,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hideSidebar](#hideSidebar)         |                                                                                     |
+---
+
+### [hideSidebar](#hideSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:hideSidebar() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -232,7 +319,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [itemIsSelected](#itemIsSelected)         |                                                                                     |
+---
+
+### [itemIsSelected](#itemIsSelected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:itemIsSelected(itemUI) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -241,7 +332,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`true` if the item is selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -250,7 +345,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -259,7 +358,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>A table containing the current Effects Browser Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedItemsUI](#selectedItemsUI)         |                                                                                     |
+---
+
+### [selectedItemsUI](#selectedItemsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:selectedItemsUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -268,7 +371,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:show() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -277,7 +384,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showAllAudioEffects](#showAllAudioEffects)         |                                                                                     |
+---
+
+### [showAllAudioEffects](#showAllAudioEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showAllAudioEffects() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -286,7 +397,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showAllEffects](#showAllEffects)         |                                                                                     |
+---
+
+### [showAllEffects](#showAllEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showAllEffects() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -295,7 +410,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showAllTransitions](#showAllTransitions)         |                                                                                     |
+---
+
+### [showAllTransitions](#showAllTransitions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showAllTransitions() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -304,7 +423,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showAllVideoEffects](#showAllVideoEffects)         |                                                                                     |
+---
+
+### [showAllVideoEffects](#showAllVideoEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showAllVideoEffects() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -313,7 +436,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showAudioCategory](#showAudioCategory)         |                                                                                     |
+---
+
+### [showAudioCategory](#showAudioCategory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showAudioCategory(name) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -322,7 +449,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The browser.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showInstalledEffects](#showInstalledEffects)         |                                                                                     |
+---
+
+### [showInstalledEffects](#showInstalledEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showInstalledEffects() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -331,7 +462,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showInstalledTransitions](#showInstalledTransitions)         |                                                                                     |
+---
+
+### [showInstalledTransitions](#showInstalledTransitions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showInstalledTransitions() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -340,7 +475,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showSidebar](#showSidebar)         |                                                                                     |
+---
+
+### [showSidebar](#showSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showSidebar() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -349,7 +488,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showTransitionsCategory](#showTransitionsCategory)         |                                                                                     |
+---
+
+### [showTransitionsCategory](#showTransitionsCategory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showTransitionsCategory(name) -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -358,7 +501,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showVideoCategory](#showVideoCategory)         |                                                                                     |
+---
+
+### [showVideoCategory](#showVideoCategory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:showVideoCategory(name) -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -367,7 +514,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggleSidebar](#toggleSidebar)         |                                                                                     |
+---
+
+### [toggleSidebar](#toggleSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:toggleSidebar() -> EffectsBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -376,7 +527,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [type](#type)         |                                                                                     |
+---
+
+### [type](#type)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:type() -> App`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -385,7 +540,11 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [videoCategoryRowsUI](#videoCategoryRowsUI)         |                                                                                     |
+---
+
+### [videoCategoryRowsUI](#videoCategoryRowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:videoCategoryRowsUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -394,3 +553,4 @@ Effects Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

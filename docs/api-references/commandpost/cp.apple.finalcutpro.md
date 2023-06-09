@@ -196,95 +196,154 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ### Constants
 
-| [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)         |                                                                                     |
+
+### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_AUDIO_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of audio file extensions Final Cut Pro can import.                                                                     |
 
-| [ALLOWED_IMPORT_EXTENSIONS](#ALLOWED_IMPORT_EXTENSIONS)         |                                                                                     |
+---
+
+### [ALLOWED_IMPORT_EXTENSIONS](#ALLOWED_IMPORT_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of all file extensions Final Cut Pro can import.                                                                     |
 
-| [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)         |                                                                                     |
+---
+
+### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_IMAGE_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of image file extensions Final Cut Pro can import.                                                                     |
 
-| [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)         |                                                                                     |
+---
+
+### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_VIDEO_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of video file extensions Final Cut Pro can import.                                                                     |
 
-| [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)         |                                                                                     |
+---
+
+### [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version of Final Cut Pro supported by this module.                                                                     |
 
-| [EVENT_DESCRIPTION_PATH](#EVENT_DESCRIPTION_PATH)         |                                                                                     |
+---
+
+### [EVENT_DESCRIPTION_PATH](#EVENT_DESCRIPTION_PATH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.EVENT_DESCRIPTION_PATH -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The Event Description Path.                                                                     |
 
-| [FLEXO_LANGUAGES](#FLEXO_LANGUAGES)         |                                                                                     |
+---
+
+### [FLEXO_LANGUAGES](#FLEXO_LANGUAGES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.FLEXO_LANGUAGES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Final Cut Pro's supported Languages for the Flexo Framework                                                                     |
 
-| [PASTEBOARD_UTI](#PASTEBOARD_UTI)         |                                                                                     |
+---
+
+### [PASTEBOARD_UTI](#PASTEBOARD_UTI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.PASTEBOARD_UTI -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Final Cut Pro's Pasteboard UTI                                                                     |
 
-| [preferences](#preferences)         |                                                                                     |
+---
+
+### [preferences](#preferences)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.preferences <cp.app.prefs>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for Final Cut Pro.                                                                     |
 
-| [WORKSPACES_PATH](#WORKSPACES_PATH)         |                                                                                     |
+---
+
+### [WORKSPACES_PATH](#WORKSPACES_PATH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.WORKSPACES_PATH -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to the custom workspaces folder.                                                                     |
 
+---
 ### Variables
 
-| [activeCommandSet](#activeCommandSet)         |                                                                                     |
+
+### [activeCommandSet](#activeCommandSet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.activeCommandSet <cp.prop: table; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Contins the 'Active Command Set' as a `table`. The result is cached, but                                                                     |
 
-| [customWorkspaces](#customWorkspaces)         |                                                                                     |
+---
+
+### [customWorkspaces](#customWorkspaces)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:customWorkspaces <cp.prop: table; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing the display names of all the user created custom workspaces.                                                                     |
 
-| [openAndSavePanelDefaultPath](#openAndSavePanelDefaultPath)         |                                                                                     |
+---
+
+### [openAndSavePanelDefaultPath](#openAndSavePanelDefaultPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:openAndSavePanelDefaultPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A string containing the default open/save panel path.                                                                     |
 
-| [selectedWorkspace](#selectedWorkspace)         |                                                                                     |
+---
+
+### [selectedWorkspace](#selectedWorkspace)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.selectedWorkspace <cp.prop: string; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The currently selected workspace name. The result is cached, but updated                                                                     |
 
+---
 ### Functions
 
-| [commandSet](#commandSet)         |                                                                                     |
+
+### [commandSet](#commandSet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.commandSet(path) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -293,7 +352,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The Command Set as a table, or `nil` if there was a problem.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.CommandEditor.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -302,7 +365,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.TranscodeMedia.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -311,7 +378,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `TranscodeMedia`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [userCommandSetPath](#userCommandSetPath)         |                                                                                     |
+---
+
+### [userCommandSetPath](#userCommandSetPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.userCommandSetPath() -> string or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -320,7 +391,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A path as a string or `nil` if the folder doesn't exist.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [workflowExtensionNames](#workflowExtensionNames)         |                                                                                     |
+---
+
+### [workflowExtensionNames](#workflowExtensionNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowExtensionNames() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -329,9 +404,13 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table of Workflow Extension names</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Color](#Color)         |                                                                                     |
+
+### [Color](#Color)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Color(app) -> Color`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -340,7 +419,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The new `Color`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [TranscodeMedia](#TranscodeMedia)         |                                                                                     |
+---
+
+### [TranscodeMedia](#TranscodeMedia)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.TranscodeMedia(viewer)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -349,397 +432,657 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The new `TranscodeMedia`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [activeCommandSetPath](#activeCommandSetPath)         |                                                                                     |
+
+### [activeCommandSetPath](#activeCommandSetPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.activeCommandSetPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the 'Active Command Set' value from the Final Cut Pro preferences                                                                     |
 
-| [alert](#alert)         |                                                                                     |
+---
+
+### [alert](#alert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.alert <cp.ui.Alert>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides basic access to any 'alert' dialog windows in the app.                                                                     |
 
-| [audioEnhancements](#audioEnhancements)         |                                                                                     |
+---
+
+### [audioEnhancements](#audioEnhancements)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.audioEnhancements <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Audio Enhancements                                                                     |
 
-| [audioLanes](#audioLanes)         |                                                                                     |
+---
+
+### [audioLanes](#audioLanes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.audioLanes <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if audio lanes are currently showing. May be set to ensure it is showing or hidden.                                                                     |
 
-| [audioMeters](#audioMeters)         |                                                                                     |
+---
+
+### [audioMeters](#audioMeters)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.audioMeters <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Audio Meters button.                                                                     |
 
-| [backgroundTasksDialog](#backgroundTasksDialog)         |                                                                                     |
+---
+
+### [backgroundTasksDialog](#backgroundTasksDialog)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.backgroundTasksDialog <cp.apple.finalcutpro.main.BackgroundTasksDialog>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [BackgroundTasksDialog](cp.apple.finalcutpro.main.BackgroundTasksDialog.md) dialog window.                                                                     |
 
-| [browser](#browser)         |                                                                                     |
+---
+
+### [browser](#browser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.browser <cp.apple.finalcutpro.main.Browser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Browser](cp.apple.finalcutpro.main.Browser.md) instance, whether it is in the primary or secondary window.                                                                     |
 
-| [changePosition](#changePosition)         |                                                                                     |
+---
+
+### [changePosition](#changePosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.changePosition <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Change Position Button.                                                                     |
 
-| [color](#color)         |                                                                                     |
+---
+
+### [color](#color)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.color <ColorInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorInspector instance from the primary window                                                                     |
 
-| [colorBoard](#colorBoard)         |                                                                                     |
+---
+
+### [colorBoard](#colorBoard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.colorBoard <ColorBoard>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard instance from the primary window                                                                     |
 
-| [colorCorrection](#colorCorrection)         |                                                                                     |
+---
+
+### [colorCorrection](#colorCorrection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.colorCorrection <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Color Correction" `PopUpButton`.                                                                     |
 
-| [commandDescriptions](#commandDescriptions)         |                                                                                     |
+---
+
+### [commandDescriptions](#commandDescriptions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.commandDescriptions <cp.strings>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `table` of all available command descriptions, with keys mapped to human-readable descriptions in the current locale.                                                                     |
 
-| [commandEditor](#commandEditor)         |                                                                                     |
+---
+
+### [commandEditor](#commandEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.commandEditor <CommandEditor>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Command Editor                                                                     |
 
-| [commandNames](#commandNames)         |                                                                                     |
+---
+
+### [commandNames](#commandNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.commandNames <cp.strings>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `table` of all available command names, with keys mapped to human-readable names in the current locale.                                                                     |
 
-| [commandPostWorkflowExtension](#commandPostWorkflowExtension)         |                                                                                     |
+---
+
+### [commandPostWorkflowExtension](#commandPostWorkflowExtension)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.commandPostWorkflowExtension <CommandPostWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The CommandPost Workflow Extension window.                                                                     |
 
-| [contentUI](#contentUI)         |                                                                                     |
+---
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
 
-| [contentUI](#contentUI)         |                                                                                     |
+---
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ShareInspector.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
 
-| [deselectAll](#deselectAll)         |                                                                                     |
+---
+
+### [deselectAll](#deselectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.deselectAll <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
 
-| [effects](#effects)         |                                                                                     |
+---
+
+### [effects](#effects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.effects <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The EffectsBrowser instance, whether it is in the primary or secondary window.                                                                     |
 
-| [effects](#effects)         |                                                                                     |
+---
+
+### [effects](#effects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.effects <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Effects                                                                     |
 
-| [eventViewer](#eventViewer)         |                                                                                     |
+---
+
+### [eventViewer](#eventViewer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.eventViewer <cp.apple.finalcutpro.viewer.Viewer>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Event [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance, whether it is in the primary or secondary window.                                                                     |
 
-| [exportDialog](#exportDialog)         |                                                                                     |
+---
+
+### [exportDialog](#exportDialog)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.exportDialog <cp.apple.finalcutpro.main.ExportDialog>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Export Dialog Box                                                                     |
 
-| [findAndReplaceTitleText](#findAndReplaceTitleText)         |                                                                                     |
+---
+
+### [findAndReplaceTitleText](#findAndReplaceTitleText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.findAndReplaceTitleText <cp.apple.finalcutpro.main.FindAndReplaceTitleText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [FindAndReplaceTitleText](cp.apple.finalcutpro.main.FindAndReplaceTitleText.md) dialog window.                                                                     |
 
-| [fullScreenPlayer](#fullScreenPlayer)         |                                                                                     |
+---
+
+### [fullScreenPlayer](#fullScreenPlayer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.fullScreenPlayer <FullScreenPlayer>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the Final Cut Pro Full Screen Window (usually triggered by Cmd+Shift+F)                                                                     |
 
-| [generators](#generators)         |                                                                                     |
+---
+
+### [generators](#generators)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.generators <cp.apple.finalcutpro.main.GeneratorsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The GeneratorsBrowser instance, whether it is in the primary or secondary window.                                                                     |
 
-| [inspector](#inspector)         |                                                                                     |
+---
+
+### [inspector](#inspector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector <cp.apple.finalcutpro.inspector.Inspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Inspector](cp.apple.finalcutpro.inspector.Inspector.md) instance from the primary window.                                                                     |
 
-| [inspectorUnits](#inspectorUnits)         |                                                                                     |
+---
+
+### [inspectorUnits](#inspectorUnits)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.inspectorUnits <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Inspector Units" `PopUpButton`.                                                                     |
 
-| [isAudioScrubbingEnabled](#isAudioScrubbingEnabled)         |                                                                                     |
+---
+
+### [isAudioScrubbingEnabled](#isAudioScrubbingEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.isAudioScrubbingEnabled <bool; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the audio scrubbing is enabled for the application.                                                                     |
 
-| [isFrontmost](#isFrontmost)         |                                                                                     |
+---
+
+### [isFrontmost](#isFrontmost)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:isFrontmost <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut Pro Frontmost?                                                                     |
 
-| [isInstalled](#isInstalled)         |                                                                                     |
+---
+
+### [isInstalled](#isInstalled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.isInstalled <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is any version of Final Cut Pro Installed?                                                                     |
 
-| [isModalDialogOpen](#isModalDialogOpen)         |                                                                                     |
+---
+
+### [isModalDialogOpen](#isModalDialogOpen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:isModalDialogOpen <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a modal dialog currently open?                                                                     |
 
-| [isPlaying](#isPlaying)         |                                                                                     |
+---
+
+### [isPlaying](#isPlaying)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.ControlBar.isPlaying <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'playing' status of the viewer. If true, it is playing, if not it is paused.                                                                     |
 
-| [isPlaying](#isPlaying)         |                                                                                     |
+---
+
+### [isPlaying](#isPlaying)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Viewer.isPlaying <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'playing' status of the viewer. If true, it is playing, if not it is paused.                                                                     |
 
-| [isRunning](#isRunning)         |                                                                                     |
+---
+
+### [isRunning](#isRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.isRunning <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut Pro Running?                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.isShowing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut visible on screen?                                                                     |
 
-| [isSkimmingEnabled](#isSkimmingEnabled)         |                                                                                     |
+---
+
+### [isSkimmingEnabled](#isSkimmingEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.isSkimmingEnabled <bool; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the skimming playhead is enabled for the application.                                                                     |
 
-| [isSupported](#isSupported)         |                                                                                     |
+---
+
+### [isSupported](#isSupported)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.isSupported <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a supported version of Final Cut Pro installed?                                                                     |
 | **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to `cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION`</li></ul>                |
 
-| [isUnsupported](#isUnsupported)         |                                                                                     |
+---
+
+### [isUnsupported](#isUnsupported)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.isUnsupported <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is an unsupported version of Final Cut Pro installed?                                                                     |
 | **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION</li></ul>                |
 
-| [keywordEditor](#keywordEditor)         |                                                                                     |
+---
+
+### [keywordEditor](#keywordEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.keywordEditor <KeywordEditor>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Keyword Editor                                                                     |
 
-| [libraries](#libraries)         |                                                                                     |
+---
+
+### [libraries](#libraries)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.libraries <cp.apple.finalcutpro.main.LibrariesBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [LibrariesBrowser](cp.apple.finalcutpro.main.LibrariesBrowser.md) instance, whether it is in the primary or secondary window.                                                                     |
 
-| [media](#media)         |                                                                                     |
+---
+
+### [media](#media)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.media <cp.apple.finalcutpro.main.MediaBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The MediaBrowser instance, whether it is in the primary or secondary window.                                                                     |
 
-| [mediaImport](#mediaImport)         |                                                                                     |
+---
+
+### [mediaImport](#mediaImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.mediaImport <MediaImport>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Media Import Window                                                                     |
 
-| [pan](#pan)         |                                                                                     |
+---
+
+### [pan](#pan)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.pan <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pan                                                                     |
 
-| [playButton](#playButton)         |                                                                                     |
+---
+
+### [playButton](#playButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.playButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Button.                                                                     |
 
-| [playFullScreen](#playFullScreen)         |                                                                                     |
+---
+
+### [playFullScreen](#playFullScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.playFullScreen <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Full Screen Button.                                                                     |
 
-| [playImage](#playImage)         |                                                                                     |
+---
+
+### [playImage](#playImage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.playImage <cp.ui.Image>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Image.                                                                     |
 
-| [preferencesWindow](#preferencesWindow)         |                                                                                     |
+---
+
+### [preferencesWindow](#preferencesWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.preferencesWindow <PreferencesWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Preferences Window                                                                     |
 
-| [preset](#preset)         |                                                                                     |
+---
+
+### [preset](#preset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.preset <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The preset popup found at the top of the inspector.                                                                     |
 
-| [primaryWindow](#primaryWindow)         |                                                                                     |
+---
+
+### [primaryWindow](#primaryWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.primaryWindow <cp.apple.finalcutpro.main.PrimaryWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Primary Window                                                                     |
 
-| [resetDialogWarnings](#resetDialogWarnings)         |                                                                                     |
+---
+
+### [resetDialogWarnings](#resetDialogWarnings)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.resetDialogWarnings <cp.ui.Buton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Reset Dialog warnings" `Button`.                                                                     |
 
-| [secondaryWindow](#secondaryWindow)         |                                                                                     |
+---
+
+### [secondaryWindow](#secondaryWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.secondaryWindow <cp.apple.finalcutpro.main.SecondaryWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Preferences Window                                                                     |
 
-| [textArea](#textArea)         |                                                                                     |
+---
+
+### [textArea](#textArea)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.textArea <cp.ui.TextArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Text Inspector main Text Area.                                                                     |
 
-| [textLayerLeft](#textLayerLeft)         |                                                                                     |
+---
+
+### [textLayerLeft](#textLayerLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.textLayerLeft <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
 
-| [textLayerRight](#textLayerRight)         |                                                                                     |
+---
+
+### [textLayerRight](#textLayerRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.textLayerRight <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
 
-| [timecodeField](#timecodeField)         |                                                                                     |
+---
+
+### [timecodeField](#timecodeField)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.timecodeField <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Timecode Field                                                                     |
 
-| [timeDisplay](#timeDisplay)         |                                                                                     |
+---
+
+### [timeDisplay](#timeDisplay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.timeDisplay <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Time Display" `PopUpButton`.                                                                     |
 
-| [timeline](#timeline)         |                                                                                     |
+---
+
+### [timeline](#timeline)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline <Timeline>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Timeline instance, whether it is in the primary or secondary window.                                                                     |
 
-| [toolbar](#toolbar)         |                                                                                     |
+---
+
+### [toolbar](#toolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.toolbar <cp.apple.finalcutpro.main.PrimaryToolbar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Primary Toolbar - the toolbar at the top of the Primary Window.                                                                     |
 
-| [transcodeMedia](#transcodeMedia)         |                                                                                     |
+---
+
+### [transcodeMedia](#transcodeMedia)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.transcodeMedia <cp.apple.finalcutpro.main.TranscodeMedia>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TranscodeMedia](cp.apple.finalcutpro.main.TranscodeMedia.md) sheet.                                                                     |
 
-| [transitions](#transitions)         |                                                                                     |
+---
+
+### [transitions](#transitions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.transitions <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Transitions `EffectsBrowser` instance, whether it is in the primary or secondary window.                                                                     |
 
-| [UI](#UI)         |                                                                                     |
+---
+
+### [UI](#UI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.UI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro `axuielement`, if available.                                                                     |
 
-| [validateAudioUnits](#validateAudioUnits)         |                                                                                     |
+---
+
+### [validateAudioUnits](#validateAudioUnits)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.validateAudioUnits <cp.ui.Buton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Validate Audio Units" `Button`.                                                                     |
 
-| [viewer](#viewer)         |                                                                                     |
+---
+
+### [viewer](#viewer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer <cp.apple.finalcutpro.viewer.Viewer>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance, whether it is in the primary or secondary window.                                                                     |
 
-| [volume](#volume)         |                                                                                     |
+---
+
+### [volume](#volume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.volume <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Volume                                                                     |
 
+---
 ### Methods
 
-| [activeLibraryPaths](#activeLibraryPaths)         |                                                                                     |
+
+### [activeLibraryPaths](#activeLibraryPaths)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:activeLibraryPaths() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -748,7 +1091,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table containing any active library paths.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [closeLibrary](#closeLibrary)         |                                                                                     |
+---
+
+### [closeLibrary](#closeLibrary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:closeLibrary(title) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -757,7 +1104,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [defaultCommandSetPath](#defaultCommandSetPath)         |                                                                                     |
+---
+
+### [defaultCommandSetPath](#defaultCommandSetPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:defaultCommandSetPath([locale]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -766,7 +1117,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The 'Default' Command Set path, or `nil` if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShortcut](#doShortcut)         |                                                                                     |
+---
+
+### [doShortcut](#doShortcut)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:doShortcut(whichShortcut[, suppressPrompt]) -> Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -775,7 +1130,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A `Statement` that will perform the shortcut when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCommandShortcuts](#getCommandShortcuts)         |                                                                                     |
+---
+
+### [getCommandShortcuts](#getCommandShortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.getCommandShortcuts(id) -> table of hs.commands.shortcut`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -784,7 +1143,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The array of shortcuts, or `nil` if no command exists with the specified `id`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPath](#getPath)         |                                                                                     |
+---
+
+### [getPath](#getPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:getPath() -> string or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -793,7 +1156,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A string containing Final Cut Pro's filesystem path, or nil if Final Cut Pro's path could not be determined.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [importXML](#importXML)         |                                                                                     |
+---
+
+### [importXML](#importXML)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:importXML(path) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -802,7 +1169,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A boolean value indicating whether the AppleScript succeeded or not</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [keysWithString](#keysWithString)         |                                                                                     |
+---
+
+### [keysWithString](#keysWithString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:keysWithString(string[, locale]) -> {string}`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -811,7 +1182,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The array of keys with a matching string.</li></ul>          |
 | **Notes**                                   | <ul><li>This method may be very inefficient, since it has to search through every possible key/value pair to find matches. It is not recommended that this is used in production.</li></ul>                |
 
-| [openLibrary](#openLibrary)         |                                                                                     |
+---
+
+### [openLibrary](#openLibrary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:openLibrary(path) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -820,7 +1195,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [plugins](#plugins)         |                                                                                     |
+---
+
+### [plugins](#plugins)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:plugins() -> cp.apple.finalcutpro.plugins`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -829,7 +1208,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The plugins manager.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [recentLibraryNames](#recentLibraryNames)         |                                                                                     |
+---
+
+### [recentLibraryNames](#recentLibraryNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:recentLibraryNames() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -838,7 +1221,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table containing any recent library names.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [recentLibraryPaths](#recentLibraryPaths)         |                                                                                     |
+---
+
+### [recentLibraryPaths](#recentLibraryPaths)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:recentLibraryPaths() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -847,7 +1234,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table containing any recent library paths.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanPlugins](#scanPlugins)         |                                                                                     |
+---
+
+### [scanPlugins](#scanPlugins)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:scanPlugins() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -856,7 +1247,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A MenuBar object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectLibrary](#selectLibrary)         |                                                                                     |
+---
+
+### [selectLibrary](#selectLibrary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:selectLibrary(title) -> axuielement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -865,7 +1260,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The library row `axuielement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [string](#string)         |                                                                                     |
+---
+
+### [string](#string)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:string(key[, locale[, quiet]]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -874,7 +1273,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [userCommandSets](#userCommandSets)         |                                                                                     |
+---
+
+### [userCommandSets](#userCommandSets)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:userCommandSets() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -883,3 +1286,4 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table of user command sets as strings.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -32,15 +32,22 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ### Constants
 
-| [TYPE](#TYPE)         |                                                                                     |
+
+### [TYPE](#TYPE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.TYPE`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The possible types of ColorWheels: MASTER, SHADOWS, MIDTONES, HIGHLIGHTS.                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,9 +56,13 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>`true` if the element is a Color Well.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ColorWheel](#ColorWheel)         |                                                                                     |
+
+### [ColorWheel](#ColorWheel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel(parent, type) -> ColorWheel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -60,53 +71,85 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>A new `ColorWheel` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [brightnessValue](#brightnessValue)         |                                                                                     |
+
+### [brightnessValue](#brightnessValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.brightnessValue <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current brightness value, as a number between -12 and 10.                                                                     |
 
-| [colorOrientation](#colorOrientation)         |                                                                                     |
+---
+
+### [colorOrientation](#colorOrientation)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.colorOrientation <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the orientation of the color as a table containing an `up` and `right` value.                                                                     |
 
-| [colorPosition](#colorPosition)         |                                                                                     |
+---
+
+### [colorPosition](#colorPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.colorPosition <cp.prop: point>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | X/Y screen position for the current color value of the Color Well. This ignores the bounds of the                                                                     |
 
-| [colorValue](#colorValue)         |                                                                                     |
+---
+
+### [colorValue](#colorValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.colorValue <cp.prop: hs.drawing.color>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current color value, as a `hs.drawing.color` table.                                                                     |
 
-| [puckPosition](#puckPosition)         |                                                                                     |
+---
+
+### [puckPosition](#puckPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.puckPosition <cp.prop: point>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Absolute X/Y screen position for the puck in the Color Well. Colours outside the bounds are clamped inside the color well.                                                                     |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.reset <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Button](cp.ui.Button.md) that resets the color wheel values, if the `ColorWheel` is showing.                                                                     |
 
-| [saturationValue](#saturationValue)         |                                                                                     |
+---
+
+### [saturationValue](#saturationValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.saturationValue <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current saturation value, as a number between 0 and 10.                                                                     |
 
+---
 ### Methods
 
-| [brightness](#brightness)         |                                                                                     |
+
+### [brightness](#brightness)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.brightness <ValueIndicator>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,7 +158,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The brightness `ValueIndicator` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [colorWell](#colorWell)         |                                                                                     |
+---
+
+### [colorWell](#colorWell)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.colorWell <ColorWell>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -124,7 +171,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `ColorWell` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doNudgeColor](#doNudgeColor)         |                                                                                     |
+---
+
+### [doNudgeColor](#doNudgeColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel:doNudgeColor(right, up) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -133,7 +184,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelect](#doSelect)         |                                                                                     |
+---
+
+### [doSelect](#doSelect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel:doSelect() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -142,7 +197,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +210,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if shown, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [nudgeColor](#nudgeColor)         |                                                                                     |
+---
+
+### [nudgeColor](#nudgeColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel:nudgeColor(right, up) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +223,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `ColorWheel` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saturation](#saturation)         |                                                                                     |
+---
+
+### [saturation](#saturation)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel.saturation <ValueIndicator>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +236,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The saturation `ValueIndicator` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [select](#select)         |                                                                                     |
+---
+
+### [select](#select)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel:select() -> cp.apple.finalcutpro.inspector.color.ColorWheel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +249,11 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `ColorWheel` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheel:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,3 +262,4 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The same `ColorWheel` instance, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

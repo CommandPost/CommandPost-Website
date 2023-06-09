@@ -10,7 +10,10 @@ Controls Final Cut Pro's Lanes.
 
 ### Functions
 
-| [selectClipAtLane](#selectClipAtLane)         |                                                                                     |
+
+### [selectClipAtLane](#selectClipAtLane)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.lanes.selectClipAtLane(whichLane) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Controls Final Cut Pro's Lanes.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

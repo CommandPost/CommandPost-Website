@@ -53,16 +53,23 @@ Additional functions and values that are specific to Hammerspoon which provide e
 
 ### Constants
 
-| [minFloat](#minFloat)         |                                                                                     |
+
+### [minFloat](#minFloat)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.math.minFloat`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Smallest positive floating point number representable in Hammerspoon                                                                     |
 | **Notes**                                   | <ul><li>Because specifying a delay of 0 to `hs.timer.doAfter` results in the event not triggering, use this value to indicate that the action should occur as soon as possible after the current code block has completed execution.</li></ul>                |
 
+---
 ### Functions
 
-| [isFinite](#isFinite)         |                                                                                     |
+
+### [isFinite](#isFinite)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.math.isFinite(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -71,7 +78,11 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Returns**                                 | <ul><li>true if the value is a finite number, or false otherwise</li></ul>          |
 | **Notes**                                   | <ul><li>This function returns true if the value is a number and both [hs.math.isNaN](#isNaN) and [hs.math.isInfinite](#isInfinite) return false.</li></ul>                |
 
-| [isInfinite](#isInfinite)         |                                                                                     |
+---
+
+### [isInfinite](#isInfinite)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.math.isInfinite(value) -> 1, -1, false`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -80,7 +91,11 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Returns**                                 | <ul><li>1 if the value is equivalent to positive infinity, -1 if the value is equivalent to negative infinity, or false otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>This function specifically checks if the `value` is equivalent to positive or negative infinity --- it does not do type checking. If `value` is not a numeric value (e.g. a string), it *cannot* be equivalent to positive or negative infinity and will return false.</li><li>Because lua treats any value other than `nil` and `false` as `true`, the return value of this function can be safely used in conditionals when you don't care about the sign of the infinite value.</li></ul>                |
 
-| [isNaN](#isNaN)         |                                                                                     |
+---
+
+### [isNaN](#isNaN)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.math.isNaN(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -89,7 +104,11 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Returns**                                 | <ul><li>true if `value` is equal to the mathematical "value" of NaN, or false otherwise</li></ul>          |
 | **Notes**                                   | <ul><li>Mathematical `NaN` represents an impossible value, usually the result of a calculation, yet is still considered within the domain of mathematics. The most common case is the result of `n / 0` as division by 0 is considered undefined or "impossible".</li><li>This function specifically checks if the `value` is `NaN` --- it does not do type checking. If `value` is not a numeric value (e.g. a string), it *cannot* be equivalent to `NaN` and this function will return false.</li></ul>                |
 
-| [randomFloat](#randomFloat)         |                                                                                     |
+---
+
+### [randomFloat](#randomFloat)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.math.randomFloat() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -98,7 +117,11 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Returns**                                 | <ul><li>A random number between 0 and 1</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [randomFromRange](#randomFromRange)         |                                                                                     |
+---
+
+### [randomFromRange](#randomFromRange)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.math.randomFromRange(start, end) -> integer`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -107,3 +130,4 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Returns**                                 | <ul><li>A randomly chosen integer between `start` and `end`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

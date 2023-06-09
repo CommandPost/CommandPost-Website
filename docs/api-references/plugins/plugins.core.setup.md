@@ -34,65 +34,104 @@ Manager for the CommandPost Setup Screen.
 
 ### Constants
 
-| [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)         |                                                                                     |
+
+### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel height.                                                                     |
 
-| [DEFAULT_TITLE](#DEFAULT_TITLE)         |                                                                                     |
+---
+
+### [DEFAULT_TITLE](#DEFAULT_TITLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.DEFAULT_TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel title.                                                                     |
 
-| [DEFAULT_WIDTH](#DEFAULT_WIDTH)         |                                                                                     |
+---
+
+### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel width.                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Set to `true` if the manager is enabled. Defaults to `false`.                                                                     |
 
-| [FIRST_PRIORITY](#FIRST_PRIORITY)         |                                                                                     |
+---
+
+### [FIRST_PRIORITY](#FIRST_PRIORITY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.FIRST_PRIORITY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The first panel priority.                                                                     |
 
-| [LAST_PRIORITY](#LAST_PRIORITY)         |                                                                                     |
+---
+
+### [LAST_PRIORITY](#LAST_PRIORITY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.LAST_PRIORITY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The last panel priority.                                                                     |
 
-| [visible](#visible)         |                                                                                     |
+---
+
+### [visible](#visible)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.visible <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A property indicating if the welcome window is visible on screen.                                                                     |
 
+---
 ### Variables
 
-| [onboardingRequired](#onboardingRequired)         |                                                                                     |
+
+### [onboardingRequired](#onboardingRequired)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.onboardingRequired <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Set to `true` if on-boarding is required otherwise `false`. Defaults to `true`.                                                                     |
 
-| [position](#position)         |                                                                                     |
+---
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last known position of the Setup Window as a frame.                                                                     |
 
+---
 ### Functions
 
-| [addPanel](#addPanel)         |                                                                                     |
+
+### [addPanel](#addPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.addPanel(newPanel) -> panel`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +140,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>The manager.</li></ul>          |
 | **Notes**                                   | <ul><li>If the Setup Manager is `enabled`, the window will be displayed immediately when a panel is added.</li></ul>                |
 
-| [currentPanel](#currentPanel)         |                                                                                     |
+---
+
+### [currentPanel](#currentPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.currentPanel() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,7 +153,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>The current panel as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.delete() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -119,7 +166,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [focus](#focus)         |                                                                                     |
+---
+
+### [focus](#focus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.focus() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -128,7 +179,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getLabel](#getLabel)         |                                                                                     |
+---
+
+### [getLabel](#getLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.getLabel() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -137,7 +192,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [injectScript](#injectScript)         |                                                                                     |
+---
+
+### [injectScript](#injectScript)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.injectScript(script) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -146,7 +205,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.new() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -155,7 +218,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [nextPanel](#nextPanel)         |                                                                                     |
+---
+
+### [nextPanel](#nextPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.nextPanel() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -164,7 +231,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>`true` if there was another panel to move to, or `false` if no panels remain.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setPanelRenderer](#setPanelRenderer)         |                                                                                     |
+---
+
+### [setPanelRenderer](#setPanelRenderer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.setPanelRenderer(renderer) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -173,7 +244,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.show() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -182,7 +257,11 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.update() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -191,3 +270,4 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

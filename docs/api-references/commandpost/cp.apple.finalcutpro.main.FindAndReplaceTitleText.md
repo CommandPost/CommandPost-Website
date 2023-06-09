@@ -26,7 +26,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ### Constructors
 
-| [FindAndReplaceTitleText](#FindAndReplaceTitleText)         |                                                                                     |
+
+### [FindAndReplaceTitleText](#FindAndReplaceTitleText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText(cpApp)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -35,77 +38,125 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [findText](#findText)         |                                                                                     |
+
+### [findText](#findText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.findText <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Find" search field, as a [TextField](cp.ui.TextField.md)                                                                     |
 
-| [loopSearch](#loopSearch)         |                                                                                     |
+---
+
+### [loopSearch](#loopSearch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.loopSearch <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Loop search" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 
-| [matchCase](#matchCase)         |                                                                                     |
+---
+
+### [matchCase](#matchCase)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.matchCase <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Match case" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 
-| [next](#next)         |                                                                                     |
+---
+
+### [next](#next)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.next <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Next" [Button](cp.ui.Button.md).                                                                     |
 
-| [previous](#previous)         |                                                                                     |
+---
+
+### [previous](#previous)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.previous <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Previous" [Button](cp.ui.Button.md).                                                                     |
 
-| [replace](#replace)         |                                                                                     |
+---
+
+### [replace](#replace)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replace <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace" [Button](cp.ui.Button.md).                                                                     |
 
-| [replaceAll](#replaceAll)         |                                                                                     |
+---
+
+### [replaceAll](#replaceAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replaceAll <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace All" [Button](cp.ui.Button.md).                                                                     |
 
-| [replaceAndFind](#replaceAndFind)         |                                                                                     |
+---
+
+### [replaceAndFind](#replaceAndFind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replaceAndFind <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace & Find" [Button](cp.ui.Button.md).                                                                     |
 
-| [replaceText](#replaceText)         |                                                                                     |
+---
+
+### [replaceText](#replaceText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replaceText <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace" search field, as a [TextField](cp.ui.TextField.md)                                                                     |
 
-| [searchIn](#searchIn)         |                                                                                     |
+---
+
+### [searchIn](#searchIn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.searchIn <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Search In" [PopUpButton](cp.ui.PopUpButton.md).                                                                     |
 
-| [wholeWords](#wholeWords)         |                                                                                     |
+---
+
+### [wholeWords](#wholeWords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.wholeWords <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Whole words" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 
+---
 ### Methods
 
-| [doFindAndReplaceAll](#doFindAndReplaceAll)         |                                                                                     |
+
+### [doFindAndReplaceAll](#doFindAndReplaceAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText:doFindAndReplaceAll(find, replace) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,7 +165,11 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -123,7 +178,11 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -132,3 +191,4 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

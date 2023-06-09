@@ -36,7 +36,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ### Constructors
 
-| [IndexClips](#IndexClips)         |                                                                                     |
+
+### [IndexClips](#IndexClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips(index) -> IndexClips`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,53 +48,85 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Clips' section.                                                                     |
 
-| [all](#all)         |                                                                                     |
+---
+
+### [all](#all)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.all <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that will show "All" types of media.                                                                     |
 
-| [audio](#audio)         |                                                                                     |
+---
+
+### [audio](#audio)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.audio <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Audio" filter.                                                                     |
 
-| [list](#list)         |                                                                                     |
+---
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.list <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of clips as a [Table](cp.ui.OldTable.md).                                                                     |
 
-| [titles](#titles)         |                                                                                     |
+---
+
+### [titles](#titles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.titles <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Titles" filter.                                                                     |
 
-| [type](#type)         |                                                                                     |
+---
+
+### [type](#type)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.type <cp.apple.finalcutpro.timeline.IndexClips.Type>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexClips.Type](cp.apple.finalcutpro.timeline.IndexClips.Type.md).                                                                     |
 
-| [video](#video)         |                                                                                     |
+---
+
+### [video](#video)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.video <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Video" filter.                                                                     |
 
+---
 ### Methods
 
-| [doFindAuditions](#doFindAuditions)         |                                                                                     |
+
+### [doFindAuditions](#doFindAuditions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doFindAuditions() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,7 +135,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindClipsContaining](#doFindClipsContaining)         |                                                                                     |
+---
+
+### [doFindClipsContaining](#doFindClipsContaining)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doFindClipsContaining(text) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -109,7 +148,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>Because the `text` can change each time, this result is not cached automatically. However as long as you are searching for the same text the result can be safely cached. The [#toFindMissingMedia] method does this, for example.</li></ul>                |
 
-| [doFindCompoundClips](#doFindCompoundClips)         |                                                                                     |
+---
+
+### [doFindCompoundClips](#doFindCompoundClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doFindCompoundClips() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -118,7 +161,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindMissingMedia](#doFindMissingMedia)         |                                                                                     |
+---
+
+### [doFindMissingMedia](#doFindMissingMedia)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doFindMissingMedia() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -127,7 +174,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindMulticams](#doFindMulticams)         |                                                                                     |
+---
+
+### [doFindMulticams](#doFindMulticams)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doFindMulticams() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -136,7 +187,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindSynchronized](#doFindSynchronized)         |                                                                                     |
+---
+
+### [doFindSynchronized](#doFindSynchronized)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doFindSynchronized() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -145,7 +200,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doLayout](#doLayout)         |                                                                                     |
+---
+
+### [doLayout](#doLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doLayout(layout) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -154,7 +213,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowAll](#doShowAll)         |                                                                                     |
+---
+
+### [doShowAll](#doShowAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doShowAll() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -163,7 +226,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowAudio](#doShowAudio)         |                                                                                     |
+---
+
+### [doShowAudio](#doShowAudio)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doShowAudio() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -172,7 +239,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowTitles](#doShowTitles)         |                                                                                     |
+---
+
+### [doShowTitles](#doShowTitles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doShowTitles() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -181,7 +252,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowVideo](#doShowVideo)         |                                                                                     |
+---
+
+### [doShowVideo](#doShowVideo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doShowVideo() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -190,7 +265,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -199,3 +278,4 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

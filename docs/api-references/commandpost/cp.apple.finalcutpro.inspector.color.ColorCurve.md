@@ -12,7 +12,10 @@ A ColorCurve [Element](cp.ui.Element.md).
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurve.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,9 +24,13 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it matches a ColorCurve element.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ColorCurve](#ColorCurve)         |                                                                                     |
+
+### [ColorCurve](#ColorCurve)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurve(parent, type) -> ColorCurve`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -32,3 +39,4 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `ColorCurve`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

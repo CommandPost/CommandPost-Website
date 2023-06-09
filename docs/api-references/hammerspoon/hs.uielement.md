@@ -19,7 +19,10 @@ A generalized framework for working with OSX UI elements
 
 ### Functions
 
-| [focusedElement](#focusedElement)         |                                                                                     |
+
+### [focusedElement](#focusedElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement.focusedElement() -> element or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,9 +31,13 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>An `hs.uielement` object or nil if no object could be found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [isApplication](#isApplication)         |                                                                                     |
+
+### [isApplication](#isApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement:isApplication() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,7 +46,11 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is an application</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isWindow](#isWindow)         |                                                                                     |
+---
+
+### [isWindow](#isWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement:isWindow() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,7 +59,11 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is a window, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [newWatcher](#newWatcher)         |                                                                                     |
+---
+
+### [newWatcher](#newWatcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement:newWatcher(handler[, userData]) -> hs.uielement.watcher or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -61,7 +76,11 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>An `hs.uielement.watcher` object, or `nil` if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [role](#role)         |                                                                                     |
+---
+
+### [role](#role)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement:role() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -70,7 +89,11 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A string containing the role of the UI element</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedText](#selectedText)         |                                                                                     |
+---
+
+### [selectedText](#selectedText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement:selectedText() -> string or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,3 +102,4 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A string containing the selected text, or nil if none could be found</li></ul>          |
 | **Notes**                                   | <ul><li>Many applications (e.g. Safari, Mail, Firefox) do not implement the necessary accessibility features for this to work in their web views</li></ul>                |
 
+---

@@ -15,7 +15,10 @@ Functions for working with function arguments.
 
 ### Functions
 
-| [from](#from)         |                                                                                     |
+
+### [from](#from)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.args.from(index) -> function(...) -> ...`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -24,7 +27,11 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>A function that selects the argument at the specified index.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasAny](#hasAny)         |                                                                                     |
+---
+
+### [hasAny](#hasAny)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.args.hasAny(...) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -33,7 +40,11 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>`true` if any of the arguments are not `nil`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasNone](#hasNone)         |                                                                                     |
+---
+
+### [hasNone](#hasNone)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.args.hasNone(...) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -42,7 +53,11 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>`true` if all the arguments are `nil`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [only](#only)         |                                                                                     |
+---
+
+### [only](#only)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.args.only(index, ...) -> function(...) -> any`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -51,7 +66,11 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>A function that returns the arguments at the specified indecies.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pack](#pack)         |                                                                                     |
+---
+
+### [pack](#pack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.args.pack(...) -> table, boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -60,7 +79,11 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>A table containing the arguments.</li><li>A boolean indicating whether the arguments were packed into a table.</li></ul>          |
 | **Notes**                                   | <ul><li>If the number of arguments is 1 and the first argument is a table, and the table has a size of 1 or more, it will be returned.</li><li>Otherwise, the arguments are packed into a table.</li></ul>                |
 
-| [unpack](#unpack)         |                                                                                     |
+---
+
+### [unpack](#unpack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.args.unpack(args, packed) -> ... | table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -69,3 +92,4 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>The arguments, unpacked if necessary.</li></ul>          |
 | **Notes**                                   | <ul><li>If the arguments were packed, the table is unpacked first.</li><li>* Otherwise, the arguments are returned unchanged.</li></ul>                |
 
+---

@@ -16,7 +16,10 @@ Provides a full HTTP-based websocket implementation.
 
 ### Functions
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.http.new(url, callback) -> object`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,9 +28,13 @@ Provides a full HTTP-based websocket implementation.
 | **Returns**                                 | <ul><li>The `cp.websocket` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback should accept two parameters.</li><li>The first parameter is a `cp.websocket.event` value.</li><li>The second parameter is a `string` with the received message or an error message.</li><li>Given a path '/mysock' and a port of 8000, the websocket URL is as follows:</li><li> `ws://localhost:8000/mysock`</li><li> `wss://localhost:8000/mysock` (if SSL enabled)</li></ul>                |
 
+---
 ### Methods
 
-| [close](#close)         |                                                                                     |
+
+### [close](#close)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.http:close() -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -36,7 +43,11 @@ Provides a full HTTP-based websocket implementation.
 | **Returns**                                 | <ul><li>The `cp.websocket.serial` object</li></ul>          |
 | **Notes**                                   | <ul><li>The `status` may be either `closing` or `closed` after calling this method.</li><li>To be notified the close has completed, listen for the `cp.websocket.event.closed` event in the callback.</li></ul>                |
 
-| [isOpen](#isOpen)         |                                                                                     |
+---
+
+### [isOpen](#isOpen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.http:isOpen() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ Provides a full HTTP-based websocket implementation.
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [open](#open)         |                                                                                     |
+---
+
+### [open](#open)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.http:open() -> cp.websocket.status`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ Provides a full HTTP-based websocket implementation.
 | **Returns**                                 | <ul><li>The `cp.websocket.status` after attempting to open.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [send](#send)         |                                                                                     |
+---
+
+### [send](#send)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.http:send(message[, isData]) -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +82,11 @@ Provides a full HTTP-based websocket implementation.
 | **Returns**                                 | <ul><li>The `cp.websocket.serial` object</li></ul>          |
 | **Notes**                                   | <ul><li>Forcing a text representation by setting isData to `false` may alter the data if it</li><li>  contains invalid UTF8 character sequences (the default string behavior is to make</li><li>  sure everything is "printable" by converting invalid sequences into the Unicode</li><li>  Invalid Character sequence).</li></ul>                |
 
-| [status](#status)         |                                                                                     |
+---
+
+### [status](#status)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.http:status() -> cp.websocket.status`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,3 +95,4 @@ Provides a full HTTP-based websocket implementation.
 | **Returns**                                 | <ul><li>The current `cp.websocket.status`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

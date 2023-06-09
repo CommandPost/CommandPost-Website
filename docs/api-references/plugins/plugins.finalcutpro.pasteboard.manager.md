@@ -39,35 +39,54 @@ Pasteboard Manager.
 
 ### Constants
 
-| [NUMBER_OF_PASTEBOARD_BUFFERS](#NUMBER_OF_PASTEBOARD_BUFFERS)         |                                                                                     |
+
+### [NUMBER_OF_PASTEBOARD_BUFFERS](#NUMBER_OF_PASTEBOARD_BUFFERS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.NUMBER_OF_PASTEBOARD_BUFFERS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of Pasteboard Buffers.                                                                     |
 
-| [RESTART_DELAY](#RESTART_DELAY)         |                                                                                     |
+---
+
+### [RESTART_DELAY](#RESTART_DELAY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.RESTART_DELAY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | How long to wait until we restart any Pasteboard Watchers in milliseconds.                                                                     |
 
+---
 ### Variables
 
-| [excludedClassnames](#excludedClassnames)         |                                                                                     |
+
+### [excludedClassnames](#excludedClassnames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.excludedClassnames -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of data we don't want to count when copying.                                                                     |
 
-| [WATCHER_FREQUENCY](#WATCHER_FREQUENCY)         |                                                                                     |
+---
+
+### [WATCHER_FREQUENCY](#WATCHER_FREQUENCY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.WATCHER_FREQUENCY -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The Pasteboard Watcher Update frequency.                                                                     |
 
+---
 ### Functions
 
-| [copyWithCustomClipName](#copyWithCustomClipName)         |                                                                                     |
+
+### [copyWithCustomClipName](#copyWithCustomClipName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.copyWithCustomClipName() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -76,7 +95,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doDecodeBuffer](#doDecodeBuffer)         |                                                                                     |
+---
+
+### [doDecodeBuffer](#doDecodeBuffer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doDecodeBuffer(id) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -85,7 +108,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that sends the decoded buffer, or throws an error if not available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doRestoreFromBuffer](#doRestoreFromBuffer)         |                                                                                     |
+---
+
+### [doRestoreFromBuffer](#doRestoreFromBuffer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doRestoreFromBuffer(id) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -94,7 +121,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSaveToBuffer](#doSaveToBuffer)         |                                                                                     |
+---
+
+### [doSaveToBuffer](#doSaveToBuffer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doSaveToBuffer(id) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -103,7 +134,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doWaitForData](#doWaitForData)         |                                                                                     |
+---
+
+### [doWaitForData](#doWaitForData)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doWaitForData(newData) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -112,7 +147,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doWaitForFreshData](#doWaitForFreshData)         |                                                                                     |
+---
+
+### [doWaitForFreshData](#doWaitForFreshData)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doWaitForFreshData(oldData) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -121,7 +160,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getClassname](#getClassname)         |                                                                                     |
+---
+
+### [getClassname](#getClassname)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.getClassname(data) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -130,7 +173,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>Class name as string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isTimelineClip](#isTimelineClip)         |                                                                                     |
+---
+
+### [isTimelineClip](#isTimelineClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.isTimelineClip(data) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -139,7 +186,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>`true` if a timeline clip otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ninjaPasteboardCopy](#ninjaPasteboardCopy)         |                                                                                     |
+---
+
+### [ninjaPasteboardCopy](#ninjaPasteboardCopy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.ninjaPasteboardCopy() -> boolean, data`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -148,7 +199,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li><li>The pasteboard data</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [overrideNextClipName](#overrideNextClipName)         |                                                                                     |
+---
+
+### [overrideNextClipName](#overrideNextClipName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.overrideNextClipName(overrideName) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -157,7 +212,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [processArray](#processArray)         |                                                                                     |
+---
+
+### [processArray](#processArray)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.processArray(data) -> string, number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -166,7 +225,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>The primary clip name as a string.</li><li>The number of clips as number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [processContent](#processContent)         |                                                                                     |
+---
+
+### [processContent](#processContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.processContent(fcpxData, default) -> string, number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -175,7 +238,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>Returns the 'default' value if the pasteboard contains a media clip but we could not interpret it, otherwise `nil` if the data did not contain Final Cut Pro Clip data.</li></ul>          |
 | **Notes**                                   | <ul><li>Example usage: `local name = mod.findClipName(myFcpxData, "Unknown")`</li></ul>                |
 
-| [processObject](#processObject)         |                                                                                     |
+---
+
+### [processObject](#processObject)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.processObject(data) -> string, number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -184,7 +251,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>The primary clip name as a string.</li><li>The number of clips as number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [readFCPXData](#readFCPXData)         |                                                                                     |
+---
+
+### [readFCPXData](#readFCPXData)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.readFCPXData() -> data | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -193,7 +264,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>The pasteboard data or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [startWatching](#startWatching)         |                                                                                     |
+---
+
+### [startWatching](#startWatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.startWatching() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -202,7 +277,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stopWatching](#stopWatching)         |                                                                                     |
+---
+
+### [stopWatching](#stopWatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.stopWatching() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -211,7 +290,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [supportsContainedItems](#supportsContainedItems)         |                                                                                     |
+---
+
+### [supportsContainedItems](#supportsContainedItems)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.supportsContainedItems(data) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -220,7 +303,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>`true` if supported otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unarchiveFCPXData](#unarchiveFCPXData)         |                                                                                     |
+---
+
+### [unarchiveFCPXData](#unarchiveFCPXData)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.unarchiveFCPXData(fcpxData) -> data | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -229,7 +316,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>The unarchived Final Cut Pro Pasteboard data or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unwatch](#unwatch)         |                                                                                     |
+---
+
+### [unwatch](#unwatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.unwatch(id) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -238,7 +329,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watch](#watch)         |                                                                                     |
+---
+
+### [watch](#watch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.watch(events) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -247,7 +342,11 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>Table of watchers.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [writeFCPXData](#writeFCPXData)         |                                                                                     |
+---
+
+### [writeFCPXData](#writeFCPXData)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.writeFCPXData(fcpxData, quiet) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -256,17 +355,26 @@ Pasteboard Manager.
 | **Returns**                                 | <ul><li>`true` if the operation succeeded, otherwise `false` (which most likely means ownership of the pasteboard has changed).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [buffer](#buffer)         |                                                                                     |
+
+### [buffer](#buffer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.buffer <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the Pasteboard Buffer.                                                                     |
 
-| [watching](#watching)         |                                                                                     |
+---
+
+### [watching](#watching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.watching <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets whether or not we're watching the pasteboard as a boolean.                                                                     |
 
+---

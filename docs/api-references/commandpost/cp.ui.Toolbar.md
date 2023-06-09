@@ -17,7 +17,10 @@ Toolbar Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Toolbar.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ Toolbar Module.
 | **Returns**                                 | <ul><li>`true` if the `element` is a `Button`, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Toolbar](#Toolbar)         |                                                                                     |
+
+### [Toolbar](#Toolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Toolbar(parent, uiFinder) -> cp.ui.Toolbar`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -37,23 +44,35 @@ Toolbar Module.
 | **Returns**                                 | <ul><li>The new `Toolbar` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [overflowButton](#overflowButton)         |                                                                                     |
+
+### [overflowButton](#overflowButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Toolbar.overflowButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "overflow" button which appears if there are more toolbar items                                                                     |
 
-| [selectedTitle](#selectedTitle)         |                                                                                     |
+---
+
+### [selectedTitle](#selectedTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Toolbar.selectedTitle <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The title of the first selected item, if available.                                                                     |
 
+---
 ### Methods
 
-| [doSelect](#doSelect)         |                                                                                     |
+
+### [doSelect](#doSelect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Toolbar:doSelect(title) -> Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -62,3 +81,4 @@ Toolbar Module.
 | **Returns**                                 | <ul><li>A `Statement` that when executed returns `true` if the item was found and selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

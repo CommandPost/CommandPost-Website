@@ -32,7 +32,10 @@ Libraries List Module.
 
 ### Functions
 
-| [clips](#clips)         |                                                                                     |
+
+### [clips](#clips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:clips(filterFn) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,7 +44,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [clipsUI](#clipsUI)         |                                                                                     |
+---
+
+### [clipsUI](#clipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:clipsUI(filterFn) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +57,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deselectAll](#deselectAll)         |                                                                                     |
+---
+
+### [deselectAll](#deselectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:deselectAll() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,7 +70,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [indexOfClip](#indexOfClip)         |                                                                                     |
+---
+
+### [indexOfClip](#indexOfClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:indexOfClip(clip) -> number | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -68,7 +83,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>The index or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectAll](#selectAll)         |                                                                                     |
+---
+
+### [selectAll](#selectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:selectAll([clips]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -77,7 +96,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClip](#selectClip)         |                                                                                     |
+---
+
+### [selectClip](#selectClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:selectClip(clip) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -86,7 +109,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClipAt](#selectClipAt)         |                                                                                     |
+---
+
+### [selectClipAt](#selectClipAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:selectClipAt(index) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -95,7 +122,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClipTitled](#selectClipTitled)         |                                                                                     |
+---
+
+### [selectClipTitled](#selectClipTitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:selectClipTitled(title) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -104,7 +135,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedClips](#selectedClips)         |                                                                                     |
+---
+
+### [selectedClips](#selectedClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:selectedClips() -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -113,7 +148,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedClipsUI](#selectedClipsUI)         |                                                                                     |
+---
+
+### [selectedClipsUI](#selectedClipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:selectedClipsUI() -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -122,7 +161,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showClip](#showClip)         |                                                                                     |
+---
+
+### [showClip](#showClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:showClip(clip) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -131,9 +174,13 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [LibrariesList](#LibrariesList)         |                                                                                     |
+
+### [LibrariesList](#LibrariesList)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList(app) -> LibrariesList`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -142,47 +189,75 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>A new `LibrariesList` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contents](#contents)         |                                                                                     |
+
+### [contents](#contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList.contents <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries List Contents UI.                                                                     |
 
-| [isFocused](#isFocused)         |                                                                                     |
+---
+
+### [isFocused](#isFocused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList.isFocused <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Libraries List is currently focused within FCPX.                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList.isShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Libraries List is showing on screen.                                                                     |
 
-| [playerUI](#playerUI)         |                                                                                     |
+---
+
+### [playerUI](#playerUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList.playerUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` for the player section of the Libraries List UI.                                                                     |
 
-| [playhead](#playhead)         |                                                                                     |
+---
+
+### [playhead](#playhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList.playhead <Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries List Playhead.                                                                     |
 
-| [skimmingPlayhead](#skimmingPlayhead)         |                                                                                     |
+---
+
+### [skimmingPlayhead](#skimmingPlayhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList.skimmingPlayhead <Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | the Libraries List Skimming Playhead.                                                                     |
 
+---
 ### Methods
 
-| [columns](#columns)         |                                                                                     |
+
+### [columns](#columns)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:columns() -> Columns`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -191,7 +266,11 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>A `Columns` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesList:show() -> LibrariesList`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -200,3 +279,4 @@ Libraries List Module.
 | **Returns**                                 | <ul><li>`LibrariesList` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

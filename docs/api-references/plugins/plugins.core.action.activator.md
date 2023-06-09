@@ -73,87 +73,142 @@ will not affect the "yadayada" activator.
 
 ### Fields
 
-| [activeHandlers](#activeHandlers)         |                                                                                     |
+
+### [activeHandlers](#activeHandlers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.activeHandlers <cp.prop: table of handlers>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the table of active handlers. A handler is active if it is both allowed and enabled.                                                                     |
 
-| [allowedHandlers](#allowedHandlers)         |                                                                                     |
+---
+
+### [allowedHandlers](#allowedHandlers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:allowedHandlers <cp.prop: table of handlers; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all handlers that are allowed in this activator.                                                                     |
 
-| [configurable](#configurable)         |                                                                                     |
+---
+
+### [configurable](#configurable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.configurable <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true` (the default), the activator can be configured by right-clicking on the main chooser.                                                                     |
 
-| [favoriteChoices](#favoriteChoices)         |                                                                                     |
+---
+
+### [favoriteChoices](#favoriteChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.favoriteChoices <cp.prop: table of booleans>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the set of choice IDs which are favorites in this activator, mapped to a boolean value.                                                                     |
 
-| [hiddenChoices](#hiddenChoices)         |                                                                                     |
+---
+
+### [hiddenChoices](#hiddenChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.hiddenChoices <cp.prop: table of booleans>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the set of choice IDs which are hidden in this activator, mapped to a boolean value.                                                                     |
 
-| [lastQueryRemembered](#lastQueryRemembered)         |                                                                                     |
+---
+
+### [lastQueryRemembered](#lastQueryRemembered)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.lastQueryRemembered <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, remember the last query.                                                                     |
 
-| [lastQueryValue](#lastQueryValue)         |                                                                                     |
+---
+
+### [lastQueryValue](#lastQueryValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.lastQueryValue <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last query value.                                                                     |
 
-| [lastRows](#lastRows)         |                                                                                     |
+---
+
+### [lastRows](#lastRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.lastRows <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last width of the Search Console. Defaults to 40.                                                                     |
 
-| [popularChoices](#popularChoices)         |                                                                                     |
+---
+
+### [popularChoices](#popularChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.popularChoices <cp.prop: table of integers>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Keeps track of how popular particular choices are. Returns a table of choice IDs                                                                     |
 
-| [query](#query)         |                                                                                     |
+---
+
+### [query](#query)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.query <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current "query" value for the activator.                                                                     |
 
-| [reducedTransparency](#reducedTransparency)         |                                                                                     |
+---
+
+### [reducedTransparency](#reducedTransparency)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.reducedTransparency <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A property which will be true if the 'reduce transparency' mode is enabled.                                                                     |
 
-| [searchSubText](#searchSubText)         |                                                                                     |
+---
+
+### [searchSubText](#searchSubText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.searchSubText <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, allow users to search the subtext value.                                                                     |
 
-| [showHidden](#showHidden)         |                                                                                     |
+---
+
+### [showHidden](#showHidden)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator.showHidden <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, hidden items are shown.                                                                     |
 
+---
 ### Methods
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:activate(result) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -162,7 +217,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [activeChoices](#activeChoices)         |                                                                                     |
+---
+
+### [activeChoices](#activeChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:activeChoices() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -171,7 +230,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Table of choices that can be displayed by an `hs.chooser`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [allChoices](#allChoices)         |                                                                                     |
+---
+
+### [allChoices](#allChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:allChoices() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -180,7 +243,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Table of choices that can be displayed by an `hs.chooser`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [allowHandlers](#allowHandlers)         |                                                                                     |
+---
+
+### [allowHandlers](#allowHandlers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:allowHandlers(...) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -189,7 +256,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [chooser](#chooser)         |                                                                                     |
+---
+
+### [chooser](#chooser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:chooser() -> `hs.chooser` object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -198,7 +269,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>A `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disableAllHandlers](#disableAllHandlers)         |                                                                                     |
+---
+
+### [disableAllHandlers](#disableAllHandlers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:disableAllHandlers([groupID]) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -207,7 +282,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disableHandler](#disableHandler)         |                                                                                     |
+---
+
+### [disableHandler](#disableHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:disableHandler(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -216,7 +295,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the handler exists and was disabled.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enableAllHandlers](#enableAllHandlers)         |                                                                                     |
+---
+
+### [enableAllHandlers](#enableAllHandlers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:enableAllHandlers([groupID]) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -225,7 +308,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enableHandler](#enableHandler)         |                                                                                     |
+---
+
+### [enableHandler](#enableHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:enableHandler(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -234,7 +321,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the handler exists and was enabled.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enableHandlers](#enableHandlers)         |                                                                                     |
+---
+
+### [enableHandlers](#enableHandlers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:enableHandlers(groupID) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -243,7 +334,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [favoriteChoice](#favoriteChoice)         |                                                                                     |
+---
+
+### [favoriteChoice](#favoriteChoice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:favoriteChoice(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -252,7 +347,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully favorited otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findChoice](#findChoice)         |                                                                                     |
+---
+
+### [findChoice](#findChoice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:findChoice(id) -> choice`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -261,7 +360,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The choice or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getActiveHandler](#getActiveHandler)         |                                                                                     |
+---
+
+### [getActiveHandler](#getActiveHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:getActiveHandler(id) -> handler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -270,7 +373,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The action handler, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPopularity](#getPopularity)         |                                                                                     |
+---
+
+### [getPopularity](#getPopularity)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:getPopularity(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -279,7 +386,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The number of times the choice has been executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:hide() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -288,7 +399,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hideChoice](#hideChoice)         |                                                                                     |
+---
+
+### [hideChoice](#hideChoice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:hideChoice(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -297,7 +412,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully hidden otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -306,7 +425,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The activator ID.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [incPopularity](#incPopularity)         |                                                                                     |
+---
+
+### [incPopularity](#incPopularity)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:incPopularity(choice, id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -315,7 +438,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully unfavourited, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isDisabledHandler](#isDisabledHandler)         |                                                                                     |
+---
+
+### [isDisabledHandler](#isDisabledHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:isDisabledHandler(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -324,7 +451,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the handler is disabled.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isHiddenChoice](#isHiddenChoice)         |                                                                                     |
+---
+
+### [isHiddenChoice](#isHiddenChoice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:isHiddenChoice(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -333,7 +464,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if currently hidden.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isVisible](#isVisible)         |                                                                                     |
+---
+
+### [isVisible](#isVisible)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:isVisible() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -342,7 +477,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>A boolean, `true` if the chooser is displayed on screen, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onActivate](#onActivate)         |                                                                                     |
+---
+
+### [onActivate](#onActivate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:onActivate(activateFn) -> activator`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -351,7 +490,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The activator.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, the activator will 'execute' the action, but you can choose to provide an alternative action. It will get passed the `handler` object and the `action` table. Eg:</li><li></li><li>```lua</li><li>activator:onActivate(function(handler, action))</li><li>```</li></ul>                |
 
-| [preloadChoices](#preloadChoices)         |                                                                                     |
+---
+
+### [preloadChoices](#preloadChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:preloadChoices([afterSeconds]) -> activator`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -360,7 +503,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The activator.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [refresh](#refresh)         |                                                                                     |
+---
+
+### [refresh](#refresh)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:refresh() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -369,7 +516,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [refreshChooser](#refreshChooser)         |                                                                                     |
+---
+
+### [refreshChooser](#refreshChooser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:refreshChooser() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -378,7 +529,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rightClickAction](#rightClickAction)         |                                                                                     |
+---
+
+### [rightClickAction](#rightClickAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:rightClickAction(index) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -387,7 +542,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rightClickMain](#rightClickMain)         |                                                                                     |
+---
+
+### [rightClickMain](#rightClickMain)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:rightClickMain(index) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -396,7 +555,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setBundleID](#setBundleID)         |                                                                                     |
+---
+
+### [setBundleID](#setBundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:setBundleID(bundleID, icon, displayName) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -405,7 +568,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:show() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -414,7 +581,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successful</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sortChoices](#sortChoices)         |                                                                                     |
+---
+
+### [sortChoices](#sortChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:sortChoices() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -423,7 +594,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the action executed successfully, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggle](#toggle)         |                                                                                     |
+---
+
+### [toggle](#toggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:toggle() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -432,7 +607,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toolbarIcons](#toolbarIcons)         |                                                                                     |
+---
+
+### [toolbarIcons](#toolbarIcons)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:toolbarIcons(table) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -441,7 +620,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unfavoriteChoice](#unfavoriteChoice)         |                                                                                     |
+---
+
+### [unfavoriteChoice](#unfavoriteChoice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:unfavoriteChoice(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -450,7 +633,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully unfavorited.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unhideChoice](#unhideChoice)         |                                                                                     |
+---
+
+### [unhideChoice](#unhideChoice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:unhideChoice(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -459,7 +646,11 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully unhidden otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateSelectedToolbarIcon](#updateSelectedToolbarIcon)         |                                                                                     |
+---
+
+### [updateSelectedToolbarIcon](#updateSelectedToolbarIcon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.activator:updateSelectedToolbarIcon() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -468,3 +659,4 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

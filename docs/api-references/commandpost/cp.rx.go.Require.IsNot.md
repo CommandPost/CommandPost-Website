@@ -12,15 +12,22 @@ Specifies that the `Require`d value `IsNot` a specific value.
 
 ### Constants
 
-| [IsNot](#IsNot)         |                                                                                     |
+
+### [IsNot](#IsNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.IsNot <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value all values from the `requirement` must not match.                                                                     |
 
+---
 ### Methods
 
-| [OrThrow](#OrThrow)         |                                                                                     |
+
+### [OrThrow](#OrThrow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.IsNot:OrThrow(...) -> Require.OrThrow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -29,3 +36,4 @@ Specifies that the `Require`d value `IsNot` a specific value.
 | **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

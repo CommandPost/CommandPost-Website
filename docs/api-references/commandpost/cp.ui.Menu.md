@@ -17,7 +17,10 @@ UI for AXMenus.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Menu.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Menu](#Menu)         |                                                                                     |
+
+### [Menu](#Menu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Menu(parent, uiFinder) -> Menu`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -37,9 +44,13 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>A new `Menu` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Menu:cancel() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,7 +59,11 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doCancel](#doCancel)         |                                                                                     |
+---
+
+### [doCancel](#doCancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Menu:doCancel(value) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -57,7 +72,11 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectItem](#doSelectItem)         |                                                                                     |
+---
+
+### [doSelectItem](#doSelectItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Menu:doSelectItem(index) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +85,11 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectValue](#doSelectValue)         |                                                                                     |
+---
+
+### [doSelectValue](#doSelectValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Menu:doSelectValue(pattern[, altPattern]) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,3 +98,4 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

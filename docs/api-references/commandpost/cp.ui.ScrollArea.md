@@ -73,7 +73,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ### Functions
 
-| [containing](#containing)         |                                                                                     |
+
+### [containing](#containing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:containing(elementInit) -> cp.ui.ScrollArea.Builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -82,7 +85,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A new `ScrollArea.Builder` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -91,9 +98,13 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ScrollArea](#ScrollArea)         |                                                                                     |
+
+### [ScrollArea](#ScrollArea)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea(parent, uiFinder[, contentsInit]) -> cp.ui.ScrollArea`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -102,47 +113,75 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `ScrollArea`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contents](#contents)         |                                                                                     |
+
+### [contents](#contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.contents <cp.ui.Element>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `Element` representing the `ScrollArea` Contents.                                                                     |
 
-| [contentsUI](#contentsUI)         |                                                                                     |
+---
+
+### [contentsUI](#contentsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.contentsUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the Scroll Area Contents, or `nil` if not available.                                                                     |
 
-| [horizontalScrollBar](#horizontalScrollBar)         |                                                                                     |
+---
+
+### [horizontalScrollBar](#horizontalScrollBar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.horizontalScrollBar <cp.ui.ScrollBar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The horizontal [ScrollBar](cp.ui.ScrollBar.md).                                                                     |
 
-| [selectedChildrenUI](#selectedChildrenUI)         |                                                                                     |
+---
+
+### [selectedChildrenUI](#selectedChildrenUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.selectedChildrenUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the Scroll Area Selected Children, or `nil` if not available.                                                                     |
 
-| [verticalScrollBar](#verticalScrollBar)         |                                                                                     |
+---
+
+### [verticalScrollBar](#verticalScrollBar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.verticalScrollBar <cp.ui.ScrollBar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The vertical [ScrollBar](cp.ui.ScrollBar.md).                                                                     |
 
-| [viewFrame](#viewFrame)         |                                                                                     |
+---
+
+### [viewFrame](#viewFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea.viewFrame <cp.prop:table; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` reporting the Scroll Area frame as a table containing `{x, y, w, h}`.                                                                     |
 
+---
 ### Methods
 
-| [childrenUI](#childrenUI)         |                                                                                     |
+
+### [childrenUI](#childrenUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:childrenUI(filterFn) -> hs.axuielement | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +190,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The `axuielement` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deselectAll](#deselectAll)         |                                                                                     |
+---
+
+### [deselectAll](#deselectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:deselectAll() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +203,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +216,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +229,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A table containing the current Scroll Area Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectAll](#selectAll)         |                                                                                     |
+---
+
+### [selectAll](#selectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:selectAll(childrenUI) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +242,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectChild](#selectChild)         |                                                                                     |
+---
+
+### [selectChild](#selectChild)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:selectChild(childUI) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,7 +255,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectChildAt](#selectChildAt)         |                                                                                     |
+---
+
+### [selectChildAt](#selectChildAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:selectChildAt(index) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -205,7 +268,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftHorizontalBy](#shiftHorizontalBy)         |                                                                                     |
+---
+
+### [shiftHorizontalBy](#shiftHorizontalBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:shiftHorizontalBy(amount) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -214,7 +281,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the horizontal scroll bar.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftHorizontalTo](#shiftHorizontalTo)         |                                                                                     |
+---
+
+### [shiftHorizontalTo](#shiftHorizontalTo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:shiftHorizontalTo(value) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -223,7 +294,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the horizontal scroll bar.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftVerticalBy](#shiftVerticalBy)         |                                                                                     |
+---
+
+### [shiftVerticalBy](#shiftVerticalBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:shiftVerticalBy(amount) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -232,7 +307,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the vertical scroll bar.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftVerticalTo](#shiftVerticalTo)         |                                                                                     |
+---
+
+### [shiftVerticalTo](#shiftVerticalTo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:shiftVerticalTo(value) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -241,7 +320,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the vertical scroll bar.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showChild](#showChild)         |                                                                                     |
+---
+
+### [showChild](#showChild)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:showChild(childUI) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -250,7 +333,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showChildAt](#showChildAt)         |                                                                                     |
+---
+
+### [showChildAt](#showChildAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ScrollArea:showChildAt(index) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -259,3 +346,4 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

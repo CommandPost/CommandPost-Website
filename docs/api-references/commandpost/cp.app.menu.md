@@ -30,27 +30,42 @@ trigger menu items.
 
 ### Constants
 
-| [NIB_FILE](#NIB_FILE)         |                                                                                     |
+
+### [NIB_FILE](#NIB_FILE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu.NIB_FILE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Main NIB File.                                                                     |
 
-| [ROLE](#ROLE)         |                                                                                     |
+---
+
+### [ROLE](#ROLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu.ROLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The menu role                                                                     |
 
-| [STORYBOARD_NAME](#STORYBOARD_NAME)         |                                                                                     |
+---
+
+### [STORYBOARD_NAME](#STORYBOARD_NAME)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu.STORYBOARD_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Main Storyboard name.                                                                     |
 
+---
 ### Constructors
 
-| [menu](#menu)         |                                                                                     |
+
+### [menu](#menu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu(app) -> menu`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -59,23 +74,35 @@ trigger menu items.
 | **Returns**                                 | <ul><li>a new menu instance</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [showing](#showing)         |                                                                                     |
+
+### [showing](#showing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu.showing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Tells you if the app's Menu Bar is visible.                                                                     |
 
-| [UI](#UI)         |                                                                                     |
+---
+
+### [UI](#UI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu.UI <cp.prop:hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the menu.                                                                     |
 
+---
 ### Methods
 
-| [addMenuFinder](#addMenuFinder)         |                                                                                     |
+
+### [addMenuFinder](#addMenuFinder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:addMenuFinder(finder) -> nothing`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +111,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>The `AXMenuItem` found, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>The `finder` should have the following signature:</li><li> `function(parentItem, path, childName, locale) -> childItem`</li><li>The elements are:</li><li> parentItem    - The `AXMenuItem` containing the children. E.g. the `Go To` menu under `Window`.</li><li> path          - An array of strings in the specified locale leading to the parent item. E.g. `{"Window", "Go To"}`.</li><li> childName     - The name of the next child to find, in the specified locale. E.g. `"Libraries"`.</li><li> locale        - The `cp.i18n.localeID` that the menu titles are in.</li><li> childItem     - The `AXMenuItem` that was found, or `nil` if not found.</li></ul>                |
 
-| [app](#app)         |                                                                                     |
+---
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:app() -> cp.app`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,7 +124,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>The `cp.app`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindMenuUI](#doFindMenuUI)         |                                                                                     |
+---
+
+### [doFindMenuUI](#doFindMenuUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:doFindMenuUI(path[, options]) -> cp.rx.go.Statement <hs.axuielement>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -102,7 +137,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>The `Statement`, ready to be executed.</li></ul>          |
 | **Notes**                                   | <ul><li>Each step on the path can be either one of:</li><li> a string     - The exact name of the menu item.</li><li> a number     - The menu item number, starting from 1.</li><li> a function   - Passed one argument - the Menu UI to check - returning `true` if it matches.</li><li>The `options` may contain:</li><li> locale   - The locale that any strings in the path are in. Defaults to "en".</li><li> plain    - Whether or not to disable the pattern matching feature. Defaults to `false`.</li><li>Examples:</li><li> `myApp:menu():doFindMenuUI({"Edit", "Copy"}):Now(function(item) print(item:title() .. " enabled: ", item:enabled()) end, error)`</li></ul>                |
 
-| [doIsEnabled](#doIsEnabled)         |                                                                                     |
+---
+
+### [doIsEnabled](#doIsEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:doIsEnabled(path, options) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -111,7 +150,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectMenu](#doSelectMenu)         |                                                                                     |
+---
+
+### [doSelectMenu](#doSelectMenu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:doSelectMenu(path, options) -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -120,7 +163,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>The `Statement`, ready to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>Each step on the path can be either one of:</li><li> a string     - The exact name of the menu item.</li><li> a number     - The menu item number, starting from 1.</li><li> a function   - Passed one argument - the Menu UI to check - returning `true` if it matches.</li><li>The `options` may include:</li><li> locale - The `localeID` or `string` for the locale that the path values are in.</li><li> pressAll - If `true`, all menu items will be pressed on the way to the final destination.</li><li> plain    - Whether or not to disable the pattern matching feature. Defaults to `false`.</li><li>Examples:</li><li> `previewApp:menu():doSelectMenu({"File", "Take Screenshot", "From Entire Screen"}):Now()`</li></ul>                |
 
-| [findMenuUI](#findMenuUI)         |                                                                                     |
+---
+
+### [findMenuUI](#findMenuUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:findMenuUI(path[, options]) -> Menu UI, table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +176,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>The Menu UI, or `nil` if it could not be found.</li><li>The full list of Menu UIs for the path in a table.</li></ul>          |
 | **Notes**                                   | <ul><li>E.g. `findMenuUI({"Edit", "Copy"})` returns the 'Copy' menu item in the 'Edit' menu.</li><li>Each step on the path can be either one of:</li><li> a string     - The exact name of the menu item.</li><li> a number     - The menu item number, starting from 1.</li><li> a function   - Passed one argument - the Menu UI to check - returning `true` if it matches.</li><li>The `options` can contain:</li><li> locale   - The `localeID` or `string` with the locale code. Defaults to "en".</li><li> plain    - Whether or not to disable the pattern matching feature. Defaults to `false`.</li></ul>                |
 
-| [getMenuTitles](#getMenuTitles)         |                                                                                     |
+---
+
+### [getMenuTitles](#getMenuTitles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:getMenuTitles([locales]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,7 +189,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>A table of Menu Bar Values</li></ul>          |
 | **Notes**                                   | <ul><li>This menu may get added to over time if additional locales are loaded - previously loaded locales are not removed from the cache.</li></ul>                |
 
-| [isChecked](#isChecked)         |                                                                                     |
+---
+
+### [isChecked](#isChecked)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:isChecked(path[, options]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -147,7 +202,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>`true` if checked otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>The `options` may include:</li><li> locale   - The `localeID` or `string` with the locale code. Defaults to "en".</li></ul>                |
 
-| [isEnabled](#isEnabled)         |                                                                                     |
+---
+
+### [isEnabled](#isEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:isEnabled(path[, options]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -156,7 +215,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>`true` if enabled otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>The `options` may include:</li><li> locale   - The `localeID` or `string` with the locale code. Defaults to "en".</li></ul>                |
 
-| [selectMenu](#selectMenu)         |                                                                                     |
+---
+
+### [selectMenu](#selectMenu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:selectMenu(path[, options]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -165,7 +228,11 @@ trigger menu items.
 | **Returns**                                 | <ul><li>`true` if the press was successful.</li></ul>          |
 | **Notes**                                   | <ul><li>Each step on the path can be either one of:</li><li> a string     - The exact name of the menu item.</li><li> a number     - The menu item number, starting from 1.</li><li> a function   - Passed one argument - the Menu UI to check - returning `true` if it matches.</li><li>The `options` may include:</li><li> locale - The `localeID` or `string` for the locale that the path values are in.</li><li> pressAll - If `true`, all menu items will be pressed on the way to the final destination.</li><li> plain    - Whether or not to disable the pattern matching feature. Defaults to `false`.</li><li>Example usage:</li><li> `require("cp.app").forBundleID("com.apple.FinalCut"):menu():selectMenu({"View", "Browser", "Toggle Filmstrip/List View"})`</li></ul>                |
 
-| [visitMenuItems](#visitMenuItems)         |                                                                                     |
+---
+
+### [visitMenuItems](#visitMenuItems)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.menu:visitMenuItems(visitFn[, options]]) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -174,3 +241,4 @@ trigger menu items.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>The `options` may include:</li><li> locale   - The `localeID` or `string` with the locale code. Defaults to "en".</li><li> startPath - The path to the menu item to start at.</li><li>The `visitFn` will be called on each menu item with the following parameters:</li><li> `function(path, menuItem)`</li><li>The `menuItem` is the AXMenuItem object, and the `path` is an array with the path to that menu item. For example, if it is the "Copy" item in the "Edit" menu, the path will be `{ "Edit" }`.</li></ul>                |
 
+---

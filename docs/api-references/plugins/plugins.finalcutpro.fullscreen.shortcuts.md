@@ -15,15 +15,22 @@ Fullscreen Shortcuts
 
 ### Variables
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.shortcuts.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the module enabled?                                                                     |
 
+---
 ### Functions
 
-| [checkCommand](#checkCommand)         |                                                                                     |
+
+### [checkCommand](#checkCommand)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.shortcuts.checkCommand(whichModifier, whichKey) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +39,11 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ninjaKeyStroke](#ninjaKeyStroke)         |                                                                                     |
+---
+
+### [ninjaKeyStroke](#ninjaKeyStroke)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.shortcuts.ninjaKeyStroke(whichModifier, whichKey) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,7 +52,11 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [performCommand](#performCommand)         |                                                                                     |
+---
+
+### [performCommand](#performCommand)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.shortcuts.performCommand(cmd, whichModifier, whichKey) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +65,11 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.fullscreen.shortcuts.update() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,3 +78,4 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

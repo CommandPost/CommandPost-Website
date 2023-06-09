@@ -16,7 +16,10 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.timer.delayed.new(delay, fn) -> hs.timer.delayed object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -25,9 +28,13 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>a new `hs.timer.delayed` object</li></ul>          |
 | **Notes**                                   | <ul><li>These timers are meant to be long-lived: once instantiated, there's no way to remove them from the run loop; create them once at the module level.</li><li>Delayed timers have specialized methods that behave differently from regular timers. When the `:start()` method is invoked, the timer will wait for `delay` seconds before calling `fn()`; this is referred to as the callback countdown. If `:start()` is invoked again before `delay` has elapsed, the countdown starts over again.</li><li>You can use a delayed timer to coalesce processing of unpredictable asynchronous events into a single callback; for example, if you have an event stream that happens in "bursts" of dozens of events at once, set an appropriate `delay` to wait for things to settle down, and then your callback will run just once.</li></ul>                |
 
+---
 ### Methods
 
-| [nextTrigger](#nextTrigger)         |                                                                                     |
+
+### [nextTrigger](#nextTrigger)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.timer.delayed:nextTrigger() -> number or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -36,7 +43,11 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>if the callback countdown is running, returns the number of seconds until it triggers; otherwise returns nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [running](#running)         |                                                                                     |
+---
+
+### [running](#running)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.timer.delayed:running() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>a boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setDelay](#setDelay)         |                                                                                     |
+---
+
+### [setDelay](#setDelay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.timer.delayed:setDelay(delay) -> hs.timer.delayed object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>the delayed timer object</li></ul>          |
 | **Notes**                                   | <ul><li>if the callback countdown is running, calling this method will restart it</li></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.timer.delayed:start([delay]) -> hs.timer.delayed object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +82,11 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>the delayed timer object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.timer.delayed:stop() -> hs.timer.delayed object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,3 +95,4 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>the delayed timer object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

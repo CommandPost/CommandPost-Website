@@ -26,7 +26,10 @@ Common Final Cut Pro functions for Tangent
 
 ### Functions
 
-| [buttonParameter](#buttonParameter)         |                                                                                     |
+
+### [buttonParameter](#buttonParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.buttonParameter(group, param, id, label) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +38,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [checkboxParameter](#checkboxParameter)         |                                                                                     |
+---
+
+### [checkboxParameter](#checkboxParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.checkboxParameter(group, param, id, label) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +51,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [checkboxParameterByIndex](#checkboxParameterByIndex)         |                                                                                     |
+---
+
+### [checkboxParameterByIndex](#checkboxParameterByIndex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.checkboxParameterByIndex(group, section, nextSection, id, label, index) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,7 +64,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [checkboxSliderParameter](#checkboxSliderParameter)         |                                                                                     |
+---
+
+### [checkboxSliderParameter](#checkboxSliderParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.checkboxSliderParameter(group, id, label, options, resetIndex) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -62,7 +77,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [commandParameter](#commandParameter)         |                                                                                     |
+---
+
+### [commandParameter](#commandParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.commandParameter(group, id, commandID) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -71,7 +90,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowParameter](#doShowParameter)         |                                                                                     |
+---
+
+### [doShowParameter](#doShowParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.doShowParameter(group, param, id, label) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -80,7 +103,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [dynamicPopupSliderParameter](#dynamicPopupSliderParameter)         |                                                                                     |
+---
+
+### [dynamicPopupSliderParameter](#dynamicPopupSliderParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.dynamicPopupSliderParameter(group, param, id, label, defaultValue) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -89,7 +116,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [functionParameter](#functionParameter)         |                                                                                     |
+---
+
+### [functionParameter](#functionParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.functionParameter(group, id, label, fn) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -98,7 +129,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [menuParameter](#menuParameter)         |                                                                                     |
+---
+
+### [menuParameter](#menuParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.menuParameter(group, id, label, path) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -107,7 +142,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [popupParameter](#popupParameter)         |                                                                                     |
+---
+
+### [popupParameter](#popupParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.popupParameter(group, param, id, value, label) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -116,7 +155,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [popupParameters](#popupParameters)         |                                                                                     |
+---
+
+### [popupParameters](#popupParameters)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.popupParameters(group, param, id, options) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -125,7 +168,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [popupSliderParameter](#popupSliderParameter)         |                                                                                     |
+---
+
+### [popupSliderParameter](#popupSliderParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.popupSliderParameter(group, param, id, label, options, resetIndex) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -134,7 +181,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [radioButtonParameter](#radioButtonParameter)         |                                                                                     |
+---
+
+### [radioButtonParameter](#radioButtonParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.radioButtonParameter(group, param, id, label) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -143,7 +194,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shortcutParameter](#shortcutParameter)         |                                                                                     |
+---
+
+### [shortcutParameter](#shortcutParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.shortcutParameter(group, id, label, shortcutID) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -152,7 +207,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sliderParameter](#sliderParameter)         |                                                                                     |
+---
+
+### [sliderParameter](#sliderParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.sliderParameter(group, param, id, minValue, maxValue, stepSize, default, label, optionalParamA, optionalParamB) -> number, parameter`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -161,7 +220,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeSliderParameter](#volumeSliderParameter)         |                                                                                     |
+---
+
+### [volumeSliderParameter](#volumeSliderParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.volumeSliderParameter(group, param, id, minValue, maxValue, stepSize, default, label) -> number, parameter`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -170,7 +233,11 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xyParameter](#xyParameter)         |                                                                                     |
+---
+
+### [xyParameter](#xyParameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.common.xyParameter(group, param, id, minValue, maxValue, stepSize) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -179,3 +246,4 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li><li>The `x` parameter value</li><li>The `y` parameter value</li><li>The xy binding</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

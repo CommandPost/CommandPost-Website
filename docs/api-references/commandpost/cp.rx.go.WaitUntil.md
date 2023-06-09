@@ -22,39 +22,62 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ### Constants
 
-| [Are](#Are)         |                                                                                     |
+
+### [Are](#Are)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil.Are <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the values to match.                                                                     |
 
-| [AreNot](#AreNot)         |                                                                                     |
+---
+
+### [AreNot](#AreNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil.AreNot <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a value to skip over.                                                                     |
 
-| [Is](#Is)         |                                                                                     |
+---
+
+### [Is](#Is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil.Is <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value to wait for.                                                                     |
 
-| [IsNot](#IsNot)         |                                                                                     |
+---
+
+### [IsNot](#IsNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil.IsNot <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a value that is skipped over.                                                                     |
 
-| [Matches](#Matches)         |                                                                                     |
+---
+
+### [Matches](#Matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil.Matches <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a predicate check values against.                                                                     |
 
+---
 ### Constructors
 
-| [WaitUntil](#WaitUntil)         |                                                                                     |
+
+### [WaitUntil](#WaitUntil)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil(requirement) -> WaitUntil`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -63,9 +86,13 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `resolvable` matches the requirement.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will wait until the value is `truthy` - not `nil` and not `false`.</li><li>Example:</li><li></li><li>```lua</li><li>WaitUntil(someObservable):Is(true)</li><li>```</li></ul>                |
 
+---
 ### Methods
 
-| [Are](#Are)         |                                                                                     |
+
+### [Are](#Are)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil:Are(value) -> WaitUntil.Are`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +101,11 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Returns**                                 | <ul><li>The `Are` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [AreNot](#AreNot)         |                                                                                     |
+---
+
+### [AreNot](#AreNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil:AreNot(value) -> WaitUntil.AreNot`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,7 +114,11 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Returns**                                 | <ul><li>The `AreNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [Is](#Is)         |                                                                                     |
+---
+
+### [Is](#Is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil:Is(value) -> WaitUntil.Is`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -92,7 +127,11 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Returns**                                 | <ul><li>The `Is` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [IsNot](#IsNot)         |                                                                                     |
+---
+
+### [IsNot](#IsNot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil:IsNot(value) -> WaitUntil.IsNot`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -101,7 +140,11 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Returns**                                 | <ul><li>The `IsNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [Matches](#Matches)         |                                                                                     |
+---
+
+### [Matches](#Matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.WaitUntil:Matches(predicate) -> WaitUntil.Matches`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,3 +153,4 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Returns**                                 | <ul><li>The `Matches` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>* Example:</li><li>```lua</li><li>WaitUntil(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul>                |
 
+---

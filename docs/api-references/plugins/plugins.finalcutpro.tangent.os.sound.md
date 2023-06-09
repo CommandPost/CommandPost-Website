@@ -13,21 +13,32 @@ Tangent Sound Functions.
 
 ### Variables
 
-| [currentOutputDevice](#currentOutputDevice)         |                                                                                     |
+
+### [currentOutputDevice](#currentOutputDevice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.os.sound.currentOutputDevice <cp.prop: audio>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Current Output Device.                                                                     |
 
-| [group](#group)         |                                                                                     |
+---
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.os.sound.group <cp.prop: audio>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Tangent Sound Group.                                                                     |
 
+---
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.os.sound.init() -> self`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -36,3 +47,4 @@ Tangent Sound Functions.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

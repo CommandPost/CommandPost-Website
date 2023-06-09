@@ -80,7 +80,10 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 
 ### Constructors
 
-| [copy](#copy)         |                                                                                     |
+
+### [copy](#copy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.copy(geom) -> hs.geometry object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -89,7 +92,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a newly created copy of the hs.geometry object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.new(...) -> hs.geometry object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -98,7 +105,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a newly created hs.geometry object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [point](#point)         |                                                                                     |
+---
+
+### [point](#point)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.point(x, y) -> hs.geometry point`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -107,7 +118,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>An hs.geometry point object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rect](#rect)         |                                                                                     |
+---
+
+### [rect](#rect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.rect(x, y, w, h) -> hs.geometry rect`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -116,7 +131,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>An hs.geometry rect object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [size](#size)         |                                                                                     |
+---
+
+### [size](#size)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.size(w, h) -> hs.geometry size`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -125,125 +144,205 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>An hs.geometry size object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [area](#area)         |                                                                                     |
+
+### [area](#area)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.area`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A number representing the area of this rect or size; changing it will scale the rect/size - see `hs.geometry:scale()`                                                                     |
 
-| [aspect](#aspect)         |                                                                                     |
+---
+
+### [aspect](#aspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.aspect`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A number representing the aspect ratio of this rect or size; changing it will reshape the rect/size, keeping its area and center constant                                                                     |
 
-| [bottomright](#bottomright)         |                                                                                     |
+---
+
+### [bottomright](#bottomright)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.bottomright`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `x2y2`                                                                     |
 
-| [center](#center)         |                                                                                     |
+---
+
+### [center](#center)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.center`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A point representing the geometric center of this rect or the midpoint of this vector2; changing it will move the rect/vector accordingly                                                                     |
 
-| [h](#h)         |                                                                                     |
+---
+
+### [h](#h)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.h`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The height of this rect or size; changing it will keep the rect's x,y corner constant                                                                     |
 
-| [length](#length)         |                                                                                     |
+---
+
+### [length](#length)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.length`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A number representing the length of the diagonal of this rect, or the length of this vector2; changing it will scale the rect/vector - see `hs.geometry:scale()`                                                                     |
 
-| [string](#string)         |                                                                                     |
+---
+
+### [string](#string)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.string`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `"X,Y/WxH"` string for this hs.geometry object (*reduced precision*); useful e.g. for logging                                                                     |
 
-| [table](#table)         |                                                                                     |
+---
+
+### [table](#table)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.table`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `{x=X,y=Y,w=W,h=H}` table for this hs.geometry object; useful e.g. for serialization/deserialization                                                                     |
 
-| [topleft](#topleft)         |                                                                                     |
+---
+
+### [topleft](#topleft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.topleft`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `xy`                                                                     |
 
-| [w](#w)         |                                                                                     |
+---
+
+### [w](#w)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.w`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The width of this rect or size; changing it will keep the rect's x,y corner constant                                                                     |
 
-| [wh](#wh)         |                                                                                     |
+---
+
+### [wh](#wh)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.wh`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The size component for this hs.geometry object; setting this to a new size will keep the rect's x,y corner constant                                                                     |
 
-| [x](#x)         |                                                                                     |
+---
+
+### [x](#x)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.x`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The x coordinate for this point or rect's corner; changing it will move the rect but keep the same width and height                                                                     |
 
-| [x1](#x1)         |                                                                                     |
+---
+
+### [x1](#x1)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.x1`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `x`                                                                     |
 
-| [x2](#x2)         |                                                                                     |
+---
+
+### [x2](#x2)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.x2`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The x coordinate for the second corner of this rect; changing it will affect the rect's width                                                                     |
 
-| [x2y2](#x2y2)         |                                                                                     |
+---
+
+### [x2y2](#x2y2)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.x2y2`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The point denoting the other corner of this hs.geometry object; setting this to a new point will change the rect's width and height                                                                     |
 
-| [xy](#xy)         |                                                                                     |
+---
+
+### [xy](#xy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.xy`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The point component for this hs.geometry object; setting this to a new point will move the rect but keep the same width and height                                                                     |
 
-| [y](#y)         |                                                                                     |
+---
+
+### [y](#y)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.y`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The y coordinate for this point or rect's corner; changing it will move the rect but keep the same width and height                                                                     |
 
-| [y1](#y1)         |                                                                                     |
+---
+
+### [y1](#y1)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.y1`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `y`                                                                     |
 
-| [y2](#y2)         |                                                                                     |
+---
+
+### [y2](#y2)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry.y2`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The y coordinate for the second corner of this rect; changing it will affect the rect's height                                                                     |
 
+---
 ### Methods
 
-| [angle](#angle)         |                                                                                     |
+
+### [angle](#angle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:angle() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -252,7 +351,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a number representing the angle in radians</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [angleTo](#angleTo)         |                                                                                     |
+---
+
+### [angleTo](#angleTo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:angleTo(point) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -261,7 +364,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a number representing the angle in radians</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [distance](#distance)         |                                                                                     |
+---
+
+### [distance](#distance)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:distance(point) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -270,7 +377,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a number indicating the distance</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [equals](#equals)         |                                                                                     |
+---
+
+### [equals](#equals)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:equals(other) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -279,7 +390,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>`true` if this hs.geometry object perfectly overlaps other, `false` otherwise</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fit](#fit)         |                                                                                     |
+---
+
+### [fit](#fit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:fit(bounds) -> hs.geometry object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -288,7 +403,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>this hs.geometry object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [floor](#floor)         |                                                                                     |
+---
+
+### [floor](#floor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:floor() -> hs.geometry object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -297,7 +416,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>this hs.geometry point for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromUnitRect](#fromUnitRect)         |                                                                                     |
+---
+
+### [fromUnitRect](#fromUnitRect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:fromUnitRect(frame) -> hs.geometry rect`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -306,7 +429,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>An hs.geometry rect object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [inside](#inside)         |                                                                                     |
+---
+
+### [inside](#inside)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:inside(rect) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -315,7 +442,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>`true` if this point/rect lies fully inside the given rect, `false` otherwise</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [intersect](#intersect)         |                                                                                     |
+---
+
+### [intersect](#intersect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:intersect(rect) -> hs.geometry rect`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -324,7 +455,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a new hs.geometry rect</li></ul>          |
 | **Notes**                                   | <ul><li>If the two rects don't intersect, the result rect will be a "projection" of the second rect onto this rect's</li><li>   closest edge or corner along the x or y axis; the `w` and/or `h` fields in the result rect will be 0.</li></ul>                |
 
-| [move](#move)         |                                                                                     |
+---
+
+### [move](#move)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:move(point) -> hs.geometry object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -333,7 +468,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>this hs.geometry object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [normalize](#normalize)         |                                                                                     |
+---
+
+### [normalize](#normalize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:normalize() -> point`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -342,7 +481,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>this hs.geometry point for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rotateCCW](#rotateCCW)         |                                                                                     |
+---
+
+### [rotateCCW](#rotateCCW)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:rotateCCW(aroundpoint, ntimes) -> hs.geometry point`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -351,7 +494,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>A new hs.geometry point containing the location of the rotated point</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scale](#scale)         |                                                                                     |
+---
+
+### [scale](#scale)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:scale(size) -> hs.geometry object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -360,7 +507,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>this hs.geometry object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toUnitRect](#toUnitRect)         |                                                                                     |
+---
+
+### [toUnitRect](#toUnitRect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:toUnitRect(frame) -> hs.geometry unit rect`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -369,7 +520,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>An hs.geometry unit rect object</li></ul>          |
 | **Notes**                                   | <ul><li>The resulting unit rect is always clipped within `frame`'s bounds (via `hs.geometry:intersect()`); if `frame`</li><li>   does not encompass this rect *no error will be thrown*, but the resulting unit rect won't be a direct match with this rect</li><li>   (i.e. calling `:fromUnitRect(frame)` on it will return a different rect)</li></ul>                |
 
-| [type](#type)         |                                                                                     |
+---
+
+### [type](#type)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:type() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -378,7 +533,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a string describing the type of this hs.geometry object, i.e. 'point', 'size', 'rect' or 'unitrect'; `nil` if not a valid object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [union](#union)         |                                                                                     |
+---
+
+### [union](#union)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:union(rect) -> hs.geometry rect`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -387,7 +546,11 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>a new hs.geometry rect</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [vector](#vector)         |                                                                                     |
+---
+
+### [vector](#vector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.geometry:vector(point) -> point`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -396,3 +559,4 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Returns**                                 | <ul><li>an hs.geometry point</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

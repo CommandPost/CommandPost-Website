@@ -14,7 +14,10 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.MainProperties.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,9 +26,13 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [MainProperties](#MainProperties)         |                                                                                     |
+
+### [MainProperties](#MainProperties)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.MainProperties(parent, uiFinder) -> MainProperties`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,11 +41,16 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contentUI](#contentUI)         |                                                                                     |
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.MainProperties.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the MainProperties group.                                                                     |
 
+---

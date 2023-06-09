@@ -16,15 +16,22 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 
 ### Constants
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If.Then <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp`, which should be created via `SetProp:To(value)`                                                                     |
 
+---
 ### Methods
 
-| [Otherwise](#Otherwise)         |                                                                                     |
+
+### [Otherwise](#Otherwise)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If.Then:Otherwise(...) -> If.Then.Otherwise`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -33,7 +40,11 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>:Otherwise(false)</li><li>```</li></ul>                |
 
-| [Then](#Then)         |                                                                                     |
+---
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If.Then:Then(...) -> If.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,3 +53,4 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Returns**                                 | <ul><li>A new [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

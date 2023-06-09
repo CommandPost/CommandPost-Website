@@ -69,7 +69,10 @@ Special thanks to the authors of these awesome documents & resources:
 
 ### Functions
 
-| [discoveryCallback](#discoveryCallback)         |                                                                                     |
+
+### [discoveryCallback](#discoveryCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer.discoveryCallback(fn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -80,7 +83,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDevice](#getDevice)         |                                                                                     |
+---
+
+### [getDevice](#getDevice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer.getDevice(num) -> razerObject | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -89,7 +96,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>An hs.razer object or `nil` if something goes wrong</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer.init(fn)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -100,7 +111,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul>                |
 
-| [numDevices](#numDevices)         |                                                                                     |
+---
+
+### [numDevices](#numDevices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer.numDevices() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -109,7 +124,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>A number containing the number of Razer devices attached to the system</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unitTests](#unitTests)         |                                                                                     |
+---
+
+### [unitTests](#unitTests)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer.unitTests() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -118,9 +137,13 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Because `hs.razer` relies on a physical device to</li><li>   be connected for testing, this method exists so that</li><li>   Hammerspoon developers can test the extension outside</li><li>   of the usual GitHub tests. It can also be used for</li><li>   user troubleshooting.</li><li>This feature currently only works on the Razer Tartarus V2.</li></ul>                |
 
+---
 ### Methods
 
-| [backlightsBreathing](#backlightsBreathing)         |                                                                                     |
+
+### [backlightsBreathing](#backlightsBreathing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsBreathing([color], [secondaryColor]) -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +152,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>If neither `color` nor `secondaryColor` is provided, then random colors will be used.</li></ul>                |
 
-| [backlightsCustom](#backlightsCustom)         |                                                                                     |
+---
+
+### [backlightsCustom](#backlightsCustom)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsCustom(colors) -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,7 +165,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>The order is top to bottom, left to right. You can use `nil` for any buttons you don't want to light up.</li><li>Example usage: ```lua</li><li>  hs.razer.new(0):backlightsCustom({hs.drawing.color.red, nil, hs.drawing.color.green, hs.drawing.color.blue})</li><li>  ```</li></ul>                |
 
-| [backlightsMode](#backlightsMode)         |                                                                                     |
+---
+
+### [backlightsMode](#backlightsMode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsMode(mode) -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -147,7 +178,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [backlightsOff](#backlightsOff)         |                                                                                     |
+---
+
+### [backlightsOff](#backlightsOff)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsOff() -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -156,7 +191,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [backlightsReactive](#backlightsReactive)         |                                                                                     |
+---
+
+### [backlightsReactive](#backlightsReactive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsReactive(speed, color) -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -165,7 +204,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [backlightsSpectrum](#backlightsSpectrum)         |                                                                                     |
+---
+
+### [backlightsSpectrum](#backlightsSpectrum)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsSpectrum() -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -174,7 +217,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [backlightsStarlight](#backlightsStarlight)         |                                                                                     |
+---
+
+### [backlightsStarlight](#backlightsStarlight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsStarlight(speed, [color], [secondaryColor]) -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -183,7 +230,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>If neither `color` nor `secondaryColor` is provided, then random colors will be used.</li></ul>                |
 
-| [backlightsStatic](#backlightsStatic)         |                                                                                     |
+---
+
+### [backlightsStatic](#backlightsStatic)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsStatic(color) -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -192,7 +243,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [backlightsWave](#backlightsWave)         |                                                                                     |
+---
+
+### [backlightsWave](#backlightsWave)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:backlightsWave(speed, direction) -> razerObject, boolean, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -201,7 +256,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [blueStatusLight](#blueStatusLight)         |                                                                                     |
+---
+
+### [blueStatusLight](#blueStatusLight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:blueStatusLight(value) -> razerObject, boolean | nil, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -210,7 +269,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [brightness](#brightness)         |                                                                                     |
+---
+
+### [brightness](#brightness)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:brightness(value) -> razerObject, number | nil, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -219,7 +282,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>The brightness as a number or `nil` if something goes wrong.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [callback](#callback)         |                                                                                     |
+---
+
+### [callback](#callback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:callback(callbackFn) -> razerObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -228,7 +295,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  `razerObject` - The serial port object that triggered the callback.</li><li>  `buttonName` - The name of the button as a string.</li><li>  `buttonAction` - A string containing "pressed", "released", "up" or "down".</li></ul>                |
 
-| [defaultKeyboardLayout](#defaultKeyboardLayout)         |                                                                                     |
+---
+
+### [defaultKeyboardLayout](#defaultKeyboardLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:defaultKeyboardLayout(enabled) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -237,7 +308,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [greenStatusLight](#greenStatusLight)         |                                                                                     |
+---
+
+### [greenStatusLight](#greenStatusLight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:greenStatusLight(value) -> razerObject, boolean | nil, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -246,7 +321,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:name() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -255,7 +334,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The device name as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [orangeStatusLight](#orangeStatusLight)         |                                                                                     |
+---
+
+### [orangeStatusLight](#orangeStatusLight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:orangeStatusLight(value) -> razerObject, boolean | nil, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -264,7 +347,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [redStatusLight](#redStatusLight)         |                                                                                     |
+---
+
+### [redStatusLight](#redStatusLight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:redStatusLight(value) -> razerObject, boolean | nil, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -273,7 +360,11 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [yellowStatusLight](#yellowStatusLight)         |                                                                                     |
+---
+
+### [yellowStatusLight](#yellowStatusLight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.razer:yellowStatusLight(value) -> razerObject, boolean | nil, string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -282,3 +373,4 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

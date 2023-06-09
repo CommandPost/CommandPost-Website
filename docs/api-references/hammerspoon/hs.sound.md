@@ -30,7 +30,10 @@ Load/play/manipulate sound files
 
 ### Functions
 
-| [getAudioEffectNames](#getAudioEffectNames)         |                                                                                     |
+
+### [getAudioEffectNames](#getAudioEffectNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound.getAudioEffectNames() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -39,7 +42,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing the names of all installed Audio Units Effects.</li></ul>          |
 | **Notes**                                   | <ul><li>Example usage: `hs.inspect(hs.audiounit.getAudioEffectNames())`</li></ul>                |
 
-| [soundFileTypes](#soundFileTypes)         |                                                                                     |
+---
+
+### [soundFileTypes](#soundFileTypes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound.soundFileTypes() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,7 +55,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing the sound file filename extensions that are supported by the system</li></ul>          |
 | **Notes**                                   | <ul><li>This function is unlikely to be tremendously useful, as filename extensions are essentially meaningless. The data returned by `hs.sound.soundTypes()` is far more valuable</li></ul>                |
 
-| [soundTypes](#soundTypes)         |                                                                                     |
+---
+
+### [soundTypes](#soundTypes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound.soundTypes() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,7 +68,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing the UTI sound formats that are supported by the system</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [systemSounds](#systemSounds)         |                                                                                     |
+---
+
+### [systemSounds](#systemSounds)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound.systemSounds() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -66,9 +81,13 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing all of the available sound files (i.e. those found in ~/Library/Sounds, /Library/Sounds, /Network/Library/Sounds and /System/Library/Sounds)</li></ul>          |
 | **Notes**                                   | <ul><li>The sounds listed by this function can be loaded using `hs.sound.getByName()`</li></ul>                |
 
+---
 ### Constructors
 
-| [getByFile](#getByFile)         |                                                                                     |
+
+### [getByFile](#getByFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound.getByFile(path) -> sound or nil`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -77,7 +96,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>An `hs.sound` object or nil if the file could not be loaded</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getByName](#getByName)         |                                                                                     |
+---
+
+### [getByName](#getByName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound.getByName(name) -> sound or nil`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -86,9 +109,13 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>An `hs.sound` object or nil if no matching sound could be found</li></ul>          |
 | **Notes**                                   | <ul><li>Sounds can only be loaded by name if they are System Sounds (i.e. those found in ~/Library/Sounds, /Library/Sounds, /Network/Library/Sounds and /System/Library/Sounds) or are sound files that have previously been loaded and named</li></ul>                |
 
+---
 ### Methods
 
-| [currentTime](#currentTime)         |                                                                                     |
+
+### [currentTime](#currentTime)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:currentTime([seekTime]) -> soundObject | seconds`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +124,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current position.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [device](#device)         |                                                                                     |
+---
+
+### [device](#device)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:device([deviceUID]) -> soundObject | UID string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +137,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>To obtain the UID of a sound device, see `hs.audiodevice:uid()`</li></ul>                |
 
-| [duration](#duration)         |                                                                                     |
+---
+
+### [duration](#duration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:duration() -> seconds`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,7 +150,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A number containing the length of the sound, in seconds</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isPlaying](#isPlaying)         |                                                                                     |
+---
+
+### [isPlaying](#isPlaying)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:isPlaying() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -124,7 +163,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A boolean, true if the sound is currently playing, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loopSound](#loopSound)         |                                                                                     |
+---
+
+### [loopSound](#loopSound)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:loopSound([loop]) -> soundObject | bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -133,7 +176,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>If you have registered a callback function for completion of a sound's playback, it will not be called when the sound loops</li></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:name([soundName]) -> soundObject | name string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -142,7 +189,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>If remove the sound name by specifying `nil`, the sound will automatically be set to stop when Hammerspoon is reloaded.</li></ul>                |
 
-| [pause](#pause)         |                                                                                     |
+---
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:pause() -> soundObject | bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +202,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [play](#play)         |                                                                                     |
+---
+
+### [play](#play)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:play() -> soundObject | bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +215,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [resume](#resume)         |                                                                                     |
+---
+
+### [resume](#resume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:resume() -> soundObject | bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +228,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setCallback](#setCallback)         |                                                                                     |
+---
+
+### [setCallback](#setCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:setCallback(function) -> soundObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +241,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>the sound object</li></ul>          |
 | **Notes**                                   | <ul><li>the callback function should accept two parameters and return none.  The parameters passed to the callback function are:</li><li>  state - a boolean flag indicating if the sound completed playing.  Returns true if playback completes properly, or false if a decoding error occurs or if the sound is stopped early with `hs.sound:stop`.</li><li>  sound - the soundObject userdata</li></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:stop() -> soundObject | bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +254,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stopOnReload](#stopOnReload)         |                                                                                     |
+---
+
+### [stopOnReload](#stopOnReload)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:stopOnReload([stopOnReload]) -> soundObject | bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,7 +267,11 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>This method can only be used on a named `hs.sound` object, see `hs.sound:name()`</li></ul>                |
 
-| [volume](#volume)         |                                                                                     |
+---
+
+### [volume](#volume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.sound:volume([level]) -> soundObject | number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -205,3 +280,4 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

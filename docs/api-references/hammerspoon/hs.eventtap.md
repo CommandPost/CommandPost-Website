@@ -34,7 +34,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ### Functions
 
-| [checkKeyboardModifiers](#checkKeyboardModifiers)         |                                                                                     |
+
+### [checkKeyboardModifiers](#checkKeyboardModifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.checkKeyboardModifiers([raw]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +46,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>Returns a table containing boolean values indicating which keyboard modifiers were held down when the function was invoked; The possible keys are:</li><li>   cmd (or ⌘)</li><li>   alt (or ⌥)</li><li>   shift (or ⇧)</li><li>   ctrl (or ⌃)</li><li>   capslock</li><li>   fn</li><li>  and optionally</li><li>   _raw - a numeric representation of the numeric representation of all of the keyboard/modifier flags.</li></ul>          |
 | **Notes**                                   | <ul><li>This is an instantaneous poll of the current keyboard modifiers for the most recently used keyboard, not a callback.  This is useful primarily in conjunction with other modules, such as `hs.menubar`, when a callback is already in progress or waiting for an event callback is not practical or possible.</li><li>the numeric value returned is useful if you need to detect device dependent flags or flags which we normally ignore because they are not present (or are accessible another way) on most keyboards.</li></ul>                |
 
-| [checkMouseButtons](#checkMouseButtons)         |                                                                                     |
+---
+
+### [checkMouseButtons](#checkMouseButtons)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.checkMouseButtons() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +59,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>Returns an array containing indices starting from 1 up to the highest numbered button currently being pressed where the index is `true` if the button is currently pressed or `false` if it is not.</li><li>Special hash tag synonyms for `left` (button 1), `right` (button 2), and `middle` (button 3) are also set to true if these buttons are currently being pressed.</li></ul>          |
 | **Notes**                                   | <ul><li>This is an instantaneous poll of the current mouse buttons, not a callback.  This is useful primarily in conjunction with other modules, such as `hs.menubar`, when a callback is already in progress or waiting for an event callback is not practical or possible.</li></ul>                |
 
-| [doubleClickInterval](#doubleClickInterval)         |                                                                                     |
+---
+
+### [doubleClickInterval](#doubleClickInterval)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.doubleClickInterval() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +72,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A number containing the maximum number of seconds between two mouse click events, for a double click event to be registered</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isSecureInputEnabled](#isSecureInputEnabled)         |                                                                                     |
+---
+
+### [isSecureInputEnabled](#isSecureInputEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.isSecureInputEnabled() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +85,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if secure input is enabled, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>If secure input is enabled, Hammerspoon is not able to intercept keyboard events</li><li>Secure input is enabled generally only in situations where an password field is focused in a web browser, system dialog or terminal</li></ul>                |
 
-| [keyRepeatDelay](#keyRepeatDelay)         |                                                                                     |
+---
+
+### [keyRepeatDelay](#keyRepeatDelay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.keyRepeatDelay() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,7 +98,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A number containing the number of seconds before repeat events begin, after a key is held down</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [keyRepeatInterval](#keyRepeatInterval)         |                                                                                     |
+---
+
+### [keyRepeatInterval](#keyRepeatInterval)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.keyRepeatInterval() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -88,7 +111,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A number containing the number of seconds between keyboard events, if a key is held down</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [keyStroke](#keyStroke)         |                                                                                     |
+---
+
+### [keyStroke](#keyStroke)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.keyStroke(modifiers, character[, delay, application])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -97,7 +124,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function is ideal for sending single keystrokes with a modifier applied (e.g. sending ⌘-v to paste, with `hs.eventtap.keyStroke({"cmd"}, "v")`). If you want to emit multiple keystrokes for typing strings of text, see `hs.eventtap.keyStrokes()`</li><li>Note that invoking this function with a table (empty or otherwise) for the `modifiers` argument will force the release of any modifier keys which have been explicitly created by [hs.eventtap.event.newKeyEvent](#newKeyEvent) and posted that are still in the "down" state. An explicit `nil` for this argument will not (i.e. the keystroke will inherit any currently "down" modifiers)</li></ul>                |
 
-| [keyStrokes](#keyStrokes)         |                                                                                     |
+---
+
+### [keyStrokes](#keyStrokes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.keyStrokes(text[, application])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -106,7 +137,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If you want to send a single keystroke with keyboard modifiers (e.g. sending ⌘-v to paste), see `hs.eventtap.keyStroke()`</li></ul>                |
 
-| [leftClick](#leftClick)         |                                                                                     |
+---
+
+### [leftClick](#leftClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.leftClick(point[, delay])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -115,7 +150,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a wrapper around `hs.eventtap.event.newMouseEvent` that sends `leftmousedown` and `leftmouseup` events)</li></ul>                |
 
-| [middleClick](#middleClick)         |                                                                                     |
+---
+
+### [middleClick](#middleClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.middleClick(point[, delay])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -124,7 +163,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function is just a wrapper which calls `hs.eventtap.otherClick(point, delay, 2)` and is included solely for backwards compatibility.</li></ul>                |
 
-| [otherClick](#otherClick)         |                                                                                     |
+---
+
+### [otherClick](#otherClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.otherClick(point[, delay][, button])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -133,7 +176,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a wrapper around `hs.eventtap.event.newMouseEvent` that sends `otherMouseDown` and `otherMouseUp` events)</li><li>macOS recognizes up to 32 distinct mouse buttons, though few mouse devices have more than 3.  The left mouse button corresponds to button number 0 and the right mouse button corresponds to 1;  distinct events are used for these mouse buttons, so you should use `hs.eventtap.leftClick` and `hs.eventtap.rightClick` respectively.  All other mouse buttons are coalesced into the `otherMouse` events and are distinguished by specifying the specific button with the `mouseEventButtonNumber` property, which this function does for you.</li><li>The specific purpose of mouse buttons greater than 2 varies by hardware and application (typically they are not present on a mouse and have no effect in an application)</li></ul>                |
 
-| [rightClick](#rightClick)         |                                                                                     |
+---
+
+### [rightClick](#rightClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.rightClick(point[, delay])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -142,7 +189,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a wrapper around `hs.eventtap.event.newMouseEvent` that sends `rightmousedown` and `rightmouseup` events)</li></ul>                |
 
-| [scrollWheel](#scrollWheel)         |                                                                                     |
+---
+
+### [scrollWheel](#scrollWheel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.scrollWheel(offsets, modifiers, unit) -> event`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -156,9 +207,13 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap.new(types, fn) -> eventtap`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -167,9 +222,13 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An event tap object</li></ul>          |
 | **Notes**                                   | <ul><li>If you specify the argument `types` as the special table {"all"[, events to ignore]}, then *all* events (except those you optionally list *after* the "all" string) will trigger a callback, even events which are not defined in the [Quartz Event Reference](https://developer.apple.com/library/mac/documentation/Carbon/Reference/QuartzEventServicesRef/Reference/reference.html).</li></ul>                |
 
+---
 ### Methods
 
-| [isEnabled](#isEnabled)         |                                                                                     |
+
+### [isEnabled](#isEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap:isEnabled() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +237,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the event tap is enabled or false if it is not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap:start()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +250,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The event tap object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.eventtap:stop()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,3 +263,4 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The event tap object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

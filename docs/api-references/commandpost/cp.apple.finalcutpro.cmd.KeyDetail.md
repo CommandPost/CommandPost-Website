@@ -16,7 +16,10 @@ This class provides a UI for displaying the details of a key when it is selected
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,35 +28,56 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contentGroupUI](#contentGroupUI)         |                                                                                     |
+
+### [contentGroupUI](#contentGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.contentGroupUI <cp.prop: axuielement>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [axuielement](cp.prop.axuielement) for the content Group.                                                                     |
 
-| [contents](#contents)         |                                                                                     |
+---
+
+### [contents](#contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.contents <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Table` that displays the contents.                                                                     |
 
-| [detail](#detail)         |                                                                                     |
+---
+
+### [detail](#detail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.detail <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ScrollArea` that displays the detail.                                                                     |
 
-| [key](#key)         |                                                                                     |
+---
+
+### [key](#key)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.key <cp.ui.Image>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Image` that displays the key.                                                                     |
 
-| [label](#label)         |                                                                                     |
+---
+
+### [label](#label)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.label <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `StaticText` that displays the label.                                                                     |
 
+---

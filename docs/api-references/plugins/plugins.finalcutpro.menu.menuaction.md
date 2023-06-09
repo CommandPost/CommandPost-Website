@@ -12,7 +12,10 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 
 ### Functions
 
-| [actionId](#actionId)         |                                                                                     |
+
+### [actionId](#actionId)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.menu.menuaction.actionId(params) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,7 +24,11 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Returns**                                 | <ul><li>Action ID as string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.menu.menuaction.init(actionmanager) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -30,3 +37,4 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

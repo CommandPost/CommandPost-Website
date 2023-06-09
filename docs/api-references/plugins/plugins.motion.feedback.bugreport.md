@@ -16,27 +16,42 @@ Sends Apple a Bug Report or Feature Request for Motion.
 
 ### Constants
 
-| [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)         |                                                                                     |
+
+### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.motion.feedback.bugreport.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Height                                                                     |
 
-| [DEFAULT_TITLE](#DEFAULT_TITLE)         |                                                                                     |
+---
+
+### [DEFAULT_TITLE](#DEFAULT_TITLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.motion.feedback.bugreport.DEFAULT_TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Title                                                                     |
 
-| [DEFAULT_WIDTH](#DEFAULT_WIDTH)         |                                                                                     |
+---
+
+### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.motion.feedback.bugreport.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Width                                                                     |
 
+---
 ### Functions
 
-| [open](#open)         |                                                                                     |
+
+### [open](#open)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.motion.feedback.bugreport.open(bugReport) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -45,11 +60,16 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [position](#position)         |                                                                                     |
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.motion.feedback.bugreport.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Webview Position                                                                     |
 
+---

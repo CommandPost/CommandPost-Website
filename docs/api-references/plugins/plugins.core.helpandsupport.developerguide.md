@@ -10,7 +10,10 @@ Developer Guide Menu Item.
 
 ### Functions
 
-| [show](#show)         |                                                                                     |
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.helpandsupport.developerguide.show() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Developer Guide Menu Item.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

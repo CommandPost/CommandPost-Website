@@ -81,7 +81,10 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -90,9 +93,13 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>`true` if the thing is an `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.create(onSubscription) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -101,7 +108,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [defer](#defer)         |                                                                                     |
+---
+
+### [defer](#defer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.defer(fn) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -110,7 +121,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [empty](#empty)         |                                                                                     |
+---
+
+### [empty](#empty)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.empty() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -119,7 +134,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [firstEmitting](#firstEmitting)         |                                                                                     |
+---
+
+### [firstEmitting](#firstEmitting)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.firstEmitting(...) -> cp.rx.Observer`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -128,7 +147,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromCoroutine](#fromCoroutine)         |                                                                                     |
+---
+
+### [fromCoroutine](#fromCoroutine)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.fromCoroutine(fn, scheduler) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -137,7 +160,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromFileByLine](#fromFileByLine)         |                                                                                     |
+---
+
+### [fromFileByLine](#fromFileByLine)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.fromFileByLine(filename) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -146,7 +173,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromRange](#fromRange)         |                                                                                     |
+---
+
+### [fromRange](#fromRange)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.fromRange(initial[, limit[, step]]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -155,7 +186,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromTable](#fromTable)         |                                                                                     |
+---
+
+### [fromTable](#fromTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.fromTable(t, iterator, keys) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -164,7 +199,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [never](#never)         |                                                                                     |
+---
+
+### [never](#never)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.never() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -173,7 +212,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [of](#of)         |                                                                                     |
+---
+
+### [of](#of)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.of(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -182,7 +225,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [replicate](#replicate)         |                                                                                     |
+---
+
+### [replicate](#replicate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.replicate(value[, count]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -191,7 +238,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [throw](#throw)         |                                                                                     |
+---
+
+### [throw](#throw)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.throw(message, ...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -200,7 +251,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [zip](#zip)         |                                                                                     |
+---
+
+### [zip](#zip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable.zip(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -209,9 +264,13 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [all](#all)         |                                                                                     |
+
+### [all](#all)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:all(predicate) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -220,7 +279,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>A new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [average](#average)         |                                                                                     |
+---
+
+### [average](#average)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:average() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -229,7 +292,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [buffer](#buffer)         |                                                                                     |
+---
+
+### [buffer](#buffer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:buffer(size) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -238,7 +305,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [catch](#catch)         |                                                                                     |
+---
+
+### [catch](#catch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:catch(handler) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -247,7 +318,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [combineLatest](#combineLatest)         |                                                                                     |
+---
+
+### [combineLatest](#combineLatest)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:combineLatest(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -256,7 +331,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [compact](#compact)         |                                                                                     |
+---
+
+### [compact](#compact)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:compact() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -265,7 +344,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [concat](#concat)         |                                                                                     |
+---
+
+### [concat](#concat)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:concat(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -274,7 +357,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [contains](#contains)         |                                                                                     |
+---
+
+### [contains](#contains)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:contains(value) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -283,7 +370,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [count](#count)         |                                                                                     |
+---
+
+### [count](#count)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:count([predicate]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -292,7 +383,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [debounce](#debounce)         |                                                                                     |
+---
+
+### [debounce](#debounce)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:debounce(time[, scheduler]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -301,7 +396,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [defaultIfEmpty](#defaultIfEmpty)         |                                                                                     |
+---
+
+### [defaultIfEmpty](#defaultIfEmpty)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:defaultIfEmpty(...)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -310,7 +409,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [delay](#delay)         |                                                                                     |
+---
+
+### [delay](#delay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:delay(time, scheduler) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -319,7 +422,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [distinct](#distinct)         |                                                                                     |
+---
+
+### [distinct](#distinct)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:distinct() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -328,7 +435,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [distinctUntilChanged](#distinctUntilChanged)         |                                                                                     |
+---
+
+### [distinctUntilChanged](#distinctUntilChanged)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:distinctUntilChanged([comparator]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -337,7 +448,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [dump](#dump)         |                                                                                     |
+---
+
+### [dump](#dump)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:dump(name, formatter)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -346,7 +461,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>A [Reference](cp.rx.Reference.md) for the subscription.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [elementAt](#elementAt)         |                                                                                     |
+---
+
+### [elementAt](#elementAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:elementAt(index) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -355,7 +474,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [filter](#filter)         |                                                                                     |
+---
+
+### [filter](#filter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:filter(predicate) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -364,7 +487,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [finalize](#finalize)         |                                                                                     |
+---
+
+### [finalize](#finalize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:finalize(handler) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -373,7 +500,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [find](#find)         |                                                                                     |
+---
+
+### [find](#find)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:find(predicate) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -382,7 +513,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [first](#first)         |                                                                                     |
+---
+
+### [first](#first)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:first() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -391,7 +526,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to [#next], but will throw an error if no `onNext` signal is sent before `onCompleted`.</li></ul>                |
 
-| [flatMap](#flatMap)         |                                                                                     |
+---
+
+### [flatMap](#flatMap)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:flatMap(callback) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -400,7 +539,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [flatMapLatest](#flatMapLatest)         |                                                                                     |
+---
+
+### [flatMapLatest](#flatMapLatest)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:flatMapLatest([callback]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -409,7 +552,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [flatten](#flatten)         |                                                                                     |
+---
+
+### [flatten](#flatten)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:flatten()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -418,7 +565,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ignoreElements](#ignoreElements)         |                                                                                     |
+---
+
+### [ignoreElements](#ignoreElements)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:ignoreElements() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -427,7 +578,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [last](#last)         |                                                                                     |
+---
+
+### [last](#last)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:last() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -436,7 +591,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [map](#map)         |                                                                                     |
+---
+
+### [map](#map)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:map(callback) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -445,7 +604,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [max](#max)         |                                                                                     |
+---
+
+### [max](#max)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:max() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -454,7 +617,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [merge](#merge)         |                                                                                     |
+---
+
+### [merge](#merge)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:merge(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -463,7 +630,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [min](#min)         |                                                                                     |
+---
+
+### [min](#min)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:min() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -472,7 +643,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [next](#next)         |                                                                                     |
+---
+
+### [next](#next)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:next() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -481,7 +656,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to [#first], but will not throw an error if no `onNext` signal is sent before `onCompleted`.</li></ul>                |
 
-| [partition](#partition)         |                                                                                     |
+---
+
+### [partition](#partition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:partition(predicate) -> cp.rx.Observable, cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -490,7 +669,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The 'truthy' `Observable`.</li><li>The 'falsy' `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pluck](#pluck)         |                                                                                     |
+---
+
+### [pluck](#pluck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:pluck(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -499,7 +682,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reduce](#reduce)         |                                                                                     |
+---
+
+### [reduce](#reduce)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:reduce(accumulator[, seed]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -508,7 +695,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reject](#reject)         |                                                                                     |
+---
+
+### [reject](#reject)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:reject(predicate) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -517,7 +708,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [retry](#retry)         |                                                                                     |
+---
+
+### [retry](#retry)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:retry([count]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -526,7 +721,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [retryWithDelay](#retryWithDelay)         |                                                                                     |
+---
+
+### [retryWithDelay](#retryWithDelay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:retryWithDelay(count[, delay[, scheduler]]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -535,7 +734,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sample](#sample)         |                                                                                     |
+---
+
+### [sample](#sample)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:sample(sampler) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -544,7 +747,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scan](#scan)         |                                                                                     |
+---
+
+### [scan](#scan)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:scan(accumulator, seed) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -553,7 +760,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [skip](#skip)         |                                                                                     |
+---
+
+### [skip](#skip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:skip([n]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -562,7 +773,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [skipLast](#skipLast)         |                                                                                     |
+---
+
+### [skipLast](#skipLast)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:skipLast(count) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -571,7 +786,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [skipUntil](#skipUntil)         |                                                                                     |
+---
+
+### [skipUntil](#skipUntil)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:skipUntil(other) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -580,7 +799,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [skipWhile](#skipWhile)         |                                                                                     |
+---
+
+### [skipWhile](#skipWhile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:skipWhile(predicate) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -589,7 +812,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [startWith](#startWith)         |                                                                                     |
+---
+
+### [startWith](#startWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:startWith(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -598,7 +825,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subscribe](#subscribe)         |                                                                                     |
+---
+
+### [subscribe](#subscribe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:subscribe(observer [, onError[, onCompleted]]) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -607,7 +838,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>A [Reference](cp.rx.Reference.md) which can be used to cancel the subscription.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sum](#sum)         |                                                                                     |
+---
+
+### [sum](#sum)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:sum() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -616,7 +851,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [switch](#switch)         |                                                                                     |
+---
+
+### [switch](#switch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:switch() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -625,7 +864,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [switchIfEmpty](#switchIfEmpty)         |                                                                                     |
+---
+
+### [switchIfEmpty](#switchIfEmpty)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:switchIfEmpty(alternate) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -634,7 +877,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [take](#take)         |                                                                                     |
+---
+
+### [take](#take)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:take([n]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -643,7 +890,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [takeLast](#takeLast)         |                                                                                     |
+---
+
+### [takeLast](#takeLast)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:takeLast(count) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -652,7 +903,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [takeUntil](#takeUntil)         |                                                                                     |
+---
+
+### [takeUntil](#takeUntil)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:takeUntil(other) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -661,7 +916,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [takeWhile](#takeWhile)         |                                                                                     |
+---
+
+### [takeWhile](#takeWhile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:takeWhile(predicate) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -670,7 +929,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tap](#tap)         |                                                                                     |
+---
+
+### [tap](#tap)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:tap(onNext[, onError[, onCompleted]]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -679,7 +942,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [timeout](#timeout)         |                                                                                     |
+---
+
+### [timeout](#timeout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:timeout(timeInMs, next[, scheduler]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -688,7 +955,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unpack](#unpack)         |                                                                                     |
+---
+
+### [unpack](#unpack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:unpack() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -697,7 +968,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unwrap](#unwrap)         |                                                                                     |
+---
+
+### [unwrap](#unwrap)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:unwrap() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -706,7 +981,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [with](#with)         |                                                                                     |
+---
+
+### [with](#with)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:with(...) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -715,3 +994,4 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

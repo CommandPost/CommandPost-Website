@@ -15,15 +15,22 @@ Final Cut Pro Proxy Icon Plugin.
 
 ### Constants
 
-| [procyMenuIconEnabled](#procyMenuIconEnabled)         |                                                                                     |
+
+### [procyMenuIconEnabled](#procyMenuIconEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.menu.proxyicon.procyMenuIconEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Toggles the Enable Proxy Menu Icon                                                                     |
 
+---
 ### Functions
 
-| [generateProxyTitle](#generateProxyTitle)         |                                                                                     |
+
+### [generateProxyTitle](#generateProxyTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.menu.proxyicon.generateProxyTitle() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +39,11 @@ Final Cut Pro Proxy Icon Plugin.
 | **Returns**                                 | <ul><li>String containing the Proxy Title</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.menu.proxyicon.init(menuManager) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,11 +52,16 @@ Final Cut Pro Proxy Icon Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [usingProxies](#usingProxies)         |                                                                                     |
+
+### [usingProxies](#usingProxies)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.menu.proxyicon.usingProxies -> <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Using Proxies?                                                                     |
 
+---

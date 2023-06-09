@@ -43,7 +43,10 @@ This module would not have been possible without standing on the shoulders of ot
 
 ### Functions
 
-| [discoveryCallback](#discoveryCallback)         |                                                                                     |
+
+### [discoveryCallback](#discoveryCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck.discoveryCallback(fn)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -54,7 +57,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDevice](#getDevice)         |                                                                                     |
+---
+
+### [getDevice](#getDevice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck.getDevice(num)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -63,7 +70,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>An hs.streamdeck object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck.init(fn)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +85,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul>                |
 
-| [numDevices](#numDevices)         |                                                                                     |
+---
+
+### [numDevices](#numDevices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck.numDevices()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,9 +98,13 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>A number containing the number of Stream Deck devices attached to the system</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [buttonCallback](#buttonCallback)         |                                                                                     |
+
+### [buttonCallback](#buttonCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:buttonCallback(fn)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +116,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [buttonLayout](#buttonLayout)         |                                                                                     |
+---
+
+### [buttonLayout](#buttonLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:buttonLayout()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +129,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The number of columns</li><li>The number of rows</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [encoderCallback](#encoderCallback)         |                                                                                     |
+---
+
+### [encoderCallback](#encoderCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:encoderCallback(fn)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -120,7 +147,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [firmwareVersion](#firmwareVersion)         |                                                                                     |
+---
+
+### [firmwareVersion](#firmwareVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:firmwareVersion()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +160,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>A string containing the firmware version of the deck</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [imageSize](#imageSize)         |                                                                                     |
+---
+
+### [imageSize](#imageSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:imageSize()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,7 +173,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>An table with keys `w` and `h` containing the width and height, respectively, of images expected by the Stream Deck</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:reset()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -147,7 +186,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [screenCallback](#screenCallback)         |                                                                                     |
+---
+
+### [screenCallback](#screenCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:screenCallback(fn)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -162,7 +205,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [serialNumber](#serialNumber)         |                                                                                     |
+---
+
+### [serialNumber](#serialNumber)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:serialNumber()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -171,7 +218,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>A string containing the serial number of the deck</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setBrightness](#setBrightness)         |                                                                                     |
+---
+
+### [setBrightness](#setBrightness)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:setBrightness(brightness)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -180,7 +231,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setButtonColor](#setButtonColor)         |                                                                                     |
+---
+
+### [setButtonColor](#setButtonColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:setButtonColor(button, color)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -189,7 +244,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setButtonImage](#setButtonImage)         |                                                                                     |
+---
+
+### [setButtonImage](#setButtonImage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:setButtonImage(button, image)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -198,7 +257,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setScreenImage](#setScreenImage)         |                                                                                     |
+---
+
+### [setScreenImage](#setScreenImage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.streamdeck:setScreenImage(encoder, image)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -207,3 +270,4 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

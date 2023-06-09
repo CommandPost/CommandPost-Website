@@ -11,7 +11,10 @@ Preferences Panel.
 
 ### Functions
 
-| [hide](#hide)         |                                                                                     |
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.Panel:hide() -> self`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Preferences Panel.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.Panel:show() -> self`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Preferences Panel.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

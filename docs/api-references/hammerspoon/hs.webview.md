@@ -91,7 +91,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ### Deprecateds
 
-| [asHSDrawing](#asHSDrawing)         |                                                                                     |
+
+### [asHSDrawing](#asHSDrawing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:asHSDrawing() -> hs.drawing object`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
@@ -99,13 +102,21 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a placeholder object</li></ul>          |
 
-| [asHSWindow](#asHSWindow)         |                                                                                     |
+---
+
+### [asHSWindow](#asHSWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:asHSWindow() -> hs.window object`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | Returns an hs.window object for the webview so that you can use hs.window methods on it.                                                                     |
 
-| [setLevel](#setLevel)         |                                                                                     |
+---
+
+### [setLevel](#setLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:setLevel(theLevel) -> drawingObject`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
@@ -114,24 +125,36 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the webview object</li></ul>          |
 | **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul>                |
 
+---
 ### Constants
 
-| [certificateOIDs](#certificateOIDs)         |                                                                                     |
+
+### [certificateOIDs](#certificateOIDs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview.certificateOIDs[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of common OID values found in SSL certificates.  SSL certificates provided to the callback function for [hs.webview:sslCallback](#sslCallback) or in the results of [hs.webview:certificateChain](#certificateChain) use OID strings as the keys which describe the properties of the certificate and this table can be used to get a more common name for the keys you are most likely to see.                                                                     |
 
-| [windowMasks](#windowMasks)         |                                                                                     |
+---
+
+### [windowMasks](#windowMasks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview.windowMasks[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing valid masks for the webview window.                                                                     |
 | **Notes**                                   | <ul><li>The Maximize button in the window title is enabled when Resizable is set.</li><li>The Close, Minimize, and Maximize buttons are only visible when the Window is also Titled.</li></ul>                |
 
+---
 ### Functions
 
-| [titleVisibility](#titleVisibility)         |                                                                                     |
+
+### [titleVisibility](#titleVisibility)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:titleVisibility([state]) -> webviewObject | string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -140,9 +163,13 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a value is provided, returns the webview object; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>See also [hs.webview:windowStyle](#windowStyle) and [hs.webview.windowMasks](#windowMasks).</li><li></li><li>When a toolbar is attached to the webview, this function can be used to specify whether the Toolbar appears underneath the webview window's title ("visible") or in the window's title bar itself, as seen in applications like Safari ("hidden"). When the title is hidden, the toolbar will only display the toolbar items as icons without labels, and ignores changes made with `hs.webview.toolbar:displayMode`.</li><li></li><li>If a toolbar is attached to the webview, you can achieve the same effect as this method with `hs.webview:attachedToolbar():inTitleBar(boolean)`</li></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview.new(rect, [preferencesTable], [userContentController]) -> webviewObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -157,7 +184,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>To set the initial URL, use the `hs.webview:url` method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple's documentation, but is included in the WebKit2 documentation.</li></ul>                |
 
-| [newBrowser](#newBrowser)         |                                                                                     |
+---
+
+### [newBrowser](#newBrowser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview.newBrowser(rect, [preferencesTable], [userContentController]) -> webviewObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -166,9 +197,13 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters are the same as for [hs.webview.new](#new) -- check there for more details</li><li>This constructor is just a short-hand for `hs.webview.new(...):allowTextEntry(true):allowGestures(true):windowStyle(15)`, which specifies a webview with a title bar, title bar buttons (zoom, close, minimize), and allows form entry and gesture support for previous and next pages.</li><li></li><li>* See [hs.webview.new](#new) and the following for more details:</li><li> [hs.webview:allowGestures](#allowGestures)</li><li> [hs.webview:allowTextEntry](#allowTextEntry)</li><li> [hs.webview:windowStyle](#windowStyle)</li><li> [hs.webview.windowMasks](#windowMasks)</li></ul>                |
 
+---
 ### Methods
 
-| [allowGestures](#allowGestures)         |                                                                                     |
+
+### [allowGestures](#allowGestures)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:allowGestures([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -177,7 +212,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>This is a shorthand method for getting or setting both `hs.webview:allowMagnificationGestures` and `hs.webview:allowNavigationGestures`.</li><li>This method will set both types of gestures to true or false, if given an argument, but will only return true if *both* gesture types are currently true; if either or both gesture methods are false, then this method will return false.</li></ul>                |
 
-| [allowMagnificationGestures](#allowMagnificationGestures)         |                                                                                     |
+---
+
+### [allowMagnificationGestures](#allowMagnificationGestures)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:allowMagnificationGestures([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -186,7 +225,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [allowNavigationGestures](#allowNavigationGestures)         |                                                                                     |
+---
+
+### [allowNavigationGestures](#allowNavigationGestures)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:allowNavigationGestures([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -195,7 +238,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [allowNewWindows](#allowNewWindows)         |                                                                                     |
+---
+
+### [allowNewWindows](#allowNewWindows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:allowNewWindows([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -204,7 +251,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>This method allows you to prevent a webview from being able to open a new window by any method.   This includes right-clicking on a link and selecting "Open in a New Window", JavaScript pop-ups, links with the target of "__blank", etc.</li><li>If you just want to prevent automatic JavaScript windows, set the preference value javaScriptCanOpenWindowsAutomatically to false when creating the web view - this method blocks *all* methods.</li></ul>                |
 
-| [allowTextEntry](#allowTextEntry)         |                                                                                     |
+---
+
+### [allowTextEntry](#allowTextEntry)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:allowTextEntry([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -213,7 +264,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [alpha](#alpha)         |                                                                                     |
+---
+
+### [alpha](#alpha)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:alpha([alpha]) -> webviewObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -222,7 +277,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the webview object; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [attachedToolbar](#attachedToolbar)         |                                                                                     |
+---
+
+### [attachedToolbar](#attachedToolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:attachedToolbar([toolbar]) -> webviewObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -231,7 +290,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a toolbarObject or explicit nil is specified, returns the webviewObject; otherwise returns the current toolbarObject or nil, if no toolbar is attached to the webview.</li></ul>          |
 | **Notes**                                   | <ul><li>this method is a convenience wrapper for the `hs.webview.toolbar.attachToolbar` function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the webview.  If you wish to attach the same toolbar to multiple webviews, see `hs.webview.toolbar:copy`.</li></ul>                |
 
-| [behavior](#behavior)         |                                                                                     |
+---
+
+### [behavior](#behavior)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:behavior([behavior]) -> webviewObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -240,7 +303,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul>                |
 
-| [behaviorAsLabels](#behaviorAsLabels)         |                                                                                     |
+---
+
+### [behaviorAsLabels](#behaviorAsLabels)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:behaviorAsLabels(behaviorTable) -> webviewObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -249,7 +316,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul>                |
 
-| [bringToFront](#bringToFront)         |                                                                                     |
+---
+
+### [bringToFront](#bringToFront)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:bringToFront([aboveEverything]) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -258,7 +329,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [certificateChain](#certificateChain)         |                                                                                     |
+---
+
+### [certificateChain](#certificateChain)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:certificateChain() -> table | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -267,7 +342,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a table containing the certificates that make up the SSL certificate chain securing the most recent committed navigation.  Each certificate is described in a table with the following keys:</li><li>  `commonName` - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate's purpose.</li><li>  `values`     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in [hs.webview.certificateOIDs](#certificateOIDs). The value for each key will be a table with the following keys:</li><li>    `label`           - a description or label for the entry</li><li>    `localized label` - a localized version of `label`</li><li>    `type`            - a description of the data type for this value</li><li>    `value`           - the value</li></ul>          |
 | **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li>A navigation which was performed via HTTP instead of HTTPS will return an empty array.</li><li></li><li>For OIDs which specify a type of "date" -- e.g. "2.5.29.24" (invalidityDate) -- the number provided represents the number of seconds since 12:00:00 AM, January 1, 1970 and can be used directly with the Lua `os.date` command.</li><li>For OIDs which are known to represent a date, but specify its type as a "number" -- e.g. "2.16.840.1.113741.2.1.1.1.7" (X509V1ValidityNotAfter) or "2.16.840.1.113741.2.1.1.1.6" (X509V1ValidityNotBefore) -- the epoch is 12:00:00 AM, Jan 1, 2001.  To convert these dates into a format usable by Lua, you will need to do something similar to the following:  `os.date("%c", value + os.time({year=2001,month=1,day=1,hour=0,min=0,sec=0})`</li></ul>                |
 
-| [children](#children)         |                                                                                     |
+---
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:children() -> array`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -276,7 +355,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>an array containing the webview objects of all child windows opened from this webview.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [closeOnEscape](#closeOnEscape)         |                                                                                     |
+---
+
+### [closeOnEscape](#closeOnEscape)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:closeOnEscape([flag]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -285,7 +368,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>If this is set to true, Escape will only close the window if no other element responds to the Escape key first (e.g. if you are editing a text input field, the Escape will be captured by the text field, not by the webview Window.)</li></ul>                |
 
-| [darkMode](#darkMode)         |                                                                                     |
+---
+
+### [darkMode](#darkMode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:darkMode([state]) -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -294,7 +381,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>A boolean, `true` if dark mode is enabled otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:delete([propagate], [fadeOutTime]) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -303,7 +394,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul>                |
 
-| [deleteOnClose](#deleteOnClose)         |                                                                                     |
+---
+
+### [deleteOnClose](#deleteOnClose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:deleteOnClose([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -312,7 +407,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>If set to true, a webview object will be deleted when the user clicks on the close button of a titled and closable webview (see `hs.webview.windowStyle`).</li><li>Children of an explicitly created webview automatically have this attribute set to true.  To cause closed children to remain after the user closes the parent, you can set this to false with a policy callback function when it receives the "newWindow" action.</li></ul>                |
 
-| [estimatedProgress](#estimatedProgress)         |                                                                                     |
+---
+
+### [estimatedProgress](#estimatedProgress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:estimatedProgress() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -321,7 +420,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a numerical value between 0.0 and 1.0 indicating the percentage of expected content which has been loaded.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [evaluateJavaScript](#evaluateJavaScript)         |                                                                                     |
+---
+
+### [evaluateJavaScript](#evaluateJavaScript)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:evaluateJavaScript(script, [callback]) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -332,7 +435,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the webview object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [examineInvalidCertificates](#examineInvalidCertificates)         |                                                                                     |
+---
+
+### [examineInvalidCertificates](#examineInvalidCertificates)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:examineInvalidCertificates([flag]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -341,7 +448,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>In order for this setting to have any effect, you must also register an ssl callback function with [hs.webview:sslCallback](#sslCallback) which should return true if the certificate should be granted an exception or false if it should not.  For a certificate to be granted an exception, both this method and the result of the callback *must* be true.</li><li></li><li>A server certificate may be invalid for a variety of reasons:</li><li>  it is not signed by a recognized certificate authority - most commonly this means the certificate is self-signed.</li><li>  the certificate has expired</li><li>  the certificate has a common name (web site server name) other than the one requested (e.g. the certificate's common name is www.site.com, but it is being used for something else, possibly just https://site.com, possibly something else entirely</li><li>  some corporate proxy servers don't handle SSL properly and can cause a certificate to appear invalid even when they are valid (this is less common then it used to be, but does still occur occasionally)</li><li>  potentially nefarious reasons including man-in-the-middle attacks or phishing scams.</li><li></li><li>The Hammerspoon server provided by `hs.httpserver` uses a self-signed certificate when set to use SSL, so it will be considered invalid for reason 1 above.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this setting has no effect for that certificate.</li></ul>                |
 
-| [frame](#frame)         |                                                                                     |
+---
+
+### [frame](#frame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:frame([rect]) -> webviewObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -350,7 +461,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview window (keys `x`  and `y`) and the new size (keys `h` and `w`).  The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul>                |
 
-| [goBack](#goBack)         |                                                                                     |
+---
+
+### [goBack](#goBack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:goBack() -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -359,7 +474,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [goForward](#goForward)         |                                                                                     |
+---
+
+### [goForward](#goForward)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:goForward() -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -368,7 +487,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:hide([fadeOutTime]) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -377,7 +500,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [historyList](#historyList)         |                                                                                     |
+---
+
+### [historyList](#historyList)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:historyList() -> historyTable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -386,7 +513,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>A table which is an array of the URLs viewed within this webview and a key named `current` which is equal to the index corresponding to the currently visible entry.  Each array element will be a table with the following keys:</li><li>  `URL`        - the URL of the web page</li><li>  `initialURL` - the URL of the initial request that led to this item</li><li>  `title`      - the web page title</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hswindow](#hswindow)         |                                                                                     |
+---
+
+### [hswindow](#hswindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:hswindow() -> hs.window object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -395,7 +526,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>an hs.window object</li></ul>          |
 | **Notes**                                   | <ul><li>hs.window:minimize only works if the webview is minimizable (see `hs.webview.windowStyle`)</li><li>hs.window:setSize only works if the webview is resizable (see `hs.webview.windowStyle`)</li><li>hs.window:close only works if the webview is closable (see `hs.webview.windowStyle`)</li><li>hs.window:maximize will reposition the webview to the upper left corner of your screen, but will only resize the webview if the webview is resizable (see `hs.webview.windowStyle`)</li></ul>                |
 
-| [html](#html)         |                                                                                     |
+---
+
+### [html](#html)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:html(html,[baseURL]) -> webviewObject, navigationIdentifier`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -404,7 +539,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | <ul><li>Web Pages generated in this manner are not added to the webview history list</li></ul>                |
 
-| [isOnlySecureContent](#isOnlySecureContent)         |                                                                                     |
+---
+
+### [isOnlySecureContent](#isOnlySecureContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:isOnlySecureContent() -> bool`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -413,7 +552,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>true if all content current displayed in the web view was loaded over securely encrypted connections; otherwise false.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isVisible](#isVisible)         |                                                                                     |
+---
+
+### [isVisible](#isVisible)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:isVisible() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -422,7 +565,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>`true` if the webview window is visible, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [level](#level)         |                                                                                     |
+---
+
+### [level](#level)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:level([theLevel]) -> drawingObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -431,7 +578,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a parameter is specified, returns the webview object, otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul>                |
 
-| [loading](#loading)         |                                                                                     |
+---
+
+### [loading](#loading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:loading() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -440,7 +591,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>true if the content is still being loaded, or false if it has completed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [magnification](#magnification)         |                                                                                     |
+---
+
+### [magnification](#magnification)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:magnification([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -449,7 +604,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [navigationCallback](#navigationCallback)         |                                                                                     |
+---
+
+### [navigationCallback](#navigationCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:navigationCallback(fn) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -462,7 +621,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>The return value of the callback function is ignored except when the `action` argument is equal to `didFailNavigation` or `didFailProvisionalNavigation`.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul>                |
 
-| [navigationID](#navigationID)         |                                                                                     |
+---
+
+### [navigationID](#navigationID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:navigationID() -> navigationID`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -471,7 +634,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the navigation identifier</li></ul>          |
 | **Notes**                                   | <ul><li>This navigation identifier can be used to track the progress of a webview with the navigation callback function - see `hs.webview.navigationCallback`.</li></ul>                |
 
-| [orderAbove](#orderAbove)         |                                                                                     |
+---
+
+### [orderAbove](#orderAbove)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:orderAbove([webview2]) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -480,7 +647,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul>                |
 
-| [orderBelow](#orderBelow)         |                                                                                     |
+---
+
+### [orderBelow](#orderBelow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:orderBelow([webview2]) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -489,7 +660,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:parent() -> webviewObject | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -498,7 +673,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the parent webview object for the calling webview object, or nil if the webview has no parent</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [policyCallback](#policyCallback)         |                                                                                     |
+---
+
+### [policyCallback](#policyCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:policyCallback(fn) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -515,7 +694,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>With the `newWindow` action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul>                |
 
-| [privateBrowsing](#privateBrowsing)         |                                                                                     |
+---
+
+### [privateBrowsing](#privateBrowsing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:privateBrowsing() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -524,7 +707,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a boolean value indicating whether or not the datastore is non-persistent.</li></ul>          |
 | **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>See `hs.webview.datastore` and [hs.webview.new](#new) for more information.</li></ul>                |
 
-| [reload](#reload)         |                                                                                     |
+---
+
+### [reload](#reload)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:reload([validate]) -> webviewObject, navigationIdentifier`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -533,7 +720,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sendToBack](#sendToBack)         |                                                                                     |
+---
+
+### [sendToBack](#sendToBack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:sendToBack() -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -542,7 +733,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shadow](#shadow)         |                                                                                     |
+---
+
+### [shadow](#shadow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:shadow([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -551,7 +746,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:show([fadeInTime]) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -560,7 +759,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [size](#size)         |                                                                                     |
+---
+
+### [size](#size)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:size([size]) -> webviewObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -569,7 +772,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a size-table is a table with key-value pairs specifying the size (keys `h` and `w`) the webview should be resized to. The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul>                |
 
-| [sslCallback](#sslCallback)         |                                                                                     |
+---
+
+### [sslCallback](#sslCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:sslCallback(fn) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -587,7 +794,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns `true`, the certificate will only be granted an exception if [hs.webview:examineInvalidCertificates](#examineInvalidCertificates) has also been set to `true`.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul>                |
 
-| [stopLoading](#stopLoading)         |                                                                                     |
+---
+
+### [stopLoading](#stopLoading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:stopLoading() -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -596,7 +807,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>this method does not stop the loading of the primary content for the page at the specified URL</li><li>if [hs.webview:loading](#loading) would return true, this method does nothing -- see notes:</li><li>  The documentation from Apple is unclear and experimentation has shown that if this method is applied before the content of the specified URL has loaded, it can cause the webview to lock up; however it appears to stop the loading of additional resources specified for the content (external script files, external style files, AJAX queries, etc.) and should be used in this context.</li></ul>                |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:title() -> title`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -605,7 +820,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the title</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [topLeft](#topLeft)         |                                                                                     |
+---
+
+### [topLeft](#topLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:topLeft([point]) -> webviewObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -614,7 +833,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview (keys `x`  and `y`). The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul>                |
 
-| [transparent](#transparent)         |                                                                                     |
+---
+
+### [transparent](#transparent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:transparent([value]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -623,7 +846,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>When enabled, the webview's background color is equal to the body's `background-color` (transparent by default)</li><li>Setting `background-color:rgba(0, 225, 0, 0.3)` on `<body>` will give a translucent green webview background</li></ul>                |
 
-| [url](#url)         |                                                                                     |
+---
+
+### [url](#url)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:url([URL]) -> webviewObject, navigationIdentifier | url`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -642,7 +869,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a URL is specified, then this method returns the webview Object; otherwise it returns the current url being displayed.</li></ul>          |
 | **Notes**                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system's ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul>                |
 
-| [urlParts](#urlParts)         |                                                                                     |
+---
+
+### [urlParts](#urlParts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:urlParts() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -651,7 +882,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a table containing the keys for the webview's URL.  See the function `hs.http.urlParts` for a description of the possible keys returned in the table.</li></ul>          |
 | **Notes**                                   | <ul><li>This method is a wrapper to the `hs.http.urlParts` function wich uses the OS X APIs, based on RFC 1808.</li><li>You may also want to consider the `hs.httpserver.hsminweb.urlParts` function for a version more consistent with RFC 3986.</li></ul>                |
 
-| [userAgent](#userAgent)         |                                                                                     |
+---
+
+### [userAgent](#userAgent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:userAgent([agent]) -> webviewObject | current value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -660,7 +895,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a parameter is specified, returns the webviewObject, otherwise returns the current value</li></ul>          |
 | **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>The default user string used by webview objects will be something like this (the exact version numbers will differ, depending upon your OS X version):</li><li> "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko)"</li><li>By default, this method will return the empty string ("") when queried -- this indicates that the default, shown above, is used.  You can also return to this default by setting the user agent to "" with this method (e.g. `hs.webview:userAgent("")`).</li><li></li><li>Some web sites tailor content based on the user string or use it for other internal purposes (tracking, statistics, page availability, layout, etc.).  Common user-agent strings can be found at http://www.useragentstring.com/pages/useragentstring.php.</li><li></li><li>If you have set the user agent application name with the `applicationName` parameter to the [hs.webview.new](#new) constructor, it will be ignored unless this value is "", i.e. the default user agent string.  If you wish to specify an application name after the user agent string and use a custom string, include the application name in your custom string.</li></ul>                |
 
-| [windowCallback](#windowCallback)         |                                                                                     |
+---
+
+### [windowCallback](#windowCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:windowCallback(fn) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -672,7 +911,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [windowStyle](#windowStyle)         |                                                                                     |
+---
+
+### [windowStyle](#windowStyle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:windowStyle(mask) -> webviewObject | currentMask`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -684,7 +927,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a mask is provided, then the webviewObject is returned; otherwise the current mask value is returned.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [windowTitle](#windowTitle)         |                                                                                     |
+---
+
+### [windowTitle](#windowTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.webview:windowTitle([title]) -> webviewObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -693,3 +940,4 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | <ul><li>The title will be hidden unless the window style includes the "titled" style (see `hs.webview.windowStyle` and `hs.webview.windowMasks`)</li></ul>                |
 
+---

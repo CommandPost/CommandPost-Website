@@ -17,7 +17,10 @@ Prowl Notifications Plugin.
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,7 +29,11 @@ Prowl Notifications Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sendNotification](#sendNotification)         |                                                                                     |
+---
+
+### [sendNotification](#sendNotification)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.sendNotification(message, [title]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +42,11 @@ Prowl Notifications Plugin.
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.update() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +55,11 @@ Prowl Notifications Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [validateAPIKey](#validateAPIKey)         |                                                                                     |
+---
+
+### [validateAPIKey](#validateAPIKey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.validateAPIKey(key) -> success, errorMessage`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,23 +68,36 @@ Prowl Notifications Plugin.
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [apiKey](#apiKey)         |                                                                                     |
+
+### [apiKey](#apiKey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.apiKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Prowl API Key                                                                     |
 
-| [apiValidated](#apiValidated)         |                                                                                     |
+---
+
+### [apiValidated](#apiValidated)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.apiValidated <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the API key has been validated.                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
 
+---

@@ -41,7 +41,10 @@ myButton(false) == false	-- now false
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,9 +53,13 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [DisclosureTriangle](#DisclosureTriangle)         |                                                                                     |
+
+### [DisclosureTriangle](#DisclosureTriangle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle(parent, uiFinder) -> cp.ui.DisclosureTriangle`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -61,23 +68,35 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The new `DisclosureTriangle`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [opened](#opened)         |                                                                                     |
+
+### [opened](#opened)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle.opened <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the disclosure triangle is currently opened.                                                                     |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
 
+---
 ### Methods
 
-| [click](#click)         |                                                                                     |
+
+### [click](#click)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:click() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +105,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doClose](#doClose)         |                                                                                     |
+---
+
+### [doClose](#doClose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:doClose() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +118,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doOpen](#doOpen)         |                                                                                     |
+---
+
+### [doOpen](#doOpen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:doOpen() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,7 +131,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doPress](#doPress)         |                                                                                     |
+---
+
+### [doPress](#doPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:doPress() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,7 +144,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:loadLayout(layout) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -122,7 +157,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [press](#press)         |                                                                                     |
+---
+
+### [press](#press)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:press() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -131,7 +170,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -140,7 +183,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A settings table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggle](#toggle)         |                                                                                     |
+---
+
+### [toggle](#toggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.DisclosureTriangle:toggle() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -149,3 +196,4 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

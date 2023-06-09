@@ -56,21 +56,32 @@ audio:stabilization():smoothing():show():value(1.5)
 
 ### Constants
 
-| [EQ_MODES](#EQ_MODES)         |                                                                                     |
+
+### [EQ_MODES](#EQ_MODES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector.EQ_MODES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | EQ Modes                                                                     |
 
-| [PAN_MODES](#PAN_MODES)         |                                                                                     |
+---
+
+### [PAN_MODES](#PAN_MODES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector.PAN_MODES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pan Modes                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,9 +90,13 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [AudioInspector](#AudioInspector)         |                                                                                     |
+
+### [AudioInspector](#AudioInspector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector(parent) -> cp.apple.finalcutpro.audio.AudioInspector`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -90,11 +105,16 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `AudioInspector` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [audioConfiguration](#audioConfiguration)         |                                                                                     |
+
+### [audioConfiguration](#audioConfiguration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioInspector.audioConfiguration <AudioConfiguration>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `AudioConfiguration` instance.                                                                     |
 
+---

@@ -97,7 +97,10 @@ A collection of handy miscellaneous tools for Lua development.
 
 ### Functions
 
-| [appleScriptViaTask](#appleScriptViaTask)         |                                                                                     |
+
+### [appleScriptViaTask](#appleScriptViaTask)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.appleScriptViaTask(script) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -106,7 +109,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [between](#between)         |                                                                                     |
+---
+
+### [between](#between)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.between(value, min, max) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -115,7 +122,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [camelCase](#camelCase)         |                                                                                     |
+---
+
+### [camelCase](#camelCase)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.camelCase(str) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -124,7 +135,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [centre](#centre)         |                                                                                     |
+---
+
+### [centre](#centre)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.centre(frame) -> hs.geometry point`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -133,7 +148,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A hs.geometry point</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [characterToPercentEncodedString](#characterToPercentEncodedString)         |                                                                                     |
+---
+
+### [characterToPercentEncodedString](#characterToPercentEncodedString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.characterToPercentEncodedString(input) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -142,7 +161,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [cleanupButtonText](#cleanupButtonText)         |                                                                                     |
+---
+
+### [cleanupButtonText](#cleanupButtonText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.cleanupButtonText(value) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -151,7 +174,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A cleaned string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [contentsInsideBrackets](#contentsInsideBrackets)         |                                                                                     |
+---
+
+### [contentsInsideBrackets](#contentsInsideBrackets)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.contentsInsideBrackets(value) -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -160,7 +187,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The contents as a string or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [convertSingleHexStringToDecimalString](#convertSingleHexStringToDecimalString)         |                                                                                     |
+---
+
+### [convertSingleHexStringToDecimalString](#convertSingleHexStringToDecimalString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.convertSingleHexStringToDecimalString(hex) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -169,7 +200,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A four character string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [desktopPath](#desktopPath)         |                                                                                     |
+---
+
+### [desktopPath](#desktopPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.desktopPath() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -178,7 +213,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The path as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [dirFiles](#dirFiles)         |                                                                                     |
+---
+
+### [dirFiles](#dirFiles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.dirFiles(path) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -187,7 +226,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table containing filenames as strings, or `nil` followed by the error message if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doesDirectoryExist](#doesDirectoryExist)         |                                                                                     |
+---
+
+### [doesDirectoryExist](#doesDirectoryExist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.doesDirectoryExist(path) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -196,7 +239,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the directory exists otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doesFileExist](#doesFileExist)         |                                                                                     |
+---
+
+### [doesFileExist](#doesFileExist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.doesFileExist(path) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -205,7 +252,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the file exists otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doubleLeftClick](#doubleLeftClick)         |                                                                                     |
+---
+
+### [doubleLeftClick](#doubleLeftClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.doubleLeftClick(point[, delay]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -214,7 +265,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [encodeURI](#encodeURI)         |                                                                                     |
+---
+
+### [encodeURI](#encodeURI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.encodeURI(input) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -223,7 +278,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>Except these characters: ; , / ? : @ & = + $ # alphabetic, decimal digits, - _ . ! ~' ( )</li></ul>                |
 
-| [encodeURIComponent](#encodeURIComponent)         |                                                                                     |
+---
+
+### [encodeURIComponent](#encodeURIComponent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.encodeURIComponent(input) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -232,7 +291,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>Except these characters: alphabetic, decimal digits, - _ . ! ~' ( )</li></ul>                |
 
-| [endsWith](#endsWith)         |                                                                                     |
+---
+
+### [endsWith](#endsWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.endsWith(str, ending) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -241,7 +304,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ensureDirectoryExists](#ensureDirectoryExists)         |                                                                                     |
+---
+
+### [ensureDirectoryExists](#ensureDirectoryExists)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.ensureDirectoryExists(rootPath, ...) -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -250,7 +317,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The full path, if it exists, or `nil` if unable to create the directory for some reason.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [escapeTilda](#escapeTilda)         |                                                                                     |
+---
+
+### [escapeTilda](#escapeTilda)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.escapeTilda(input) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -259,7 +330,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A new string or "" if no input is supplied.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [exactMatch](#exactMatch)         |                                                                                     |
+---
+
+### [exactMatch](#exactMatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.exactMatch(value, pattern, plain, ignoreCase) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -268,7 +343,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if there's an exact match, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [executeWithAdministratorPrivileges](#executeWithAdministratorPrivileges)         |                                                                                     |
+---
+
+### [executeWithAdministratorPrivileges](#executeWithAdministratorPrivileges)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.executeWithAdministratorPrivileges(input[, stopOnError]) -> boolean or string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -277,7 +356,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if successful, `false` if cancelled and a string if there's an error.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fileLinesBackward](#fileLinesBackward)         |                                                                                     |
+---
+
+### [fileLinesBackward](#fileLinesBackward)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.fileLinesBackward(filename) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -286,7 +369,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>An iterator function</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to `io.lines`, but works in reverse.</li><li>Example Usage: `for line in cp.tools.fileLinesBackward("file") do print(line) end`</li></ul>                |
 
-| [findCommonWordWithinTwoStrings](#findCommonWordWithinTwoStrings)         |                                                                                     |
+---
+
+### [findCommonWordWithinTwoStrings](#findCommonWordWithinTwoStrings)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.findCommonWordWithinTwoStrings(a, b) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -295,7 +382,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The first common word that's found or `nil` if something goes wrong.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [firstToUpper](#firstToUpper)         |                                                                                     |
+---
+
+### [firstToUpper](#firstToUpper)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.firstToUpper(str) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -304,7 +395,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getEmail](#getEmail)         |                                                                                     |
+---
+
+### [getEmail](#getEmail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getEmail() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -313,7 +408,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getExternalDevices](#getExternalDevices)         |                                                                                     |
+---
+
+### [getExternalDevices](#getExternalDevices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getExternalDevices() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -322,7 +421,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getFileExtensionFromPath](#getFileExtensionFromPath)         |                                                                                     |
+---
+
+### [getFileExtensionFromPath](#getFileExtensionFromPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getFileExtensionFromPath(input) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -331,7 +434,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the file extension.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getFilenameFromPath](#getFilenameFromPath)         |                                                                                     |
+---
+
+### [getFilenameFromPath](#getFilenameFromPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getFilenameFromPath(input[, removeExtension]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -340,7 +447,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the filename.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getFullname](#getFullname)         |                                                                                     |
+---
+
+### [getFullname](#getFullname)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getFullname() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -349,7 +460,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getKeysSortedByValue](#getKeysSortedByValue)         |                                                                                     |
+---
+
+### [getKeysSortedByValue](#getKeysSortedByValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getKeysSortedByValue(tbl, sortFunction) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -358,7 +473,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A sorted table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getmacOSVersion](#getmacOSVersion)         |                                                                                     |
+---
+
+### [getmacOSVersion](#getmacOSVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getmacOSVersion() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -367,7 +486,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The macOS version as a string or "" if unknown.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getModelName](#getModelName)         |                                                                                     |
+---
+
+### [getModelName](#getModelName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getModelName() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -376,7 +499,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getRAMSize](#getRAMSize)         |                                                                                     |
+---
+
+### [getRAMSize](#getRAMSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getRAMSize() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -385,7 +512,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The RAM size as a string, or "" if unknown.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getScreenshotsAsBase64](#getScreenshotsAsBase64)         |                                                                                     |
+---
+
+### [getScreenshotsAsBase64](#getScreenshotsAsBase64)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getScreenshotsAsBase64() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -394,7 +525,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table containing base64 images of all available screens.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getThunderboltDevices](#getThunderboltDevices)         |                                                                                     |
+---
+
+### [getThunderboltDevices](#getThunderboltDevices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getThunderboltDevices() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -403,7 +538,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getUSBDevices](#getUSBDevices)         |                                                                                     |
+---
+
+### [getUSBDevices](#getUSBDevices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getUSBDevices() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -412,7 +551,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getVRAMSize](#getVRAMSize)         |                                                                                     |
+---
+
+### [getVRAMSize](#getVRAMSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.getVRAMSize() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -421,7 +564,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hexStringToString](#hexStringToString)         |                                                                                     |
+---
+
+### [hexStringToString](#hexStringToString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.hexStringToString(value) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -430,7 +577,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [iconFallback](#iconFallback)         |                                                                                     |
+---
+
+### [iconFallback](#iconFallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.iconFallback(paths) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -439,7 +590,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [incrementFilename](#incrementFilename)         |                                                                                     |
+---
+
+### [incrementFilename](#incrementFilename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.incrementFilename(value) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -448,7 +603,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [incrementFilenameInPath](#incrementFilenameInPath)         |                                                                                     |
+---
+
+### [incrementFilenameInPath](#incrementFilenameInPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.incrementFilenameInPath(path) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -457,7 +616,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isColor](#isColor)         |                                                                                     |
+---
+
+### [isColor](#isColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.isColor(object) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -466,7 +629,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isImage](#isImage)         |                                                                                     |
+---
+
+### [isImage](#isImage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.isImage(object) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -475,7 +642,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isNumberString](#isNumberString)         |                                                                                     |
+---
+
+### [isNumberString](#isNumberString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.isNumberString(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -484,7 +655,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if value is a number string, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isOffScreen](#isOffScreen)         |                                                                                     |
+---
+
+### [isOffScreen](#isOffScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.isOffScreen(rect) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -493,7 +668,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if offscreen otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [keyStroke](#keyStroke)         |                                                                                     |
+---
+
+### [keyStroke](#keyStroke)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.keyStroke(modifiers, character, app, proper) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -502,7 +681,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [leftClick](#leftClick)         |                                                                                     |
+---
+
+### [leftClick](#leftClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.leftClick(point[, delay, clickNumber]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -511,7 +694,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [lines](#lines)         |                                                                                     |
+---
+
+### [lines](#lines)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.lines(string) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -520,7 +707,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table or `nil` if the parameter is not a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [lower](#lower)         |                                                                                     |
+---
+
+### [lower](#lower)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.lower(str) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -529,7 +720,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [macOSVersion](#macOSVersion)         |                                                                                     |
+---
+
+### [macOSVersion](#macOSVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.macOSVersion() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -538,7 +733,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string containing the macOS version</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [mergeTable](#mergeTable)         |                                                                                     |
+---
+
+### [mergeTable](#mergeTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.mergeTable(target, ...) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -547,7 +746,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ninjaDoubleClick](#ninjaDoubleClick)         |                                                                                     |
+---
+
+### [ninjaDoubleClick](#ninjaDoubleClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.ninjaDoubleClick(point[, delay]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -556,7 +759,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ninjaMouseAction](#ninjaMouseAction)         |                                                                                     |
+---
+
+### [ninjaMouseAction](#ninjaMouseAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.ninjaMouseAction(point, fn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -565,7 +772,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ninjaMouseClick](#ninjaMouseClick)         |                                                                                     |
+---
+
+### [ninjaMouseClick](#ninjaMouseClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.ninjaMouseClick(point[, delay]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -574,7 +785,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ninjaRightMouseClick](#ninjaRightMouseClick)         |                                                                                     |
+---
+
+### [ninjaRightMouseClick](#ninjaRightMouseClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.ninjaRightMouseClick(point[, delay]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -583,7 +798,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [numberToWord](#numberToWord)         |                                                                                     |
+---
+
+### [numberToWord](#numberToWord)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.numberToWord(number) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -592,7 +811,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [optionPressed](#optionPressed)         |                                                                                     |
+---
+
+### [optionPressed](#optionPressed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.optionPressed() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -601,7 +824,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the option key is being pressed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playErrorSound](#playErrorSound)         |                                                                                     |
+---
+
+### [playErrorSound](#playErrorSound)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.playErrorSound() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -610,7 +837,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pressSystemKey](#pressSystemKey)         |                                                                                     |
+---
+
+### [pressSystemKey](#pressSystemKey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.pressSystemKey(key) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -619,7 +850,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Supported key values are:</li><li> SOUND_UP</li><li> SOUND_DOWN</li><li> MUTE</li><li> BRIGHTNESS_UP</li><li> BRIGHTNESS_DOWN</li><li> CONTRAST_UP</li><li> CONTRAST_DOWN</li><li> POWER</li><li> LAUNCH_PANEL</li><li> VIDMIRROR</li><li> PLAY</li><li> EJECT</li><li> NEXT</li><li> PREVIOUS</li><li> FAST</li><li> REWIND</li><li> ILLUMINATION_UP</li><li> ILLUMINATION_DOWN</li><li> ILLUMINATION_TOGGLE</li><li> CAPS_LOCK</li><li> HELP</li><li> NUM_LOCK</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [readFromFile](#readFromFile)         |                                                                                     |
+---
+
+### [readFromFile](#readFromFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.readFromFile(path) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -628,7 +863,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [removeFilenameFromPath](#removeFilenameFromPath)         |                                                                                     |
+---
+
+### [removeFilenameFromPath](#removeFilenameFromPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.removeFilenameFromPath(string) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -637,7 +876,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the path without the filename.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [removeFromTable](#removeFromTable)         |                                                                                     |
+---
+
+### [removeFromTable](#removeFromTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.removeFromTable(table, element) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -646,7 +889,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [replace](#replace)         |                                                                                     |
+---
+
+### [replace](#replace)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.replace(textValue, old, new) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -655,7 +902,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A new string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rescale](#rescale)         |                                                                                     |
+---
+
+### [rescale](#rescale)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.rescale(value, inMin, inMax, outMin, outMax) -> number | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -664,7 +915,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The rescaled value as a number or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rightClick](#rightClick)         |                                                                                     |
+---
+
+### [rightClick](#rightClick)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.rightClick(point[, delay, clickNumber]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -673,7 +928,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rmdir](#rmdir)         |                                                                                     |
+---
+
+### [rmdir](#rmdir)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.rmdir(path[, recursive]) -> true | nil, err`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -682,7 +941,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if successful, or `nil, err` if there was a problem.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [round](#round)         |                                                                                     |
+---
+
+### [round](#round)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.round(num, numDecimalPlaces) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -691,7 +954,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A rounded number</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [safeFilename](#safeFilename)         |                                                                                     |
+---
+
+### [safeFilename](#safeFilename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.safeFilename(value[, defaultValue]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -700,7 +967,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the safe filename</li></ul>          |
 | **Notes**                                   | <ul><li>Returns "filename" is both `value` and `defaultValue` are `nil`.</li></ul>                |
 
-| [secureInputApplicationTitle](#secureInputApplicationTitle)         |                                                                                     |
+---
+
+### [secureInputApplicationTitle](#secureInputApplicationTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.secureInputApplicationTitle() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -709,7 +980,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The application title or `nil` if secure input is not enabled or failed to get a title.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftPressed](#shiftPressed)         |                                                                                     |
+---
+
+### [shiftPressed](#shiftPressed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.shiftPressed() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -718,7 +993,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the shift key is being pressed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [spairs](#spairs)         |                                                                                     |
+---
+
+### [spairs](#spairs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.spairs(t, order) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -727,7 +1006,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A iterator function.</li></ul>          |
 | **Notes**                                   | <ul><li>Author: [Michal Kottman](https://stackoverflow.com/a/15706820)</li><li>Example Usage:</li><li>   ```lua</li><li>   for k,v in cp.tools.spairs(theTableToSort, function(t,a,b) return t[b] < t[a] end) do</li><li>      print(k,v)</li><li>   end</li><li>   ```</li></ul>                |
 
-| [split](#split)         |                                                                                     |
+---
+
+### [split](#split)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.split(str, pat) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -736,7 +1019,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [splitOnColumn](#splitOnColumn)         |                                                                                     |
+---
+
+### [splitOnColumn](#splitOnColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.splitOnColumn() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -745,7 +1032,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [startsWith](#startsWith)         |                                                                                     |
+---
+
+### [startsWith](#startsWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.startsWith(value, startValue) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -754,7 +1045,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if value starts with the startValue, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stringMaxLength](#stringMaxLength)         |                                                                                     |
+---
+
+### [stringMaxLength](#stringMaxLength)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.stringMaxLength(string, maxLength[, optionalEnd]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -763,7 +1058,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stringToHexString](#stringToHexString)         |                                                                                     |
+---
+
+### [stringToHexString](#stringToHexString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.stringToHexString(value) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -772,7 +1071,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A hex string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tableContains](#tableContains)         |                                                                                     |
+---
+
+### [tableContains](#tableContains)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.tableContains(table, element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -781,7 +1084,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tableCount](#tableCount)         |                                                                                     |
+---
+
+### [tableCount](#tableCount)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.tableCount(table) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -790,7 +1097,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The number of items in the table.</li></ul>          |
 | **Notes**                                   | <ul><li>If something other than a table is supplied, this function will return 0.</li></ul>                |
 
-| [tableFilter](#tableFilter)         |                                                                                     |
+---
+
+### [tableFilter](#tableFilter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.tableFilter(t, matchFn) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -799,7 +1110,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The same table, updated.</li></ul>          |
 | **Notes**                                   | <ul><li>This will modify the original table.</li></ul>                |
 
-| [tableMatch](#tableMatch)         |                                                                                     |
+---
+
+### [tableMatch](#tableMatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.tableMatch(t1, t2[, ignoreMetatable]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -808,7 +1123,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if `t1` and `t2` are identical, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toRegionalNumber](#toRegionalNumber)         |                                                                                     |
+---
+
+### [toRegionalNumber](#toRegionalNumber)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.toRegionalNumber(value) -> number | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -817,7 +1136,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The value as a number or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toRegionalNumberString](#toRegionalNumberString)         |                                                                                     |
+---
+
+### [toRegionalNumberString](#toRegionalNumberString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.toRegionalNumberString(value) -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -826,7 +1149,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The value as a number or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [trim](#trim)         |                                                                                     |
+---
+
+### [trim](#trim)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.trim(string) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -835,7 +1162,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A trimmed string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unescape](#unescape)         |                                                                                     |
+---
+
+### [unescape](#unescape)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.unescape(str) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -844,7 +1175,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string with all "+" characters converted to spaces and all percent encoded sequences converted to their ASCII equivalents.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [upper](#upper)         |                                                                                     |
+---
+
+### [upper](#upper)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.upper(str) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -853,7 +1188,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [urlQueryStringDecode](#urlQueryStringDecode)         |                                                                                     |
+---
+
+### [urlQueryStringDecode](#urlQueryStringDecode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.urlQueryStringDecode() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -862,7 +1201,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Decoded URL Query String as string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [urlToFilename](#urlToFilename)         |                                                                                     |
+---
+
+### [urlToFilename](#urlToFilename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.urlToFilename(url) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -871,7 +1214,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The filename.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeFormat](#volumeFormat)         |                                                                                     |
+---
+
+### [volumeFormat](#volumeFormat)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.volumeFormat(path) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -880,7 +1227,11 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The `NSURLVolumeLocalizedFormatDescriptionKey` as a string, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [writeToFile](#writeToFile)         |                                                                                     |
+---
+
+### [writeToFile](#writeToFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.tools.writeToFile(path, data) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -889,3 +1240,4 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

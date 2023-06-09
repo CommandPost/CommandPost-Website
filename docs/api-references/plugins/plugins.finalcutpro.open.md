@@ -11,7 +11,10 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 
 ### Functions
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.open.app() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [commandEditor](#commandEditor)         |                                                                                     |
+---
+
+### [commandEditor](#commandEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.open.commandEditor() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

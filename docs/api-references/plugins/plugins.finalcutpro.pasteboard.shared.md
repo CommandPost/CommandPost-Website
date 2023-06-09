@@ -25,7 +25,10 @@ Shared Pasteboard Plugin.
 
 ### Functions
 
-| [copyWithCustomClipName](#copyWithCustomClipName)         |                                                                                     |
+
+### [copyWithCustomClipName](#copyWithCustomClipName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.copyWithCustomClipName() -> None`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +37,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [copyWithCustomClipNameAndFolder](#copyWithCustomClipNameAndFolder)         |                                                                                     |
+---
+
+### [copyWithCustomClipNameAndFolder](#copyWithCustomClipNameAndFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.copyWithCustomClipNameAndFolder() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +50,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doDecodeHistoryItem](#doDecodeHistoryItem)         |                                                                                     |
+---
+
+### [doDecodeHistoryItem](#doDecodeHistoryItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.doDecodeHistoryItem(folderName, index) -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +63,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The decoded Pasteboard History Item or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doPasteHistoryItem](#doPasteHistoryItem)         |                                                                                     |
+---
+
+### [doPasteHistoryItem](#doPasteHistoryItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.doPasteHistoryItem(folderName, index) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +76,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generateSharedPasteboardMenu](#generateSharedPasteboardMenu)         |                                                                                     |
+---
+
+### [generateSharedPasteboardMenu](#generateSharedPasteboardMenu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.generateSharedPasteboardMenu() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +89,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The shared pasteboard menu as a table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getFolderNames](#getFolderNames)         |                                                                                     |
+---
+
+### [getFolderNames](#getFolderNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.getFolderNames() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,7 +102,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>A table of folder names.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHistory](#getHistory)         |                                                                                     |
+---
+
+### [getHistory](#getHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.getHistory(folderName) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -88,7 +115,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The history in a table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHistoryPath](#getHistoryPath)         |                                                                                     |
+---
+
+### [getHistoryPath](#getHistoryPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.getHistoryPath(folderName, fileExtension) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -97,7 +128,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The history path as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getLocalFolderName](#getLocalFolderName)         |                                                                                     |
+---
+
+### [getLocalFolderName](#getLocalFolderName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.getLocalFolderName() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -106,7 +141,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The local folder name as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [overrideNextFolderName](#overrideNextFolderName)         |                                                                                     |
+---
+
+### [overrideNextFolderName](#overrideNextFolderName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.overrideNextFolderName(overrideFolder) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -115,7 +154,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The local folder name as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setHistory](#setHistory)         |                                                                                     |
+---
+
+### [setHistory](#setHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.setHistory(folderName) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -124,7 +167,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.update() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -133,7 +180,11 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [validRootPath](#validRootPath)         |                                                                                     |
+---
+
+### [validRootPath](#validRootPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.validRootPath() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -142,17 +193,26 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>`true` if it exists otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets whether or not the shared pasteboard is enabled as a boolean.                                                                     |
 
-| [path](#path)         |                                                                                     |
+---
+
+### [path](#path)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.path <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Shared Pasteboard Root Path.                                                                     |
 
+---

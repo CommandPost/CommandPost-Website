@@ -30,15 +30,22 @@ CommandPost Setup Window Panel.
 
 ### Constants
 
-| [WEBVIEW_LABEL](#WEBVIEW_LABEL)         |                                                                                     |
+
+### [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel.WEBVIEW_LABEL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The ID for the Webview                                                                     |
 
+---
 ### Functions
 
-| [panelCount](#panelCount)         |                                                                                     |
+
+### [panelCount](#panelCount)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panelCount() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,7 +54,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The number of panels.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [panelNumber](#panelNumber)         |                                                                                     |
+---
+
+### [panelNumber](#panelNumber)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panelNumber() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +67,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>the current panel number, or `0` if no panels are registered.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [panelQueue](#panelQueue)         |                                                                                     |
+---
+
+### [panelQueue](#panelQueue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panelQueue() -> table of panels`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,9 +80,13 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The table of panels remaining to be processed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel.new(id, priority) -> plugins.core.setup.panel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -76,9 +95,13 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [addButton](#addButton)         |                                                                                     |
+
+### [addButton](#addButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addButton(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +110,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The same panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table may contain:</li><li> ** `id`        - (optional) the unique ID for the button. If none is provided, one is generated.</li><li> ** `value`     - The value of the button. This is sent to the `onclick` function.</li><li> ** `label`     - The text label for the button. Defaults to the `value` if not provided.</li><li> ** `width`     - The width of the button in pixels.</li><li> ** `onclick`   - the function to execute when the button is clicked. The function should have the signature of `function(id, value)`, where `id` is the id of the button that was clicked, and `value` is the value of the button.</li></ul>                |
 
-| [addCheckbox](#addCheckbox)         |                                                                                     |
+---
+
+### [addCheckbox](#addCheckbox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addCheckbox(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +123,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `id`        - (optional) The unique ID. If none is provided, one will be generated.</li><li> ** `name`      - (optional) The name of the checkbox field.</li><li> ** `label`     - (optional) The text label to display after the checkbox.</li><li> ** `onchange`  - (optional) a function that will get called when the checkbox value changes. It will be passed two parameters, `id` and `params`, the latter of which is a table containing the `value` and `checked` values of the checkbox.</li><li> ** `class`     - (optional) the CSS class list to apply to the checkbox.</li></ul>                |
 
-| [addContent](#addContent)         |                                                                                     |
+---
+
+### [addContent](#addContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addContent(content[, escaped]) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,7 +136,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addFooter](#addFooter)         |                                                                                     |
+---
+
+### [addFooter](#addFooter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addFooter(content, unescaped) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,7 +149,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addHandler](#addHandler)         |                                                                                     |
+---
+
+### [addHandler](#addHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addHandler(event, id, handlerFn, keys) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -123,7 +162,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addHeading](#addHeading)         |                                                                                     |
+---
+
+### [addHeading](#addHeading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addHeading(text) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -132,7 +175,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addIcon](#addIcon)         |                                                                                     |
+---
+
+### [addIcon](#addIcon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addIcon(src) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -141,7 +188,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addParagraph](#addParagraph)         |                                                                                     |
+---
+
+### [addParagraph](#addParagraph)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addParagraph(content[, escaped[, class]]) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -150,7 +201,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addPassword](#addPassword)         |                                                                                     |
+---
+
+### [addPassword](#addPassword)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addPassword(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -159,7 +214,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addSelect](#addSelect)         |                                                                                     |
+---
+
+### [addSelect](#addSelect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addSelect(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -168,7 +227,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addSubHeading](#addSubHeading)         |                                                                                     |
+---
+
+### [addSubHeading](#addSubHeading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addSubHeading(text) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -177,7 +240,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addTextbox](#addTextbox)         |                                                                                     |
+---
+
+### [addTextbox](#addTextbox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:addTextbox(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -186,7 +253,11 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHandler](#getHandler)         |                                                                                     |
+---
+
+### [getHandler](#getHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.setup.panel:getHandler(id) -> handler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -195,3 +266,4 @@ CommandPost Setup Window Panel.
 | **Returns**                                 | <ul><li>A handler.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

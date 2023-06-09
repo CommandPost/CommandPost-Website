@@ -20,7 +20,10 @@ Most of this submodule should be considered at the "Proof of Concept" stage and 
 
 ### Functions
 
-| [genComments](#genComments)         |                                                                                     |
+
+### [genComments](#genComments)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.builder.genComments(path, [recurse]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,7 +32,11 @@ Most of this submodule should be considered at the "Proof of Concept" stage and 
 | **Returns**                                 | <ul><li>table - a table containing the documentation broken out into the key-value pairs used to generate documentation displayed by `hs.doc` and `hs.doc.hsdocs`.</li></ul>          |
 | **Notes**                                   | <ul><li>Because Hammerspoon and all known currently available modules are coded in Objective-C and/or Lua, only files with the .m or .lua extension are examined in the provided path(s).  Please submit an issue (or pull request, if you modify this submodule yourself) at https://github.com/Hammerspoon if you need this to be changed for your addition.</li></ul>                |
 
-| [genJSON](#genJSON)         |                                                                                     |
+---
+
+### [genJSON](#genJSON)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.builder.genJSON(source) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -38,7 +45,11 @@ Most of this submodule should be considered at the "Proof of Concept" stage and 
 | **Returns**                                 | <ul><li>string - the JSON string representation of the documentation</li></ul>          |
 | **Notes**                                   | <ul><li>If you have installed the `hs` command line tool (see `hs.ipc`), you can use the following to generate the `docs.json` file that is used to provide documentation for Hammerspoon Spoon bundles: `hs -c "hs.doc.builder.genJSON(\"$(pwd)\")" > docs.json`</li><li>You can also use this to generate documentation for any third-party-modules you build, but you will have to register the documentation with `hs.doc.registerJSONFile` yourself -- it is not automatically loaded for you like it is for Spoons.</li></ul>                |
 
-| [genSQL](#genSQL)         |                                                                                     |
+---
+
+### [genSQL](#genSQL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.builder.genSQL(source) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,3 +58,4 @@ Most of this submodule should be considered at the "Proof of Concept" stage and 
 | **Returns**                                 | <ul><li>string - the relevant SQL commands as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

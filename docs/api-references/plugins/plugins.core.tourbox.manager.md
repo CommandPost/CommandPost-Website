@@ -20,15 +20,22 @@ Loupedeck CT Manager Plugin.
 
 ### Variables
 
-| [defaultLayout](#defaultLayout)         |                                                                                     |
+
+### [defaultLayout](#defaultLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.defaultLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck CT Layout                                                                     |
 
+---
 ### Functions
 
-| [connectToTourBox](#connectToTourBox)         |                                                                                     |
+
+### [connectToTourBox](#connectToTourBox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.connectToTourBox([portName]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,7 +44,11 @@ Loupedeck CT Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.reset()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -46,7 +57,11 @@ Loupedeck CT Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [resetTimers](#resetTimers)         |                                                                                     |
+---
+
+### [resetTimers](#resetTimers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.resetTimers() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -55,35 +70,56 @@ Loupedeck CT Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [activeBanks](#activeBanks)         |                                                                                     |
+
+### [activeBanks](#activeBanks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.activeBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
 
-| [automaticallySwitchApplications](#automaticallySwitchApplications)         |                                                                                     |
+---
+
+### [automaticallySwitchApplications](#automaticallySwitchApplications)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.automaticallySwitchApplications <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
 
-| [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)         |                                                                                     |
+---
+
+### [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.displayMessageWhenChangingBanks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display message when changing banks?                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Loupedeck CT support enabled?                                                                     |
 
-| [items](#items)         |                                                                                     |
+---
+
+### [items](#items)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tourbox.manager.items <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved TourBox layouts.                                                                     |
 
+---

@@ -46,7 +46,10 @@ Utility functions to support `hs.axuielement`.
 
 ### Functions
 
-| [cache](#cache)         |                                                                                     |
+
+### [cache](#cache)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.cache(source, key, finderFn[, verifyFn]) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -55,7 +58,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The valid cached value.</li></ul>          |
 | **Notes**                                   | <ul><li>If the optional `verifyFn` is provided, it will be called to check that the cached value is still valid. It is passed a single parameter (the axuielement) and is expected to return `true` or `false`.</li></ul>                |
 
-| [childAtIndex](#childAtIndex)         |                                                                                     |
+---
+
+### [childAtIndex](#childAtIndex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childAtIndex(element, index, compareFn[, matcherFn]) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -64,7 +71,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childFromBottom](#childFromBottom)         |                                                                                     |
+---
+
+### [childFromBottom](#childFromBottom)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childFromBottom(element, index, matcherFn) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -73,7 +84,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childFromLeft](#childFromLeft)         |                                                                                     |
+---
+
+### [childFromLeft](#childFromLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childFromLeft(element, index[, matcherFn]) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -82,7 +97,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childFromRight](#childFromRight)         |                                                                                     |
+---
+
+### [childFromRight](#childFromRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childFromRight(element, index[, matcherFn]) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -91,7 +110,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childFromTop](#childFromTop)         |                                                                                     |
+---
+
+### [childFromTop](#childFromTop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childFromTop(element, index[, matcherFn]) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -100,7 +123,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childInColumn](#childInColumn)         |                                                                                     |
+---
+
+### [childInColumn](#childInColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childInColumn(element, role, startIndex, childIndex) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -109,7 +136,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childIndex](#childIndex)         |                                                                                     |
+---
+
+### [childIndex](#childIndex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childIndex(element) -> number or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -118,7 +149,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The index (`1` or higher) of the `element`, or `nil` if it was not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childMatching](#childMatching)         |                                                                                     |
+---
+
+### [childMatching](#childMatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childMatching(element, matcherFn[, index]) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -127,7 +162,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or nil if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [children](#children)         |                                                                                     |
+---
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.children(element[, compareFn]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -136,7 +175,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>a table of children</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenAbove](#childrenAbove)         |                                                                                     |
+---
+
+### [childrenAbove](#childrenAbove)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenAbove(element, bottomElement) -> table of axuielement or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -145,7 +188,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielements` that are above, or `nil` if the element is not available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenBelow](#childrenBelow)         |                                                                                     |
+---
+
+### [childrenBelow](#childrenBelow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenBelow(element, topElement) -> table of axuielement or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -154,7 +201,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielements` that are below, or `nil` if the element is not available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenInColumn](#childrenInColumn)         |                                                                                     |
+---
+
+### [childrenInColumn](#childrenInColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenInColumn(element, role, startIndex) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -163,7 +214,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenInLine](#childrenInLine)         |                                                                                     |
+---
+
+### [childrenInLine](#childrenInLine)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenInLine(element) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -172,7 +227,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenInNextLine](#childrenInNextLine)         |                                                                                     |
+---
+
+### [childrenInNextLine](#childrenInNextLine)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenInNextLine(element) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -181,7 +240,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenMatching](#childrenMatching)         |                                                                                     |
+---
+
+### [childrenMatching](#childrenMatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenMatching(element, matcherFn) -> { axuielement }`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -190,7 +253,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenWith](#childrenWith)         |                                                                                     |
+---
+
+### [childrenWith](#childrenWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenWith(element, name, value) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -199,7 +266,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenWithRole](#childrenWithRole)         |                                                                                     |
+---
+
+### [childrenWithRole](#childrenWithRole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childrenWithRole(element, value) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -208,7 +279,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childWith](#childWith)         |                                                                                     |
+---
+
+### [childWith](#childWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childWith(element, name, value) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -217,7 +292,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or nil if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childWithDescription](#childWithDescription)         |                                                                                     |
+---
+
+### [childWithDescription](#childWithDescription)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childWithDescription(element, value) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -226,7 +305,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childWithID](#childWithID)         |                                                                                     |
+---
+
+### [childWithID](#childWithID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childWithID(element, value) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -235,7 +318,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childWithRole](#childWithRole)         |                                                                                     |
+---
+
+### [childWithRole](#childWithRole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childWithRole(element, value) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -244,7 +331,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childWithTitle](#childWithTitle)         |                                                                                     |
+---
+
+### [childWithTitle](#childWithTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.childWithTitle(element, value) -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -253,7 +344,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasAttributeValue](#hasAttributeValue)         |                                                                                     |
+---
+
+### [hasAttributeValue](#hasAttributeValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.hasAttributeValue(element, name, value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -262,7 +357,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>`true` if the `element` has the supplied attribute value, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasChild](#hasChild)         |                                                                                     |
+---
+
+### [hasChild](#hasChild)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.hasChild(element, matcherFn) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -271,7 +370,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>`true` if any child matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isValid](#isValid)         |                                                                                     |
+---
+
+### [isValid](#isValid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.isValid(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -280,7 +383,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>`true` if the element is valid.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [prop](#prop)         |                                                                                     |
+---
+
+### [prop](#prop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.prop(uiFinder, attributeName[, settable]) -> cp.prop`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -289,7 +396,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `cp.prop` for the attribute.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `uiFinder` is a `cp.prop`, it will be monitored for changes, making the resulting `prop` "live".</li></ul>                |
 
-| [snapshot](#snapshot)         |                                                                                     |
+---
+
+### [snapshot](#snapshot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.snapshot(element, filename, elementFrame) -> hs.image`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -298,7 +409,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>An `hs.image` file, or `nil` if the element could not be snapped.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [valueOf](#valueOf)         |                                                                                     |
+---
+
+### [valueOf](#valueOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.valueOf(element, name[, default]) -> anything`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -307,7 +422,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The attribute value, or the `default` if none is found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withAttributeValue](#withAttributeValue)         |                                                                                     |
+---
+
+### [withAttributeValue](#withAttributeValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.withAttributeValue(element, name, value) -> hs.axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -316,7 +435,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withRole](#withRole)         |                                                                                     |
+---
+
+### [withRole](#withRole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.withRole(element, role) -> hs.axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -325,7 +448,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withTitle](#withTitle)         |                                                                                     |
+---
+
+### [withTitle](#withTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.withTitle(element, title) -> hs.axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -334,7 +461,11 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withValue](#withValue)         |                                                                                     |
+---
+
+### [withValue](#withValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.withValue(element, value) -> hs.axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -343,3 +474,4 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -11,7 +11,10 @@ String-related functional programming helpers.
 
 ### Functions
 
-| [isEmpty](#isEmpty)         |                                                                                     |
+
+### [isEmpty](#isEmpty)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.string.isEmpty(str) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ String-related functional programming helpers.
 | **Returns**                                 | <ul><li>`true` if the string is empty, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [match](#match)         |                                                                                     |
+---
+
+### [match](#match)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.string.match(pattern) -> function(str) -> ...`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ String-related functional programming helpers.
 | **Returns**                                 | <ul><li>A function that takes a string and returns the matches.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

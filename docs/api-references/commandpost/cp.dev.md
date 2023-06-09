@@ -21,7 +21,10 @@ A set of handy developer tools for CommandPost.
 
 ### Functions
 
-| [elementAtMouse](#elementAtMouse)         |                                                                                     |
+
+### [elementAtMouse](#elementAtMouse)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.elementAtMouse() -> axuielementObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -30,7 +33,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findUnusedLanguageStrings](#findUnusedLanguageStrings)         |                                                                                     |
+---
+
+### [findUnusedLanguageStrings](#findUnusedLanguageStrings)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.findUnusedLanguageStrings() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -39,7 +46,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>A string with the results of the search.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [highlight](#highlight)         |                                                                                     |
+---
+
+### [highlight](#highlight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.highlight(element) -> axuielementObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,7 +59,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>The element.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [highlightFrame](#highlightFrame)         |                                                                                     |
+---
+
+### [highlightFrame](#highlightFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.highlightFrame(frame) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,7 +72,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [highlightPoint](#highlightPoint)         |                                                                                     |
+---
+
+### [highlightPoint](#highlightPoint)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.highlightPoint(point) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -66,7 +85,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hotkey](#hotkey)         |                                                                                     |
+---
+
+### [hotkey](#hotkey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.hotkey(fn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,7 +98,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [inspect](#inspect)         |                                                                                     |
+---
+
+### [inspect](#inspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.inspect(item, options) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -84,7 +111,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>A results as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [inspectAtMouse](#inspectAtMouse)         |                                                                                     |
+---
+
+### [inspectAtMouse](#inspectAtMouse)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.inspectAtMouse(options) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -93,7 +124,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [inspectElement](#inspectElement)         |                                                                                     |
+---
+
+### [inspectElement](#inspectElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.inspectElement(element[, options]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -102,7 +137,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None.</li></ul>          |
 | **Notes**                                   | <ul><li>The options table accepts the following parameters:</li><li> depth - A number representing the maximum depth to recurse into variable.</li></ul>                |
 
-| [inspectElementAtMousePath](#inspectElementAtMousePath)         |                                                                                     |
+---
+
+### [inspectElementAtMousePath](#inspectElementAtMousePath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.inspectElementAtMousePath(options) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -111,7 +150,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [test](#test)         |                                                                                     |
+---
+
+### [test](#test)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.test(id) -> cp.test`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -120,7 +163,11 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>A [cp.test] to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>This function will return a [cp.test](cp.test.md) with either the name `<id>_test` or `<id>._test` if the `<id>` is pointing at a folder.</li><li></li><li>For example, you have an extensions called `foo.bar`, and you want to create a test for it.</li><li></li><li>Option 1: `<id>_test`</li><li>File: `/src/tests/foo/bar_test.lua`</li><li></li><li>Option 2: `<id>._test`</li><li>File: `/src/tests/foo/bar/_test.lua`</li><li></li><li>You could then run all the contained tests like so:</li><li>```lua</li><li>_test("foo.bar")()</li><li>```</li></ul>                |
 
-| [which](#which)         |                                                                                     |
+---
+
+### [which](#which)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.dev.which(cmd) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -129,3 +176,4 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>The path or `nil` and the error message if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

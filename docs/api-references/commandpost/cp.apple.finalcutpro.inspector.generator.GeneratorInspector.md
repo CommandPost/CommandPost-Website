@@ -10,7 +10,10 @@ Generator Inspector Module. This appears for both Generators and Titles.
 
 ### Constructors
 
-| [GeneratorInspector](#GeneratorInspector)         |                                                                                     |
+
+### [GeneratorInspector](#GeneratorInspector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.generator.GeneratorInspector(parent) -> GeneratorInspector object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -19,3 +22,4 @@ Generator Inspector Module. This appears for both Generators and Titles.
 | **Returns**                                 | <ul><li>A GeneratorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

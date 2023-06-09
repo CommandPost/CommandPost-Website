@@ -18,15 +18,22 @@ A collection of tools for handling FCPXML Documents.
 
 ### Constants
 
-| [HAS_OFFSET_ATTRIBUTE](#HAS_OFFSET_ATTRIBUTE)         |                                                                                     |
+
+### [HAS_OFFSET_ATTRIBUTE](#HAS_OFFSET_ATTRIBUTE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.HAS_OFFSET_ATTRIBUTE <table: string:boolean>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of elements that have an `offset` attribute.                                                                     |
 
+---
 ### Functions
 
-| [latestDTDVersion](#latestDTDVersion)         |                                                                                     |
+
+### [latestDTDVersion](#latestDTDVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.latestDTDVersion() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +42,11 @@ A collection of tools for handling FCPXML Documents.
 | **Returns**                                 | <ul><li>The latest DTD version as a string, for example: "1.8".</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [supportedDTDs](#supportedDTDs)         |                                                                                     |
+---
+
+### [supportedDTDs](#supportedDTDs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.supportedDTDs() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +55,11 @@ A collection of tools for handling FCPXML Documents.
 | **Returns**                                 | <ul><li>A table of supported DTD versions as strings.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [valid](#valid)         |                                                                                     |
+---
+
+### [valid](#valid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml:valid(path[, version]) -> string|boolean, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,3 +68,4 @@ A collection of tools for handling FCPXML Documents.
 | **Returns**                                 | <ul><li>The FCPXML path or `false` if not valid.</li><li>The output from xmllint as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>If a version is not supplied, we will try and read the version</li><li>   from the file itself, and if that's not possible, we'll default</li><li>   to the latest FCPXML version.</li><li>If a `fcpxmld` bundle path is supplied, this function will return</li><li>   the path to the `Info.fcpxml` document if valid.</li></ul>                |
 
+---

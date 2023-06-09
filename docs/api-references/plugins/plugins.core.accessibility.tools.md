@@ -12,15 +12,22 @@ Actions for control user interface elements via the Accessibility API.
 
 ### Variables
 
-| [currentlyDragging](#currentlyDragging)         |                                                                                     |
+
+### [currentlyDragging](#currentlyDragging)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.tools.currentlyDragging -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we currently dragging something?                                                                     |
 
+---
 ### Functions
 
-| [changeElementUnderMouse](#changeElementUnderMouse)         |                                                                                     |
+
+### [changeElementUnderMouse](#changeElementUnderMouse)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.tools.changeElementUnderMouse(increase) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Actions for control user interface elements via the Accessibility API.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

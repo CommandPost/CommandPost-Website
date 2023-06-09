@@ -49,143 +49,234 @@ Manage CommandPost's constants and settings.
 
 ### Constants
 
-| [appBuild](#appBuild)         |                                                                                     |
+
+### [appBuild](#appBuild)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.appBuild -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application Build                                                                     |
 
-| [appName](#appName)         |                                                                                     |
+---
+
+### [appName](#appName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.appName -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The name of the Application                                                                     |
 
-| [appVersion](#appVersion)         |                                                                                     |
+---
+
+### [appVersion](#appVersion)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.appVersion -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application Version                                                                     |
 
-| [assetsPath](#assetsPath)         |                                                                                     |
+---
+
+### [assetsPath](#assetsPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.assetsPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where Application Assets are stored                                                                     |
 
-| [basePath](#basePath)         |                                                                                     |
+---
+
+### [basePath](#basePath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.basePath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where the Extensions & Plugins folders are stored.                                                                     |
 
-| [bundledPluginsPath](#bundledPluginsPath)         |                                                                                     |
+---
+
+### [bundledPluginsPath](#bundledPluginsPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.bundledPluginsPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to bundled plugins                                                                     |
 
-| [bundleID](#bundleID)         |                                                                                     |
+---
+
+### [bundleID](#bundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.bundleID -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application's Bundle ID                                                                     |
 
-| [cachePath](#cachePath)         |                                                                                     |
+---
+
+### [cachePath](#cachePath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.cachePath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to the CommandPost Cache folder.                                                                     |
 
-| [configPrefix](#configPrefix)         |                                                                                     |
+---
+
+### [configPrefix](#configPrefix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.configPrefix -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Prefix used for Configuration Settings                                                                     |
 
-| [iconPath](#iconPath)         |                                                                                     |
+---
+
+### [iconPath](#iconPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.iconPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to the Application Icon                                                                     |
 
-| [languagePath](#languagePath)         |                                                                                     |
+---
+
+### [languagePath](#languagePath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.languagePath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to the Languages Folder                                                                     |
 
-| [pluginPaths](#pluginPaths)         |                                                                                     |
+---
+
+### [pluginPaths](#pluginPaths)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.pluginPaths -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Plugins Paths. Earlier entries take precedence.                                                                     |
 
-| [privacyPolicyURL](#privacyPolicyURL)         |                                                                                     |
+---
+
+### [privacyPolicyURL](#privacyPolicyURL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.privacyPolicyURL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | URL for Privacy Policy                                                                     |
 
-| [processID](#processID)         |                                                                                     |
+---
+
+### [processID](#processID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.processID -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application's Process ID                                                                     |
 
-| [scriptPath](#scriptPath)         |                                                                                     |
+---
+
+### [scriptPath](#scriptPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.scriptPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where Application Scripts are stored                                                                     |
 
-| [sourceExtensions](#sourceExtensions)         |                                                                                     |
+---
+
+### [sourceExtensions](#sourceExtensions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.sourceExtensions -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Extensions for files which will trigger a reload when modified.                                                                     |
 
-| [sourceWatcher](#sourceWatcher)         |                                                                                     |
+---
+
+### [sourceWatcher](#sourceWatcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.sourceWatcher -> SourceWatcher`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `cp.sourcewatcher` that will watch for source files and reload CommandPost if any change.                                                                     |
 
-| [translationURL](#translationURL)         |                                                                                     |
+---
+
+### [translationURL](#translationURL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.translationURL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | URL for Translations                                                                     |
 
-| [userConfigRootPath](#userConfigRootPath)         |                                                                                     |
+---
+
+### [userConfigRootPath](#userConfigRootPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.userConfigRootPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to user configuration folders                                                                     |
 
-| [userPluginsPath](#userPluginsPath)         |                                                                                     |
+---
+
+### [userPluginsPath](#userPluginsPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.userPluginsPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to user plugins                                                                     |
 
+---
 ### Variables
 
-| [automaticScriptReloading](#automaticScriptReloading)         |                                                                                     |
+
+### [automaticScriptReloading](#automaticScriptReloading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.automaticScriptReloading <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatic Script Reloading.                                                                     |
 
-| [watcher](#watcher)         |                                                                                     |
+---
+
+### [watcher](#watcher)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.watcher() -> watcher`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Config Watcher                                                                     |
 
+---
 ### Functions
 
-| [application](#application)         |                                                                                     |
+
+### [application](#application)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.application() -> hs.application object`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -194,7 +285,11 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>hs.application object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [get](#get)         |                                                                                     |
+---
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.get(key[, defaultValue]) -> string or boolean or number or nil or table or binary data`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -203,7 +298,11 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>The value of the setting</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [prop](#prop)         |                                                                                     |
+---
+
+### [prop](#prop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.prop(key[, defaultValue]) -> cp.prop`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -212,7 +311,11 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>A `cp.prop` instance for the key.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.reset()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -221,7 +324,11 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [set](#set)         |                                                                                     |
+---
+
+### [set](#set)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.set(key, value)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -230,7 +337,11 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function cannot set dates or raw data types</li><li>Valid datatypes are:</li><li>   ** string</li><li>   ** number</li><li>   ** boolean</li><li>   ** nil</li><li>   ** table (which may contain any of the same valid datatypes)</li><li>if no value is provided, it is assumed to be nil</li></ul>                |
 
-| [unwatch](#unwatch)         |                                                                                     |
+---
+
+### [unwatch](#unwatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.unwatch(id)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -239,7 +350,11 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>`true` if a watcher with the ID existed and was successfully removed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watch](#watch)         |                                                                                     |
+---
+
+### [watch](#watch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.watch(events) -> id`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -248,17 +363,26 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>a unique ID that can be used to `unwatch`.</li></ul>          |
 | **Notes**                                   | <ul><li>Supported events:</li><li> ** `reset()`	- occurs after CommandPost's settings are reset.</li></ul>                |
 
+---
 ### Fields
 
-| [developerMode](#developerMode)         |                                                                                     |
+
+### [developerMode](#developerMode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.developerMode <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | When `true`, the app is in developer mode.                                                                     |
 
-| [frontmost](#frontmost)         |                                                                                     |
+---
+
+### [frontmost](#frontmost)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.config.frontmost <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Application is frontmost.                                                                     |
 
+---

@@ -12,15 +12,22 @@ Specifies that the `Require`d value `Matches` a function predicate.
 
 ### Constants
 
-| [Matches](#Matches)         |                                                                                     |
+
+### [Matches](#Matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.Matches <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a predicate function that checks values from the `requirement`.                                                                     |
 
+---
 ### Methods
 
-| [OrThrow](#OrThrow)         |                                                                                     |
+
+### [OrThrow](#OrThrow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.Matches:OrThrow(...) -> Require.OrThrow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -29,3 +36,4 @@ Specifies that the `Require`d value `Matches` a function predicate.
 | **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -15,7 +15,10 @@ which contains the play/pause button, timecode, audio meters, etc.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.ControlBar.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -24,9 +27,13 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `ControlBar`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ControlBar](#ControlBar)         |                                                                                     |
+
+### [ControlBar](#ControlBar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.ControlBar(viewer)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -35,11 +42,16 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Returns**                                 | <ul><li>The new `ControlBar`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [timecode](#timecode)         |                                                                                     |
+
+### [timecode](#timecode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.viewer.ControlBar.timecode <cp.prop: string; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current timecode value, with the format "hh:mm:ss:ff". Setting also supports "hh:mm:ss;ff".                                                                     |
 
+---

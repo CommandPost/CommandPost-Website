@@ -12,15 +12,22 @@ Final Cut Pro Timeline Preferences.
 
 ### Variables
 
-| [backgroundRender](#backgroundRender)         |                                                                                     |
+
+### [backgroundRender](#backgroundRender)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.preferences.backgroundRender <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Background Render enabled?                                                                     |
 
+---
 ### Functions
 
-| [getAutoRenderDelay](#getAutoRenderDelay)         |                                                                                     |
+
+### [getAutoRenderDelay](#getAutoRenderDelay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.preferences.getAutoRenderDelay() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Final Cut Pro Timeline Preferences.
 | **Returns**                                 | <ul><li>'FFAutoRenderDelay' value as number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

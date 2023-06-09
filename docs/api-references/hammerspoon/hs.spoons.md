@@ -19,7 +19,10 @@ See https://www.hammerspoon.org/Spoons/ for more information
 
 ### Functions
 
-| [bindHotkeysToSpec](#bindHotkeysToSpec)         |                                                                                     |
+
+### [bindHotkeysToSpec](#bindHotkeysToSpec)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.bindHotkeysToSpec(def, map) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,7 +31,11 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isInstalled](#isInstalled)         |                                                                                     |
+---
+
+### [isInstalled](#isInstalled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.isInstalled(name) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,7 +44,11 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>If the Spoon is installed, it returns a table with the Spoon information as returned by `list()`. Returns `nil` if the Spoon is not installed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isLoaded](#isLoaded)         |                                                                                     |
+---
+
+### [isLoaded](#isLoaded)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.isLoaded(name) -> boolean | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -46,7 +57,11 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>`true` if the Spoon is loaded, `nil` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [list](#list)         |                                                                                     |
+---
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.list() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -55,7 +70,11 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>Table with a list of installed/loaded spoons (depending on the value of `onlyLoaded`). Each entry is a table with the following entries:</li><li>  `name` - Spoon name</li><li>  `loaded` - boolean indication of whether the Spoon is loaded (`true`) or only installed (`false`)</li><li>  `version` - Spoon version number. Available only for loaded Spoons.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [newSpoon](#newSpoon)         |                                                                                     |
+---
+
+### [newSpoon](#newSpoon)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.newSpoon(name, basedir, metadata, [template]) -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -64,7 +83,11 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>The full directory path where the template was created, or `nil` if there was an error.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [resourcePath](#resourcePath)         |                                                                                     |
+---
+
+### [resourcePath](#resourcePath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.resourcePath(partial) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -73,7 +96,11 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>Absolute path of the file. Note: no existence or other checks are done on the path.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scriptPath](#scriptPath)         |                                                                                     |
+---
+
+### [scriptPath](#scriptPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.scriptPath([n]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -82,7 +109,11 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>String with the path from where the calling code was loaded.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [use](#use)         |                                                                                     |
+---
+
+### [use](#use)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spoons.use(name, arg, [noerror]) -> boolean | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -96,3 +127,4 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>`true` if the spoon was loaded, `nil` otherwise</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

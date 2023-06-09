@@ -10,7 +10,10 @@ Tangent Display Functions.
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.tangent.os.display.init() -> self`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Tangent Display Functions.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

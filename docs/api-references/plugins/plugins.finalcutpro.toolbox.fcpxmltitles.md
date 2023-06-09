@@ -19,63 +19,103 @@ FCPXML Titles Toolbox Panel
 
 ### Fields
 
-| [ignoreFirstRow](#ignoreFirstRow)         |                                                                                     |
+
+### [ignoreFirstRow](#ignoreFirstRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.ignoreFirstRow <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Ignore first row of CSV?                                                                     |
 
-| [lastBatchProcessPath](#lastBatchProcessPath)         |                                                                                     |
+---
+
+### [lastBatchProcessPath](#lastBatchProcessPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastBatchProcessPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Batch Process Path                                                                     |
 
-| [lastExportCSVPath](#lastExportCSVPath)         |                                                                                     |
+---
+
+### [lastExportCSVPath](#lastExportCSVPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastExportCSVPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export CSV Path                                                                     |
 
-| [lastExportFCPXMLPath](#lastExportFCPXMLPath)         |                                                                                     |
+---
+
+### [lastExportFCPXMLPath](#lastExportFCPXMLPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastExportFCPXMLPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export Path                                                                     |
 
-| [lastFCPXMLPath](#lastFCPXMLPath)         |                                                                                     |
+---
+
+### [lastFCPXMLPath](#lastFCPXMLPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastFCPXMLPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last FCPXMLPath                                                                     |
 
-| [newTitleColumn](#newTitleColumn)         |                                                                                     |
+---
+
+### [newTitleColumn](#newTitleColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.newTitleColumn <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | New Title Column                                                                     |
 
-| [originalTitleColumn](#originalTitleColumn)         |                                                                                     |
+---
+
+### [originalTitleColumn](#originalTitleColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.originalTitleColumn <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Original Title Column                                                                     |
 
-| [removeLineBreaks](#removeLineBreaks)         |                                                                                     |
+---
+
+### [removeLineBreaks](#removeLineBreaks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.removeLineBreaks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Line Breaks                                                                     |
 
-| [sentToFinalCutPro](#sentToFinalCutPro)         |                                                                                     |
+---
+
+### [sentToFinalCutPro](#sentToFinalCutPro)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.sentToFinalCutPro <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Send to Final Cut Pro                                                                     |
 
-| [trimWhiteSpace](#trimWhiteSpace)         |                                                                                     |
+---
+
+### [trimWhiteSpace](#trimWhiteSpace)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.trimWhiteSpace <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Trim White Space                                                                     |
 
+---

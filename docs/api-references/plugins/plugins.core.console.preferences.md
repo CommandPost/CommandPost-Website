@@ -11,15 +11,23 @@ Preferences for the Search Console.
 
 ### Variables
 
-| [scanRunningApplicationMenubarsOnStartup](#scanRunningApplicationMenubarsOnStartup)         |                                                                                     |
+
+### [scanRunningApplicationMenubarsOnStartup](#scanRunningApplicationMenubarsOnStartup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.console.preferences.scanRunningApplicationMenubarsOnStartup <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Scan Running Application Menubars on Startup                                                                     |
 
-| [scanTheMenubarsOfTheActiveApplication](#scanTheMenubarsOfTheActiveApplication)         |                                                                                     |
+---
+
+### [scanTheMenubarsOfTheActiveApplication](#scanTheMenubarsOfTheActiveApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.console.preferences.scanTheMenubarsOfTheActiveApplication <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Scan the Menubars of the Active Application                                                                     |
 
+---

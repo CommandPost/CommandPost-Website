@@ -22,7 +22,10 @@ Watch Folder Panel Manager.
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel.new(params, manager) -> panel object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -31,9 +34,13 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>A panel object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [addButton](#addButton)         |                                                                                     |
+
+### [addButton](#addButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addButton(priority, params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,7 +49,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addCheckbox](#addCheckbox)         |                                                                                     |
+---
+
+### [addCheckbox](#addCheckbox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addCheckbox(priority, params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -51,7 +62,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `id`        - (optional) The unique ID. If none is provided, one will be generated.</li><li> ** `name`      - (optional) The name of the checkbox field.</li><li> ** `label`     - (optional) The text label to display after the checkbox.</li><li> ** `onchange`  - (optional) a function that will get called when the checkbox value changes. It will be passed two parameters, `id` and `params`, the latter of which is a table containing the `value` and `checked` values of the checkbox.</li><li> ** `class`     - (optional) the CSS class list to apply to the checkbox.</li></ul>                |
 
-| [addContent](#addContent)         |                                                                                     |
+---
+
+### [addContent](#addContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addContent(priority, content[, escaped]) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +75,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addHandler](#addHandler)         |                                                                                     |
+---
+
+### [addHandler](#addHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addHandler(event, id, handlerFn, keys) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +88,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addHeading](#addHeading)         |                                                                                     |
+---
+
+### [addHeading](#addHeading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addHeading(priority, text, level) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +101,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addParagraph](#addParagraph)         |                                                                                     |
+---
+
+### [addParagraph](#addParagraph)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addParagraph(priority, content[, escaped[, class]]) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +114,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addPassword](#addPassword)         |                                                                                     |
+---
+
+### [addPassword](#addPassword)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addPassword(priority, params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +127,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addSelect](#addSelect)         |                                                                                     |
+---
+
+### [addSelect](#addSelect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addSelect(priority, params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,7 +140,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addTextbox](#addTextbox)         |                                                                                     |
+---
+
+### [addTextbox](#addTextbox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:addTextbox(priority, params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,7 +153,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generateContent](#generateContent)         |                                                                                     |
+---
+
+### [generateContent](#generateContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:generateContent() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -123,7 +166,11 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>A string of generated content</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getToolbarItem](#getToolbarItem)         |                                                                                     |
+---
+
+### [getToolbarItem](#getToolbarItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.panel:getToolbarItem() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -132,3 +179,4 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>Table of Toolbar Item Values</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -26,15 +26,22 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ### Constants
 
-| [NUMBER_OF_DEVICES](#NUMBER_OF_DEVICES)         |                                                                                     |
+
+### [NUMBER_OF_DEVICES](#NUMBER_OF_DEVICES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.NUMBER_OF_DEVICES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of devices of the same type supported.                                                                     |
 
+---
 ### Functions
 
-| [executeAction](#executeAction)         |                                                                                     |
+
+### [executeAction](#executeAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:executeAction(thisAction, deviceNumber) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,9 +50,13 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.new() -> Loupedeck`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -54,29 +65,45 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The deviceType should be either `hs.loupedeck.deviceTypes.LIVE`</li><li>   or `hs.loupedeck.deviceTypes.CT`.</li></ul>                |
 
+---
 ### Fields
 
-| [lastApplication](#lastApplication)         |                                                                                     |
+
+### [lastApplication](#lastApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.lastApplication <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last application                                                                     |
 
-| [lastBank](#lastBank)         |                                                                                     |
+---
+
+### [lastBank](#lastBank)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.lastBank <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last bank                                                                     |
 
-| [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)         |                                                                                     |
+---
+
+### [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.previewSelectedApplicationAndBankOnHardware <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we preview the selected application and bank on hardware?                                                                     |
 
+---
 ### Methods
 
-| [callback](#callback)         |                                                                                     |
+
+### [callback](#callback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:callback(data, deviceNumber) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -85,7 +112,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [clearCache](#clearCache)         |                                                                                     |
+---
+
+### [clearCache](#clearCache)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:clearCache(deviceNumber) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -94,7 +125,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getFlashDrivePath](#getFlashDrivePath)         |                                                                                     |
+---
+
+### [getFlashDrivePath](#getFlashDrivePath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:getFlashDrivePath() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -103,7 +138,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>The Loupedeck Flash Drive path as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [refresh](#refresh)         |                                                                                     |
+---
+
+### [refresh](#refresh)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:refresh(dueToAppChange, deviceNumber)`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -112,7 +151,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [refreshItems](#refreshItems)         |                                                                                     |
+---
+
+### [refreshItems](#refreshItems)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:refreshItems() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -121,7 +164,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:reset()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -130,7 +177,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateBacklightLevel](#updateBacklightLevel)         |                                                                                     |
+---
+
+### [updateBacklightLevel](#updateBacklightLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager:updateBacklightLevel(deviceNumber, value) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -139,3 +190,4 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

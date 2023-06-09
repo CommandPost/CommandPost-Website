@@ -19,7 +19,10 @@ The Audio Configuration section of the Audio Inspector.
 
 ### Functions
 
-| [AudioComponent](#AudioComponent)         |                                                                                     |
+
+### [AudioComponent](#AudioComponent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent(parent, subcomponent, index) -> AudioComponent`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,7 +31,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>A new AudioComponent object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,29 +44,45 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [channels](#channels)         |                                                                                     |
+
+### [channels](#channels)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent.channels <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The channels popup menu button for the component. This only present for                                                                     |
 
-| [role](#role)         |                                                                                     |
+---
+
+### [role](#role)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent.role <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The role popup menu button for the subcomponent. Only present for                                                                     |
 
-| [showAs](#showAs)         |                                                                                     |
+---
+
+### [showAs](#showAs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent.showAs <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The subroles popup menu button for the component. Only present for                                                                     |
 
+---
 ### Methods
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -68,7 +91,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or send an `error` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent:enabled() -> Button`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -77,7 +104,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>The `Button` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,3 +117,4 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>The `AudioComponent` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

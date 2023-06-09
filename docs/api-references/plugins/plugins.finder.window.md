@@ -21,15 +21,22 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 
 ### Variables
 
-| [gridparts](#gridparts)         |                                                                                     |
+
+### [gridparts](#gridparts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.gridparts`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | An integer specifying how many gridparts the screen should be divided into. Defaults to 30.                                                                     |
 
+---
 ### Functions
 
-| [centerCursor](#centerCursor)         |                                                                                     |
+
+### [centerCursor](#centerCursor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.centerCursor() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -38,7 +45,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [grid](#grid)         |                                                                                     |
+---
+
+### [grid](#grid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.grid() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,7 +58,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hints](#hints)         |                                                                                     |
+---
+
+### [hints](#hints)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.hints() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +71,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [moveAndResize](#moveAndResize)         |                                                                                     |
+---
+
+### [moveAndResize](#moveAndResize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.moveAndResize(option)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +84,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [moveToScreen](#moveToScreen)         |                                                                                     |
+---
+
+### [moveToScreen](#moveToScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.moveToScreen(direction)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +97,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stepMove](#stepMove)         |                                                                                     |
+---
+
+### [stepMove](#stepMove)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.stepMove(direction)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +110,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stepResize](#stepResize)         |                                                                                     |
+---
+
+### [stepResize](#stepResize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.stepResize(direction)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +123,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [undo](#undo)         |                                                                                     |
+---
+
+### [undo](#undo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.window.undo()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,3 +136,4 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -43,7 +43,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Functions
 
-| [availablePortDetails](#availablePortDetails)         |                                                                                     |
+
+### [availablePortDetails](#availablePortDetails)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial.availablePortDetails() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +55,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>A table containing the IOKit details of any connected serial ports, organised by port name.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [availablePortNames](#availablePortNames)         |                                                                                     |
+---
+
+### [availablePortNames](#availablePortNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial.availablePortNames() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +68,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>A table containing the names of any connected serial port names as strings.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [availablePortPaths](#availablePortPaths)         |                                                                                     |
+---
+
+### [availablePortPaths](#availablePortPaths)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial.availablePortPaths() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +81,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>A table containing the names of any connected serial port paths as strings.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deviceCallback](#deviceCallback)         |                                                                                     |
+---
+
+### [deviceCallback](#deviceCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial.deviceCallback(callbackFn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,9 +94,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 1 argument and should not return anything:</li><li>  `devices` - A table containing the names of any serial ports connected as strings.</li></ul>                |
 
+---
 ### Constructors
 
-| [newFromName](#newFromName)         |                                                                                     |
+
+### [newFromName](#newFromName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial.newFromName(portName) -> serialPortObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -90,7 +109,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>An `hs.serial` object or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortNames()`.</li></ul>                |
 
-| [newFromPath](#newFromPath)         |                                                                                     |
+---
+
+### [newFromPath](#newFromPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial.newFromPath(path) -> serialPortObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -99,9 +122,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>An `hs.serial` object or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortPaths()`.</li></ul>                |
 
+---
 ### Methods
 
-| [baudRate](#baudRate)         |                                                                                     |
+
+### [baudRate](#baudRate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:baudRate([value], [allowNonStandardBaudRates]) -> number | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,7 +137,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the baud rate as a number</li></ul>          |
 | **Notes**                                   | <ul><li>This function supports the following standard baud rates as numbers: 300, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200, 230400.</li><li>If no baud rate is supplied, it defaults to 115200.</li></ul>                |
 
-| [callback](#callback)         |                                                                                     |
+---
+
+### [callback](#callback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:callback(callbackFn) -> serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -119,7 +150,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.serial` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  `serialPortObject` - The serial port object that triggered the callback.</li><li>  `callbackType` - A string containing "opened", "closed", "received", "removed" or "error".</li><li>  `message` - If the `callbackType` is "received", then this will be the data received as a string. If the `callbackType` is "error", this will be the error message as a string.</li><li>  `hexadecimalString` - If the `callbackType` is "received", then this will be the data received as a hexadecimal string.</li></ul>                |
 
-| [close](#close)         |                                                                                     |
+---
+
+### [close](#close)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:close() -> serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -128,7 +163,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.serial` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [dataBits](#dataBits)         |                                                                                     |
+---
+
+### [dataBits](#dataBits)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:dataBits([value]) -> number | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -137,7 +176,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the data bits as a number.</li><li>The default value is 8.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [dtr](#dtr)         |                                                                                     |
+---
+
+### [dtr](#dtr)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:dtr([value]) -> boolean | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -146,7 +189,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul>                |
 
-| [isOpen](#isOpen)         |                                                                                     |
+---
+
+### [isOpen](#isOpen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:isOpen() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -155,7 +202,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:name() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -164,7 +215,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The name as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [open](#open)         |                                                                                     |
+---
+
+### [open](#open)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:open() -> serialPortObject | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -173,7 +228,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.serial` object or `nil` if the port could not be opened.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parity](#parity)         |                                                                                     |
+---
+
+### [parity](#parity)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:parity([value]) -> string | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -182,7 +241,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a string value of "none", "odd" or "even".</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [path](#path)         |                                                                                     |
+---
+
+### [path](#path)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:path() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -191,7 +254,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The path as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rts](#rts)         |                                                                                     |
+---
+
+### [rts](#rts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:rts([value]) -> boolean | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -200,7 +267,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul>                |
 
-| [sendData](#sendData)         |                                                                                     |
+---
+
+### [sendData](#sendData)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:sendData(value) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -209,7 +280,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shouldEchoReceivedData](#shouldEchoReceivedData)         |                                                                                     |
+---
+
+### [shouldEchoReceivedData](#shouldEchoReceivedData)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:shouldEchoReceivedData([value]) -> boolean | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -218,7 +293,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li></ul>                |
 
-| [stopBits](#stopBits)         |                                                                                     |
+---
+
+### [stopBits](#stopBits)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:stopBits([value]) -> number | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -227,7 +306,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the number of stop bits as a number.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is 1.</li></ul>                |
 
-| [usesDTRDSRFlowControl](#usesDTRDSRFlowControl)         |                                                                                     |
+---
+
+### [usesDTRDSRFlowControl](#usesDTRDSRFlowControl)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:usesDTRDSRFlowControl([value]) -> boolean | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -236,7 +319,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li></ul>                |
 
-| [usesRTSCTSFlowControl](#usesRTSCTSFlowControl)         |                                                                                     |
+---
+
+### [usesRTSCTSFlowControl](#usesRTSCTSFlowControl)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.serial:usesRTSCTSFlowControl([value]) -> boolean | serialPortObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -245,3 +332,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li></ul>                |
 
+---

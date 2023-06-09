@@ -32,69 +32,112 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ### Fields
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Tags' section.                                                                     |
 
-| [all](#all)         |                                                                                     |
+---
+
+### [all](#all)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.all <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that will show "All" types of media.                                                                     |
 
-| [analysisKeywords](#analysisKeywords)         |                                                                                     |
+---
+
+### [analysisKeywords](#analysisKeywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.analysisKeywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Auto-analysis keywords" filter.                                                                     |
 
-| [chapters](#chapters)         |                                                                                     |
+---
+
+### [chapters](#chapters)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.chapters <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Chapter markers" filter.                                                                     |
 
-| [completeTodos](#completeTodos)         |                                                                                     |
+---
+
+### [completeTodos](#completeTodos)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.completeTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Complete todo marker" filter.                                                                     |
 
-| [incompleteTodos](#incompleteTodos)         |                                                                                     |
+---
+
+### [incompleteTodos](#incompleteTodos)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.incompleteTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Incomplete todo marker" filter.                                                                     |
 
-| [keywords](#keywords)         |                                                                                     |
+---
+
+### [keywords](#keywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.keywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Keywords" filter.                                                                     |
 
-| [list](#list)         |                                                                                     |
+---
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.list <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of tags as a [Table](cp.ui.OldTable.md).                                                                     |
 
-| [standardMarkers](#standardMarkers)         |                                                                                     |
+---
+
+### [standardMarkers](#standardMarkers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.standardMarkers <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Standard markers" filter.                                                                     |
 
-| [type](#type)         |                                                                                     |
+---
+
+### [type](#type)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.type <cp.apple.finalcutpro.timeline.IndexTags.Type>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexTags.Type](cp.apple.finalcutpro.timeline.IndexTags.Type.md).                                                                     |
 
+---
 ### Methods
 
-| [doLayout](#doLayout)         |                                                                                     |
+
+### [doLayout](#doLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doLayout(layout) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -103,7 +146,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowAll](#doShowAll)         |                                                                                     |
+---
+
+### [doShowAll](#doShowAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doShowAll() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -112,7 +159,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowAnalysisKeywords](#doShowAnalysisKeywords)         |                                                                                     |
+---
+
+### [doShowAnalysisKeywords](#doShowAnalysisKeywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doShowAnalysisKeywords() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -121,7 +172,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowChapters](#doShowChapters)         |                                                                                     |
+---
+
+### [doShowChapters](#doShowChapters)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doShowChapters() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -130,7 +185,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowCompleteTodos](#doShowCompleteTodos)         |                                                                                     |
+---
+
+### [doShowCompleteTodos](#doShowCompleteTodos)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doShowCompleteTodos() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -139,7 +198,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowIncompleteTodos](#doShowIncompleteTodos)         |                                                                                     |
+---
+
+### [doShowIncompleteTodos](#doShowIncompleteTodos)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doShowIncompleteTodos() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -148,7 +211,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowKeywords](#doShowKeywords)         |                                                                                     |
+---
+
+### [doShowKeywords](#doShowKeywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doShowKeywords() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -157,7 +224,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowStandardMarkers](#doShowStandardMarkers)         |                                                                                     |
+---
+
+### [doShowStandardMarkers](#doShowStandardMarkers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:doShowStandardMarkers() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -166,7 +237,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -175,3 +250,4 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

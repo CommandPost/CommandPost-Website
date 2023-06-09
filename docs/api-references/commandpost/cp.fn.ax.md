@@ -40,7 +40,10 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ### Functions
 
-| [areAligned](#areAligned)         |                                                                                     |
+
+### [areAligned](#areAligned)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.areAligned(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,7 +52,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is aligned with `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>Two elements are considered to be aligned if the interesection if their heights are at least 50% of the height of both elements.</li></ul>                |
 
-| [attribute](#attribute)         |                                                                                     |
+---
+
+### [attribute](#attribute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.attribute(name) -> function(uivalue) -> any | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,7 +65,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function which will return the `AX` value of the given `name` from the given `uivalue`.</li><li>This is safe to use as a [cp.prop:mutate](cp.prop.md#mutate) getter, since it will resolve the `original` value before getting the named attribute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [bottomToTop](#bottomToTop)         |                                                                                     |
+---
+
+### [bottomToTop](#bottomToTop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.bottomToTop(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -67,7 +78,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is below `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [bottomUp](#bottomUp)         |                                                                                     |
+---
+
+### [bottomUp](#bottomUp)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.bottomUp(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -76,7 +91,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is below or to the right of `b` in the UI, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [cache](#cache)         |                                                                                     |
+---
+
+### [cache](#cache)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.cache(source, key, finderFn, [verifyFn]) -> cachedValue`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -85,7 +104,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The valid cached value.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `verifyFn` is provided, it will be called to check that the cached</li><li>   value is still valid. It is passed a single parameter (the axuielement) and is expected</li><li>   to return `true` or `false`.</li><li>Example:</li><li>   ```lua</li><li>   ax.cache(self, "_ui", MyElement.matches)(</li><li>       fn.table.get(1) -- return the first child of the element.</li><li>   )</li><li>If the optional `verifyFn` is provided, it will be called to check that the cached value is still valid. It is passed a single parameter (the axuielement) and is expected to return `true` or `false`.</li></ul>                |
 
-| [childMatching](#childMatching)         |                                                                                     |
+---
+
+### [childMatching](#childMatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.childMatching(predicate[, index][, comparator]) -> function(uivalue) -> axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -94,7 +117,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that will return the first child of the given `uivalue` that matches the given `predicate`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [children](#children)         |                                                                                     |
+---
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.children(value) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -103,7 +130,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The children of the given `value` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li> If it is a `table` with a `AXChildren` field, the `AXChildren` field is returned.</li><li> If it is a `table` with a `UI` field, the `UI` field is called and the result is returned.</li><li> If it is a `table` with a `children` function, it is called and the result is returned.</li><li> If it is a `table` with a `children` field, the `children` field is returned.</li><li> Otherwise, if it's any `table`, that table is returned.</li></ul>                |
 
-| [childrenMatching](#childrenMatching)         |                                                                                     |
+---
+
+### [childrenMatching](#childrenMatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.childrenMatching(predicate[, comparator]) -> table of axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -112,7 +143,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A table of `axuielement`s that match the given `predicate`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childrenTopDown](#childrenTopDown)         |                                                                                     |
+---
+
+### [childrenTopDown](#childrenTopDown)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.childrenTopDown(value) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -121,7 +156,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The children of the given `value`, sorted [topDown](#topDown), or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [childWith](#childWith)         |                                                                                     |
+---
+
+### [childWith](#childWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.childWith(attribute, value) -> function(uivalue) -> axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -130,7 +169,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that will return the first child of the given `uivalue` that has the given `attribute` set to `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasAttributeValue](#hasAttributeValue)         |                                                                                     |
+---
+
+### [hasAttributeValue](#hasAttributeValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.hasAttributeValue(attribute, value) -> function(uivalue) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -139,7 +182,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that accepts an `axuielement` [uivalue](#uielement) which in turn returns `true` if the `uivalue` has the given `attribute` set to the `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasRole](#hasRole)         |                                                                                     |
+---
+
+### [hasRole](#hasRole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.hasRole(role) -> function(uivalue) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -148,7 +195,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that accepts an `axuielement` [uivalue](#uielement) which in turn returns `true` if the `uivalue` has the given `AXRole`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.init(elementType, ...) -> function(parent, uiFinder) -> cp.ui.Element`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -157,7 +208,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that will create a new `cp.ui.Element` of the given `elementType` with the given `parent` and `uiFinder`.</li></ul>          |
 | **Notes**                                   | <ul><li>Any additional arguments will be passed to the `elementType` constructor after the `parent` and `uiFinder`.</li><li>If any of the additional arguments are a `function`, they will be called with the `parent` and `uiFinder` as the first two arguments when being passed into the constructor.</li></ul>                |
 
-| [initElements](#initElements)         |                                                                                     |
+---
+
+### [initElements](#initElements)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.initElements(parent, elementsUiFinder, elementInits) -> table of cp.ui.Element`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -166,7 +221,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A table of `cp.ui.Element`s.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isUIElement](#isUIElement)         |                                                                                     |
+---
+
+### [isUIElement](#isUIElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.isUIElement(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -175,7 +234,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if the value is an `axuielement`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isValid](#isValid)         |                                                                                     |
+---
+
+### [isValid](#isValid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.isValid(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -184,7 +247,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if the element is valid.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [leftToRight](#leftToRight)         |                                                                                     |
+---
+
+### [leftToRight](#leftToRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.leftToRight(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -193,7 +260,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is left of `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matchesIf](#matchesIf)         |                                                                                     |
+---
+
+### [matchesIf](#matchesIf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.matchesIf(...) -> function(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -202,7 +273,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A `function` which will return `true` if the `value` is a match.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [narrowToWide](#narrowToWide)         |                                                                                     |
+---
+
+### [narrowToWide](#narrowToWide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.narrowToWide(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -211,7 +286,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is narrower than `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [performAction](#performAction)         |                                                                                     |
+---
+
+### [performAction](#performAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.performAction(action) -> function(uivalue) -> axuielement | false | nil, errString`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -220,7 +299,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that accepts an `axuielement` [uivalue](#uielement) which in turn returns the result of performing the action.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [prop](#prop)         |                                                                                     |
+---
+
+### [prop](#prop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.prop(uiFinder, attributeName[, settable]) -> cp.prop`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -229,7 +312,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The `cp.prop` for the attribute.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `uiFinder` is a `cp.prop`, it will be monitored for changes, making the resulting `prop` "live".</li></ul>                |
 
-| [rightToLeft](#rightToLeft)         |                                                                                     |
+---
+
+### [rightToLeft](#rightToLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.rightToLeft(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -238,7 +325,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is right of `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setAttribute](#setAttribute)         |                                                                                     |
+---
+
+### [setAttribute](#setAttribute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.setAttribute(name) -> function(newValue, uivalue) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -247,7 +338,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function which will set the `AX` value of the given `name` from the given `uivalue`.</li><li>The `newValue` will be passed to the `setAttributeValue` method of the `uivalue`.</li><li>The `uivalue` will attempt to be resolved via [uielement](#uielement).</li><li>This is safe to use as a [cp.prop:mutate](cp.prop.md#mutate) setter, since it will take the `newValue` and `uivalue` in the correct order and resolve the `uivalue`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shortToTall](#shortToTall)         |                                                                                     |
+---
+
+### [shortToTall](#shortToTall)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.shortToTall(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -256,7 +351,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is shorter than `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [topDown](#topDown)         |                                                                                     |
+---
+
+### [topDown](#topDown)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.topDown(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -265,7 +364,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is above or to the left of `b` in the UI, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>1. If both elements intersect vertically by more than 50% their heights, they are considered to be on the same line.</li><li>2. If not on the same line, the element whose bottom edge is highest is before the other.</li><li>3. If they are both still equal, the left-most element is before the other.</li><li>4. If they are both still equal, the shortest element is before the other.</li><li>5. If they are both still equal, the narrowest element is before the other.</li></ul>                |
 
-| [topToBottom](#topToBottom)         |                                                                                     |
+---
+
+### [topToBottom](#topToBottom)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.topToBottom(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -274,7 +377,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [topToBottomBaseAligned](#topToBottomBaseAligned)         |                                                                                     |
+---
+
+### [topToBottomBaseAligned](#topToBottomBaseAligned)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.topToBottomBaseAligned(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -283,7 +390,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>Two elements are considered to be aligned if the intersection of the height is at least 50% of the height of both elements.</li></ul>                |
 
-| [uielement](#uielement)         |                                                                                     |
+---
+
+### [uielement](#uielement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.uielement(uivalue) -> axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -292,7 +403,11 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The `axuielement` for the given `value` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li> If the `value` is an `axuielement`, it is returned.</li><li> If the `value` is a table with a callable `UI` field, the `UI` field is called and the result is returned.</li><li> If the `value` is callable, it is called and the result is returned.</li><li> Otherwise, `nil` is returned.</li></ul>                |
 
-| [uielementList](#uielementList)         |                                                                                     |
+---
+
+### [uielementList](#uielementList)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ax.uielementList(value) -> table of axuielement | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -301,3 +416,4 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The `axuielement` list for the given `value` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li> If the `value` is a `table` with a `UI` field, the `UI` field is called and the result is returned if it is a list.</li><li> If the `value` is callable (i.e. a `function`), it is called and the result is returned if it is a list.</li><li> If the `value` is a `table`, it is returned.</li><li> Otherwise, `nil` is returned.</li></ul>                |
 
+---

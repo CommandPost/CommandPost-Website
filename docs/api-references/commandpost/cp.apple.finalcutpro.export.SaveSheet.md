@@ -19,7 +19,10 @@ Save Sheet
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,7 +31,11 @@ Save Sheet
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [SaveSheet](#SaveSheet)         |                                                                                     |
+---
+
+### [SaveSheet](#SaveSheet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet(app) -> SaveSheet`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,41 +44,65 @@ Save Sheet
 | **Returns**                                 | <ul><li>A new SaveSheet object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.cancel <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Cancel" `Button`.                                                                     |
 
-| [filename](#filename)         |                                                                                     |
+---
+
+### [filename](#filename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.filename <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Save Sheet Filename Text Field.                                                                     |
 
-| [goToPrompt](#goToPrompt)         |                                                                                     |
+---
+
+### [goToPrompt](#goToPrompt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.goToPrompt <GoToPrompt>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Go To Prompt object.                                                                     |
 
-| [replaceAlert](#replaceAlert)         |                                                                                     |
+---
+
+### [replaceAlert](#replaceAlert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.replaceAlert <ReplaceAlert>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Replace Alert object.                                                                     |
 
-| [save](#save)         |                                                                                     |
+---
+
+### [save](#save)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.save <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Save" `Button`.                                                                     |
 
+---
 ### Methods
 
-| [setPath](#setPath)         |                                                                                     |
+
+### [setPath](#setPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet:setPath(path) -> cp.apple.finalcutpro.export.SaveSheet`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -80,3 +111,4 @@ Save Sheet
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.SaveSheet` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

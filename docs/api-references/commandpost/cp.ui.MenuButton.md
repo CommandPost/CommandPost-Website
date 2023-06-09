@@ -31,7 +31,10 @@ Menu Button Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,9 +43,13 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [MenuButton](#MenuButton)         |                                                                                     |
+
+### [MenuButton](#MenuButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton(parent, uiFinder) -> MenuButton`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -51,29 +58,45 @@ Menu Button Module.
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [menuUI](#menuUI)         |                                                                                     |
+
+### [menuUI](#menuUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton.menuUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AXMenu` for the MenuButton if it is currently visible.                                                                     |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the title for the MenuButton.                                                                     |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton.value <cp.prop: anything>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns or sets the current MenuButton value.                                                                     |
 
+---
 ### Methods
 
-| [doPress](#doPress)         |                                                                                     |
+
+### [doPress](#doPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:doPress() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +105,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectItem](#doSelectItem)         |                                                                                     |
+---
+
+### [doSelectItem](#doSelectItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:doSelectItem(index) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +118,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectItemMatching](#doSelectItemMatching)         |                                                                                     |
+---
+
+### [doSelectItemMatching](#doSelectItemMatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:doSelectItemMatching(pattern[, altPattern]) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,7 +131,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectValue](#doSelectValue)         |                                                                                     |
+---
+
+### [doSelectValue](#doSelectValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:doSelectValue(value) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -109,7 +144,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowMenu](#doShowMenu)         |                                                                                     |
+---
+
+### [doShowMenu](#doShowMenu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:doShowMenu() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -118,7 +157,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getTitle](#getTitle)         |                                                                                     |
+---
+
+### [getTitle](#getTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:getTitle() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -127,7 +170,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The `MenuButton` title as string, or `nil` if the title cannot be determined.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getValue](#getValue)         |                                                                                     |
+---
+
+### [getValue](#getValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:getValue() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -136,7 +183,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The `MenuButton` value as string, or `nil` if the value cannot be determined.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -145,7 +196,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [press](#press)         |                                                                                     |
+---
+
+### [press](#press)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:press() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -154,7 +209,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -163,7 +222,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>A table containing the current `MenuButton` Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectItem](#selectItem)         |                                                                                     |
+---
+
+### [selectItem](#selectItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:selectItem(index) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -172,7 +235,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>`true` if successfully selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectItemMatching](#selectItemMatching)         |                                                                                     |
+---
+
+### [selectItemMatching](#selectItemMatching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:selectItemMatching(pattern) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -181,7 +248,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>`true` if successfully selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setValue](#setValue)         |                                                                                     |
+---
+
+### [setValue](#setValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:setValue(value) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -190,7 +261,11 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.MenuButton:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -199,3 +274,4 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

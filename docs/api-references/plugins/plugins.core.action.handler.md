@@ -35,7 +35,10 @@ containing the details of the action to execute if the choice is selected.
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler.new(id, group, label) -> handler`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -44,23 +47,35 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>The new action handler instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [cached](#cached)         |                                                                                     |
+
+### [cached](#cached)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler.cached <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `true` (the default), any choices created will be cached until [reset] is called.                                                                     |
 
-| [choices](#choices)         |                                                                                     |
+---
+
+### [choices](#choices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler.choices <cp.prop: cp.choices; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides `cp.choices` instance for the handler. May be watched/monitored/etc.                                                                     |
 
+---
 ### Methods
 
-| [actionId](#actionId)         |                                                                                     |
+
+### [actionId](#actionId)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:actionId(action) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +84,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [execute](#execute)         |                                                                                     |
+---
+
+### [execute](#execute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:execute(action) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +97,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>`true` if the execution succeeded.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [group](#group)         |                                                                                     |
+---
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:group() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +110,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>Group as string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +123,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [label](#label)         |                                                                                     |
+---
+
+### [label](#label)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:label() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,7 +136,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onActionId](#onActionId)         |                                                                                     |
+---
+
+### [onActionId](#onActionId)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:onActionId(actionFn) -> handler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,7 +149,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onChoices](#onChoices)         |                                                                                     |
+---
+
+### [onChoices](#onChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:onChoices(choicesFn) -> handler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -123,7 +162,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onExecute](#onExecute)         |                                                                                     |
+---
+
+### [onExecute](#onExecute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:onExecute(executeFn) -> handler`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -132,7 +175,11 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.handler:reset([updateNow]) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -141,3 +188,4 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

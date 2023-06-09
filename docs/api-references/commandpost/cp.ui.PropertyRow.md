@@ -33,15 +33,22 @@ Represents a single property row, typically in a Property Inspector.
 
 ### Constants
 
-| [intersectBuffer](#intersectBuffer)         |                                                                                     |
+
+### [intersectBuffer](#intersectBuffer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.intersectBuffer`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Defines the buffer for intersections with the `labelUI`.                                                                     |
 
+---
 ### Functions
 
-| [isParent](#isParent)         |                                                                                     |
+
+### [isParent](#isParent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.isParent(parent) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +57,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>`true` if the parent is prepared.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,7 +70,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>`true` if the element could be a property row.</li></ul>          |
 | **Notes**                                   | <ul><li>This does not guarantee that it *is* a property row element, just that it could be.</li></ul>                |
 
-| [parentUIFinder](#parentUIFinder)         |                                                                                     |
+---
+
+### [parentUIFinder](#parentUIFinder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.parentUIFinder(parent) -> cp.prop`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -68,7 +83,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The `cp.prop` which provides access to the finder, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [prepareParent](#prepareParent)         |                                                                                     |
+---
+
+### [prepareParent](#prepareParent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.prepareParent(parent, uiFinder) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -77,9 +96,13 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [PropertyRow](#PropertyRow)         |                                                                                     |
+
+### [PropertyRow](#PropertyRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow(parent, labelKey[, index]) -> cp.ui.PropertyRow`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -88,41 +111,65 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The new `PropertyRow` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If you have more than one row with the same label, specify the `index` - specifying `2` will match with the second instance, for example.</li></ul>                |
 
+---
 ### Fields
 
-| [label](#label)         |                                                                                     |
+
+### [label](#label)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.label <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The label of the property row, in the current langauge.                                                                     |
 
-| [labelUI](#labelUI)         |                                                                                     |
+---
+
+### [labelUI](#labelUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.labelUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` for the label UI.                                                                     |
 
-| [propertiesUI](#propertiesUI)         |                                                                                     |
+---
+
+### [propertiesUI](#propertiesUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.propertiesUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` from the parent that contains the properties.                                                                     |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.reset <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `reset` button for the row, which may or may not actually exist.                                                                     |
 
-| [UI](#UI)         |                                                                                     |
+---
+
+### [UI](#UI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow.UI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` for the row.                                                                     |
 
+---
 ### Methods
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:app() -> App`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -131,7 +178,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [children](#children)         |                                                                                     |
+---
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:children() -> table | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -140,7 +191,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>A table of children or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -149,7 +204,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -158,7 +217,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [extend](#extend)         |                                                                                     |
+---
+
+### [extend](#extend)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:extend(extendFn) -> cp.ui.PropertyRow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -167,7 +230,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The same `PropertyRow` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:hide() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -176,7 +243,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [labelKeys](#labelKeys)         |                                                                                     |
+---
+
+### [labelKeys](#labelKeys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:labelKeys() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -185,7 +256,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:parent() -> parent`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -194,7 +269,11 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>parent</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PropertyRow:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -203,3 +282,4 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

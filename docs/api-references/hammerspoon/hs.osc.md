@@ -35,7 +35,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Constructors
 
-| [newClient](#newClient)         |                                                                                     |
+
+### [newClient](#newClient)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc.newClient(host, port) -> oscObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -44,7 +47,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>An `hs.osc` object or `nil` if an error occured.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [newServer](#newServer)         |                                                                                     |
+---
+
+### [newServer](#newServer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc.newServer(listeningPort) -> oscObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -53,9 +60,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>An `hs.osc` object or `nil` if an error occured.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [callback](#callback)         |                                                                                     |
+
+### [callback](#callback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:callback(callbackFn) -> oscObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +75,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.osc` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 3 arguments and should not return anything:</li><li>  `oscObject` - The OSC object that triggered the callback.</li><li>  `addressParts` - A table of address parts.</li><li>  `arguments` - A table of arguments.</li></ul>                |
 
-| [host](#host)         |                                                                                     |
+---
+
+### [host](#host)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:host() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +88,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The host as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isActive](#isActive)         |                                                                                     |
+---
+
+### [isActive](#isActive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:isActive() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +101,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [listeningPort](#listeningPort)         |                                                                                     |
+---
+
+### [listeningPort](#listeningPort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:listeningPort() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +114,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The port as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [port](#port)         |                                                                                     |
+---
+
+### [port](#port)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:port() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,7 +127,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The port as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [send](#send)         |                                                                                     |
+---
+
+### [send](#send)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:send(address, arguments) -> oscObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -109,7 +140,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:start() -> oscObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -118,7 +153,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.osc:stop() -> oscObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -127,3 +166,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

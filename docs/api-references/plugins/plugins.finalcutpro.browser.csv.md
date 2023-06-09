@@ -10,7 +10,10 @@ Save Browser to CSV
 
 ### Functions
 
-| [saveBrowserContentsToCSV](#saveBrowserContentsToCSV)         |                                                                                     |
+
+### [saveBrowserContentsToCSV](#saveBrowserContentsToCSV)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.csv.saveBrowserContentsToCSV() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Save Browser to CSV
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

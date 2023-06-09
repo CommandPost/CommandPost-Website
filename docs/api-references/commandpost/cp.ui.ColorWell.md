@@ -12,7 +12,10 @@ UI ColorWell.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ColorWell.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,9 +24,13 @@ UI ColorWell.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ColorWell](#ColorWell)         |                                                                                     |
+
+### [ColorWell](#ColorWell)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ColorWell(parent, uiFinder) -> Image`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -32,3 +39,4 @@ UI ColorWell.
 | **Returns**                                 | <ul><li>A new `ColorWell` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

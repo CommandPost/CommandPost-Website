@@ -35,7 +35,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.matches(element) ->  boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +47,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [with](#with)         |                                                                                     |
+---
+
+### [with](#with)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell:with(...) -> function(parent, uiFinder) -> cp.ui.Cell.Builder`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,9 +60,13 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A [Cell.Builder](cp.ui.Cell.Builder.md)</li></ul>          |
 | **Notes**                                   | <ul><li>For example, if a cell contains a [Button](cp.ui.Button.md), you can use `cp.ui.Cell:with(Button)`, and it will return a `Cell`</li><li>   `Builder` that accepts the `parent` and `uiFinder` parameters, and whose contents is expected to be a `Button`.</li><li>   That `Button` instance can be accessed via the `children[1]` value.</li><li>   ```</li></ul>                |
 
+---
 ### Constructors
 
-| [Cell](#Cell)         |                                                                                     |
+
+### [Cell](#Cell)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell(parent, uiFinder[, childInits]) -> Cell`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -64,47 +75,75 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A new `Cell` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [children](#children)         |                                                                                     |
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.children <table of cp.ui.Element; live?; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Element`s which are children of this `Cell`, if the `childInits` were provided to the constructor.                                                                     |
 
-| [childrenUI](#childrenUI)         |                                                                                     |
+---
+
+### [childrenUI](#childrenUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.childrenUI <cp.prop: table of axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `axuielement`s which are children of this `Cell`.                                                                     |
 
-| [columnIndexRange](#columnIndexRange)         |                                                                                     |
+---
+
+### [columnIndexRange](#columnIndexRange)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.columnIndexRange <cp.prop: table; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a table of `{len,loc}`, which indicates if the cell covers multiple columns.                                                                     |
 
-| [rowIndexRange](#rowIndexRange)         |                                                                                     |
+---
+
+### [rowIndexRange](#rowIndexRange)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.rowIndexRange <cp.prop: table; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a table of `{len,loc}`, which indicates if the cell covers multiple rows.                                                                     |
 
-| [selected](#selected)         |                                                                                     |
+---
+
+### [selected](#selected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.selected <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the cell is currently selected.                                                                     |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.value <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The cell value, if it is a string.                                                                     |
 
+---
 ### Methods
 
-| [textValueIs](#textValueIs)         |                                                                                     |
+
+### [textValueIs](#textValueIs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Cell.textValueIs(value) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,3 +152,4 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if the cell text value equals the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

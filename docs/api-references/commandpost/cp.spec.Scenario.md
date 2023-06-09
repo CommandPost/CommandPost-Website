@@ -79,7 +79,10 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 
 ### Constructors
 
-| [Scenario](#Scenario)         |                                                                                     |
+
+### [Scenario](#Scenario)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Scenario(name[, testFn]) -> cp.spec.Scenario`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -88,9 +91,13 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>The new `Scenario`.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `testFn` is not provided here, it must be done via the [doing](#doing) method prior to running,</li><li>  an `error` will occur.</li></ul>                |
 
+---
 ### Methods
 
-| [doing](#doing)         |                                                                                     |
+
+### [doing](#doing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Scenario:doing(actionFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -99,7 +106,11 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>The same `Definition`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [run](#run)         |                                                                                     |
+---
+
+### [run](#run)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Scenario:run(...) -> cp.spec.Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -108,7 +119,11 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>cp.spec.Run object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [where](#where)         |                                                                                     |
+---
+
+### [where](#where)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Scenario:where(data) -> cp.spec.Where`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -117,3 +132,4 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>The [Where](cp.spec.Where.md).</li></ul>          |
 | **Notes**                                   | <ul><li>The first row should be all strings, which will be the name of the parameter. Subsequent rows are the values for those rows.</li></ul>                |
 
+---

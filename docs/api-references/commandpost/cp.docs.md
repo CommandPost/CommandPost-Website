@@ -19,7 +19,10 @@ require("cp.docs").generate()
 
 ### Functions
 
-| [generate](#generate)         |                                                                                     |
+
+### [generate](#generate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.docs.generate() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,7 +31,11 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generateExtensionLinks](#generateExtensionLinks)         |                                                                                     |
+---
+
+### [generateExtensionLinks](#generateExtensionLinks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.docs.generateExtensionLinks(folder) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,7 +44,11 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>The result as a string, otherwise `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateDeveloperGuideSummary](#updateDeveloperGuideSummary)         |                                                                                     |
+---
+
+### [updateDeveloperGuideSummary](#updateDeveloperGuideSummary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.docs.updateDeveloperGuideSummary() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -46,3 +57,4 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>`true` if successful otherwise `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

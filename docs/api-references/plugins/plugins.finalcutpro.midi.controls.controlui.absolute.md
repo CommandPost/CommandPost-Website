@@ -11,7 +11,10 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 
 ### Functions
 
-| [control](#control)         |                                                                                     |
+
+### [control](#control)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.midi.controls.controlui.absolute.control() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.midi.controls.controlui.absolute.init() -> module`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Returns**                                 | <ul><li>The module</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -14,7 +14,10 @@ The `TopProperties` class is used to represent the top properties group of the A
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.TopProperties.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,9 +26,13 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [TopProperties](#TopProperties)         |                                                                                     |
+
+### [TopProperties](#TopProperties)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.TopProperties(parent, uiFinder) -> TopProperties`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,11 +41,16 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contentUI](#contentUI)         |                                                                                     |
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.TopProperties.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the TopProperties group.                                                                     |
 
+---

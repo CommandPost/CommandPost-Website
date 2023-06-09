@@ -13,7 +13,10 @@ Libraries Sidebar Browser Module.
 
 ### Constructors
 
-| [LibrariesSidebar](#LibrariesSidebar)         |                                                                                     |
+
+### [LibrariesSidebar](#LibrariesSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesSidebar(parent) -> LibrariesSidebar`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -22,9 +25,13 @@ Libraries Sidebar Browser Module.
 | **Returns**                                 | <ul><li>A new `LibrariesSidebar` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [selectActiveLibrary](#selectActiveLibrary)         |                                                                                     |
+
+### [selectActiveLibrary](#selectActiveLibrary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesSidebar:selectActiveLibrary() -> LibrariesSidebar`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -33,7 +40,11 @@ Libraries Sidebar Browser Module.
 | **Returns**                                 | <ul><li>The `LibrariesSidebar` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesSidebar:show() -> LibrariesSidebar`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,3 +53,4 @@ Libraries Sidebar Browser Module.
 | **Returns**                                 | <ul><li>The `LibrariesSidebar` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

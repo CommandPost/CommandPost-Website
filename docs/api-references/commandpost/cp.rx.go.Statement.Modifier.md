@@ -19,7 +19,10 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Modifier.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,9 +31,13 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [context](#context)         |                                                                                     |
+
+### [context](#context)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Modifier:context() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,7 +46,11 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Returns**                                 | <ul><li>The `context` table.</li></ul>          |
 | **Notes**                                   | <ul><li>The `context` is shared between the `Statement` and all `Statement.Modifiers` when being executed.</li></ul>                |
 
-| [toObservable](#toObservable)         |                                                                                     |
+---
+
+### [toObservable](#toObservable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Statement.Modifier:toObservable() -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,3 +59,4 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Returns**                                 | <ul><li>The new `Observable` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

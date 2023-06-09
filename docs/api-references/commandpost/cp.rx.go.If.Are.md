@@ -10,7 +10,10 @@ A [Statement.Modifier] of [If](cp.rx.go.If.md) that sets the values to match.
 
 ### Methods
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.If.Are:Then(...) -> If.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -19,3 +22,4 @@ A [Statement.Modifier] of [If](cp.rx.go.If.md) that sets the values to match.
 | **Returns**                                 | <ul><li>An [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

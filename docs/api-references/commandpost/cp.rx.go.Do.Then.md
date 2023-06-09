@@ -28,7 +28,10 @@ end)
 
 ### Methods
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Do.Then:Then(...) -> Do.Then`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -37,3 +40,4 @@ end)
 | **Returns**                                 | <ul><li>Another [Do.Then](cp.rx.go.Do.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

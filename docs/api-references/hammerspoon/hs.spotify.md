@@ -36,27 +36,42 @@ Controls for Spotify music player
 
 ### Constants
 
-| [state_paused](#state_paused)         |                                                                                     |
+
+### [state_paused](#state_paused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.state_paused`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is paused                                                                     |
 
-| [state_playing](#state_playing)         |                                                                                     |
+---
+
+### [state_playing](#state_playing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.state_playing`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is playing                                                                     |
 
-| [state_stopped](#state_stopped)         |                                                                                     |
+---
+
+### [state_stopped](#state_stopped)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.state_stopped`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is stopped                                                                     |
 
+---
 ### Functions
 
-| [displayCurrentTrack](#displayCurrentTrack)         |                                                                                     |
+
+### [displayCurrentTrack](#displayCurrentTrack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.displayCurrentTrack()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +80,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ff](#ff)         |                                                                                     |
+---
+
+### [ff](#ff)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.ff()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +93,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentAlbum](#getCurrentAlbum)         |                                                                                     |
+---
+
+### [getCurrentAlbum](#getCurrentAlbum)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getCurrentAlbum()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +106,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentArtist](#getCurrentArtist)         |                                                                                     |
+---
+
+### [getCurrentArtist](#getCurrentArtist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getCurrentArtist()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +119,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentTrack](#getCurrentTrack)         |                                                                                     |
+---
+
+### [getCurrentTrack](#getCurrentTrack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getCurrentTrack()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +132,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentTrackId](#getCurrentTrackId)         |                                                                                     |
+---
+
+### [getCurrentTrackId](#getCurrentTrackId)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getCurrentTrackId()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,7 +145,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the id of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDuration](#getDuration)         |                                                                                     |
+---
+
+### [getDuration](#getDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getDuration()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -119,7 +158,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>The number of seconds long the current song is, 0 if no song is playing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPlaybackState](#getPlaybackState)         |                                                                                     |
+---
+
+### [getPlaybackState](#getPlaybackState)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getPlaybackState()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -128,7 +171,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.spotify.state_stopped`</li><li>   - `hs.spotify.state_paused`</li><li>   - `hs.spotify.state_playing`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPosition](#getPosition)         |                                                                                     |
+---
+
+### [getPosition](#getPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getPosition()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -137,7 +184,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getVolume](#getVolume)         |                                                                                     |
+---
+
+### [getVolume](#getVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.getVolume()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -146,7 +197,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A number containing the volume Spotify is set to between 1 and 100</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isPlaying](#isPlaying)         |                                                                                     |
+---
+
+### [isPlaying](#isPlaying)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.isPlaying()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -155,7 +210,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether Spotify is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isRunning](#isRunning)         |                                                                                     |
+---
+
+### [isRunning](#isRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.isRunning()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -164,7 +223,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether the Spotify application is running.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [next](#next)         |                                                                                     |
+---
+
+### [next](#next)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.next()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -173,7 +236,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pause](#pause)         |                                                                                     |
+---
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.pause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -182,7 +249,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [play](#play)         |                                                                                     |
+---
+
+### [play](#play)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.play()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -191,7 +262,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playpause](#playpause)         |                                                                                     |
+---
+
+### [playpause](#playpause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.playpause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -200,7 +275,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playTrack](#playTrack)         |                                                                                     |
+---
+
+### [playTrack](#playTrack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.playTrack(id)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -209,7 +288,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [previous](#previous)         |                                                                                     |
+---
+
+### [previous](#previous)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.previous()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -218,7 +301,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rw](#rw)         |                                                                                     |
+---
+
+### [rw](#rw)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.rw()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -227,7 +314,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setPosition](#setPosition)         |                                                                                     |
+---
+
+### [setPosition](#setPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.setPosition(pos)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -236,7 +327,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setVolume](#setVolume)         |                                                                                     |
+---
+
+### [setVolume](#setVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.setVolume(vol)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -245,7 +340,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeDown](#volumeDown)         |                                                                                     |
+---
+
+### [volumeDown](#volumeDown)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.volumeDown()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -254,7 +353,11 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeUp](#volumeUp)         |                                                                                     |
+---
+
+### [volumeUp](#volumeUp)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotify.volumeUp()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -263,3 +366,4 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

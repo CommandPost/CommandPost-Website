@@ -30,7 +30,10 @@ You can also convert the resulting table back to the code via `tostring`, or the
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -39,7 +42,11 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `languageID`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parse](#parse)         |                                                                                     |
+---
+
+### [parse](#parse)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.parse(code) -> string, string, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,9 +55,13 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Returns**                                 | <ul><li>language - The two-character lower-case alpha language code.</li><li>script - the four-character mixed-case alpha script code.</li><li>region - The two-character upper-case alpha region code.</li></ul>          |
 | **Notes**                                   | <ul><li>Parses a `language ID` into three possible string components:</li><li>  ** The ISO 693-1 language code</li><li>  ** The ISO 15924 script code</li><li>  ** The ISO 3166-1 region code</li><li>This is one of the following patterns:</li><li>  ** `[language]` - eg. `"en"`, or `"fr"`. The covers the language across all languages and scripts.</li><li>  ** `[language]-[script]` - eg. "az-Arab" for Azerbaijani in Arabic script, "az-Latn" for Azerbaijani in Latin script.</li><li>  ** `[language]-[region]` - eg. "en-AU" for Australian English, "fr-CA" for Canadian French, etc.</li><li>It will then return the matched component in three return values: language, script, region.</li><li>If a script is specified, the `region` will be `nil`. Eg.:</li><li></li><li>```lua</li><li>local lang, scrpt, rgn, scrpt = languageID.parse("en-AU") -- results in "en", nil, "AU"</li><li>```</li></ul>                |
 
+---
 ### Constructors
 
-| [forCode](#forCode)         |                                                                                     |
+
+### [forCode](#forCode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.forCode(code) -> cp.i18n.languageID, string`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -59,7 +70,11 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Returns**                                 | <ul><li>The matching `languageID`, or `nil` if the language ID couldn't be found.</li><li>The error message, or `nil` if there was no problem.</li></ul>          |
 | **Notes**                                   | <ul><li>If the code can't be parsed, or if the actual language/region/script codes don't exist, `nil` is returned.</li></ul>                |
 
-| [forLocaleID](#forLocaleID)         |                                                                                     |
+---
+
+### [forLocaleID](#forLocaleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.forLocaleID(code[, prioritiseScript]) -> cp.i18n.languageID, string`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -68,7 +83,11 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Returns**                                 | <ul><li>The `languageID` for the `locale`, or `nil`</li><li>The error message if there was a problem.</li></ul>          |
 | **Notes**                                   | <ul><li>Language IDs can only have either a script or a region, so if the locale has both, this will priortise the `region` by default. You can set `prioritiseScript` to `true` to use script instead.</li><li>If only one or the other is set in the locale, `prioritiseScript` is ignored.</li></ul>                |
 
-| [forParts](#forParts)         |                                                                                     |
+---
+
+### [forParts](#forParts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.forParts(languageCode[, scriptCode[, regionCode]]) -> cp.i18n.languageID`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -77,35 +96,55 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Returns**                                 | <ul><li>A `cp.i18n.languageID` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [code](#code)         |                                                                                     |
+
+### [code](#code)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.code <string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The language ID code.                                                                     |
 
-| [language](#language)         |                                                                                     |
+---
+
+### [language](#language)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.language <cp.i18n.language>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The matching `language` details.                                                                     |
 
-| [region](#region)         |                                                                                     |
+---
+
+### [region](#region)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.region <cp.i18n.region>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The matching `region` details, if appropriate. Will be `nil` if no region was specified in the `code`.                                                                     |
 
-| [script](#script)         |                                                                                     |
+---
+
+### [script](#script)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID.script <cp.i18n.script>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The matching `script` details, if appropriate. Will be `nil` if no script was specified in the `code`.                                                                     |
 
+---
 ### Methods
 
-| [toLocaleID](#toLocaleID)         |                                                                                     |
+
+### [toLocaleID](#toLocaleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.i18n.languageID:toLocaleID() -> cp.i18n.localeID`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,3 +153,4 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Returns**                                 | <ul><li>The matching `localeID`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

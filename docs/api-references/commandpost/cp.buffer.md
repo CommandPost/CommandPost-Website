@@ -38,7 +38,10 @@ buff:bytes()     -- "lo world!"
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer.is(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -47,9 +50,13 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>`true` if the value is an instance of `buffer`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [clone](#clone)         |                                                                                     |
+
+### [clone](#clone)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer.clone(otherBuffer) -> buffer`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -58,7 +65,11 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>the clone of the original `buffer`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromHex](#fromHex)         |                                                                                     |
+---
+
+### [fromHex](#fromHex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer.fromHex(hexString[, spacer]) -> cp.buffer`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -67,7 +78,11 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>The new `buffer`.</li></ul>          |
 | **Notes**                                   | <ul><li>Examples:</li><li> `buffer.fromHex("ABCDE")`</li><li> `buffer.fromHex("12-34-56", "-")`</li></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer.new(...) -> buffer`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -76,9 +91,13 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>The new `buffer`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [drop](#drop)         |                                                                                     |
+
+### [drop](#drop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer:drop(len) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +106,11 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if there are not enough bytes available for the requested `len`.</li></ul>          |
 | **Notes**                                   | <ul><li>Equivalent to, but more efficient than `pop` if you don't need the bytes being dropped.</li></ul>                |
 
-| [len](#len)         |                                                                                     |
+---
+
+### [len](#len)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer:len() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +119,11 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>The number of bytes in the buffer.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [peek](#peek)         |                                                                                     |
+---
+
+### [peek](#peek)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer:peek(len) -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,7 +132,11 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>The `string` of bytes or `nil` if there are not enough bytes available for the requested `len`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pop](#pop)         |                                                                                     |
+---
+
+### [pop](#pop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer:pop(len) -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,7 +145,11 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>The `string` of bytes or `nil` if there are not enough bytes available for the requested `len`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [push](#push)         |                                                                                     |
+---
+
+### [push](#push)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.buffer:push(...) -> buffer`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -123,3 +158,4 @@ buff:bytes()     -- "lo world!"
 | **Returns**                                 | <ul><li>The same `buffer` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>Throws an error if more than `cp.buffer.maxChunks` are currently in the buffer when a new value is pushed.</li></ul>                |
 
+---

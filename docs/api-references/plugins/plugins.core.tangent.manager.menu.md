@@ -25,7 +25,10 @@ list of options.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,9 +37,13 @@ list of options.
 | **Returns**                                 | <ul><li>`true` if it is a `menu`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [menu](#menu)         |                                                                                     |
+
+### [menu](#menu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu(id[, name[, parent]]) -> menu`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,9 +52,13 @@ list of options.
 | **Returns**                                 | <ul><li>the new `menu`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [get](#get)         |                                                                                     |
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:get() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -56,7 +67,11 @@ list of options.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [next](#next)         |                                                                                     |
+---
+
+### [next](#next)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:next() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,7 +80,11 @@ list of options.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onGet](#onGet)         |                                                                                     |
+---
+
+### [onGet](#onGet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:onGet(getFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +93,11 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>--- This function should have this signature:</li><li></li><li>`function() -> string`</li></ul>                |
 
-| [onNext](#onNext)         |                                                                                     |
+---
+
+### [onNext](#onNext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:onNext(nextFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,7 +106,11 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the end of the list of options a subsequent `next` call will cycle back to the beginning of the options. This is particularly useful for menus with two options.</li></ul>                |
 
-| [onPrev](#onPrev)         |                                                                                     |
+---
+
+### [onPrev](#onPrev)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:onPrev(prevFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -92,7 +119,11 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the start of the list of options a subsequent `prev` call will cycle to the end of the options. This is particularly useful for menus with two options.</li></ul>                |
 
-| [onReset](#onReset)         |                                                                                     |
+---
+
+### [onReset](#onReset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:onReset(resetFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -101,7 +132,11 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul>                |
 
-| [prev](#prev)         |                                                                                     |
+---
+
+### [prev](#prev)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:prev() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,7 +145,11 @@ list of options.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:reset() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -119,7 +158,11 @@ list of options.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:update() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -128,7 +171,11 @@ list of options.
 | **Returns**                                 | <ul><li>`true` if the update was sent.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.menu:xml() -> cp.web.xml`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -137,3 +184,4 @@ list of options.
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

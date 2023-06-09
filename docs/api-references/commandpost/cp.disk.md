@@ -36,7 +36,10 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 
 ### Functions
 
-| [eject](#eject)         |                                                                                     |
+
+### [eject](#eject)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.disk.eject(options) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -45,7 +48,11 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [mount](#mount)         |                                                                                     |
+---
+
+### [mount](#mount)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.disk.mount(options) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -54,7 +61,11 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unmount](#unmount)         |                                                                                     |
+---
+
+### [unmount](#unmount)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.disk.unmount(options) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -63,7 +74,11 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [visit](#visit)         |                                                                                     |
+---
+
+### [visit](#visit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.disk.visit(options, fn) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -72,3 +87,4 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

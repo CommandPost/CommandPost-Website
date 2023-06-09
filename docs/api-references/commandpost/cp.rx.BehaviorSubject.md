@@ -14,7 +14,10 @@ recent pushed value, and all subscribers immediately receive the latest value.
 
 ### Methods
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.BehaviorSubject.create(...) -> cp.rx.BehaviorSubject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -23,7 +26,11 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>The new `BehaviorSubject`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getValue](#getValue)         |                                                                                     |
+---
+
+### [getValue](#getValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.BehaviorSubject:getValue() -> anything`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -32,7 +39,11 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>The last value.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also call the `BehaviorSubject` as a function to retrieve the value. E.g. `mySubject()`.</li></ul>                |
 
-| [onNext](#onNext)         |                                                                                     |
+---
+
+### [onNext](#onNext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.BehaviorSubject:onNext(...) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -41,7 +52,11 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subscribe](#subscribe)         |                                                                                     |
+---
+
+### [subscribe](#subscribe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.BehaviorSubject:subscribe(observer, onError, onCompleted) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -50,3 +65,4 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

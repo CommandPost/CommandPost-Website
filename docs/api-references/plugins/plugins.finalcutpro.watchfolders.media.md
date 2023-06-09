@@ -26,35 +26,54 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ### Constants
 
-| [SECONDS_UNTIL_DELETE](#SECONDS_UNTIL_DELETE)         |                                                                                     |
+
+### [SECONDS_UNTIL_DELETE](#SECONDS_UNTIL_DELETE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.SECONDS_UNTIL_DELETE -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Seconds until a file is deleted.                                                                     |
 
+---
 ### Variables
 
-| [automaticallyImport](#automaticallyImport)         |                                                                                     |
+
+### [automaticallyImport](#automaticallyImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.automaticallyImport <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not new generated voice file are automatically added to the timeline or not.                                                                     |
 
-| [deleteAfterImport](#deleteAfterImport)         |                                                                                     |
+---
+
+### [deleteAfterImport](#deleteAfterImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.deleteAfterImport <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not you want to delete file after they've been imported.                                                                     |
 
-| [insertIntoTimeline](#insertIntoTimeline)         |                                                                                     |
+---
+
+### [insertIntoTimeline](#insertIntoTimeline)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.insertIntoTimeline <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not the files are automatically added to the timeline or not.                                                                     |
 
+---
 ### Functions
 
-| [addMediaFolder](#addMediaFolder)         |                                                                                     |
+
+### [addMediaFolder](#addMediaFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.addMediaFolder(path, videoTag, audioTag, imageTag) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -63,7 +82,11 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasMediaFolder](#hasMediaFolder)         |                                                                                     |
+---
+
+### [hasMediaFolder](#hasMediaFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.hasMediaFolder(path) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -72,7 +95,11 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.init(deps, env) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -81,7 +108,11 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>Table of the module.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadMediaFolders](#loadMediaFolders)         |                                                                                     |
+---
+
+### [loadMediaFolders](#loadMediaFolders)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.loadMediaFolders() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -90,7 +121,11 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [mediaFolders](#mediaFolders)         |                                                                                     |
+---
+
+### [mediaFolders](#mediaFolders)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.mediaFolders() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -99,7 +134,11 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>A table of all the media folders.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [removeMediaFolder](#removeMediaFolder)         |                                                                                     |
+---
+
+### [removeMediaFolder](#removeMediaFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.removeMediaFolder(path) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -108,7 +147,11 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveMediaFolders](#saveMediaFolders)         |                                                                                     |
+---
+
+### [saveMediaFolders](#saveMediaFolders)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.saveMediaFolders()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -117,3 +160,4 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

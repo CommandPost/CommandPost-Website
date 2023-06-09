@@ -12,15 +12,22 @@ Shortcut for changing Final Cut Pro's Browser Height
 
 ### Variables
 
-| [changeBrowserDurationAlreadyInProgress](#changeBrowserDurationAlreadyInProgress)         |                                                                                     |
+
+### [changeBrowserDurationAlreadyInProgress](#changeBrowserDurationAlreadyInProgress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.duration.changeBrowserDurationAlreadyInProgress -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Change timeline clip height already in progress.                                                                     |
 
+---
 ### Functions
 
-| [changeBrowserDuration](#changeBrowserDuration)         |                                                                                     |
+
+### [changeBrowserDuration](#changeBrowserDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.duration.changeBrowserDuration(direction) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Shortcut for changing Final Cut Pro's Browser Height
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

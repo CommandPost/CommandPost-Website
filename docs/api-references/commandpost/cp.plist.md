@@ -26,7 +26,10 @@ Reads & Writes plist data.
 
 ### Functions
 
-| [base64ToTable](#base64ToTable)         |                                                                                     |
+
+### [base64ToTable](#base64ToTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.base64ToTable(base64Data) -> table | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +38,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>A table of the plist data</li><li>A error message as string if an error occurs</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [binaryFileToTable](#binaryFileToTable)         |                                                                                     |
+---
+
+### [binaryFileToTable](#binaryFileToTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.binaryFileToTable(plistFileName) -> table | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +51,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [binaryFileToXML](#binaryFileToXML)         |                                                                                     |
+---
+
+### [binaryFileToXML](#binaryFileToXML)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.binaryFileToXML(plistFileName) -> string | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,7 +64,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A string of XML data</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [binaryToTable](#binaryToTable)         |                                                                                     |
+---
+
+### [binaryToTable](#binaryToTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.binaryToTable(binaryData) -> table | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -62,7 +77,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A string of XML data</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fileToTable](#fileToTable)         |                                                                                     |
+---
+
+### [fileToTable](#fileToTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.fileToTable(plistFileName) -> table | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -71,7 +90,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul><li>It will check the file prior to loading to determine which type it is.</li><li>If you know which type of file you're dealing with in advance, you can use cp.plist.xmlFileToTable() or hs.plist.binaryFileToTable() instead.</li></ul>                |
 
-| [isBinaryPlist](#isBinaryPlist)         |                                                                                     |
+---
+
+### [isBinaryPlist](#isBinaryPlist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.isBinaryPlist(data) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -80,7 +103,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if it is a binary plist, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isBinaryPlistFile](#isBinaryPlistFile)         |                                                                                     |
+---
+
+### [isBinaryPlistFile](#isBinaryPlistFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.isBinaryPlistFile(plistList) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -89,7 +116,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isPlist](#isPlist)         |                                                                                     |
+---
+
+### [isPlist](#isPlist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.isPlist(data) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -98,7 +129,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if the data is a plist, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isPlistFile](#isPlistFile)         |                                                                                     |
+---
+
+### [isPlistFile](#isPlistFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.isPlistFile(plistFileName) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -107,7 +142,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if it is a binary or XML plist file, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isXMLPlist](#isXMLPlist)         |                                                                                     |
+---
+
+### [isXMLPlist](#isXMLPlist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.isXMLPlist(data) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -116,7 +155,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if it is an XML plist, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>This will only check if it is an XML file, it does not check the actual format is correct.</li></ul>                |
 
-| [isXMLPlistFile](#isXMLPlistFile)         |                                                                                     |
+---
+
+### [isXMLPlistFile](#isXMLPlistFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.isXMLPlistFile(plistList) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -125,7 +168,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xmlFileToTable](#xmlFileToTable)         |                                                                                     |
+---
+
+### [xmlFileToTable](#xmlFileToTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.xmlFileToTable(plistFileName) -> table | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -134,7 +181,11 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xmlToTable](#xmlToTable)         |                                                                                     |
+---
+
+### [xmlToTable](#xmlToTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plist.xmlToTable(plistXml) -> table | nil, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -143,3 +194,4 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

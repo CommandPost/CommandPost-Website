@@ -15,7 +15,10 @@ Provides support for NIB files.
 
 ### Methods
 
-| [fromBytes](#fromBytes)         |                                                                                     |
+
+### [fromBytes](#fromBytes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.nib.fromBytes(data) -> table | nil, string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -24,3 +27,4 @@ Provides support for NIB files.
 | **Returns**                                 | <ul><li>The `table` containing the unarchived data, or `nil` if the `archive` is not a valid `NIBArchive`.</li><li>The `string` error message, if any.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

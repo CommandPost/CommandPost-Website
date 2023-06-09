@@ -11,7 +11,10 @@ Final Cut Pro Browser Duration Control Widget for Touch Bar.
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.touchbar.widgets.duration.init() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Final Cut Pro Browser Duration Control Widget for Touch Bar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [widget](#widget)         |                                                                                     |
+---
+
+### [widget](#widget)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.touchbar.widgets.duration.widget() -> `hs._asm.undocumented.touchbar.item``                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Final Cut Pro Browser Duration Control Widget for Touch Bar.
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -10,9 +10,13 @@ Disable Waveforms Plugin.
 
 ### Variables
 
-| [disableWaveform](#disableWaveform)         |                                                                                     |
+
+### [disableWaveform](#disableWaveform)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.advanced.disablewaveforms.disableWaveform <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Waveforms Disabled?                                                                     |
 
+---

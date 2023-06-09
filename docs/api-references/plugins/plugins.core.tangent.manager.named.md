@@ -25,7 +25,10 @@ as described below.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +37,11 @@ as described below.
 | **Returns**                                 | <ul><li>`true` if it is `named.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named.xml(thing) -> cp.web.xml`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,9 +50,13 @@ as described below.
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [named](#named)         |                                                                                     |
+
+### [named](#named)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named(id, name, parent) -> named`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -54,23 +65,35 @@ as described below.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [active](#active)         |                                                                                     |
+
+### [active](#active)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named.active <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is active. It will only be active if                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is enabled.                                                                     |
 
+---
 ### Methods
 
-| [controls](#controls)         |                                                                                     |
+
+### [controls](#controls)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named:controls()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,7 +102,11 @@ as described below.
 | **Returns**                                 | <ul><li>The `controls`, or `nil` if not specified.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named:name(value) -> string | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -88,7 +115,11 @@ as described below.
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [nameX](#nameX)         |                                                                                     |
+---
+
+### [nameX](#nameX)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named:nameX(value) -> string | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +128,11 @@ as described below.
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named:parent() -> group | controls`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +141,11 @@ as described below.
 | **Returns**                                 | <ul><li>The parent.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tangent](#tangent)         |                                                                                     |
+---
+
+### [tangent](#tangent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.named:tangent() -> hs.tangent`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,3 +154,4 @@ as described below.
 | **Returns**                                 | <ul><li>The `hs.tangent`, if available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -19,21 +19,32 @@ Motion and Compressor.
 
 ### Constants
 
-| [padKeys](#padKeys)         |                                                                                     |
+
+### [padKeys](#padKeys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.padKeys -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | List of number keys on the number pad. Also mapped with the key name set to `true` for lookup purposes.                                                                     |
 
-| [supportedModifiers](#supportedModifiers)         |                                                                                     |
+---
+
+### [supportedModifiers](#supportedModifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.supportedModifiers -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The list of supported modifiers                                                                     |
 
+---
 ### Functions
 
-| [characterStringToKeyCode](#characterStringToKeyCode)         |                                                                                     |
+
+### [characterStringToKeyCode](#characterStringToKeyCode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.characterStringToKeyCode() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -42,7 +53,11 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>Keycode as String or ""</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [keypadCharacterToKeyCode](#keypadCharacterToKeyCode)         |                                                                                     |
+---
+
+### [keypadCharacterToKeyCode](#keypadCharacterToKeyCode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.keypadCharacterToKeyCode() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -51,7 +66,11 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>string or nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [modifierMaskToModifiers](#modifierMaskToModifiers)         |                                                                                     |
+---
+
+### [modifierMaskToModifiers](#modifierMaskToModifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.modifierMaskToModifiers() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -60,7 +79,11 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>A table of modifier strings.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [modifierMatch](#modifierMatch)         |                                                                                     |
+---
+
+### [modifierMatch](#modifierMatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.modifierMatch(inputA, inputB) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -69,7 +92,11 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>`true` if there's a match otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>This function only takes into account 'ctrl', 'alt', 'cmd', 'shift'.</li></ul>                |
 
-| [shortcutsFromCommandSet](#shortcutsFromCommandSet)         |                                                                                     |
+---
+
+### [shortcutsFromCommandSet](#shortcutsFromCommandSet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.shortcutsFromCommandSet(id, commandSet) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -78,7 +105,11 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>A table of shortcuts for a specific command.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [translateModifiers](#translateModifiers)         |                                                                                     |
+---
+
+### [translateModifiers](#translateModifiers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.commandeditor.translateModifiers() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -87,3 +118,4 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

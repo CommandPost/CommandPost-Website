@@ -14,15 +14,22 @@ General Panel Module.
 
 ### Constants
 
-| [TIME_DISPLAY](#TIME_DISPLAY)         |                                                                                     |
+
+### [TIME_DISPLAY](#TIME_DISPLAY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.GeneralPanel.TIME_DISPLAY -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The time display options.                                                                     |
 
+---
 ### Functions
 
-| [timeDisplay](#timeDisplay)         |                                                                                     |
+
+### [timeDisplay](#timeDisplay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.GeneralPanel.timeDisplay([value]) -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,9 +38,13 @@ General Panel Module.
 | **Returns**                                 | <ul><li>The time display if successful, otherwise `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [GeneralPanel](#GeneralPanel)         |                                                                                     |
+
+### [GeneralPanel](#GeneralPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.GeneralPanel(preferencesDialog) -> GeneralPanel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -42,3 +53,4 @@ General Panel Module.
 | **Returns**                                 | <ul><li>A new `GeneralPanel` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

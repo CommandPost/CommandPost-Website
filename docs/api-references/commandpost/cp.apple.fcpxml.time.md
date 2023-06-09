@@ -33,15 +33,22 @@ into whole seconds (for example, 5s).
 
 ### Constants
 
-| [ONE](#ONE)         |                                                                                     |
+
+### [ONE](#ONE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.ONE -> timeObject`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A time object with a value of 0/1s.                                                                     |
 
+---
 ### Functions
 
-| [add](#add)         |                                                                                     |
+
+### [add](#add)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.add(a, b) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +57,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [div](#div)         |                                                                                     |
+---
+
+### [div](#div)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.div(a, b) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,7 +70,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doesIntersect](#doesIntersect)         |                                                                                     |
+---
+
+### [doesIntersect](#doesIntersect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.doesIntersect(aStart, aDuration, bStart, bDuration) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -68,7 +83,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [eq](#eq)         |                                                                                     |
+---
+
+### [eq](#eq)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.eq(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -77,7 +96,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [gcd](#gcd)         |                                                                                     |
+---
+
+### [gcd](#gcd)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.gcd(numerator, denominator) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -86,7 +109,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A number containing the greatest common divisor.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [lt](#lt)         |                                                                                     |
+---
+
+### [lt](#lt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.lt(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -95,7 +122,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [max](#max)         |                                                                                     |
+---
+
+### [max](#max)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.max(a, b) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -104,7 +135,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [min](#min)         |                                                                                     |
+---
+
+### [min](#min)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.min(a, b) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -113,7 +148,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [mul](#mul)         |                                                                                     |
+---
+
+### [mul](#mul)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.mul(object, value) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -122,7 +161,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sub](#sub)         |                                                                                     |
+---
+
+### [sub](#sub)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.sub(a, b) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -131,7 +174,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tonumber](#tonumber)         |                                                                                     |
+---
+
+### [tonumber](#tonumber)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.tonumber(a) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -140,7 +187,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A number</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tostring](#tostring)         |                                                                                     |
+---
+
+### [tostring](#tostring)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.tostring(a) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -149,7 +200,11 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unm](#unm)         |                                                                                     |
+---
+
+### [unm](#unm)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.unm(a) -> timeObject`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -158,9 +213,13 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.time.new([numerator], [denominator]) -> timeObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -169,3 +228,4 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new `cp.apple.fcpxml.time` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

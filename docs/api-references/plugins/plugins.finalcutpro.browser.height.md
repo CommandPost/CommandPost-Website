@@ -12,15 +12,22 @@ Shortcut for changing Final Cut Pro's Browser Height
 
 ### Variables
 
-| [changeBrowserClipHeightAlreadyInProgress](#changeBrowserClipHeightAlreadyInProgress)         |                                                                                     |
+
+### [changeBrowserClipHeightAlreadyInProgress](#changeBrowserClipHeightAlreadyInProgress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.height.changeBrowserClipHeightAlreadyInProgress -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Change timeline clip height already in progress.                                                                     |
 
+---
 ### Functions
 
-| [changeBrowserClipHeight](#changeBrowserClipHeight)         |                                                                                     |
+
+### [changeBrowserClipHeight](#changeBrowserClipHeight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.height.changeBrowserClipHeight(direction) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Shortcut for changing Final Cut Pro's Browser Height
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

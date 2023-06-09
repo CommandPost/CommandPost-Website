@@ -25,41 +25,64 @@ Monogram Manager Plugin.
 
 ### Constants
 
-| [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)         |                                                                                     |
+
+### [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.NUMBER_OF_FAVOURITES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of favourites                                                                     |
 
+---
 ### Variables
 
-| [favourites](#favourites)         |                                                                                     |
+
+### [favourites](#favourites)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.favourites <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A `cp.prop` that that contains all the Monogram Favourites.                                                                     |
 
-| [lastPort](#lastPort)         |                                                                                     |
+---
+
+### [lastPort](#lastPort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.lastPort -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The port that Monogram Creator used to connect to CommandPost.                                                                     |
 
-| [performAction](#performAction)         |                                                                                     |
+---
+
+### [performAction](#performAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.performAction -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of actions that are triggered by the callback function.                                                                     |
 
-| [plugins](#plugins)         |                                                                                     |
+---
+
+### [plugins](#plugins)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.plugins -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of Monogram plugins to install.                                                                     |
 
+---
 ### Functions
 
-| [changeContext](#changeContext)         |                                                                                     |
+
+### [changeContext](#changeContext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.changeContext(context) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -68,7 +91,11 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [launchCreatorBundle](#launchCreatorBundle)         |                                                                                     |
+---
+
+### [launchCreatorBundle](#launchCreatorBundle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.launchCreatorBundle() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -77,7 +104,11 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [registerAction](#registerAction)         |                                                                                     |
+---
+
+### [registerAction](#registerAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.registerAction(name, fn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -86,7 +117,11 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [registerPlugin](#registerPlugin)         |                                                                                     |
+---
+
+### [registerPlugin](#registerPlugin)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.registerPlugin(name, path) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -95,7 +130,11 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setEnabled](#setEnabled)         |                                                                                     |
+---
+
+### [setEnabled](#setEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.setEnabled(enabled) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -104,7 +143,11 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>`true` if Monogram support is enabled, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sign](#sign)         |                                                                                     |
+---
+
+### [sign](#sign)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.sign() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -113,17 +156,26 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [automaticProfileSwitching](#automaticProfileSwitching)         |                                                                                     |
+
+### [automaticProfileSwitching](#automaticProfileSwitching)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.automaticProfileSwitching <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Automatic Profile Switching                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.monogram.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Monogram Support.                                                                     |
 
+---

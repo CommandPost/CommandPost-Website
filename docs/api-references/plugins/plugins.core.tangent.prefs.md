@@ -10,7 +10,10 @@ Tangent Preferences Panel
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.prefs.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Tangent Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

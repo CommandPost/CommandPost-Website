@@ -19,7 +19,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ### Functions
 
-| [bounce](#bounce)         |                                                                                     |
+
+### [bounce](#bounce)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.bounce(indefinitely)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -28,7 +31,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.hide()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,7 +44,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setBadge](#setBadge)         |                                                                                     |
+---
+
+### [setBadge](#setBadge)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.setBadge(badge)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -46,7 +57,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.show()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -55,7 +70,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tileCanvas](#tileCanvas)         |                                                                                     |
+---
+
+### [tileCanvas](#tileCanvas)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.tileCanvas([canvas]) -> canvasObject | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -64,7 +83,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>If the dock icon is assigned a canvas object, that canvas object will be returned, otherwise returns nil.</li></ul>          |
 | **Notes**                                   | <ul><li>If you update the canvas object by changing any of its components, it will not be reflected in the dock icon until you invoke [hs.dockicon.tileUpdate](#tileUpdate).</li></ul>                |
 
-| [tileSize](#tileSize)         |                                                                                     |
+---
+
+### [tileSize](#tileSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.tileSize() -> size table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -73,7 +96,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>a table containing the size of the tile representing the dock icon for Hammerspoon. This table will contain `h` and `w` keys specifying the tile height and width as numbers.</li></ul>          |
 | **Notes**                                   | <ul><li>the size returned specifies the display size of the dock icon tile. If your canvas item is larger than this, then only the top left portion corresponding to the size returned will be displayed.</li></ul>                |
 
-| [tileUpdate](#tileUpdate)         |                                                                                     |
+---
+
+### [tileUpdate](#tileUpdate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.tileUpdate() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -82,7 +109,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Changes made to a canvas object are not reflected automatically like they are when a canvas is being displayed on the screen; you must invoke this method after making changes to the canvas for the updates to be reflected in the dock icon.</li></ul>                |
 
-| [visible](#visible)         |                                                                                     |
+---
+
+### [visible](#visible)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.dockicon.visible() -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -91,3 +122,4 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the dock icon is visible, false if not</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

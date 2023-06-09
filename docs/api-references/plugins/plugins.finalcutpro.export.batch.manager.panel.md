@@ -22,7 +22,10 @@ CommandPost Batch Export Panel.
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel.new(params, manager) -> cp.core.preferences.manager.panel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -31,9 +34,13 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [addButton](#addButton)         |                                                                                     |
+
+### [addButton](#addButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addButton(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,7 +49,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The same panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table may contain:</li><li> ** `id`        - (optional) the unique ID for the button. If none is provided, one is generated.</li><li> ** `value`     - The value of the button. This is sent to the `onclick` function.</li><li> ** `label`     - The text label for the button. Defaults to the `value` if not provided.</li><li> ** `width`     - The width of the button in pixels.</li><li> ** `onclick`   - the function to execute when the button is clicked. The function should have the signature of `function(id, value)`, where `id` is the id of the button that was clicked, and `value` is the value of the button.</li></ul>                |
 
-| [addCheckbox](#addCheckbox)         |                                                                                     |
+---
+
+### [addCheckbox](#addCheckbox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addCheckbox(priority, params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -51,7 +62,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `id`         - (optional) The unique ID. If none is provided, one will be generated.</li><li> ** `name`       - (optional) The name of the checkbox field.</li><li> ** `label`      - (optional) The text label to display after the checkbox.</li><li> ** `onchange`   - (optional) a function that will get called when the checkbox value changes. It will be passed two parameters, `id` and `params`, the latter of which is a table containing the `value` and `checked` values of the checkbox.</li><li> ** `class`      - (optional) the CSS class list to apply to the checkbox.</li></ul>                |
 
-| [addContent](#addContent)         |                                                                                     |
+---
+
+### [addContent](#addContent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addContent(priority, content[, escaped]) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +75,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addHandler](#addHandler)         |                                                                                     |
+---
+
+### [addHandler](#addHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addHandler(event, id, handlerFn, keys) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +88,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addHeading](#addHeading)         |                                                                                     |
+---
+
+### [addHeading](#addHeading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addHeading(text) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +101,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addParagraph](#addParagraph)         |                                                                                     |
+---
+
+### [addParagraph](#addParagraph)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addParagraph(content[, escaped[, class]]) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +114,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addPassword](#addPassword)         |                                                                                     |
+---
+
+### [addPassword](#addPassword)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addPassword(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +127,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addSelect](#addSelect)         |                                                                                     |
+---
+
+### [addSelect](#addSelect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addSelect(priority, params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,7 +140,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addStatus](#addStatus)         |                                                                                     |
+---
+
+### [addStatus](#addStatus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addStatus(priority, content, default) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -114,7 +153,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addTextbox](#addTextbox)         |                                                                                     |
+---
+
+### [addTextbox](#addTextbox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:addTextbox(params) -> panel`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -123,7 +166,11 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getToolbarItem](#getToolbarItem)         |                                                                                     |
+---
+
+### [getToolbarItem](#getToolbarItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.manager.panel:getToolbarItem() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -132,3 +179,4 @@ CommandPost Batch Export Panel.
 | **Returns**                                 | <ul><li>The toolbar item as a table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

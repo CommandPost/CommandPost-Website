@@ -15,15 +15,22 @@ that appear in Final Cut Pro.
 
 ### Constants
 
-| [strings](#strings)         |                                                                                     |
+
+### [strings](#strings)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.strings <cp.strings>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.strings` providing access to common FCPX text values.                                                                     |
 
+---
 ### Methods
 
-| [find](#find)         |                                                                                     |
+
+### [find](#find)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.strings:find(key[, locale][, quiet]]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -32,7 +39,11 @@ that appear in Final Cut Pro.
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findKeys](#findKeys)         |                                                                                     |
+---
+
+### [findKeys](#findKeys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.strings:findKeys(string[, lang]) -> {string}`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -41,3 +52,4 @@ that appear in Final Cut Pro.
 | **Returns**                                 | <ul><li>The array of keys with a matching string.</li></ul>          |
 | **Notes**                                   | <ul><li>This method may be very inefficient, since it has to search through every possible key/value pair to find matches. It is not recommended that this is used in production.</li></ul>                |
 
+---

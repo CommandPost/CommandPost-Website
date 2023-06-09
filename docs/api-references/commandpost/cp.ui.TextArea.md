@@ -17,7 +17,10 @@ UI Text Area.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextArea.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ UI Text Area.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [TextArea](#TextArea)         |                                                                                     |
+
+### [TextArea](#TextArea)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextArea(parent, uiFinder) -> TextArea`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -37,17 +44,25 @@ UI Text Area.
 | **Returns**                                 | <ul><li>A new `TextArea` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [value](#value)         |                                                                                     |
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextArea.value <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
 
+---
 ### Methods
 
-| [append](#append)         |                                                                                     |
+
+### [append](#append)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextArea:append(moreText) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -56,7 +71,11 @@ UI Text Area.
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [prepend](#prepend)         |                                                                                     |
+---
+
+### [prepend](#prepend)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextArea:prepend(moreText) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,3 +84,4 @@ UI Text Area.
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

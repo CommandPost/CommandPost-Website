@@ -16,7 +16,10 @@ Throw("There was an error: %s", errorMessage)
 
 ### Constructors
 
-| [Throw](#Throw)         |                                                                                     |
+
+### [Throw](#Throw)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Throw([message[, ...]]) -> Throw`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -25,3 +28,4 @@ Throw("There was an error: %s", errorMessage)
 | **Returns**                                 | <ul><li>The `Statement` which will send the provided error message.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

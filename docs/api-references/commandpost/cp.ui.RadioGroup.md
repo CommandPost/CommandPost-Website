@@ -23,7 +23,10 @@ Represents an `AXRadioGroup`, providing utility methods.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,9 +35,13 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>`true` if the element is a RadioGroup.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [RadioGroup](#RadioGroup)         |                                                                                     |
+
+### [RadioGroup](#RadioGroup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup(parent, uiFinder[, createOptionFn]) -> cp.ui.RadioGroup`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -43,37 +50,57 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The new `RadioGroup` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [optionCount](#optionCount)         |                                                                                     |
+
+### [optionCount](#optionCount)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup.optionCount <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of options in the group.                                                                     |
 
-| [options](#options)         |                                                                                     |
+---
+
+### [options](#options)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup.options <table: cp.ui.Element; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `table` containing `cp.ui.Element` available in the radio group.                                                                     |
 | **Returns**                                 | <ul><li>The `cp.prop` of options.</li></ul>          |
 
-| [optionsUI](#optionsUI)         |                                                                                     |
+---
+
+### [optionsUI](#optionsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup.optionsUI <cp.prop: axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` containing `table` of `axuielement` options available in the radio group.                                                                     |
 | **Returns**                                 | <ul><li>The `cp.prop` of options.</li></ul>          |
 
-| [selectedOption](#selectedOption)         |                                                                                     |
+---
+
+### [selectedOption](#selectedOption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup.selectedOption <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The currently selected option number.                                                                     |
 
+---
 ### Methods
 
-| [doNextOption](#doNextOption)         |                                                                                     |
+
+### [doNextOption](#doNextOption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup:doNextOption() -> cp.rx.go.Statement<boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +109,11 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `Statement`, that resolves to `true` if successful or sends an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doPreviousOption](#doPreviousOption)         |                                                                                     |
+---
+
+### [doPreviousOption](#doPreviousOption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup:doPreviousOption() -> cp.rx.go.Statement<boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +122,11 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `Statement`, which resolves to `true` if successful or sends an error if not..</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectOption](#doSelectOption)         |                                                                                     |
+---
+
+### [doSelectOption](#doSelectOption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup:doSelectOption(index) -> cp.rx.go.Statement<boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,7 +135,11 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful or send an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [nextOption](#nextOption)         |                                                                                     |
+---
+
+### [nextOption](#nextOption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup:nextOption() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -109,7 +148,11 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `RadioGroup`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [previousOption](#previousOption)         |                                                                                     |
+---
+
+### [previousOption](#previousOption)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioGroup:previousOption() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -118,3 +161,4 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `RadioGroup`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

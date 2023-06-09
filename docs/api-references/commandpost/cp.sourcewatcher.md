@@ -15,7 +15,10 @@ Watches folders for specific file extensions and reloads the app if they change.
 
 ### Methods
 
-| [filesChanged](#filesChanged)         |                                                                                     |
+
+### [filesChanged](#filesChanged)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.sourcewatcher:filesChanged(files, flagTables) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -24,7 +27,11 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matchesExtensions](#matchesExtensions)         |                                                                                     |
+---
+
+### [matchesExtensions](#matchesExtensions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.sourcewatcher:matchesExtensions(file) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -33,7 +40,11 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>A boolean value</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.sourcewatcher.new(extensions) -> sourcewatcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,7 +53,11 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>A sourcewatcher instance</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.sourcewatcher:start() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -51,7 +66,11 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.sourcewatcher:stop() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +79,11 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watchPath](#watchPath)         |                                                                                     |
+---
+
+### [watchPath](#watchPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.sourcewatcher:watchPath(path) -> sourcewatcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,3 +92,4 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>sourcewatcher</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

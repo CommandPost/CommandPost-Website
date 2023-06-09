@@ -44,65 +44,104 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ### Constants
 
-| [APPLICATION_NAME_SUFFIX](#APPLICATION_NAME_SUFFIX)         |                                                                                     |
+
+### [APPLICATION_NAME_SUFFIX](#APPLICATION_NAME_SUFFIX)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.APPLICATION_NAME_SUFFIX -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A suffix applied to the end of Application Names as they appear in Tangent Mapper                                                                     |
 
-| [MAXIMUM_CONNECTIONS](#MAXIMUM_CONNECTIONS)         |                                                                                     |
+---
+
+### [MAXIMUM_CONNECTIONS](#MAXIMUM_CONNECTIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.MAXIMUM_CONNECTIONS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum number of socket connections to Tangent Hub.                                                                     |
 
-| [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)         |                                                                                     |
+---
+
+### [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.NUMBER_OF_FAVOURITES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum number of favourites.                                                                     |
 
-| [USER_CONTROL_MAPS_FOLDER](#USER_CONTROL_MAPS_FOLDER)         |                                                                                     |
+---
+
+### [USER_CONTROL_MAPS_FOLDER](#USER_CONTROL_MAPS_FOLDER)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.USER_CONTROL_MAPS_FOLDER -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The full name for storing User Control Maps                                                                     |
 
+---
 ### Variables
 
-| [applicationNameToGroupID](#applicationNameToGroupID)         |                                                                                     |
+
+### [applicationNameToGroupID](#applicationNameToGroupID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.applicationNameToGroupID -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table to translate an Application Name to a Group ID for the Search Console                                                                     |
 
-| [customApplications](#customApplications)         |                                                                                     |
+---
+
+### [customApplications](#customApplications)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.customApplications <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Custom Applications                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Enable or disables the Tangent Manager.                                                                     |
 
-| [tangentHubInstalled](#tangentHubInstalled)         |                                                                                     |
+---
+
+### [tangentHubInstalled](#tangentHubInstalled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.tangentHubInstalled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Tangent Hub Installed?                                                                     |
 
-| [tangentMapperInstalled](#tangentMapperInstalled)         |                                                                                     |
+---
+
+### [tangentMapperInstalled](#tangentMapperInstalled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.tangentMapperInstalled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Tangent Mapper Installed?                                                                     |
 
+---
 ### Functions
 
-| [applicationNames](#applicationNames)         |                                                                                     |
+
+### [applicationNames](#applicationNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.applicationNames() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -111,7 +150,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>A table containing the names of all the registered connections.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getConnection](#getConnection)         |                                                                                     |
+---
+
+### [getConnection](#getConnection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.getConnection(applicationName) -> connection`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -120,7 +163,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>The connection object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [launchTangentMapper](#launchTangentMapper)         |                                                                                     |
+---
+
+### [launchTangentMapper](#launchTangentMapper)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.launchTangentMapper() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -129,7 +176,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [newConnection](#newConnection)         |                                                                                     |
+---
+
+### [newConnection](#newConnection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.newConnection(applicationName, systemPath, userPath, task, pluginPath, addDefaultModes, setupFn, transportFn, groupID) -> connection`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -138,7 +189,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>The connection object</li></ul>          |
 | **Notes**                                   | <ul><li>Notes for the `task` parameter:</li><li>  ** This is used to assist with automatic switching of panels when your application gains mouse focus on the GUI.</li><li>  ** This parameter should only be required if the string passed in appStr does not match the Task name that the OS identifies as your application. Typically, this is only usually required for Plugins which run within a parent Host application. Under these circumstances it is the name of the Host Application’s Task which should be passed.</li></ul>                |
 
-| [registerCustomApplication](#registerCustomApplication)         |                                                                                     |
+---
+
+### [registerCustomApplication](#registerCustomApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.registerCustomApplication(applicationName, bundleExecutable) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -147,7 +202,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>A table where the application name is the key, and display name is the value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [removeCustomApplication](#removeCustomApplication)         |                                                                                     |
+---
+
+### [removeCustomApplication](#removeCustomApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.removeCustomApplication(applicationName) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -156,7 +215,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setupCustomApplications](#setupCustomApplications)         |                                                                                     |
+---
+
+### [setupCustomApplications](#setupCustomApplications)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.setupCustomApplications() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -165,3 +228,4 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

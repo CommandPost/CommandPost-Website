@@ -22,7 +22,10 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ### Functions
 
-| [bytesRequired](#bytesRequired)         |                                                                                     |
+
+### [bytesRequired](#bytesRequired)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame.bytesRequired(data) -> number | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +34,11 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The `number` of bytes required based on the frame header, or `nil` if not enough information is available.</li></ul>          |
 | **Notes**                                   | <ul><li>The `data` will be unmodified after returning from this function.</li></ul>                |
 
-| [fromBuffer](#fromBuffer)         |                                                                                     |
+---
+
+### [fromBuffer](#fromBuffer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame.fromBuffer(buff) -> result<{frame:frame, bytes:number}>`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +47,11 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The a `cp.result` with either `success` and the `frame` of binary payload data plus the number of `bytes` read from the `data`,</li><li>  or `failure` with a `message` if there was an error.</li></ul>          |
 | **Notes**                                   | <ul><li>If a `success`, the `value` will be a table containing the following:</li><li> `frame` - The `cp.websocket.frame` value</li><li> `bytes` - The `number` of bytes which were read from the `buffer`.</li><li>If a `success`, the passed-in `buffer` will have had the bytes required for the `frame` removed.</li><li>If a `failure`, the passed-in `buffer` will not be modified.</li></ul>                |
 
-| [fromBytes](#fromBytes)         |                                                                                     |
+---
+
+### [fromBytes](#fromBytes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame.fromBytes(buff) -> result<{frame:frame, bytes:number}>`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,7 +60,11 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The a `cp.result` with either `success` and the `frame` of binary payload data plus the number of `bytes` read from the `data`,</li><li>  or `failure` with a `message` if there was an error.</li></ul>          |
 | **Notes**                                   | <ul><li>If a `success`, the `value` will be a table containing the following:</li><li> `frame` - The `cp.websocket.frame` value</li><li> `bytes` - The `number` of bytes which were read from the `buffer`.</li></ul>                |
 
-| [fromHex](#fromHex)         |                                                                                     |
+---
+
+### [fromHex](#fromHex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame.fromHex(value, spacer) -> frame, number | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,7 +73,11 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The `frame` of binary payload data plus the next index `number` to read from the `data` `string`, or `nil` if the data was invalid.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isValid](#isValid)         |                                                                                     |
+---
+
+### [isValid](#isValid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame.isValid(data) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -67,9 +86,13 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>`true` if the data contains both a valid frame header and sufficient bytes for the whole frame.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame.new(final, opcode, mask, payloadData) -> cp.websocket.frame`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -78,9 +101,13 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The new `frame` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [isControlFrame](#isControlFrame)         |                                                                                     |
+
+### [isControlFrame](#isControlFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame:isControlFrame() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -89,7 +116,11 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>`true` if this is a control frame.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isNonControlFrame](#isNonControlFrame)         |                                                                                     |
+---
+
+### [isNonControlFrame](#isNonControlFrame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame:isNonControlFrame() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -98,7 +129,11 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>`true` if this is a non-control frame.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toBytes](#toBytes)         |                                                                                     |
+---
+
+### [toBytes](#toBytes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.websocket.frame:toBytes() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -107,3 +142,4 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The byte `string` containing the frame in binary format.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

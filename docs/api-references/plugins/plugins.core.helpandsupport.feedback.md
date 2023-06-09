@@ -10,7 +10,10 @@ Feedback Menu Item.
 
 ### Functions
 
-| [show](#show)         |                                                                                     |
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.helpandsupport.feedback.show() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Feedback Menu Item.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

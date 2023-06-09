@@ -11,7 +11,10 @@ Playback Plugin.
 
 ### Functions
 
-| [pause](#pause)         |                                                                                     |
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.playback.pause() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Playback Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [play](#play)         |                                                                                     |
+---
+
+### [play](#play)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.playback.play() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Playback Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

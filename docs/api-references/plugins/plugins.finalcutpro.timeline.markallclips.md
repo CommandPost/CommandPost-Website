@@ -10,7 +10,10 @@ Add a marker to all selected clips under the playhead, or all clips if only one 
 
 ### Functions
 
-| [markAllClips](#markAllClips)         |                                                                                     |
+
+### [markAllClips](#markAllClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.markallclips.markAllClips -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Add a marker to all selected clips under the playhead, or all clips if only one 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

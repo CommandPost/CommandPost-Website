@@ -10,9 +10,13 @@ A `Statement.Modifier` that specifies the list should be sorted by its 'natural'
 
 ### Constants
 
-| [Sorted](#Sorted)         |                                                                                     |
+
+### [Sorted](#Sorted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.List.Sorted <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `List`, which should be created via `List:Sorted()`.                                                                     |
 
+---

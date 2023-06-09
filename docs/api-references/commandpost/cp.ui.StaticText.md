@@ -17,7 +17,10 @@ Static Text Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.StaticText.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,17 +29,25 @@ Static Text Module.
 | **Returns**                                 | <ul><li>If `true`, the element is a Static Text element.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [value](#value)         |                                                                                     |
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.StaticText.value <cp.prop: anything>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
 
+---
 ### Methods
 
-| [clear](#clear)         |                                                                                     |
+
+### [clear](#clear)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.StaticText:clear() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ Static Text Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.StaticText:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ Static Text Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.StaticText:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +82,11 @@ Static Text Module.
 | **Returns**                                 | <ul><li>A table containing the current Static Text Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [StaticText](#StaticText)         |                                                                                     |
+---
+
+### [StaticText](#StaticText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.StaticText(parent, uiFinder[, convertFn]) -> StaticText`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,3 +95,4 @@ Static Text Module.
 | **Returns**                                 | <ul><li>The new `StaticText`.</li></ul>          |
 | **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li>For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = StaticText(parent, function() return ... end, tonumber)</li><li>```</li></ul>                |
 
+---

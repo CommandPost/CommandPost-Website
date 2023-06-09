@@ -12,7 +12,10 @@ A `Builder` for `GridElement`s.
 
 ### Methods
 
-| [withColumnsOf](#withColumnsOf)         |                                                                                     |
+
+### [withColumnsOf](#withColumnsOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.Builder:withColumnsOf(columnInit) -> cp.ui.GridElement.Builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -21,7 +24,11 @@ A `Builder` for `GridElement`s.
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withHeaderOf](#withHeaderOf)         |                                                                                     |
+---
+
+### [withHeaderOf](#withHeaderOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.Builder:withHeaderOf(headerInit) -> cp.ui.GridElement.Builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -30,7 +37,11 @@ A `Builder` for `GridElement`s.
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [withRowsOf](#withRowsOf)         |                                                                                     |
+---
+
+### [withRowsOf](#withRowsOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement.Builder:withRowsOf(rowInit) -> cp.ui.GridElement.Builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,3 +50,4 @@ A `Builder` for `GridElement`s.
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

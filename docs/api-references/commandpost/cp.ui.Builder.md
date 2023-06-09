@@ -77,7 +77,10 @@ The `"withLeftOf"` value will still be passed to the constructor first, because 
 
 ### Methods
 
-| [build](#build)         |                                                                                     |
+
+### [build](#build)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Builder:build(parent, uiFinder) -> cp.ui.Element`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,3 +89,4 @@ The `"withLeftOf"` value will still be passed to the constructor first, because 
 | **Returns**                                 | <ul><li>A new `Element` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

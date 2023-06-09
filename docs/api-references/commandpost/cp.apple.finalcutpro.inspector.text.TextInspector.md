@@ -55,7 +55,10 @@ text:stabilization():smoothing():show():value(1.5)
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.text.TextInspector.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -64,9 +67,13 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [TextInspector](#TextInspector)         |                                                                                     |
+
+### [TextInspector](#TextInspector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.text.TextInspector(parent) -> cp.apple.finalcutpro.text.TextInspector`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -75,9 +82,13 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `TextInspector` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [doHide](#doHide)         |                                                                                     |
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.text.TextInspector:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +97,11 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.text.TextInspector:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +110,11 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.text.TextInspector:show() -> TextInspector`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,3 +123,4 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>TextInspector</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -31,15 +31,22 @@ Timeline Batch Export Plugin.
 
 ### Constants
 
-| [DEFAULT_CUSTOM_FILENAME](#DEFAULT_CUSTOM_FILENAME)         |                                                                                     |
+
+### [DEFAULT_CUSTOM_FILENAME](#DEFAULT_CUSTOM_FILENAME)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.DEFAULT_CUSTOM_FILENAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Custom Filename                                                                     |
 
+---
 ### Functions
 
-| [batchExport](#batchExport)         |                                                                                     |
+
+### [batchExport](#batchExport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.batchExport() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,7 +55,11 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [batchExportTimelineClips](#batchExportTimelineClips)         |                                                                                     |
+---
+
+### [batchExportTimelineClips](#batchExportTimelineClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.batchExportTimelineClips(clips) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,7 +68,11 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [changeCustomFilename](#changeCustomFilename)         |                                                                                     |
+---
+
+### [changeCustomFilename](#changeCustomFilename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.changeCustomFilename() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -66,7 +81,11 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [changeExportDestinationFolder](#changeExportDestinationFolder)         |                                                                                     |
+---
+
+### [changeExportDestinationFolder](#changeExportDestinationFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.changeExportDestinationFolder() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,7 +94,11 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [changeExportDestinationPreset](#changeExportDestinationPreset)         |                                                                                     |
+---
+
+### [changeExportDestinationPreset](#changeExportDestinationPreset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.changeExportDestinationPreset() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -84,7 +107,11 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDestinationFolder](#getDestinationFolder)         |                                                                                     |
+---
+
+### [getDestinationFolder](#getDestinationFolder)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.getDestinationFolder() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -93,7 +120,11 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>The destination folder path as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDestinationPreset](#getDestinationPreset)         |                                                                                     |
+---
+
+### [getDestinationPreset](#getDestinationPreset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.getDestinationPreset() -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -102,7 +133,11 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>The destination preset as a string, or `nil` if no preset is set.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [performBatchExport](#performBatchExport)         |                                                                                     |
+---
+
+### [performBatchExport](#performBatchExport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.performBatchExport() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -111,53 +146,86 @@ Timeline Batch Export Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [customFilename](#customFilename)         |                                                                                     |
+
+### [customFilename](#customFilename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.customFilename <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Custom Filename for Batch Export.                                                                     |
 
-| [destinationPreset](#destinationPreset)         |                                                                                     |
+---
+
+### [destinationPreset](#destinationPreset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.destinationPreset <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Destination Preset.                                                                     |
 
-| [ignoreBackgroundTasks](#ignoreBackgroundTasks)         |                                                                                     |
+---
+
+### [ignoreBackgroundTasks](#ignoreBackgroundTasks)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.ignoreBackgroundTasks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Background Tasks.                                                                     |
 
-| [ignoreInvalidCaptions](#ignoreInvalidCaptions)         |                                                                                     |
+---
+
+### [ignoreInvalidCaptions](#ignoreInvalidCaptions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.ignoreInvalidCaptions <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Invalid Captions.                                                                     |
 
-| [ignoreMissingEffects](#ignoreMissingEffects)         |                                                                                     |
+---
+
+### [ignoreMissingEffects](#ignoreMissingEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.ignoreMissingEffects <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Missing Effects.                                                                     |
 
-| [ignoreProxies](#ignoreProxies)         |                                                                                     |
+---
+
+### [ignoreProxies](#ignoreProxies)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.ignoreProxies <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Proxies.                                                                     |
 
-| [replaceExistingFiles](#replaceExistingFiles)         |                                                                                     |
+---
+
+### [replaceExistingFiles](#replaceExistingFiles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.replaceExistingFiles <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Replace Existing Files.                                                                     |
 
-| [useCustomFilename](#useCustomFilename)         |                                                                                     |
+---
+
+### [useCustomFilename](#useCustomFilename)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.export.batch.useCustomFilename <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not the Batch Export tool should override the clipname with a custom filename.                                                                     |
 
+---

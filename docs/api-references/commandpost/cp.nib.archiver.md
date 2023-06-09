@@ -16,15 +16,22 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 
 ### Constants
 
-| [SIGNATURE](#SIGNATURE)         |                                                                                     |
+
+### [SIGNATURE](#SIGNATURE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.nib.archiver.SIGNATURE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Marks the data stream as an `NIBArchive`.                                                                     |
 
+---
 ### Functions
 
-| [isSupported](#isSupported)         |                                                                                     |
+
+### [isSupported](#isSupported)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.nib.archiver.isSupported(data) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -33,9 +40,13 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Returns**                                 | <ul><li>`true` if the `data` is an NIBArchive, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.nib.archiver.new(decoders) -> cp.nib.archiver`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -44,9 +55,13 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Returns**                                 | <ul><li>The new `cp.nib.archiver` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [fromFile](#fromFile)         |                                                                                     |
+
+### [fromFile](#fromFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.nib.archiver.fromFile(filename) -> table | nil, string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,3 +70,4 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Returns**                                 | <ul><li>A `table` containing the archive data, or `nil` if the file could not be read.</li><li>The `string` error message, if any.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -25,15 +25,22 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 
 ### Constants
 
-| [ids](#ids)         |                                                                                     |
+
+### [ids](#ids)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.ids -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing the list of aspect IDs ("color", "saturation", "exposure").                                                                     |
 
+---
 ### Constructors
 
-| [ColorBoardAspect](#ColorBoardAspect)         |                                                                                     |
+
+### [ColorBoardAspect](#ColorBoardAspect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect(parent, index[, hasAngle]) -> ColorBoardAspect`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -42,41 +49,65 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Returns**                                 | <ul><li>A new `ColorBoardAspect object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [highlights](#highlights)         |                                                                                     |
+
+### [highlights](#highlights)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.highlights <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Highlights ColorPuck object.                                                                     |
 
-| [master](#master)         |                                                                                     |
+---
+
+### [master](#master)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.master <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Master ColorPuck object.                                                                     |
 
-| [midtones](#midtones)         |                                                                                     |
+---
+
+### [midtones](#midtones)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.midtones <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Midtones ColorPuck object.                                                                     |
 
-| [selected](#selected)         |                                                                                     |
+---
+
+### [selected](#selected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:selected() -> boolean`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Color Board Aspect selected?                                                                     |
 
-| [shadows](#shadows)         |                                                                                     |
+---
+
+### [shadows](#shadows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect.shadows <ColorPuck>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Shadows ColorPuck object.                                                                     |
 
+---
 ### Methods
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -85,7 +116,11 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or throwing an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasAngle](#hasAngle)         |                                                                                     |
+---
+
+### [hasAngle](#hasAngle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:hasAngle() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -94,7 +129,11 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Returns**                                 | <ul><li>`true` if it has an `angle` propery.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -103,7 +142,11 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Returns**                                 | <ul><li>The ID as string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [index](#index)         |                                                                                     |
+---
+
+### [index](#index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:index() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -112,7 +155,11 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Returns**                                 | <ul><li>A number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:reset() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -121,7 +168,11 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if sucessful, or throws an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoardAspect:show() -> cp.apple.finalcutpro.inspector.color.ColorBoardAspect`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -130,3 +181,4 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ColorBoardAspect` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

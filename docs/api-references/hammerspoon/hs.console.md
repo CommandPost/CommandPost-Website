@@ -40,7 +40,10 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ### Deprecateds
 
-| [asHSDrawing](#asHSDrawing)         |                                                                                     |
+
+### [asHSDrawing](#asHSDrawing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.asHSDrawing() -> hs.drawing object`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
@@ -48,24 +51,36 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a placeholder object</li></ul>          |
 
-| [asHSWindow](#asHSWindow)         |                                                                                     |
+---
+
+### [asHSWindow](#asHSWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.asHSWindow() -> hs.window object`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | Returns an hs.window object for the console so that you can use hs.window methods on it.                                                                     |
 
+---
 ### Constants
 
-| [defaultToolbar](#defaultToolbar)         |                                                                                     |
+
+### [defaultToolbar](#defaultToolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.defaultToolbar`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default toolbar for the Console window                                                                     |
 | **Notes**                                   | <ul><li>This is an `hs.toolbar` object that is shown by default in the Hammerspoon Console</li><li>You can remove this toolbar by adding `hs.console.toolbar(nil)` to your config, or you can replace it with your own `hs.webview.toolbar` object</li></ul>                |
 
+---
 ### Functions
 
-| [alpha](#alpha)         |                                                                                     |
+
+### [alpha](#alpha)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.alpha([alpha]) -> currentValue`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +89,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current, possibly new, value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [behaviorAsLabels](#behaviorAsLabels)         |                                                                                     |
+---
+
+### [behaviorAsLabels](#behaviorAsLabels)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.behaviorAsLabels(behaviorTable) -> currentValue`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +102,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current (possibly new) value.</li></ul>          |
 | **Notes**                                   | <ul><li>Window behaviors determine how the console is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul>                |
 
-| [clearConsole](#clearConsole)         |                                                                                     |
+---
+
+### [clearConsole](#clearConsole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.clearConsole() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +115,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is equivalent to `hs.console.setConsole()`</li></ul>                |
 
-| [consoleCommandColor](#consoleCommandColor)         |                                                                                     |
+---
+
+### [consoleCommandColor](#consoleCommandColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.consoleCommandColor([color]) -> color`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +128,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current color setting as a table</li></ul>          |
 | **Notes**                                   | <ul><li>See the `hs.drawing.color` entry in the Dash documentation, or type `help.hs.drawing.color` in the Hammerspoon console to get more information on how to specify a color.</li><li>Note this only affects future output -- anything already in the console will remain its current color.</li></ul>                |
 
-| [consoleFont](#consoleFont)         |                                                                                     |
+---
+
+### [consoleFont](#consoleFont)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.consoleFont([font]) -> fontTable`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,7 +141,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current font setting as a table containing a `name` key and a `size` key.</li></ul>          |
 | **Notes**                                   | <ul><li>See the `hs.drawing.color` entry in the Dash documentation, or type `help.hs.drawing.color` in the Hammerspoon console to get more information on how to specify a color.</li><li>Note this only affects future output -- anything already in the console will remain its current font.</li></ul>                |
 
-| [consolePrintColor](#consolePrintColor)         |                                                                                     |
+---
+
+### [consolePrintColor](#consolePrintColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.consolePrintColor([color]) -> color`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -119,7 +154,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current color setting as a table</li></ul>          |
 | **Notes**                                   | <ul><li>See the `hs.drawing.color` entry in the Dash documentation, or type `help.hs.drawing.color` in the Hammerspoon console to get more information on how to specify a color.</li><li>Note this only affects future output -- anything already in the console will remain its current color.</li></ul>                |
 
-| [consoleResultColor](#consoleResultColor)         |                                                                                     |
+---
+
+### [consoleResultColor](#consoleResultColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.consoleResultColor([color]) -> color`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -128,7 +167,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current color setting as a table</li></ul>          |
 | **Notes**                                   | <ul><li>See the `hs.drawing.color` entry in the Dash documentation, or type `help.hs.drawing.color` in the Hammerspoon console to get more information on how to specify a color.</li><li>Note this only affects future output -- anything already in the console will remain its current color.</li></ul>                |
 
-| [darkMode](#darkMode)         |                                                                                     |
+---
+
+### [darkMode](#darkMode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.darkMode([state]) -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -137,7 +180,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>A boolean, true if dark mode is enabled otherwise false.</li></ul>          |
 | **Notes**                                   | <ul><li>Enabling Dark Mode for the Console only affects the window background, and doesn't automatically change the Console's Background Color, so you will need to add something similar to:</li><li>   ```lua</li><li>   if hs.console.darkMode() then</li><li>       hs.console.outputBackgroundColor{ white = 0 }</li><li>       hs.console.consoleCommandColor{ white = 1 }</li><li>       hs.console.alpha(.8)</li><li>   end</li><li>.   ```</li></ul>                |
 
-| [getConsole](#getConsole)         |                                                                                     |
+---
+
+### [getConsole](#getConsole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.getConsole([styled]) -> text | styledText`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -146,7 +193,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>The text currently in the Hammerspoon console output window as either a string or an `hs.styledtext` object.</li></ul>          |
 | **Notes**                                   | <ul><li>If the text of the console is retrieved as a string, no color or style information in the console output is retrieved - only the raw text.</li></ul>                |
 
-| [getHistory](#getHistory)         |                                                                                     |
+---
+
+### [getHistory](#getHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.getHistory() -> array`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -155,7 +206,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>an array containing the history of commands entered into the Hammerspoon console.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hswindow](#hswindow)         |                                                                                     |
+---
+
+### [hswindow](#hswindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.hswindow() -> hs.window object`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -164,7 +219,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>an hs.window object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [inputBackgroundColor](#inputBackgroundColor)         |                                                                                     |
+---
+
+### [inputBackgroundColor](#inputBackgroundColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.inputBackgroundColor([color]) -> color`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -173,7 +232,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current color setting as a table</li></ul>          |
 | **Notes**                                   | <ul><li>See the `hs.drawing.color` entry in the Dash documentation, or type `help.hs.drawing.color` in the Hammerspoon console to get more information on how to specify a color.</li></ul>                |
 
-| [level](#level)         |                                                                                     |
+---
+
+### [level](#level)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.level([theLevel]) -> currentValue`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -182,7 +245,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current, possibly new, value</li></ul>          |
 | **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul>                |
 
-| [maxOutputHistory](#maxOutputHistory)         |                                                                                     |
+---
+
+### [maxOutputHistory](#maxOutputHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.maxOutputHistory([length]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -191,7 +258,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current maximum size of the console history</li></ul>          |
 | **Notes**                                   | <ul><li>A length value of zero will allow the history to grow infinitely</li><li>The default console history is 100,000 characters</li></ul>                |
 
-| [outputBackgroundColor](#outputBackgroundColor)         |                                                                                     |
+---
+
+### [outputBackgroundColor](#outputBackgroundColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.outputBackgroundColor([color]) -> color`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -200,7 +271,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current color setting as a table</li></ul>          |
 | **Notes**                                   | <ul><li>See the `hs.drawing.color` entry in the Dash documentation, or type `help.hs.drawing.color` in the Hammerspoon console to get more information on how to specify a color.</li></ul>                |
 
-| [printStyledtext](#printStyledtext)         |                                                                                     |
+---
+
+### [printStyledtext](#printStyledtext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.printStyledtext(...) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -209,7 +284,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This has been made as close to the Lua `print` command as possible.  You can replace the existing print command with this by adding the following to your `init.lua` file:</li><li></li><li>~~~</li><li>   print = function(...)</li><li>       hs.rawprint(...)</li><li>       hs.console.printStyledtext(...)</li><li>   end</li><li>~~~</li></ul>                |
 
-| [setConsole](#setConsole)         |                                                                                     |
+---
+
+### [setConsole](#setConsole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.setConsole([styledText]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -218,7 +297,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>You can specify the console content as a string or as an `hs.styledtext` object in either userdata or table format.</li></ul>                |
 
-| [setHistory](#setHistory)         |                                                                                     |
+---
+
+### [setHistory](#setHistory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.setHistory(array) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -227,7 +310,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>You can clear the console history by using an empty array (e.g. `hs.console.setHistory({})`</li></ul>                |
 
-| [smartInsertDeleteEnabled](#smartInsertDeleteEnabled)         |                                                                                     |
+---
+
+### [smartInsertDeleteEnabled](#smartInsertDeleteEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.smartInsertDeleteEnabled([flag]) -> bool`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -236,7 +323,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current value</li></ul>          |
 | **Notes**                                   | <ul><li>this only applies to future copy operations from the Hammerspoon console -- anything already in the clipboard is not affected.</li></ul>                |
 
-| [titleVisibility](#titleVisibility)         |                                                                                     |
+---
+
+### [titleVisibility](#titleVisibility)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.titleVisibility([state]) -> current value`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -245,7 +336,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>a string of "visible" or "hidden" specifying the current (possibly changed) state of the window title's visibility.</li></ul>          |
 | **Notes**                                   | <ul><li>When a toolbar is attached to the Hammerspoon console (see the `hs.webview.toolbar` module documentation), this function can be used to specify whether the Toolbar appears underneath the console window's title ("visible") or in the window's title bar itself, as seen in applications like Safari ("hidden"). When the title is hidden, the toolbar will only display the toolbar items as icons without labels, and ignores changes made with `hs.webview.toolbar:displayMode`.</li><li></li><li>If a toolbar is attached to the console, you can achieve the same effect as this function with `hs.console.toolbar():inTitleBar(boolean)`</li></ul>                |
 
-| [windowBackgroundColor](#windowBackgroundColor)         |                                                                                     |
+---
+
+### [windowBackgroundColor](#windowBackgroundColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.windowBackgroundColor([color]) -> color`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -254,9 +349,13 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current color setting as a table</li></ul>          |
 | **Notes**                                   | <ul><li>See the `hs.drawing.color` entry in the Dash documentation, or type `help.hs.drawing.color` in the Hammerspoon console to get more information on how to specify a color.</li></ul>                |
 
+---
 ### Methods
 
-| [behavior](#behavior)         |                                                                                     |
+
+### [behavior](#behavior)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.behavior([behavior]) -> currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -265,7 +364,11 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>the current, possibly new, value.</li></ul>          |
 | **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul>                |
 
-| [toolbar](#toolbar)         |                                                                                     |
+---
+
+### [toolbar](#toolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.console.toolbar([toolbar]) -> toolbarObject | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -274,3 +377,4 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 | **Returns**                                 | <ul><li>if a toolbarObject or explicit nil is specified, returns the toolbarObject; otherwise returns the current toolbarObject or nil, if no toolbar is attached to the console.</li></ul>          |
 | **Notes**                                   | <ul><li>this method is a convenience wrapper for the `hs.webview.toolbar.attachToolbar` function.</li><li></li><li>If the toolbar is currently attached to another window when this function is called, it will be detached from the original window and attached to the console.</li></ul>                |
 
+---

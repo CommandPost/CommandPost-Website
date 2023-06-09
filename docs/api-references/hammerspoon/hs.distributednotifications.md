@@ -24,7 +24,10 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 
 ### Functions
 
-| [post](#post)         |                                                                                     |
+
+### [post](#post)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.distributednotifications.post(name[, sender[, userInfo]])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -33,9 +36,13 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.distributednotifications.new(callback[, name[, object]]) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,9 +52,13 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>An `hs.distributednotifications` object</li></ul>          |
 | **Notes**                                   | <ul><li>On Catalina and above, it is no longer possible to observe all notifications - the `name` parameter is effectively now required. See https://mjtsai.com/blog/2019/10/04/nsdistributednotificationcenter-no-longer-supports-nil-names</li></ul>                |
 
+---
 ### Methods
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.distributednotifications:start() -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -56,7 +67,11 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>The `hs.distributednotifications` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.distributednotifications:stop() -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,3 +80,4 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>The `hs.distributednotifications` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

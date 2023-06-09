@@ -34,27 +34,42 @@ Controls for iTunes music player
 
 ### Constants
 
-| [state_paused](#state_paused)         |                                                                                     |
+
+### [state_paused](#state_paused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.state_paused`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is paused                                                                     |
 
-| [state_playing](#state_playing)         |                                                                                     |
+---
+
+### [state_playing](#state_playing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.state_playing`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is playing                                                                     |
 
-| [state_stopped](#state_stopped)         |                                                                                     |
+---
+
+### [state_stopped](#state_stopped)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.state_stopped`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is stopped                                                                     |
 
+---
 ### Functions
 
-| [displayCurrentTrack](#displayCurrentTrack)         |                                                                                     |
+
+### [displayCurrentTrack](#displayCurrentTrack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.displayCurrentTrack()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -63,7 +78,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ff](#ff)         |                                                                                     |
+---
+
+### [ff](#ff)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.ff()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -72,7 +91,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentAlbum](#getCurrentAlbum)         |                                                                                     |
+---
+
+### [getCurrentAlbum](#getCurrentAlbum)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.getCurrentAlbum() -> string or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -81,7 +104,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentArtist](#getCurrentArtist)         |                                                                                     |
+---
+
+### [getCurrentArtist](#getCurrentArtist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.getCurrentArtist() -> string or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -90,7 +117,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCurrentTrack](#getCurrentTrack)         |                                                                                     |
+---
+
+### [getCurrentTrack](#getCurrentTrack)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.getCurrentTrack() -> string or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -99,7 +130,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDuration](#getDuration)         |                                                                                     |
+---
+
+### [getDuration](#getDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.getDuration()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -108,7 +143,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>The number of seconds long the current song is, 0 if no song is playing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPlaybackState](#getPlaybackState)         |                                                                                     |
+---
+
+### [getPlaybackState](#getPlaybackState)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.getPlaybackState()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -117,7 +156,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.itunes.state_stopped`</li><li>   - `hs.itunes.state_paused`</li><li>   - `hs.itunes.state_playing`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPosition](#getPosition)         |                                                                                     |
+---
+
+### [getPosition](#getPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.getPosition()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -126,7 +169,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getVolume](#getVolume)         |                                                                                     |
+---
+
+### [getVolume](#getVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.getVolume()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -135,7 +182,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A number, between 1 and 100, containing the current iTunes playback volume</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isPlaying](#isPlaying)         |                                                                                     |
+---
+
+### [isPlaying](#isPlaying)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.isPlaying()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -144,7 +195,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether iTunes is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isRunning](#isRunning)         |                                                                                     |
+---
+
+### [isRunning](#isRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.isRunning()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -153,7 +208,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether the iTunes application is running.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [next](#next)         |                                                                                     |
+---
+
+### [next](#next)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.next()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -162,7 +221,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pause](#pause)         |                                                                                     |
+---
+
+### [pause](#pause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.pause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -171,7 +234,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [play](#play)         |                                                                                     |
+---
+
+### [play](#play)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.play()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -180,7 +247,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playpause](#playpause)         |                                                                                     |
+---
+
+### [playpause](#playpause)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.playpause()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -189,7 +260,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [previous](#previous)         |                                                                                     |
+---
+
+### [previous](#previous)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.previous()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -198,7 +273,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rw](#rw)         |                                                                                     |
+---
+
+### [rw](#rw)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.rw()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -207,7 +286,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setPosition](#setPosition)         |                                                                                     |
+---
+
+### [setPosition](#setPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.setPosition(pos)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -216,7 +299,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setVolume](#setVolume)         |                                                                                     |
+---
+
+### [setVolume](#setVolume)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.setVolume(vol)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -225,7 +312,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeDown](#volumeDown)         |                                                                                     |
+---
+
+### [volumeDown](#volumeDown)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.volumeDown()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -234,7 +325,11 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [volumeUp](#volumeUp)         |                                                                                     |
+---
+
+### [volumeUp](#volumeUp)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.itunes.volumeUp()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -243,3 +338,4 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -36,51 +36,82 @@ Media Browser Module.
 
 ### Constants
 
-| [GARAGE_BAND](#GARAGE_BAND)         |                                                                                     |
+
+### [GARAGE_BAND](#GARAGE_BAND)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.GARAGE_BAND -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Garage Band ID.                                                                     |
 
-| [ITUNES](#ITUNES)         |                                                                                     |
+---
+
+### [ITUNES](#ITUNES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.ITUNES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | iTunes ID.                                                                     |
 
-| [LEGACY_TITLE](#LEGACY_TITLE)         |                                                                                     |
+---
+
+### [LEGACY_TITLE](#LEGACY_TITLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.LEGACY_TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos & Audio Title in v10.6.1 and earlier.                                                                     |
 
-| [MAX_SECTIONS](#MAX_SECTIONS)         |                                                                                     |
+---
+
+### [MAX_SECTIONS](#MAX_SECTIONS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.MAX_SECTIONS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum Sections.                                                                     |
 
-| [PHOTOS](#PHOTOS)         |                                                                                     |
+---
+
+### [PHOTOS](#PHOTOS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.PHOTOS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos ID.                                                                     |
 
-| [SOUND_EFFECTS](#SOUND_EFFECTS)         |                                                                                     |
+---
+
+### [SOUND_EFFECTS](#SOUND_EFFECTS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.SOUND_EFFECTS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Sound Effects ID.                                                                     |
 
-| [TITLE](#TITLE)         |                                                                                     |
+---
+
+### [TITLE](#TITLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos & Audio Title in v10.6.2 and later.                                                                     |
 
+---
 ### Constructors
 
-| [MediaBrowser](#MediaBrowser)         |                                                                                     |
+
+### [MediaBrowser](#MediaBrowser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser(parent) -> MediaBrowser`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -89,41 +120,65 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>A new `MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [group](#group)         |                                                                                     |
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.group <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group PopUpButton.                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.isShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Media Browser is showing.                                                                     |
 
-| [mainGroupUI](#mainGroupUI)         |                                                                                     |
+---
+
+### [mainGroupUI](#mainGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.mainGroupUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the main group UI for the Media Browser, or `nil` if not available.                                                                     |
 
-| [search](#search)         |                                                                                     |
+---
+
+### [search](#search)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.search <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The search TextField.                                                                     |
 
-| [sidebar](#sidebar)         |                                                                                     |
+---
+
+### [sidebar](#sidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.sidebar <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sidebar `Table`.                                                                     |
 
+---
 ### Methods
 
-| [hide](#hide)         |                                                                                     |
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:hide() -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -132,7 +187,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>The `MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -141,7 +200,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -150,7 +213,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>A table containing the current Media Browser Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:show() -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -159,7 +226,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>The `MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showGarageBand](#showGarageBand)         |                                                                                     |
+---
+
+### [showGarageBand](#showGarageBand)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:showGarageBand() -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -168,7 +239,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showITunes](#showITunes)         |                                                                                     |
+---
+
+### [showITunes](#showITunes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:showITunes() -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -177,7 +252,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showPhotos](#showPhotos)         |                                                                                     |
+---
+
+### [showPhotos](#showPhotos)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:showPhotos() -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -186,7 +265,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showSection](#showSection)         |                                                                                     |
+---
+
+### [showSection](#showSection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:showSection(index) -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -195,7 +278,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showSidebar](#showSidebar)         |                                                                                     |
+---
+
+### [showSidebar](#showSidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:showSidebar() -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -204,7 +291,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showSoundEffects](#showSoundEffects)         |                                                                                     |
+---
+
+### [showSoundEffects](#showSoundEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:showSoundEffects() -> MediaBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -213,7 +304,11 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [topCategoriesUI](#topCategoriesUI)         |                                                                                     |
+---
+
+### [topCategoriesUI](#topCategoriesUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser:topCategoriesUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -222,3 +317,4 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

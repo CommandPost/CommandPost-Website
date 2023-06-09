@@ -25,7 +25,10 @@ Pop Up Button Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,9 +37,13 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [PopUpButton](#PopUpButton)         |                                                                                     |
+
+### [PopUpButton](#PopUpButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton(parent, uiFinder) -> cp.ui.PopUpButton`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,23 +52,35 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>The new `PopUpButton` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [menuUI](#menuUI)         |                                                                                     |
+
+### [menuUI](#menuUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton.menuUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AXMenu` for the PopUpMenu if it is currently visible.                                                                     |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton.value <cp.prop: anything; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns or sets the current `PopUpButton` value.                                                                     |
 
+---
 ### Methods
 
-| [doPress](#doPress)         |                                                                                     |
+
+### [doPress](#doPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:doPress() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -70,7 +89,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectItem](#doSelectItem)         |                                                                                     |
+---
+
+### [doSelectItem](#doSelectItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:doSelectItem(index) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,7 +102,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectValue](#doSelectValue)         |                                                                                     |
+---
+
+### [doSelectValue](#doSelectValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:doSelectValue(value, [overrideValue]) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -88,7 +115,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getValue](#getValue)         |                                                                                     |
+---
+
+### [getValue](#getValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:getValue() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +128,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>The `PopUpButton` value as string, or `nil` if the value cannot be determined.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +141,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [press](#press)         |                                                                                     |
+---
+
+### [press](#press)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:press() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,7 +154,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -124,7 +167,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>A table containing the current `PopUpButton` Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectItem](#selectItem)         |                                                                                     |
+---
+
+### [selectItem](#selectItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:selectItem(index) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -133,7 +180,11 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setValue](#setValue)         |                                                                                     |
+---
+
+### [setValue](#setValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.PopUpButton:setValue(value) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -142,3 +193,4 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

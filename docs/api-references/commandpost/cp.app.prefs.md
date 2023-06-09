@@ -30,7 +30,10 @@ end
 
 ### Functions
 
-| [bundleID](#bundleID)         |                                                                                     |
+
+### [bundleID](#bundleID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.prefs.bundleID(prefs) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -39,7 +42,11 @@ end
 | **Returns**                                 | <ul><li>The Bundle ID string, or `nil` if it's not a `cp.app.prefs`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [get](#get)         |                                                                                     |
+---
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.prefs.get(prefs, key[, defaultValue]) -> value`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,7 +55,11 @@ end
 | **Returns**                                 | <ul><li>The current value, or `defaultValue` if not set.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [is](#is)         |                                                                                     |
+---
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.prefs.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,7 +68,11 @@ end
 | **Returns**                                 | <ul><li>`true` if if's a `prefs`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [prop](#prop)         |                                                                                     |
+---
+
+### [prop](#prop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.prefs.prop(prefs, key[, defaultValue[, deepTable]]) -> cp.prop`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -66,7 +81,11 @@ end
 | **Returns**                                 | <ul><li>The `cp.prop` for the key.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [set](#set)         |                                                                                     |
+---
+
+### [set](#set)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.prefs.set(prefs, key, value[, defaultValue]) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,9 +94,13 @@ end
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `value` equals the `defaultValue`, the preference is removed rather than being `set`.</li></ul>                |
 
+---
 ### Constructors
 
-| [prefs](#prefs)         |                                                                                     |
+
+### [prefs](#prefs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.app.prefs(bundleID) -> cp.app.prefs`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -86,3 +109,4 @@ end
 | **Returns**                                 | <ul><li>A new `cp.app.prefs` with read/write access to the application's preferences.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

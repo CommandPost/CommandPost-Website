@@ -41,7 +41,10 @@ myButton(false) == false	-- now false
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,9 +53,13 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [CheckBox](#CheckBox)         |                                                                                     |
+
+### [CheckBox](#CheckBox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox(parent, uiFinder) -> cp.ui.CheckBox`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -61,23 +68,35 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The new `CheckBox`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [checked](#checked)         |                                                                                     |
+
+### [checked](#checked)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox.checked <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the checkbox is currently checked.                                                                     |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
 
+---
 ### Methods
 
-| [click](#click)         |                                                                                     |
+
+### [click](#click)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:click() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +105,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `CheckBox` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doCheck](#doCheck)         |                                                                                     |
+---
+
+### [doCheck](#doCheck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:doCheck() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +118,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doPress](#doPress)         |                                                                                     |
+---
+
+### [doPress](#doPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:doPress() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,7 +131,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doUncheck](#doUncheck)         |                                                                                     |
+---
+
+### [doUncheck](#doUncheck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:doUncheck() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,7 +144,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:loadLayout(layout) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -122,7 +157,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [press](#press)         |                                                                                     |
+---
+
+### [press](#press)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:press() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -131,7 +170,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `CheckBox` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -140,7 +183,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A settings table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggle](#toggle)         |                                                                                     |
+---
+
+### [toggle](#toggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.CheckBox:toggle() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -149,3 +196,4 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `CheckBox` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -16,7 +16,10 @@ Contains common `hs.axuielement` matching functions.
 
 ### Functions
 
-| [emptyList](#emptyList)         |                                                                                     |
+
+### [emptyList](#emptyList)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.match.emptyList(element) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,7 +28,11 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>`true` if the element is an empty list.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [exactly](#exactly)         |                                                                                     |
+---
+
+### [exactly](#exactly)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.match.exactly(value) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +41,11 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>`function(element) -> boolean` that checks the value matches exactly.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isAbove](#isAbove)         |                                                                                     |
+---
+
+### [isAbove](#isAbove)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.match.isAbove(value) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +54,11 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is above the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isBelow](#isBelow)         |                                                                                     |
+---
+
+### [isBelow](#isBelow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.match.isBelow(value) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +67,11 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is below the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isLeftOf](#isLeftOf)         |                                                                                     |
+---
+
+### [isLeftOf](#isLeftOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.match.isLeftOf(value) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +80,11 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is left of the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isRightOf](#isRightOf)         |                                                                                     |
+---
+
+### [isRightOf](#isRightOf)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.match.isRightOf(value) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +93,11 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is right of the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [role](#role)         |                                                                                     |
+---
+
+### [role](#role)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.match.role(roleName) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,3 +106,4 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>`function(element) -> boolean` that checks the `AXRole` is `roleName`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

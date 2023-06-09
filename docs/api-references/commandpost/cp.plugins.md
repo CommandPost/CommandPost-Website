@@ -180,29 +180,44 @@ These modules will not be accessible to other plugins or to the main application
 
 ### Constants
 
-| [CACHE](#CACHE)         |                                                                                     |
+
+### [CACHE](#CACHE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.CACHE -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugin Cache                                                                     |
 
-| [SETTINGS_DISABLED](#SETTINGS_DISABLED)         |                                                                                     |
+---
+
+### [SETTINGS_DISABLED](#SETTINGS_DISABLED)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.SETTINGS_DISABLED -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugin Disabled Code                                                                     |
 
+---
 ### Variables
 
-| [IDS](#IDS)         |                                                                                     |
+
+### [IDS](#IDS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.IDS -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Plugin Status Codes                                                                     |
 
+---
 ### Functions
 
-| [addDependent](#addDependent)         |                                                                                     |
+
+### [addDependent](#addDependent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.addDependent(id, dependentPlugin) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -211,7 +226,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disable](#disable)         |                                                                                     |
+---
+
+### [disable](#disable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.disable(...) -> boolean, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -220,7 +239,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>`true` if the plugin was disabled, or `false` if any of the plugins failed.</li><li>If disabling failed, the first ID that failed is returned as the second value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enable](#enable)         |                                                                                     |
+---
+
+### [enable](#enable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.enable(...) -> boolean, string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -229,7 +252,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>`true` if the plugins had been disabled and are now enabled.</li><li>If enabling failed, the plugin ID which could not be enabled is returned as the second value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDependents](#getDependents)         |                                                                                     |
+---
+
+### [getDependents](#getDependents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.getDependents(pluginId)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -238,7 +265,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>The table of dependents.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPlugin](#getPlugin)         |                                                                                     |
+---
+
+### [getPlugin](#getPlugin)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.getPlugin(id) -> plugin`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -247,7 +278,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>The plugin</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPluginIds](#getPluginIds)         |                                                                                     |
+---
+
+### [getPluginIds](#getPluginIds)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.getPluginIds() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -256,7 +291,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>the list of plugin IDs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPluginModule](#getPluginModule)         |                                                                                     |
+---
+
+### [getPluginModule](#getPluginModule)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.getPluginModule(id) -> value`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -265,7 +304,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>the result of the plugin's `init(...)` function call.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getPlugins](#getPlugins)         |                                                                                     |
+---
+
+### [getPlugins](#getPlugins)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.getPlugins() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -274,7 +317,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>the list of plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.init(paths) -> cp.plugins`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -283,7 +330,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>`cp.plugins` - The module.</li></ul>          |
 | **Notes**                                   | <ul><li>Plugins in earlier packages will take precedence over those in later paths, if there are duplicates.</li><li></li><li>Eg:</li><li></li><li>```lua</li><li>plugins.init({"~/Library/Application Support/CommandPost/Plugins"})</li><li>```</li></ul>                |
 
-| [initPlugin](#initPlugin)         |                                                                                     |
+---
+
+### [initPlugin](#initPlugin)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.initPlugin(id) -> module`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -292,7 +343,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>the result of the plugin's `init(...)` function call.</li></ul>          |
 | **Notes**                                   | <ul><li>The plugin will only be loaded once, and the result of its `init(...)` function will be cached for future calls.</li><li></li><li>Eg:</li><li></li><li>```</li><li>plugins.initPlugin("cp.plugins.test.helloworld")</li><li>```</li></ul>                |
 
-| [initPlugins](#initPlugins)         |                                                                                     |
+---
+
+### [initPlugins](#initPlugins)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.initPlugins() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -301,7 +356,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isDisabled](#isDisabled)         |                                                                                     |
+---
+
+### [isDisabled](#isDisabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.isDisabled(id) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -310,7 +369,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>`true` if the plugin is disabled.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadComplexPlugin](#loadComplexPlugin)         |                                                                                     |
+---
+
+### [loadComplexPlugin](#loadComplexPlugin)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.loadComplexPlugin(path) -> plugin`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -319,7 +382,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>`true` if the plugin is successfully post-initialised.</li></ul>          |
 | **Notes**                                   | <ul><li>Complex plugins can also have other resources, accessible via an `cp.plugins.env` parameter passed to the `init()` function. For example, an image stored in the `images` folder inside the plugin can be accessed via:</li><li></li><li>```lua</li><li>function plugin.init(dependencies, env)</li><li>    local imagePath = env:pathToAbsolute("image/example.jpg")</li><li>end</li><li>```</li></ul>                |
 
-| [loadDependencies](#loadDependencies)         |                                                                                     |
+---
+
+### [loadDependencies](#loadDependencies)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.loadDependencies(plugin) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -328,7 +395,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>an array of the dependencies required by the plugin, or `nil` if any could not be loaded.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadSimplePlugin](#loadSimplePlugin)         |                                                                                     |
+---
+
+### [loadSimplePlugin](#loadSimplePlugin)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.loadSimplePlugin(id) -> plugin`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -337,7 +408,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>`true` if the plugin is successfully post-initialised.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [postInitPlugin](#postInitPlugin)         |                                                                                     |
+---
+
+### [postInitPlugin](#postInitPlugin)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.postInitPlugin(id) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -346,7 +421,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>`true` if the plugin is successfully post-initialised.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [postInitPlugins](#postInitPlugins)         |                                                                                     |
+---
+
+### [postInitPlugins](#postInitPlugins)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.postInitPlugins() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -355,7 +434,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanDirectory](#scanDirectory)         |                                                                                     |
+---
+
+### [scanDirectory](#scanDirectory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.scanDirectory(directoryPath) -> cp.plugins`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -364,7 +447,11 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>boolean - `true` if the path was loaded successfully, false if there were any issues.</li></ul>          |
 | **Notes**                                   | <ul><li>Plugins can be simple or complex. Simple plugins are a single `*.lua` file, not named `init.lua`. Complex plugins are folders containing an `init.lua` file.</li></ul>                |
 
-| [watchPluginPaths](#watchPluginPaths)         |                                                                                     |
+---
+
+### [watchPluginPaths](#watchPluginPaths)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.plugins.watchPluginPaths() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -373,3 +460,4 @@ These modules will not be accessible to other plugins or to the main application
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

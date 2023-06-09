@@ -25,7 +25,10 @@ Secondary Window Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,9 +37,13 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [SecondaryWindow](#SecondaryWindow)         |                                                                                     |
+
+### [SecondaryWindow](#SecondaryWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow(app) -> SecondaryWindow`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,59 +52,95 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>A new `SecondaryWindow` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [browserGroupUI](#browserGroupUI)         |                                                                                     |
+
+### [browserGroupUI](#browserGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.browserGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI element that will contain the `Browser` if it's on the Secondary Window.                                                                     |
 
-| [frame](#frame)         |                                                                                     |
+---
+
+### [frame](#frame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.frame <cp.prop: frame>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current position (x, y, width, height) of the window.                                                                     |
 
-| [hsWindow](#hsWindow)         |                                                                                     |
+---
+
+### [hsWindow](#hsWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.hsWindow <cp.prop: hs.window; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.window` instance for the window, or `nil` if it can't be found.                                                                     |
 
-| [isFullScreen](#isFullScreen)         |                                                                                     |
+---
+
+### [isFullScreen](#isFullScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.isFullScreen <cp.prop: boolean; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is full-screen.                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.isShowing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is visible.                                                                     |
 
-| [rootGroupUI](#rootGroupUI)         |                                                                                     |
+---
+
+### [rootGroupUI](#rootGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.rootGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The root UI element on the window.                                                                     |
 
-| [timelineGroupUI](#timelineGroupUI)         |                                                                                     |
+---
+
+### [timelineGroupUI](#timelineGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.timelineGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI element that will contain the `Timeline` if it's on the Secondary Window.                                                                     |
 
-| [viewerGroupUI](#viewerGroupUI)         |                                                                                     |
+---
+
+### [viewerGroupUI](#viewerGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow.viewerGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI element that will contain the `Viewer` if it's on the Secondary Window.                                                                     |
 
+---
 ### Methods
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow:app() -> App`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +149,11 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,7 +162,11 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>The `SecondaryWindow` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.SecondaryWindow:show() -> SecondaryWindow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -124,3 +175,4 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>The `SecondaryWindow` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

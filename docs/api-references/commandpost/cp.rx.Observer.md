@@ -16,7 +16,10 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observer.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,9 +28,13 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>`true` if the thing is an `Observer`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observer.create(onNext, onError, onCompleted) -> cp.rx.Observer`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -36,9 +43,13 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>The new Observer.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [onCompleted](#onCompleted)         |                                                                                     |
+
+### [onCompleted](#onCompleted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observer:onCompleted() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -47,7 +58,11 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onError](#onError)         |                                                                                     |
+---
+
+### [onError](#onError)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observer:onError(message) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -56,7 +71,11 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onNext](#onNext)         |                                                                                     |
+---
+
+### [onNext](#onNext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observer:onNext(...) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,3 +84,4 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

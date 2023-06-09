@@ -17,7 +17,10 @@ Represents a Tangent Mode
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.mode.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>`true` if is a mode otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [mode](#mode)         |                                                                                     |
+
+### [mode](#mode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.mode(id, name)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -37,9 +44,13 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li> *</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.mode:activate() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,7 +59,11 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onActivate](#onActivate)         |                                                                                     |
+---
+
+### [onActivate](#onActivate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.mode:onActivate(activateFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -57,7 +72,11 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>```lua</li><li>function() -> nil</li><li>```</li></ul>                |
 
-| [onDeactivate](#onDeactivate)         |                                                                                     |
+---
+
+### [onDeactivate](#onDeactivate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.mode:onDeactivate(deactivateFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +85,11 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.mode:xml() -> cp.web.xml`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,3 +98,4 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>The `xml` for the Mode.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

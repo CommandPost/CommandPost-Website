@@ -11,7 +11,10 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 
 ### Functions
 
-| [doEditNewLowerThirds](#doEditNewLowerThirds)         |                                                                                     |
+
+### [doEditNewLowerThirds](#doEditNewLowerThirds)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.editnewtitle.doEditNewLowerThirds() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 | **Returns**                                 | <ul><li>The `Statement` that will create the new title.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doEditNewTitle](#doEditNewTitle)         |                                                                                     |
+---
+
+### [doEditNewTitle](#doEditNewTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.editnewtitle.doEditNewTitle() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 | **Returns**                                 | <ul><li>The `Statement` that will create the new title.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

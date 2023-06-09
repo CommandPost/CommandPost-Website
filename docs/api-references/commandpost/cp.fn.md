@@ -48,7 +48,10 @@ often with configuration parameters passed in.
 
 ### Functions
 
-| [all](#all)         |                                                                                     |
+
+### [all](#all)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.all(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -57,7 +60,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that passes its arguments to all the functions in `fns` and returns the last result, if all functions return a `truthy` value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [any](#any)         |                                                                                     |
+---
+
+### [any](#any)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.any(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -66,7 +73,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that passes its arguments to all the functions in `fns` and returns the first `truthy` result,</li><li>   or `nil` if all functions return a 'falsy' value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [call](#call)         |                                                                                     |
+---
+
+### [call](#call)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.call(fn) -> ...`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -75,7 +86,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The results of the function call.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [chain](#chain)         |                                                                                     |
+---
+
+### [chain](#chain)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.chain(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -84,7 +99,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes any number of inputs and returns any number of inputs.</li></ul>          |
 | **Notes**                                   | <ul><li>The difference between `chain` and `pipe` is that chain will fail early with a `nil` result, while `pipe` will pass the `nil` onto the next function.</li><li>Alternately, you can create a chain using the `//` operator, followed by `>>` for each subsequent function. Eg: `chain // fn1 >> fn2 >> fn3`.</li><li>If using the alternate syntax, you may have to put parentheses around the chain if mixing with other operators like `pipe` or `compose`.</li></ul>                |
 
-| [compare](#compare)         |                                                                                     |
+---
+
+### [compare](#compare)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.compare(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -93,7 +112,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes two inputs and `true` if the first input is less than the second input.</li></ul>          |
 | **Notes**                                   | <ul><li>The comparators are called in the order they are provided.</li><li>If no comparators are provided, returns a `nil` function, which is generally sorted with the standard `<` operator.</li></ul>                |
 
-| [compose](#compose)         |                                                                                     |
+---
+
+### [compose](#compose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.compose(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -102,7 +125,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes the input for the last function, and returns the result of the first function.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [constant](#constant)         |                                                                                     |
+---
+
+### [constant](#constant)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.constant(value) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -111,7 +138,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that always returns the value `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [curry](#curry)         |                                                                                     |
+---
+
+### [curry](#curry)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.curry(function, argCount) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -120,7 +151,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that accepts the first argument.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [debug](#debug)         |                                                                                     |
+---
+
+### [debug](#debug)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.debug(message, ...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -129,7 +164,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that will print the provided message to the console.</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for debugging, but is not recommended for production code.</li><li>For example, the following will return "b" and also print `"table: 0xXXXXXXXXX"` and `"b"` to the console:</li><li>   `fn.chain // fn.constant({"a", "b", "c"}) >> fn.debug("%d") >> fn.table.get(2) >> fn.debug("%d")`</li><li>Optional functions can be passed in, which will be provided the values passed to the returned function.</li><li>If not provided, the values will be passed into the message for formatting directly.</li><li>The returned function will always return the values passed in.</li></ul>                |
 
-| [flip](#flip)         |                                                                                     |
+---
+
+### [flip](#flip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.flip(fn) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -138,7 +177,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that accepts the second argument and returns</li><li>    a function expecting the first argument.</li></ul>          |
 | **Notes**                                   | <ul><li>If multiple arguments are provided for either function, the order of the arguments within that list are not flipped.</li></ul>                |
 
-| [fork](#fork)         |                                                                                     |
+---
+
+### [fork](#fork)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.fork(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -147,7 +190,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that returns the result of calling `...` with the functions passed in.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [identity](#identity)         |                                                                                     |
+---
+
+### [identity](#identity)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.identity(...) -> ...`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -156,7 +203,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The values passed in.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ifilter](#ifilter)         |                                                                                     |
+---
+
+### [ifilter](#ifilter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.ifilter([predicate]) -> function(table) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -165,7 +216,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes a table and returns a filtered table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [none](#none)         |                                                                                     |
+---
+
+### [none](#none)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.none(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -174,7 +229,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function which will be `true` if all of the functions in `fns` are `falsy`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [over](#over)         |                                                                                     |
+---
+
+### [over](#over)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.over(setter, fn) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -183,7 +242,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A root transform function.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pipe](#pipe)         |                                                                                     |
+---
+
+### [pipe](#pipe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.pipe(...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -192,7 +255,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes any number of inputs and returns any number of inputs.</li></ul>          |
 | **Notes**                                   | <ul><li>The difference between `chain` and `pipe` is that chain will fail early with a `nil` result, while `pipe` will pass the `nil` onto the next function.</li></ul>                |
 
-| [prefix](#prefix)         |                                                                                     |
+---
+
+### [prefix](#prefix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.prefix(fn, ...) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -201,7 +268,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes the remainder of `fn`'s arguments and returns the result of `fn` with the provided arguments prepended.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reduce](#reduce)         |                                                                                     |
+---
+
+### [reduce](#reduce)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.reduce(fn, initial, ...) -> any`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -210,7 +281,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The reduced value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [resolve](#resolve)         |                                                                                     |
+---
+
+### [resolve](#resolve)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.resolve(value, ...) -> any`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -219,7 +294,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The resolved value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [set](#set)         |                                                                                     |
+---
+
+### [set](#set)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.set(setter, value) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -228,7 +307,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A root transform function.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [uncurry](#uncurry)         |                                                                                     |
+---
+
+### [uncurry](#uncurry)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.uncurry(fn, argCount) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -237,7 +320,11 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes the specified number of arguments.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [with](#with)         |                                                                                     |
+---
+
+### [with](#with)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.fn.with(value, fn) -> function`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -246,3 +333,4 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that will call the provided function with the provided value as the first argument.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

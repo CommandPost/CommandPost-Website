@@ -21,29 +21,44 @@ Accessibility Plugin.
 
 ### Constants
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.enabled <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Is `true` if Accessibility permissions have been enabled for CommandPost.                                                                     |
 
+---
 ### Variables
 
-| [shouldWeTryCloseSystemPreferences](#shouldWeTryCloseSystemPreferences)         |                                                                                     |
+
+### [shouldWeTryCloseSystemPreferences](#shouldWeTryCloseSystemPreferences)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.shouldWeTryCloseSystemPreferences -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Should we try and close system preferences?                                                                     |
 
-| [systemPreferencesAlreadyOpen](#systemPreferencesAlreadyOpen)         |                                                                                     |
+---
+
+### [systemPreferencesAlreadyOpen](#systemPreferencesAlreadyOpen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.systemPreferencesAlreadyOpen -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Was System Preferences already open?                                                                     |
 
+---
 ### Functions
 
-| [completeSetupPanel](#completeSetupPanel)         |                                                                                     |
+
+### [completeSetupPanel](#completeSetupPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.completeSetupPanel() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +67,11 @@ Accessibility Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.init(setup) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +80,11 @@ Accessibility Plugin.
 | **Returns**                                 | <ul><li>The module as a table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showSetupPanel](#showSetupPanel)         |                                                                                     |
+---
+
+### [showSetupPanel](#showSetupPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.accessibility.showSetupPanel() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,3 +93,4 @@ Accessibility Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

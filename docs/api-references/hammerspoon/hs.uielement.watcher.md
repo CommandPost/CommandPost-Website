@@ -39,7 +39,10 @@ These work on all UI elements, including windows.
 
 ### Methods
 
-| [element](#element)         |                                                                                     |
+
+### [element](#element)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement.watcher:element() -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,7 +51,11 @@ These work on all UI elements, including windows.
 | **Returns**                                 | <ul><li>The element the watcher is watching.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pid](#pid)         |                                                                                     |
+---
+
+### [pid](#pid)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement.watcher:pid() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -57,7 +64,11 @@ These work on all UI elements, including windows.
 | **Returns**                                 | <ul><li>The PID of the element being watched</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement.watcher:start(events) -> hs.uielement.watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +77,11 @@ These work on all UI elements, including windows.
 | **Returns**                                 | <ul><li>hs.uielement.watcher</li></ul>          |
 | **Notes**                                   | <ul><li>See hs.uielement.watcher for a list of events. You may also specify arbitrary event names as strings.</li><li>Does nothing if the watcher has already been started. To start with different events, stop it first.</li></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.uielement.watcher:stop() -> hs.uielement.watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,3 +90,4 @@ These work on all UI elements, including windows.
 | **Returns**                                 | <ul><li>hs.uielement.watcher</li></ul>          |
 | **Notes**                                   | <ul><li>This is automatically called if the element is destroyed.</li></ul>                |
 
+---

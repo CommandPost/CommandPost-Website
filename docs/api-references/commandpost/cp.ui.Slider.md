@@ -26,7 +26,10 @@ Slider Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,9 +38,13 @@ Slider Module.
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Slider](#Slider)         |                                                                                     |
+
+### [Slider](#Slider)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider(parent, uiFinder) -> cp.ui.Slider`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -46,29 +53,45 @@ Slider Module.
 | **Returns**                                 | <ul><li>A new `Slider` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [maxValue](#maxValue)         |                                                                                     |
+
+### [maxValue](#maxValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider.maxValue <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the maximum value of the slider.                                                                     |
 
-| [minValue](#minValue)         |                                                                                     |
+---
+
+### [minValue](#minValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider.minValue <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the minimum value of the slider.                                                                     |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider.value <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Sets or gets the value of the slider.                                                                     |
 
+---
 ### Methods
 
-| [decrement](#decrement)         |                                                                                     |
+
+### [decrement](#decrement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:decrement() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -77,7 +100,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getMaxValue](#getMaxValue)         |                                                                                     |
+---
+
+### [getMaxValue](#getMaxValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:getMaxValue() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +113,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>The value as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getMinValue](#getMinValue)         |                                                                                     |
+---
+
+### [getMinValue](#getMinValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:getMinValue() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +126,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>The value as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getValue](#getValue)         |                                                                                     |
+---
+
+### [getValue](#getValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:getValue() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,7 +139,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>The value of the slider as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [increment](#increment)         |                                                                                     |
+---
+
+### [increment](#increment)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:increment() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,7 +152,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -122,7 +165,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -131,7 +178,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>A table containing the current Slider Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setValue](#setValue)         |                                                                                     |
+---
+
+### [setValue](#setValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:setValue(value) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -140,7 +191,11 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftValue](#shiftValue)         |                                                                                     |
+---
+
+### [shiftValue](#shiftValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Slider:shiftValue(value) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -149,3 +204,4 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

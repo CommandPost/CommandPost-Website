@@ -45,33 +45,52 @@ Color ColorPuck Module.
 
 ### Constants
 
-| [DEFAULT_ANGLES](#DEFAULT_ANGLES)         |                                                                                     |
+
+### [DEFAULT_ANGLES](#DEFAULT_ANGLES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.DEFAULT_ANGLES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The table of default angles for the various pucks (1-4).                                                                     |
 
-| [ELASTICITY](#ELASTICITY)         |                                                                                     |
+---
+
+### [ELASTICITY](#ELASTICITY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.ELASTICITY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Elasticity as number.                                                                     |
 
-| [NATURAL_LENGTH](#NATURAL_LENGTH)         |                                                                                     |
+---
+
+### [NATURAL_LENGTH](#NATURAL_LENGTH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.NATURAL_LENGTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Natural Length as number.                                                                     |
 
-| [RANGE](#RANGE)         |                                                                                     |
+---
+
+### [RANGE](#RANGE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.RANGE -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of puck ranges.                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -80,9 +99,13 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ColorPuck](#ColorPuck)         |                                                                                     |
+
+### [ColorPuck](#ColorPuck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck(parent, puckNumber, labelKeys, hasAngle) -> ColorPuck`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -91,41 +114,65 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [angle](#angle)         |                                                                                     |
+
+### [angle](#angle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.angle <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'angle' text field (only present for the 'color' aspect).                                                                     |
 
-| [label](#label)         |                                                                                     |
+---
+
+### [label](#label)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.label <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The human-readable label for the puck, in FCPX's current language.                                                                     |
 
-| [percent](#percent)         |                                                                                     |
+---
+
+### [percent](#percent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.percent <cp.prop: TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'percent' text field.                                                                     |
 
-| [row](#row)         |                                                                                     |
+---
+
+### [row](#row)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.row <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Finds the 'row' for the property type.                                                                     |
 
-| [skimming](#skimming)         |                                                                                     |
+---
+
+### [skimming](#skimming)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck.skimming <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Skimming Preferences value.                                                                     |
 
+---
 ### Methods
 
-| [accumulate](#accumulate)         |                                                                                     |
+
+### [accumulate](#accumulate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:accumulate(xShift, yShift) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -134,7 +181,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>`x` - Accumulated `x` value as number</li><li>`y` - Accumulated `y` value as number</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [cleanup](#cleanup)         |                                                                                     |
+---
+
+### [cleanup](#cleanup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:cleanup() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -143,7 +194,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [colorMarker](#colorMarker)         |                                                                                     |
+---
+
+### [colorMarker](#colorMarker)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:colorMarker(pct, angle) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -152,7 +207,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [contentUI](#contentUI)         |                                                                                     |
+---
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:contentUI() -> axuielementObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -161,7 +220,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>An `axuielementObject` or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doReset](#doReset)         |                                                                                     |
+---
+
+### [doReset](#doReset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:doReset() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -170,7 +233,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful, or throwing an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelect](#doSelect)         |                                                                                     |
+---
+
+### [doSelect](#doSelect)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:doSelect() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -179,7 +246,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or throwing an error if no.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShiftPercent](#doShiftPercent)         |                                                                                     |
+---
+
+### [doShiftPercent](#doShiftPercent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:doShiftPercent(amount) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -188,7 +259,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to the updated percent value, or throwing an error if there is a problem.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -197,7 +272,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or sending an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [drawMarker](#drawMarker)         |                                                                                     |
+---
+
+### [drawMarker](#drawMarker)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:drawMarker() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -206,7 +285,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getArc](#getArc)         |                                                                                     |
+---
+
+### [getArc](#getArc)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:getArc() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -215,7 +298,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The arc value as number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getBrightness](#getBrightness)         |                                                                                     |
+---
+
+### [getBrightness](#getBrightness)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:getBrightness() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -224,7 +311,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The brightness value as number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasAngle](#hasAngle)         |                                                                                     |
+---
+
+### [hasAngle](#hasAngle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:hasAngle() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -233,7 +324,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>`true` if the puck has an `angle`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [index](#index)         |                                                                                     |
+---
+
+### [index](#index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:index() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -242,7 +337,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The puck number.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loop](#loop)         |                                                                                     |
+---
+
+### [loop](#loop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:loop() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -251,7 +350,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:reset() -> cp.apple.finalcutpro.inspector.color.ColorPuck`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -260,7 +363,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [select](#select)         |                                                                                     |
+---
+
+### [select](#select)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:select() -> cp.apple.finalcutpro.inspector.color.ColorPuck`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -269,7 +376,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftAngle](#shiftAngle)         |                                                                                     |
+---
+
+### [shiftAngle](#shiftAngle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:shiftAngle(amount) -> cp.apple.finalcutpro.inspector.color.ColorPuck`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -278,7 +389,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shiftPercent](#shiftPercent)         |                                                                                     |
+---
+
+### [shiftPercent](#shiftPercent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:shiftPercent(amount) -> cp.apple.finalcutpro.inspector.color.ColorPuck`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -287,7 +402,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The updated value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:show() -> cp.apple.finalcutpro.inspector.color.ColorPuck`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -296,7 +415,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ColorPuck` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:start() -> cp.apple.finalcutpro.inspector.color.ColorPuck`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -305,7 +428,11 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorPuck:stop() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -314,3 +441,4 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

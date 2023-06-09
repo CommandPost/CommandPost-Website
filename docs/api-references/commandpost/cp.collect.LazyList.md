@@ -18,7 +18,10 @@ lists that are expensive to create, but are only required when they are actually
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.collect.LazyList.new(lenFn, getFn[, options]) -> cp.collect.LazyList`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -27,3 +30,4 @@ lists that are expensive to create, but are only required when they are actually
 | **Returns**                                 | <ul><li>A new `LazyList` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `lenFn` function has the signature `function() -> number`.</li><li>The `getFn` function has the signature `function(index) -> item`.</li><li>The `options` table has the following keys:</li><li> `cached` - A boolean indicating whether the list should cache the results of the `getFn`. Defaults to `false`.</li></ul>                |
 
+---

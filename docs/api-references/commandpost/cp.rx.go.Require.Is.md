@@ -12,15 +12,22 @@ Specifies that the `Require`d value `Is` a specific value.
 
 ### Constants
 
-| [Is](#Is)         |                                                                                     |
+
+### [Is](#Is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.Is <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value all values from the `requirement` must match.                                                                     |
 
+---
 ### Methods
 
-| [OrThrow](#OrThrow)         |                                                                                     |
+
+### [OrThrow](#OrThrow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.Is:OrThrow(...) -> Require.OrThrow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -29,3 +36,4 @@ Specifies that the `Require`d value `Is` a specific value.
 | **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

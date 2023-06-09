@@ -12,7 +12,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 
 ### Constructors
 
-| [VideoSubrole](#VideoSubrole)         |                                                                                     |
+
+### [VideoSubrole](#VideoSubrole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.VideoSubrole(parent, uiFinder)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -21,3 +24,4 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

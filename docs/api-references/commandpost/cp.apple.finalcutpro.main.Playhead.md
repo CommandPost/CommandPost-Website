@@ -23,7 +23,10 @@ Playhead Module.
 
 ### Functions
 
-| [find](#find)         |                                                                                     |
+
+### [find](#find)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.find(containerUI, skimming) -> hs.axuielement object | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +35,11 @@ Playhead Module.
 | **Returns**                                 | <ul><li>The playhead `hs.axuielement` object or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,9 +48,13 @@ Playhead Module.
 | **Returns**                                 | <ul><li>`true` if the `element` is the Playhead otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Playhead](#Playhead)         |                                                                                     |
+
+### [Playhead](#Playhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead(parent[, skimming[, containerFn[, useEventViewer]]]) -> Playhead`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -52,47 +63,75 @@ Playhead Module.
 | **Returns**                                 | <ul><li>The new `Playhead` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [center](#center)         |                                                                                     |
+
+### [center](#center)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.center <cp.prop: hs.geometry.point; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the centre point (`{x, y}`) of the playhead.                                                                     |
 
-| [currentViewer](#currentViewer)         |                                                                                     |
+---
+
+### [currentViewer](#currentViewer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.currentViewer <cp.prop: cp.apple.finalcutpro.viewer.Viewer; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Represents the current viewer for the playhead. This may be either the primary Viewer or the Event Viewer,                                                                     |
 
-| [frame](#frame)         |                                                                                     |
+---
+
+### [frame](#frame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.frame <cp.prop: hs.geometry.frame; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the frame of the playhead.                                                                     |
 
-| [isPersistent](#isPersistent)         |                                                                                     |
+---
+
+### [isPersistent](#isPersistent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.isPersistent <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the playhead persistent?                                                                     |
 
-| [position](#position)         |                                                                                     |
+---
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.position <cp.prop; number; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the horizontal position of the playhead line, which may be different to the `x` position of the playhead.                                                                     |
 
-| [timecode](#timecode)         |                                                                                     |
+---
+
+### [timecode](#timecode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead.timecode <cp.prop: string; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets and sets the current timecode.                                                                     |
 
+---
 ### Methods
 
-| [hide](#hide)         |                                                                                     |
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead:hide() -> Playhead object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -101,7 +140,11 @@ Playhead Module.
 | **Returns**                                 | <ul><li>Playhead object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Playhead:show() -> Playhead object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,3 +153,4 @@ Playhead Module.
 | **Returns**                                 | <ul><li>Playhead object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

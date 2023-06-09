@@ -10,7 +10,10 @@ Final Cut Pro Language Plugin.
 
 ### Functions
 
-| [change](#change)         |                                                                                     |
+
+### [change](#change)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.language.change(locale) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Final Cut Pro Language Plugin.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

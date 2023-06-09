@@ -17,51 +17,83 @@ Razer Preferences Panel
 
 ### Fields
 
-| [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)         |                                                                                     |
+
+### [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.changeBankOnHardwareWhenChangingHere <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we change bank on hardware when changing in preferences?                                                                     |
 
-| [lastApplication](#lastApplication)         |                                                                                     |
+---
+
+### [lastApplication](#lastApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
 
-| [lastControlID](#lastControlID)         |                                                                                     |
+---
+
+### [lastControlID](#lastControlID)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.lastControlID <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control ID used in the Preferences Panel.                                                                     |
 
-| [lastControlType](#lastControlType)         |                                                                                     |
+---
+
+### [lastControlType](#lastControlType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.lastControlType <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control Type used in the Preferences Panel.                                                                     |
 
-| [lastDevice](#lastDevice)         |                                                                                     |
+---
+
+### [lastDevice](#lastDevice)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.lastDevice <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
 
-| [lastExportPath](#lastExportPath)         |                                                                                     |
+---
+
+### [lastExportPath](#lastExportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 
-| [lastImportPath](#lastImportPath)         |                                                                                     |
+---
+
+### [lastImportPath](#lastImportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 
-| [pasteboard](#pasteboard)         |                                                                                     |
+---
+
+### [pasteboard](#pasteboard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.razer.prefs.pasteboard <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pasteboard                                                                     |
 
+---

@@ -17,7 +17,10 @@ Info Inspector Module when a Project is selected.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoProjectInspector.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,9 +29,13 @@ Info Inspector Module when a Project is selected.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoProjectInspector.new(parent) -> InfoProjectInspector object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -37,17 +44,25 @@ Info Inspector Module when a Project is selected.
 | **Returns**                                 | <ul><li>A InfoProjectInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [modify](#modify)         |                                                                                     |
+
+### [modify](#modify)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoProjectInspector.modify <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Modify Project button in the Info Inspector.                                                                     |
 
+---
 ### Methods
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoProjectInspector:doShow() -> cp.rx.go.Statment`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -56,7 +71,11 @@ Info Inspector Module when a Project is selected.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful and sending an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [propertiesUI](#propertiesUI)         |                                                                                     |
+---
+
+### [propertiesUI](#propertiesUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoProjectInspector:propertiesUI() -> hs.axuielement object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,3 +84,4 @@ Info Inspector Module when a Project is selected.
 | **Returns**                                 | <ul><li>A `hs.axuielement` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -19,7 +19,10 @@ Represents an `AXRow` `axuielement`.
 
 ### Constructors
 
-| [OldRow](#OldRow)         |                                                                                     |
+
+### [OldRow](#OldRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow(parent, uiFinder) -> cp.ui.OldRow`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -28,35 +31,55 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [disclosing](#disclosing)         |                                                                                     |
+
+### [disclosing](#disclosing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow.disclosing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the `Row` is disclosing other `Rows`.                                                                     |
 
-| [disclosureLevel](#disclosureLevel)         |                                                                                     |
+---
+
+### [disclosureLevel](#disclosureLevel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow.disclosureLevel <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The depth of disclosure. `0` is the top level.                                                                     |
 
-| [index](#index)         |                                                                                     |
+---
+
+### [index](#index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow.index <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this row in the overall container, with `0` being the first item.                                                                     |
 
-| [selected](#selected)         |                                                                                     |
+---
+
+### [selected](#selected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow.selected <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the row is currently selected. May be set.                                                                     |
 
+---
 ### Methods
 
-| [disclosedByRow](#disclosedByRow)         |                                                                                     |
+
+### [disclosedByRow](#disclosedByRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow:disclosedByRow() -> cp.ui.OldRow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,7 +88,11 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>A `cp.ui.OldRow` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disclosedRows](#disclosedRows)         |                                                                                     |
+---
+
+### [disclosedRows](#disclosedRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow:disclosedRows() -> table of cp.ui.OldRow or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +101,11 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The `table` of Rows, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldRow.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,3 +114,4 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

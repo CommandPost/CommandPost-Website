@@ -14,27 +14,42 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ### Fields
 
-| [audio](#audio)         |                                                                                     |
+
+### [audio](#audio)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.Type.audio <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Audio" filter.                                                                     |
 
-| [titles](#titles)         |                                                                                     |
+---
+
+### [titles](#titles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.Type.titles <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Titles" filter.                                                                     |
 
-| [video](#video)         |                                                                                     |
+---
+
+### [video](#video)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.Type.video <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Video" filter.                                                                     |
 
+---
 ### Methods
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.Type.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -43,3 +58,4 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -18,51 +18,82 @@ Switch focus with a transient per-application keyboard shortcut
 
 ### Variables
 
-| [fontName](#fontName)         |                                                                                     |
+
+### [fontName](#fontName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.fontName`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A fully specified family-face name, preferably the PostScript name, such as Helvetica-BoldOblique or Times-Roman. (The Font Book app displays PostScript names of fonts in the Font Info panel.)                                                                     |
 
-| [fontSize](#fontSize)         |                                                                                     |
+---
+
+### [fontSize](#fontSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.fontSize`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The size of font that should be used. A value of 0.0 will use the default size.                                                                     |
 
-| [hintChars](#hintChars)         |                                                                                     |
+---
+
+### [hintChars](#hintChars)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.hintChars`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | This controls the set of characters that will be used for window hints. They must be characters found in hs.keycodes.map                                                                     |
 
-| [iconAlpha](#iconAlpha)         |                                                                                     |
+---
+
+### [iconAlpha](#iconAlpha)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.iconAlpha`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Opacity of the application icon. Default is 0.95.                                                                     |
 
-| [showTitleThresh](#showTitleThresh)         |                                                                                     |
+---
+
+### [showTitleThresh](#showTitleThresh)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.showTitleThresh`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If there are less than or equal to this many windows on screen their titles will be shown in the hints.                                                                     |
 
-| [style](#style)         |                                                                                     |
+---
+
+### [style](#style)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.style`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If this is set to "vimperator", every window hint starts with the first character                                                                     |
 
-| [titleMaxSize](#titleMaxSize)         |                                                                                     |
+---
+
+### [titleMaxSize](#titleMaxSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.titleMaxSize`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If the title is longer than maxSize, the string is truncated, -1 to disable, valid value is >= 6                                                                     |
 
+---
 ### Functions
 
-| [windowHints](#windowHints)         |                                                                                     |
+
+### [windowHints](#windowHints)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hints.windowHints([windows, callback, allowNonStandard])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -71,3 +102,4 @@ Switch focus with a transient per-application keyboard shortcut
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If there are more windows open than there are characters available in hs.hints.hintChars, multiple characters will be used</li><li>If hints.style is set to "vimperator", every window hint is prefixed with the first character of the parent application's name</li><li>To display hints only for the currently focused application, try something like:</li><li> `hs.hints.windowHints(hs.window.focusedWindow():application():allWindows())`</li></ul>                |
 
+---

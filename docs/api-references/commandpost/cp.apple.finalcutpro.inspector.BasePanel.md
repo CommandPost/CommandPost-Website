@@ -17,7 +17,10 @@ Extends [Element](cp.ui.Element.md).
 
 ### Constructors
 
-| [BasePanel](#BasePanel)         |                                                                                     |
+
+### [BasePanel](#BasePanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel(parent, panelType) -> BasePanel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -26,9 +29,13 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `BasePanel` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:doShow() -> cp.rx.go.Statment`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -37,7 +44,11 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful and sending an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:hide() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [panelType](#panelType)         |                                                                                     |
+---
+
+### [panelType](#panelType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:panelType() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +70,11 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The panel type identifier.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:show() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,3 +83,4 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

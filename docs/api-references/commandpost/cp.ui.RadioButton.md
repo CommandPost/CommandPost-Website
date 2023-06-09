@@ -40,7 +40,10 @@ myButton(false) == false	-- now false
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,17 +52,25 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [checked](#checked)         |                                                                                     |
+
+### [checked](#checked)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton.checked <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the checkbox is currently checked. May be set by calling as a function with `true` or `false` to the function.                                                                     |
 
+---
 ### Methods
 
-| [doCheck](#doCheck)         |                                                                                     |
+
+### [doCheck](#doCheck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:doCheck() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -68,7 +79,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doLayout](#doLayout)         |                                                                                     |
+---
+
+### [doLayout](#doLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:doLayout(layout) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -77,7 +92,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doPress](#doPress)         |                                                                                     |
+---
+
+### [doPress](#doPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:doPress() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +105,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doToggle](#doToggle)         |                                                                                     |
+---
+
+### [doToggle](#doToggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:doToggle() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +118,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doUncheck](#doUncheck)         |                                                                                     |
+---
+
+### [doUncheck](#doUncheck)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:doUncheck() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,7 +131,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:loadLayout(layout) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,7 +144,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [press](#press)         |                                                                                     |
+---
+
+### [press](#press)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:press() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -122,7 +157,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [RadioButton](#RadioButton)         |                                                                                     |
+---
+
+### [RadioButton](#RadioButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton(axuielement, function) -> RadioButton`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -131,7 +170,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The new `RadioButton`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -140,7 +183,11 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The table of the layout state.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggle](#toggle)         |                                                                                     |
+---
+
+### [toggle](#toggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.RadioButton:toggle() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -149,3 +196,4 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

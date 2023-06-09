@@ -52,15 +52,22 @@ Usage:
 
 ### Constants
 
-| [types](#types)         |                                                                                     |
+
+### [types](#types)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins.types -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of the different audio/video/transition/generator types.                                                                     |
 
+---
 ### Functions
 
-| [clearCaches](#clearCaches)         |                                                                                     |
+
+### [clearCaches](#clearCaches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins.clearCaches() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -69,7 +76,11 @@ Usage:
 | **Returns**                                 | <ul><li>`true` if the caches have been cleared successfully.</li></ul>          |
 | **Notes**                                   | <ul><li>Does not uninstall any of the actual plugins.</li></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins.new(fcp) -> plugins object`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -78,7 +89,11 @@ Usage:
 | **Returns**                                 | <ul><li>The plugins object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scan](#scan)         |                                                                                     |
+---
+
+### [scan](#scan)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scan() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -87,7 +102,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanAppEffectsPresets](#scanAppEffectsPresets)         |                                                                                     |
+---
+
+### [scanAppEffectsPresets](#scanAppEffectsPresets)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanAppEffectsPresets(locale) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -96,7 +115,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanned](#scanned)         |                                                                                     |
+---
+
+### [scanned](#scanned)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins.scanned() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -105,7 +128,11 @@ Usage:
 | **Returns**                                 | <ul><li>`true` is scanned otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanSystemAudioUnits](#scanSystemAudioUnits)         |                                                                                     |
+---
+
+### [scanSystemAudioUnits](#scanSystemAudioUnits)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanSystemAudioUnits(locale) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -114,7 +141,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanUserColorPresets](#scanUserColorPresets)         |                                                                                     |
+---
+
+### [scanUserColorPresets](#scanUserColorPresets)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanUserColorPresets(locale) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -123,7 +154,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanUserEffectsPresets](#scanUserEffectsPresets)         |                                                                                     |
+---
+
+### [scanUserEffectsPresets](#scanUserEffectsPresets)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanUserEffectsPresets(locale) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -132,9 +167,13 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [app](#app)         |                                                                                     |
+
+### [app](#app)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:app() -> plugins`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -143,7 +182,11 @@ Usage:
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [audioEffects](#audioEffects)         |                                                                                     |
+---
+
+### [audioEffects](#audioEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:audioEffects([locale]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -152,7 +195,11 @@ Usage:
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [effectBundleStrings](#effectBundleStrings)         |                                                                                     |
+---
+
+### [effectBundleStrings](#effectBundleStrings)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:effectBundleStrings() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -161,7 +208,11 @@ Usage:
 | **Returns**                                 | <ul><li>The effect bundle strings in a table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [effectStrings](#effectStrings)         |                                                                                     |
+---
+
+### [effectStrings](#effectStrings)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:effectStrings() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -170,7 +221,11 @@ Usage:
 | **Returns**                                 | <ul><li>A table of effect strings.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generators](#generators)         |                                                                                     |
+---
+
+### [generators](#generators)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:generators([locale]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -179,7 +234,11 @@ Usage:
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [ofType](#ofType)         |                                                                                     |
+---
+
+### [ofType](#ofType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:ofType(type[, locale]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -188,7 +247,11 @@ Usage:
 | **Returns**                                 | <ul><li>A table of the available plugins of the specified type.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [registerPlugin](#registerPlugin)         |                                                                                     |
+---
+
+### [registerPlugin](#registerPlugin)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:registerPlugin(path, type, categoryName, themeName, pluginName, locale) -> plugin`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -197,7 +260,11 @@ Usage:
 | **Returns**                                 | <ul><li>The plugin object.</li></ul>          |
 | **Notes**                                   | <ul><li>`locale` defaults to the current Final Cut Pro locale if nothing is supplied.</li></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:reset() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -206,7 +273,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanAll](#scanAll)         |                                                                                     |
+---
+
+### [scanAll](#scanAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanAll() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -215,7 +286,11 @@ Usage:
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanAppAudioEffectBundles](#scanAppAudioEffectBundles)         |                                                                                     |
+---
+
+### [scanAppAudioEffectBundles](#scanAppAudioEffectBundles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanAppAudioEffectBundles() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -224,7 +299,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanAppBuiltInPlugins](#scanAppBuiltInPlugins)         |                                                                                     |
+---
+
+### [scanAppBuiltInPlugins](#scanAppBuiltInPlugins)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanAppBuiltInPlugins([locale]) -> None`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -233,7 +312,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanAppEdelEffects](#scanAppEdelEffects)         |                                                                                     |
+---
+
+### [scanAppEdelEffects](#scanAppEdelEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanAppEdelEffects() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -242,7 +325,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanAppMotionTemplates](#scanAppMotionTemplates)         |                                                                                     |
+---
+
+### [scanAppMotionTemplates](#scanAppMotionTemplates)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanAppMotionTemplates(locale) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -251,7 +338,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanPluginCategoryDirectory](#scanPluginCategoryDirectory)         |                                                                                     |
+---
+
+### [scanPluginCategoryDirectory](#scanPluginCategoryDirectory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanPluginCategoryDirectory(locale, path, plugin) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -260,7 +351,11 @@ Usage:
 | **Returns**                                 | <ul><li>`true` if the folder was scanned successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanPluginsDirectory](#scanPluginsDirectory)         |                                                                                     |
+---
+
+### [scanPluginsDirectory](#scanPluginsDirectory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanPluginsDirectory(locale, path, filter) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -269,7 +364,11 @@ Usage:
 | **Returns**                                 | <ul><li>`true` if the plugin directory was successfully scanned.</li></ul>          |
 | **Notes**                                   | <ul><li>Plugins directories have a standard structure which comes in two flavours:</li><li>  ** <type>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<theme>/<plugin name>/<plugin name>.<ext></li><li>This is somewhat complicated by 'localization', wherein each of the folder levels may have a `.localized` extension. If this is the case, it will contain a subfolder called `.localized`, which in turn contains files which describe the local name for the folder in any number of locales.</li><li>This function will drill down through the contents of the specified `path`, assuming the above structure, and then register any contained plugins in the `locale` provided. Other locales are ignored, other than some use of English when checking for specific effect types (Effect, Generator, etc.).</li></ul>                |
 
-| [scanPluginThemeDirectory](#scanPluginThemeDirectory)         |                                                                                     |
+---
+
+### [scanPluginThemeDirectory](#scanPluginThemeDirectory)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanPluginThemeDirectory(locale, path, plugin) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -278,7 +377,11 @@ Usage:
 | **Returns**                                 | <ul><li>`true` if the folder was scanned successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanSystemMotionTemplates](#scanSystemMotionTemplates)         |                                                                                     |
+---
+
+### [scanSystemMotionTemplates](#scanSystemMotionTemplates)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanSystemMotionTemplates(locale) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -287,7 +390,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [scanUserMotionTemplates](#scanUserMotionTemplates)         |                                                                                     |
+---
+
+### [scanUserMotionTemplates](#scanUserMotionTemplates)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:scanUserMotionTemplates(locale) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -296,7 +403,11 @@ Usage:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [titles](#titles)         |                                                                                     |
+---
+
+### [titles](#titles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:titles([locale]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -305,7 +416,11 @@ Usage:
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [transitions](#transitions)         |                                                                                     |
+---
+
+### [transitions](#transitions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:transitions([locale]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -314,7 +429,11 @@ Usage:
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [translateEffectBundle](#translateEffectBundle)         |                                                                                     |
+---
+
+### [translateEffectBundle](#translateEffectBundle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:translateEffectBundle(input, locale) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -323,7 +442,11 @@ Usage:
 | **Returns**                                 | <ul><li>The translated value for `input` in the specified locale, if present.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unwatch](#unwatch)         |                                                                                     |
+---
+
+### [unwatch](#unwatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:unwatch(id) -> watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -332,7 +455,11 @@ Usage:
 | **Returns**                                 | <ul><li>The watcher object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [videoEffects](#videoEffects)         |                                                                                     |
+---
+
+### [videoEffects](#videoEffects)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:videoEffects([locale]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -341,7 +468,11 @@ Usage:
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watch](#watch)         |                                                                                     |
+---
+
+### [watch](#watch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.plugins:watch(events) -> watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -350,3 +481,4 @@ Usage:
 | **Returns**                                 | <ul><li>The watcher object</li></ul>          |
 | **Notes**                                   | <ul><li>The events can be:</li><li> ** videoEffects</li><li> ** audioEffects</li><li> ** transitions</li><li> ** titles</li><li> ** generators</li></ul>                |
 
+---

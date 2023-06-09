@@ -18,7 +18,10 @@ Export Dialog Module.
 
 ### Constructors
 
-| [ExportDialogTitleText](#ExportDialogTitleText)         |                                                                                     |
+
+### [ExportDialogTitleText](#ExportDialogTitleText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialogTitleText(parent)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -27,23 +30,35 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [fileExtension](#fileExtension)         |                                                                                     |
+
+### [fileExtension](#fileExtension)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog.fileExtension <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "File Extension" [StaticText](cp.ui.StaticText.md).                                                                     |
 
-| [saveSheet](#saveSheet)         |                                                                                     |
+---
+
+### [saveSheet](#saveSheet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog.saveSheet <SaveSheet>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `SaveSheet`.                                                                     |
 
+---
 ### Methods
 
-| [hide](#hide)         |                                                                                     |
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog:hide() -> cp.apple.finalcutpro.export.ExportDialog`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -52,7 +67,11 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pressCancel](#pressCancel)         |                                                                                     |
+---
+
+### [pressCancel](#pressCancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog:pressCancel() -> cp.apple.finalcutpro.export.ExportDialog`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -61,7 +80,11 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pressNext](#pressNext)         |                                                                                     |
+---
+
+### [pressNext](#pressNext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog:pressNext() -> cp.apple.finalcutpro.export.ExportDialog`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -70,7 +93,11 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog:show(destinationSelect, ignoreProxyWarning, ignoreMissingMedia, ignoreInvalidCaptions, quiet) -> cp.apple.finalcutpro.export.ExportDialog, string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,3 +106,4 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li><li>If an error occurred, the message is returned as the second value</li></ul>          |
 | **Notes**                                   | <ul><li>If providing a function, it will be passed one item - the name of the destination, and should return `true` to indicate a match. The name will not contain " (default)" if present.</li></ul>                |
 
+---

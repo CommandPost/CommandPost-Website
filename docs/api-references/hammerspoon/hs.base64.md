@@ -13,7 +13,10 @@ Portions sourced from (https://gist.github.com/shpakovski/1902994).
 
 ### Functions
 
-| [decode](#decode)         |                                                                                     |
+
+### [decode](#decode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.base64.decode(str) -> val`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -22,7 +25,11 @@ Portions sourced from (https://gist.github.com/shpakovski/1902994).
 | **Returns**                                 | <ul><li>A string containing the decoded data</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [encode](#encode)         |                                                                                     |
+---
+
+### [encode](#encode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.base64.encode(val[,width]) -> str`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,3 +38,4 @@ Portions sourced from (https://gist.github.com/shpakovski/1902994).
 | **Returns**                                 | <ul><li>A string containing the base64 representation of the input string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

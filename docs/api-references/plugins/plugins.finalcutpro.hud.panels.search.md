@@ -20,69 +20,113 @@ Ten Panel for the Final Cut Pro HUD.
 
 ### Variables
 
-| [exactMatch](#exactMatch)         |                                                                                     |
+
+### [exactMatch](#exactMatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.exactMatch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Match Case                                                                     |
 
-| [filterBrowserBeforeSearch](#filterBrowserBeforeSearch)         |                                                                                     |
+---
+
+### [filterBrowserBeforeSearch](#filterBrowserBeforeSearch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.filterBrowserBeforeSearch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Filter Browser Before Search                                                                     |
 
-| [history](#history)         |                                                                                     |
+---
+
+### [history](#history)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.history <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Search History                                                                     |
 
-| [lastColumn](#lastColumn)         |                                                                                     |
+---
+
+### [lastColumn](#lastColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.lastColumn <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Last Column                                                                     |
 
-| [lastValue](#lastValue)         |                                                                                     |
+---
+
+### [lastValue](#lastValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.lastValue <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Last Value                                                                     |
 
-| [loopSearch](#loopSearch)         |                                                                                     |
+---
+
+### [loopSearch](#loopSearch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.loopSearch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Loop Search                                                                     |
 
-| [matchCase](#matchCase)         |                                                                                     |
+---
+
+### [matchCase](#matchCase)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.matchCase <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Match Case                                                                     |
 
-| [openProject](#openProject)         |                                                                                     |
+---
+
+### [openProject](#openProject)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.openProject <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Open Project                                                                     |
 
-| [playAfterFind](#playAfterFind)         |                                                                                     |
+---
+
+### [playAfterFind](#playAfterFind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.playAfterFind <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Play After Find                                                                     |
 
-| [searchEntireLibrary](#searchEntireLibrary)         |                                                                                     |
+---
+
+### [searchEntireLibrary](#searchEntireLibrary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.searchEntireLibrary <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Search Entire Library                                                                     |
 
-| [wholeWords](#wholeWords)         |                                                                                     |
+---
+
+### [wholeWords](#wholeWords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.wholeWords <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Whole Words                                                                     |
 
+---

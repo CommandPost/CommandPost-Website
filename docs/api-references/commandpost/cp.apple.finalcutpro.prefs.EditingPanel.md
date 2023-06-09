@@ -17,7 +17,10 @@ Editing Panel Module.
 
 ### Constructors
 
-| [EditingPanel](#EditingPanel)         |                                                                                     |
+
+### [EditingPanel](#EditingPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel(preferencesDialog) -> EditingPanel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -26,41 +29,66 @@ Editing Panel Module.
 | **Returns**                                 | <ul><li>A new `EditingPanel` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [audioFadeDuration](#audioFadeDuration)         |                                                                                     |
+
+### [audioFadeDuration](#audioFadeDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.audioFadeDuration <cp.ui.TextField: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Audio Fade Duration" `TextField` with a `number` value.                                                                     |
 
-| [positionPlayheadAfterEditOperation](#positionPlayheadAfterEditOperation)         |                                                                                     |
+---
+
+### [positionPlayheadAfterEditOperation](#positionPlayheadAfterEditOperation)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.positionPlayheadAfterEditOperation <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Position playhead after edit operation" `CheckBox`.                                                                     |
 
-| [showDetailedTrimmingFeedback](#showDetailedTrimmingFeedback)         |                                                                                     |
+---
+
+### [showDetailedTrimmingFeedback](#showDetailedTrimmingFeedback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.showDetailedTrimmingFeedback <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Show detailed trimming feedback" `CheckBox`.                                                                     |
 
-| [showReferenceWaveforms](#showReferenceWaveforms)         |                                                                                     |
+---
+
+### [showReferenceWaveforms](#showReferenceWaveforms)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.showReferenceWaveforms <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Show reference waveforms" `CheckBox`.                                                                     |
 
-| [stillImageDuration](#stillImageDuration)         |                                                                                     |
+---
+
+### [stillImageDuration](#stillImageDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.stillImageDuration <cp.ui.TextField: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Still image Duration" `TextField` with a `number` value.                                                                     |
 
-| [transitionDuration](#transitionDuration)         |                                                                                     |
+---
+
+### [transitionDuration](#transitionDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.EditingPanel.transitionDuration <cp.ui.TextField: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Transition Duration" `TextField` with a `number` value.                                                                     |
 
+---

@@ -37,23 +37,34 @@ A module for capturing and manipulating image objects from other modules for use
 
 ### Constants
 
-| [additionalImageNames](#additionalImageNames)         |                                                                                     |
+
+### [additionalImageNames](#additionalImageNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.additionalImageNames[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of arrays containing the names of additional internal system images which may also be available for use with `hs.drawing.image` and [hs.image.imageFromName](#imageFromName).                                                                     |
 | **Notes**                                   | <ul><li>The list of these images was pulled from a collection located in the repositories at https://github.com/hetima?tab=repositories.  As these image names are (for the most part) not formally listed in Apple's documentation or published APIs, their use cannot be guaranteed across all OS X versions.  If you identify any images which may be missing or could be added, please file an issue at https://github.com/Hammerspoon/hammerspoon.</li></ul>                |
 
-| [systemImageNames](#systemImageNames)         |                                                                                     |
+---
+
+### [systemImageNames](#systemImageNames)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.systemImageNames[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing the names of internal system images for use with hs.drawing.image                                                                     |
 | **Notes**                                   | <ul><li>Image names pulled from NSImage.h</li><li>This table has a __tostring() metamethod which allows listing it's contents in the Hammerspoon console by typing `hs.image.systemImageNames`.</li></ul>                |
 
+---
 ### Functions
 
-| [getExifFromPath](#getExifFromPath)         |                                                                                     |
+
+### [getExifFromPath](#getExifFromPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.getExifFromPath(path) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -62,9 +73,13 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>A table of EXIF metadata, or `nil` if no metadata can be found or the file path is invalid.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [iconForFile](#iconForFile)         |                                                                                     |
+
+### [iconForFile](#iconForFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.iconForFile(file) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -73,7 +88,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An `hs.image` object or nil, if there was an error.  The image will be the icon for the specified file or an icon representing multiple files if an array of multiple files is specified.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [iconForFileType](#iconForFileType)         |                                                                                     |
+---
+
+### [iconForFileType](#iconForFileType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.iconForFileType(fileType) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -82,7 +101,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An `hs.image` object or nil, if there was an error</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [imageFromAppBundle](#imageFromAppBundle)         |                                                                                     |
+---
+
+### [imageFromAppBundle](#imageFromAppBundle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.imageFromAppBundle(bundleID) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -91,7 +114,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An `hs.image` object or nil, if no app icon was found</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [imageFromASCII](#imageFromASCII)         |                                                                                     |
+---
+
+### [imageFromASCII](#imageFromASCII)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.imageFromASCII(ascii[, context]) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -102,7 +129,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An `hs.image` object, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>To use the ASCII diagram image support, see https://github.com/cparnot/ASCIImage and http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring</li><li>The default for lineWidth, when antialiasing is off, is defined within the ASCIImage library. Geometrically it represents one half of the hypotenuse of the unit right-triangle and is a more accurate representation of a "real" point size when dealing with arbitrary angles and lines than 1.0 would be.</li></ul>                |
 
-| [imageFromMediaFile](#imageFromMediaFile)         |                                                                                     |
+---
+
+### [imageFromMediaFile](#imageFromMediaFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.imageFromMediaFile(file) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -111,7 +142,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An `hs.image` object</li></ul>          |
 | **Notes**                                   | <ul><li>If a thumbnail can be generated for a video file, it is returned as an `hs.image` object, otherwise the filetype icon</li><li>For audio files, this function first determines the containing directory (if not already a directory)</li><li>It checks if any of the following common filenames for album art are present:</li><li> cover.jpg</li><li> front.jpg</li><li> art.jpg</li><li> album.jpg</li><li> folder.jpg</li><li>If one of the common album art filenames is found, it is returned as an `hs.image` object</li><li>This is faster than extracting image metadata and allows for obtaining artwork associated with file formats such as .flac/.ogg</li><li>If no common album art filenames are found, it attempts to extract image metadata from the file. This works for .mp3/.m4a files</li><li>If embedded image metadata is found, it is returned as an `hs.image` object, otherwise the filetype icon</li></ul>                |
 
-| [imageFromName](#imageFromName)         |                                                                                     |
+---
+
+### [imageFromName](#imageFromName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.imageFromName(string) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -120,7 +155,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An hs.image object or nil, if no image was found with the specified name.</li></ul>          |
 | **Notes**                                   | <ul><li>Some predefined labels corresponding to OS X System default images can be found in `hs.image.systemImageNames`.</li><li>Names are not required to be unique: The search order is as follows, and the first match found is returned:</li><li>   an image whose name was explicitly set with the `setName` method since the last full restart of Hammerspoon</li><li>   Hammerspoon's main application bundle</li><li>   the Application Kit framework (this is where most of the images listed in `hs.image.systemImageNames` are located)</li><li>Image names can be assigned by the image creator or by calling the `hs.image:setName` method on an hs.image object.</li></ul>                |
 
-| [imageFromPath](#imageFromPath)         |                                                                                     |
+---
+
+### [imageFromPath](#imageFromPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.imageFromPath(path) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -129,7 +168,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An `hs.image` object, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [imageFromURL](#imageFromURL)         |                                                                                     |
+---
+
+### [imageFromURL](#imageFromURL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image.imageFromURL(url[, callbackFn]) -> object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -138,9 +181,13 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>An `hs.image` object or nil, if the url does not specify image contents or is unreachable, or if a callback function is supplied</li></ul>          |
 | **Notes**                                   | <ul><li>If a callback function is supplied, this function will return nil immediately and the image will be fetched asynchronously</li></ul>                |
 
+---
 ### Methods
 
-| [bitmapRepresentation](#bitmapRepresentation)         |                                                                                     |
+
+### [bitmapRepresentation](#bitmapRepresentation)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:bitmapRepresentation([size], [gray]) -> imageObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -149,7 +196,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>a new hs.image object</li></ul>          |
 | **Notes**                                   | <ul><li>a bitmap representation of an image is rendered at the specific size specified (or inherited) when it is generated -- if you later scale it to a different size, the bitmap will be scaled as larger or smaller pixels rather than smoothly.</li><li></li><li>this method may be useful when preparing images for other devices (e.g. `hs.streamdeck`).</li></ul>                |
 
-| [colorAt](#colorAt)         |                                                                                     |
+---
+
+### [colorAt](#colorAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:colorAt(point) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -158,7 +209,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>A `hs.drawing.color` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [copy](#copy)         |                                                                                     |
+---
+
+### [copy](#copy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:copy() -> imageObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -167,7 +222,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>a new hs.image object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [croppedCopy](#croppedCopy)         |                                                                                     |
+---
+
+### [croppedCopy](#croppedCopy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:croppedCopy(rectangle) -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -176,7 +235,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>a copy of the portion of the image specified</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [encodeAsURLString](#encodeAsURLString)         |                                                                                     |
+---
+
+### [encodeAsURLString](#encodeAsURLString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:encodeAsURLString([scale], [type]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -190,7 +253,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>the bitmap image representation as a Base64 encoded string</li></ul>          |
 | **Notes**                                   | <ul><li>You can convert the string back into an image object with [hs.image.imageFromURL](#URL), e.g. `hs.image.imageFromURL(string)`</li></ul>                |
 
-| [getLoupedeckArray](#getLoupedeckArray)         |                                                                                     |
+---
+
+### [getLoupedeckArray](#getLoupedeckArray)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:getLoupedeckArray() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -199,7 +266,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>A string containing the RGB data</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:name([name]) -> imageObject | string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -208,7 +279,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>if no argument is provided, returns the current name.  If a new name is specified, returns the hs.image object or nil if the name cannot be changed.</li></ul>          |
 | **Notes**                                   | <ul><li>see also [hs.image:setName](#setName) for a variant that returns a boolean instead.</li></ul>                |
 
-| [saveToFile](#saveToFile)         |                                                                                     |
+---
+
+### [saveToFile](#saveToFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:saveToFile(filename, [scale], [filetype]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -222,7 +297,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>Status - a boolean value indicating success (true) or failure (false)</li></ul>          |
 | **Notes**                                   | <ul><li>Saves image at the size in points (or pixels, if `scale` is true) as reported by [hs.image:size()](#size) for the image object</li></ul>                |
 
-| [setName](#setName)         |                                                                                     |
+---
+
+### [setName](#setName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:setName(Name) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -231,7 +310,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>Status - a boolean value indicating success (true) or failure (false) when assigning the specified name.</li></ul>          |
 | **Notes**                                   | <ul><li>This method is included for backwards compatibility and is considered deprecated.  It is equivalent to `hs.image:name(name) and true or false`.</li></ul>                |
 
-| [setSize](#setSize)         |                                                                                     |
+---
+
+### [setSize](#setSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:setSize(size [, absolute]) -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -240,7 +323,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>a copy of the image object at the new size</li></ul>          |
 | **Notes**                                   | <ul><li>This method is included for backwards compatibility and is considered deprecated.  It is equivalent to `hs.image:copy():size(size, [absolute])`.</li></ul>                |
 
-| [size](#size)         |                                                                                     |
+---
+
+### [size](#size)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:size([size, [absolute]] ) -> imageObject | size`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -249,7 +336,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>If arguments are provided, return the hs.image object; otherwise returns the current size</li></ul>          |
 | **Notes**                                   | <ul><li>See also [hs.image:setSize](#setSize) for creating a copy of the image at a new size.</li></ul>                |
 
-| [template](#template)         |                                                                                     |
+---
+
+### [template](#template)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:template([state]) -> imageObject | boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -258,7 +349,11 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>if a parameter is provided, returns the hs.image object; otherwise returns the current value</li></ul>          |
 | **Notes**                                   | <ul><li>Template images consist of black and clear colors (and an alpha channel). Template images are not intended to be used as standalone images and are usually mixed with other content to create the desired final appearance.</li><li>Images with this flag set to true usually appear lighter than they would with this flag set to false.</li></ul>                |
 
-| [toASCII](#toASCII)         |                                                                                     |
+---
+
+### [toASCII](#toASCII)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.image:toASCII([width, height]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -267,3 +362,4 @@ A module for capturing and manipulating image objects from other modules for use
 | **Returns**                                 | <ul><li>A string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -15,7 +15,10 @@ that can be mapped to a keyboard shortcut.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -24,3 +27,4 @@ that can be mapped to a keyboard shortcut.
 | **Returns**                                 | <ul><li>`true` if the element matches the criteria for this class.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -23,7 +23,10 @@ Browser Marker Popup.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,9 +35,13 @@ Browser Marker Popup.
 | **Returns**                                 | <ul><li>`true` if the `element` is the Browser Marker Popover otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [BrowserMarkerPopover](#BrowserMarkerPopover)         |                                                                                     |
+
+### [BrowserMarkerPopover](#BrowserMarkerPopover)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover(parent) -> BrowserMarkerPopover`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -43,15 +50,23 @@ Browser Marker Popup.
 | **Returns**                                 | <ul><li>The new `BrowserMarkerPopover` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [chapter](#chapter)         |                                                                                     |
+
+### [chapter](#chapter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.chapter <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Chapter" Marker button.                                                                     |
 
-| [completed](#completed)         |                                                                                     |
+---
+
+### [completed](#completed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.completed <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -59,7 +74,11 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.delete <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -67,7 +86,11 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
 
-| [done](#done)         |                                                                                     |
+---
+
+### [done](#done)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.done <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -75,7 +98,11 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.name <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -83,21 +110,33 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `TextField` object.</li></ul>          |
 
-| [standard](#standard)         |                                                                                     |
+---
+
+### [standard](#standard)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.standard <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Standard" Marker button.                                                                     |
 
-| [toDo](#toDo)         |                                                                                     |
+---
+
+### [toDo](#toDo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.toDo <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "To Do" Marker button.                                                                     |
 
+---
 ### Methods
 
-| [hide](#hide)         |                                                                                     |
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover:hide() -> BrowserMarkerPopover`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +145,11 @@ Browser Marker Popup.
 | **Returns**                                 | <ul><li>BrowserMarkerPopover object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover:show() -> BrowserMarkerPopover`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,3 +158,4 @@ Browser Marker Popup.
 | **Returns**                                 | <ul><li>BrowserMarkerPopover object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

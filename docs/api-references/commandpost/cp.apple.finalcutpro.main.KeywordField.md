@@ -13,7 +13,10 @@ Keyword Text Field Module.
 
 ### Constructors
 
-| [KeywordField](#KeywordField)         |                                                                                     |
+
+### [KeywordField](#KeywordField)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordField(parent, uiFinder) -> KeywordField`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -22,9 +25,13 @@ Keyword Text Field Module.
 | **Returns**                                 | <ul><li>The new `KeywordField`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [addKeyword](#addKeyword)         |                                                                                     |
+
+### [addKeyword](#addKeyword)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordField:addKeyword(keyword) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -33,7 +40,11 @@ Keyword Text Field Module.
 | **Returns**                                 | <ul><li>`true` if the keyword was not present and added, otherwise false.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [removeKeyword](#removeKeyword)         |                                                                                     |
+---
+
+### [removeKeyword](#removeKeyword)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordField:removeKeyword(keyword) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -42,3 +53,4 @@ Keyword Text Field Module.
 | **Returns**                                 | <ul><li>`true` if the keyword was present and removed, otherwise false.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

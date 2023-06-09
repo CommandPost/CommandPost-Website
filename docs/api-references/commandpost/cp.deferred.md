@@ -31,7 +31,10 @@ update()
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.deferred.new(delay) -> cp.deferred`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -40,9 +43,13 @@ update()
 | **Returns**                                 | <ul><li>The new `cp.deferred` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [action](#action)         |                                                                                     |
+
+### [action](#action)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.deferred:action(actionFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -51,7 +58,11 @@ update()
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>It must be a `function` (or callable `table`) with the following signature:</li><li></li><li>```lua</li><li>function() -> nil</li><li>```</li><li></li><li>* Multiple actions can be added and they will all be called when the delay timer goes off.</li></ul>                |
 
-| [delay](#delay)         |                                                                                     |
+---
+
+### [delay](#delay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.deferred:delay([value]) -> self | number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +71,11 @@ update()
 | **Returns**                                 | <ul><li>The `cp.deferred` instance if a new value is provided, or the current delay if not.</li></ul>          |
 | **Notes**                                   | <ul><li>If it is provided, then the new delay will be set. If it is currently waiting, then the wait will be restarted with the new delay.</li></ul>                |
 
-| [run](#run)         |                                                                                     |
+---
+
+### [run](#run)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.deferred:run() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +84,11 @@ update()
 | **Returns**                                 | <ul><li>The `cp.deferred` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [secondsRemaining](#secondsRemaining)         |                                                                                     |
+---
+
+### [secondsRemaining](#secondsRemaining)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.deferred:secondsRemaining() -> number | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +97,11 @@ update()
 | **Returns**                                 | <ul><li>The number of seconds until execution.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.deferred:stop() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +110,11 @@ update()
 | **Returns**                                 | <ul><li>The deferred timer.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [waiting](#waiting)         |                                                                                     |
+---
+
+### [waiting](#waiting)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.deferred:waiting() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,3 +123,4 @@ update()
 | **Returns**                                 | <ul><li>`true` if the deferred action is waiting to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

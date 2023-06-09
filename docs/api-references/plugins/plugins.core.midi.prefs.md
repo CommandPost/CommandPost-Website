@@ -14,33 +14,53 @@ MIDI Preferences Panel
 
 ### Fields
 
-| [lastApplication](#lastApplication)         |                                                                                     |
+
+### [lastApplication](#lastApplication)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last application used in the Preferences Drop Down.                                                                     |
 
-| [lastBank](#lastBank)         |                                                                                     |
+---
+
+### [lastBank](#lastBank)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.prefs.lastBank <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last bank used in the Preferences Drop Down.                                                                     |
 
-| [lastExportPath](#lastExportPath)         |                                                                                     |
+---
+
+### [lastExportPath](#lastExportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 
-| [lastImportPath](#lastImportPath)         |                                                                                     |
+---
+
+### [lastImportPath](#lastImportPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 
-| [scrollBarPosition](#scrollBarPosition)         |                                                                                     |
+---
+
+### [scrollBarPosition](#scrollBarPosition)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.midi.prefs.scrollBarPosition <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Scroll Bar Position                                                                     |
 
+---

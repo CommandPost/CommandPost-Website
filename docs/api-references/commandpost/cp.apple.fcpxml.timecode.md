@@ -27,7 +27,10 @@ Note, this currently does not support "Drop Frame" timecodes.
 
 ### Constructors
 
-| [fromFFSSMMHH](#fromFFSSMMHH)         |                                                                                     |
+
+### [fromFFSSMMHH](#fromFFSSMMHH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.timecode.fromFFSSMMHH(timecodeString) -> timecode`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -36,7 +39,11 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromHH_MM_SS_FF](#fromHH_MM_SS_FF)         |                                                                                     |
+---
+
+### [fromHH_MM_SS_FF](#fromHH_MM_SS_FF)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.timecode.fromHH_MM_SS_FF(timecodeString) -> timecode`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,7 +52,11 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.timecode.new(hours, minutes, seconds, frames)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -54,9 +65,13 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [__tostring](#__tostring)         |                                                                                     |
+
+### [__tostring](#__tostring)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.timecode:__tostring() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,7 +80,11 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The timecode string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [timeWithFrameDuration](#timeWithFrameDuration)         |                                                                                     |
+---
+
+### [timeWithFrameDuration](#timeWithFrameDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.timecode:timeWithFrameDuration(frameDuration) -> time`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +93,11 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The `time` value.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [totalFramesWithFPS](#totalFramesWithFPS)         |                                                                                     |
+---
+
+### [totalFramesWithFPS](#totalFramesWithFPS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.fcpxml.timecode:totalFramesWithFPS(fps) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,3 +106,4 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The total number of frames as a `number`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

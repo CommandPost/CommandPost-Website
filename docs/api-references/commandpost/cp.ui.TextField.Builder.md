@@ -11,7 +11,10 @@ Defines a `TextField` [Builder](cp.ui.Builder.md).
 
 ### Methods
 
-| [convertingGet](#convertingGet)         |                                                                                     |
+
+### [convertingGet](#convertingGet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField.Builder:convertingGet(getter) -> cp.ui.TextField.Builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -20,7 +23,11 @@ Defines a `TextField` [Builder](cp.ui.Builder.md).
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
 | **Notes**                                   | <ul><li>The `getter` will be called with the `string` value from the `TextField` as its only parameter.</li></ul>                |
 
-| [convertingSet](#convertingSet)         |                                                                                     |
+---
+
+### [convertingSet](#convertingSet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField.Builder:convertingSet(setter) -> cp.ui.TextField.Builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -29,3 +36,4 @@ Defines a `TextField` [Builder](cp.ui.Builder.md).
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
 | **Notes**                                   | <ul><li>The `setter` will be called with the input value from a `TextField:value(...)` call as its only parameter.</li><li>   It should return a `string` to be saved into the `TextField`.</li></ul>                |
 
+---

@@ -13,27 +13,43 @@ Represents the Transcode Media sheet.
 
 ### Fields
 
-| [cancel](#cancel)         |                                                                                     |
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.TranscodeMedia.cancel <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Cancel" button, as a [Button](cp.ui.Button.md)                                                                     |
 
-| [createOptimizedMedia](#createOptimizedMedia)         |                                                                                     |
+---
+
+### [createOptimizedMedia](#createOptimizedMedia)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.TranscodeMedia.createOptimizedMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create Optimized Media" check box, as a [CheckBox](cp.ui.CheckBox.md)                                                                     |
 
-| [createProxyMedia](#createProxyMedia)         |                                                                                     |
+---
+
+### [createProxyMedia](#createProxyMedia)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.TranscodeMedia.createProxyMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create Proxy Media" check box, as a [CheckBox](cp.ui.CheckBox.md)                                                                     |
 
-| [ok](#ok)         |                                                                                     |
+---
+
+### [ok](#ok)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.TranscodeMedia.ok <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "OK" button, as a [Button](cp.ui.Button.md)                                                                     |
 
+---

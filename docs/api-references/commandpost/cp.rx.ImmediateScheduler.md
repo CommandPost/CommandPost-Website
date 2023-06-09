@@ -12,7 +12,10 @@ Schedules `Observables` by running all operations immediately.
 
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.ImmediateScheduler.create() -> cp.rx.ImmediageScheduler`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -21,9 +24,13 @@ Schedules `Observables` by running all operations immediately.
 | **Returns**                                 | <ul><li>The new `ImmediateScheduler`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [schedule](#schedule)         |                                                                                     |
+
+### [schedule](#schedule)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.ImmediateScheduler:schedule(action) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -32,3 +39,4 @@ Schedules `Observables` by running all operations immediately.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

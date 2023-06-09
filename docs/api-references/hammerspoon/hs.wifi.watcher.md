@@ -16,16 +16,23 @@ Watch for changes to the associated wifi network
 
 ### Constants
 
-| [eventTypes](#eventTypes)         |                                                                                     |
+
+### [eventTypes](#eventTypes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.wifi.watcher.eventTypes[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing the possible event types that this watcher can monitor for.                                                                     |
 | **Notes**                                   | <ul><li>The following events are available for monitoring:</li><li> "SSIDChange"                   - monitor when the associated network for the Wi-Fi interface changes</li><li> "BSSIDChange"                  - monitor when the base station the Wi-Fi interface is connected to changes</li><li> "countryCodeChange"            - monitor when the adopted country code of the Wi-Fi interface changes</li><li> "linkChange"                   - monitor when the link state for the Wi-Fi interface changes</li><li> "linkQualityChange"            - monitor when the RSSI or transmit rate for the Wi-Fi interface changes</li><li> "modeChange"                   - monitor when the operating mode of the Wi-Fi interface changes</li><li> "powerChange"                  - monitor when the power state of the Wi-Fi interface changes</li><li> "scanCacheUpdated"             - monitor when the scan cache of the Wi-Fi interface is updated with new information</li></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.wifi.watcher.new(fn) -> watcher`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,9 +41,13 @@ Watch for changes to the associated wifi network
 | **Returns**                                 | <ul><li>A `hs.wifi.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>For backwards compatibility, only "SSIDChange" is watched for by default, so existing code can continue to ignore the callback function arguments unless you add or change events with the [hs.wifi.watcher:watchingFor](#watchingFor).</li><li>The callback function should expect between 3 and 5 arguments, depending upon the events being watched.  The possible arguments are as follows:</li><li>  `watcher`, "SSIDChange", `interface` - occurs when the associated network for the Wi-Fi interface changes</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "SSIDChange"</li><li>    `interface` - the name of the interface for which the event occurred</li><li>  Use `hs.wifi.currentNetwork([interface])` to identify the new network, which may be nil when you leave a network.</li><li>  `watcher`, "BSSIDChange", `interface` - occurs when the base station the Wi-Fi interface is connected to changes</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "BSSIDChange"</li><li>    `interface` - the name of the interface for which the event occurred</li><li>  `watcher`, "countryCodeChange", `interface` - occurs when the adopted country code of the Wi-Fi interface changes</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "countryCodeChange"</li><li>    `interface` - the name of the interface for which the event occurred</li><li>  `watcher`, "linkChange", `interface` - occurs when the link state for the Wi-Fi interface changes</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "linkChange"</li><li>    `interface` - the name of the interface for which the event occurred</li><li>  `watcher`, "linkQualityChange", `interface` - occurs when the RSSI or transmit rate for the Wi-Fi interface changes</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "linkQualityChange"</li><li>    `interface` - the name of the interface for which the event occurred</li><li>    `rssi`      - the RSSI value for the currently associated network on the Wi-Fi interface</li><li>    `rate`      - the transmit rate for the currently associated network on the Wi-Fi interface</li><li>  `watcher`, "modeChange", `interface` - occurs when the operating mode of the Wi-Fi interface changes</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "modeChange"</li><li>    `interface` - the name of the interface for which the event occurred</li><li>  `watcher`, "powerChange", `interface` - occurs when the power state of the Wi-Fi interface changes</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "powerChange"</li><li>    `interface` - the name of the interface for which the event occurred</li><li>  `watcher`, "scanCacheUpdated", `interface` - occurs when the scan cache of the Wi-Fi interface is updated with new information</li><li>    `watcher`   - the watcher object itself</li><li>    `message`   - the message specifying the event, in this case "scanCacheUpdated"</li><li>    `interface` - the name of the interface for which the event occurred</li></ul>                |
 
+---
 ### Methods
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.wifi.watcher:start() -> watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ Watch for changes to the associated wifi network
 | **Returns**                                 | <ul><li>The `hs.wifi.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.wifi.watcher:stop() -> watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ Watch for changes to the associated wifi network
 | **Returns**                                 | <ul><li>The `hs.wifi.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watchingFor](#watchingFor)         |                                                                                     |
+---
+
+### [watchingFor](#watchingFor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.wifi.watcher:watchingFor([messages]) -> watcher | current-value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,3 +82,4 @@ Watch for changes to the associated wifi network
 | **Returns**                                 | <ul><li>if a value is provided, returns the watcher object; otherwise returns the current values as a table of strings.</li></ul>          |
 | **Notes**                                   | <ul><li>the possible values for this method are described in [hs.wifi.watcher.eventTypes](#eventTypes).</li><li>the special string "all" specifies that all event types should be watched for.</li></ul>                |
 
+---

@@ -10,7 +10,10 @@ Color Module.
 
 ### Constructors
 
-| [Color](#Color)         |                                                                                     |
+
+### [Color](#Color)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.blackmagic.resolve.color.Color(app) -> Color`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -19,3 +22,4 @@ Color Module.
 | **Returns**                                 | <ul><li>The new `Color`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

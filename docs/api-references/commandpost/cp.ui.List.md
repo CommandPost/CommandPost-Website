@@ -16,7 +16,10 @@ Extends [Element](cp.ui.Element.md).
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.List.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,9 +28,13 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it is an `AXList`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [List](#List)         |                                                                                     |
+
+### [List](#List)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.List(parent, uiFinder, itemAdaptorFn)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -36,9 +43,13 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [items](#items)         |                                                                                     |
+
+### [items](#items)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.List:items() -> table of values`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -47,3 +58,4 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

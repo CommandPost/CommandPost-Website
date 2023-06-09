@@ -10,9 +10,13 @@ Orders clips on a timeline by timecode.
 
 ### Fields
 
-| [removeGaps](#removeGaps)         |                                                                                     |
+
+### [removeGaps](#removeGaps)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.autosequence.removeGaps <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Gaps?                                                                     |
 
+---

@@ -25,7 +25,10 @@ Timeline Index Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,9 +37,13 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Index](#Index)         |                                                                                     |
+
+### [Index](#Index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index(timeline) -> cp.apple.finalcutpro.timeline.Index`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,47 +52,75 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>A new `Index` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [captions](#captions)         |                                                                                     |
+
+### [captions](#captions)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.captions <cp.apple.finalcutpro.timeline.IndexCaptions>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexCaptions](cp.apple.finalcutpro.timeline.IndexCaptions.md).                                                                     |
 
-| [clips](#clips)         |                                                                                     |
+---
+
+### [clips](#clips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.clips <cp.apple.finalcutpro.timeline.IndexClips>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexClips](cp.apple.finalcutpro.timeline.IndexClips.md).                                                                     |
 
-| [mode](#mode)         |                                                                                     |
+---
+
+### [mode](#mode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.mode <cp.apple.finalcutpro.timeline.IndexMode>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexMode](cp.apple.finalcutpro.timeline.IndexMode.md) for the Index.                                                                     |
 
-| [roles](#roles)         |                                                                                     |
+---
+
+### [roles](#roles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.roles <cp.apple.finalcutpro.timeline.IndexRoles>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRoles](cp.apple.finalcutpro.timeline.IndexRoles.md).                                                                     |
 
-| [search](#search)         |                                                                                     |
+---
+
+### [search](#search)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.search <cp.ui.SearchField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [SearchField](cp.ui.SearchField.md) for the Timeline Index.                                                                     |
 
-| [tags](#tags)         |                                                                                     |
+---
+
+### [tags](#tags)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.tags <cp.apple.finalcutpro.timeline.IndexTags>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexTags](cp.apple.finalcutpro.timeline.IndexTags.md).                                                                     |
 
+---
 ### Methods
 
-| [activeTab](#activeTab)         |                                                                                     |
+
+### [activeTab](#activeTab)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index:activeTab() -> object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -94,7 +129,11 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>The active tab or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -103,7 +142,11 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doLayout](#doLayout)         |                                                                                     |
+---
+
+### [doLayout](#doLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index:doLayout(layout) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -112,7 +155,11 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -121,7 +168,11 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -130,3 +181,4 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -14,7 +14,10 @@ Provides an Message message, which can be thrown via the `error` function.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Message.is(other) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,9 +26,13 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Message](#Message)         |                                                                                     |
+
+### [Message](#Message)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Message(message)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,9 +41,13 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>A new message.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [traceback](#traceback)         |                                                                                     |
+
+### [traceback](#traceback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Message:traceback()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,3 +56,4 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

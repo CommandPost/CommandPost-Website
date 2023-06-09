@@ -11,15 +11,23 @@ Adds preferences for extra FCPXML import and export options.
 
 ### Variables
 
-| [exportEnabled](#exportEnabled)         |                                                                                     |
+
+### [exportEnabled](#exportEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.advanced.fcpxml.exportEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are extra FCPXML export options enabled?                                                                     |
 
-| [importEnabled](#importEnabled)         |                                                                                     |
+---
+
+### [importEnabled](#importEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.advanced.fcpxml.importEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are extra FCPXML import options enabled?                                                                     |
 
+---

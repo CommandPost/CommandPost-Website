@@ -11,7 +11,10 @@ Info Panel for the Final Cut Pro HUD.
 
 ### Functions
 
-| [updateInfo](#updateInfo)         |                                                                                     |
+
+### [updateInfo](#updateInfo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.info.updateInfo() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Info Panel for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateWatchers](#updateWatchers)         |                                                                                     |
+---
+
+### [updateWatchers](#updateWatchers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.info.updateWatchers(enabled) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Info Panel for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

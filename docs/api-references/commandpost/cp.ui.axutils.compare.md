@@ -13,7 +13,10 @@ Contains functions for comparing `axuielement`s.
 
 ### Functions
 
-| [bottomToTop](#bottomToTop)         |                                                                                     |
+
+### [bottomToTop](#bottomToTop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.compare.bottomToTop(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -22,7 +25,11 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is below `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [leftToRight](#leftToRight)         |                                                                                     |
+---
+
+### [leftToRight](#leftToRight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.compare.leftToRight(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is left of `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rightToLeft](#rightToLeft)         |                                                                                     |
+---
+
+### [rightToLeft](#rightToLeft)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.compare.rightToLeft(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is right of `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [topToBottom](#topToBottom)         |                                                                                     |
+---
+
+### [topToBottom](#topToBottom)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.axutils.compare.topToBottom(a, b) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,3 +64,4 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

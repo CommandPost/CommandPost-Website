@@ -18,7 +18,10 @@ For each spotlightGroupObject you can identify the attribute and value the group
 
 ### Methods
 
-| [attribute](#attribute)         |                                                                                     |
+
+### [attribute](#attribute)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotlight.group:attribute() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -27,7 +30,11 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Returns**                                 | <ul><li>the attribute name as a string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [count](#count)         |                                                                                     |
+---
+
+### [count](#count)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotlight.group:count() -> integer`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -36,7 +43,11 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Returns**                                 | <ul><li>an integer specifying the number of results that match the attribute and value represented by this spotlightGroup object.</li></ul>          |
 | **Notes**                                   | <ul><li>For convenience, metamethods have been added to the spotlightGroupObject which allow you to use `#spotlightGroupObject` as a shortcut for `spotlightGroupObject:count()`.</li></ul>                |
 
-| [resultAtIndex](#resultAtIndex)         |                                                                                     |
+---
+
+### [resultAtIndex](#resultAtIndex)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotlight.group:resultAtIndex(index) -> spotlightItemObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Returns**                                 | <ul><li>the spotlightItemObject at the specified index or an error if the index is out of bounds.</li></ul>          |
 | **Notes**                                   | <ul><li>For convenience, metamethods have been added to the spotlightGroupObject which allow you to use `spotlightGroupObject[index]` as a shortcut for `spotlightGroupObject:resultAtIndex(index)`.</li></ul>                |
 
-| [subgroups](#subgroups)         |                                                                                     |
+---
+
+### [subgroups](#subgroups)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotlight.group:subgroups() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Returns**                                 | <ul><li>an array table containing the subgroups of the spotlightGroupObject or nil if no subgroups exist</li></ul>          |
 | **Notes**                                   | <ul><li>Subgroups are created when you supply more than one grouping attribute to `hs.spotlight:groupingAttributes`.</li></ul>                |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.spotlight.group:value() -> value`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,3 +82,4 @@ For each spotlightGroupObject you can identify the attribute and value the group
 | **Returns**                                 | <ul><li>the attribute value as an appropriate data type</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

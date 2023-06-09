@@ -29,7 +29,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -38,9 +41,13 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>`true` if it is a `group`, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [group](#group)         |                                                                                     |
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group(name, manager, parent, localActive) -> None`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -49,29 +56,45 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [active](#active)         |                                                                                     |
+
+### [active](#active)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group.active <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group is active. It will only be active if                                                                     |
 
-| [enabled](#enabled)         |                                                                                     |
+---
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group is enabled.                                                                     |
 
-| [localActive](#localActive)         |                                                                                     |
+---
+
+### [localActive](#localActive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group.localActive <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group should ignore the parent's `enabled` state when determining if the group is active.                                                                     |
 
+---
 ### Methods
 
-| [action](#action)         |                                                                                     |
+
+### [action](#action)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:action(id[, name[, localActive]]) -> action`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -80,7 +103,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The new `action`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [binding](#binding)         |                                                                                     |
+---
+
+### [binding](#binding)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:binding(id[, name]) -> binding`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -89,7 +116,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The new `binding`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [controls](#controls)         |                                                                                     |
+---
+
+### [controls](#controls)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:controls() -> controls`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -98,7 +129,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The `controls`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [group](#group)         |                                                                                     |
+---
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:group(name, [localActive]) -> group`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -107,7 +142,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The new `group`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [menu](#menu)         |                                                                                     |
+---
+
+### [menu](#menu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:menu(id[, name]) -> menu`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -116,7 +155,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The new `menu`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [name](#name)         |                                                                                     |
+---
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:name() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -125,7 +168,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The name.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parameter](#parameter)         |                                                                                     |
+---
+
+### [parameter](#parameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:parameter(id[, name]) -> parameter`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -134,7 +181,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The new `parameter`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:parent() -> group | controls`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -143,7 +194,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The group's parents.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:reset() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -152,7 +207,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The `group` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [tangent](#tangent)         |                                                                                     |
+---
+
+### [tangent](#tangent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:tangent() -> hs.tangent`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -161,7 +220,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The `hs.tangent`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.group:xml() -> cp.web.xml`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -170,3 +233,4 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Returns**                                 | <ul><li>The `xml` for the Group.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

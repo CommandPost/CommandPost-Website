@@ -11,7 +11,10 @@ Volume Slider
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.widgets.volume.init() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Volume Slider
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [widget](#widget)         |                                                                                     |
+---
+
+### [widget](#widget)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.touchbar.widgets.volume.widget() -> `hs._asm.undocumented.touchbar.item``                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Volume Slider
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

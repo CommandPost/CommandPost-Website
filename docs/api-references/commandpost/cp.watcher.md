@@ -44,7 +44,10 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 
 ### Functions
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.watcher.new(...) -> watcher`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,9 +56,13 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>a new watcher instance</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [events](#events)         |                                                                                     |
+
+### [events](#events)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.watcher:events()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +71,11 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>The table of event names.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getCount](#getCount)         |                                                                                     |
+---
+
+### [getCount](#getCount)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.watcher:getCount()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +84,11 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>The number of watchers.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [notify](#notify)         |                                                                                     |
+---
+
+### [notify](#notify)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.watcher:notify(type, ...) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +97,11 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unwatch](#unwatch)         |                                                                                     |
+---
+
+### [unwatch](#unwatch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.watcher:unwatch(id) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +110,11 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>`true` if a watcher with the specified ID exists and was successfully removed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watch](#watch)         |                                                                                     |
+---
+
+### [watch](#watch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.watcher:watch(events) -> id`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,3 +123,4 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>A unique ID that can be passed to `unwatch` to stop watching.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

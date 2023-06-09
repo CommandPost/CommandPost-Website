@@ -35,7 +35,10 @@ A Window UI element.
 
 ### Functions
 
-| [findSectionUI](#findSectionUI)         |                                                                                     |
+
+### [findSectionUI](#findSectionUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.findSectionUI(windowUI, sectionID) -> hs.axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,7 +47,11 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The matching `axuielement`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,9 +60,13 @@ A Window UI element.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Window](#Window)         |                                                                                     |
+
+### [Window](#Window)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window(cpApp, uiProp) -> Window`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -64,89 +75,145 @@ A Window UI element.
 | **Returns**                                 | <ul><li>A new `Window` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [alert](#alert)         |                                                                                     |
+
+### [alert](#alert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.alert <cp.ui.Alert>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides access to any 'Alert' windows on the Window.                                                                     |
 
-| [exists](#exists)         |                                                                                     |
+---
+
+### [exists](#exists)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.exists <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window exists. It may not be visible.                                                                     |
 
-| [focused](#focused)         |                                                                                     |
+---
+
+### [focused](#focused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.focused <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window has mouse/keyboard focused.                                                                     |
 
-| [frame](#frame)         |                                                                                     |
+---
+
+### [frame](#frame)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.frame <cp.prop: hs.geometry rect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.geometry` rect value describing the window's position.                                                                     |
 
-| [hsWindow](#hsWindow)         |                                                                                     |
+---
+
+### [hsWindow](#hsWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.hsWindow <cp.prop: hs.window; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.window` instance for the window, or `nil` if it can't be found.                                                                     |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.id <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The window title, or `nil` if the window is not currently visible.                                                                     |
 
-| [isFullScreen](#isFullScreen)         |                                                                                     |
+---
+
+### [isFullScreen](#isFullScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.isFullScreen <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window is full-screen.                                                                     |
 
-| [isShowing](#isShowing)         |                                                                                     |
+---
+
+### [isShowing](#isShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.isShowing <cp.prop: boolean; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the `Window` is currently showing on screen.                                                                     |
 
-| [minimized](#minimized)         |                                                                                     |
+---
+
+### [minimized](#minimized)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.minimized <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window exists and is minimised.                                                                     |
 
-| [position](#position)         |                                                                                     |
+---
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets or sets the window position                                                                     |
 
-| [size](#size)         |                                                                                     |
+---
+
+### [size](#size)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.size <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets or sets the window size                                                                     |
 
-| [UI](#UI)         |                                                                                     |
+---
+
+### [UI](#UI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.UI <cp.prop: hs.axuielement: read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI `axuielement` for the Window.                                                                     |
 
-| [visible](#visible)         |                                                                                     |
+---
+
+### [visible](#visible)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window.visible <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window is visible on a screen.                                                                     |
 
+---
 ### Methods
 
-| [close](#close)         |                                                                                     |
+
+### [close](#close)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window:close() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -155,7 +222,11 @@ A Window UI element.
 | **Returns**                                 | <ul><li>`true` if the window was successfully closed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doClose](#doClose)         |                                                                                     |
+---
+
+### [doClose](#doClose)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window:doClose() -> cp.rx.go.Statement <boolean>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -164,7 +235,11 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The `Statement` to execute, resolving to `true` if the window is closed successfully, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFocus](#doFocus)         |                                                                                     |
+---
+
+### [doFocus](#doFocus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window:doFocus() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -173,7 +248,11 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The `Statement` to execute, which resolves to `true` if the window was successfully focused, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findSectionUI](#findSectionUI)         |                                                                                     |
+---
+
+### [findSectionUI](#findSectionUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window:findSectionUI(sectionID) -> hs.axuielement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -182,7 +261,11 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The matching `axuielement`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [focus](#focus)         |                                                                                     |
+---
+
+### [focus](#focus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window:focus() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -191,7 +274,11 @@ A Window UI element.
 | **Returns**                                 | <ul><li>`true` if the window was successfully focused.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [notifier](#notifier)         |                                                                                     |
+---
+
+### [notifier](#notifier)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window:notifier() -> cp.ui.notifier`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -200,7 +287,11 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [snapshot](#snapshot)         |                                                                                     |
+---
+
+### [snapshot](#snapshot)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Window:snapshot([path]) -> hs.image | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -209,3 +300,4 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The `hs.image` that was created, or `nil` if the UI is not available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

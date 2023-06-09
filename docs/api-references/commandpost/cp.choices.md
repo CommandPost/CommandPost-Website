@@ -16,7 +16,10 @@ Choices Module.
 
 ### Functions
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices.new(type) -> choices`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,9 +28,13 @@ Choices Module.
 | **Returns**                                 | <ul><li>The new `choices` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [getChoices](#getChoices)         |                                                                                     |
+
+### [getChoices](#getChoices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices:getChoices() -> array of choices`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -36,7 +43,11 @@ Choices Module.
 | **Returns**                                 | <ul><li>The array of choices.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.choices:new(choiceType) -> choices.builder`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,3 +56,4 @@ Choices Module.
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | <ul><li>Additional settings can be set using the returned builder instance. E.g.:</li><li></li><li>```</li><li>choices:add("Do Something")</li><li>	:subText("Cool Actions")</li><li>		:params({</li><li>		one = "foo",</li><li>		two = "bar",</li><li>	})</li><li>```</li></ul>                |
 
+---

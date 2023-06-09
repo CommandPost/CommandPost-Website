@@ -12,7 +12,10 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRolesArea.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,11 +24,16 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [list](#list)         |                                                                                     |
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRolesArea.list <cp.apple.finalcutpro.timeline.IndexRolesList>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesList](cp.apple.finalcutpro.timeline.IndexRolesList.md) that serves as the list of the scroll area.                                                                     |
 
+---

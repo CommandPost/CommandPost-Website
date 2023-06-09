@@ -21,7 +21,10 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -30,9 +33,13 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [FullScreenPlayer](#FullScreenPlayer)         |                                                                                     |
+
+### [FullScreenPlayer](#FullScreenPlayer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer(app) -> FullScreenPlayer`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -41,29 +48,45 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>The new `FullScreenPlayer`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [isFullScreen](#isFullScreen)         |                                                                                     |
+
+### [isFullScreen](#isFullScreen)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.isFullScreen <cp.prop; boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the window is full-screen.                                                                     |
 
-| [rootGroupUI](#rootGroupUI)         |                                                                                     |
+---
+
+### [rootGroupUI](#rootGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.rootGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The root `AXGroup`.                                                                     |
 
-| [viewerGroupUI](#viewerGroupUI)         |                                                                                     |
+---
+
+### [viewerGroupUI](#viewerGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.viewerGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Viewer's group UI element.                                                                     |
 
+---
 ### Methods
 
-| [doShow](#doShow)         |                                                                                     |
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer:doShow() -> <cp.rx.go.Statement>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,7 +95,11 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer:show() -> cp.apple.finalcutpro`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -81,3 +108,4 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>The window instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

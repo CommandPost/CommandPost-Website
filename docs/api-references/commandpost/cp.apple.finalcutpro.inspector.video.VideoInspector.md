@@ -62,39 +62,62 @@ video:stabilization():smoothing():show():value(1.5)
 
 ### Constants
 
-| [BLEND_MODES](#BLEND_MODES)         |                                                                                     |
+
+### [BLEND_MODES](#BLEND_MODES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.BLEND_MODES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Blend Modes                                                                     |
 
-| [CROP_TYPES](#CROP_TYPES)         |                                                                                     |
+---
+
+### [CROP_TYPES](#CROP_TYPES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.CROP_TYPES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Crop Types                                                                     |
 
-| [ROLLING_SHUTTER_AMOUNTS](#ROLLING_SHUTTER_AMOUNTS)         |                                                                                     |
+---
+
+### [ROLLING_SHUTTER_AMOUNTS](#ROLLING_SHUTTER_AMOUNTS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.ROLLING_SHUTTER_AMOUNTS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Rolling Shutter Amounts                                                                     |
 
-| [SPATIAL_CONFORM_TYPES](#SPATIAL_CONFORM_TYPES)         |                                                                                     |
+---
+
+### [SPATIAL_CONFORM_TYPES](#SPATIAL_CONFORM_TYPES)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.SPATIAL_CONFORM_TYPES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Spatial Conform Types                                                                     |
 
-| [STABILIZATION_METHODS](#STABILIZATION_METHODS)         |                                                                                     |
+---
+
+### [STABILIZATION_METHODS](#STABILIZATION_METHODS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.STABILIZATION_METHODS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Stabilisation Methods                                                                     |
 
+---
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.matches(element)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -103,7 +126,11 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedEffectCheckBox](#selectedEffectCheckBox)         |                                                                                     |
+---
+
+### [selectedEffectCheckBox](#selectedEffectCheckBox)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector:selectedEffectCheckBox() -> axuielement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -112,9 +139,13 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A axuielement object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [VideoInspector](#VideoInspector)         |                                                                                     |
+
+### [VideoInspector](#VideoInspector)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector(parent) -> cp.apple.finalcutpro.inspector.video.VideoInspector`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -123,17 +154,25 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `VideoInspector` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contentUI](#contentUI)         |                                                                                     |
+
+### [contentUI](#contentUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
 
+---
 ### Methods
 
-| [effectCheckBoxes](#effectCheckBoxes)         |                                                                                     |
+
+### [effectCheckBoxes](#effectCheckBoxes)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector:effectCheckBoxes() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -142,3 +181,4 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A table.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

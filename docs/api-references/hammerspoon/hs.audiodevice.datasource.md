@@ -13,7 +13,10 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 
 ### Methods
 
-| [name](#name)         |                                                                                     |
+
+### [name](#name)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.audiodevice.datasource:name() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -22,7 +25,11 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 | **Returns**                                 | <ul><li>A string containing the name of the datasource</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setDefault](#setDefault)         |                                                                                     |
+---
+
+### [setDefault](#setDefault)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.audiodevice.datasource:setDefault() -> hs.audiodevice.datasource`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -31,3 +38,4 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 | **Returns**                                 | <ul><li>The `hs.audiodevice.datasource` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

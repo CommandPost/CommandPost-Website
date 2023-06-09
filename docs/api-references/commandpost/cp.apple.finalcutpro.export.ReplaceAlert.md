@@ -14,7 +14,10 @@ Replace Alert
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ReplaceAlert.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,9 +26,13 @@ Replace Alert
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [ReplaceAlert](#ReplaceAlert)         |                                                                                     |
+
+### [ReplaceAlert](#ReplaceAlert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ReplaceAlert(app) -> ReplaceAlert`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,9 +41,13 @@ Replace Alert
 | **Returns**                                 | <ul><li>A new ReplaceAlert object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [pressReplace](#pressReplace)         |                                                                                     |
+
+### [pressReplace](#pressReplace)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.export.ReplaceAlert:pressReplace() -> cp.apple.finalcutpro.export.ReplaceAlert`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,3 +56,4 @@ Replace Alert
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ReplaceAlert` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -12,15 +12,22 @@ Specifies that the `Require`d values `Are` a specific value.
 
 ### Constants
 
-| [Are](#Are)         |                                                                                     |
+
+### [Are](#Are)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.Are <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value all values from the `requirement` must match.                                                                     |
 
+---
 ### Methods
 
-| [OrThrow](#OrThrow)         |                                                                                     |
+
+### [OrThrow](#OrThrow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.Require.Are:OrThrow(...) -> Require.OrThrow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -29,3 +36,4 @@ Specifies that the `Require`d values `Are` a specific value.
 | **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

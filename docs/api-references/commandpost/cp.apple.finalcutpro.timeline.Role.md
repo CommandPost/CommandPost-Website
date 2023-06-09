@@ -28,23 +28,34 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 
 ### Constants
 
-| [TITLE_KEY](#TITLE_KEY)         |                                                                                     |
+
+### [TITLE_KEY](#TITLE_KEY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.TITLE_KEY <table>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Contains the list of [strings](cp.apple.finalcutpro.strings.md) used for default roles.                                                                     |
 | **Notes**                                   | <ul><li>CAPTIONS - "Captions"</li><li>VIDEO - "Video"</li><li>TITLES - "Titles"</li><li>DIALOGUE - "Dialogue"</li><li>MUSIC - "Music"</li><li>EFFECTS - "Effects"</li></ul>                |
 
-| [TYPE](#TYPE)         |                                                                                     |
+---
+
+### [TYPE](#TYPE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.TYPE <table>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Contains the set of role types.                                                                     |
 | **Notes**                                   | <ul><li>VIDEO - A Video Role</li><li>AUDIO - An Audio Role</li><li>CAPTION - A Caption Role</li></ul>                |
 
+---
 ### Functions
 
-| [findTitle](#findTitle)         |                                                                                     |
+
+### [findTitle](#findTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.findTitle(title) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -53,7 +64,11 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [is](#is)         |                                                                                     |
+---
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -62,7 +77,11 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>`true` if the thing is a `Table` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -71,9 +90,13 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Role](#Role)         |                                                                                     |
+
+### [Role](#Role)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role(parent, uiFinder, type)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -82,35 +105,55 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>The new `Role` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [active](#active)         |                                                                                     |
+
+### [active](#active)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.active <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that determines if the `Role` is active in the timeline.                                                                     |
 
-| [cellUI](#cellUI)         |                                                                                     |
+---
+
+### [cellUI](#cellUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.cellUI <cp.prop: axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The AXCell `axuielement` containing the Role details.                                                                     |
 
-| [subroleRow](#subroleRow)         |                                                                                     |
+---
+
+### [subroleRow](#subroleRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.subroleRow <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | This is `true` if the `Role` is an Subrole [Row](cp.ui.OldRow.md).                                                                     |
 
-| [title](#title)         |                                                                                     |
+---
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role.title <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [StaticText](cp.ui.StaticText.md) containing the title.                                                                     |
 
+---
 ### Methods
 
-| [doActivate](#doActivate)         |                                                                                     |
+
+### [doActivate](#doActivate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role:doActivate() -> cp.rx.go.Statement.md`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -119,7 +162,11 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doDeactivate](#doDeactivate)         |                                                                                     |
+---
+
+### [doDeactivate](#doDeactivate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role:doDeactivate() -> cp.rx.go.Statement.md`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -128,7 +175,11 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [type](#type)         |                                                                                     |
+---
+
+### [type](#type)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Role:type() -> cp.apple.finalcut.timeline.Role.TYPE`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -137,3 +188,4 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>Role Type</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

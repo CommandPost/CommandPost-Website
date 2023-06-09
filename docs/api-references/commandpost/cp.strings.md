@@ -30,7 +30,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings.new(context) -> cp.strings`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -39,9 +42,13 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The new `cp.strings`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [context](#context)         |                                                                                     |
+
+### [context](#context)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:context([context]) -> table | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -50,7 +57,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>string:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul>                |
 
-| [find](#find)         |                                                                                     |
+---
+
+### [find](#find)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:find(key[, context[, quiet]) -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -59,7 +70,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findAllKeys](#findAllKeys)         |                                                                                     |
+---
+
+### [findAllKeys](#findAllKeys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:findAllKeys([context]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -68,7 +83,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findInSources](#findInSources)         |                                                                                     |
+---
+
+### [findInSources](#findInSources)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:findInSources(key[, context[, quiet]]) -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -77,7 +96,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [findKeys](#findKeys)         |                                                                                     |
+---
+
+### [findKeys](#findKeys)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:findKeys(value[, context]) -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -86,7 +109,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>Not recommended in production code, as it will potentially be very inefficient.</li></ul>                |
 
-| [findKeysInSources](#findKeysInSources)         |                                                                                     |
+---
+
+### [findKeysInSources](#findKeysInSources)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:findKeysInSources(value[, context]) -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -95,7 +122,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [from](#from)         |                                                                                     |
+---
+
+### [from](#from)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:from(source) -> cp.strings`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -104,7 +135,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fromPlist](#fromPlist)         |                                                                                     |
+---
+
+### [fromPlist](#fromPlist)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.strings:fromPlist(pathPattern) -> cp.strings`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -113,3 +148,4 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -30,7 +30,10 @@ If a # is place before the timecode, it will create a "To Do" marker.
 
 ### Functions
 
-| [init](#init)         |                                                                                     |
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.pasteboardtomarkers.init() -> deps`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -39,7 +42,11 @@ If a # is place before the timecode, it will create a "To Do" marker.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [process](#process)         |                                                                                     |
+---
+
+### [process](#process)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.pasteboardtomarkers.process() -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,3 +55,4 @@ If a # is place before the timecode, it will create a "To Do" marker.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

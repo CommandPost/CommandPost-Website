@@ -42,21 +42,32 @@ Commands Module.
 
 ### Fields
 
-| [isActive](#isActive)         |                                                                                     |
+
+### [isActive](#isActive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command.isActive <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the command is active. To be active, both the command and the group it belongs to must be enabled.                                                                     |
 
-| [isEnabled](#isEnabled)         |                                                                                     |
+---
+
+### [isEnabled](#isEnabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command.isEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `true`, the command is enabled.                                                                     |
 
+---
 ### Methods
 
-| [action](#action)         |                                                                                     |
+
+### [action](#action)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:action(getFn, setFn) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,7 +76,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The command that was created.</li></ul>          |
 | **Notes**                                   | <ul><li>The `getFn` function should have no arguments.</li><li>The `setFn` function can have two optional arguments:</li><li>  `clear` - A boolean that defines whether or not the value should be cleared.</li><li>  `completionFn` - An optional completion function callback.</li></ul>                |
 
-| [activated](#activated)         |                                                                                     |
+---
+
+### [activated](#activated)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:activated(repeats) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +89,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>the last 'truthy' result (non-nil/false).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [activatedBy](#activatedBy)         |                                                                                     |
+---
+
+### [activatedBy](#activatedBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:activatedBy([modifiers,] [keyCode]) -> command/modifier`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,7 +102,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>`command` if a `keyCode` was provided, or `modifier` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>This method can be called multiple times, and multiple key combinations will be registered for the command.</li><li>To remove existing key combinations, call the `command:deleteShortcuts()` method.</li><li>  ** If the `keyCode` is provided, no modifiers need to be pressed to activate and the `command` is returned.</li><li>  ** If the `modifiers` and `keyCode` are provided, the combination is created and the `command` is returned.</li><li>  ** If no `keyCode` is provided, a `modifier` is returned, which lets you specify keyboard combinations.</li><li>For example:</li><li></li><li>```</li><li>local global    	= commands.collection("global")</li><li>local pressA 		= global:add("commandA"):activatedBy("a")</li><li>local pressShiftA	= global:add("commandShiftA"):activatedBy({"shift"}, "a")</li><li>local pressCmdA		= global:add("commandCmdA"):activatedBy():command("a")</li><li>local pressOptCmdA	= global:add("commandOptCmdA"):activatedBy():option():command("a")</li><li>global:enable()</li><li>```</li></ul>                |
 
-| [addShortcut](#addShortcut)         |                                                                                     |
+---
+
+### [addShortcut](#addShortcut)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:addShortcut(newShortcut) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -92,7 +115,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deleteShortcuts](#deleteShortcuts)         |                                                                                     |
+---
+
+### [deleteShortcuts](#deleteShortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:deleteShortcuts() -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -101,7 +128,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disable](#disable)         |                                                                                     |
+---
+
+### [disable](#disable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:disable() -> cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,7 +141,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enable](#enable)         |                                                                                     |
+---
+
+### [enable](#enable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:enable() -> cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -119,7 +154,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getAction](#getAction)         |                                                                                     |
+---
+
+### [getAction](#getAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:getAction() -> function, function`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -128,7 +167,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>getFn - The function that gets the action.</li><li>setFn - The function that sets the action.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getFirstShortcut](#getFirstShortcut)         |                                                                                     |
+---
+
+### [getFirstShortcut](#getFirstShortcut)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:getFirstShortcut() -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -137,7 +180,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The first shortcut, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getGroup](#getGroup)         |                                                                                     |
+---
+
+### [getGroup](#getGroup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:getGroup() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -146,7 +193,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The group ID.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getImage](#getImage)         |                                                                                     |
+---
+
+### [getImage](#getImage)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:getImage() -> hs.image object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -155,7 +206,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>A hs.image object or `nil` if not is specified.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getShortcuts](#getShortcuts)         |                                                                                     |
+---
+
+### [getShortcuts](#getShortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:getShortcuts() -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -164,7 +219,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The associated shortcuts.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getSubtitle](#getSubtitle)         |                                                                                     |
+---
+
+### [getSubtitle](#getSubtitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:getSubtitle() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -173,7 +232,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The subtitle value or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getTitle](#getTitle)         |                                                                                     |
+---
+
+### [getTitle](#getTitle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:getTitle() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -182,7 +245,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The human-readable command title.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [groupedBy](#groupedBy)         |                                                                                     |
+---
+
+### [groupedBy](#groupedBy)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:groupedBy(group) -> cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -191,7 +258,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This is different to the command group/parent value.</li></ul>                |
 
-| [hasAction](#hasAction)         |                                                                                     |
+---
+
+### [hasAction](#hasAction)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:hasAction() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -200,7 +271,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>`true` if action callbacks have been assigned, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -209,7 +284,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The ID.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [image](#image)         |                                                                                     |
+---
+
+### [image](#image)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:image(img) -> cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -218,7 +297,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command.new(id, parent) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -227,7 +310,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The command that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [parent](#parent)         |                                                                                     |
+---
+
+### [parent](#parent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:parent() -> cp.commands`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -236,7 +323,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The parent `cp.commands`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pressed](#pressed)         |                                                                                     |
+---
+
+### [pressed](#pressed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:pressed() -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -245,7 +336,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>the result of the function, or `nil` if none is present.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [released](#released)         |                                                                                     |
+---
+
+### [released](#released)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:released() -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -254,7 +349,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>the result of the function, or `nil` if none is present.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [repeated](#repeated)         |                                                                                     |
+---
+
+### [repeated](#repeated)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:repeated(repeats) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -263,7 +362,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>the last result.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setShortcuts](#setShortcuts)         |                                                                                     |
+---
+
+### [setShortcuts](#setShortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:setShortcuts(shortcuts) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -272,7 +375,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subtitled](#subtitled)         |                                                                                     |
+---
+
+### [subtitled](#subtitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:subtitled(subtitle) -> cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -281,7 +388,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will look up the `<ID>_subtitle` value.</li><li>Anything set here will override it in all langauges.</li></ul>                |
 
-| [titled](#titled)         |                                                                                     |
+---
+
+### [titled](#titled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:titled(title) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -290,7 +401,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The command that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [whenActivated](#whenActivated)         |                                                                                     |
+---
+
+### [whenActivated](#whenActivated)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:whenActivated(activatedFn) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -299,7 +414,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | <ul><li>This is a shortcut for calling `whenPressed(...)`</li></ul>                |
 
-| [whenPressed](#whenPressed)         |                                                                                     |
+---
+
+### [whenPressed](#whenPressed)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:whenPressed(pressedFn) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -308,7 +427,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [whenReleased](#whenReleased)         |                                                                                     |
+---
+
+### [whenReleased](#whenReleased)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:whenReleased(releasedFn) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -317,7 +440,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [whenRepeated](#whenRepeated)         |                                                                                     |
+---
+
+### [whenRepeated](#whenRepeated)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.command:whenRepeated(repeatedFn) -> command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -326,3 +453,4 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

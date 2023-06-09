@@ -10,7 +10,10 @@ Multicam Tools.
 
 ### Functions
 
-| [doCutAndSwitchMulticam](#doCutAndSwitchMulticam)         |                                                                                     |
+
+### [doCutAndSwitchMulticam](#doCutAndSwitchMulticam)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.multicam.doCutAndSwitchMulticam(whichMode, whichAngle) -> Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Multicam Tools.
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

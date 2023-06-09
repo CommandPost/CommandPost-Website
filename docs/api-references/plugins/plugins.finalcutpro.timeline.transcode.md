@@ -17,15 +17,22 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ### Constants
 
-| [transcodeType](#transcodeType)         |                                                                                     |
+
+### [transcodeType](#transcodeType)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.transcodeType -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Transcode type.                                                                     |
 
+---
 ### Functions
 
-| [doTranscodeSelectedBrowserClips](#doTranscodeSelectedBrowserClips)         |                                                                                     |
+
+### [doTranscodeSelectedBrowserClips](#doTranscodeSelectedBrowserClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.doTranscodeSelectedBrowserClips() -> Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +41,11 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doTranscodeSelectedClips](#doTranscodeSelectedClips)         |                                                                                     |
+---
+
+### [doTranscodeSelectedClips](#doTranscodeSelectedClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.doTranscodeSelectedClips() -> Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +54,11 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doTranscodeSelectedTimelineClips](#doTranscodeSelectedTimelineClips)         |                                                                                     |
+---
+
+### [doTranscodeSelectedTimelineClips](#doTranscodeSelectedTimelineClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.doTranscodeSelectedTimelineClips() -> Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +67,11 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [optimizeSelectedClips](#optimizeSelectedClips)         |                                                                                     |
+---
+
+### [optimizeSelectedClips](#optimizeSelectedClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.optimizeSelectedClips() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +80,11 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [proxySelectedClips](#proxySelectedClips)         |                                                                                     |
+---
+
+### [proxySelectedClips](#proxySelectedClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.proxySelectedClips() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +93,11 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [transcodeSelectedClips](#transcodeSelectedClips)         |                                                                                     |
+---
+
+### [transcodeSelectedClips](#transcodeSelectedClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.transcodeSelectedClips(transcodeType) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,3 +106,4 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

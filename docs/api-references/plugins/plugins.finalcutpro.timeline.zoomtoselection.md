@@ -12,7 +12,10 @@ Zoom the Timeline to fit the currently-selected clips.
 
 ### Methods
 
-| [toggleZoomToFit](#toggleZoomToFit)         |                                                                                     |
+
+### [toggleZoomToFit](#toggleZoomToFit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.zoomtoselection.toggleZoomToFit() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -21,7 +24,11 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toggleZoomToSelection](#toggleZoomToSelection)         |                                                                                     |
+---
+
+### [toggleZoomToSelection](#toggleZoomToSelection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.zoomtoselection.toggleZoomToSelection() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -30,7 +37,11 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [zoomToSelection](#zoomToSelection)         |                                                                                     |
+---
+
+### [zoomToSelection](#zoomToSelection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.zoomtoselection.zoomToSelection() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,3 +50,4 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Returns**                                 | <ul><li>`true` if there is selected content in the timeline and zooming was successful.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

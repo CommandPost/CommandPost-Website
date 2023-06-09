@@ -42,7 +42,10 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 
 ### Functions
 
-| [help](#help)         |                                                                                     |
+
+### [help](#help)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.help(identifier)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -51,7 +54,11 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function is mainly for runtime API help while using Hammerspoon's Console</li><li></li><li>Documentation files registered with [hs.doc.registerJSONFile](#registerJSONFile) or [hs.doc.preloadSpoonDocs](#preloadSpoonDocs) that have not yet been actually loaded will be loaded when this command is invoked in any of the forms described below.</li><li></li><li>You can also access the results of this function by the following methods from the console:</li><li>  help("prefix.path") -- quotes are required, e.g. `help("hs.reload")`</li><li>  help.prefix.path -- no quotes are required, e.g. `help.hs.reload`</li><li>    `prefix` can be one of the following:</li><li>      `hs`    - provides documentation for Hammerspoon's builtin commands and modules</li><li>      `spoon` - provides documentation for the Spoons installed on your system</li><li>      `lua`   - provides documentation for the version of lua Hammerspoon is using, currently 5.3</li><li>        `lua._man` - provides the table of contents for the Lua 5.3 manual.  You can pull up a specific section of the lua manual by including the chapter (and subsection) like this: `lua._man._3_4_8`.</li><li>        `lua._C`   - provides documentation specifically about the Lua C API for use when developing modules which require external libraries.</li><li>    `path` is one or more components, separated by a period specifying the module, submodule, function, or method you wish to view documentation for.</li></ul>                |
 
-| [locateJSONFile](#locateJSONFile)         |                                                                                     |
+---
+
+### [locateJSONFile](#locateJSONFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.locateJSONFile(module) -> path | false, message`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -60,7 +67,11 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 | **Returns**                                 | <ul><li>the path to the JSON file, or `false, error` if unable to locate a corresponding JSON file.</li></ul>          |
 | **Notes**                                   | <ul><li>The JSON should be named 'docs.json' and located in the same directory as the `lua` or `so` file which is used when the module is loaded via `require`.</li><li></li><li>The documentation for core modules is stored in the JSON file specified by the `hs.docstrings_json_file` variable; this function is intended for use in locating the documentation file for third party modules and Spoons.</li></ul>                |
 
-| [preloadSpoonDocs](#preloadSpoonDocs)         |                                                                                     |
+---
+
+### [preloadSpoonDocs](#preloadSpoonDocs)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.preloadSpoonDocs()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -69,7 +80,11 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [registeredFiles](#registeredFiles)         |                                                                                     |
+---
+
+### [registeredFiles](#registeredFiles)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.registeredFiles() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -78,7 +93,11 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 | **Returns**                                 | <ul><li>a table containing the list of registered JSON files</li></ul>          |
 | **Notes**                                   | <ul><li>The table returned by this function has a metatable including a __tostring method which allows you to see the list of registered files by simply typing `hs.doc.registeredFiles()` in the Hammerspoon Console.</li><li></li><li>By default, the internal core documentation and portions of the Lua 5.3 manual, located at http://www.lua.org/manual/5.3/manual.html, are already registered for inclusion within this documentation object.</li><li></li><li>You can unregister these defaults if you wish to start with a clean slate with the following commands:</li><li>  `hs.doc.unregisterJSONFile(hs.docstrings_json_file)` -- to unregister the Hammerspoon API docs</li><li>  `hs.doc.unregisterJSONFile((hs.docstrings_json_file:gsub("/docs.json$","/lua.json")))` -- to unregister the Lua 5.3 Documentation.</li></ul>                |
 
-| [registerJSONFile](#registerJSONFile)         |                                                                                     |
+---
+
+### [registerJSONFile](#registerJSONFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.registerJSONFile(jsonfile, [isSpoon]) -> status[, message]`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -87,7 +106,11 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 | **Returns**                                 | <ul><li>status - Boolean flag indicating if the file was registered or not.  If the file was not registered, then a message indicating the error is also returned.</li></ul>          |
 | **Notes**                                   | <ul><li>this function just registers the documentation file; it won't actually be loaded and parsed until [hs.doc.help](#help) is invoked.</li></ul>                |
 
-| [unregisterJSONFile](#unregisterJSONFile)         |                                                                                     |
+---
+
+### [unregisterJSONFile](#unregisterJSONFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.doc.unregisterJSONFile(jsonfile) -> status[, message]`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -96,3 +119,4 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 | **Returns**                                 | <ul><li>status - Boolean flag indicating if the file was unregistered or not.  If the file was not unregistered, then a message indicating the error is also returned.</li></ul>          |
 | **Notes**                                   | <ul><li>This function requires the rebuilding of the entire documentation tree for all remaining registered files, so the next time help is queried with [hs.doc.help](#help), there may be a slight one-time delay.</li></ul>                |
 
+---

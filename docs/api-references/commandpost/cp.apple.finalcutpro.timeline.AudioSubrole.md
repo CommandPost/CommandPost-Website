@@ -14,7 +14,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.AudioSubrole.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,9 +26,13 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [AudioSubrole](#AudioSubrole)         |                                                                                     |
+
+### [AudioSubrole](#AudioSubrole)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.AudioSubrole(parent, uiFinder)`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -34,3 +41,4 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

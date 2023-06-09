@@ -26,21 +26,32 @@ Controls sections for the CommandPost menu.
 
 ### Constants
 
-| [DEFAULT_PRIORITY](#DEFAULT_PRIORITY)         |                                                                                     |
+
+### [DEFAULT_PRIORITY](#DEFAULT_PRIORITY)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section.DEFAULT_PRIORITY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default priority                                                                     |
 
-| [SECTION_DISABLED_PREFERENCES_KEY_PREFIX](#SECTION_DISABLED_PREFERENCES_KEY_PREFIX)         |                                                                                     |
+---
+
+### [SECTION_DISABLED_PREFERENCES_KEY_PREFIX](#SECTION_DISABLED_PREFERENCES_KEY_PREFIX)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section.SECTION_DISABLED_PREFERENCES_KEY_PREFIX -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The preferences key prefix for a disabled section.                                                                     |
 
+---
 ### Methods
 
-| [addApplicationHeading](#addApplicationHeading)         |                                                                                     |
+
+### [addApplicationHeading](#addApplicationHeading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:addApplicationHeading(title) -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -49,7 +60,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addHeading](#addHeading)         |                                                                                     |
+---
+
+### [addHeading](#addHeading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:addHeading(title) -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -58,7 +73,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addItem](#addItem)         |                                                                                     |
+---
+
+### [addItem](#addItem)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:addItem(priority, itemFn) -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -67,7 +86,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The section the item was added to.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addItems](#addItems)         |                                                                                     |
+---
+
+### [addItems](#addItems)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:addItems(priority, itemsFn) -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -76,7 +99,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The section the item was added to.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addMenu](#addMenu)         |                                                                                     |
+---
+
+### [addMenu](#addMenu)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:addMenu(priority, titleFn) -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -85,7 +112,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addSection](#addSection)         |                                                                                     |
+---
+
+### [addSection](#addSection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:addSection(priority) -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -94,7 +125,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addSeparator](#addSeparator)         |                                                                                     |
+---
+
+### [addSeparator](#addSeparator)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:addSeparator(priority) -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -103,7 +138,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [generateTable](#generateTable)         |                                                                                     |
+---
+
+### [generateTable](#generateTable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:generateTable() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -112,7 +151,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`table`	- The menu table for this section. See `hs.menubar` for details on the format.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getDisabledPreferenceKey](#getDisabledPreferenceKey)         |                                                                                     |
+---
+
+### [getDisabledPreferenceKey](#getDisabledPreferenceKey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:getDisabledPreferenceKey() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -121,7 +164,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`true` if the section has a disabled preferences key defined, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isApplicationHeading](#isApplicationHeading)         |                                                                                     |
+---
+
+### [isApplicationHeading](#isApplicationHeading)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:isApplicationHeading() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -130,7 +177,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`true` if it does contain an application heading, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isDisabled](#isDisabled)         |                                                                                     |
+---
+
+### [isDisabled](#isDisabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:isDisabled() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -139,7 +190,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`true` if the section is disabled, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:new() -> section`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -148,7 +203,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setDisabledFn](#setDisabledFn)         |                                                                                     |
+---
+
+### [setDisabledFn](#setDisabledFn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:setDisabledFn(disabledFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -157,7 +216,11 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setDisabledPreferenceKey](#setDisabledPreferenceKey)         |                                                                                     |
+---
+
+### [setDisabledPreferenceKey](#setDisabledPreferenceKey)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.menu.manager.section:setDisabledPreferenceKey(key) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -166,3 +229,4 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

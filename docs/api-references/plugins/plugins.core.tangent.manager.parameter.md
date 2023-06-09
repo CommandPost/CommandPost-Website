@@ -26,7 +26,10 @@ Represents a Tangent Parameter control.
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter.is(thing) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,7 +38,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>`true` if it is a `parameter`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:update()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -44,9 +51,13 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [parameter](#parameter)         |                                                                                     |
+
+### [parameter](#parameter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter(id[, name[, parent]) -> parameter`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -55,9 +66,13 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>the new `parameter`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [change](#change)         |                                                                                     |
+
+### [change](#change)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:change(amount) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,7 +81,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [get](#get)         |                                                                                     |
+---
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:get() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -75,7 +94,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [maxValue](#maxValue)         |                                                                                     |
+---
+
+### [maxValue](#maxValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:maxValue([value]) -> number | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -84,7 +107,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [minValue](#minValue)         |                                                                                     |
+---
+
+### [minValue](#minValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:minValue([value]) -> number | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -93,7 +120,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onChange](#onChange)         |                                                                                     |
+---
+
+### [onChange](#onChange)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:onChange(changeFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -102,7 +133,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function(amount) -> number`</li><li></li><li>The return value should be the new value of the parameter.</li></ul>                |
 
-| [onGet](#onGet)         |                                                                                     |
+---
+
+### [onGet](#onGet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:onGet(getFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -111,7 +146,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> number`</li></ul>                |
 
-| [onReset](#onReset)         |                                                                                     |
+---
+
+### [onReset](#onReset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:onReset(resetFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -120,7 +159,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul>                |
 
-| [press](#press)         |                                                                                     |
+---
+
+### [press](#press)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:press() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -129,7 +172,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [release](#release)         |                                                                                     |
+---
+
+### [release](#release)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:release() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -138,7 +185,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:reset() -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -147,7 +198,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stepSize](#stepSize)         |                                                                                     |
+---
+
+### [stepSize](#stepSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:stepSize([value]) -> number | self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -156,7 +211,11 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.parameter:xml() -> cp.web.xml`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -165,3 +224,4 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `xml` for the Parameter.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

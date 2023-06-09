@@ -25,7 +25,10 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hotkey.modal.new(mods, key, message) -> hs.hotkey.modal object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -38,9 +41,13 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Returns**                                 | <ul><li>A new `hs.hotkey.modal` object</li></ul>          |
 | **Notes**                                   | <ul><li>If `key` is nil, no global hotkey will be registered (all other parameters will be ignored)</li></ul>                |
 
+---
 ### Methods
 
-| [bind](#bind)         |                                                                                     |
+
+### [bind](#bind)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hotkey.modal:bind(mods, key, message, pressedfn, releasedfn, repeatfn) -> hs.hotkey.modal object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -53,7 +60,11 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hotkey.modal:delete()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -62,7 +73,11 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enter](#enter)         |                                                                                     |
+---
+
+### [enter](#enter)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hotkey.modal:enter() -> hs.hotkey.modal object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -71,7 +86,11 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>This method will enable all of the hotkeys defined in the modal state via `hs.hotkey.modal:bind()`,</li><li>   and disable the hotkey that entered the modal state (if one was defined)</li><li>If the modal state was created with a keyboard combination, this method will be called automatically</li></ul>                |
 
-| [entered](#entered)         |                                                                                     |
+---
+
+### [entered](#entered)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hotkey.modal:entered()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -80,7 +99,11 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul>                |
 
-| [exit](#exit)         |                                                                                     |
+---
+
+### [exit](#exit)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hotkey.modal:exit() -> hs.hotkey.modal object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -89,7 +112,11 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>This method will disable all of the hotkeys defined in the modal state, and enable the hotkey for entering the modal state (if one was defined)</li></ul>                |
 
-| [exited](#exited)         |                                                                                     |
+---
+
+### [exited](#exited)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.hotkey.modal:exited()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -98,3 +125,4 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul>                |
 
+---

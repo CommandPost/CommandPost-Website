@@ -13,7 +13,10 @@ delayed, up to a finite number of loops.
 
 ### Functions
 
-| [doUntil](#doUntil)         |                                                                                     |
+
+### [doUntil](#doUntil)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.just.doUntil(actionFn[, timeout[, frequency]]) -> value`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -22,7 +25,11 @@ delayed, up to a finite number of loops.
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doWhile](#doWhile)         |                                                                                     |
+---
+
+### [doWhile](#doWhile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.just.doWhile(actionFn[, timeout[, frequency]]) -> value`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ delayed, up to a finite number of loops.
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [wait](#wait)         |                                                                                     |
+---
+
+### [wait](#wait)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.just.wait(periodInSeconds) -> nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,3 +51,4 @@ delayed, up to a finite number of loops.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

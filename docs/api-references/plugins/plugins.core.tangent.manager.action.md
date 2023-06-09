@@ -18,7 +18,10 @@ Represents a Tangent Action
 
 ### Constructors
 
-| [action](#action)         |                                                                                     |
+
+### [action](#action)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.action(id[, name[, parent[, localActive]]]) -> action`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -27,23 +30,35 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>the new `action`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [active](#active)         |                                                                                     |
+
+### [active](#active)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.action.active <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the action is active. It will only be active if                                                                     |
 
-| [localActive](#localActive)         |                                                                                     |
+---
+
+### [localActive](#localActive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.action.localActive <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the action should ignore the parent's `enabled` state when determining if the action is active.                                                                     |
 
+---
 ### Methods
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.action.is() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -52,7 +67,11 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>`true` if the object is an action otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onPress](#onPress)         |                                                                                     |
+---
+
+### [onPress](#onPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.action:onPress(pressFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -61,7 +80,11 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul>                |
 
-| [onRelease](#onRelease)         |                                                                                     |
+---
+
+### [onRelease](#onRelease)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.action:onRelease(releaseFn) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -70,7 +93,11 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul>                |
 
-| [xml](#xml)         |                                                                                     |
+---
+
+### [xml](#xml)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.action:xml() -> cp.web.xml`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,3 +106,4 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

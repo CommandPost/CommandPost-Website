@@ -14,21 +14,32 @@ Browser Keywords Presets.
 
 ### Constants
 
-| [NUMBER_OF_PRESETS](#NUMBER_OF_PRESETS)         |                                                                                     |
+
+### [NUMBER_OF_PRESETS](#NUMBER_OF_PRESETS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.NUMBER_OF_PRESETS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of presets available.                                                                     |
 
-| [NUMBER_OF_SHORTCUTS](#NUMBER_OF_SHORTCUTS)         |                                                                                     |
+---
+
+### [NUMBER_OF_SHORTCUTS](#NUMBER_OF_SHORTCUTS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.NUMBER_OF_SHORTCUTS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of Keyword Keyboard shortcuts available.                                                                     |
 
+---
 ### Functions
 
-| [restore](#restore)         |                                                                                     |
+
+### [restore](#restore)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.restore(preset) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -37,7 +48,11 @@ Browser Keywords Presets.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [save](#save)         |                                                                                     |
+---
+
+### [save](#save)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.save(preset) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -46,3 +61,4 @@ Browser Keywords Presets.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

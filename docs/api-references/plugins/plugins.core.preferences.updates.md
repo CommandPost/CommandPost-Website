@@ -10,9 +10,13 @@ Updates Module.
 
 ### Variables
 
-| [automaticallyCheckForUpdates](#automaticallyCheckForUpdates)         |                                                                                     |
+
+### [automaticallyCheckForUpdates](#automaticallyCheckForUpdates)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.preferences.updates.automaticallyCheckForUpdates <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically check for updates?                                                                     |
 
+---

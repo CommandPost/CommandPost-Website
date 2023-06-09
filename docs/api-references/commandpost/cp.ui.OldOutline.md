@@ -24,7 +24,10 @@ Represents an `AXOutline` `axuielement`.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -33,9 +36,13 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [OldOutline](#OldOutline)         |                                                                                     |
+
+### [OldOutline](#OldOutline)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline(parent, uiFinder) -> cp.ui.OldOutline`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -44,9 +51,13 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The new `Outline` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [childrenUI](#childrenUI)         |                                                                                     |
+
+### [childrenUI](#childrenUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:childrenUI() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +66,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [columns](#columns)         |                                                                                     |
+---
+
+### [columns](#columns)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:columns() -> table of cp.ui.Columns`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +79,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [columnsUI](#columnsUI)         |                                                                                     |
+---
+
+### [columnsUI](#columnsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:columnsUI() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +92,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A Table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [createColumn](#createColumn)         |                                                                                     |
+---
+
+### [createColumn](#createColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:createColumn(columnUI) -> cp.ui.OldColumn`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +105,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The [Column](cp.ui.OldColumn.md) or an error if a problem occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Subclasses which want to provide a custom [Column](cp.ui.OldColumn.md) implementation should override this method.</li></ul>                |
 
-| [createRow](#createRow)         |                                                                                     |
+---
+
+### [createRow](#createRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:createRow(rowUI) -> cp.ui.OldRow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +118,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The [Row](cp.ui.OldRow.md) or an error if a problem occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Subclasses which want to provide a custom [Row](cp.ui.OldRow.md) implementation should override this method.</li></ul>                |
 
-| [fetchColumn](#fetchColumn)         |                                                                                     |
+---
+
+### [fetchColumn](#fetchColumn)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:fetchColumn(columnsUI) -> table of cp.ui.Columns`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,7 +131,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A `table` with the same number of elements, containing the matching [Column](cp.ui.OldColumn.md) instances.</li></ul>          |
 | **Notes**                                   | <ul><li>If provided items in the table are not valid columns in this table, then `nil` will be put in the matching index.</li><li>Note that this will break the standard `#`/looping behaviour for tables at that point.</li></ul>                |
 
-| [fetchRow](#fetchRow)         |                                                                                     |
+---
+
+### [fetchRow](#fetchRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:fetchRow(rowUI) -> cp.ui.OldRow or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -109,7 +144,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The [Row](cp.ui.OldRow.md), or `nil` if the `rowUI` is not in this `Outline`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fetchRows](#fetchRows)         |                                                                                     |
+---
+
+### [fetchRows](#fetchRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:fetchRows(rowsUI) -> table of cp.ui.OldRows`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -118,7 +157,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A `table` with the same number of elements, containing the matching [Row](cp.ui.OldRow.md) instances.</li></ul>          |
 | **Notes**                                   | <ul><li>If provided items in the table are not valid rows in this table, then `nil` will be put in the matching index.</li><li>Note that this will break the standard `#`/looping behaviour for tables at that point.</li></ul>                |
 
-| [filterRows](#filterRows)         |                                                                                     |
+---
+
+### [filterRows](#filterRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:filterRows(matcherFn) -> table of cp.ui.OldRows or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -127,7 +170,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A `table` of [Row](cp.ui.OldRow.md)s, or `nil` if no UI is currently available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rows](#rows)         |                                                                                     |
+---
+
+### [rows](#rows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:rows() -> table of cp.ui.OldRow or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -136,7 +183,11 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table containing the list of [Row](cp.ui.OldRow.md)s in the `Outline`, or `nil` if the `Outline` is not presently available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [rowsUI](#rowsUI)         |                                                                                     |
+---
+
+### [rowsUI](#rowsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:rowsUI() -> table of axuielement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -145,3 +196,4 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

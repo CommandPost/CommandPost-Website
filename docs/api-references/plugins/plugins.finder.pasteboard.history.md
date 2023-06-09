@@ -12,21 +12,33 @@ Adds text pasteboard history actions to the Search Console.
 
 ### Fields
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.pasteboard.history.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Text Pasteboard History Enabled?                                                                     |
 
-| [history](#history)         |                                                                                     |
+---
+
+### [history](#history)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.pasteboard.history.history <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the pasteboard history.                                                                     |
 
-| [historySize](#historySize)         |                                                                                     |
+---
+
+### [historySize](#historySize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finder.pasteboard.history.historySize <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Maximum Pasteboard History Size                                                                     |
 
+---

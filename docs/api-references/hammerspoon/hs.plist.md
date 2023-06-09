@@ -13,7 +13,10 @@ Read and write Property List files
 
 ### Functions
 
-| [read](#read)         |                                                                                     |
+
+### [read](#read)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.plist.read(filepath) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -22,7 +25,11 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>The contents of the plist as a Lua table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [readString](#readString)         |                                                                                     |
+---
+
+### [readString](#readString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.plist.readString(value, [binary]) -> table | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>The contents of the property list as a Lua table or `nil` if an error occurs</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [write](#write)         |                                                                                     |
+---
+
+### [write](#write)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.plist.write(filepath, data[, binary]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>A boolean, true if the plist was written successfully, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>Only simple types can be converted to plist items:</li><li> Strings</li><li> Numbers</li><li> Booleans</li><li> Tables</li><li>You should be careful when reading a plist, modifying and writing it - Hammerspoon may not be able to preserve all of the datatypes via Lua</li></ul>                |
 
-| [writeString](#writeString)         |                                                                                     |
+---
+
+### [writeString](#writeString)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.plist.writeString(data, [binary]) -> string | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,3 +64,4 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>A string representing the data as a plist or nil if there was a problem with the date or serialization.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

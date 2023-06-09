@@ -12,7 +12,10 @@ or mouse movement.
 
 ### Functions
 
-| [queue](#queue)         |                                                                                     |
+
+### [queue](#queue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.idle.queue(idleSeconds, actionFn[, retryOnError]) -> nothing`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,3 +24,4 @@ or mouse movement.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

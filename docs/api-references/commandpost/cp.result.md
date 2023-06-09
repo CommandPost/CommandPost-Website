@@ -50,7 +50,10 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result.is(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,9 +62,13 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>`true` if the value is an instance of `cp.result`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [failure](#failure)         |                                                                                     |
+
+### [failure](#failure)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result.failure(message) -> result`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -70,7 +77,11 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>A new result</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [from](#from)         |                                                                                     |
+---
+
+### [from](#from)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result.from(value, err) -> result`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -79,7 +90,11 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>A `result.success` or `result.failure`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [okValue](#okValue)         |                                                                                     |
+---
+
+### [okValue](#okValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result.okValue(ok, value) -> result`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -88,7 +103,11 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>A `result.success` or `result.failure`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [success](#success)         |                                                                                     |
+---
+
+### [success](#success)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result.success(value) -> result`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -97,7 +116,11 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>A new result</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [valueErr](#valueErr)         |                                                                                     |
+---
+
+### [valueErr](#valueErr)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result.valueErr(value, err) -> result`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -106,9 +129,13 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>A `result.success` or `result.failure`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [get](#get)         |                                                                                     |
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result:get() -> anything`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -117,7 +144,11 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>The `value` if it was a `success`, otherwise throws an `error`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [log](#log)         |                                                                                     |
+---
+
+### [log](#log)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.result:log([context]) -> cp.result`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -126,3 +157,4 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 | **Returns**                                 | <ul><li>The same `cp.result` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

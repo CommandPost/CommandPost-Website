@@ -17,7 +17,10 @@ the value.
 
 ### Constructors
 
-| [SetProp](#SetProp)         |                                                                                     |
+
+### [SetProp](#SetProp)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.SetProp(theProp) -> SetProp`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -26,9 +29,13 @@ the value.
 | **Returns**                                 | <ul><li>The `SetProp` `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>It can then optionally execute some other statements and finally, reset the property to its original value.</li><li></li><li>Example:</li><li></li><li>```lua</li><li>local myProp = prop.VALUE("foo")</li><li>SetProp(myProp):To("bar"):Then(</li><li>    function() ... end</li><li>):ThenReset()</li><li>```</li></ul>                |
 
+---
 ### Methods
 
-| [To](#To)         |                                                                                     |
+
+### [To](#To)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.SetProp:To(value) -> SetProp.To`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -37,3 +44,4 @@ the value.
 | **Returns**                                 | <ul><li>The `SetProp.To` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>SetProp(foo):To("bar") -- will always set to "bar"</li><li>SetProp(modDate):To(os.time) -- will set to the current value returned by `os.time()` every time it's executed.</li><li>```</li></ul>                |
 
+---

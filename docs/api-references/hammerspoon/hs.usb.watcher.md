@@ -13,7 +13,10 @@ Watch for USB device connection/disconnection events
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.usb.watcher.new(fn) -> watcher`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -27,9 +30,13 @@ Watch for USB device connection/disconnection events
 | **Returns**                                 | <ul><li>A `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.usb.watcher:start() -> watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -38,7 +45,11 @@ Watch for USB device connection/disconnection events
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.usb.watcher:stop() -> watcher`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -47,3 +58,4 @@ Watch for USB device connection/disconnection events
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -11,7 +11,10 @@ Functions for managing text on the web.
 
 ### Functions
 
-| [escapeXML](#escapeXML)         |                                                                                     |
+
+### [escapeXML](#escapeXML)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.text.escapeXML(s) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -20,7 +23,11 @@ Functions for managing text on the web.
 | **Returns**                                 | <ul><li>The string, escaped for XML.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [unescapeXML](#unescapeXML)         |                                                                                     |
+---
+
+### [unescapeXML](#unescapeXML)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.text.unescapeXML(s) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,3 +36,4 @@ Functions for managing text on the web.
 | **Returns**                                 | <ul><li>The string, unescaped.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

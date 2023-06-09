@@ -10,7 +10,10 @@ Alert UI Module.
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Alert:new(app) -> Alert`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -19,3 +22,4 @@ Alert UI Module.
 | **Returns**                                 | <ul><li>A new `Browser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

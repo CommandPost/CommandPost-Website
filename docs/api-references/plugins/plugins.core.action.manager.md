@@ -17,21 +17,32 @@ Action Manager Module.
 
 ### Constants
 
-| [handlerIds](#handlerIds)         |                                                                                     |
+
+### [handlerIds](#handlerIds)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.manager.handlerIds <cp.prop: table of strings; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns a list of registered handler IDs.                                                                     |
 
-| [handlers](#handlers)         |                                                                                     |
+---
+
+### [handlers](#handlers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.manager.handlers <cp.prop: table of handlers; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Provides access to the set of handlers registered with the manager. It                                                                     |
 
+---
 ### Functions
 
-| [addHandler](#addHandler)         |                                                                                     |
+
+### [addHandler](#addHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.manager.addHandler(id, group, label) -> handler`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>The `handler` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getActivator](#getActivator)         |                                                                                     |
+---
+
+### [getActivator](#getActivator)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.manager.getActivator(id) -> activator`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,7 +64,11 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>The activator with the specified ID.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getHandler](#getHandler)         |                                                                                     |
+---
+
+### [getHandler](#getHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.manager.getHandler(id) -> handler`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,7 +77,11 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>The action handler, or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getURL](#getURL)         |                                                                                     |
+---
+
+### [getURL](#getURL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.manager.getURL(handlerId, action) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -67,7 +90,11 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.action.manager.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -76,3 +103,4 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

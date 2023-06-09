@@ -21,7 +21,10 @@ The CommandPost Workflow Extension Window.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -30,9 +33,13 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [CommandPostWindow](#CommandPostWindow)         |                                                                                     |
+
+### [CommandPostWindow](#CommandPostWindow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow(app) -> CommandPostWindow`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -41,17 +48,25 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>A new `CommandPostWindow` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [reloadButton](#reloadButton)         |                                                                                     |
+
+### [reloadButton](#reloadButton)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow.reloadButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Reload Button within a stalled Workflow Extension.                                                                     |
 
+---
 ### Methods
 
-| [doHide](#doHide)         |                                                                                     |
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +75,11 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +88,11 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hasStalled](#hasStalled)         |                                                                                     |
+---
+
+### [hasStalled](#hasStalled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow:hasStalled() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +101,11 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>`true` if stalled, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow:hide() -> CommandPostWindow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +114,11 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The same `CommandPostWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [reload](#reload)         |                                                                                     |
+---
+
+### [reload](#reload)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow:reload() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +127,11 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow:show() -> CommandPostWindow`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,3 +140,4 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The same `CommandPostWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>If the Workflow Extension has stalled, this method will restart it.</li></ul>                |
 
+---

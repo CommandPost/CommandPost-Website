@@ -49,7 +49,10 @@ Libraries Browser Module.
 
 ### Functions
 
-| [deselectAll](#deselectAll)         |                                                                                     |
+
+### [deselectAll](#deselectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:deselectAll() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -58,7 +61,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [indexOfClip](#indexOfClip)         |                                                                                     |
+---
+
+### [indexOfClip](#indexOfClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:indexOfClip(clip) -> number | nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -67,9 +74,13 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The index or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [LibrariesBrowser](#LibrariesBrowser)         |                                                                                     |
+
+### [LibrariesBrowser](#LibrariesBrowser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser(app) -> LibrariesBrowser`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -78,71 +89,115 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A new `LibrariesBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [clipFiltering](#clipFiltering)         |                                                                                     |
+
+### [clipFiltering](#clipFiltering)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.clipFiltering <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Clip Filtering [PopUpButton](cp.ui.PopUpButton.md).                                                                     |
 
-| [filmstrip](#filmstrip)         |                                                                                     |
+---
+
+### [filmstrip](#filmstrip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.filmstrip <LibrariesFilmstrip>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `LibrariesFilmstrip` object.                                                                     |
 
-| [isFilmstripView](#isFilmstripView)         |                                                                                     |
+---
+
+### [isFilmstripView](#isFilmstripView)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.isFilmstripView <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the Library Browser is in 'filmstrip view' mode.                                                                     |
 
-| [isFocused](#isFocused)         |                                                                                     |
+---
+
+### [isFocused](#isFocused)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.isFocused <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the Libraries Browser is the current focus.                                                                     |
 
-| [isListView](#isListView)         |                                                                                     |
+---
+
+### [isListView](#isListView)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.isListView <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the Library Browser is in 'list view' mode.                                                                     |
 
-| [list](#list)         |                                                                                     |
+---
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.list <LibrariesList>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [LibrariesList](cp.apple.finalcutpro.main.LibrariesList.md) object.                                                                     |
 
-| [mainGroupUI](#mainGroupUI)         |                                                                                     |
+---
+
+### [mainGroupUI](#mainGroupUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.mainGroupUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the main group within the Libraries Browser, or `nil` if not available..                                                                     |
 
-| [search](#search)         |                                                                                     |
+---
+
+### [search](#search)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.search <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Search [TextField](cp.ui.TextField.md).                                                                     |
 
-| [searchToggle](#searchToggle)         |                                                                                     |
+---
+
+### [searchToggle](#searchToggle)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.searchToggle <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Search Toggle [Button](cp.ui.Button.md).                                                                     |
 
-| [toggleViewMode](#toggleViewMode)         |                                                                                     |
+---
+
+### [toggleViewMode](#toggleViewMode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.toggleViewMode <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Toggle View Mode [Button](cp.ui.Button.md).                                                                     |
 
+---
 ### Methods
 
-| [clips](#clips)         |                                                                                     |
+
+### [clips](#clips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:clips(filterFn) -> table | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +206,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [clipsUI](#clipsUI)         |                                                                                     |
+---
+
+### [clipsUI](#clipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:clipsUI(filterFn) -> table | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +219,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindClips](#doFindClips)         |                                                                                     |
+---
+
+### [doFindClips](#doFindClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:doFindClips(filter) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +232,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFindClipsTitled](#doFindClipsTitled)         |                                                                                     |
+---
+
+### [doFindClipsTitled](#doFindClipsTitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:doFindClipsTitled(title) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +245,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +258,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doOpenClipTitled](#doOpenClipTitled)         |                                                                                     |
+---
+
+### [doOpenClipTitled](#doOpenClipTitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:doOpenClipTitled(title) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,7 +271,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doSelectClipTitled](#doSelectClipTitled)         |                                                                                     |
+---
+
+### [doSelectClipTitled](#doSelectClipTitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:doSelectClipTitled(title) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -205,7 +284,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` ready to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -214,7 +297,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:hide() -> LibrariesBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -223,7 +310,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `LibrariesBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -232,7 +323,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [openClipTitled](#openClipTitled)         |                                                                                     |
+---
+
+### [openClipTitled](#openClipTitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:openClipTitled(name) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -241,7 +336,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [playhead](#playhead)         |                                                                                     |
+---
+
+### [playhead](#playhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:playhead() -> Playhead`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -250,7 +349,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A `Playhead` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -259,7 +362,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A table containing the current Libraries Browser Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectAll](#selectAll)         |                                                                                     |
+---
+
+### [selectAll](#selectAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:selectAll([clips]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -268,7 +375,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClip](#selectClip)         |                                                                                     |
+---
+
+### [selectClip](#selectClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:selectClip(clip) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -277,7 +388,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClipAt](#selectClipAt)         |                                                                                     |
+---
+
+### [selectClipAt](#selectClipAt)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:selectClipAt(index) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -286,7 +401,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectClipTitled](#selectClipTitled)         |                                                                                     |
+---
+
+### [selectClipTitled](#selectClipTitled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:selectClipTitled(title) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -295,7 +414,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedClips](#selectedClips)         |                                                                                     |
+---
+
+### [selectedClips](#selectedClips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:selectedClips() -> table | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -304,7 +427,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedClipsUI](#selectedClipsUI)         |                                                                                     |
+---
+
+### [selectedClipsUI](#selectedClipsUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:selectedClipsUI() -> table | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -313,7 +440,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectLibrary](#selectLibrary)         |                                                                                     |
+---
+
+### [selectLibrary](#selectLibrary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:selectLibrary(...) -> Table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -322,7 +453,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A `Table` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:show() -> LibrariesBrowser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -331,7 +466,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>The `LibrariesBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showClip](#showClip)         |                                                                                     |
+---
+
+### [showClip](#showClip)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:showClip(clip) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -340,7 +479,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [sidebar](#sidebar)         |                                                                                     |
+---
+
+### [sidebar](#sidebar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser.sidebar <cp.apple.finalcutpro.main.LibrariesSidebar>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -349,7 +492,11 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [skimmingPlayhead](#skimmingPlayhead)         |                                                                                     |
+---
+
+### [skimmingPlayhead](#skimmingPlayhead)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesBrowser:skimmingPlayhead() -> Playhead`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -358,3 +505,4 @@ Libraries Browser Module.
 | **Returns**                                 | <ul><li>A `Playhead` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

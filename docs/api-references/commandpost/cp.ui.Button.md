@@ -18,7 +18,10 @@ methods, fields and other properties.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Button.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -27,9 +30,13 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>`true` if the `element` is a `Button`, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Button](#Button)         |                                                                                     |
+
+### [Button](#Button)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Button(parent, uiFinder) -> cp.ui.Button`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -38,17 +45,25 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>The new `Button` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [title](#title)         |                                                                                     |
+
+### [title](#title)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Button.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
 
+---
 ### Methods
 
-| [doPress](#doPress)         |                                                                                     |
+
+### [doPress](#doPress)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Button:doPress() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -57,7 +72,11 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [press](#press)         |                                                                                     |
+---
+
+### [press](#press)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Button:press() -> self, boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,3 +85,4 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>The `Button` instance.</li><li>`true` if the button was actually pressed successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

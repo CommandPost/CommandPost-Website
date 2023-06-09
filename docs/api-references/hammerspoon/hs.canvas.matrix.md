@@ -31,7 +31,10 @@ For more information on the mathematics behind these, you can check the web.  On
 
 ### Constructors
 
-| [identity](#identity)         |                                                                                     |
+
+### [identity](#identity)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix.identity() -> matrixObject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -40,9 +43,13 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the identity matrix.</li></ul>          |
 | **Notes**                                   | <ul><li>The identity matrix can be thought of as "apply no transformations at all" or "render as specified".</li><li>Mathematically this is represented as:</li><li>~~~</li><li>[ 1,  0,  0 ]</li><li>[ 0,  1,  0 ]</li><li>[ 0,  0,  1 ]</li><li>~~~</li></ul>                |
 
+---
 ### Methods
 
-| [append](#append)         |                                                                                     |
+
+### [append](#append)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix:append(matrix) -> matrixObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -51,7 +58,11 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul><li>Mathematically this method multiples the original matrix by the new one and returns the result of the multiplication.</li><li>You can use this method to "stack" additional transformations on top of existing transformations, without having to know what the existing transformations in effect for the canvas element are.</li></ul>                |
 
-| [invert](#invert)         |                                                                                     |
+---
+
+### [invert](#invert)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix:invert() -> matrixObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -60,7 +71,11 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the inverted matrix.</li></ul>          |
 | **Notes**                                   | <ul><li>Inverting a matrix which represents a series of transformations has the effect of reversing or undoing the original transformations.</li><li>This is useful when used with [hs.canvas.matrix.append](#append) to undo a previously applied transformation without actually replacing all of the transformations which may have been applied to a canvas element.</li></ul>                |
 
-| [prepend](#prepend)         |                                                                                     |
+---
+
+### [prepend](#prepend)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix:prepend(matrix) -> matrixObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -69,7 +84,11 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul><li>Mathematically this method multiples the new matrix by the original one and returns the result of the multiplication.</li><li>You can use this method to apply a transformation *before* the currently applied transformations, without having to know what the existing transformations in effect for the canvas element are.</li></ul>                |
 
-| [rotate](#rotate)         |                                                                                     |
+---
+
+### [rotate](#rotate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix:rotate(angle) -> matrixObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -78,7 +97,11 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul><li>The rotation of an element this matrix is applied to will be rotated about the origin (zero point).  To rotate an object about another point (its center for example), prepend a translation to the point to rotate about, and append a translation reversing the initial translation.</li><li>  e.g. `hs.canvas.matrix.translate(x, y):rotate(angle):translate(-x, -y)`</li></ul>                |
 
-| [scale](#scale)         |                                                                                     |
+---
+
+### [scale](#scale)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix:scale(xFactor, [yFactor]) -> matrixObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -87,7 +110,11 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [shear](#shear)         |                                                                                     |
+---
+
+### [shear](#shear)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix:shear(xFactor, [yFactor]) -> matrixObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -96,7 +123,11 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [translate](#translate)         |                                                                                     |
+---
+
+### [translate](#translate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.canvas.matrix:translate(x, y) -> matrixObject`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -105,3 +136,4 @@ For more information on the mathematics behind these, you can check the web.  On
 | **Returns**                                 | <ul><li>the new matrix</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

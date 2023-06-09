@@ -46,7 +46,10 @@ There are two 'special' tag names:
 
 ### Functions
 
-| [is](#is)         |                                                                                     |
+
+### [is](#is)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.web.xml.is(value) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -55,3 +58,4 @@ There are two 'special' tag names:
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

@@ -10,7 +10,10 @@ Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandGroups.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

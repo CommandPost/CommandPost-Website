@@ -17,7 +17,10 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 
 ### Constructors
 
-| [ElementCache](#ElementCache)         |                                                                                     |
+
+### [ElementCache](#ElementCache)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ElementCache(parent[, createFn])`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -26,9 +29,13 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>The new `ElementCache`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [cachedElement](#cachedElement)         |                                                                                     |
+
+### [cachedElement](#cachedElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ElementCache:cachedElement(ui) -> cp.ui.Element or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -37,7 +44,11 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>`cp.ui.Element` or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [cacheElement](#cacheElement)         |                                                                                     |
+---
+
+### [cacheElement](#cacheElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ElementCache:cacheElement(element[, ui]) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -46,7 +57,11 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [clean](#clean)         |                                                                                     |
+---
+
+### [clean](#clean)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ElementCache:clean()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +70,11 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fetchElement](#fetchElement)         |                                                                                     |
+---
+
+### [fetchElement](#fetchElement)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ElementCache:fetchElement(ui) -> cp.ui.Element or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,7 +83,11 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>`cp.ui.Element` or `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [fetchElements](#fetchElements)         |                                                                                     |
+---
+
+### [fetchElements](#fetchElements)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ElementCache:fetchElements(uis) -> table of cp.ui.Elements or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +96,11 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>A `table` of [Element](cp.ui.Element.md) values.</li></ul>          |
 | **Notes**                                   | <ul><li>If any of the provided `axuielement` values are either not from the parent, or no longer valid, a `nil` value will be stored in the matching index. Note that in that case, this will break useage of `ipairs` due to leaving holes in the list.</li></ul>                |
 
-| [reset](#reset)         |                                                                                     |
+---
+
+### [reset](#reset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.ElementCache:reset() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,3 +109,4 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

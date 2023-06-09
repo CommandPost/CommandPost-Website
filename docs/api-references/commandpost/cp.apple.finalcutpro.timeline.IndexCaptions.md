@@ -15,27 +15,42 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 
 ### Fields
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexCaptions.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Captions' section.                                                                     |
 
-| [list](#list)         |                                                                                     |
+---
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexCaptions.list <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of captions as a [Table](cp.ui.OldTable.md).                                                                     |
 
-| [viewErrors](#viewErrors)         |                                                                                     |
+---
+
+### [viewErrors](#viewErrors)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexCaptions.viewErrors <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) that will allow viewing errors in the Captions list.                                                                     |
 
+---
 ### Methods
 
-| [doLayout](#doLayout)         |                                                                                     |
+
+### [doLayout](#doLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexCaptions:doLayout(layout) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -44,7 +59,11 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexCaptions:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -53,3 +72,4 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

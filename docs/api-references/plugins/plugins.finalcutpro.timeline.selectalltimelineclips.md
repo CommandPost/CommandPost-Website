@@ -10,7 +10,10 @@ Select All Timeline Clips
 
 ### Functions
 
-| [selectalltimelineclips](#selectalltimelineclips)         |                                                                                     |
+
+### [selectalltimelineclips](#selectalltimelineclips)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.selectalltimelineclips(forwards) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Select All Timeline Clips
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

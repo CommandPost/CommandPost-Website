@@ -17,7 +17,10 @@ Your functions/chunks can return text, which will be returned by the action in S
 
 ### Functions
 
-| [list](#list)         |                                                                                     |
+
+### [list](#list)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.shortcuts.list() -> []`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -26,7 +29,11 @@ Your functions/chunks can return text, which will be returned by the action in S
 | **Returns**                                 | <ul><li>A table of shortcuts, each being a table with the following keys:</li><li> name - The name of the shortcut</li><li> id - A unique ID for the shortcut</li><li> acceptsInput - A boolean indicating if the shortcut requires input</li><li> actionCount - A number relating to how many actions are in the shortcut</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [run](#run)         |                                                                                     |
+---
+
+### [run](#run)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.shortcuts.run(name)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -35,3 +42,4 @@ Your functions/chunks can return text, which will be returned by the action in S
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

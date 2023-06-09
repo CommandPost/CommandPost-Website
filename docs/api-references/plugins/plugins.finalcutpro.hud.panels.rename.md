@@ -22,75 +22,122 @@ Batch Rename Panel for the Final Cut Pro HUD.
 
 ### Variables
 
-| [code](#code)         |                                                                                     |
+
+### [code](#code)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.code <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Code                                                                     |
 
-| [codeProcessing](#codeProcessing)         |                                                                                     |
+---
+
+### [codeProcessing](#codeProcessing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.codeProcessing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Code Processing                                                                     |
 
-| [find](#find)         |                                                                                     |
+---
+
+### [find](#find)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.find <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Find Preference                                                                     |
 
-| [keepOriginal](#keepOriginal)         |                                                                                     |
+---
+
+### [keepOriginal](#keepOriginal)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.keepOriginal <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Keep Original Preference                                                                     |
 
-| [padding](#padding)         |                                                                                     |
+---
+
+### [padding](#padding)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.padding <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Padding                                                                     |
 
-| [prefix](#prefix)         |                                                                                     |
+---
+
+### [prefix](#prefix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.prefix <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Prefix Preference                                                                     |
 
-| [replace](#replace)         |                                                                                     |
+---
+
+### [replace](#replace)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.replace <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Replace Preference                                                                     |
 
-| [sequence](#sequence)         |                                                                                     |
+---
+
+### [sequence](#sequence)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.sequence <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Sequence mode                                                                     |
 
-| [startWith](#startWith)         |                                                                                     |
+---
+
+### [startWith](#startWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.startWith <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Start with                                                                     |
 
-| [stepValue](#stepValue)         |                                                                                     |
+---
+
+### [stepValue](#stepValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.stepValue <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Start with                                                                     |
 
-| [suffix](#suffix)         |                                                                                     |
+---
+
+### [suffix](#suffix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.suffix <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Suffix Preference                                                                     |
 
+---
 ### Functions
 
-| [updateInfo](#updateInfo)         |                                                                                     |
+
+### [updateInfo](#updateInfo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.updateInfo() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -99,3 +146,4 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

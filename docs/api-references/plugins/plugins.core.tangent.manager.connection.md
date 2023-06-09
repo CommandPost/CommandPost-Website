@@ -28,15 +28,22 @@ Represents a Tangent Connection.
 
 ### Variables
 
-| [connections](#connections)         |                                                                                     |
+
+### [connections](#connections)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connections -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing all the Tangent connections.                                                                     |
 
+---
 ### Constructors
 
-| [connection](#connection)         |                                                                                     |
+
+### [connection](#connection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection(applicationName, displayName, systemPath, userPath, task, pluginPath, addDefaultModes, setupFn, transportFn, manager) -> Connection object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -45,9 +52,13 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A new Connection object.</li></ul>          |
 | **Notes**                                   | <ul><li>Notes for the `task` parameter:</li><li>  ** This is used to assist with automatic switching of panels when your application gains mouse focus on the GUI.</li><li>  ** This parameter should only be required if the string passed in appStr does not match the Task name that the OS identifies as your application. Typically, this is only usually required for Plugins which run within a parent Host application. Under these circumstances it is the name of the Host Application’s Task which should be passed.</li></ul>                |
 
+---
 ### Methods
 
-| [addMode](#addMode)         |                                                                                     |
+
+### [addMode](#addMode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:addMode(id, name) -> plugins.core.tangent.manager.mode`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -56,7 +67,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The new `mode`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [applicationName](#applicationName)         |                                                                                     |
+---
+
+### [applicationName](#applicationName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:applicationName() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -65,7 +80,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The application name as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [device](#device)         |                                                                                     |
+---
+
+### [device](#device)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:device() -> hs.tangent`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -74,7 +93,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A `hs.tangent` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [displayName](#displayName)         |                                                                                     |
+---
+
+### [displayName](#displayName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:displayName() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -83,7 +106,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getControlsXML](#getControlsXML)         |                                                                                     |
+---
+
+### [getControlsXML](#getControlsXML)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:getControlsXML() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -92,7 +119,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The XML controls</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getMode](#getMode)         |                                                                                     |
+---
+
+### [getMode](#getMode)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:getMode(id) -> plugins.core.tangent.manager.mode`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -101,7 +132,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The `mode`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [pluginPath](#pluginPath)         |                                                                                     |
+---
+
+### [pluginPath](#pluginPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:pluginPath() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -110,7 +145,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The plugin path as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setupTangentConnection](#setupTangentConnection)         |                                                                                     |
+---
+
+### [setupTangentConnection](#setupTangentConnection)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:setupTangentConnection() -> hs.tangent`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -119,7 +158,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A `hs.tangent` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [systemPath](#systemPath)         |                                                                                     |
+---
+
+### [systemPath](#systemPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:systemPath() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -128,7 +171,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The system path as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [task](#task)         |                                                                                     |
+---
+
+### [task](#task)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:task() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -137,7 +184,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The task as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [update](#update)         |                                                                                     |
+---
+
+### [update](#update)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:update() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -146,7 +197,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateControls](#updateControls)         |                                                                                     |
+---
+
+### [updateControls](#updateControls)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:updateControls() -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -155,7 +210,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [updateFavourites](#updateFavourites)         |                                                                                     |
+---
+
+### [updateFavourites](#updateFavourites)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:updateFavourites() -> boolean, string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -164,7 +223,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [userPath](#userPath)         |                                                                                     |
+---
+
+### [userPath](#userPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:userPath() -> string | nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -173,7 +236,11 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The user path as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [writeControlsXML](#writeControlsXML)         |                                                                                     |
+---
+
+### [writeControlsXML](#writeControlsXML)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.tangent.manager.connection:writeControlsXML() -> boolean, string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -182,3 +249,4 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>`true` if successfully created otherwise `false` if an error occurred.</li><li>If an error occurs an error message will also be returned as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

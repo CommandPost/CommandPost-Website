@@ -23,7 +23,10 @@ Playback Panel Module.
 
 ### Constructors
 
-| [PlaybackPanel](#PlaybackPanel)         |                                                                                     |
+
+### [PlaybackPanel](#PlaybackPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel(preferencesDialog) -> PlaybackPanel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -32,77 +35,126 @@ Playback Panel Module.
 | **Returns**                                 | <ul><li>A new `PlaybackPanel` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [avOutput](#avOutput)         |                                                                                     |
+
+### [avOutput](#avOutput)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.avOutput <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PopUpButton` for "A/V Output".                                                                     |
 
-| [backgroundRender](#backgroundRender)         |                                                                                     |
+---
+
+### [backgroundRender](#backgroundRender)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.backgroundRender <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "Background render".                                                                     |
 
-| [backgroundRenderDelay](#backgroundRenderDelay)         |                                                                                     |
+---
+
+### [backgroundRenderDelay](#backgroundRenderDelay)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.backgroundRenderDelay <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` for "Background render".                                                                     |
 
-| [createMulticamOptimizedMedia](#createMulticamOptimizedMedia)         |                                                                                     |
+---
+
+### [createMulticamOptimizedMedia](#createMulticamOptimizedMedia)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.createMulticamOptimizedMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "Create optimized media for multicam clips".                                                                     |
 
-| [playerBackground](#playerBackground)         |                                                                                     |
+---
+
+### [playerBackground](#playerBackground)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.playerBackground <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PopUpButton` for "Player Background".                                                                     |
 
-| [postRollDuration](#postRollDuration)         |                                                                                     |
+---
+
+### [postRollDuration](#postRollDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.postRollDuration <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` for "Post-Roll Duration" in seconds.                                                                     |
 
-| [preRollDuration](#preRollDuration)         |                                                                                     |
+---
+
+### [preRollDuration](#preRollDuration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.preRollDuration <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` for "Pre-Roll Duration" in seconds.                                                                     |
 
-| [renderShareGPU](#renderShareGPU)         |                                                                                     |
+---
+
+### [renderShareGPU](#renderShareGPU)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.renderShareGPU <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PopUpButton` for "Render/Share GPU".                                                                     |
 
-| [showHDRAsToneMapped](#showHDRAsToneMapped)         |                                                                                     |
+---
+
+### [showHDRAsToneMapped](#showHDRAsToneMapped)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.showHDRAsToneMapped <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "Show HDR as Tone Mapped".                                                                     |
 
-| [warnAfterPlaybackOnDiskFrameDrop](#warnAfterPlaybackOnDiskFrameDrop)         |                                                                                     |
+---
+
+### [warnAfterPlaybackOnDiskFrameDrop](#warnAfterPlaybackOnDiskFrameDrop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.warnAfterPlaybackOnDiskFrameDrop <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "If frames drop due to disk performance, warn after playback".                                                                     |
 
-| [warnAfterPlaybackOnVRFrameDrop](#warnAfterPlaybackOnVRFrameDrop)         |                                                                                     |
+---
+
+### [warnAfterPlaybackOnVRFrameDrop](#warnAfterPlaybackOnVRFrameDrop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.warnAfterPlaybackOnVRFrameDrop <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "If frames drop on VR headset, warn after playback".                                                                     |
 
-| [warnOnFrameDrop](#warnOnFrameDrop)         |                                                                                     |
+---
+
+### [warnOnFrameDrop](#warnOnFrameDrop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PlaybackPanel.warnOnFrameDrop <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "If a frame drops, stop playback and warn".                                                                     |
 
+---

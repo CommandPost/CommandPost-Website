@@ -15,15 +15,22 @@ A `Statement.Modifier` that defines what happens when after `SetProp.To` is exec
 
 ### Constants
 
-| [Then](#Then)         |                                                                                     |
+
+### [Then](#Then)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.SetProp.To.Then <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp.To`, which should be created via `SetProp:To(...):Then(...)`.                                                                     |
 
+---
 ### Methods
 
-| [ThenReset](#ThenReset)         |                                                                                     |
+
+### [ThenReset](#ThenReset)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.go.SetProp.To.Then:ThenReset(...) -> SetProp.To.Then.ThenReset`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -32,3 +39,4 @@ A `Statement.Modifier` that defines what happens when after `SetProp.To` is exec
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>local foo = prop.THIS("foo")</li><li>SetProp(foo):To("bar") -- `foo` is updated to "bar"</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>:ThenReset() -- `foo` is back to "foo" now</li><li>```</li></ul>                |
 
+---

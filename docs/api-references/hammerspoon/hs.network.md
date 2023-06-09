@@ -20,7 +20,10 @@ This module provides functions for inquiring about and monitoring changes to the
 
 ### Functions
 
-| [addresses](#addresses)         |                                                                                     |
+
+### [addresses](#addresses)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.network.addresses([interface_list]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -32,7 +35,11 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A table containing a list of the IP addresses for the interfaces as determined by the arguments provided.</li></ul>          |
 | **Notes**                                   | <ul><li>The order of the IP addresses returned is undefined.</li><li>If no arguments are provided, then this function returns the same results as `hs.host.addresses`, but does not block.</li></ul>                |
 
-| [interfaceDetails](#interfaceDetails)         |                                                                                     |
+---
+
+### [interfaceDetails](#interfaceDetails)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.network.interfaceDetails([interface | favorIPv6]) -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -41,7 +48,11 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A table containing key-value pairs describing interface details.  Returns an empty table if no primary interface can be determined. Logs an error and returns nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>When determining the primary interface, the `favorIPv6` flag only determines interface search order.  If you specify true for this flag, but no primary IPv6 interface exists (i.e. your DHCP server only provides an IPv4 address an IPv6 is limited to local only traffic), then the primary IPv4 interface will be used instead.</li></ul>                |
 
-| [interfaceName](#interfaceName)         |                                                                                     |
+---
+
+### [interfaceName](#interfaceName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.network.interfaceName([interface | favorIPv6]) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -50,7 +61,11 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A string containing the user defined name for the interface, if one exists, or false if the interface does not have a user defined name. Logs an error and returns nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>Only interfaces which show up in the System Preferences Network panel will have a user defined name.</li><li></li><li>When determining the primary interface, the `favorIPv6` flag only determines interface search order.  If you specify true for this flag, but no primary IPv6 interface exists (i.e. your DHCP server only provides an IPv4 address an IPv6 is limited to local only traffic), then the primary IPv4 interface will be used instead.</li></ul>                |
 
-| [interfaces](#interfaces)         |                                                                                     |
+---
+
+### [interfaces](#interfaces)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.network.interfaces() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -59,7 +74,11 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A table containing a list of the interfaces active for the system.  Logs an error and returns nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>The names of the interfaces returned by this function correspond to the interface's BSD name, not the user defined name that shows up in the System Preferences's Network panel.</li><li>This function returns *all* interfaces, even ones used by the system that are not directly manageable by the user.</li></ul>                |
 
-| [primaryInterfaces](#primaryInterfaces)         |                                                                                     |
+---
+
+### [primaryInterfaces](#primaryInterfaces)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.network.primaryInterfaces() -> ipv4Interface, ipv6Interface`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -68,3 +87,4 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>The name of the primary IPv4 interface or false if there isn't one, and the name of the IPv6 interface or false if there isn't one. Logs an error and returns a single nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>The IPv4 and IPv6 interface names are often, but not always, the same.</li></ul>                |
 
+---

@@ -35,7 +35,10 @@ The only false positives I've ever had with this detector are various rare throa
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.noises.new(fn) -> listener`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -44,9 +47,13 @@ The only false positives I've ever had with this detector are various rare throa
 | **Returns**                                 | <ul><li>An `hs.noises` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.noises:start() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -55,7 +62,11 @@ The only false positives I've ever had with this detector are various rare throa
 | **Returns**                                 | <ul><li>The `hs.noises` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.noises:stop() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,3 +75,4 @@ The only false positives I've ever had with this detector are various rare throa
 | **Returns**                                 | <ul><li>The `hs.noises` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

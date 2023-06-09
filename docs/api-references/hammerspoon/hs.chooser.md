@@ -41,16 +41,23 @@ Notes:
 
 ### Variables
 
-| [globalCallback](#globalCallback)         |                                                                                     |
+
+### [globalCallback](#globalCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser.globalCallback`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A global callback function used for various hs.chooser events                                                                     |
 | **Notes**                                   | <ul><li>This callback should accept two parameters:</li><li> An `hs.chooser` object</li><li> A string containing the name of the event to handle. Possible values are:</li><li>  `willOpen` - An hs.chooser is about to be shown on screen</li><li>  `didClose` - An hs.chooser has just been removed from the screen</li><li>There is a default global callback that uses the `willOpen` event to remember which window has focus, and the `didClose` event to restore focus back to the original window. If you want to use this in addition to your own callback, you can call it as `hs.chooser._defaultGlobalCallback(event)`</li></ul>                |
 
+---
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser.new(completionFn) -> hs.chooser object`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -59,9 +66,13 @@ Notes:
 | **Returns**                                 | <ul><li>An `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul><li>As of macOS Sierra and later, if you want a `hs.chooser` object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: `hs.dockicon.hide()`</li></ul>                |
 
+---
 ### Methods
 
-| [attachedToolbar](#attachedToolbar)         |                                                                                     |
+
+### [attachedToolbar](#attachedToolbar)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:attachedToolbar([toolbar]) -> hs.chooser object | currentValue`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -70,7 +81,11 @@ Notes:
 | **Returns**                                 | <ul><li>if a toolbarObject or explicit nil is specified, returns the hs.chooser object; otherwise returns the current toolbarObject or nil, if no toolbar is attached to the chooser.</li></ul>          |
 | **Notes**                                   | <ul><li>this method is a convenience wrapper for the `hs.webview.toolbar.attachToolbar` function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the chooser.  If you wish to attach the same toolbar to multiple chooser objects, see `hs.webview.toolbar:copy`.</li></ul>                |
 
-| [bgDark](#bgDark)         |                                                                                     |
+---
+
+### [bgDark](#bgDark)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:bgDark([beDark]) -> hs.chooser object or boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,7 +94,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object or a boolean, true if the window is dark, false if it is light</li></ul>          |
 | **Notes**                                   | <ul><li>The text colors will not automatically change when you toggle the darkness of the chooser window, you should also set appropriate colors with `hs.chooser:fgColor()` and `hs.chooser:subTextColor()`</li></ul>                |
 
-| [cancel](#cancel)         |                                                                                     |
+---
+
+### [cancel](#cancel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:cancel() -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -88,7 +107,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [choices](#choices)         |                                                                                     |
+---
+
+### [choices](#choices)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:choices(choices) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +120,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul><li>The table of choices (be it provided statically, or returned by the callback) must contain at least the following keys for each choice:</li><li> text - A string or hs.styledtext object that will be shown as the main text of the choice</li><li>Each choice may also optionally contain the following keys:</li><li> subText - A string or hs.styledtext object that will be shown underneath the main text of the choice</li><li> image - An `hs.image` image object that will be displayed next to the choice</li><li> valid - A boolean that defaults to `true`, if set to `false` selecting the choice will invoke the `invalidCallback` method instead of dismissing the chooser</li><li>Any other keys/values in each choice table will be retained by the chooser and returned to the completion callback when a choice is made. This is useful for storing UUIDs or other non-user-facing information, however, it is important to note that you should not store userdata objects in the table - it is run through internal conversion functions, so only basic Lua types should be stored.</li><li>If a function is given, it will be called once, when the chooser window is displayed. The results are then cached until this method is called again, or `hs.chooser:refreshChoicesCallback()` is called.</li><li>If you're using a hs.styledtext object for text or subText choices, make sure you specify a color, otherwise your text could appear transparent depending on the bgDark setting.</li><li></li><li>Example:</li><li> ```lua</li><li>local choices = {</li><li> {</li><li>  ["text"] = "First Choice",</li><li>  ["subText"] = "This is the subtext of the first choice",</li><li>  ["uuid"] = "0001"</li><li> },</li><li> { ["text"] = "Second Option",</li><li>   ["subText"] = "I wonder what I should type here?",</li><li>   ["uuid"] = "Bbbb"</li><li> },</li><li> { ["text"] = hs.styledtext.new("Third Possibility", {font={size=18}, color=hs.drawing.color.definedCollections.hammerspoon.green}),</li><li>   ["subText"] = "What a lot of choosing there is going on here!",</li><li>   ["uuid"] = "III3"</li><li> },</li><li>}```</li></ul>                |
 
-| [delete](#delete)         |                                                                                     |
+---
+
+### [delete](#delete)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:delete()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +133,11 @@ Notes:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enableDefaultForQuery](#enableDefaultForQuery)         |                                                                                     |
+---
+
+### [enableDefaultForQuery](#enableDefaultForQuery)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:enableDefaultForQuery([]) -> hs.chooser object or boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,7 +146,11 @@ Notes:
 | **Returns**                                 | <ul><li>the `hs.chooser` object if a value was set, or a boolean if no parameter was passed</li></ul>          |
 | **Notes**                                   | <ul><li>This should be used before a chooser has been displayed</li></ul>                |
 
-| [fgColor](#fgColor)         |                                                                                     |
+---
+
+### [fgColor](#fgColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:fgColor(color) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -124,7 +159,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object or a color table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:hide() -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -133,7 +172,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hideCallback](#hideCallback)         |                                                                                     |
+---
+
+### [hideCallback](#hideCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:hideCallback([fn]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -142,7 +185,11 @@ Notes:
 | **Returns**                                 | <ul><li>The hs.chooser object</li></ul>          |
 | **Notes**                                   | <ul><li>This callback is called *after* the chooser is hidden.</li><li>This callback is called *after* hs.chooser.globalCallback.</li></ul>                |
 
-| [invalidCallback](#invalidCallback)         |                                                                                     |
+---
+
+### [invalidCallback](#invalidCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:invalidCallback([fn]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +198,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul><li> The callback may accept one argument, it will be a table containing whatever information you supplied for the item the user chose.</li><li> To display a context menu, see `hs.menubar`, specifically the `:popupMenu()` method</li></ul>                |
 
-| [isVisible](#isVisible)         |                                                                                     |
+---
+
+### [isVisible](#isVisible)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:isVisible() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +211,11 @@ Notes:
 | **Returns**                                 | <ul><li>A boolean, true if the chooser is displayed on screen, false if not</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [placeholderText](#placeholderText)         |                                                                                     |
+---
+
+### [placeholderText](#placeholderText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:placeholderText([placeholderText]) -> hs.chooser object or string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +224,11 @@ Notes:
 | **Returns**                                 | <ul><li>The hs.chooser object, or the existing placeholder text</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [query](#query)         |                                                                                     |
+---
+
+### [query](#query)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:query([queryString]) -> hs.chooser object or string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +237,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object or a string</li></ul>          |
 | **Notes**                                   | <ul><li>You can provide an explicit nil or empty string to clear the current query string.</li></ul>                |
 
-| [queryChangedCallback](#queryChangedCallback)         |                                                                                     |
+---
+
+### [queryChangedCallback](#queryChangedCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:queryChangedCallback([fn]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,7 +250,11 @@ Notes:
 | **Returns**                                 | <ul><li>The hs.chooser object</li></ul>          |
 | **Notes**                                   | <ul><li>As the user is typing, the callback function will be called for every keypress. You may wish to do filtering on each call, or you may wish to use a delayed `hs.timer` object to only react when they have finished typing.</li><li>The callback function should accept a single argument:</li><li> A string containing the new search query</li></ul>                |
 
-| [refreshChoicesCallback](#refreshChoicesCallback)         |                                                                                     |
+---
+
+### [refreshChoicesCallback](#refreshChoicesCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:refreshChoicesCallback([reload]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -196,7 +263,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul><li>This method will do nothing if you have not set a function with `hs.chooser:choices()`</li></ul>                |
 
-| [rightClickCallback](#rightClickCallback)         |                                                                                     |
+---
+
+### [rightClickCallback](#rightClickCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:rightClickCallback([fn]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -205,7 +276,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul><li> The callback may accept one argument, the row the right click occurred in or 0 if there is currently no selectable row where the right click occurred. To determine the location of the mouse pointer at the right click, see `hs.mouse`.</li><li> To display a context menu, see `hs.menubar`, specifically the `:popupMenu()` method</li></ul>                |
 
-| [rows](#rows)         |                                                                                     |
+---
+
+### [rows](#rows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:rows([numRows]) -> hs.chooser object or number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -214,7 +289,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object or a number</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [searchSubText](#searchSubText)         |                                                                                     |
+---
+
+### [searchSubText](#searchSubText)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:searchSubText([searchSubText]) -> hs.chooser object or boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -223,7 +302,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object if a value was set, or a boolean if no parameter was passed</li></ul>          |
 | **Notes**                                   | <ul><li>This should be used before a chooser has been displayed</li></ul>                |
 
-| [select](#select)         |                                                                                     |
+---
+
+### [select](#select)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:select([row]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -232,7 +315,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedRow](#selectedRow)         |                                                                                     |
+---
+
+### [selectedRow](#selectedRow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:selectedRow([row]) -> number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -241,7 +328,11 @@ Notes:
 | **Returns**                                 | <ul><li>If an argument is provided, returns the hs.chooser object; otherwise returns a number containing the row currently selected (i.e. the one highlighted in the UI)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectedRowContents](#selectedRowContents)         |                                                                                     |
+---
+
+### [selectedRowContents](#selectedRowContents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:selectedRowContents([row]) -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -250,7 +341,11 @@ Notes:
 | **Returns**                                 | <ul><li>a table containing whatever information was supplied for the row currently selected or an empty table if no row is selected or the specified row does not exist.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:show([topLeftPoint]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -259,7 +354,11 @@ Notes:
 | **Returns**                                 | <ul><li>The hs.chooser object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showCallback](#showCallback)         |                                                                                     |
+---
+
+### [showCallback](#showCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:showCallback([fn]) -> hs.chooser object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -268,7 +367,11 @@ Notes:
 | **Returns**                                 | <ul><li>The hs.chooser object</li></ul>          |
 | **Notes**                                   | <ul><li>This callback is called *after* the chooser is shown. To execute code just before it's shown (and/or after it's removed) see `hs.chooser.globalCallback`</li></ul>                |
 
-| [subTextColor](#subTextColor)         |                                                                                     |
+---
+
+### [subTextColor](#subTextColor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:subTextColor(color) -> hs.chooser object or hs.color object`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -277,7 +380,11 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object or a color table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [width](#width)         |                                                                                     |
+---
+
+### [width](#width)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.chooser:width([percent]) -> hs.chooser object or number`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -286,3 +393,4 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.chooser` object or a number</li></ul>          |
 | **Notes**                                   | <ul><li>This should be used before a chooser has been displayed</li></ul>                |
 
+---

@@ -12,7 +12,10 @@ Twelve Button Panel for the Final Cut Pro HUD.
 
 ### Functions
 
-| [updateInfo](#updateInfo)         |                                                                                     |
+
+### [updateInfo](#updateInfo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.twelvebuttons.updateInfo() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,11 +24,16 @@ Twelve Button Panel for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [buttons](#buttons)         |                                                                                     |
+
+### [buttons](#buttons)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.twelvebuttons.buttons <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of HUD button values.                                                                     |
 
+---

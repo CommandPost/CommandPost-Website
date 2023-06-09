@@ -20,7 +20,10 @@ resulting in something like `{ Element, Splitter, Element }`.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SplitGroup.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -29,9 +32,13 @@ resulting in something like `{ Element, Splitter, Element }`.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [SplitGroup](#SplitGroup)         |                                                                                     |
+
+### [SplitGroup](#SplitGroup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SplitGroup(parent, uiFinder, childInits) -> cp.ui.SplitGroup`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -40,35 +47,56 @@ resulting in something like `{ Element, Splitter, Element }`.
 | **Returns**                                 | <ul><li>A new `SplitGroup` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>Many `childInints` values can be the actual `Element` value (eg: `TextArea`), since they only require the `parent` and `uiFinder` parameters.</li><li>The [cp.fn.ax.init](cp.fn.ax.md#init) function can be useful for passing in `Element` types which require more than just the `parent` and `uiFinder` values.</li><li>Example: `SplitGroup(parent, uiFinder, { cp.fn.ax.init(ScrollArea, cp.ui.List), cp.fn.ax.init(ScrollArea, cp.ui.TextArea) })</li></ul>                |
 
+---
 ### Fields
 
-| [children](#children)         |                                                                                     |
+
+### [children](#children)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SplitGroup.children <table: cp.ui.Element, read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | All children of the Split Group, based on the `childInits` passed to the constructor.                                                                     |
 
-| [childrenUI](#childrenUI)         |                                                                                     |
+---
+
+### [childrenUI](#childrenUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SplitGroup.childrenUI <cp.prop: table of axuielementObject, read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `axuielementObject`s for the sections, sorted in [top-down](cp.fn.ax.md#topDown) order.                                                                     |
 
-| [sections](#sections)         |                                                                                     |
+---
+
+### [sections](#sections)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SplitGroup.sections <table: table of cp.ui.Element, read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Sections` of the `SplitGroup`. Each section will be a `table` of `cp.ui.Element`s.                                                                     |
 
-| [splitters](#splitters)         |                                                                                     |
+---
+
+### [splitters](#splitters)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SplitGroup.splitters <table: cp.ui.Splitter, read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Splitters` of the `SplitGroup`. There will be one less splitter than there are sections.                                                                     |
 
-| [splittersUI](#splittersUI)         |                                                                                     |
+---
+
+### [splittersUI](#splittersUI)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.SplitGroup.splittersUI <cp.prop: table of axuielementObject, read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `axuielementObject`s for the splitters.                                                                     |
 
+---

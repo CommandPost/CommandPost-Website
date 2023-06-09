@@ -16,7 +16,10 @@ Represents a Column in a Table.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Column.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,23 +28,35 @@ Represents a Column in a Table.
 | **Returns**                                 | <ul><li>`true` if the element is a Column.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [index](#index)         |                                                                                     |
+
+### [index](#index)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Column.index <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this column in the overall container, with `0` being the first item.                                                                     |
 
-| [selected](#selected)         |                                                                                     |
+---
+
+### [selected](#selected)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Column.selected <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the column is currently selected. May be set.                                                                     |
 
+---
 ### Methods
 
-| [rows](#rows)         |                                                                                     |
+
+### [rows](#rows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Column:rows() -> table of cp.ui.OldRow or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -50,7 +65,11 @@ Represents a Column in a Table.
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [visibleRows](#visibleRows)         |                                                                                     |
+---
+
+### [visibleRows](#visibleRows)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.Column:visibleRows() -> table of cp.ui.OldRows or nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -59,3 +78,4 @@ Represents a Column in a Table.
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

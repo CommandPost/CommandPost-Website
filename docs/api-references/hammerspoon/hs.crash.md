@@ -16,7 +16,10 @@ Various features/facilities for developers who are working on Hammerspoon itself
 
 ### Functions
 
-| [attemptMemoryRelease](#attemptMemoryRelease)         |                                                                                     |
+
+### [attemptMemoryRelease](#attemptMemoryRelease)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.crash.attemptMemoryRelease()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,7 +28,11 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function will print some memory usage numbers (in bytes) to the Hammerspoon Console before and after forcing Lua's garbage collector</li></ul>                |
 
-| [crash](#crash)         |                                                                                     |
+---
+
+### [crash](#crash)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.crash.crash()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,7 +41,11 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is for testing purposes only, you are extremely unlikely to need this in normal Hammerspoon usage</li></ul>                |
 
-| [crashKV](#crashKV)         |                                                                                     |
+---
+
+### [crashKV](#crashKV)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.crash.crashKV(key, value)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -43,7 +54,11 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [crashLog](#crashLog)         |                                                                                     |
+---
+
+### [crashLog](#crashLog)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.crash.crashLog(logMessage)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -52,7 +67,11 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is probably only useful to extension developers. If you are trying to track down a confusing crash, and you have access to the Sentry project for Hammerspoon (or access to someone who has access!), this can be a useful way to leave breadcrumbs from Lua in the crash dump</li></ul>                |
 
-| [dumpCLIBS](#dumpCLIBS)         |                                                                                     |
+---
+
+### [dumpCLIBS](#dumpCLIBS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.crash.dumpCLIBS() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -61,7 +80,11 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Returns**                                 | <ul><li>A table containing all the paths of C libraries that have been loaded into the Lua runtime</li></ul>          |
 | **Notes**                                   | <ul><li>This is probably only useful to extension developers as a useful way of ensuring that you are loading C libraries from the places you expect.</li></ul>                |
 
-| [residentSize](#residentSize)         |                                                                                     |
+---
+
+### [residentSize](#residentSize)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.crash.residentSize() -> integer or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -70,7 +93,11 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Returns**                                 | <ul><li>An integer containing the amount of RAM in use by Hammerspoon (in bytes), or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [throwObjCException](#throwObjCException)         |                                                                                     |
+---
+
+### [throwObjCException](#throwObjCException)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.crash.throwObjCException(name, message)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -79,3 +106,4 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Outside of a context of a Lua pcall() (or a C lua_pcall()), this will cause Hammerspoon to exit. We follow the safe behaviour of terminating the app on any unhandled Objective C exception.</li></ul>                |
 
+---

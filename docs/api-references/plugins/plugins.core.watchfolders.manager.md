@@ -30,45 +30,72 @@ Manager for the CommandPost Watch Folders Panel.
 
 ### Constants
 
-| [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)         |                                                                                     |
+
+### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of the Watch Folder Window                                                                     |
 
-| [DEFAULT_TITLE](#DEFAULT_TITLE)         |                                                                                     |
+---
+
+### [DEFAULT_TITLE](#DEFAULT_TITLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_TITLE -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Title of the Watch Folder Window                                                                     |
 
-| [DEFAULT_WIDTH](#DEFAULT_WIDTH)         |                                                                                     |
+---
+
+### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of the Watch Folder Window                                                                     |
 
-| [DEFAULT_WINDOW_STYLE](#DEFAULT_WINDOW_STYLE)         |                                                                                     |
+---
+
+### [DEFAULT_WINDOW_STYLE](#DEFAULT_WINDOW_STYLE)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_WINDOW_STYLE -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Default Window Style                                                                     |
 
-| [position](#position)         |                                                                                     |
+---
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
 
-| [WEBVIEW_LABEL](#WEBVIEW_LABEL)         |                                                                                     |
+---
+
+### [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.WEBVIEW_LABEL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | WebView Label                                                                     |
 
+---
 ### Functions
 
-| [addHandler](#addHandler)         |                                                                                     |
+
+### [addHandler](#addHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.addHandler(id, handlerFn) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -77,7 +104,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [addPanel](#addPanel)         |                                                                                     |
+---
+
+### [addPanel](#addPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.addPanel(params) -> plugins.core.watchfolders.manager.panel`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -86,7 +117,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li></ul>                |
 
-| [getHandler](#getHandler)         |                                                                                     |
+---
+
+### [getHandler](#getHandler)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.getHandler(id) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -95,7 +130,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getLabel](#getLabel)         |                                                                                     |
+---
+
+### [getLabel](#getLabel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.getLabel() -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -104,7 +143,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.hide() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -113,7 +156,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.init() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -122,7 +169,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [injectScript](#injectScript)         |                                                                                     |
+---
+
+### [injectScript](#injectScript)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.injectScript(script) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -131,7 +182,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [maxPanelHeight](#maxPanelHeight)         |                                                                                     |
+---
+
+### [maxPanelHeight](#maxPanelHeight)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.maxPanelHeight() -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -140,7 +195,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>A number</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [selectPanel](#selectPanel)         |                                                                                     |
+---
+
+### [selectPanel](#selectPanel)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.selectPanel(id) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -149,7 +208,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setPanelRenderer](#setPanelRenderer)         |                                                                                     |
+---
+
+### [setPanelRenderer](#setPanelRenderer)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.setPanelRenderer(renderer) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -158,7 +221,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.watchfolders.manager.show([panelID]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -167,3 +234,4 @@ Manager for the CommandPost Watch Folders Panel.
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

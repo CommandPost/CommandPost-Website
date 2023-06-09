@@ -19,7 +19,10 @@ the `Observer` will immediately receive the value or the error.
 
 ### Constructors
 
-| [create](#create)         |                                                                                     |
+
+### [create](#create)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.AsyncSubject.create() -> cp.rx.AsyncSubject`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -28,9 +31,13 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>The new `AsyncSubject`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [onCompleted](#onCompleted)         |                                                                                     |
+
+### [onCompleted](#onCompleted)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.AsyncSubject:onCompleted() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -39,7 +46,11 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onError](#onError)         |                                                                                     |
+---
+
+### [onError](#onError)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.AsyncSubject:onError(message) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -48,7 +59,11 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [onNext](#onNext)         |                                                                                     |
+---
+
+### [onNext](#onNext)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.AsyncSubject:onNext(...) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -57,7 +72,11 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subscribe](#subscribe)         |                                                                                     |
+---
+
+### [subscribe](#subscribe)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.AsyncSubject:subscribe(onNext, onError, onCompleted) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -66,3 +85,4 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

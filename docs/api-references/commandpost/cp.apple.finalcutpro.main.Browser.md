@@ -39,7 +39,10 @@ Browser Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,9 +51,13 @@ Browser Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [Browser](#Browser)         |                                                                                     |
+
+### [Browser](#Browser)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser(app) -> Browser`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -59,33 +66,53 @@ Browser Module.
 | **Returns**                                 | <ul><li>The new `Browser`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [generators](#generators)         |                                                                                     |
+
+### [generators](#generators)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.generators <cp.apple.finalcutpro.main.GeneratorsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Generators Browser object.                                                                     |
 
-| [generatorsShowing](#generatorsShowing)         |                                                                                     |
+---
+
+### [generatorsShowing](#generatorsShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.generatorsShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Generators' button active, and thus showing?                                                                     |
 
-| [isOnPrimary](#isOnPrimary)         |                                                                                     |
+---
+
+### [isOnPrimary](#isOnPrimary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.isOnPrimary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Browser on the Primary Window?                                                                     |
 
-| [isOnSecondary](#isOnSecondary)         |                                                                                     |
+---
+
+### [isOnSecondary](#isOnSecondary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.isOnSecondary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Browser on the Secondary Window?                                                                     |
 
-| [libraries](#libraries)         |                                                                                     |
+---
+
+### [libraries](#libraries)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.libraries <cp.apple.finalcutpro.main.LibrariesBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -93,51 +120,83 @@ Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `LibrariesBrowser` object.</li></ul>          |
 
-| [librariesShowing](#librariesShowing)         |                                                                                     |
+---
+
+### [librariesShowing](#librariesShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.librariesShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Libraries' button active, and thus showing?                                                                     |
 
-| [markerPopover](#markerPopover)         |                                                                                     |
+---
+
+### [markerPopover](#markerPopover)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.markerPopover <BrowserMarkerPopover>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Browser Marker Popover object.                                                                     |
 
-| [media](#media)         |                                                                                     |
+---
+
+### [media](#media)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.media <cp.apple.finalcutpro.main.MediaBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Media Browser object.                                                                     |
 
-| [mediaShowing](#mediaShowing)         |                                                                                     |
+---
+
+### [mediaShowing](#mediaShowing)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.mediaShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Media' button active, and thus showing?                                                                     |
 
-| [showGenerators](#showGenerators)         |                                                                                     |
+---
+
+### [showGenerators](#showGenerators)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showGenerators <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The CheckBox indicating if the Generators Browser is showing.                                                                     |
 
-| [showLibraries](#showLibraries)         |                                                                                     |
+---
+
+### [showLibraries](#showLibraries)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showLibraries <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if Libraries is showing, and can be clicked to toggle.                                                                     |
 
-| [showMedia](#showMedia)         |                                                                                     |
+---
+
+### [showMedia](#showMedia)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | CheckBox indicating if the  Media Browser is showing.                                                                     |
 
+---
 ### Methods
 
-| [appearanceAndFiltering](#appearanceAndFiltering)         |                                                                                     |
+
+### [appearanceAndFiltering](#appearanceAndFiltering)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.appearanceAndFiltering <cp.apple.finalcutpro.main.AppearanceAndFiltering>`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -146,7 +205,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doHide](#doHide)         |                                                                                     |
+---
+
+### [doHide](#doHide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:doHide() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -155,7 +218,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -164,7 +231,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowOnPrimary](#doShowOnPrimary)         |                                                                                     |
+---
+
+### [doShowOnPrimary](#doShowOnPrimary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:doShowOnPrimary() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -173,7 +244,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShowOnSecondary](#doShowOnSecondary)         |                                                                                     |
+---
+
+### [doShowOnSecondary](#doShowOnSecondary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:doShowOnSecondary() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -182,7 +257,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [hide](#hide)         |                                                                                     |
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:hide() -> Browser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -191,7 +270,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -200,7 +283,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -209,7 +296,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>A table containing the current Browser Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showOnPrimary](#showOnPrimary)         |                                                                                     |
+---
+
+### [showOnPrimary](#showOnPrimary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:showOnPrimary() -> Browser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -218,7 +309,11 @@ Browser Module.
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [showOnSecondary](#showOnSecondary)         |                                                                                     |
+---
+
+### [showOnSecondary](#showOnSecondary)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser:showOnSecondary() -> Browser`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -227,3 +322,4 @@ Browser Module.
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

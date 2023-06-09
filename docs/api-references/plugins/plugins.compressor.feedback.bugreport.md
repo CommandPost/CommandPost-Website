@@ -12,7 +12,10 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 
 ### Functions
 
-| [open](#open)         |                                                                                     |
+
+### [open](#open)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.compressor.feedback.bugreport.open(bugReport) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -21,11 +24,16 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [position](#position)         |                                                                                     |
+
+### [position](#position)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.compressor.feedback.bugreport.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The webview position.                                                                     |
 
+---

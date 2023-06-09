@@ -15,7 +15,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ### Constructors
 
-| [new](#new)         |                                                                                     |
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.battery.watcher.new(fn) -> watcher`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -24,9 +27,13 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An `hs.battery.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>Because the callback function accepts no arguments, tracking of state of changing battery attributes is the responsibility of the user (see https://github.com/Hammerspoon/hammerspoon/issues/166 for discussion)</li></ul>                |
 
+---
 ### Methods
 
-| [start](#start)         |                                                                                     |
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.battery.watcher:start() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -35,7 +42,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.battery.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.battery.watcher:stop() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -44,3 +55,4 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.battery.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

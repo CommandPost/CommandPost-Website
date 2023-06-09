@@ -18,7 +18,10 @@ Media Import
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -27,9 +30,13 @@ Media Import
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [MediaImport](#MediaImport)         |                                                                                     |
+
+### [MediaImport](#MediaImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport(app) -> MediaImport`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -38,23 +45,35 @@ Media Import
 | **Returns**                                 | <ul><li>A new MediaImport object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [importAll](#importAll)         |                                                                                     |
+
+### [importAll](#importAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport.importAll <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Import All button.                                                                     |
 
-| [stopImport](#stopImport)         |                                                                                     |
+---
+
+### [stopImport](#stopImport)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport.stopImport <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Stop Import" button.                                                                     |
 
+---
 ### Methods
 
-| [hide](#hide)         |                                                                                     |
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport:hide() -> cp.apple.finalcutpro.import.MediaImport`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +82,11 @@ Media Import
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.import.MediaImport` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport:show() -> cp.apple.finalcutpro.import.MediaImport`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,3 +95,4 @@ Media Import
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.import.MediaImport` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

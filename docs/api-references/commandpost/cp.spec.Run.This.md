@@ -30,16 +30,23 @@ will complete asynchronously.
 
 ### Constants
 
-| [state](#state)         |                                                                                     |
+
+### [state](#state)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This.state`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A collection of states that a `Run.This` can be in.                                                                     |
 | **Notes**                                   | <ul><li>States include:</li><li> running     - The Run is currently running and will terminate at the end of the function (synchrnonous).</li><li> waiting     - The Run is waiting, and will terminate when [done()](#done) is called. (asynchronous).</li><li> done        - The Run is done.</li></ul>                |
 
+---
 ### Functions
 
-| [defaultTimeout](#defaultTimeout)         |                                                                                     |
+
+### [defaultTimeout](#defaultTimeout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This.defaultTimeout([timeout]) -> number`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -48,9 +55,13 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The current default timeout, in seconds.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Constructors
 
-| [This](#This)         |                                                                                     |
+
+### [This](#This)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This(run, actionFn, index) -> cp.spec.Run.This`                                                                    |
 | **Type**                                    | Constructor                                                                     |
@@ -59,9 +70,13 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The new `Run.This`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [abort](#abort)         |                                                                                     |
+
+### [abort](#abort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:abort([message]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -70,7 +85,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [cleanup](#cleanup)         |                                                                                     |
+---
+
+### [cleanup](#cleanup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:cleanup()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -79,7 +98,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [done](#done)         |                                                                                     |
+---
+
+### [done](#done)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:done()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -88,7 +111,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [expectAbort](#expectAbort)         |                                                                                     |
+---
+
+### [expectAbort](#expectAbort)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:expectAbort([messagePattern]) -> Run.This`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -97,7 +124,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The same `Run.This` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the it doesn't occur at some point during the run, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual abort/`error` would occur.</li></ul>                |
 
-| [expectFail](#expectFail)         |                                                                                     |
+---
+
+### [expectFail](#expectFail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:expectFail([messagePattern]) -> Run.This`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -106,7 +137,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The same `Run.This` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the fail doesn't occur, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual assert/fail would occur.</li></ul>                |
 
-| [fail](#fail)         |                                                                                     |
+---
+
+### [fail](#fail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:fail([message]) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -115,7 +150,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isActive](#isActive)         |                                                                                     |
+---
+
+### [isActive](#isActive)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:isActive() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -124,7 +163,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>`true` if isActive.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isDone](#isDone)         |                                                                                     |
+---
+
+### [isDone](#isDone)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:isDone() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -133,7 +176,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [isWaiting](#isWaiting)         |                                                                                     |
+---
+
+### [isWaiting](#isWaiting)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:isWaiting() -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -142,7 +189,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>`true` if the waiting.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [log](#log)         |                                                                                     |
+---
+
+### [log](#log)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:log(message[, ...])`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -151,7 +202,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [prepare](#prepare)         |                                                                                     |
+---
+
+### [prepare](#prepare)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:prepare()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -160,7 +215,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [run](#run)         |                                                                                     |
+---
+
+### [run](#run)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:run() -> cp.spec.Run`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -169,7 +228,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>Returns the current [Run](cp.spec.Run.md)</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [toObserver](#toObserver)         |                                                                                     |
+---
+
+### [toObserver](#toObserver)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:toObserver([onNext[, onError[, onCompleted]]) -> cp.rx.Observer`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -178,7 +241,11 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>cp.rx.Observer</li></ul>          |
 | **Notes**                                   | <ul><li>If the `onNext`/`onError`/`onCompleted` functions are</li><li>not provided, then it will provide defaults. `onNext` will be logged, `onError` will throw an error,</li><li>and `onCompleted` will trigger [done](#done).</li></ul>                |
 
-| [wait](#wait)         |                                                                                     |
+---
+
+### [wait](#wait)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:wait([timeout]) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -187,3 +254,4 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If not provided, [Run.This.defaultTimeout()](cp.spec.Run.This.md#defaultTimeout) is used.</li></ul>                |
 
+---

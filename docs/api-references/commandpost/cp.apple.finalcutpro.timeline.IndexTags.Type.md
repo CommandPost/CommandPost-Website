@@ -17,45 +17,72 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ### Fields
 
-| [analysisKeywords](#analysisKeywords)         |                                                                                     |
+
+### [analysisKeywords](#analysisKeywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.analysisKeywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Auto-analysis keywords" filter.                                                                     |
 
-| [chapters](#chapters)         |                                                                                     |
+---
+
+### [chapters](#chapters)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.chapters <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Chapter markers" filter.                                                                     |
 
-| [completeTodos](#completeTodos)         |                                                                                     |
+---
+
+### [completeTodos](#completeTodos)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.completeTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Complete todo marker" filter.                                                                     |
 
-| [incompleteTodos](#incompleteTodos)         |                                                                                     |
+---
+
+### [incompleteTodos](#incompleteTodos)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.incompleteTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Incomplete todo marker" filter.                                                                     |
 
-| [keywords](#keywords)         |                                                                                     |
+---
+
+### [keywords](#keywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.keywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Keywords" filter.                                                                     |
 
-| [standardMarkers](#standardMarkers)         |                                                                                     |
+---
+
+### [standardMarkers](#standardMarkers)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.standardMarkers <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Show standard markers" filter.                                                                     |
 
+---
 ### Methods
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -64,3 +91,4 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

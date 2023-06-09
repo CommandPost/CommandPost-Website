@@ -27,7 +27,10 @@ Text Field Module.
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField.matches(element[, subrole]) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -36,9 +39,13 @@ Text Field Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [convertingGet](#convertingGet)         |                                                                                     |
+
+### [convertingGet](#convertingGet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:convertingGet(getter) -> cp.ui.TextField.Builder`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -47,7 +54,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
 | **Notes**                                   | <ul><li>The `getter` will be called with the `string` value from the `TextField` as its only parameter.</li><li>For example, `TextField:convertGet(tonumber)` will use the standard `tonumber` function to convert the value to a number.</li></ul>                |
 
-| [convertingSet](#convertingSet)         |                                                                                     |
+---
+
+### [convertingSet](#convertingSet)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:convertingSet(setter) -> cp.ui.TextField.Builder`                                                                    |
 | **Type**                                    | Field                                                                     |
@@ -56,15 +67,23 @@ Text Field Module.
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
 | **Notes**                                   | <ul><li>The `setter` will be called with the input value from a `TextField:value(...)` call as its only parameter.</li><li>   It should return a `string` to be saved into the `TextField`.</li><li>For example, `TextField:convertSet(tostring)` will use the standard `tostring` function to convert the value to a string.</li></ul>                |
 
-| [value](#value)         |                                                                                     |
+---
+
+### [value](#value)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField.value <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
 
+---
 ### Methods
 
-| [clear](#clear)         |                                                                                     |
+
+### [clear](#clear)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:clear() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -73,7 +92,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doConfirm](#doConfirm)         |                                                                                     |
+---
+
+### [doConfirm](#doConfirm)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:doConfirm() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -82,7 +105,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doFocus](#doFocus)         |                                                                                     |
+---
+
+### [doFocus](#doFocus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:doFocus() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -91,7 +118,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [forceFocus](#forceFocus)         |                                                                                     |
+---
+
+### [forceFocus](#forceFocus)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:forceFocus()`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -100,7 +131,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getValue](#getValue)         |                                                                                     |
+---
+
+### [getValue](#getValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:getValue() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -109,7 +144,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>The value of the Text Field as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadLayout](#loadLayout)         |                                                                                     |
+---
+
+### [loadLayout](#loadLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:loadLayout(layout) -> none`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -118,7 +157,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveLayout](#saveLayout)         |                                                                                     |
+---
+
+### [saveLayout](#saveLayout)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:saveLayout() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -127,7 +170,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>A table containing the current Text Field Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setValue](#setValue)         |                                                                                     |
+---
+
+### [setValue](#setValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField:setValue(value) -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -136,7 +183,11 @@ Text Field Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [TextField](#TextField)         |                                                                                     |
+---
+
+### [TextField](#TextField)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.TextField(parent, uiFinder, getConvertFn, setConvertFn) -> TextField`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -145,3 +196,4 @@ Text Field Module.
 | **Returns**                                 | <ul><li>The new `TextField`.</li></ul>          |
 | **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li></li><li> For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = TextField(parent, function() return ... end, tonumber, tostring)</li><li>```</li></ul>                |
 
+---

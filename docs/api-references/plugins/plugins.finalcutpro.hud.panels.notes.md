@@ -10,7 +10,10 @@ Notes Panel for the Final Cut Pro HUD.
 
 ### Functions
 
-| [updateInfo](#updateInfo)         |                                                                                     |
+
+### [updateInfo](#updateInfo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.hud.panels.notes.updateInfo() -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -19,3 +22,4 @@ Notes Panel for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

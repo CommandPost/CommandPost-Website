@@ -16,7 +16,10 @@ The Audio Configuration section of the Audio Inspector.
 
 ### Functions
 
-| [AudioConfiguration](#AudioConfiguration)         |                                                                                     |
+
+### [AudioConfiguration](#AudioConfiguration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioConfiguration(parent) -> AudioConfiguration`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -25,7 +28,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>A new AudioConfiguration object.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [matches](#matches)         |                                                                                     |
+---
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioConfiguration.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -34,9 +41,13 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Methods
 
-| [component](#component)         |                                                                                     |
+
+### [component](#component)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioConfiguration:component() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -45,7 +56,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>A table containing `AudioComponent` objects.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [doShow](#doShow)         |                                                                                     |
+---
+
+### [doShow](#doShow)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioConfiguration:doShow() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -54,7 +69,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or send an `error` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [show](#show)         |                                                                                     |
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioConfiguration:show() -> self`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -63,7 +82,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>The `AudioConfiguration` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [subcomponent](#subcomponent)         |                                                                                     |
+---
+
+### [subcomponent](#subcomponent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioConfiguration:subcomponent() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -72,3 +95,4 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>A table containing `AudioComponent` objects.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

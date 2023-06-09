@@ -16,15 +16,22 @@ Shortcuts Preferences Panel
 
 ### Constants
 
-| [DEFAULT_SHORTCUTS](#DEFAULT_SHORTCUTS)         |                                                                                     |
+
+### [DEFAULT_SHORTCUTS](#DEFAULT_SHORTCUTS)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.prefs.DEFAULT_SHORTCUTS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Shortcuts File Name                                                                     |
 
+---
 ### Functions
 
-| [getGroupEditor](#getGroupEditor)         |                                                                                     |
+
+### [getGroupEditor](#getGroupEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.prefs.getGroupEditor(groupId) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -33,7 +40,11 @@ Shortcuts Preferences Panel
 | **Returns**                                 | <ul><li>Group Editor</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [init](#init)         |                                                                                     |
+---
+
+### [init](#init)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.prefs.init(deps, env) -> module`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -42,7 +53,11 @@ Shortcuts Preferences Panel
 | **Returns**                                 | <ul><li>The Module</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setGroupEditor](#setGroupEditor)         |                                                                                     |
+---
+
+### [setGroupEditor](#setGroupEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.prefs.setGroupEditor(groupId, editorFn) -> none`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -51,11 +66,16 @@ Shortcuts Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [lastGroup](#lastGroup)         |                                                                                     |
+
+### [lastGroup](#lastGroup)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.core.shortcuts.prefs.lastGroup <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
 
+---

@@ -24,75 +24,122 @@ This extension allows you to trigger window placement/sizing to a number of wind
 
 ### Constants
 
-| [left25](#left25)         |                                                                                     |
+
+### [left25](#left25)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.left25`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the left 25% of a screen                                                                     |
 
-| [left30](#left30)         |                                                                                     |
+---
+
+### [left30](#left30)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.left30`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the left 30% of a screen                                                                     |
 
-| [left50](#left50)         |                                                                                     |
+---
+
+### [left50](#left50)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.left50`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the left 50% of a screen                                                                     |
 
-| [left70](#left70)         |                                                                                     |
+---
+
+### [left70](#left70)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.left70`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the left 70% of a screen                                                                     |
 
-| [left75](#left75)         |                                                                                     |
+---
+
+### [left75](#left75)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.left75`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the left 75% of a screen                                                                     |
 
-| [maximized](#maximized)         |                                                                                     |
+---
+
+### [maximized](#maximized)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.maximized`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy all of a screen                                                                     |
 
-| [right25](#right25)         |                                                                                     |
+---
+
+### [right25](#right25)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.right25`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the right 25% of a screen                                                                     |
 
-| [right30](#right30)         |                                                                                     |
+---
+
+### [right30](#right30)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.right30`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the right 30% of a screen                                                                     |
 
-| [right50](#right50)         |                                                                                     |
+---
+
+### [right50](#right50)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.right50`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the right 50% of a screen                                                                     |
 
-| [right70](#right70)         |                                                                                     |
+---
+
+### [right70](#right70)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.right70`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the right 70% of a screen                                                                     |
 
-| [right75](#right75)         |                                                                                     |
+---
+
+### [right75](#right75)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.right75`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A unit rect which will make a window occupy the right 75% of a screen                                                                     |
 
+---
 ### Functions
 
-| [apply](#apply)         |                                                                                     |
+
+### [apply](#apply)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.layout.apply(table[, windowTitleComparator])`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,3 +157,4 @@ This extension allows you to trigger window placement/sizing to a number of wind
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If the application name argument is nil, window titles will be matched regardless of which app they belong to</li><li>If the window title argument is nil, all windows of the specified application will be matched</li><li>If the window title argument is a function, the function will be called with the application name argument (which may be nil), and should return a table of `hs.window` objects (even if there is only one window it must be in a table)</li><li>You can specify both application name and window title if you want to match only one window of a particular application</li><li>If you specify neither application name or window title, no windows will be matched :)</li><li>Monitor name is a string, as found in `hs.screen:name()` or `hs.screen:getUUID()`. You can also pass an `hs.screen` object, or a function that returns an `hs.screen` object. If you pass nil, the first screen will be selected</li><li>The final three arguments use `hs.geometry.rect()` objects to describe the desired position and size of matched windows:</li><li>  Unit rect will be passed to `hs.window.moveToUnit()`</li><li>  Frame rect will be passed to `hs.window.setFrame()` (including menubar and dock)</li><li>  Full-frame rect will be passed to `hs.window.setFrame()` (ignoring menubar and dock)</li><li>If either the x or y components of frame/full-frame rect are negative, they will be applied as offsets against the opposite edge of the screen (e.g. If x is -100 then the left edge of the window will be 100 pixels from the right edge of the screen)</li><li>Only one of the rect arguments will apply to any matched windows. If you specify more than one, the first will win</li><li>An example usage:</li><li></li><li>    ```lua</li><li>      layout1 = {</li><li>        {"Mail", nil, "Color LCD", hs.layout.maximized, nil, nil},</li><li>        {"Safari", nil, "Thunderbolt Display", hs.layout.maximized, nil, nil},</li><li>        {"iTunes", "iTunes", "Color LCD", hs.layout.maximized, nil, nil},</li><li>        {"iTunes", "MiniPlayer", "Color LCD", nil, nil, hs.geometry.rect(0, -48, 400, 48)},</li><li>      }```</li><li>An example of a function that works well as a `windowTitleComparator` is the Lua built-in `string.match`, which uses Lua Patterns to match strings</li></ul>                |
 
+---

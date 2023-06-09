@@ -39,15 +39,22 @@ Commands Module.
 
 ### Constants
 
-| [DEFAULT_EXTENSION](#DEFAULT_EXTENSION)         |                                                                                     |
+
+### [DEFAULT_EXTENSION](#DEFAULT_EXTENSION)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.DEFAULT_EXTENSION -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The menubar position priority.                                                                     |
 
+---
 ### Functions
 
-| [getShortcutsPath](#getShortcutsPath)         |                                                                                     |
+
+### [getShortcutsPath](#getShortcutsPath)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.getShortcutsPath(name) -> string`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -56,7 +63,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [group](#group)         |                                                                                     |
+---
+
+### [group](#group)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.group(id) -> cp.command or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -65,7 +76,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>`cp.commands` - The command group with the specified ID, or `nil` if none exists.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [groupIds](#groupIds)         |                                                                                     |
+---
+
+### [groupIds](#groupIds)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.groupIds() -> table`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -74,7 +89,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>`table` - The array of group IDs.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [groups](#groups)         |                                                                                     |
+---
+
+### [groups](#groups)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.groups(id) -> table of cp.commands`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -83,7 +102,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>`cp.commands` - The command group with the specified ID, or `nil` if none exists.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadFromFile](#loadFromFile)         |                                                                                     |
+---
+
+### [loadFromFile](#loadFromFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.loadFromFile(name) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -92,7 +115,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>`true` if the file was found and loaded successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [new](#new)         |                                                                                     |
+---
+
+### [new](#new)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.new(id) -> cp.commands`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -101,7 +128,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>cp.commands - The command group that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveToFile](#saveToFile)         |                                                                                     |
+---
+
+### [saveToFile](#saveToFile)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.saveToFile(name) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -110,23 +141,35 @@ Commands Module.
 | **Returns**                                 | <ul><li>`true` if the shortcuts were saved successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [enabled](#enabled)         |                                                                                     |
+
+### [enabled](#enabled)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If enabled, the commands in the group will be active as well.                                                                     |
 
-| [isEditable](#isEditable)         |                                                                                     |
+---
+
+### [isEditable](#isEditable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands.isEditable <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `false`, the command group is not user-editable.                                                                     |
 
+---
 ### Methods
 
-| [activate](#activate)         |                                                                                     |
+
+### [activate](#activate)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:activate(successFn, failureFn) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -135,7 +178,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [add](#add)         |                                                                                     |
+---
+
+### [add](#add)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:add(commandId) -> cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -144,7 +191,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The new `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>myCommands:add("fooBar"):groupedBy("foo"):whenActivated(function() ... end)`</li><li>```</li></ul>                |
 
-| [clear](#clear)         |                                                                                     |
+---
+
+### [clear](#clear)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:clear() -> cp.commands`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -153,7 +204,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [deleteShortcuts](#deleteShortcuts)         |                                                                                     |
+---
+
+### [deleteShortcuts](#deleteShortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:deleteShortcuts() -> cp.commands`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -162,7 +217,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [disable](#disable)         |                                                                                     |
+---
+
+### [disable](#disable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:disable() -> cp.commands`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -171,7 +230,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [enable](#enable)         |                                                                                     |
+---
+
+### [enable](#enable)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:enable() -> cp.commands`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -180,7 +243,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [get](#get)         |                                                                                     |
+---
+
+### [get](#get)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:get(commandId) -> cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -189,7 +256,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [getAll](#getAll)         |                                                                                     |
+---
+
+### [getAll](#getAll)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:getAll() -> table of cp.commands.command`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -198,7 +269,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>for id,cmd in pairs(myCommands:getAll()) do</li><li>    ...</li><li>end</li><li>```</li></ul>                |
 
-| [id](#id)         |                                                                                     |
+---
+
+### [id](#id)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:id() -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -207,7 +282,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group ID string.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [loadShortcuts](#loadShortcuts)         |                                                                                     |
+---
+
+### [loadShortcuts](#loadShortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:loadShortcuts(data) -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -216,7 +295,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [saveShortcuts](#saveShortcuts)         |                                                                                     |
+---
+
+### [saveShortcuts](#saveShortcuts)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:saveShortcuts() -> table`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -225,7 +308,11 @@ Commands Module.
 | **Returns**                                 | <ul><li>The table of shortcuts for commands.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [watch](#watch)         |                                                                                     |
+---
+
+### [watch](#watch)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.commands:watch(events) -> cp.commands`                                                                    |
 | **Type**                                    | Method                                                                     |
@@ -234,3 +321,4 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The table can have properties with the following functions, which will be called for the specific event:</li><li> ** `add(command)`:      Called after the provided `cp.commands.command` instance has been added.</li><li> ** `activate()`         Called when the command group is activated.</li><li> ** `enable()`:          Called when the command group is enabled.</li><li> ** `disable()`:         Called when the command group is disabled.</li></ul>                |
 
+---

@@ -14,7 +14,10 @@ This class provides a UI for displaying the details of a command when it is sele
 
 ### Functions
 
-| [matches](#matches)         |                                                                                     |
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandDetail.matches(element) -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -23,23 +26,36 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---
 ### Fields
 
-| [contents](#contents)         |                                                                                     |
+
+### [contents](#contents)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandDetail.contents <cp.ui.TextArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The TextArea that displays the content.                                                                     |
 
-| [detail](#detail)         |                                                                                     |
+---
+
+### [detail](#detail)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandDetail.detail <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ScrollArea](cp.ui.ScrollArea.md) that displays the contained [TextArea](cp.ui.TextArea.md).                                                                     |
 
-| [label](#label)         |                                                                                     |
+---
+
+### [label](#label)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandDetail.label <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The StaticText that displays the label.                                                                     |
 
+---

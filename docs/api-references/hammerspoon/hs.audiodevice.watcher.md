@@ -13,7 +13,10 @@ Watch for system level audio hardware events
 
 ### Functions
 
-| [isRunning](#isRunning)         |                                                                                     |
+
+### [isRunning](#isRunning)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.audiodevice.watcher.isRunning() -> boolean`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -22,7 +25,11 @@ Watch for system level audio hardware events
 | **Returns**                                 | <ul><li>A boolean, true if the watcher is running, false if not</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [setCallback](#setCallback)         |                                                                                     |
+---
+
+### [setCallback](#setCallback)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.audiodevice.watcher.setCallback(fn)`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -31,7 +38,11 @@ Watch for system level audio hardware events
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This watcher will call the callback when various audio device related events occur (e.g. an audio device appears/disappears, a system default audio device setting changes, etc)</li><li>To watch for changes within an audio device, see `hs.audiodevice:newWatcher()`</li><li>The callback function argument is a string which may be one of the following strings, but might also be a different string entirely:</li><li> dIn  - Default audio input device setting changed (Note that there is a space character after `dIn`, because these values always have to be four characters long)</li><li> dOut - Default audio output device setting changed</li><li> sOut - Default system audio output setting changed (i.e. the device that system sound effects use. This may also be triggered by dOut, depending on the user's settings)</li><li> dev# - An audio device appeared or disappeared</li><li>The callback will be called for each individual audio device event received from the OS, so you may receive multiple events for a single physical action (e.g. unplugging the default audio device will cause `dOut` and `dev#` events, and possibly `sOut` too)</li><li>Passing nil will cause the watcher to stop if it is already running</li></ul>                |
 
-| [start](#start)         |                                                                                     |
+---
+
+### [start](#start)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.audiodevice.watcher.start()`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -40,7 +51,11 @@ Watch for system level audio hardware events
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
-| [stop](#stop)         |                                                                                     |
+---
+
+### [stop](#stop)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.audiodevice.watcher.stop() -> hs.audiodevice.watcher`                                                                    |
 | **Type**                                    | Function                                                                     |
@@ -49,3 +64,4 @@ Watch for system level audio hardware events
 | **Returns**                                 | <ul><li>The `hs.audiodevice.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul>                |
 
+---

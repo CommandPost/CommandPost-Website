@@ -24,93 +24,153 @@ Converts Titles to Keywords
 
 ### Fields
 
-| [addSpaceAfterSequence](#addSpaceAfterSequence)         |                                                                                     |
+
+### [addSpaceAfterSequence](#addSpaceAfterSequence)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.addSpaceAfterSequence <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Add Space After Sequence                                                                     |
 
-| [duration](#duration)         |                                                                                     |
+---
+
+### [duration](#duration)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.duration <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Duration of the titles created by "Create Titles from Text"                                                                     |
 
-| [mergeWithExistingEvent](#mergeWithExistingEvent)         |                                                                                     |
+---
+
+### [mergeWithExistingEvent](#mergeWithExistingEvent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.mergeWithExistingEvent <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Merge With Existing Event?                                                                     |
 
-| [padding](#padding)         |                                                                                     |
+---
+
+### [padding](#padding)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.padding <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Padding Value                                                                     |
 
-| [prefix](#prefix)         |                                                                                     |
+---
+
+### [prefix](#prefix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.prefix <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Prefix Value                                                                     |
 
-| [removeProjectFromEvent](#removeProjectFromEvent)         |                                                                                     |
+---
+
+### [removeProjectFromEvent](#removeProjectFromEvent)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.removeProjectFromEvent <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Project from Event                                                                     |
 
-| [replaceCommasWithAlternativeCommas](#replaceCommasWithAlternativeCommas)         |                                                                                     |
+---
+
+### [replaceCommasWithAlternativeCommas](#replaceCommasWithAlternativeCommas)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.replaceCommasWithAlternativeCommas <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Project from Event                                                                     |
 
-| [startOrEnd](#startOrEnd)         |                                                                                     |
+---
+
+### [startOrEnd](#startOrEnd)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.startOrEnd <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Start or End Value                                                                     |
 
-| [startWith](#startWith)         |                                                                                     |
+---
+
+### [startWith](#startWith)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.startWith <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Start With Value                                                                     |
 
-| [stepValue](#stepValue)         |                                                                                     |
+---
+
+### [stepValue](#stepValue)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.stepValue <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Step With Value                                                                     |
 
-| [suffix](#suffix)         |                                                                                     |
+---
+
+### [suffix](#suffix)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.suffix <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Suffix Value                                                                     |
 
-| [textEditor](#textEditor)         |                                                                                     |
+---
+
+### [textEditor](#textEditor)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.textEditor <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Text Editor Value                                                                     |
 
-| [textEditorTwo](#textEditorTwo)         |                                                                                     |
+---
+
+### [textEditorTwo](#textEditorTwo)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.textEditorTwo <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Text Editor Two Value                                                                     |
 
-| [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatFavoriteAndRejectAsRatingsInsteadOfKeywords)         |                                                                                     |
+---
+
+### [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatFavoriteAndRejectAsRatingsInsteadOfKeywords)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.treatFavoriteAndRejectAsRatingsInsteadOfKeywords <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Treat FAVORITE and REJECT as ratings instead of keywords                                                                     |
 
-| [useTitleContentsInsteadOfTitleName](#useTitleContentsInsteadOfTitleName)         |                                                                                     |
+---
+
+### [useTitleContentsInsteadOfTitleName](#useTitleContentsInsteadOfTitleName)
+
+|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.useTitleContentsInsteadOfTitleName <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Use Title Contents Instead of Title Name?                                                                     |
 
+---
