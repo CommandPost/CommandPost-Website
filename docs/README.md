@@ -5,7 +5,7 @@
         }
     }
 </style>
-<img class="rightLogo" src="https://commandpost.io/static/fcpcafe.png" align="right" style="width: 100px !important; height: 100px !important;" />
+<img class="rightLogo" src="https://commandpost.io/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # CommandPost
 
