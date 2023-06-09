@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739629276470">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739629781642">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739629276470" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739629781642" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739629276470" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739629781642" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739629276470" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739629781642" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -372,18 +372,14 @@
 <li>lt, le:  allows &lt;, &gt;, &lt;=, and &gt;= comparisons between objects and strings in which the text of an object is compared with the text of another or a Lua string.</li>
 </ul>
 <p>Note that due to differences in the way Lua determines when to use metamethods for equality comparisons versus relative-position comparisons, ==/<sub>= cannot compare an object to a Lua string (it will always return false because the types are different).  You must use object:getString() ==/</sub>= <code v-pre>string</code>.  (see <code v-pre>hs.styledtext:getString</code>)</p>
+<hr />
 <doc-anchor-target id="api-overview">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
         <span>API Overview</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="constants---useful-values-which-cannot-be-changed">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#constants---useful-values-which-cannot-be-changed">#</doc-anchor-trigger>
-        <span><strong>Constants</strong> - <em>Useful values which cannot be changed</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Constants</strong> - <em>Useful values which cannot be changed</em></p>
 <ul>
 <li><doc-anchor-trigger to="#defaultfonts">defaultFonts</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#fonttraits">fontTraits</doc-anchor-trigger></li>
@@ -391,12 +387,7 @@
 <li><doc-anchor-trigger to="#linepatterns">linePatterns</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#linestyles">lineStyles</doc-anchor-trigger></li>
 </ul>
-<doc-anchor-target id="functions---api-calls-offered-directly-by-the-extension">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#functions---api-calls-offered-directly-by-the-extension">#</doc-anchor-trigger>
-        <span><strong>Functions</strong> - <em>API calls offered directly by the extension</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Functions</strong> - <em>API calls offered directly by the extension</em></p>
 <ul>
 <li><doc-anchor-trigger to="#convertfont">convertFont</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#fontfamilies">fontFamilies</doc-anchor-trigger></li>
@@ -408,24 +399,14 @@
 <li><doc-anchor-trigger to="#loadfont">loadFont</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#validfont">validFont</doc-anchor-trigger></li>
 </ul>
-<doc-anchor-target id="constructors---api-calls-which-return-an-object-typically-one-that-offers-api-methods">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#constructors---api-calls-which-return-an-object-typically-one-that-offers-api-methods">#</doc-anchor-trigger>
-        <span><strong>Constructors</strong> - <em>API calls which return an object, typically one that offers API methods</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Constructors</strong> - <em>API calls which return an object, typically one that offers API methods</em></p>
 <ul>
 <li><doc-anchor-trigger to="#ansi">ansi</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#getstyledtextfromdata">getStyledTextFromData</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#getstyledtextfromfile">getStyledTextFromFile</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#new">new</doc-anchor-trigger></li>
 </ul>
-<doc-anchor-target id="methods---api-calls-which-can-only-be-made-on-an-object-returned-by-a-constructor">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#methods---api-calls-which-can-only-be-made-on-an-object-returned-by-a-constructor">#</doc-anchor-trigger>
-        <span><strong>Methods</strong> - <em>API calls which can only be made on an object returned by a constructor</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Methods</strong> - <em>API calls which can only be made on an object returned by a constructor</em></p>
 <ul>
 <li><doc-anchor-trigger to="#astable">asTable</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#byte">byte</doc-anchor-trigger></li>
@@ -445,6 +426,7 @@
 <li><doc-anchor-trigger to="#sub">sub</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#upper">upper</doc-anchor-trigger></li>
 </ul>
+<hr />
 <doc-anchor-target id="api-documentation">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>

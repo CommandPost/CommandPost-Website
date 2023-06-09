@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739629276470">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739629781642">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739629276470" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739629781642" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739629276470" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739629781642" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739629276470" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739629781642" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -296,6 +296,7 @@
 <p>This file contains functions which attempt to mimic as closely as possible the functions available to lua template files in the CGILua module provided by the Kepler Project at <a href="http://keplerproject.github.io/cgilua/index.html">http://keplerproject.github.io/cgilua/index.html</a></p>
 <p>The goal of this file is to provide most of the same functionality that CGILua does for template files. Any differences in the results or errors are most likely due to this code and you should direct all error reports or code change suggestions to the Hammerspoon GitHub repository.</p>
 <p><strong>Do not include this file directly in your Lua templates.</strong>  This library is provided automatically in the <code v-pre>cgilua</code> table (module) in Lua template web server files.  This submodule will only work from within that environment and should not be used in any other code.</p>
+<hr />
 <doc-anchor-target id="submodules">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#submodules">#</doc-anchor-trigger>
@@ -306,18 +307,14 @@
 <li><a href="../hs.httpserver.hsminweb.cgilua.lp/">hs.httpserver.hsminweb.cgilua.lp</a></li>
 <li><a href="../hs.httpserver.hsminweb.cgilua.urlcode/">hs.httpserver.hsminweb.cgilua.urlcode</a></li>
 </ul>
+<hr />
 <doc-anchor-target id="api-overview">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
         <span>API Overview</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="variables---configurable-values">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#variables---configurable-values">#</doc-anchor-trigger>
-        <span><strong>Variables</strong> - <em>Configurable values</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Variables</strong> - <em>Configurable values</em></p>
 <ul>
 <li><doc-anchor-trigger to="#script_file">script_file</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#script_path">script_path</doc-anchor-trigger></li>
@@ -327,12 +324,7 @@
 <li><doc-anchor-trigger to="#tmp_path">tmp_path</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#urlpath">urlpath</doc-anchor-trigger></li>
 </ul>
-<doc-anchor-target id="functions---api-calls-offered-directly-by-the-extension">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#functions---api-calls-offered-directly-by-the-extension">#</doc-anchor-trigger>
-        <span><strong>Functions</strong> - <em>API calls offered directly by the extension</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Functions</strong> - <em>API calls offered directly by the extension</em></p>
 <ul>
 <li><doc-anchor-trigger to="#contentheader">contentheader</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#doif">doif</doc-anchor-trigger></li>
@@ -351,6 +343,7 @@
 <li><doc-anchor-trigger to="#tmpfile">tmpfile</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#tmpname">tmpname</doc-anchor-trigger></li>
 </ul>
+<hr />
 <doc-anchor-target id="api-documentation">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>

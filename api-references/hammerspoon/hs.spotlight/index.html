@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739629276470">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739629781642">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739629276470" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739629781642" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739629276470" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739629781642" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739629276470" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739629781642" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -303,6 +303,7 @@
 <p>Depending upon the callback messages enabled with the <doc-anchor-trigger to="#callbackMessages">hs.spotlight:callbackMessages</doc-anchor-trigger> method, your callback assigned with the <doc-anchor-trigger to="#setCallback">hs.spotlight:setCallback</doc-anchor-trigger> method, you can determine the query phase by noting which messages you have received.  During the initial gathering phase, the following callback messages may be observed: &quot;didStart&quot;, &quot;inProgress&quot;, and &quot;didFinish&quot;.  Once the initial gathering phase has completed, you will only observe &quot;didUpdate&quot; messages until the query is stopped with the <doc-anchor-trigger to="#stop">hs.spotlight:stop</doc-anchor-trigger> method.</p>
 <p>You can also check to see if the initial gathering phase is in progress with the <doc-anchor-trigger to="#isGathering">hs.spotlight:isGathering</doc-anchor-trigger> method.</p>
 <p>You can access the individual results of the query with the <doc-anchor-trigger to="#resultAtIndex">hs.spotlight:resultAtIndex</doc-anchor-trigger> method. For convenience, metamethods have been added to the spotlightObject which make accessing individual results easier:  an individual spotlightItemObject may be accessed from a spotlightObject by treating the spotlightObject like an array; e.g. <code v-pre>spotlightObject[n]</code> will access the n&#x27;th spotlightItemObject in the current results.</p>
+<hr />
 <doc-anchor-target id="submodules">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#submodules">#</doc-anchor-trigger>
@@ -313,38 +314,24 @@
 <li><a href="../hs.spotlight.group/">hs.spotlight.group</a></li>
 <li><a href="../hs.spotlight.item/">hs.spotlight.item</a></li>
 </ul>
+<hr />
 <doc-anchor-target id="api-overview">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
         <span>API Overview</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="constants---useful-values-which-cannot-be-changed">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#constants---useful-values-which-cannot-be-changed">#</doc-anchor-trigger>
-        <span><strong>Constants</strong> - <em>Useful values which cannot be changed</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Constants</strong> - <em>Useful values which cannot be changed</em></p>
 <ul>
 <li><doc-anchor-trigger to="#commonattributekeys">commonAttributeKeys</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#definedsearchscopes">definedSearchScopes</doc-anchor-trigger></li>
 </ul>
-<doc-anchor-target id="constructors---api-calls-which-return-an-object-typically-one-that-offers-api-methods">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#constructors---api-calls-which-return-an-object-typically-one-that-offers-api-methods">#</doc-anchor-trigger>
-        <span><strong>Constructors</strong> - <em>API calls which return an object, typically one that offers API methods</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Constructors</strong> - <em>API calls which return an object, typically one that offers API methods</em></p>
 <ul>
 <li><doc-anchor-trigger to="#new">new</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#newwithin">newWithin</doc-anchor-trigger></li>
 </ul>
-<doc-anchor-target id="methods---api-calls-which-can-only-be-made-on-an-object-returned-by-a-constructor">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#methods---api-calls-which-can-only-be-made-on-an-object-returned-by-a-constructor">#</doc-anchor-trigger>
-        <span><strong>Methods</strong> - <em>API calls which can only be made on an object returned by a constructor</em></span>
-    </h3>
-</doc-anchor-target>
+<p><strong>Methods</strong> - <em>API calls which can only be made on an object returned by a constructor</em></p>
 <ul>
 <li><doc-anchor-trigger to="#callbackmessages">callbackMessages</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#count">count</doc-anchor-trigger></li>
@@ -363,6 +350,7 @@
 <li><doc-anchor-trigger to="#valuelistattributes">valueListAttributes</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#valuelists">valueLists</doc-anchor-trigger></li>
 </ul>
+<hr />
 <doc-anchor-target id="api-documentation">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
