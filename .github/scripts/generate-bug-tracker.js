@@ -2,10 +2,8 @@ const axios = require('axios');
 const fs = require('fs');
 const { GITHUB_TOKEN, REPO_NAME } = process.env;
 
-const [owner, repo] = REPO_NAME.split('/');
-
 const getIssues = async () => {
-  const response = await axios.get(`https://api.github.com/repos/${owner}/${repo}/issues`, {
+  const response = await axios.get(`https://api.github.com/repos/commandpost/commandpost/issues`, {
     headers: {
       Authorization: `Bearer ${GITHUB_TOKEN}`
     },
