@@ -1,5 +1,7 @@
 name: Update CommandPost Website & Publish to GitHub Pages
 on:
+  schedule:
+    - cron: '0 0 * * *'  # This will run the action once a day at midnight
   workflow_dispatch:
   push:
     branches:
@@ -45,6 +47,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_NAME: ${{ github.repository }}
         run: node .github/scripts/generate-snippets.js
+
+      - name: Generate Sponsors Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: CommandPost
+          REPO_NAME: CommandPost
+        run: node .github/scripts/generate-sponsors.js
 
       - name: Commit and push if it's necessary
         run: |
