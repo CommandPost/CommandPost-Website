@@ -2,25 +2,25 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const repoOwner = process.env.REPO_OWNER;
-const repoName = process.env.REPO_NAME;
-const githubToken = process.env.GITHUB_TOKEN;
+const organizationLogin = "CommandPost";
 
 const query = `
 query {
-  repository(owner: "${repoOwner}", name: "${repoName}") {
-    sponsorshipsAsMaintainer(first: 100) {
-      nodes {
-        sponsorEntity {
-          ... on User {
-            login
-            avatarUrl
-            url
-          }
-          ... on Organization {
-            login
-            avatarUrl
-            url
+  organization(login:"${organizationLogin}") {
+    ... on Sponsorable {
+      sponsorshipsAsMaintainer(first: 100) {
+        nodes {
+          sponsorEntity {
+            ... on User {
+              login
+              avatarUrl
+              url
+            }
+            ... on Organization {
+              login
+              avatarUrl
+              url
+            }
           }
         }
       }
@@ -32,15 +32,17 @@ query {
 axios({
   url: 'https://api.github.com/graphql',
   method: 'post',
-  headers: {
-    'Authorization': `Bearer ${githubToken}`,
-  },
   data: {
     query: query,
   }
 }).then(result => {
+  if (!result.data.data.organization) {
+    console.error('Unexpected response:', result.data);
+    process.exit(1);
+  }
+
   let sponsorsMd = '';
-  const sponsors = result.data.data.repository.sponsorshipsAsMaintainer.nodes;
+  const sponsors = result.data.data.organization.sponsorshipsAsMaintainer.nodes;
 
   for (const sponsor of sponsors) {
     const entity = sponsor.sponsorEntity;
@@ -48,4 +50,6 @@ axios({
   }
 
   fs.writeFileSync(path.join(__dirname, '..', '..', 'docs', '_includes', 'github-sponsors.md'), sponsorsMd);
+}).catch(err => {
+  console.error('An error occurred:', err);
 });

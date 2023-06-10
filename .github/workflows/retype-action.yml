@@ -49,10 +49,6 @@ jobs:
         run: node .github/scripts/generate-snippets.js
 
       - name: Generate Sponsors Markdown
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_OWNER: CommandPost
-          REPO_NAME: CommandPost
         run: node .github/scripts/generate-sponsors.js
 
       - name: Commit and push if it's necessary
