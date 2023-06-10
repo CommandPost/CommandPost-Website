@@ -1,6 +1,9 @@
 ### Trigger Shortcuts with Delay's in-between
 
 ```lua
+-----------------------------------------
+-- Trigger Shortcuts with Delay's in-between
+-----------------------------------------
 -- Type "t"
 hs.eventtap.keyStroke({}, "t")
 
