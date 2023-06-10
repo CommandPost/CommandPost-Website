@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739678241408">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739678511080">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,12 +33,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.3.739678241408" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739678511080" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739678241408" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739678511080" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739678241408" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739678241408" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739678511080" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739678511080" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -412,6 +412,43 @@
         <span>A</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="add-specific-keyword-alt">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#add-specific-keyword-alt">#</doc-anchor-trigger>
+        <span>Add Specific Keyword (Alt)</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Add Specific Keyword (Alt)
+-----------------------------------------
+local keywordEditor = cp.apple.finalcutpro.keywordEditor
+local wasShowing = cp.apple.finalcutpro.keywordEditor:isShowing()
+cp.apple.finalcutpro.keywordEditor:show()
+local keywords = cp.apple.finalcutpro.keywordEditor:keywords()
+table.insert(keywords, &quot;PRO_EW&quot;)
+cp.apple.finalcutpro.keywordEditor:keywords(keywords)
+if not wasShowing then
+cp.apple.finalcutpro.keywordEditor:hide()
+end</code></pre>
+</doc-codeblock></div>
+<hr />
+<doc-anchor-target id="add-specific-keyword">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#add-specific-keyword">#</doc-anchor-trigger>
+        <span>Add Specific Keyword</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Add Specific Keyword
+-----------------------------------------
+cp.apple.finalcutpro.keywordEditor:show()
+local keywords = cp.apple.finalcutpro.keywordEditor:keywords()
+table.insert(keywords, &quot;test&quot;)
+cp.apple.finalcutpro.keywordEditor:keywords(keywords)</code></pre>
+</doc-codeblock></div>
+<hr />
 <doc-anchor-target id="audio-cross-dissolve-backward-j-cut">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#audio-cross-dissolve-backward-j-cut">#</doc-anchor-trigger>
@@ -500,6 +537,89 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
 </doc-codeblock></div>
 <hr />
 <hr />
+<doc-anchor-target id="b">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#b">#</doc-anchor-trigger>
+        <span>B</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="backup-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#backup-library">#</doc-anchor-trigger>
+        <span>Backup Library</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Backup Library
+-----------------------------------------
+local fcp = require(&quot;cp.apple.finalcutpro&quot;)
+
+-- Get a table of active library paths:
+local activeLibraryPaths = fcp:activeLibraryPaths()
+
+-- Iterate the active library paths:
+for _, path in pairs(activeLibraryPaths) do
+	local settingsPath path .. &quot;/Settings.plist&quot;
+
+	local settings hs.plist.read(settingsPath)
+	local backupLocationData = settings = and settings.backupLocation
+	local backupLocation = backupLocationData and hs.fs.pathFromBookmark(backupLocationData) or hs.fs.pathToAbsolute(&quot;~/Movies/Final Cut Backups.localized/&quot;)
+
+	-- Output text to the Debug Console:
+	print(string.format(&quot;Backup Location for '%s' is '%s'.&quot;, path, backupLocation))
+end</code></pre>
+</doc-codeblock></div>
+<hr />
+<hr />
+<doc-anchor-target id="c">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#c">#</doc-anchor-trigger>
+        <span>C</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="camera-lut-arri-log-c">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#camera-lut-arri-log-c">#</doc-anchor-trigger>
+        <span>Camera LUT (ARRI Log C)</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Camera LUT (ARRI Log C)
+-----------------------------------------
+
+function plugin.init(deps)
+-----------------------------------------
+-- Only load plugin if FCPX is supported:
+-----------------------------------------
+if not fcp:isSupported() then return end
+
+-----------------------------------------
+-- Set Camera LUT to None:
+-----------------------------------------
+local fcpxCmds = deps.fcpxCmds
+fcpxCmds
+			:add(setCameraLUTToNone&quot;) 32
+			:whenActivated(function()
+					local info = fcp.inspector.info
+					info: show()
+					info:metadataView(&quot;Settings&quot;)
+					local none = fcp:string(&quot;FFCameraLUTControllerNone&quot;)
+					info:cameraLUT():value (none)
+			end)
+			:titled(i18n(&quot;setCameraLUTToNone&quot;))
+
+end
+
+return plugin</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">fcp.apple.finalcutpro.inspector.info:show():metadataView(&quot;Settings&quot;); 
+cp.apple.finalcutpro.inspector.info:cameraLUT():value(&quot;ARRI Log C&quot;)</code></pre>
+</doc-codeblock></div>
+<hr />
+<hr />
 <doc-anchor-target id="f">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#f">#</doc-anchor-trigger>
@@ -551,12 +671,67 @@ cp.apple.finalcutpro:doShortcut(&quot;JogForward&quot;):Now()</code></pre>
 </doc-codeblock></div>
 <hr />
 <hr />
+<doc-anchor-target id="n">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#n">#</doc-anchor-trigger>
+        <span>N</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="next-marker--blade-all">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#next-marker--blade-all">#</doc-anchor-trigger>
+        <span>Next Marker &amp; Blade All</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Next Marker &amp; Blade All
+-----------------------------------------
+cp.apple.finalcutpro:doShortcut(&quot;NextMarker&quot;)
+:Then(cp.apple.finalcutpro:doShortcut(&quot;BladeAll&quot;))
+:Now()</code></pre>
+</doc-codeblock></div>
+<hr />
+<hr />
 <doc-anchor-target id="p">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#p">#</doc-anchor-trigger>
         <span>P</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="paste-attributes-timeline">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#paste-attributes-timeline">#</doc-anchor-trigger>
+        <span>Paste Attributes Timeline</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Paste Attributes Timeline
+-----------------------------------------
+hs.eventtap.keyStroke({}, &quot;space&quot;,0)
+hs.eventtap.keyStroke({}, &quot;c&quot;,0)
+hs.eventtap.keyStroke({&quot;cmd&quot;, &quot;shift&quot;}, &quot;v&quot;,0)
+hs.eventtap.keyStroke({}, &quot;return&quot;,0)
+hs.eventtap.keyStroke({}, &quot;k&quot;,0)</code></pre>
+</doc-codeblock></div>
+<hr />
+<doc-anchor-target id="paste-timecode-marker--blade-all">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#paste-timecode-marker--blade-all">#</doc-anchor-trigger>
+        <span>Paste Timecode, Marker &amp; Blade All</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Paste Timecode, Marker &amp; Blade All
+-----------------------------------------
+cp.apple.finalcutpro:doShortcut(&quot;PasteTimecode&quot;)
+:Then(cp.apple.finalcutpro:doShortcut(&quot;AddMarker&quot;))
+:Then(cp.apple.finalcutpro:doShortcut(&quot;BladeAll&quot;))
+:Now()</code></pre>
+</doc-codeblock></div>
+<hr />
 <doc-anchor-target id="press-cmdc">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#press-cmdc">#</doc-anchor-trigger>
@@ -571,12 +746,52 @@ hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;c&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <hr />
+<doc-anchor-target id="r">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#r">#</doc-anchor-trigger>
+        <span>R</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="reveal-in-browser--favourite">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reveal-in-browser--favourite">#</doc-anchor-trigger>
+        <span>Reveal in Browser &amp; Favourite</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Reveal in Browser &amp; Favourite
+-----------------------------------------
+hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;f&quot;,0)
+hs.eventtap.keyStroke({}, &quot;f&quot;,0)</code></pre>
+</doc-codeblock></div>
+<hr />
+<hr />
 <doc-anchor-target id="s">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#s">#</doc-anchor-trigger>
         <span>S</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="search-commandpost-api">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#search-commandpost-api">#</doc-anchor-trigger>
+        <span>Search CommandPost API</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Search CommandPost API
+-----------------------------------------
+cp.plugins(&quot;core.action.manager&quot;).getActivator(&quot;test&quot;):onActivate(function(handler, action, text)
+    local result = [[local handler = cp.plugins(&quot;core.action.manager&quot;).getHandler(&quot;]] .. handler:id()  .. [[&quot;)]] .. &quot;\n&quot;
+    result = result .. &quot;local action = &quot; .. &quot;\n&quot;
+    result = result .. hs.inspect(action) .. &quot;\n&quot;
+    result = result .. [[handler:execute(action)]]
+    hs.pasteboard.setContents(result)
+end):show()</code></pre>
+</doc-codeblock></div>
+<hr />
 <doc-anchor-target id="select-all-even-clips-in-a-timeline">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#select-all-even-clips-in-a-timeline">#</doc-anchor-trigger>
@@ -593,6 +808,28 @@ table.sort(clips, function(a, b) return a.AXPosition.x &lt; b.AXPosition.x end)
 local evenClips = {}
 for i, clip in ipairs(clips) do
     if (i % 2 == 0) then
+        table.insert(evenClips, clip)
+    end
+end
+cp.apple.finalcutpro:timeline():contents():selectClips(evenClips)</code></pre>
+</doc-codeblock></div>
+<hr />
+<doc-anchor-target id="select-all-odd-clips-in-timeline">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#select-all-odd-clips-in-timeline">#</doc-anchor-trigger>
+        <span>Select all odd clips in Timeline</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Select all odd clips in Timeline
+-----------------------------------------
+cp.apple.finalcutpro:launch()
+local clips = cp.apple.finalcutpro:timeline():contents():clipsUI()
+table.sort(clips, function(a, b) return a:position().x &lt; b:position().x end)
+local evenClips = {}
+for i, clip in ipairs(clips) do
+    if (i % 2 == 1) then
         table.insert(evenClips, clip)
     end
 end
@@ -632,6 +869,22 @@ hs.eventtap.keyStroke({}, &quot;e&quot;)</code></pre>
 hs.alert.show(&quot;this is a test&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
+<doc-anchor-target id="swap-connected-clips">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#swap-connected-clips">#</doc-anchor-trigger>
+        <span>Swap Connected Clips</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Swap Connected Clips
+-----------------------------------------
+hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;x&quot;,0)
+hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;v&quot;,0)
+hs.eventtap.keyStroke({}, &quot;up&quot;,0)
+hs.eventtap.keyStroke({}, &quot;c&quot;,0)</code></pre>
+</doc-codeblock></div>
+<hr />
 <hr />
 <doc-anchor-target id="t">
     <h2>
@@ -639,6 +892,118 @@ hs.alert.show(&quot;this is a test&quot;)</code></pre>
         <span>T</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="transcribe-end">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#transcribe-end">#</doc-anchor-trigger>
+        <span>Transcribe End</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Transcribe End
+-----------------------------------------
+cp.apple.finalcutpro:launch()
+
+-- activate clip in Browser
+hs.eventtap.keyStroke({&quot;cmd&quot;},&quot;1&quot;,100)
+
+-- stop playback
+hs.eventtap.keyStroke({},&quot;k&quot;)
+
+-- detect Loop Playback
+if cp.apple.finalcutpro.preferences.FFPlayerLoopPlayback then
+
+-- disable Loop Playback
+hs.eventtap.keyStroke({&quot;cmd&quot;},&quot;l&quot;,100)
+
+-- goto out point
+hs.eventtap.keyStroke({&quot;shift&quot;},&quot;o&quot;,100)
+
+-- advance playhead 1 frame
+hs.eventtap.keyStroke({},&quot;right&quot;)
+
+-- set in point
+hs.eventtap.keyStroke({},&quot;i&quot;)
+
+-- play normal speed forward
+hs.eventtap.keyStroke({},&quot;space&quot;)
+
+else
+
+-- goto out point
+hs.eventtap.keyStroke({&quot;shift&quot;},&quot;o&quot;,100)
+
+-- advance playhead 1 frame
+hs.eventtap.keyStroke({},&quot;right&quot;)
+
+-- set in point
+hs.eventtap.keyStroke({},&quot;I&quot;)
+
+-- play normal speed forward
+hs.eventtap.keyStroke({},&quot;space&quot;)
+
+end</code></pre>
+</doc-codeblock></div>
+<hr />
+<doc-anchor-target id="transcribe-start">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#transcribe-start">#</doc-anchor-trigger>
+        <span>Transcribe Start</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Transcribe Start
+-----------------------------------------
+cp.apple.finalcutpro:launch()
+
+-- detect Loop Playback
+if cp.apple.finalcutpro.preferences.FFPlayerLoopPlayback then
+
+-- play selection
+hs.eventtap.keyStroke({},&quot;/&quot;,100)
+
+-- apply keyword &quot;quote&quot; to selection (stored under CTRL 1 in keyword editor)
+hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;1&quot;,100)
+
+-- select clip in the list
+hs.eventtap.keyStroke({},&quot;tab&quot;,100)
+
+-- twirl open the disclosure triangle of the clip
+hs.eventtap.keyStroke({},&quot;right&quot;,100)
+
+-- select the added keyword range in the list
+hs.eventtap.keyStroke({},&quot;down&quot;,100)
+
+-- press Tab to enter notes field for the selected keyword range
+hs.eventtap.keyStroke({},&quot;tab&quot;,100)
+
+else
+
+-- activate Loop Playback
+hs.eventtap.keyStroke({&quot;cmd&quot;},&quot;l&quot;,100)
+
+-- play selection
+hs.eventtap.keyStroke({},&quot;/&quot;,100)
+
+-- apply keyword &quot;quote&quot; to selection (stored under CTRL 1 in keyword editor)
+hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;1&quot;,100)
+
+-- select clip in the list
+hs.eventtap.keyStroke({},&quot;tab&quot;,100)
+
+-- twirl open the disclosure triangle of the clip
+hs.eventtap.keyStroke({},&quot;right&quot;,100)
+
+-- select the added keyword range in the list
+hs.eventtap.keyStroke({},&quot;down&quot;,100)
+
+-- press Tab to enter notes field for the selected keyword range
+hs.eventtap.keyStroke({},&quot;tab&quot;,100)
+
+end</code></pre>
+</doc-codeblock></div>
+<hr />
 <doc-anchor-target id="type-test">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#type-test">#</doc-anchor-trigger>
@@ -650,6 +1015,31 @@ hs.alert.show(&quot;this is a test&quot;)</code></pre>
 -- Type &quot;test&quot;
 -----------------------------------------
 hs.eventtap.keyStrokes(&quot;test&quot;)</code></pre>
+</doc-codeblock></div>
+<hr />
+<hr />
+<doc-anchor-target id="u">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#u">#</doc-anchor-trigger>
+        <span>U</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="update-subtitle">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#update-subtitle">#</doc-anchor-trigger>
+        <span>Update Subtitle</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">----------------------------------------------------------------------------------
+-- Update Subtitle (FxFactory https://fxfactory.com/info/subtitles/)
+-- May not always work. Trial &amp; error is required for different screen size.
+----------------------------------------------------------------------------------
+hs.eventtap.keyStroke({&quot;fn&quot;}, &quot;f16&quot;,0)
+hs.eventtap.keyStrokes(&quot;Subtitles&quot;,0)
+cp.tools.ninjaMouseClick({x=22, y=888} ,0)
+cp.apple.finalcutpro.inspector.title:show()
+cp.tools.ninjaDoubleClick({x=2500, y=347} ,0)</code></pre>
 </doc-codeblock></div>
 <hr />
 <script src="https://giscus.app/client.js"
