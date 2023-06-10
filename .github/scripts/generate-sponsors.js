@@ -40,6 +40,9 @@ axios({
     query: query,
   }
 }).then(result => {
+
+  console.log(result.data);
+
   if (!result.data.data.organization) {
     console.error('Unexpected response:', result.data);
     process.exit(1);
@@ -47,6 +50,8 @@ axios({
 
   let sponsorsMd = '';
   const sponsors = result.data.data.organization.sponsorshipsAsMaintainer.nodes;
+
+  console.log(sponsors);
 
   for (const sponsor of sponsors) {
     const entity = sponsor.sponsorEntity;
