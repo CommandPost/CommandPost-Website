@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const organizationLogin = "CommandPost";
+const githubToken = process.env.GITHUB_TOKEN;
 
 const query = `
 query {
@@ -32,6 +33,9 @@ query {
 axios({
   url: 'https://api.github.com/graphql',
   method: 'post',
+  headers: {
+    Authorization: `bearer ${githubToken}`
+  },
   data: {
     query: query,
   }
