@@ -5,6 +5,8 @@ const path = require('path');
 const organizationLogin = "CommandPost";
 const githubToken = process.env.GITHUB_TOKEN;
 
+const outputFile = path.join(process.env.GITHUB_WORKSPACE, 'docs/_includes/github-sponsors.md');
+
 const query = `
 query {
   organization(login:"${organizationLogin}") {
@@ -58,7 +60,7 @@ axios({
     sponsorsMd += `![${entity.login}](${entity.avatarUrl}&s=64) [${entity.login}](${entity.url})\n\n`;
   }
 
-  fs.writeFileSync(path.join(__dirname, '..', '..', 'docs', '_includes', 'github-sponsors.md'), sponsorsMd);
+  fs.writeFileSync(outputFile, sponsorsMd);
 }).catch(err => {
   console.error('An error occurred:', err);
 });
