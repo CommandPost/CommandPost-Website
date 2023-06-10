@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739678131356">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739678241408">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,12 +33,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.3.739678131356" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739678241408" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739678131356" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739678241408" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739678131356" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739678131356" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739678241408" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739678241408" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -419,7 +419,10 @@
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Audio Cross Dissolve Backward (J-Cut)
+-----------------------------------------
+hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;1&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
@@ -442,7 +445,10 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Audio Cross Dissolve Centre
+-----------------------------------------
+hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;1&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
@@ -474,7 +480,10 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;)</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;[&quot;, 0)
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Audio Cross Dissolve Centre
+-----------------------------------------
+hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;[&quot;, 0)
 hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;=&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;1&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
@@ -504,7 +513,10 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">local bundleID = &quot;com.logitech.manager.daemon&quot;
+<pre class="language-lua"><code v-pre class="language-lua">---------------------------------------------------------------
+-- Forcefully restart an application by its bundle identifier
+---------------------------------------------------------------
+local bundleID = &quot;com.logitech.manager.daemon&quot;
 local apps = hs.application.applicationsForBundleID(bundleID)
 if apps and apps[1] then
     apps[1]:kill9()
@@ -526,7 +538,10 @@ hs.application.launchOrFocusByBundleID(bundleID)</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Go back 500 frames and play
+-----------------------------------------
+hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;2&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
 hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
@@ -549,7 +564,10 @@ cp.apple.finalcutpro:doShortcut(&quot;JogForward&quot;):Now()</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;c&quot;)</code></pre>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Press &quot;CMD+C&quot;
+-----------------------------------------
+hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;c&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <hr />
@@ -566,7 +584,10 @@ cp.apple.finalcutpro:doShortcut(&quot;JogForward&quot;):Now()</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">cp.apple.finalcutpro:launch()
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Select all even clips in Timeline
+-----------------------------------------
+cp.apple.finalcutpro:launch()
 local clips = cp.apple.finalcutpro:timeline():contents():clipsUI()
 table.sort(clips, function(a, b) return a.AXPosition.x &lt; b.AXPosition.x end)
 local evenClips = {}
@@ -585,7 +606,10 @@ cp.apple.finalcutpro:timeline():contents():selectClips(evenClips)</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">-- Type &quot;t&quot;
+<pre class="language-lua"><code v-pre class="language-lua">-------------------------------------------------
+-- Trigger Shortcuts with Delay's in-between
+-------------------------------------------------
+-- Type &quot;t&quot;
 hs.eventtap.keyStroke({}, &quot;t&quot;)
 
 -- Wait 1 second
@@ -602,7 +626,10 @@ hs.eventtap.keyStroke({}, &quot;e&quot;)</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.alert.show(&quot;this is a test&quot;)</code></pre>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Show an alert
+-----------------------------------------
+hs.alert.show(&quot;this is a test&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <hr />
@@ -619,7 +646,10 @@ hs.eventtap.keyStroke({}, &quot;e&quot;)</code></pre>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStrokes(&quot;test&quot;)</code></pre>
+<pre class="language-lua"><code v-pre class="language-lua">-----------------------------------------
+-- Type &quot;test&quot;
+-----------------------------------------
+hs.eventtap.keyStrokes(&quot;test&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <script src="https://giscus.app/client.js"
