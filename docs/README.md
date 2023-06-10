@@ -48,8 +48,8 @@ However, it's also used by developers, scientists and macOS power users all over
 
 ### Experience Unparalleled Control
 
-> _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
-> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
+> _“ Chris's support is the best you will find anywhere on the planet. He was proactive and able to implement features for me on the spot. 5 STAR product 5 STAR support. ControllerMate is what I used to use. CommandPost is faster and easier. ”_<br />
+> **[Ross Batten](https://www.roscoaudio.com.au){target="_blank"}** <font size="2">- _Senior Sound Designer (ProTools)_</font>
 
 CommandPost has deep support for a wide range of **control surfaces**.
 
@@ -116,6 +116,9 @@ The Search Console will also list all your [Keyboard Maestro](https://www.keyboa
 ---
 
 ### Multi-language Support
+
+> _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
+> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
 
 CommandPost has been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy){target="_blank"}.
 
