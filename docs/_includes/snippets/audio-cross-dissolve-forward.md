@@ -1,6 +1,9 @@
 ### Audio Cross Dissolve Forward (L-Cut)
 
 ```lua
+-----------------------------------------
+-- Audio Cross Dissolve Centre
+-----------------------------------------
 hs.eventtap.keyStroke({"shift"}, "[", 0)
 hs.eventtap.keyStroke({"shift"}, "=", 0)
 hs.eventtap.keyStroke({}, "1", 0)
