@@ -57,7 +57,7 @@ axios({
 
   for (const sponsor of sponsors) {
     const entity = sponsor.sponsorEntity;
-    sponsorsMd += `![${entity.login}](${entity.avatarUrl}&s=64) [${entity.login}](${entity.url})\n\n`;
+    sponsorsMd += `<a href="${entity.url}" target="_blank"><img src="${entity.avatarUrl}&s=64" alt="${entity.login}" width="64" height="64"></a> [${entity.login}](${entity.url})\n\n`;
   }
 
   fs.writeFileSync(outputFile, sponsorsMd);
