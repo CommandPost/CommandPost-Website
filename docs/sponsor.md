@@ -28,3 +28,5 @@ Thanks team!
 Thanks to all these amazing people for supporting CommandPost!
 
 {{ include "github-sponsors" }}
+
+You can join this list by sponsoring CommandPost on [GitHub](https://github.com/sponsors/commandpost){target="_blank"} today!
