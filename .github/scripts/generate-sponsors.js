@@ -88,8 +88,9 @@ axios({
 
     const sortedSponsors = uniqueSponsors.sort((a, b) => a.localeCompare(b));
 
-    for (const sponsor of sortedSponsors) {
-      sponsorsMd += `<a href="${sponsor.sponsorEntity.url}" target="_blank"><img src="${sponsor.sponsorEntity.avatarUrl}&s=64" alt="${sponsor.sponsorEntity.login}" width="64" height="64"></a> [${sponsor.sponsorEntity.login}](${sponsor.sponsorEntity.url})\n\n`;
+    for (const sponsorLogin of sortedSponsors) {
+      const sponsor = allSponsors.find(s => s.sponsorEntity.login === sponsorLogin).sponsorEntity;
+      sponsorsMd += `<a href="${sponsor.url}" target="_blank"><img src="${sponsor.avatarUrl}&s=64" alt="${sponsor.login}" width="64" height="64"></a> [${sponsor.login}](${sponsor.url})\n\n`;
     }
 
     fs.writeFileSync(outputFile, sponsorsMd);
