@@ -50,7 +50,7 @@ jobs:
 
       - name: Generate Sponsors Markdown
         env:
-          GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/generate-sponsors.js
 
       - name: Commit and push if it's necessary
