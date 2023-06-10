@@ -1,4 +1,4 @@
-### Forcefully restart an application by its bundle identifier
+### Next Marker & Blade All
 
 ```lua
 -----------------------------------------
