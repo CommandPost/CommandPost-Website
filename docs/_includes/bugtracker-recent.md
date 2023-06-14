@@ -1,3 +1,4 @@
+- [Change Player Background broken on Ventura (June 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3221){target="_blank"}
 - [Loupedeck Live - Images not updated (June 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3219){target="_blank"}
 - [Final Cut Pro Font actions broken (May 8, 2023)](https://github.com/CommandPost/CommandPost/issues/3212){target="_blank"}
 - [Increase/Decrease Volume Actions Broken on Ventura (April 19, 2023)](https://github.com/CommandPost/CommandPost/issues/3208){target="_blank"}
@@ -27,4 +28,3 @@
 - ["About Final Cut Pro" menu item doesn't trigger in Korean (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2943){target="_blank"}
 - [Update Control Surfaces UIs to use higher quality images (April 5, 2022)](https://github.com/CommandPost/CommandPost/issues/2896){target="_blank"}
 - [Shared Pasteboard allow copying Projects but pasting Projects is not supported (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2885){target="_blank"}
-- [CommandPost HUD Search not returning result on specific strings (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2884){target="_blank"}
