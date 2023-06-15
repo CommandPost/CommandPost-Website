@@ -43,6 +43,7 @@
 | [cp.apple.finalcutpro.inspector.audio.TopProperties](cp.apple.finalcutpro.inspector.audio.TopProperties.md)                          | The `TopProperties` class is used to represent the top properties group of the Audio Inspector.     |
 | [cp.apple.finalcutpro.inspector.BaseMotionPanel](cp.apple.finalcutpro.inspector.BaseMotionPanel.md)                          | A base class for [Inspector](cp.apple.finalcutpro.inspector.Inspector.md) panels     |
 | [cp.apple.finalcutpro.inspector.BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md)                          | A base class for the different panels in the [Inspector](cp.apple.finalcutpro.inspector.Inspector.md).     |
+| [cp.apple.finalcutpro.inspector.color.ColorAdjustments](cp.apple.finalcutpro.inspector.color.ColorAdjustments.md)                          | Color Adjustments Module.     |
 | [cp.apple.finalcutpro.inspector.color.ColorBoard](cp.apple.finalcutpro.inspector.color.ColorBoard.md)                          | Color Board Module.     |
 | [cp.apple.finalcutpro.inspector.color.ColorBoardAspect](cp.apple.finalcutpro.inspector.color.ColorBoardAspect.md)                          | Represents a particular aspect of the color board (Color/Saturation/Exposure).     |
 | [cp.apple.finalcutpro.inspector.color.ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                          | A ColorCurve [Element](cp.ui.Element.md).     |
@@ -52,7 +53,7 @@
 | [cp.apple.finalcutpro.inspector.color.ColorWell](cp.apple.finalcutpro.inspector.color.ColorWell.md)                          | Represents a single Color Well in the Color Wheels Inspector.     |
 | [cp.apple.finalcutpro.inspector.color.ColorWheel](cp.apple.finalcutpro.inspector.color.ColorWheel.md)                          | Represents a single Color Well in the Color Wheels Inspector.     |
 | [cp.apple.finalcutpro.inspector.color.ColorWheels](cp.apple.finalcutpro.inspector.color.ColorWheels.md)                          | Color Wheels Module.     |
-| [cp.apple.finalcutpro.inspector.color.CorrectionsBar](cp.apple.finalcutpro.inspector.color.CorrectionsBar.md)                          | The Correction selection/management bar at the top of the ColorInspector     |
+| [cp.apple.finalcutpro.inspector.color.CorrectionsBar](cp.apple.finalcutpro.inspector.color.CorrectionsBar.md)                          | The Correction selection/management bar at the top of the ColorInspector.     |
 | [cp.apple.finalcutpro.inspector.color.HueSaturationCurve](cp.apple.finalcutpro.inspector.color.HueSaturationCurve.md)                          | A HueSaturationCurve [Element](cp.ui.Element.md).     |
 | [cp.apple.finalcutpro.inspector.color.HueSaturationCurves](cp.apple.finalcutpro.inspector.color.HueSaturationCurves.md)                          | Color Curves Module.     |
 | [cp.apple.finalcutpro.inspector.color.ValueIndicator](cp.apple.finalcutpro.inspector.color.ValueIndicator.md)                          | ValueIndicator Module.     |

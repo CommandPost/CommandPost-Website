@@ -14,8 +14,14 @@ Extends [Element](cp.ui.Element.md)
  * [ColorWheels](#colorwheels)
 
 **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+ * [blackPoint](#blackpoint)
+ * [brightness](#brightness)
  * [contentUI](#contentui)
+ * [contrast](#contrast)
+ * [exposure](#exposure)
  * [highlights](#highlights)
+ * [highlightsTint](#highlightstint)
+ * [highlightsWarmth](#highlightswarmth)
  * [hue](#hue)
  * [hueRow](#huerow)
  * [hueSlider](#hueslider)
@@ -23,12 +29,17 @@ Extends [Element](cp.ui.Element.md)
  * [master](#master)
  * [maxValue](#maxvalue)
  * [midtones](#midtones)
+ * [midtonesTint](#midtonestint)
+ * [midtonesWarmth](#midtoneswarmth)
  * [minValue](#minvalue)
  * [mix](#mix)
  * [mixRow](#mixrow)
  * [mixSlider](#mixslider)
  * [mixTextField](#mixtextfield)
+ * [saturation](#saturation)
  * [shadows](#shadows)
+ * [shadowsTint](#shadowstint)
+ * [shadowsWarmth](#shadowswarmth)
  * [temperature](#temperature)
  * [temperatureRow](#temperaturerow)
  * [temperatureSlider](#temperatureslider)
@@ -90,6 +101,32 @@ Extends [Element](cp.ui.Element.md)
 #### Fields
 
 
+### [blackPoint](#blackpoint)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.blackPoint <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 504](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L504){target="_blank"} |
+
+---
+
+
+### [brightness](#brightness)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.brightness <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L375){target="_blank"} |
+
+---
+
+
 ### [contentUI](#contentui)
 
 |                                             |                                                                                     |
@@ -103,6 +140,32 @@ Extends [Element](cp.ui.Element.md)
 ---
 
 
+### [contrast](#contrast)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.contrast <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 332](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L332){target="_blank"} |
+
+---
+
+
+### [exposure](#exposure)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.exposure <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L289){target="_blank"} |
+
+---
+
+
 ### [highlights](#highlights)
 
 |                                             |                                                                                     |
@@ -112,6 +175,32 @@ Extends [Element](cp.ui.Element.md)
 | **Description**                             | A `ColorWheel` that allows control of the 'highlights' color settings.                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L249){target="_blank"} |
+
+---
+
+
+### [highlightsTint](#highlightstint)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.highlightsTint <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 633](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L633){target="_blank"} |
+
+---
+
+
+### [highlightsWarmth](#highlightswarmth)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.highlightsWarmth <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 590](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L590){target="_blank"} |
 
 ---
 
@@ -207,6 +296,32 @@ Extends [Element](cp.ui.Element.md)
 ---
 
 
+### [midtonesTint](#midtonestint)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.midtonesTint <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 719](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L719){target="_blank"} |
+
+---
+
+
+### [midtonesWarmth](#midtoneswarmth)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.midtonesWarmth <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 676](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L676){target="_blank"} |
+
+---
+
+
 ### [minValue](#minvalue)
 
 |                                             |                                                                                     |
@@ -272,6 +387,19 @@ Extends [Element](cp.ui.Element.md)
 ---
 
 
+### [saturation](#saturation)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.saturation <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 418](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L418){target="_blank"} |
+
+---
+
+
 ### [shadows](#shadows)
 
 |                                             |                                                                                     |
@@ -281,6 +409,32 @@ Extends [Element](cp.ui.Element.md)
 | **Description**                             | A `ColorWheel` that allows control of the 'shadows' color settings.                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L235){target="_blank"} |
+
+---
+
+
+### [shadowsTint](#shadowstint)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.shadowsTint <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 805](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L805){target="_blank"} |
+
+---
+
+
+### [shadowsWarmth](#shadowswarmth)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.shadowsWarmth <cp.prop: number>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The amount for this corrector.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 762](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L762){target="_blank"} |
 
 ---
 
