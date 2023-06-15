@@ -1,10 +1,9 @@
+- [Add Control Surface Support for 3DConnexion Products (November 15, 2021)](https://github.com/CommandPost/CommandPost/issues/2809){target="_blank"}
 - [Add Caption combining cleanup action (May 12, 2022)](https://github.com/CommandPost/CommandPost/issues/2978){target="_blank"}
 - [Add Camera LUTs to Search Console (January 18, 2022)](https://github.com/CommandPost/CommandPost/issues/2829){target="_blank"}
-- [Add support for "Color Adjustments" controls (May 24, 2023)](https://github.com/CommandPost/CommandPost/issues/3215){target="_blank"}
 - [Add Microsoft Surface Dial support (May 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3214){target="_blank"}
 - [Add shortcut keys to Cut / Copy / Paste Markers (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3211){target="_blank"}
 - [Add support for Logitech G13 (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3210){target="_blank"}
-- [Add actions for Scale X and Scale Y (April 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3206){target="_blank"}
 - [Add actions for saving/recalling user defined timeline zoom settings like Logic Pro (March 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3194){target="_blank"}
 - [Review Magic Mouse support in "Enable Timeline Zooming with Mouse Scroll & Modifier Key" (March 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3193){target="_blank"}
 - [Add support for Stream Deck Pedal (March 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3190){target="_blank"}
@@ -28,3 +27,4 @@
 - [Toolbox to convert Keywords to Notes (August 11, 2022)](https://github.com/CommandPost/CommandPost/issues/3072){target="_blank"}
 - [Add features to Titles Toolbox to allow for batch renaming (August 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3060){target="_blank"}
 - [Add action for "Connect New Title using Pasteboard Contents" (August 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3059){target="_blank"}
+- [Copy in Final Cut Pro X and Paste in Apple Motion (August 3, 2022)](https://github.com/CommandPost/CommandPost/issues/3049){target="_blank"}
