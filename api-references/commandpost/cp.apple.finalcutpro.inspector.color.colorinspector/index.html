@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740107613245">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740138226492">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.740107613245" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.740138226492" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.740107613245" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.740138226492" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.740107613245" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.740138226492" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -399,6 +399,7 @@
 </ul>
 <p><strong>Fields</strong> - <em>Variables which can only be accessed from an object returned by a constructor</em></p>
 <ul>
+<li><doc-anchor-trigger to="#coloradjustments">colorAdjustments</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#colorboard">colorBoard</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#colorcurves">colorCurves</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#colorwheels">colorWheels</doc-anchor-trigger></li>
@@ -457,15 +458,15 @@
 </tr>
 <tr>
 <td><strong>Description</strong></td>
-<td>Table of Correction Types:</td>
+<td>Table of Correction Types.</td>
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>None</td>
+<td><ul><li>Possible values are:</li><li>  ** &quot;Color Board&quot;</li><li>  ** &quot;Color Wheels&quot;</li><li>  ** &quot;Color Curves&quot;</li><li>  ** &quot;Hue/Saturation Curves&quot;</li><li>  ** &quot;Color Adjustments&quot; (Final Cut Pro 10.6.6 or later)</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua#L27" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua line 27</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua#L28" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua line 28</a></td>
 </tr>
 </tbody>
 </table>
@@ -522,7 +523,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L28" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 28</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L29" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 29</a></td>
 </tr>
 </tbody>
 </table>
@@ -534,6 +535,45 @@
         <span>Fields</span>
     </h4>
 </doc-anchor-target>
+<doc-anchor-target id="coloradjustments">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#coloradjustments">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#coloradjustments">colorAdjustments</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorInspector.colorAdjustments &lt;ColorAdjustments&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The ColorAdjustments object.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L286" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 286</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
 <doc-anchor-target id="colorboard">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#colorboard">#</doc-anchor-trigger>
@@ -567,7 +607,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L233" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 233</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L234" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 234</a></td>
 </tr>
 </tbody>
 </table>
@@ -606,7 +646,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L259" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 259</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L260" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 260</a></td>
 </tr>
 </tbody>
 </table>
@@ -645,7 +685,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L246" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 246</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L247" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 247</a></td>
 </tr>
 </tbody>
 </table>
@@ -684,7 +724,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L105" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 105</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L106" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 106</a></td>
 </tr>
 </tbody>
 </table>
@@ -723,7 +763,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L81" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 81</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L82" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 82</a></td>
 </tr>
 </tbody>
 </table>
@@ -762,7 +802,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L272" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 272</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L273" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 273</a></td>
 </tr>
 </tbody>
 </table>
@@ -801,7 +841,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L62" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 62</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L63" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 63</a></td>
 </tr>
 </tbody>
 </table>
@@ -897,7 +937,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L153" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 153</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L154" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 154</a></td>
 </tr>
 </tbody>
 </table>
@@ -948,7 +988,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L183" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 183</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L184" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 184</a></td>
 </tr>
 </tbody>
 </table>
@@ -999,7 +1039,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L49" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 49</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L50" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 50</a></td>
 </tr>
 </tbody>
 </table>
@@ -1050,7 +1090,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L168" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 168</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L169" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 169</a></td>
 </tr>
 </tbody>
 </table>
@@ -1101,7 +1141,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L197" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 197</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L198" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 198</a></td>
 </tr>
 </tbody>
 </table>
@@ -1152,7 +1192,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L135" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 135</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L136" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 136</a></td>
 </tr>
 </tbody>
 </table>
@@ -1203,7 +1243,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L211" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 211</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L212" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 212</a></td>
 </tr>
 </tbody>
 </table>
@@ -1254,7 +1294,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L119" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 119</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L120" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 120</a></td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740107613245">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740138226492">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.740107613245" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.740138226492" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.740107613245" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.740138226492" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.740107613245" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.740138226492" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -400,8 +400,14 @@
 </ul>
 <p><strong>Fields</strong> - <em>Variables which can only be accessed from an object returned by a constructor</em></p>
 <ul>
+<li><doc-anchor-trigger to="#blackpoint">blackPoint</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#brightness">brightness</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#contentui">contentUI</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#contrast">contrast</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#exposure">exposure</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#highlights">highlights</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#highlightstint">highlightsTint</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#highlightswarmth">highlightsWarmth</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#hue">hue</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#huerow">hueRow</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#hueslider">hueSlider</doc-anchor-trigger></li>
@@ -409,12 +415,17 @@
 <li><doc-anchor-trigger to="#master">master</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#maxvalue">maxValue</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#midtones">midtones</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#midtonestint">midtonesTint</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#midtoneswarmth">midtonesWarmth</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#minvalue">minValue</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#mix">mix</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#mixrow">mixRow</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#mixslider">mixSlider</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#mixtextfield">mixTextField</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#saturation">saturation</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#shadows">shadows</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#shadowstint">shadowsTint</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#shadowswarmth">shadowsWarmth</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#temperature">temperature</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#temperaturerow">temperatureRow</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#temperatureslider">temperatureSlider</doc-anchor-trigger></li>
@@ -560,6 +571,84 @@
         <span>Fields</span>
     </h4>
 </doc-anchor-target>
+<doc-anchor-target id="blackpoint">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#blackpoint">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#blackpoint">blackPoint</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.blackPoint &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L504" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 504</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<doc-anchor-target id="brightness">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#brightness">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#brightness">brightness</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.brightness &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L375" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 375</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
 <doc-anchor-target id="contentui">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#contentui">#</doc-anchor-trigger>
@@ -599,6 +688,84 @@
 </table>
 </div>
 <hr />
+<doc-anchor-target id="contrast">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#contrast">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#contrast">contrast</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.contrast &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L332" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 332</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<doc-anchor-target id="exposure">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#exposure">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#exposure">exposure</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.exposure &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L289" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 289</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
 <doc-anchor-target id="highlights">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#highlights">#</doc-anchor-trigger>
@@ -633,6 +800,84 @@
 <tr>
 <td><strong>Source</strong></td>
 <td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L249" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 249</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<doc-anchor-target id="highlightstint">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#highlightstint">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#highlightstint">highlightsTint</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.highlightsTint &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L633" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 633</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<doc-anchor-target id="highlightswarmth">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#highlightswarmth">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#highlightswarmth">highlightsWarmth</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.highlightsWarmth &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L590" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 590</a></td>
 </tr>
 </tbody>
 </table>
@@ -911,6 +1156,84 @@
 </table>
 </div>
 <hr />
+<doc-anchor-target id="midtonestint">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#midtonestint">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#midtonestint">midtonesTint</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.midtonesTint &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L719" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 719</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<doc-anchor-target id="midtoneswarmth">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#midtoneswarmth">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#midtoneswarmth">midtonesWarmth</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.midtonesWarmth &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L676" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 676</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
 <doc-anchor-target id="minvalue">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#minvalue">#</doc-anchor-trigger>
@@ -1106,6 +1429,45 @@
 </table>
 </div>
 <hr />
+<doc-anchor-target id="saturation">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#saturation">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#saturation">saturation</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.saturation &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L418" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 418</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
 <doc-anchor-target id="shadows">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#shadows">#</doc-anchor-trigger>
@@ -1140,6 +1502,84 @@
 <tr>
 <td><strong>Source</strong></td>
 <td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L235" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 235</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<doc-anchor-target id="shadowstint">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#shadowstint">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#shadowstint">shadowsTint</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.shadowsTint &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L805" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 805</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<doc-anchor-target id="shadowswarmth">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#shadowswarmth">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#shadowswarmth">shadowsWarmth</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.color.ColorWheels.shadowsWarmth &lt;cp.prop: number&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Field</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The amount for this corrector.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L762" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 762</a></td>
 </tr>
 </tbody>
 </table>
