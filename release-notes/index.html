@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740138226492">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740145148207">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Release Notes</title>
     <meta name="title" content="Release Notes">
-    <meta name="description" content="Increase Pasteboard Buffer Actions from 9 to 50. Thanks for suggesting Dimitar Maratilov!" />
+    <meta name="description" content="🎉 Released:" />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://commandpost.io/release-notes/" />
@@ -20,24 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://commandpost.io/release-notes/">
     <meta property="og:title" content="Release Notes">
-    <meta property="og:description" content="Increase Pasteboard Buffer Actions from 9 to 50. Thanks for suggesting Dimitar Maratilov!">
+    <meta property="og:description" content="🎉 Released:">
     <meta property="og:image" content="https://commandpost.io/static/thumbnail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://commandpost.io/release-notes/">
     <meta property="twitter:title" content="Release Notes">
-    <meta property="twitter:description" content="Increase Pasteboard Buffer Actions from 9 to 50. Thanks for suggesting Dimitar Maratilov!">
+    <meta property="twitter:description" content="🎉 Released:">
     <meta property="twitter:image" content="https://commandpost.io/static/thumbnail.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon" />
-    <link href="../resources/css/retype.css?v=3.0.3.740138226492" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.740145148207" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740138226492" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740145148207" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740138226492" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740145148207" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -383,6 +383,59 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="commandpost-1418">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1418">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.18</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>Thursday 15th June 2023</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for FCPXML v1.11.</li>
+<li>Added actions for Scale X and Scale Y. Thanks for suggesting Undertaker01!</li>
+<li>Added actions for Color Adjustments.</li>
+<li>Added a <strong>Search Console</strong> menu item to the top of the menubar for easy access.</li>
+<li>Updated csv2notion to v0.3.8. Thanks for your amazing work Vladilen Zhdanov!</li>
+</ul>
+<doc-anchor-target id="changes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#changes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4AA;</span> Changes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Removed the Vimeo Toolbox. This functionality is now included in Marker Toolbox on the Mac App Store.</li>
+<li>Updated all the website links to point to the newly designed CommandPost website.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed the <strong>Set Camera LUT to None</strong> action on macOS Ventura. Thanks for reporting Oli Frost!</li>
+<li>Fixed the <strong>Player Background</strong> actions. Thanks for reporting Kes Akalaonu!</li>
+<li>Fixed how we save items to the Pasteboard Buffer. Previously you had to save something to buffer two, before you could save to buffer three, etc. This is now fixed, and you can save and recall from any buffer slot. Thanks for reporting Dimitar Maratilov!</li>
+<li>Added missing Search Console labels for <strong>Shift Anchor</strong> actions.</li>
+<li>It seems that version 2 models of the Loupedeck Live, when running the latest firmware, now work the same as a Razer Stream Controller. We now determine which display method to use based on the firmware version. Thanks for reporting Alexander Przemysław Kamiński!</li>
+</ul>
+<hr />
 <doc-anchor-target id="commandpost-1417">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1417">#</doc-anchor-trigger>
