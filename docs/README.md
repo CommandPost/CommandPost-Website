@@ -48,12 +48,15 @@ However, it's also used by developers, scientists and macOS power users all over
 
 ### Experience Unparalleled Control
 
-> _“ Chris's support is the best you will find anywhere on the planet. He was proactive and able to implement features for me on the spot. 5 STAR product 5 STAR support. ControllerMate is what I used to use. CommandPost is faster and easier. ”_<br />
-> **[Ross Batten](https://www.roscoaudio.com.au){target="_blank"}** <font size="2">- _Senior Sound Designer (ProTools)_</font>
+> _“ Command Post started as a FCPX utility but it goes further than that. You can use it to map almost any function to supported hardware devices to work with any app like a BMD Speed Editor and Avid Media Composer! ”_<br />
+> **[Marc Bach](https://www.interfacelab.tv){target="_blank"}** <font size="2">- _Editor & Colourist_</font>
 
 CommandPost has deep support for a wide range of **control surfaces**.
 
 It even brings back **[Razer](/control-surfaces/razer/)** keypad support to the Mac!
+
+> _“ Chris's support is the best you will find anywhere on the planet. He was proactive and able to implement features for me on the spot. 5 STAR product 5 STAR support. ControllerMate is what I used to use. CommandPost is faster and easier. ”_<br />
+> **[Ross Batten](https://www.roscoaudio.com.au){target="_blank"}** <font size="2">- _Senior Sound Designer (ProTools)_</font>
 
 You can basically control **ANYTHING** in Final Cut Pro with a huge range of control surfaces.
 
