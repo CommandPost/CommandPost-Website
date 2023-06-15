@@ -1,7 +1,3 @@
-- [Change Player Background broken on Ventura (June 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3221){target="_blank"}
-- [Increase/Decrease Volume Actions Broken on Ventura (April 19, 2023)](https://github.com/CommandPost/CommandPost/issues/3208){target="_blank"}
-- ["Reveal in Multicam Clip" Broken? (March 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3203){target="_blank"}
-- ["Set Camera LUT to None" Action broken on Ventura (March 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3202){target="_blank"}
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
 - [Slow down during color control while using tangent ripple (January 12, 2023)](https://github.com/CommandPost/CommandPost/issues/3172){target="_blank"}
 - [Autosequence Turns All Clips into the Same Resolution, all handles removed (December 29, 2022)](https://github.com/CommandPost/CommandPost/issues/3170){target="_blank"}
