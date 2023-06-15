@@ -1,9 +1,5 @@
 - [Change Player Background broken on Ventura (June 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3221){target="_blank"}
-- [Loupedeck Live - Images not updated (June 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3219){target="_blank"}
-- [Final Cut Pro Font actions broken (May 8, 2023)](https://github.com/CommandPost/CommandPost/issues/3212){target="_blank"}
 - [Increase/Decrease Volume Actions Broken on Ventura (April 19, 2023)](https://github.com/CommandPost/CommandPost/issues/3208){target="_blank"}
-- [Missing i18n Labels for shiftAnchor actions (April 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3205){target="_blank"}
-- [Pasteboard Buffer Preferences File needs a redesign (April 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3204){target="_blank"}
 - ["Reveal in Multicam Clip" Broken? (March 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3203){target="_blank"}
 - ["Set Camera LUT to None" Action broken on Ventura (March 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3202){target="_blank"}
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
@@ -28,3 +24,5 @@
 - ["About Final Cut Pro" menu item doesn't trigger in Korean (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2943){target="_blank"}
 - [Update Control Surfaces UIs to use higher quality images (April 5, 2022)](https://github.com/CommandPost/CommandPost/issues/2896){target="_blank"}
 - [Shared Pasteboard allow copying Projects but pasting Projects is not supported (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2885){target="_blank"}
+- [CommandPost HUD Search not returning result on specific strings (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2884){target="_blank"}
+- [Skimming Playhead in the Timeline is no longer accessible via Accessibility API (November 6, 2021)](https://github.com/CommandPost/CommandPost/issues/2799){target="_blank"}
