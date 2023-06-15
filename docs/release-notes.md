@@ -1,5 +1,35 @@
 # Release Notes
 
+### CommandPost 1.4.18
+
+#### 🔨 Improvements
+
+**🎉 Released:**
+- Thursday 15th June 2023
+
+#### 🔨 Improvements
+
+- Added support for FCPXML v1.11.
+- Added actions for Scale X and Scale Y. Thanks for suggesting Undertaker01!
+- Added actions for Color Adjustments.
+- Added a **Search Console** menu item to the top of the menubar for easy access.
+- Updated csv2notion to v0.3.8. Thanks for your amazing work Vladilen Zhdanov!
+
+#### 💪 Changes
+
+- Removed the Vimeo Toolbox. This functionality is now included in Marker Toolbox on the Mac App Store.
+- Updated all the website links to point to the newly designed CommandPost website.
+
+#### 🐞 Bug Fixes
+
+- Fixed the **Set Camera LUT to None** action on macOS Ventura. Thanks for reporting Oli Frost!
+- Fixed the **Player Background** actions. Thanks for reporting Kes Akalaonu!
+- Fixed how we save items to the Pasteboard Buffer. Previously you had to save something to buffer two, before you could save to buffer three, etc. This is now fixed, and you can save and recall from any buffer slot. Thanks for reporting Dimitar Maratilov!
+- Added missing Search Console labels for **Shift Anchor** actions.
+- It seems that version 2 models of the Loupedeck Live, when running the latest firmware, now work the same as a Razer Stream Controller. We now determine which display method to use based on the firmware version. Thanks for reporting Alexander Przemysław Kamiński!
+
+---
+
 ### CommandPost 1.4.17
 
 #### 🔨 Improvements
