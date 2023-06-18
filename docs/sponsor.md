@@ -22,7 +22,7 @@ We sell several useful Final Cut Pro tools on the Mac App Store such as:
 
 You can "buy us a coffee" here:
 
-<a href="https://www.buymeacoffee.com/latenitefilms" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee &emoji=&slug=latenitefilms&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/latenitefilms" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy us a coffee &emoji=&slug=latenitefilms&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ---
 
