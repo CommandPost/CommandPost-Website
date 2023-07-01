@@ -1,3 +1,4 @@
+- [streamdeck mk.2 error (June 30, 2023)](https://github.com/CommandPost/CommandPost/issues/3233){target="_blank"}
 - [Need to know a safe procedure for aborting long job (like exporting all clips) (March 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3201){target="_blank"}
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
 - [Problem HUD (March 9, 2023)](https://github.com/CommandPost/CommandPost/issues/3191){target="_blank"}
