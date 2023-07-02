@@ -1,4 +1,7 @@
+- [streamdeck mk.2 error (June 30, 2023)](https://github.com/CommandPost/CommandPost/issues/3233){target="_blank"}
+- [Need to know a safe procedure for aborting long job (like exporting all clips) (March 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3201){target="_blank"}
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
+- [Problem HUD (March 9, 2023)](https://github.com/CommandPost/CommandPost/issues/3191){target="_blank"}
 - [Slow down during color control while using tangent ripple (January 12, 2023)](https://github.com/CommandPost/CommandPost/issues/3172){target="_blank"}
 - [Autosequence Turns All Clips into the Same Resolution, all handles removed (December 29, 2022)](https://github.com/CommandPost/CommandPost/issues/3170){target="_blank"}
 - [CommandPost can't access Undo.strings on macOS Ventura (December 13, 2022)](https://github.com/CommandPost/CommandPost/issues/3168){target="_blank"}
