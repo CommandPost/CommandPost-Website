@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.741577993434">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.741653222980">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.741577993434" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.741653222980" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.741577993434" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.741653222980" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.741577993434" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.741653222980" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -356,6 +356,7 @@ other properties.</p>
 </doc-anchor-target>
 <p><strong>Functions</strong> - <em>API calls offered directly by the extension</em></p>
 <ul>
+<li><doc-anchor-trigger to="#button">button</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#checkbox">checkBox</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#hasproperties">hasProperties</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#menubutton">menuButton</doc-anchor-trigger></li>
@@ -381,6 +382,57 @@ other properties.</p>
         <span>Functions</span>
     </h4>
 </doc-anchor-target>
+<doc-anchor-target id="button">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#button">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#button">button</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>cp.apple.finalcutpro.inspector.InspectorProperty.button(labelKey[, index]) -&gt; cp.prop &lt;cp.ui.PropertyRow; read-only&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Creates a new <code v-pre>cp.prop</code> that contains a <code v-pre>PropertyRow</code> matching the <code v-pre>labelKey</code>.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>labelKey      - The I18N key that the row lable matches.</li><li>index         - The instance number of that label (defaults to <code v-pre>1</code>).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The <code v-pre>cp.prop</code> that returns the <code v-pre>PropertyRow</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>It has one additional property:</li><li>  ** <code v-pre>button</code>   - A <code v-pre>cp.ui.Button</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L441" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 441</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
 <doc-anchor-target id="checkbox">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#checkbox">#</doc-anchor-trigger>
@@ -426,7 +478,7 @@ other properties.</p>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L470" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 470</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L490" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 490</a></td>
 </tr>
 </tbody>
 </table>
@@ -630,7 +682,7 @@ other properties.</p>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L441" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 441</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L461" target="_blank">src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 461</a></td>
 </tr>
 </tbody>
 </table>
