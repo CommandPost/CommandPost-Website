@@ -128,7 +128,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L306){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 311](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L311){target="_blank"} |
 
 ---
 
@@ -160,7 +160,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L232){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L237){target="_blank"} |
 
 ---
 
@@ -192,7 +192,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L325){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L330){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The `MenuButton` title as string, or `nil` if the title cannot be determined.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L249){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 254](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L254){target="_blank"} |
 
 ---
 
@@ -224,7 +224,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>The `MenuButton` value as string, or `nil` if the value cannot be determined.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L262){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 267](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L267){target="_blank"} |
 
 ---
 
@@ -240,7 +240,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 355](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L355){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 360](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L360){target="_blank"} |
 
 ---
 
@@ -256,7 +256,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L289){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L294){target="_blank"} |
 
 ---
 
@@ -272,7 +272,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>A table containing the current `MenuButton` Layout.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L340){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L345){target="_blank"} |
 
 ---
 
@@ -320,7 +320,7 @@ Menu Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L275){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/MenuButton.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/MenuButton.lua#L280){target="_blank"} |
 
 ---
 

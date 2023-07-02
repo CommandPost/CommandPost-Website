@@ -160,6 +160,7 @@
 | [plugins.finalcutpro.import.preferences](plugins.finalcutpro.import.preferences.md)                          | Import Preferences     |
 | [plugins.finalcutpro.inspector.audio](plugins.finalcutpro.inspector.audio.md)                          | Final Cut Pro Audio Inspector Additions.     |
 | [plugins.finalcutpro.inspector.coloradjustments](plugins.finalcutpro.inspector.coloradjustments.md)                          | Actions for the Final Cut Pro Color Adjustments Effect.     |
+| [plugins.finalcutpro.inspector.colourlabai](plugins.finalcutpro.inspector.colourlabai.md)                          | Colourlab Ai Effect.     |
 | [plugins.finalcutpro.inspector.info](plugins.finalcutpro.inspector.info.md)                          | Final Cut Pro Info Inspector Additions.     |
 | [plugins.finalcutpro.inspector.show](plugins.finalcutpro.inspector.show.md)                          | Final Cut Pro Inspector Additions.     |
 | [plugins.finalcutpro.inspector.text](plugins.finalcutpro.inspector.text.md)                          | Final Cut Pro Text Inspector Additions.     |

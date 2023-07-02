@@ -11,6 +11,7 @@ other properties.
 
 ## API Overview
 **Functions** - _API calls offered directly by the extension_
+ * [button](#button)
  * [checkBox](#checkbox)
  * [hasProperties](#hasproperties)
  * [menuButton](#menubutton)
@@ -31,6 +32,22 @@ other properties.
 #### Functions
 
 
+### [button](#button)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.InspectorProperty.button(labelKey[, index]) -> cp.prop <cp.ui.PropertyRow; read-only>`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Creates a new `cp.prop` that contains a `PropertyRow` matching the `labelKey`.                                                                     |
+| **Parameters**                              | <ul><li>labelKey      - The I18N key that the row lable matches.</li><li>index         - The instance number of that label (defaults to `1`).</li></ul> |
+| **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
+| **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `button`   - A `cp.ui.Button`.</li></ul> |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L441){target="_blank"} |
+
+---
+
+
 ### [checkBox](#checkbox)
 
 |                                             |                                                                                     |
@@ -42,7 +59,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.CheckBox` which contains the boolean value for the row.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 470](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L470){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 490](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L490){target="_blank"} |
 
 ---
 
@@ -106,7 +123,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.PopUpButton` which contains the text value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L441){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 461](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L461){target="_blank"} |
 
 ---
 

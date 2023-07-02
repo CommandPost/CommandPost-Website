@@ -88,7 +88,7 @@ Video Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the name of the current metadata view.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L126){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L132){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Video Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Info Inspector Metadata View Button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L152){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L158){target="_blank"} |
 
 ---
 
@@ -119,7 +119,7 @@ Video Inspector Module.
 | **Returns**                                 | <ul><li>A `hs.axuielement` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L109){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/info/InfoInspector.lua#L115){target="_blank"} |
 
 ---
 
