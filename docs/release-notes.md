@@ -1,5 +1,19 @@
 # Release Notes
 
+### CommandPost 1.4.19
+
+#### 🔨 Improvements
+
+**🎉 Released:**
+- Monday 3rd July 2023
+
+#### 🔨 Improvements
+
+- Added actions to control all the parameters for a **Colourlab Ai** Effect in the Final Cut Pro Video Inspector. Thanks for suggesting Jackson Strafford!
+- Added support for Spotlight's `fileName` and `displayName` in Final Cut Pro Info Inspector API. Thanks for suggesting pravdomil!
+
+---
+
 ### CommandPost 1.4.18
 
 #### 🔨 Improvements
