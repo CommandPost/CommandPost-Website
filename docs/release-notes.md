@@ -1,5 +1,18 @@
 # Release Notes
 
+### CommandPost 1.4.20
+
+#### 🔨 Improvements
+
+**🎉 Released:**
+- Wednesday 12th July 2023
+
+#### 🔨 Improvements
+
+- Added support for the latest Loupedeck CT hardware. Thanks for reporting Marshall Fife!
+
+---
+
 ### CommandPost 1.4.19
 
 #### 🔨 Improvements
