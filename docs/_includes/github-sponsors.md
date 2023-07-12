@@ -6,8 +6,6 @@
 
 <a href="https://github.com/funwithstuff" target="_blank"><img src="https://avatars.githubusercontent.com/u/32971945?v=4&s=64" alt="funwithstuff" width="64" height="64"></a> [funwithstuff](https://github.com/funwithstuff)
 
-<a href="https://github.com/GuilhermeDBeitum" target="_blank"><img src="https://avatars.githubusercontent.com/u/54703843?u=63fdf02b64c2f761abe417a7d4463c183172b243&v=4&s=64" alt="GuilhermeDBeitum" width="64" height="64"></a> [GuilhermeDBeitum](https://github.com/GuilhermeDBeitum)
-
 <a href="https://github.com/ivandepaz-editor" target="_blank"><img src="https://avatars.githubusercontent.com/u/57800753?u=46d9e3d8eb99722f66de552fea3134d2c120b045&v=4&s=64" alt="ivandepaz-editor" width="64" height="64"></a> [ivandepaz-editor](https://github.com/ivandepaz-editor)
 
 <a href="https://github.com/jbrunson83" target="_blank"><img src="https://avatars.githubusercontent.com/u/63482058?v=4&s=64" alt="jbrunson83" width="64" height="64"></a> [jbrunson83](https://github.com/jbrunson83)
