@@ -1,3 +1,4 @@
+- [Add support for new Loupedeck CT (July 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3239){target="_blank"}
 - [Add Console for Davinci Resolve (July 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3237){target="_blank"}
 - [Read Colourlab Ai Show Looks from File System (July 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3236){target="_blank"}
 - [Add Microsoft Surface Dial support (May 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3214){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add features to Titles Toolbox to allow for batch renaming (August 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3060){target="_blank"}
 - [Add action for "Connect New Title using Pasteboard Contents" (August 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3059){target="_blank"}
 - [Copy in Final Cut Pro X and Paste in Apple Motion (August 3, 2022)](https://github.com/CommandPost/CommandPost/issues/3049){target="_blank"}
-- [Toolbox to Convert Markers to/from Captions (August 1, 2022)](https://github.com/CommandPost/CommandPost/issues/3042){target="_blank"}
