@@ -1,7 +1,6 @@
 - [Add Control Surface Support for 3DConnexion Products (November 15, 2021)](https://github.com/CommandPost/CommandPost/issues/2809){target="_blank"}
 - [Add Caption combining cleanup action (May 12, 2022)](https://github.com/CommandPost/CommandPost/issues/2978){target="_blank"}
 - [Add Camera LUTs to Search Console (January 18, 2022)](https://github.com/CommandPost/CommandPost/issues/2829){target="_blank"}
-- [Add support for new Loupedeck CT (July 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3239){target="_blank"}
 - [Add Console for Davinci Resolve (July 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3237){target="_blank"}
 - [Read Colourlab Ai Show Looks from File System (July 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3236){target="_blank"}
 - [Add Microsoft Surface Dial support (May 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3214){target="_blank"}
@@ -28,3 +27,4 @@
 - [Add ability to save and restore Synchronised Clip Custom Settings (August 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3076){target="_blank"}
 - [Add Motion Variables/Token to the CommandPost Menubar (August 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3075){target="_blank"}
 - [Toolbox to convert Keywords to Notes (August 11, 2022)](https://github.com/CommandPost/CommandPost/issues/3072){target="_blank"}
+- [Add features to Titles Toolbox to allow for batch renaming (August 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3060){target="_blank"}
