@@ -1,3 +1,4 @@
+- [Ignore ESC when in fullscreen broken (July 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3243){target="_blank"}
 - [streamdeck mk.2 error (June 30, 2023)](https://github.com/CommandPost/CommandPost/issues/3233){target="_blank"}
 - [Need to know a safe procedure for aborting long job (like exporting all clips) (March 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3201){target="_blank"}
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
@@ -24,4 +25,3 @@
 - [Update Control Surfaces UIs to use higher quality images (April 5, 2022)](https://github.com/CommandPost/CommandPost/issues/2896){target="_blank"}
 - [Shared Pasteboard allow copying Projects but pasting Projects is not supported (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2885){target="_blank"}
 - [CommandPost HUD Search not returning result on specific strings (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2884){target="_blank"}
-- [Skimming Playhead in the Timeline is no longer accessible via Accessibility API (November 6, 2021)](https://github.com/CommandPost/CommandPost/issues/2799){target="_blank"}
