@@ -1,6 +1,7 @@
 - [Add Control Surface Support for 3DConnexion Products (November 15, 2021)](https://github.com/CommandPost/CommandPost/issues/2809){target="_blank"}
 - [Add Caption combining cleanup action (May 12, 2022)](https://github.com/CommandPost/CommandPost/issues/2978){target="_blank"}
 - [Add Camera LUTs to Search Console (January 18, 2022)](https://github.com/CommandPost/CommandPost/issues/2829){target="_blank"}
+- [Add Distort Actions to Monogram Creator (July 18, 2023)](https://github.com/CommandPost/CommandPost/issues/3246){target="_blank"}
 - [Add actions for MotionVFX mMusic Video 2 (July 14, 2023)](https://github.com/CommandPost/CommandPost/issues/3242){target="_blank"}
 - [Add Turn Left/Right Actions to Monogram Favourites (July 14, 2023)](https://github.com/CommandPost/CommandPost/issues/3241){target="_blank"}
 - [Add Console for Davinci Resolve (July 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3237){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add support for macOS Widgets (August 16, 2022)](https://github.com/CommandPost/CommandPost/issues/3082){target="_blank"}
 - [“Metadata to Titles” Toolbox (August 13, 2022)](https://github.com/CommandPost/CommandPost/issues/3077){target="_blank"}
 - [Add ability to save and restore Synchronised Clip Custom Settings (August 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3076){target="_blank"}
-- [Add Motion Variables/Token to the CommandPost Menubar (August 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3075){target="_blank"}

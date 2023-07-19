@@ -1,3 +1,4 @@
+- [Add Distort Actions to Monogram Creator (July 18, 2023)](https://github.com/CommandPost/CommandPost/issues/3246){target="_blank"}
 - [Add actions for MotionVFX mMusic Video 2 (July 14, 2023)](https://github.com/CommandPost/CommandPost/issues/3242){target="_blank"}
 - [Add Turn Left/Right Actions to Monogram Favourites (July 14, 2023)](https://github.com/CommandPost/CommandPost/issues/3241){target="_blank"}
 - [Add Console for Davinci Resolve (July 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3237){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add Motion Variables/Token to the CommandPost Menubar (August 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3075){target="_blank"}
 - [Toolbox to convert Keywords to Notes (August 11, 2022)](https://github.com/CommandPost/CommandPost/issues/3072){target="_blank"}
 - [Add features to Titles Toolbox to allow for batch renaming (August 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3060){target="_blank"}
-- [Add action for "Connect New Title using Pasteboard Contents" (August 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3059){target="_blank"}
