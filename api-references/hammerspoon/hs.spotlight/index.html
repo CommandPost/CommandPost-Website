@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.743390957029">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.743477113692">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.0.3">
+    <meta name="generator" content="Retype 3.1.0">
 
     <!-- Primary Meta Tags -->
     <title>hs.spotlight</title>
     <meta name="title" content="hs.spotlight">
-    <meta name="description" content="This module allows Hammerspoon to preform Spotlight metadata queries." />
+    <meta name="description" content="This module allows Hammerspoon to preform Spotlight metadata queries.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://commandpost.io/api-references/hammerspoon/hs.spotlight/" />
+    <link rel="canonical" href="https://commandpost.io/api-references/hammerspoon/hs.spotlight/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -28,14 +28,14 @@
     <meta property="twitter:title" content="hs.spotlight">
     <meta property="twitter:description" content="This module allows Hammerspoon to preform Spotlight metadata queries.">
 
-    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.743390957029" rel="stylesheet" />
+    <link href="../../../static/favicon.ico" rel="icon">
+    <link href="../../../resources/css/retype.css?v=3.1.0.743477113692" rel="stylesheet">
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.743390957029" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.743390957029" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.1.0.743477113692" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.1.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.1.0.743477113692" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -84,7 +84,7 @@
         <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
     
         <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
-            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
                 <!-- Mobile menu button skeleton -->
                 <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
                 <div v-cloak id="docs-sidebar-toggle"></div>
@@ -188,24 +188,22 @@
                         <!-- Search input mock -->
                         <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
                             <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
                             </div>
-        
-                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
-                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
                         </div>
         
-                        <!-- Mobile search button mock -->
+                        <!-- Mobile search button -->
                         <div class="flex items-center justify-center w-10 h-10 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
                         </div>
         
-                        <!-- Dark mode switch placehokder -->
+                        <!-- Dark mode switch placeholder -->
                         <div class="w-10 h-10 lg:ml-2"></div>
         
-                        <!-- History button mock -->
+                        <!-- History button -->
                         <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
                         </div>
                     </div>
         
@@ -226,10 +224,10 @@
             
                 <!-- Render this div, if config.showSidebarFilter is `true` -->
                 <div class="flex items-center h-16 px-6">
-                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
                 </div>
             
-                <div class="pl-6 mb-4 mt-1">
+                <div class="pl-6 mt-1 mb-4">
                     <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
                     <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
                     <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
@@ -347,13 +345,13 @@
 <p>A Spotlight query consists of two phases: an initial gathering phase where information currently in the Spotlight database is collected and returned, and a live-update phase which occurs after the gathering phase and consists of changes made to the Spotlight database, such as new entries being added, information in existing entries changing, or entities being removed.</p>
 <p>The syntax for Spotlight Queries is beyond the scope of this module&#x27;s documentation. It is a subset of the syntax supported by the Objective-C NSPredicate class.  Some references for this syntax can be found at:</p>
 <ul>
-<li><a href="https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html">https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html</a></li>
-<li><a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html">https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html</a></li>
+<li><a href="https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html" class="outbound" target="_blank"><span>https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+<li><a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html" class="outbound" target="_blank"><span>https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
 </ul>
 <p>Depending upon the callback messages enabled with the <doc-anchor-trigger to="#callbackMessages">hs.spotlight:callbackMessages</doc-anchor-trigger> method, your callback assigned with the <doc-anchor-trigger to="#setCallback">hs.spotlight:setCallback</doc-anchor-trigger> method, you can determine the query phase by noting which messages you have received.  During the initial gathering phase, the following callback messages may be observed: &quot;didStart&quot;, &quot;inProgress&quot;, and &quot;didFinish&quot;.  Once the initial gathering phase has completed, you will only observe &quot;didUpdate&quot; messages until the query is stopped with the <doc-anchor-trigger to="#stop">hs.spotlight:stop</doc-anchor-trigger> method.</p>
 <p>You can also check to see if the initial gathering phase is in progress with the <doc-anchor-trigger to="#isGathering">hs.spotlight:isGathering</doc-anchor-trigger> method.</p>
 <p>You can access the individual results of the query with the <doc-anchor-trigger to="#resultAtIndex">hs.spotlight:resultAtIndex</doc-anchor-trigger> method. For convenience, metamethods have been added to the spotlightObject which make accessing individual results easier:  an individual spotlightItemObject may be accessed from a spotlightObject by treating the spotlightObject like an array; e.g. <code v-pre>spotlightObject[n]</code> will access the n&#x27;th spotlightItemObject in the current results.</p>
-<hr />
+<hr>
 <doc-anchor-target id="submodules">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#submodules">#</doc-anchor-trigger>
@@ -364,7 +362,7 @@
 <li><a href="../hs.spotlight.group/">hs.spotlight.group</a></li>
 <li><a href="../hs.spotlight.item/">hs.spotlight.item</a></li>
 </ul>
-<hr />
+<hr>
 <doc-anchor-target id="api-overview">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
@@ -400,7 +398,7 @@
 <li><doc-anchor-trigger to="#valuelistattributes">valueListAttributes</doc-anchor-trigger></li>
 <li><doc-anchor-trigger to="#valuelists">valueLists</doc-anchor-trigger></li>
 </ul>
-<hr />
+<hr>
 <doc-anchor-target id="api-documentation">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
@@ -446,12 +444,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L877" target="_blank">extensions/spotlight/libspotlight.m line 877</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L877" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 877</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="definedsearchscopes">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#definedsearchscopes">#</doc-anchor-trigger>
@@ -485,12 +483,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L847" target="_blank">extensions/spotlight/libspotlight.m line 847</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L847" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 847</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="constructors">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
@@ -542,12 +540,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L96" target="_blank">extensions/spotlight/libspotlight.m line 96</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L96" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 96</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="newwithin">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#newwithin">#</doc-anchor-trigger>
@@ -593,12 +591,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L112" target="_blank">extensions/spotlight/libspotlight.m line 112</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L112" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 112</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="methods">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
@@ -650,12 +648,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L81" target="_blank">extensions/spotlight/spotlight.lua line 81</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L81" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/spotlight.lua line 81</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="count">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#count">#</doc-anchor-trigger>
@@ -701,12 +699,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L581" target="_blank">extensions/spotlight/libspotlight.m line 581</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L581" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 581</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="groupedresults">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#groupedresults">#</doc-anchor-trigger>
@@ -752,12 +750,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L663" target="_blank">extensions/spotlight/libspotlight.m line 663</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L663" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 663</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="groupingattributes">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#groupingattributes">#</doc-anchor-trigger>
@@ -803,12 +801,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L106" target="_blank">extensions/spotlight/spotlight.lua line 106</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L106" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/spotlight.lua line 106</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="isgathering">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#isgathering">#</doc-anchor-trigger>
@@ -854,12 +852,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L508" target="_blank">extensions/spotlight/libspotlight.m line 508</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L508" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 508</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="isrunning">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#isrunning">#</doc-anchor-trigger>
@@ -905,12 +903,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L487" target="_blank">extensions/spotlight/libspotlight.m line 487</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L487" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 487</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="querystring">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#querystring">#</doc-anchor-trigger>
@@ -948,7 +946,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td><ul><li>Setting this property while a query is running stops the query and discards the current results. The receiver immediately starts a new query.</li><li></li><li>The query string syntax is not simple enough to fully describe here.  It is a subset of the syntax supported by the Objective-C NSPredicate class.  Some references for this syntax can be found at:</li><li>  <a href="https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html">https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html</a></li><li>  <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html">https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html</a></li><li></li><li>If the query string does not conform to an NSPredicate query string, this method will return an error.  If the query string does conform to an NSPredicate query string, this method will accept the query string, but if it does not conform to the Metadata query format, which is a subset of the NSPredicate query format, the error will be generated when you attempt to start the query with <doc-anchor-trigger to="#start">hs.spotlight:start</doc-anchor-trigger>. At present, starting a query is the only way to fully guarantee that a query is in a valid format.</li><li></li><li>Some of the query strings which have been used during the testing of this module are as follows (note that [[ ]] is a Lua string specifier that allows for double quotes in the content of the string):</li><li>  [[ kMDItemContentType == &quot;com.apple.application-bundle&quot; ]]</li><li>  [[ kMDItemFSName like &quot;<em>Explore</em>&quot; ]]</li><li>  [[ kMDItemFSName like &quot;AppleScript Editor.app&quot; or kMDItemAlternateNames like &quot;AppleScript Editor&quot;]]</li><li></li><li>Not all attributes appear to be usable in a query; see <code v-pre>hs.spotlight.item:attributes</code> for a possible explanation.</li><li></li><li>As a convenience, the __call metamethod has been setup for spotlightObject so that you can use <code v-pre>spotlightObject(&quot;query&quot;)</code> as a shortcut for <code v-pre>spotlightObject:queryString(&quot;query&quot;):start</code>.  Because this shortcut includes an explicit start, this should be appended after you have set the callback function if you require a callback (e.g. <code v-pre>spotlightObject:setCallback(fn)(&quot;query&quot;)</code>).</li></ul></td>
+<td><ul><li>Setting this property while a query is running stops the query and discards the current results. The receiver immediately starts a new query.</li><li></li><li>The query string syntax is not simple enough to fully describe here.  It is a subset of the syntax supported by the Objective-C NSPredicate class.  Some references for this syntax can be found at:</li><li>  <a href="https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html" class="outbound" target="_blank"><span>https://developer.apple.com/library/content/documentation/Carbon/Conceptual/SpotlightQuery/Concepts/QueryFormat.html</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li>  <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html" class="outbound" target="_blank"><span>https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li></li><li>If the query string does not conform to an NSPredicate query string, this method will return an error.  If the query string does conform to an NSPredicate query string, this method will accept the query string, but if it does not conform to the Metadata query format, which is a subset of the NSPredicate query format, the error will be generated when you attempt to start the query with <doc-anchor-trigger to="#start">hs.spotlight:start</doc-anchor-trigger>. At present, starting a query is the only way to fully guarantee that a query is in a valid format.</li><li></li><li>Some of the query strings which have been used during the testing of this module are as follows (note that [[ ]] is a Lua string specifier that allows for double quotes in the content of the string):</li><li>  [[ kMDItemContentType == &quot;com.apple.application-bundle&quot; ]]</li><li>  [[ kMDItemFSName like &quot;<em>Explore</em>&quot; ]]</li><li>  [[ kMDItemFSName like &quot;AppleScript Editor.app&quot; or kMDItemAlternateNames like &quot;AppleScript Editor&quot;]]</li><li></li><li>Not all attributes appear to be usable in a query; see <code v-pre>hs.spotlight.item:attributes</code> for a possible explanation.</li><li></li><li>As a convenience, the __call metamethod has been setup for spotlightObject so that you can use <code v-pre>spotlightObject(&quot;query&quot;)</code> as a shortcut for <code v-pre>spotlightObject:queryString(&quot;query&quot;):start</code>.  Because this shortcut includes an explicit start, this should be appended after you have set the callback function if you require a callback (e.g. <code v-pre>spotlightObject:setCallback(fn)(&quot;query&quot;)</code>).</li></ul></td>
 </tr>
 <tr>
 <td><strong>Examples</strong></td>
@@ -956,12 +954,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L529" target="_blank">extensions/spotlight/libspotlight.m line 529</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L529" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 529</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="resultatindex">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#resultatindex">#</doc-anchor-trigger>
@@ -1007,12 +1005,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L605" target="_blank">extensions/spotlight/libspotlight.m line 605</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L605" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 605</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="searchscopes">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#searchscopes">#</doc-anchor-trigger>
@@ -1058,12 +1056,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L51" target="_blank">extensions/spotlight/spotlight.lua line 51</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L51" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/spotlight.lua line 51</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="setcallback">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#setcallback">#</doc-anchor-trigger>
@@ -1109,12 +1107,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L198" target="_blank">extensions/spotlight/libspotlight.m line 198</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L198" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 198</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="sortdescriptors">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#sortdescriptors">#</doc-anchor-trigger>
@@ -1160,12 +1158,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L164" target="_blank">extensions/spotlight/spotlight.lua line 164</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L164" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/spotlight.lua line 164</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="start">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#start">#</doc-anchor-trigger>
@@ -1211,12 +1209,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L424" target="_blank">extensions/spotlight/libspotlight.m line 424</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L424" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 424</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="stop">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#stop">#</doc-anchor-trigger>
@@ -1262,12 +1260,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L461" target="_blank">extensions/spotlight/libspotlight.m line 461</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L461" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 461</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="updateinterval">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#updateinterval">#</doc-anchor-trigger>
@@ -1313,12 +1311,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L291" target="_blank">extensions/spotlight/libspotlight.m line 291</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L291" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 291</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="valuelistattributes">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#valuelistattributes">#</doc-anchor-trigger>
@@ -1364,12 +1362,12 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L135" target="_blank">extensions/spotlight/spotlight.lua line 135</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/spotlight.lua#L135" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/spotlight.lua line 135</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
+<hr>
 <doc-anchor-target id="valuelists">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#valuelists">#</doc-anchor-trigger>
@@ -1415,13 +1413,13 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L639" target="_blank">extensions/spotlight/libspotlight.m line 639</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotlight/libspotlight.m#L639" class="outbound" target="_blank" target="_blank"><span>extensions/spotlight/libspotlight.m line 639</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr />
-<hr />
+<hr>
+<hr>
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"
         data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
@@ -1440,7 +1438,7 @@
 
                                 
                                 <!-- Required only on API pages -->
-                                <doc-toolbar-member-filter-no-results />
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
                             </div>
                             <footer class="clear-both">
                                 <div class="flex flex-wrap items-center justify-between mt-14">
@@ -1519,6 +1517,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "hs.spotlight", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "hs.spotlight", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
