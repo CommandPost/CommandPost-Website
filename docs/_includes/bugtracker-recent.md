@@ -1,3 +1,4 @@
+- [Rename Clip Action fails on macOS 13.5 (August 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3250){target="_blank"}
 - [Ignore ESC when in fullscreen broken (July 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3243){target="_blank"}
 - [streamdeck mk.2 error (June 30, 2023)](https://github.com/CommandPost/CommandPost/issues/3233){target="_blank"}
 - [Need to know a safe procedure for aborting long job (like exporting all clips) (March 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3201){target="_blank"}
