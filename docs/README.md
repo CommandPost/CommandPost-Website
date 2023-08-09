@@ -60,7 +60,7 @@ It even brings back **[Razer](/control-surfaces/razer/)** keypad support to the 
 
 You can basically control **ANYTHING** in Final Cut Pro with a huge range of control surfaces.
 
-**[Tangent](/control-surfaces/tangent/)**, **[Monogram](/control-surfaces/monogram/)** and **[Loupedeck](](/control-surfaces/tangent/))** all officially rely on CommandPost for Final Cut Pro support.
+**[Tangent](/control-surfaces/tangent/)**, **[Monogram](/control-surfaces/monogram/)** and **[Loupedeck](/control-surfaces/loupedeck/)** all officially rely on CommandPost for Final Cut Pro support.
 
 ![](../static/homepage-control-surface.png)
 
