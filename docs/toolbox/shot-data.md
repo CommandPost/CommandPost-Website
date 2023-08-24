@@ -1,6 +1,6 @@
 # Shot Data
 
-![](../static/SDCover.gif)
+![](../static/shot-data-cover.png)
 
 ![](../static/Shot_Data_Toolbox.png)
 
@@ -351,7 +351,7 @@ If you are an Airtable user and would like to use the Shot Data files in your Ai
 
 This workflow would be particularly advantageous if you are the Writer, Director and Editor; or at least collaborating with an Editor in the early development phase. You could pursue through your vision from storyboard, pre-cut to actual principal photography and back to editorial in Final Cut Pro. Be it short-form or feature form, this workflow should be applicable across.
 
-*Last Edited : 8th June 2023*
+*Last Edited : 24th August 2023*
 
 ---
 
