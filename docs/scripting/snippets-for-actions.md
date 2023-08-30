@@ -8,7 +8,7 @@ For example, to launch Final Cut Pro, you can use this simple Lua code:
 
 `cp.apple.finalcutpro:launch()`
 
-CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the [Hammerspoon website](http://www.hammerspoon.org/go/){target="_blank"}.
+CommandPost is also compatible with **Hammerspoon**, so you can also use any of the examples on the [Hammerspoon website](http://www.hammerspoon.org/go/){target="_blank"}.
 
 You can learn more about Lua [here](../developer/lua-overview/).
 
@@ -32,6 +32,77 @@ Here's some direct links to some useful CommandPost functions:
 
 ```lua
 hs.eventtap.keyStroke({"cmd"}, "c")
+```
+
+---
+
+### Press & Release
+
+If you want a control surface key to behave like a normal keyboard key, you need seperate actions for **Press** and **Release**.
+
+For example, if you want to use the Q key this is the action for press:
+
+```
+hs.eventtap.event.newKeyEvent("q", true):post()
+```
+
+...and this is the code for release:
+
+```
+hs.eventtap.event.newKeyEvent("q", false):post()
+```
+
+---
+
+### Controlling Final Cut Pro Titles
+
+Lets say for example, you want to control the **Animation Amount** of Motion VFX's awesome **mMusic Video 2**, **Subtitle 05** Animation Amount:
+
+![](/static/animation-amount.png)
+
+To do this we can use [UI Browser](https://latenightsw.com/freeware/ui-browser/) or Xcode's Accessibility Inspector to find some information about the location of this slider in the Accessibility Hierarchy.
+
+**Accessibility Inspector:**
+
+![](/static/animation-amount-ui.png)
+
+**UI Browser:**
+
+![](/static/animation-amount-ui-browser.png)
+
+With this information we can determine that the `AXSlider` is contained within a `AXScrollArea` within an `AXGroup`.
+
+We can also see that the `AXDescription` for this particular slider is "animation amount slider".
+
+With this information we can now put together a Lua Snippet to get this slider, and increment it:
+
+```
+local fcp       = require "cp.apple.finalcutpro"
+local axutils   = require "cp.ui.axutils"
+local Slider    = require "cp.ui.Slider"
+
+animationAmountSlider = Slider(fcp.inspector.title, function()
+    local title = fcp.inspector.title
+    local ui = title and title:UI()
+    local groupA = ui and axutils.childAtIndex(ui, 1)
+    local groupB = groupA and axutils.childAtIndex(groupA, 1)
+    local animationAmountSliderUI = groupB and axutils.childWithDescription(groupB, "animation amount slider")
+    return animationAmountSliderUI
+end)
+
+animationAmountSlider:show():increment()
+```
+
+To decrement it we can use:
+
+```
+animationAmountSlider:show():decrement()
+```
+
+To set a specific value we can use:
+
+```
+animationAmountSlider:show():value(12)
 ```
 
 ---
