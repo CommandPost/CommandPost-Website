@@ -164,6 +164,7 @@
 | [plugins.finalcutpro.inspector.info](plugins.finalcutpro.inspector.info.md)                          | Final Cut Pro Info Inspector Additions.     |
 | [plugins.finalcutpro.inspector.show](plugins.finalcutpro.inspector.show.md)                          | Final Cut Pro Inspector Additions.     |
 | [plugins.finalcutpro.inspector.text](plugins.finalcutpro.inspector.text.md)                          | Final Cut Pro Text Inspector Additions.     |
+| [plugins.finalcutpro.inspector.title](plugins.finalcutpro.inspector.title.md)                          | Final Cut Pro Title Inspector Additions.     |
 | [plugins.finalcutpro.inspector.video](plugins.finalcutpro.inspector.video.md)                          | Final Cut Pro Video Inspector Additions.     |
 | [plugins.finalcutpro.language](plugins.finalcutpro.language.md)                          | Final Cut Pro Language Plugin.     |
 | [plugins.finalcutpro.menu.manager](plugins.finalcutpro.menu.manager.md)                          | Final Cut Pro Menu Manager.     |

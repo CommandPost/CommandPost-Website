@@ -1,8 +1,28 @@
 # Release Notes
 
-### CommandPost 1.4.20
+### CommandPost 1.4.21
 
 #### 🔨 Improvements
+
+**🎉 Released:**
+- Wednesday 30th August 2023
+
+#### 🎉 New Features
+
+- Monogram Favourites has been improved, and there are now seperate actions for Press, Turn Left and Turn Right. This makes it a lot easier to assign whatever you want to a Monogram knob or slider. Thanks for suggesting Jason McNamara!
+- Increased the amount of Monogram Favourites from 20 to 50.
+- Added actions for "MotionVFX Title - Animation Amount". This can be used to control the "Animation Amount" for a lot of MotionVFX's mMusic Video 2 titles. Thanks for suggesting Jason McNamara!
+- Added "Title Inspector > MotionVFX Title > Animation Amount" to Monogram Creator. This can be used to control the "Animation Amount" for a lot of MotionVFX's mMusic Video 2 titles. Thanks for suggesting Jason McNamara!
+
+#### 🐞 Bug Fixes
+
+- The Colour Adjustments actions now only load if you're running Final Cut Pro 10.6.6 or later. This prevents a potential error message from displaying in the Debug Console.
+- Fixed a bug in the "Distort Bottom Right Y" and "Distort Top Right Y" actions. Thanks for reporting Jason McNamara!
+- Updated various website links in CommandPost to point to the new centralised CommandPost website.
+
+---
+
+### CommandPost 1.4.20
 
 **🎉 Released:**
 - Wednesday 12th July 2023
@@ -15,8 +35,6 @@
 
 ### CommandPost 1.4.19
 
-#### 🔨 Improvements
-
 **🎉 Released:**
 - Monday 3rd July 2023
 
@@ -28,8 +46,6 @@
 ---
 
 ### CommandPost 1.4.18
-
-#### 🔨 Improvements
 
 **🎉 Released:**
 - Thursday 15th June 2023
