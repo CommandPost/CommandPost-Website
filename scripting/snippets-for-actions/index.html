@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.2.0.746672879605">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.2.0.746675472814">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.2.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.2.0.746672879605" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.2.0.746675472814" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.2.0.746672879605" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.2.0.746675472814" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.2.0.746672879605" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.2.0.746672879605" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.2.0.746675472814" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.2.0.746675472814" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -347,7 +347,7 @@
 <p>This means you can trigger a Snippet via a shortcut key or control surface button.</p>
 <p>For example, to launch Final Cut Pro, you can use this simple Lua code:</p>
 <p><code v-pre>cp.apple.finalcutpro:launch()</code></p>
-<p>CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the <a href="http://www.hammerspoon.org/go/" class="outbound" target="_blank" target="_blank"><span>Hammerspoon website</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>CommandPost is also compatible with <strong>Hammerspoon</strong>, so you can also use any of the examples on the <a href="http://www.hammerspoon.org/go/" class="outbound" target="_blank" target="_blank"><span>Hammerspoon website</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>You can learn more about Lua <a href="../../developer/lua-overview/">here</a>.</p>
 <p>You can find the Hammerspoon API reference <a href="../../api-references/hammerspoon/hs/">here</a>.</p>
 <p>Here&#x27;s some direct links to some useful Hammerspoon functions:</p>
@@ -375,6 +375,75 @@
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;c&quot;)</code></pre>
+</doc-codeblock></div>
+<hr>
+<doc-anchor-target id="press--release">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#press--release">#</doc-anchor-trigger>
+        <span>Press &amp; Release</span>
+    </h3>
+</doc-anchor-target>
+<p>If you want a control surface key to behave like a normal keyboard key, you need seperate actions for <strong>Press</strong> and <strong>Release</strong>.</p>
+<p>For example, if you want to use the Q key this is the action for press:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">hs.eventtap.event.newKeyEvent(&quot;q&quot;, true):post()</code></pre>
+</doc-codeblock></div>
+<p>...and this is the code for release:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">hs.eventtap.event.newKeyEvent(&quot;q&quot;, false):post()</code></pre>
+</doc-codeblock></div>
+<hr>
+<doc-anchor-target id="controlling-final-cut-pro-titles">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#controlling-final-cut-pro-titles">#</doc-anchor-trigger>
+        <span>Controlling Final Cut Pro Titles</span>
+    </h3>
+</doc-anchor-target>
+<p>Lets say for example, you want to control the <strong>Animation Amount</strong> of Motion VFX&#x27;s awesome <strong>mMusic Video 2</strong>, <strong>Subtitle 05</strong> Animation Amount:</p>
+<p><figure class="content-center">
+    <img src="../../static/animation-amount.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>To do this we can use <a href="https://latenightsw.com/freeware/ui-browser/" class="outbound" target="_blank"><span>UI Browser</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> or Xcode&#x27;s Accessibility Inspector to find some information about the location of this slider in the Accessibility Hierarchy.</p>
+<p><strong>Accessibility Inspector:</strong></p>
+<p><figure class="content-center">
+    <img src="../../static/animation-amount-ui.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><strong>UI Browser:</strong></p>
+<p><figure class="content-center">
+    <img src="../../static/animation-amount-ui-browser.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>With this information we can determine that the <code v-pre>AXSlider</code> is contained within a <code v-pre>AXScrollArea</code> within an <code v-pre>AXGroup</code>.</p>
+<p>We can also see that the <code v-pre>AXDescription</code> for this particular slider is &quot;animation amount slider&quot;.</p>
+<p>With this information we can now put together a Lua Snippet to get this slider, and increment it:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">local fcp       = require &quot;cp.apple.finalcutpro&quot;
+local axutils   = require &quot;cp.ui.axutils&quot;
+local Slider    = require &quot;cp.ui.Slider&quot;
+
+animationAmountSlider = Slider(fcp.inspector.title, function()
+    local title = fcp.inspector.title
+    local ui = title and title:UI()
+    local groupA = ui and axutils.childAtIndex(ui, 1)
+    local groupB = groupA and axutils.childAtIndex(groupA, 1)
+    local animationAmountSliderUI = groupB and axutils.childWithDescription(groupB, &quot;animation amount slider&quot;)
+    return animationAmountSliderUI
+end)
+
+animationAmountSlider:show():increment()</code></pre>
+</doc-codeblock></div>
+<p>To decrement it we can use:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">animationAmountSlider:show():decrement()</code></pre>
+</doc-codeblock></div>
+<p>To set a specific value we can use:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">animationAmountSlider:show():value(12)</code></pre>
 </doc-codeblock></div>
 <hr>
 <doc-anchor-target id="type-test">
