@@ -1,5 +1,21 @@
 # Release Notes
 
+### CommandPost 1.4.22
+
+#### 🔨 Improvements
+
+**🎉 Released:**
+- Thursday 31st August 2023
+
+#### 🎉 New Features
+- Added actions to Toggle Individual Video Inspector Keyframes. Thanks for suggesting Tony Tang, Ernesto Garza & Dani Ditu!
+- Added actions to Monogram Creator to Toggle Individual Video Inspector Keyframes.
+- Added actions to Monogram Creator to control the Video Inspector Distort Controls. Thanks for suggesting Jason McNamara!
+- Added an action to toggle the MotionVFX Title Animation Amount Keyframe.
+- Added an action to Monogram Creator to toggle the MotionVFX Title Animation Amount Keyframe.
+
+---
+
 ### CommandPost 1.4.21
 
 #### 🔨 Improvements
