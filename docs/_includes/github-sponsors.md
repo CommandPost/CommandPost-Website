@@ -8,8 +8,6 @@
 
 <a href="https://github.com/ivandepaz-editor" target="_blank"><img src="https://avatars.githubusercontent.com/u/57800753?u=46d9e3d8eb99722f66de552fea3134d2c120b045&v=4&s=64" alt="ivandepaz-editor" width="64" height="64"></a> [ivandepaz-editor](https://github.com/ivandepaz-editor)
 
-<a href="https://github.com/jameszhan9592" target="_blank"><img src="https://avatars.githubusercontent.com/u/76667111?v=4&s=64" alt="jameszhan9592" width="64" height="64"></a> [jameszhan9592](https://github.com/jameszhan9592)
-
 <a href="https://github.com/jbrunson83" target="_blank"><img src="https://avatars.githubusercontent.com/u/63482058?v=4&s=64" alt="jbrunson83" width="64" height="64"></a> [jbrunson83](https://github.com/jbrunson83)
 
 <a href="https://github.com/lamer40" target="_blank"><img src="https://avatars.githubusercontent.com/u/3479840?u=cd3dad69a089d251b8c4b9cde63a78108c74a17c&v=4&s=64" alt="lamer40" width="64" height="64"></a> [lamer40](https://github.com/lamer40)
