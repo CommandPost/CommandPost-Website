@@ -18,8 +18,6 @@
 
 <a href="https://github.com/samplue" target="_blank"><img src="https://avatars.githubusercontent.com/u/78317416?u=31949cdde28d6890d2a71bd8500e511a43bd8289&v=4&s=64" alt="samplue" width="64" height="64"></a> [samplue](https://github.com/samplue)
 
-<a href="https://github.com/tangent-ak" target="_blank"><img src="https://avatars.githubusercontent.com/u/39330731?v=4&s=64" alt="tangent-ak" width="64" height="64"></a> [tangent-ak](https://github.com/tangent-ak)
-
 <a href="https://github.com/thermidorthelobster" target="_blank"><img src="https://avatars.githubusercontent.com/u/46196909?v=4&s=64" alt="thermidorthelobster" width="64" height="64"></a> [thermidorthelobster](https://github.com/thermidorthelobster)
 
 <a href="https://github.com/Yuvalorr" target="_blank"><img src="https://avatars.githubusercontent.com/u/136588699?v=4&s=64" alt="Yuvalorr" width="64" height="64"></a> [Yuvalorr](https://github.com/Yuvalorr)
