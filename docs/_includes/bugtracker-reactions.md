@@ -1,4 +1,4 @@
-- [Loupedeckct for FCPX Button Error Exclamation Point (October 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3273){target="_blank"}
+- [Force FCP to select a specific secondary monitor on a 3 monitor setup (+ more) (September 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3268){target="_blank"}
 - [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265){target="_blank"}
 - [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251){target="_blank"}
 - [Rename Clip Action fails on macOS 13.5 (August 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3250){target="_blank"}
@@ -22,9 +22,9 @@
 - [Rename Color Wheel "Master" to "Global" across the codebase (May 16, 2022)](https://github.com/CommandPost/CommandPost/issues/2980){target="_blank"}
 - [Possible Regression with some actions not working after a certain amount of time? (May 13, 2022)](https://github.com/CommandPost/CommandPost/issues/2979){target="_blank"}
 - ["Reveal in Keyword Collection" actions broken (May 9, 2022)](https://github.com/CommandPost/CommandPost/issues/2976){target="_blank"}
-- [Fix Developers Guide Documentation (April 25, 2022)](https://github.com/CommandPost/CommandPost/issues/2959){target="_blank"}
 - [Bug with selected clips in the timeline (April 23, 2022)](https://github.com/CommandPost/CommandPost/issues/2955){target="_blank"}
 - [Final Cut Pro Menubar Actions are really slow when action is in English but FCPX is not (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2944){target="_blank"}
 - ["About Final Cut Pro" menu item doesn't trigger in Korean (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2943){target="_blank"}
 - [Update Control Surfaces UIs to use higher quality images (April 5, 2022)](https://github.com/CommandPost/CommandPost/issues/2896){target="_blank"}
 - [Shared Pasteboard allow copying Projects but pasting Projects is not supported (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2885){target="_blank"}
+- [CommandPost HUD Search not returning result on specific strings (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2884){target="_blank"}
