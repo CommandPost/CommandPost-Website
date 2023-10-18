@@ -1,3 +1,4 @@
+- [Unable to enable Command Line Support (CommandPost v1.4.22 (Build: 7972) - macOS 14.0 on Apple M1) (October 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3278){target="_blank"}
 - [Force FCP to select a specific secondary monitor on a 3 monitor setup (+ more) (September 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3268){target="_blank"}
 - [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265){target="_blank"}
 - [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251){target="_blank"}
@@ -27,4 +28,3 @@
 - ["About Final Cut Pro" menu item doesn't trigger in Korean (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2943){target="_blank"}
 - [Update Control Surfaces UIs to use higher quality images (April 5, 2022)](https://github.com/CommandPost/CommandPost/issues/2896){target="_blank"}
 - [Shared Pasteboard allow copying Projects but pasting Projects is not supported (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2885){target="_blank"}
-- [CommandPost HUD Search not returning result on specific strings (March 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2884){target="_blank"}
