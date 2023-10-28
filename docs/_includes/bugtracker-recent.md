@@ -1,3 +1,4 @@
+- [Rename "Execute Code" to "Test Snippet" in Scripting Panel (October 28, 2023)](https://github.com/CommandPost/CommandPost/issues/3280){target="_blank"}
 - [Migrate to csv2notion-neo for Notion Toolboxes (October 23, 2023)](https://github.com/CommandPost/CommandPost/issues/3279){target="_blank"}
 - [Unable to enable Command Line Support (CommandPost v1.4.22 (Build: 7972) - macOS 14.0 on Apple M1) (October 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3278){target="_blank"}
 - [Force FCP to select a specific secondary monitor on a 3 monitor setup (+ more) (September 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3268){target="_blank"}
@@ -27,4 +28,3 @@
 - [Bug with selected clips in the timeline (April 23, 2022)](https://github.com/CommandPost/CommandPost/issues/2955){target="_blank"}
 - [Final Cut Pro Menubar Actions are really slow when action is in English but FCPX is not (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2944){target="_blank"}
 - ["About Final Cut Pro" menu item doesn't trigger in Korean (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2943){target="_blank"}
-- [Update Control Surfaces UIs to use higher quality images (April 5, 2022)](https://github.com/CommandPost/CommandPost/issues/2896){target="_blank"}
