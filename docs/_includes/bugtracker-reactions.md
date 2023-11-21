@@ -1,4 +1,5 @@
 - [Migrate to csv2notion-neo for Notion Toolboxes (October 23, 2023)](https://github.com/CommandPost/CommandPost/issues/3279){target="_blank"}
+- [Commit Multicam Clip on Retimed Multicam clip will not work (November 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3284){target="_blank"}
 - [Text to Speech: assign Roles, add Caption, add to notes field (FCP 10.6.10) (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3282){target="_blank"}
 - [Rename "Execute Code" to "Test Snippet" in Scripting Panel (October 28, 2023)](https://github.com/CommandPost/CommandPost/issues/3280){target="_blank"}
 - [Unable to enable Command Line Support (CommandPost v1.4.22 (Build: 7972) - macOS 14.0 on Apple M1) (October 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3278){target="_blank"}
@@ -27,4 +28,3 @@
 - [Possible Regression with some actions not working after a certain amount of time? (May 13, 2022)](https://github.com/CommandPost/CommandPost/issues/2979){target="_blank"}
 - ["Reveal in Keyword Collection" actions broken (May 9, 2022)](https://github.com/CommandPost/CommandPost/issues/2976){target="_blank"}
 - [Bug with selected clips in the timeline (April 23, 2022)](https://github.com/CommandPost/CommandPost/issues/2955){target="_blank"}
-- [Final Cut Pro Menubar Actions are really slow when action is in English but FCPX is not (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2944){target="_blank"}
