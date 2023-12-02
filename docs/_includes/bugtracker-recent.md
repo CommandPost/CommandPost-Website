@@ -1,3 +1,4 @@
+- [Typo in rotationSmoooth (November 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3285){target="_blank"}
 - [Commit Multicam Clip on Retimed Multicam clip will not work (November 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3284){target="_blank"}
 - [Text to Speech: assign Roles, add Caption, add to notes field (FCP 10.6.10) (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3282){target="_blank"}
 - [Rename "Execute Code" to "Test Snippet" in Scripting Panel (October 28, 2023)](https://github.com/CommandPost/CommandPost/issues/3280){target="_blank"}
@@ -27,4 +28,3 @@
 - [Rename Color Wheel "Master" to "Global" across the codebase (May 16, 2022)](https://github.com/CommandPost/CommandPost/issues/2980){target="_blank"}
 - [Possible Regression with some actions not working after a certain amount of time? (May 13, 2022)](https://github.com/CommandPost/CommandPost/issues/2979){target="_blank"}
 - ["Reveal in Keyword Collection" actions broken (May 9, 2022)](https://github.com/CommandPost/CommandPost/issues/2976){target="_blank"}
-- [Bug with selected clips in the timeline (April 23, 2022)](https://github.com/CommandPost/CommandPost/issues/2955){target="_blank"}
