@@ -68,7 +68,7 @@ One feature that sets Notion apart from other database (i.e Airtable) is every e
 ==- Part 0 - Download CommandPost
 1. Download and Install the latest version of CommandPost from [GitHub](https://github.com/CommandPost/CommandPost/releases/){target="_blank"}.
 ===
-  
+
 ==- Part 1 - Sound Locking (Pre-Editing)
 1. Select **Shot Data** from the **CommandPost**’s Toolbox Menu.
 
@@ -204,8 +204,6 @@ Please take note that your Notion v2 Token may expire after some period of time.
 
 7. Watch as the magic happens!
 
-![](../static/S2.4.gif)
-
 !!!info Info
 The upload speed is dependent on your internet connection and Notion’s servers.
 !!!
@@ -222,8 +220,6 @@ The upload speed is dependent on your internet connection and Notion’s servers
 1. [Download](https://www.notion.so/mobile){target="_blank"} the Mobile version of Notion.
 
 2. Add [widget](https://www.notion.so/help/mobile-widgets){target="_blank"}  on your home screen.
-
-![](../static/S3.1.gif)
 
 !!!info Info
 You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/){target="_blank"} your iPhone or iPad to your Camera Rig and to your [Director's Monitor Cage](https://woodencamera.com/products/directors-monitor-cage-v3){target="_blank"}.
