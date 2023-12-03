@@ -1,6 +1,10 @@
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247){target="_blank"}
 - [Add Caption combining cleanup action (May 12, 2022)](https://github.com/CommandPost/CommandPost/issues/2978){target="_blank"}
-- [Add Camera LUTs to Search Console (January 18, 2022)](https://github.com/CommandPost/CommandPost/issues/2829){target="_blank"}
+- [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288){target="_blank"}
+- [Add indicator to show when Scrolling Timeline is enabled or disabled in 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3287){target="_blank"}
+- [Add option to toggle "Generate Thumbnails During Playback" in FCPX 10.7 (December 1, 2023)](https://github.com/CommandPost/CommandPost/issues/3286){target="_blank"}
+- [Add optional handles to Titles to Keywords Toolbox (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3281){target="_blank"}
+- [Add action to show Color Wheel Controls (September 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3271){target="_blank"}
 - [Add Temperature & Tint Controls to DaVinci Resolve (September 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3269){target="_blank"}
 - [Add Console for Davinci Resolve (July 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3237){target="_blank"}
 - [Read Colourlab Ai Show Looks from File System (July 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3236){target="_blank"}
@@ -24,7 +28,3 @@
 - [Add Toolbox to copy angle metadata to multi-cam clip (August 22, 2022)](https://github.com/CommandPost/CommandPost/issues/3092){target="_blank"}
 - [Improve text handling on Loupedeck LEDs (August 19, 2022)](https://github.com/CommandPost/CommandPost/issues/3086){target="_blank"}
 - [Add support for macOS Widgets (August 16, 2022)](https://github.com/CommandPost/CommandPost/issues/3082){target="_blank"}
-- [“Metadata to Titles” Toolbox (August 13, 2022)](https://github.com/CommandPost/CommandPost/issues/3077){target="_blank"}
-- [Add ability to save and restore Synchronised Clip Custom Settings (August 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3076){target="_blank"}
-- [Add Motion Variables/Token to the CommandPost Menubar (August 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3075){target="_blank"}
-- [Toolbox to convert Keywords to Notes (August 11, 2022)](https://github.com/CommandPost/CommandPost/issues/3072){target="_blank"}
