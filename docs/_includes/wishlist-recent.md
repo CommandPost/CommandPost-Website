@@ -1,3 +1,4 @@
+- [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290){target="_blank"}
 - [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288){target="_blank"}
 - [Add indicator to show when Scrolling Timeline is enabled or disabled in 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3287){target="_blank"}
 - [Add option to toggle "Generate Thumbnails During Playback" in FCPX 10.7 (December 1, 2023)](https://github.com/CommandPost/CommandPost/issues/3286){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add Toolbox to copy angle metadata to multi-cam clip (August 22, 2022)](https://github.com/CommandPost/CommandPost/issues/3092){target="_blank"}
 - [Improve text handling on Loupedeck LEDs (August 19, 2022)](https://github.com/CommandPost/CommandPost/issues/3086){target="_blank"}
 - [Add support for macOS Widgets (August 16, 2022)](https://github.com/CommandPost/CommandPost/issues/3082){target="_blank"}
-- [“Metadata to Titles” Toolbox (August 13, 2022)](https://github.com/CommandPost/CommandPost/issues/3077){target="_blank"}
