@@ -1,3 +1,7 @@
+- [Transcription in "Titles to Keywords Toolbox" (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3298){target="_blank"}
+- [Render in place (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3297){target="_blank"}
+- [Create new renamed clips (that have a marker applied) from a Timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3296){target="_blank"}
+- [Batch replace clips in a timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3295){target="_blank"}
 - [Install via Homebrew (December 6, 2023)](https://github.com/CommandPost/CommandPost/issues/3291){target="_blank"}
 - [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290){target="_blank"}
 - [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288){target="_blank"}
@@ -24,7 +28,3 @@
 - [Marker to Clip Name Toolbox (November 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3139){target="_blank"}
 - [Copy action as AppleScript/URL/Command Line (September 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3110){target="_blank"}
 - [Use mouse scroll wheel to move timeline playhead one frame back/forward (September 11, 2022)](https://github.com/CommandPost/CommandPost/issues/3108){target="_blank"}
-- [Add Marker Data Toolbox (September 10, 2022)](https://github.com/CommandPost/CommandPost/issues/3107){target="_blank"}
-- [Add actions for changing the Default Transition Value (August 28, 2022)](https://github.com/CommandPost/CommandPost/issues/3097){target="_blank"}
-- [Add Toolbox to copy angle metadata to multi-cam clip (August 22, 2022)](https://github.com/CommandPost/CommandPost/issues/3092){target="_blank"}
-- [Improve text handling on Loupedeck LEDs (August 19, 2022)](https://github.com/CommandPost/CommandPost/issues/3086){target="_blank"}
