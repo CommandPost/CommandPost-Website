@@ -1,5 +1,7 @@
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247){target="_blank"}
 - [Add Caption combining cleanup action (May 12, 2022)](https://github.com/CommandPost/CommandPost/issues/2978){target="_blank"}
+- [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304){target="_blank"}
+- [Add Video Inspector Orientation Controls (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3303){target="_blank"}
 - [Transcription in "Titles to Keywords Toolbox" (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3298){target="_blank"}
 - [Render in place (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3297){target="_blank"}
 - [Create new renamed clips (that have a marker applied) from a Timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3296){target="_blank"}
@@ -26,5 +28,3 @@
 - [Add possibility to extend / shorten Multiple Clips at the same time (November 15, 2022)](https://github.com/CommandPost/CommandPost/issues/3145){target="_blank"}
 - [Add control surface button to "Copy Control to All Applications" (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3143){target="_blank"}
 - [Add notes section for Control Surfaces (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3142){target="_blank"}
-- [Marker to Clip Name Toolbox (November 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3139){target="_blank"}
-- [Copy action as AppleScript/URL/Command Line (September 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3110){target="_blank"}
