@@ -6,7 +6,6 @@
 - [Render in place (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3297){target="_blank"}
 - [Create new renamed clips (that have a marker applied) from a Timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3296){target="_blank"}
 - [Batch replace clips in a timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3295){target="_blank"}
-- [Install via Homebrew (December 6, 2023)](https://github.com/CommandPost/CommandPost/issues/3291){target="_blank"}
 - [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290){target="_blank"}
 - [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288){target="_blank"}
 - [Add indicator to show when Scrolling Timeline is enabled or disabled in 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3287){target="_blank"}
@@ -28,3 +27,4 @@
 - [Add possibility to extend / shorten Multiple Clips at the same time (November 15, 2022)](https://github.com/CommandPost/CommandPost/issues/3145){target="_blank"}
 - [Add control surface button to "Copy Control to All Applications" (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3143){target="_blank"}
 - [Add notes section for Control Surfaces (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3142){target="_blank"}
+- [Marker to Clip Name Toolbox (November 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3139){target="_blank"}
