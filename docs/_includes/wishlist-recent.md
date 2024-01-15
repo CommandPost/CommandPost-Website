@@ -1,3 +1,4 @@
+- [Add action for A/V Output selection (January 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3306){target="_blank"}
 - [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304){target="_blank"}
 - [Add Video Inspector Orientation Controls (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3303){target="_blank"}
 - [Transcription in "Titles to Keywords Toolbox" (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3298){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add control surface button to "Copy Control to All Applications" (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3143){target="_blank"}
 - [Add notes section for Control Surfaces (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3142){target="_blank"}
 - [Marker to Clip Name Toolbox (November 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3139){target="_blank"}
-- [Copy action as AppleScript/URL/Command Line (September 12, 2022)](https://github.com/CommandPost/CommandPost/issues/3110){target="_blank"}
