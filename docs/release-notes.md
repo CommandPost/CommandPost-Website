@@ -1,5 +1,16 @@
 # Release Notes
 
+### CommandPost 1.4.24
+
+**🎉 Released:**
+- Friday 19th January 2024
+
+#### 🐞 Bug Fixes
+- Fixed a regression which prevented "Open File or Folder" dialog boxes from opening. Thanks for reporting Jason Sheldon!
+- We've rolled back from CSV2Notion Neo v1.2.0 to csv2notion v0.3.9 for the time being due to some changes in CSV2Notion Neo. Thanks for reporting Vigneswaran Rajkumar!
+
+---
+
 ### CommandPost 1.4.23
 
 **🎉 Released:**
