@@ -18,6 +18,8 @@
 
 <a href="https://github.com/samplue" target="_blank"><img src="https://avatars.githubusercontent.com/u/78317416?u=31949cdde28d6890d2a71bd8500e511a43bd8289&v=4&s=64" alt="samplue" width="64" height="64"></a> [samplue](https://github.com/samplue)
 
+<a href="https://github.com/sharedscene" target="_blank"><img src="https://avatars.githubusercontent.com/u/105324912?u=ad671f6a07aa3dfca6bf01fe551bfbddc244a55d&v=4&s=64" alt="sharedscene" width="64" height="64"></a> [sharedscene](https://github.com/sharedscene)
+
 <a href="https://github.com/thermidorthelobster" target="_blank"><img src="https://avatars.githubusercontent.com/u/46196909?v=4&s=64" alt="thermidorthelobster" width="64" height="64"></a> [thermidorthelobster](https://github.com/thermidorthelobster)
 
 <a href="https://github.com/wtembundit" target="_blank"><img src="https://avatars.githubusercontent.com/u/116883573?v=4&s=64" alt="wtembundit" width="64" height="64"></a> [wtembundit](https://github.com/wtembundit)
