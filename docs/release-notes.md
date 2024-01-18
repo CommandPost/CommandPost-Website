@@ -1,8 +1,29 @@
 # Release Notes
 
-### CommandPost 1.4.22
+### CommandPost 1.4.23
+
+**🎉 Released:**
+- Thursday 18th January 2024
+
+#### 🎉 New Features
+
+- Added actions for the Video Inspector Orientation controls. Thanks for suggesting Holger Kartes!
+- Added support for the latest Stream Deck XL hardware.
 
 #### 🔨 Improvements
+
+- Added an explanation as to why CommandPost needs to access data from others apps on macOS Sonoma. CommandPost needs to be able to read files contained in other applications containers. For example, CommandPost's reads the files within Keyboard Maestro's folder to get a list of macros, and within Final Cut Pro's folders to get a list of Share Destinations. You can click 'Allow' to approve permission for this session, or alternatively grant CommandPost 'Full Disk Access' in System Settings to avoid getting this request each time CommandPost restarts.
+- Renamed the "Execute Code" button in the Scripting panel to "Test Snippet" to make it easier to understand what it does.
+- Added a "Open Control Surfaces" button to the Scripting panel. Thanks for suggesting Florian Duffe!
+- Updated from csv2notion v0.3.8 to CSV2Notion Neo v1.2.0. Thanks Vigneswaran Rajkumar!
+
+#### 🐞 Bug Fixes
+
+- Fixed a bug where "Titles to Keywords" could fail on some clips from Sync-N-Link. Thanks for reporting Rainer Nigrelli!
+
+---
+
+### CommandPost 1.4.22
 
 **🎉 Released:**
 - Thursday 31st August 2023
@@ -17,8 +38,6 @@
 ---
 
 ### CommandPost 1.4.21
-
-#### 🔨 Improvements
 
 **🎉 Released:**
 - Wednesday 30th August 2023
