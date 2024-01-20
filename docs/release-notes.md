@@ -1,5 +1,18 @@
 # Release Notes
 
+### CommandPost 1.4.25
+
+**🎉 Released:**
+- Friday 20th January 2024
+
+#### 🔨 Improvements
+
+- Increased the default number of banks from 15 to 30. Thanks for suggesting Daniel Rejowski!
+- Updated from csv2notion v0.3.9 to CSV2Notion Neo v1.2.1. Thanks Vigneswaran Rajkumar!
+- Added a new "Notion Workspace" field in the Notion & Shot Data Toolboxes. Thanks Vigneswaran Rajkumar!
+
+---
+
 ### CommandPost 1.4.24
 
 **🎉 Released:**
