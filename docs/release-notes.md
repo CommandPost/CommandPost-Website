@@ -1,5 +1,16 @@
 # Release Notes
 
+### CommandPost 1.4.26
+
+**🎉 Released:**
+- Monday 22nd January 2024
+
+#### 🐞 Bug Fix
+
+- In Final Cut Pro 10.6.6, Apple merged the **Masks** and **Keying** Effects Categories into a single **Masks and Keying** Effects Category, which we never accounted for. CommandPost now correctly applies the **Masks and Keying** effects in Final Cut Pro 10.6.6 and later. However, if you already have a shortcut key or control surface button for any of these actions (such as **Draw Mask**), you may have to select the **Scan Motion Templates** button in the **Final Cut Pro** panel in CommandPost Preferences to re-scan all your effects, then reapply the action to your keyboard shortcut or button. Thanks for reporting Димитър Маратилов!
+
+---
+
 ### CommandPost 1.4.25
 
 **🎉 Released:**
