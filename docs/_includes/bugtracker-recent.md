@@ -1,3 +1,4 @@
+- [Batch Compound Clip Creation vs. Batch Export Plugin (January 25, 2024)](https://github.com/CommandPost/CommandPost/issues/3318){target="_blank"}
 - [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316){target="_blank"}
 - [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299){target="_blank"}
 - [Speed Editor Jog Wheel Doesn't Respond to Actions when moved very slowly (December 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3292){target="_blank"}
@@ -27,4 +28,3 @@
 - [Possible Regression with some actions not working after a certain amount of time? (May 13, 2022)](https://github.com/CommandPost/CommandPost/issues/2979){target="_blank"}
 - ["Reveal in Keyword Collection" actions broken (May 9, 2022)](https://github.com/CommandPost/CommandPost/issues/2976){target="_blank"}
 - [Bug with selected clips in the timeline (April 23, 2022)](https://github.com/CommandPost/CommandPost/issues/2955){target="_blank"}
-- [Final Cut Pro Menubar Actions are really slow when action is in English but FCPX is not (April 15, 2022)](https://github.com/CommandPost/CommandPost/issues/2944){target="_blank"}
