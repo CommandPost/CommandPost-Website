@@ -1,6 +1,9 @@
+- [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322){target="_blank"}
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247){target="_blank"}
 - [Add Caption combining cleanup action (May 12, 2022)](https://github.com/CommandPost/CommandPost/issues/2978){target="_blank"}
+- [Add option to disable Timeline Batch Export alert (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3321){target="_blank"}
 - [Project Spell Checker (January 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3319){target="_blank"}
+- [Add action to "Batch Compound Clip" (January 25, 2024)](https://github.com/CommandPost/CommandPost/issues/3318){target="_blank"}
 - [Add action for A/V Output selection (January 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3306){target="_blank"}
 - [SSL UF1 controller  (January 12, 2024)](https://github.com/CommandPost/CommandPost/issues/3305){target="_blank"}
 - [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304){target="_blank"}
@@ -25,6 +28,3 @@
 - [Add support for Stream Deck Pedal (March 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3190){target="_blank"}
 - [Improvements to Vimeo Toolbox (February 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3177){target="_blank"}
 - [Events & Keywords Generator Toolbox (December 6, 2022)](https://github.com/CommandPost/CommandPost/issues/3163){target="_blank"}
-- [Build a CommandPost Plugin for Touch Portal (November 21, 2022)](https://github.com/CommandPost/CommandPost/issues/3150){target="_blank"}
-- [Add possibility to extend / shorten Multiple Clips at the same time (November 15, 2022)](https://github.com/CommandPost/CommandPost/issues/3145){target="_blank"}
-- [Add control surface button to "Copy Control to All Applications" (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3143){target="_blank"}
