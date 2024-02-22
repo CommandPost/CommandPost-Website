@@ -26,4 +26,3 @@
 - [Rename Color Wheel "Master" to "Global" across the codebase (May 16, 2022)](https://github.com/CommandPost/CommandPost/issues/2980){target="_blank"}
 - [Possible Regression with some actions not working after a certain amount of time? (May 13, 2022)](https://github.com/CommandPost/CommandPost/issues/2979){target="_blank"}
 - ["Reveal in Keyword Collection" actions broken (May 9, 2022)](https://github.com/CommandPost/CommandPost/issues/2976){target="_blank"}
-- [Bug with selected clips in the timeline (April 23, 2022)](https://github.com/CommandPost/CommandPost/issues/2955){target="_blank"}

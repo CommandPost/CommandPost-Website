@@ -1,3 +1,4 @@
+- [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325){target="_blank"}
 - [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323){target="_blank"}
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322){target="_blank"}
 - [Add option to disable Timeline Batch Export alert (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3321){target="_blank"}
@@ -27,4 +28,3 @@
 - [Review Magic Mouse support in "Enable Timeline Zooming with Mouse Scroll & Modifier Key" (March 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3193){target="_blank"}
 - [Add support for Stream Deck Pedal (March 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3190){target="_blank"}
 - [Improvements to Vimeo Toolbox (February 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3177){target="_blank"}
-- [Events & Keywords Generator Toolbox (December 6, 2022)](https://github.com/CommandPost/CommandPost/issues/3163){target="_blank"}
