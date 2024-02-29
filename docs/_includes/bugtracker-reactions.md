@@ -1,3 +1,4 @@
+- [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326){target="_blank"}
 - [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316){target="_blank"}
 - [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299){target="_blank"}
 - [Speed Editor Jog Wheel Doesn't Respond to Actions when moved very slowly (December 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3292){target="_blank"}
