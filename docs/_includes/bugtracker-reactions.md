@@ -1,4 +1,4 @@
-- [Loupedeck CT (commandpost) lagging in FCPX (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328){target="_blank"}
+- [Main screen not updating on Loupedeck CT (Hardware Version 02.00) (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328){target="_blank"}
 - [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326){target="_blank"}
 - [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316){target="_blank"}
 - [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299){target="_blank"}
