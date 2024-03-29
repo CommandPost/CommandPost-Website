@@ -1,6 +1,7 @@
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322){target="_blank"}
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247){target="_blank"}
 - [Add Caption combining cleanup action (May 12, 2022)](https://github.com/CommandPost/CommandPost/issues/2978){target="_blank"}
+- [Commit multicam- add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329){target="_blank"}
 - [Make Text to Speech Action more visible/accessible (March 5, 2024)](https://github.com/CommandPost/CommandPost/issues/3327){target="_blank"}
 - [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325){target="_blank"}
 - [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add shortcut keys to Cut / Copy / Paste Markers (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3211){target="_blank"}
 - [Add support for Logitech G13 (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3210){target="_blank"}
 - [Add actions for saving/recalling user defined timeline zoom settings like Logic Pro (March 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3194){target="_blank"}
-- [Review Magic Mouse support in "Enable Timeline Zooming with Mouse Scroll & Modifier Key" (March 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3193){target="_blank"}
