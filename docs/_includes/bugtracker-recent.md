@@ -1,3 +1,4 @@
+- [Shortcut key operation error (April 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3331){target="_blank"}
 - [Main screen not updating on Loupedeck CT (Hardware Version 02.00) (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328){target="_blank"}
 - [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326){target="_blank"}
 - [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add possibilty to select keyframes in Video Editor with mouse selection. (May 28, 2022)](https://github.com/CommandPost/CommandPost/issues/2992){target="_blank"}
 - [Rename Color Wheel "Master" to "Global" across the codebase (May 16, 2022)](https://github.com/CommandPost/CommandPost/issues/2980){target="_blank"}
 - [Possible Regression with some actions not working after a certain amount of time? (May 13, 2022)](https://github.com/CommandPost/CommandPost/issues/2979){target="_blank"}
-- ["Reveal in Keyword Collection" actions broken (May 9, 2022)](https://github.com/CommandPost/CommandPost/issues/2976){target="_blank"}
