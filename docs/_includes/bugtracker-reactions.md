@@ -1,3 +1,6 @@
+- [Razer support broken on Sonoma - hidutil now requires sudo (May 2, 2024)](https://github.com/CommandPost/CommandPost/issues/3337){target="_blank"}
+- [Failed to cache Audio Units & Unable to change the language of the software (April 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3336){target="_blank"}
+- [Unmount external drives when switching to battery power is not working (April 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3335){target="_blank"}
 - [Shortcut key operation error (April 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3331){target="_blank"}
 - [Main screen not updating on Loupedeck CT (Hardware Version 02.00) (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328){target="_blank"}
 - [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326){target="_blank"}
@@ -25,6 +28,3 @@
 - [cp.apple.finalcutpro.libraries.filmstrip:contentsUI() is unreliable (August 10, 2022)](https://github.com/CommandPost/CommandPost/issues/3062){target="_blank"}
 - [Timeline Batch Export only works with visible clips? (June 6, 2022)](https://github.com/CommandPost/CommandPost/issues/3002){target="_blank"}
 - [Crash - cp.apple.finalcutpro.preferences:prop("FFKeywordGroups") (May 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2996){target="_blank"}
-- [Add possibilty to select keyframes in Video Editor with mouse selection. (May 28, 2022)](https://github.com/CommandPost/CommandPost/issues/2992){target="_blank"}
-- [Rename Color Wheel "Master" to "Global" across the codebase (May 16, 2022)](https://github.com/CommandPost/CommandPost/issues/2980){target="_blank"}
-- [Possible Regression with some actions not working after a certain amount of time? (May 13, 2022)](https://github.com/CommandPost/CommandPost/issues/2979){target="_blank"}
