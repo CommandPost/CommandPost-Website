@@ -1,3 +1,4 @@
+- [Update CSV2Notion Neo to 1.2.5 (May 10, 2024)](https://github.com/CommandPost/CommandPost/issues/3338){target="_blank"}
 - [Razer support broken on Sonoma - hidutil now requires sudo (May 2, 2024)](https://github.com/CommandPost/CommandPost/issues/3337){target="_blank"}
 - [Failed to cache Audio Units & Unable to change the language of the software (April 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3336){target="_blank"}
 - [Unmount external drives when switching to battery power is not working (April 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3335){target="_blank"}
@@ -27,4 +28,3 @@
 - [Review how Tangent Displays Work when Language is set to Chinese (August 10, 2022)](https://github.com/CommandPost/CommandPost/issues/3067){target="_blank"}
 - [cp.apple.finalcutpro.libraries.filmstrip:contentsUI() is unreliable (August 10, 2022)](https://github.com/CommandPost/CommandPost/issues/3062){target="_blank"}
 - [Timeline Batch Export only works with visible clips? (June 6, 2022)](https://github.com/CommandPost/CommandPost/issues/3002){target="_blank"}
-- [Crash - cp.apple.finalcutpro.preferences:prop("FFKeywordGroups") (May 30, 2022)](https://github.com/CommandPost/CommandPost/issues/2996){target="_blank"}
