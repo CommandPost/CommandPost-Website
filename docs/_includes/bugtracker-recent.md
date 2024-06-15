@@ -1,3 +1,4 @@
+- [Speed editor jog wheel stops responding after a while (June 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3346){target="_blank"}
 - [Loopdeck CT title shortcut overwriting problem on existing title (May 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3342){target="_blank"}
 - [Update CSV2Notion Neo to 1.2.5 (May 10, 2024)](https://github.com/CommandPost/CommandPost/issues/3338){target="_blank"}
 - [Razer support broken on Sonoma - hidutil now requires sudo (May 2, 2024)](https://github.com/CommandPost/CommandPost/issues/3337){target="_blank"}
@@ -27,4 +28,3 @@
 - [Watch Folder not importing, only notifications shown (November 13, 2022)](https://github.com/CommandPost/CommandPost/issues/3141){target="_blank"}
 - [Batch Rename HUD doesn't handle Markers Properly (September 11, 2022)](https://github.com/CommandPost/CommandPost/issues/3109){target="_blank"}
 - [Review how Tangent Displays Work when Language is set to Chinese (August 10, 2022)](https://github.com/CommandPost/CommandPost/issues/3067){target="_blank"}
-- [cp.apple.finalcutpro.libraries.filmstrip:contentsUI() is unreliable (August 10, 2022)](https://github.com/CommandPost/CommandPost/issues/3062){target="_blank"}
