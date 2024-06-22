@@ -1,3 +1,13 @@
+- [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348){target="_blank"}
+- [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332){target="_blank"}
+- [Commit multicam- add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329){target="_blank"}
+- [Make Text to Speech Action more visible/accessible (March 5, 2024)](https://github.com/CommandPost/CommandPost/issues/3327){target="_blank"}
+- [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325){target="_blank"}
+- [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323){target="_blank"}
+- [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322){target="_blank"}
+- [Add option to disable Timeline Batch Export alert (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3321){target="_blank"}
+- [Project Spell Checker (January 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3319){target="_blank"}
+- [Add action to "Batch Compound Clip" (January 25, 2024)](https://github.com/CommandPost/CommandPost/issues/3318){target="_blank"}
 - [Add action for A/V Output selection (January 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3306){target="_blank"}
 - [SSL UF1 controller  (January 12, 2024)](https://github.com/CommandPost/CommandPost/issues/3305){target="_blank"}
 - [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304){target="_blank"}
@@ -18,13 +28,3 @@
 - [Add Microsoft Surface Dial support (May 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3214){target="_blank"}
 - [Add shortcut keys to Cut / Copy / Paste Markers (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3211){target="_blank"}
 - [Add support for Logitech G13 (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3210){target="_blank"}
-- [Add actions for saving/recalling user defined timeline zoom settings like Logic Pro (March 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3194){target="_blank"}
-- [Review Magic Mouse support in "Enable Timeline Zooming with Mouse Scroll & Modifier Key" (March 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3193){target="_blank"}
-- [Add support for Stream Deck Pedal (March 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3190){target="_blank"}
-- [Improvements to Vimeo Toolbox (February 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3177){target="_blank"}
-- [Events & Keywords Generator Toolbox (December 6, 2022)](https://github.com/CommandPost/CommandPost/issues/3163){target="_blank"}
-- [Build a CommandPost Plugin for Touch Portal (November 21, 2022)](https://github.com/CommandPost/CommandPost/issues/3150){target="_blank"}
-- [Add possibility to extend / shorten Multiple Clips at the same time (November 15, 2022)](https://github.com/CommandPost/CommandPost/issues/3145){target="_blank"}
-- [Add control surface button to "Copy Control to All Applications" (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3143){target="_blank"}
-- [Add notes section for Control Surfaces (November 14, 2022)](https://github.com/CommandPost/CommandPost/issues/3142){target="_blank"}
-- [Marker to Clip Name Toolbox (November 9, 2022)](https://github.com/CommandPost/CommandPost/issues/3139){target="_blank"}
