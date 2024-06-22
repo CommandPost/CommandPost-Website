@@ -1,5 +1,17 @@
 # Release Notes
 
+### CommandPost 1.4.27
+
+**🎉 Released:**
+- Saturday 22nd June 2024
+
+#### 🔨 Improvements
+
+- Added support for FCPXML v1.12 used by Final Cut Pro 10.8. Thanks for reporting Sam Pluemacher!
+- Updated from CSV2Notion v1.2.1 to v1.3.1.
+
+---
+
 ### CommandPost 1.4.26
 
 **🎉 Released:**
