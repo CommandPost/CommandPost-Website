@@ -1,6 +1,6 @@
+- [When using Stream Deck to select a preset Chinese font with a shortcut key, the font cannot be found. However, when selecting an English font, it can be found. (June 19, 2024)](https://github.com/CommandPost/CommandPost/issues/3347){target="_blank"}
 - [Speed editor jog wheel stops responding after a while (June 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3346){target="_blank"}
 - [Loopdeck CT title shortcut overwriting problem on existing title (May 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3342){target="_blank"}
-- [Update CSV2Notion Neo to 1.2.5 (May 10, 2024)](https://github.com/CommandPost/CommandPost/issues/3338){target="_blank"}
 - [Razer support broken on Sonoma - hidutil now requires sudo (May 2, 2024)](https://github.com/CommandPost/CommandPost/issues/3337){target="_blank"}
 - [Failed to cache Audio Units & Unable to change the language of the software (April 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3336){target="_blank"}
 - [Unmount external drives when switching to battery power is not working (April 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3335){target="_blank"}
