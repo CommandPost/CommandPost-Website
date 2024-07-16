@@ -1,3 +1,4 @@
+- [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356){target="_blank"}
 - [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348){target="_blank"}
 - [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332){target="_blank"}
 - [Commit multicam- add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329){target="_blank"}
@@ -27,4 +28,3 @@
 - [Read Colourlab Ai Show Looks from File System (July 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3236){target="_blank"}
 - [Add Microsoft Surface Dial support (May 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3214){target="_blank"}
 - [Add shortcut keys to Cut / Copy / Paste Markers (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3211){target="_blank"}
-- [Add support for Logitech G13 (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3210){target="_blank"}

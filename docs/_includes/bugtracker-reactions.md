@@ -1,3 +1,4 @@
+- ["Select Middle of Next Clip in Same Lane" Action Broken? (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3357){target="_blank"}
 - [When using Stream Deck to select a preset Chinese font with a shortcut key, the font cannot be found. However, when selecting an English font, it can be found. (June 19, 2024)](https://github.com/CommandPost/CommandPost/issues/3347){target="_blank"}
 - [Speed editor jog wheel stops responding after a while (June 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3346){target="_blank"}
 - [Loopdeck CT title shortcut overwriting problem on existing title (May 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3342){target="_blank"}
@@ -27,4 +28,3 @@
 - [Insert Clips Vertically From Browser to Timeline Broken? (December 6, 2022)](https://github.com/CommandPost/CommandPost/issues/3164){target="_blank"}
 - [Watch Folder not importing, only notifications shown (November 13, 2022)](https://github.com/CommandPost/CommandPost/issues/3141){target="_blank"}
 - [Batch Rename HUD doesn't handle Markers Properly (September 11, 2022)](https://github.com/CommandPost/CommandPost/issues/3109){target="_blank"}
-- [Review how Tangent Displays Work when Language is set to Chinese (August 10, 2022)](https://github.com/CommandPost/CommandPost/issues/3067){target="_blank"}
