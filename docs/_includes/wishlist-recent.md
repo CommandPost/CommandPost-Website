@@ -1,4 +1,3 @@
-- [Razer Control Pod Mac OS support (August 7, 2024)](https://github.com/CommandPost/CommandPost/issues/3363){target="_blank"}
 - [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356){target="_blank"}
 - [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348){target="_blank"}
 - [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332){target="_blank"}
@@ -28,3 +27,4 @@
 - [Add Console for Davinci Resolve (July 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3237){target="_blank"}
 - [Read Colourlab Ai Show Looks from File System (July 3, 2023)](https://github.com/CommandPost/CommandPost/issues/3236){target="_blank"}
 - [Add Microsoft Surface Dial support (May 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3214){target="_blank"}
+- [Add shortcut keys to Cut / Copy / Paste Markers (May 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3211){target="_blank"}
