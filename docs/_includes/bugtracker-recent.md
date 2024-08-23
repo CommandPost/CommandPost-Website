@@ -1,3 +1,4 @@
+- [Commandpost mostly never works for me (August 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3366){target="_blank"}
 - [Search Console As A Whole Does Not Work in FCP  (August 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3365){target="_blank"}
 - [Insert Action fails to import some actions (August 1, 2024)](https://github.com/CommandPost/CommandPost/issues/3362){target="_blank"}
 - [Manually Added MIDI Applications missing on restart (July 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3361){target="_blank"}
@@ -27,4 +28,3 @@
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
 - [Problem HUD (March 9, 2023)](https://github.com/CommandPost/CommandPost/issues/3191){target="_blank"}
 - [Slow down during color control while using tangent ripple (January 12, 2023)](https://github.com/CommandPost/CommandPost/issues/3172){target="_blank"}
-- [Autosequence Turns All Clips into the Same Resolution, all handles removed (December 29, 2022)](https://github.com/CommandPost/CommandPost/issues/3170){target="_blank"}
