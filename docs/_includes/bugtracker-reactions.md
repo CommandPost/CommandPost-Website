@@ -1,3 +1,4 @@
+- [Final Cut Pro Trial has a different menu bar item (August 24, 2024)](https://github.com/CommandPost/CommandPost/issues/3368){target="_blank"}
 - [Commandpost mostly never works for me (August 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3366){target="_blank"}
 - [Search Console As A Whole Does Not Work in FCP  (August 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3365){target="_blank"}
 - [Insert Action fails to import some actions (August 1, 2024)](https://github.com/CommandPost/CommandPost/issues/3362){target="_blank"}
@@ -27,4 +28,3 @@
 - [Need to know a safe procedure for aborting long job (like exporting all clips) (March 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3201){target="_blank"}
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
 - [Problem HUD (March 9, 2023)](https://github.com/CommandPost/CommandPost/issues/3191){target="_blank"}
-- [Slow down during color control while using tangent ripple (January 12, 2023)](https://github.com/CommandPost/CommandPost/issues/3172){target="_blank"}
