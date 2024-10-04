@@ -1,3 +1,4 @@
+- [Add support for Loupedeck v6 software update (October 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3380){target="_blank"}
 - [Update Batch Rename HUD to allow taking values from any column (September 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3373){target="_blank"}
 - [FCP XML issue when importing to Davinci Resolve studio 18.6.6 using CommandPost (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3370){target="_blank"}
 - [Add relative MIDI controls for scale & position (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3369){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add action to show Color Wheel Controls (September 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3271){target="_blank"}
 - [Add Temperature & Tint Controls to DaVinci Resolve (September 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3269){target="_blank"}
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247){target="_blank"}
-- [Add Console for Davinci Resolve (July 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3237){target="_blank"}

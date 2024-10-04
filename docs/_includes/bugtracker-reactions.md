@@ -1,5 +1,6 @@
 - [Error Message Displayed: Failed to switch back to Final Cut Pro when Batch exporting active timeline  (September 30, 2024)](https://github.com/CommandPost/CommandPost/issues/3378){target="_blank"}
 - [Color Board Reset Actions not working (September 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3376){target="_blank"}
+- [ipc port is no longer valid (early) (September 23, 2024)](https://github.com/CommandPost/CommandPost/issues/3375){target="_blank"}
 - [Media Watch Folder Notification Says "Incoming" But Never Imports (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3371){target="_blank"}
 - [Final Cut Pro Trial has a different menu bar item (August 24, 2024)](https://github.com/CommandPost/CommandPost/issues/3368){target="_blank"}
 - [Commandpost mostly never works for me (August 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3366){target="_blank"}
@@ -27,4 +28,3 @@
 - [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251){target="_blank"}
 - [Rename Clip Action fails on macOS 13.5 (August 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3250){target="_blank"}
 - [Ignore ESC when in fullscreen broken (July 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3243){target="_blank"}
-- [streamdeck mk.2 error (June 30, 2023)](https://github.com/CommandPost/CommandPost/issues/3233){target="_blank"}
