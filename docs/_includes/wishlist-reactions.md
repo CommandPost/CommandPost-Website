@@ -1,5 +1,9 @@
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322){target="_blank"}
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247){target="_blank"}
+- [Add support for Binepad panels (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3385){target="_blank"}
+- [Sony Timecode Repair should use old version of FCPXML (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3384){target="_blank"}
+- [Add support for DeepDeck (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3382){target="_blank"}
+- [Add support for Griffin PowerMate (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3381){target="_blank"}
 - [Add support for Loupedeck v6 software update (October 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3380){target="_blank"}
 - [Update Batch Rename HUD to allow taking values from any column (September 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3373){target="_blank"}
 - [FCP XML issue when importing to Davinci Resolve studio 18.6.6 using CommandPost (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3370){target="_blank"}
@@ -24,7 +28,3 @@
 - [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290){target="_blank"}
 - [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288){target="_blank"}
 - [Add indicator to show when Scrolling Timeline is enabled or disabled in 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3287){target="_blank"}
-- [Add option to toggle "Generate Thumbnails During Playback" in FCPX 10.7 (December 1, 2023)](https://github.com/CommandPost/CommandPost/issues/3286){target="_blank"}
-- [Add optional handles to Titles to Keywords Toolbox (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3281){target="_blank"}
-- [Add action to show Color Wheel Controls (September 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3271){target="_blank"}
-- [Add Temperature & Tint Controls to DaVinci Resolve (September 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3269){target="_blank"}

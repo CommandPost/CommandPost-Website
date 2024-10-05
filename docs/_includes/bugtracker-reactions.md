@@ -1,3 +1,4 @@
+- [commands.lua:20: attempt to index a nil (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3383){target="_blank"}
 - [Error Message Displayed: Failed to switch back to Final Cut Pro when Batch exporting active timeline  (September 30, 2024)](https://github.com/CommandPost/CommandPost/issues/3378){target="_blank"}
 - [Color Board Reset Actions not working (September 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3376){target="_blank"}
 - [ipc port is no longer valid (early) (September 23, 2024)](https://github.com/CommandPost/CommandPost/issues/3375){target="_blank"}
@@ -27,4 +28,3 @@
 - [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265){target="_blank"}
 - [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251){target="_blank"}
 - [Rename Clip Action fails on macOS 13.5 (August 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3250){target="_blank"}
-- [Ignore ESC when in fullscreen broken (July 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3243){target="_blank"}
