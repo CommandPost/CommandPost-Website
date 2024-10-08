@@ -11,7 +11,7 @@
 - [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356){target="_blank"}
 - [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348){target="_blank"}
 - [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332){target="_blank"}
-- [Commit multicam- add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329){target="_blank"}
+- [Commit Multicam - Add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329){target="_blank"}
 - [Make Text to Speech Action more visible/accessible (March 5, 2024)](https://github.com/CommandPost/CommandPost/issues/3327){target="_blank"}
 - [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325){target="_blank"}
 - [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323){target="_blank"}
