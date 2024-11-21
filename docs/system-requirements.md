@@ -1,6 +1,6 @@
 # System Requirements
 
-CommandPost supports **macOS Big Sur, Monterey & Ventura**.
+CommandPost supports **macOS Sequoia 15.1**.
 
 It has **native** support for both Intel and Apple Silicon Macs.
 
@@ -12,9 +12,9 @@ We use Apple’s built-in Accessibility API, which requires both **Accessibility
 
 The latest version of CommandPost requires **Final Cut Pro 10.6.5** or later.
 
-It works great on the latest **Final Cut Pro 10.6.6**.
+It works great on the latest **Final Cut Pro 11** release.
 
-You can find Final Cut Pro's system requirements [here](https://www.apple.com/au/final-cut-pro/specs/){target="_blank"}.
+You can find Final Cut Pro's system requirements [here](https://www.apple.com/au/final-cut-pro/specs/).
 
 ---
 
@@ -34,6 +34,6 @@ It has limited experimental support for **DaVinci Resolve 16.2.7** and later. We
 
 ### Older versions of macOS
 
-If you're using **Catalina**, you can still download [CommandPost v1.4.13](https://github.com/CommandPost/CommandPost/releases/tag/1.4.13){target="_blank"}.
+If you're using **Catalina**, you can still download [CommandPost v1.4.13](https://github.com/CommandPost/CommandPost/releases/tag/1.4.13).
 
-If you're using **Mojave**, you can still download [CommandPost v1.2.16](https://github.com/CommandPost/CommandPost/releases/tag/1.2.16){target="_blank"}.
+If you're using **Mojave**, you can still download [CommandPost v1.2.16](https://github.com/CommandPost/CommandPost/releases/tag/1.2.16).
