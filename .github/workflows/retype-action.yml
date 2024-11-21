@@ -86,7 +86,9 @@ jobs:
         with:
           dotnet-version: 7.0.x
 
-      - uses: retypeapp/action-build@latest
+      - uses: retypeapp/action-build@a95ca1f9508dec8465a93f2e50a1228d22e90f4e
+        with:
+          license: ${{ secrets.RETYPE_SECRET }}
 
       - uses: retypeapp/action-github-pages@latest
         with:
