@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.785510002293">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.785535689928">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.785510002293" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.785535689928" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.785510002293" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.785535689928" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.785510002293" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.785535689928" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -399,7 +399,8 @@
 <p>In the early days of <a href="https://latenitefilms.com/blog/final-cut-pro-hacks/" class="outbound" target="_blank" target="_blank"><span>FCPX Hacks</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> we added an option for Moveable Markers which enables them using the same technique Alex found, except it allowed users to easily toggle the feature on and off using the menu bar or shortcut keys.</p>
 <p>When we transitioned FCPX Hacks to CommandPost, we kept this feature, however we later decided that it&#x27;s probably a bad idea to modify the contents of the Final Cut Pro application bundle, so we removed this feature all together, along with other features that modify the contents of the Final Cut Pro application bundle (such as inserting our commands into the Final Cut Pro Command Editor).</p>
 <p>We want CommandPost to be as safe and reliable as possible, and we want to avoid using &quot;hacks&quot; to make things happen.</p>
-<p>The easiest way to enable Moveable Markers is via Terminal.</p>
+<p>The easiest way to enable Moveable Markers is via <strong>Terminal</strong>.</p>
+<p>Starting in <strong>macOS Sequoia 15</strong>, you&#x27;ll also need to grant <strong>Terminal Full Disk Access</strong> in <strong>System Settings</strong>, so that Terminal has access to modify these files. You can disable Full Disk Access after you&#x27;ve executed these commands for security.</p>
 <p>The below works on <strong>Final Cut Pro 10.8.1 and below</strong> on both Intel and Apple Silicon.</p>
 <p>The below assumes you have Final Cut Pro installed within the <code v-pre>/Applications</code> folder.</p>
 <p>This will <strong>enable Moveable Markers</strong>:</p>
