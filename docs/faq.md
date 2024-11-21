@@ -40,29 +40,51 @@ You can learn more about Marker Toolbox [here](https://markertoolbox.io){target=
 
 ### Why did you remove "Moveable Markers"?
 
-Moveable Markers was [first discovered](http://alex4d.com/notes/item/fcpx-movable-markers){target="_blank"} by **Alex Goldner** back in June 2014.
+Moveable Markers was [first discovered](http://alex4d.com/notes/item/fcpx-movable-markers){target="_blank"} by **Alex Goldner** back in **June 2014**.
 
 To enable it, you basically just need to toggle a boolean hidden within a preference file inside the Final Cut Pro Library.
 
 In the early days of [FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/){target="_blank"} we added an option for Moveable Markers which enables them using the same technique Alex found, except it allowed users to easily toggle the feature on and off using the menu bar or shortcut keys.
 
-When we transitioned FCPX Hacks to CommandPost, we kept this feature, however we've since decided that it's probably a bad idea to modify the contents of the Final Cut Pro application bundle, so we removed this feature all together, along with other features that modify the contents of the Final Cut Pro application bundle (such as inserting our commands into the Final Cut Pro Command Editor).
+When we transitioned FCPX Hacks to CommandPost, we kept this feature, however we later decided that it's probably a bad idea to modify the contents of the Final Cut Pro application bundle, so we removed this feature all together, along with other features that modify the contents of the Final Cut Pro application bundle (such as inserting our commands into the Final Cut Pro Command Editor).
 
 We want CommandPost to be as safe and reliable as possible, and we want to avoid using "hacks" to make things happen.
 
 The easiest way to enable Moveable Markers is via Terminal.
 
-This works on Final Cut Pro 10.5.2 and below on both Intel and Apple Silicon.
+The below works on **Final Cut Pro 10.8.1 and below** on both Intel and Apple Silicon.
 
 The below assumes you have Final Cut Pro installed within the `/Applications` folder.
 
-This will enable them:
+This will **enable Moveable Markers**:
 
 `sudo /usr/libexec/PlistBuddy -c "Set :TLKMarkerHandler:Configuration:'Allow Moving Markers' true" '/Applications/Final Cut Pro.app/Contents/Frameworks/TLKit.framework/Versions/A/Resources/EventDescriptions.plist'`
 
-This will disable them:
+This will **disable Moveable Markers**:
 
 `sudo /usr/libexec/PlistBuddy -c "Set :TLKMarkerHandler:Configuration:'Allow Moving Markers' false" '/Applications/Final Cut Pro.app/Contents/Frameworks/TLKit.framework/Versions/A/Resources/EventDescriptions.plist'`
+
+With the update of **Final Cut Pro 11**, internally some things have changed - requiring some slightly different commands:
+
+This will **enable Moveable Markers**:
+
+`sudo /usr/libexec/PlistBuddy -c "Set :TLKMarkerHandler:Configuration:'Allow Moving Markers' true" '/Applications/Final Cut Pro.app/Contents/Frameworks/TimelineKit.framework/Versions/A/Resources/EventDescriptions.plist'`
+
+This will **disable Moveable Markers**:
+
+`sudo /usr/libexec/PlistBuddy -c "Set :TLKMarkerHandler:Configuration:'Allow Moving Markers' false" '/Applications/Final Cut Pro.app/Contents/Frameworks/TimelineKit.framework/Versions/A/Resources/EventDescriptions.plist'`
+
+However, due to new security protections in **macOS Sequoia 15**, after running the above commands, you'll now see something like this (noting, that I've renamed `Final Cut Pro.app` to `Final Cut Pro Modified.app`:
+
+![](/static/fcp-modified-warning.png)
+
+Click **Cancel** and then open **System Settings**.
+
+In the **Privacy & Security** panel, you'll need to click the **Open Anyway** button:
+
+![](/static/fcp-modified-warning-open-anyway.png)
+
+Apple obviously does **NOT** want you to do this, so tread with care.
 
 ---
 
