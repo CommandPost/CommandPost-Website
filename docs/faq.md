@@ -50,7 +50,9 @@ When we transitioned FCPX Hacks to CommandPost, we kept this feature, however we
 
 We want CommandPost to be as safe and reliable as possible, and we want to avoid using "hacks" to make things happen.
 
-The easiest way to enable Moveable Markers is via Terminal.
+The easiest way to enable Moveable Markers is via **Terminal**.
+
+Starting in **macOS Sequoia 15**, you'll also need to grant **Terminal Full Disk Access** in **System Settings**, so that Terminal has access to modify these files. You can disable Full Disk Access after you've executed these commands for security.
 
 The below works on **Final Cut Pro 10.8.1 and below** on both Intel and Apple Silicon.
 
