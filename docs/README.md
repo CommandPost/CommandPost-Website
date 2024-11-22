@@ -10,9 +10,11 @@ It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.
 
 It has **extensive** control surface support - allowing you to control your Mac anyway you want. It's also fully **native on Apple Silicon**.
 
-It's been downloaded over **[200 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}**, and there are over **[2.8 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"}** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
+It's been downloaded over **[234 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}**, and there are over **[2.9 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"}** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
+
+All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost.
 
 ![](../static/commandpost-hero.png)
 
