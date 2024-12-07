@@ -1,3 +1,4 @@
+- [Add action to change export path to current library path (November 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3397){target="_blank"}
 - [Add support for Contour Design ShuttlePRO v2 (October 10, 2024)](https://github.com/CommandPost/CommandPost/issues/3388){target="_blank"}
 - [Add support for Logitech MX Creative Console (October 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3387){target="_blank"}
 - [Add support for Binepad panels (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3385){target="_blank"}
@@ -27,4 +28,3 @@
 - [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290){target="_blank"}
 - [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288){target="_blank"}
 - [Add indicator to show when Scrolling Timeline is enabled or disabled in 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3287){target="_blank"}
-- [Add option to toggle "Generate Thumbnails During Playback" in FCPX 10.7 (December 1, 2023)](https://github.com/CommandPost/CommandPost/issues/3286){target="_blank"}
