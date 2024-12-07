@@ -1,5 +1,19 @@
 # Release Notes
 
+### CommandPost 1.5.1
+
+**🎉 Released:**
+- Friday 6th December 2024
+
+#### 🐞 Bug Fixes
+
+- Fixed a bug in the **Modify Project** action for Final Cut Pro. Thanks for reporting Adam Schoales!
+- Fixed how CommandPost reads and writes Final Cut Pro 11's sandboxed preferences. This fixes features such as **Enable Rendering During Playback**.
+- Fixed how CommandPost reads Final Cut Pro 11's sandboxed User Destinations.
+- Fixed a bug which prevented CommandPost from sending FCPXMLs back to Final Cut Pro. Thanks for reporting Martin Turner!
+
+---
+
 ### CommandPost 1.5.0
 
 **🎉 Released:**
