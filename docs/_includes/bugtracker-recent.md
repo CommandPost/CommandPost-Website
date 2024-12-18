@@ -1,6 +1,8 @@
+- [FCP XML issue when importing to Davinci Resolve studio 19.1 using CommandPost (December 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3409){target="_blank"}
 - [Stuck keys on DaVinci Resolve Editors Keyboard (December 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3403){target="_blank"}
 - [Error Message Displayed: Failed to switch back to Final Cut Pro when Batch exporting active timeline  (September 30, 2024)](https://github.com/CommandPost/CommandPost/issues/3378){target="_blank"}
 - [Color Board Reset Actions not working (September 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3376){target="_blank"}
+- [ipc port is no longer valid (early) (September 23, 2024)](https://github.com/CommandPost/CommandPost/issues/3375){target="_blank"}
 - [Media Watch Folder Notification Says "Incoming" But Never Imports (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3371){target="_blank"}
 - [Manually Added MIDI Applications missing on restart (July 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3361){target="_blank"}
 - ["Select Middle of Next Clip in Same Lane" Action Broken? (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3357){target="_blank"}
@@ -26,5 +28,3 @@
 - [streamdeck mk.2 error (June 30, 2023)](https://github.com/CommandPost/CommandPost/issues/3233){target="_blank"}
 - [Need to know a safe procedure for aborting long job (like exporting all clips) (March 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3201){target="_blank"}
 - [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
-- [Problem HUD (March 9, 2023)](https://github.com/CommandPost/CommandPost/issues/3191){target="_blank"}
-- [Slow down during color control while using tangent ripple (January 12, 2023)](https://github.com/CommandPost/CommandPost/issues/3172){target="_blank"}
