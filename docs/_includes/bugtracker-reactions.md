@@ -1,3 +1,7 @@
+- [[Bug] Garbled Text in Tangent Mapper When Using Final Cut Pro in Chinese (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3434){target="_blank"}
+- [Bugs in sample Lua Snippets (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3433){target="_blank"}
+- [Compatibility issues with CommandPost on macOS Sonoma and Final Cut Pro Trial – Search Console & Modifier Key not working (March 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3431){target="_blank"}
+- [Sony Timecode repair not working in FCP 11.0.1 (February 5, 2025)](https://github.com/CommandPost/CommandPost/issues/3424){target="_blank"}
 - [FCP XML issue when importing to Davinci Resolve studio 19.1 using CommandPost (December 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3409){target="_blank"}
 - [Stuck keys on DaVinci Resolve Editors Keyboard (December 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3403){target="_blank"}
 - [Error Message Displayed: Failed to switch back to Final Cut Pro when Batch exporting active timeline  (September 30, 2024)](https://github.com/CommandPost/CommandPost/issues/3378){target="_blank"}
@@ -24,7 +28,3 @@
 - [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265){target="_blank"}
 - [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251){target="_blank"}
 - [Rename Clip Action fails on macOS 13.5 (August 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3250){target="_blank"}
-- [Ignore ESC when in fullscreen broken (July 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3243){target="_blank"}
-- [streamdeck mk.2 error (June 30, 2023)](https://github.com/CommandPost/CommandPost/issues/3233){target="_blank"}
-- [Need to know a safe procedure for aborting long job (like exporting all clips) (March 26, 2023)](https://github.com/CommandPost/CommandPost/issues/3201){target="_blank"}
-- [Problem selecting correct audio Limiter Action (March 11, 2023)](https://github.com/CommandPost/CommandPost/issues/3192){target="_blank"}
