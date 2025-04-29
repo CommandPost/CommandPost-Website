@@ -1,30 +1,30 @@
-- [[Bug] Garbled Text in Tangent Mapper When Using Final Cut Pro in Chinese (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3434){target="_blank"}
-- [Bugs in sample Lua Snippets (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3433){target="_blank"}
-- [Compatibility issues with CommandPost on macOS Sonoma and Final Cut Pro Trial – Search Console & Modifier Key not working (March 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3431){target="_blank"}
-- [Sony Timecode repair not working in FCP 11.0.1 (February 5, 2025)](https://github.com/CommandPost/CommandPost/issues/3424){target="_blank"}
-- [FCP XML issue when importing to Davinci Resolve studio 19.1 using CommandPost (December 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3409){target="_blank"}
-- [Stuck keys on DaVinci Resolve Editors Keyboard (December 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3403){target="_blank"}
-- [Error Message Displayed: Failed to switch back to Final Cut Pro when Batch exporting active timeline  (September 30, 2024)](https://github.com/CommandPost/CommandPost/issues/3378){target="_blank"}
-- [Color Board Reset Actions not working (September 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3376){target="_blank"}
-- [ipc port is no longer valid (early) (September 23, 2024)](https://github.com/CommandPost/CommandPost/issues/3375){target="_blank"}
-- [Media Watch Folder Notification Says "Incoming" But Never Imports (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3371){target="_blank"}
-- [Manually Added MIDI Applications missing on restart (July 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3361){target="_blank"}
-- ["Select Middle of Next Clip in Same Lane" Action Broken? (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3357){target="_blank"}
-- [When using Stream Deck to select a preset Chinese font with a shortcut key, the font cannot be found. However, when selecting an English font, it can be found. (June 19, 2024)](https://github.com/CommandPost/CommandPost/issues/3347){target="_blank"}
-- [Speed editor jog wheel stops responding after a while (June 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3346){target="_blank"}
-- [Loopdeck CT title shortcut overwriting problem on existing title (May 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3342){target="_blank"}
-- [Razer support broken on Sonoma - hidutil now requires sudo (May 2, 2024)](https://github.com/CommandPost/CommandPost/issues/3337){target="_blank"}
-- [Failed to cache Audio Units & Unable to change the language of the software (April 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3336){target="_blank"}
-- [Unmount external drives when switching to battery power is not working (April 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3335){target="_blank"}
-- [Main screen not updating on Loupedeck CT (Hardware Version 02.00) (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328){target="_blank"}
-- [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326){target="_blank"}
-- [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316){target="_blank"}
-- [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299){target="_blank"}
-- [Speed Editor Jog Wheel Doesn't Respond to Actions when moved very slowly (December 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3292){target="_blank"}
-- [Commit Multicam Clip on Retimed Multicam clip will not work (November 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3284){target="_blank"}
-- [Text to Speech: assign Roles, add Caption, add to notes field (FCP 10.6.10) (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3282){target="_blank"}
-- [Unable to enable Command Line Support (CommandPost v1.4.22 (Build: 7972) - macOS 14.0 on Apple M1) (October 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3278){target="_blank"}
-- [Force FCP to select a specific secondary monitor on a 3 monitor setup (+ more) (September 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3268){target="_blank"}
-- [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265){target="_blank"}
-- [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251){target="_blank"}
-- [Rename Clip Action fails on macOS 13.5 (August 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3250){target="_blank"}
+- [Trim to Playhead command not working with Loupedeck (April 11, 2025)](https://github.com/CommandPost/CommandPost/issues/3435)
+- [[Bug] Garbled Text in Tangent Mapper When Using Final Cut Pro in Chinese (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3434)
+- [Bugs in sample Lua Snippets (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3433)
+- [Compatibility issues with CommandPost on macOS Sonoma and Final Cut Pro Trial – Search Console & Modifier Key not working (March 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3431)
+- [Sony Timecode repair not working in FCP 11.0.1 (February 5, 2025)](https://github.com/CommandPost/CommandPost/issues/3424)
+- [FCP XML issue when importing to Davinci Resolve studio 19.1 using CommandPost (December 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3409)
+- [Stuck keys on DaVinci Resolve Editors Keyboard (December 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3403)
+- [Error Message Displayed: Failed to switch back to Final Cut Pro when Batch exporting active timeline  (September 30, 2024)](https://github.com/CommandPost/CommandPost/issues/3378)
+- [Color Board Reset Actions not working (September 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3376)
+- [ipc port is no longer valid (early) (September 23, 2024)](https://github.com/CommandPost/CommandPost/issues/3375)
+- [Media Watch Folder Notification Says "Incoming" But Never Imports (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3371)
+- [Manually Added MIDI Applications missing on restart (July 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3361)
+- ["Select Middle of Next Clip in Same Lane" Action Broken? (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3357)
+- [When using Stream Deck to select a preset Chinese font with a shortcut key, the font cannot be found. However, when selecting an English font, it can be found. (June 19, 2024)](https://github.com/CommandPost/CommandPost/issues/3347)
+- [Speed editor jog wheel stops responding after a while (June 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3346)
+- [Loopdeck CT title shortcut overwriting problem on existing title (May 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3342)
+- [Razer support broken on Sonoma - hidutil now requires sudo (May 2, 2024)](https://github.com/CommandPost/CommandPost/issues/3337)
+- [Failed to cache Audio Units & Unable to change the language of the software (April 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3336)
+- [Unmount external drives when switching to battery power is not working (April 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3335)
+- [Main screen not updating on Loupedeck CT (Hardware Version 02.00) (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328)
+- [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326)
+- [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316)
+- [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299)
+- [Speed Editor Jog Wheel Doesn't Respond to Actions when moved very slowly (December 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3292)
+- [Commit Multicam Clip on Retimed Multicam clip will not work (November 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3284)
+- [Text to Speech: assign Roles, add Caption, add to notes field (FCP 10.6.10) (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3282)
+- [Unable to enable Command Line Support (CommandPost v1.4.22 (Build: 7972) - macOS 14.0 on Apple M1) (October 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3278)
+- [Force FCP to select a specific secondary monitor on a 3 monitor setup (+ more) (September 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3268)
+- [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265)
+- [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251)
