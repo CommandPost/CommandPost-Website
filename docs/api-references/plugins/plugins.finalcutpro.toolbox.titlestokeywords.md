@@ -38,7 +38,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Add Space After Sequence                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L54){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L54) |
 
 ---
 
@@ -51,7 +51,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Duration of the titles created by "Create Titles from Text"                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L114){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L114) |
 
 ---
 
@@ -64,7 +64,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Merge With Existing Event?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L74){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L74) |
 
 ---
 
@@ -77,7 +77,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Padding Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L124){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L124) |
 
 ---
 
@@ -90,7 +90,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Prefix Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L94){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L94) |
 
 ---
 
@@ -103,7 +103,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Project from Event                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L69){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L69) |
 
 ---
 
@@ -116,7 +116,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Project from Event                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L64){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L64) |
 
 ---
 
@@ -129,7 +129,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Start or End Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L104){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L104) |
 
 ---
 
@@ -142,7 +142,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Start With Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L109){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L109) |
 
 ---
 
@@ -155,7 +155,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Step With Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L119){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L119) |
 
 ---
 
@@ -168,7 +168,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Suffix Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L99){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L99) |
 
 ---
 
@@ -181,7 +181,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Text Editor Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L84){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L84) |
 
 ---
 
@@ -194,7 +194,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Text Editor Two Value                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L89){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L89) |
 
 ---
 
@@ -207,7 +207,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Treat FAVORITE and REJECT as ratings instead of keywords                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L59){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L59) |
 
 ---
 
@@ -220,7 +220,7 @@ Converts Titles to Keywords
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Use Title Contents Instead of Title Name?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L79){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/titlestokeywords/init.lua#L79) |
 
 ---
 

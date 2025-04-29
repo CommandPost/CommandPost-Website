@@ -51,7 +51,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default log level for new logger instances.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/logger/logger.lua line 203](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L203){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 203](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L203) |
 
 ---
 
@@ -69,7 +69,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>a list of (at most `hs.logger.historySize()`) log entries produced by all the logger instances, in chronological order;</li><li>   each entry is a table with the following fields:</li><li>  time - timestamp in seconds since the epoch</li><li>  level - a number between 1 (error) and 5 (verbose)</li><li>  id - a string containing the id of the logger instance that produced this entry</li><li>  message - a string containing the logged message</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 94](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L94){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 94](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L94) |
 
 ---
 
@@ -85,7 +85,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>the current or new history size</li></ul>          |
 | **Notes**                                   | <ul><li>if you change history size (other than from 0) after creating any logger instances, things will likely break</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L69){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L69) |
 
 ---
 
@@ -101,7 +101,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>the new logger instance</li></ul>          |
 | **Notes**                                   | <ul><li>the logger instance created by this method is not a regular object, but a plain table with "static" functions;</li><li>   therefore, do not use the colon syntax for so-called "methods" in this module (as in `mylogger.setLogLevel(3)`);</li><li>   you must instead use the regular dot syntax: `mylogger.setLogLevel(3)`</li><li></li><li>Example:</li><li>```lua</li><li>local log = hs.logger.new('mymodule','debug')</li><li>log.i('Initializing') -- will print "[mymodule] Initializing" to the console```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 211](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L211){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 211](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L211) |
 
 ---
 
@@ -117,7 +117,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L139){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L139) |
 
 ---
 
@@ -133,7 +133,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 30](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L30){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 30](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L30) |
 
 ---
 
@@ -149,7 +149,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function only affects *module*-level loggers, object instances with their own loggers (e.g. windowfilters) won't be affected;</li><li>   you can use `hs.logger.setGlobalLogLevel()` for those</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 46](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L46){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 46](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L46) |
 
 ---
 
@@ -164,7 +164,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The log level of the logger instance, as a number between 0 and 5                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/logger/logger.lua line 285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L285){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L285) |
 
 ---
 
@@ -182,7 +182,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 352](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L352){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 352](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L352) |
 
 ---
 
@@ -198,7 +198,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 362](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L362){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 362](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L362) |
 
 ---
 
@@ -214,7 +214,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 289](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L289){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 289](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L289) |
 
 ---
 
@@ -230,7 +230,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 299](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L299){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 299](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L299) |
 
 ---
 
@@ -246,7 +246,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 341](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L341){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 341](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L341) |
 
 ---
 
@@ -262,7 +262,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>The log level of this logger as a number between 0 and 5</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L275){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L275) |
 
 ---
 
@@ -278,7 +278,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 331](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L331){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 331](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L331) |
 
 ---
 
@@ -294,7 +294,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 265](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L265){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 265](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L265) |
 
 ---
 
@@ -310,7 +310,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 373](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L373){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 373](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L373) |
 
 ---
 
@@ -326,7 +326,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 383](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L383){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 383](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L383) |
 
 ---
 
@@ -342,7 +342,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 310](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L310){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 310](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L310) |
 
 ---
 
@@ -358,7 +358,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/logger/logger.lua line 320](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L320){target="_blank"} |
+| **Source**                                  | [extensions/logger/logger.lua line 320](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L320) |
 
 ---
 

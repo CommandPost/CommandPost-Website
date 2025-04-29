@@ -39,7 +39,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An `hs.pathwatcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>For more information about the event flags, see [the official documentation](https://developer.apple.com/reference/coreservices/1455361-fseventstreameventflags/)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 83](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L83){target="_blank"} |
+| **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 83](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L83) |
 
 ---
 
@@ -57,7 +57,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.pathwatcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 153](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L153){target="_blank"} |
+| **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 153](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L153) |
 
 ---
 
@@ -73,7 +73,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 175](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L175){target="_blank"} |
+| **Source**                                  | [extensions/pathwatcher/libpathwatcher.m line 175](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pathwatcher/libpathwatcher.m#L175) |
 
 ---
 

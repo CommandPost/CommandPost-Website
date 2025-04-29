@@ -36,7 +36,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul><li>The optional values must be entered in order (i.e. you can't supply `style` without also supplying `buttonOne` and `buttonTwo`).</li><li>[style] can be "warning", "informational" or "critical". If something other than these string values is given, it will use "informational".</li><li>Example:</li><li>     ```lua</li><li>     testCallbackFn = function(result) print("Callback Result: " .. result) end</li><li>     hs.dialog.alert(100, 100, testCallbackFn, "Message", "Informative Text", "Button One", "Button Two", "NSCriticalAlertStyle")</li><li>     hs.dialog.alert(200, 200, testCallbackFn, "Message", "Informative Text", "Single Button")```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/dialog.lua line 20](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/dialog.lua#L20){target="_blank"} |
+| **Source**                                  | [extensions/dialog/dialog.lua line 20](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/dialog.lua#L20) |
 
 ---
 
@@ -52,7 +52,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 | **Returns**                                 | <ul><li>The value of the button as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>The optional values must be entered in order (i.e. you can't supply `style` without also supplying `buttonOne` and `buttonTwo`).</li><li>[style] can be "warning", "informational" or "critical". If something other than these string values is given, it will use "warning".</li><li>Example:</li><li>     `hs.dialog.blockAlert("Message", "Informative Text", "Button One", "Button Two", "critical")`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 564](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L564){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 564](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L564) |
 
 ---
 
@@ -68,7 +68,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 | **Returns**                                 | <ul><li>The selected files in a table or `nil` if cancel was pressed.</li></ul>          |
 | **Notes**                                   | <ul><li>The optional values must be entered in order (i.e. you can't supply `allowsMultipleSelection` without also supplying `canChooseFiles` and `canChooseDirectories`).</li><li>Example:</li><li>     `hs.inspect(hs.dialog.chooseFileOrFolder("Please select a file:", "~/Desktop", true, false, true, {"jpeg", "pdf"}, true))`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 327](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L327){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 327](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L327) |
 
 ---
 
@@ -84,7 +84,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 | **Returns**                                 | <ul><li>The value of the button as a string</li><li>The value of the text input as a string</li></ul>          |
 | **Notes**                                   | <ul><li>`buttonOne` defaults to "OK" if no value is supplied.</li><li>`buttonOne` will also be triggered by pressing `ENTER`, whereas `buttonTwo` will be triggered by pressing `ESC`.</li><li>Examples:</li><li>     `hs.dialog.textPrompt("Main message.", "Please enter something:")`</li><li>     `hs.dialog.textPrompt("Main message.", "Please enter something:", "Default Value", "OK")`</li><li>     `hs.dialog.textPrompt("Main message.", "Please enter something:", "Default Value", "OK", "Cancel")`</li><li>     `hs.dialog.textPrompt("Main message.", "Please enter something:", "", "OK", "Cancel", true)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 665](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L665){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 665](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L665) |
 
 ---
 
@@ -100,7 +100,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul><li>This alert is will prevent the user from interacting with the `hs.webview` until a button is pressed on the alert.</li><li>The optional values must be entered in order (i.e. you can't supply `style` without also supplying `buttonOne` and `buttonTwo`).</li><li>[style] can be "warning", "informational" or "critical". If something other than these string values is given, it will use "informational".</li><li>Example:</li><li>     ```lua</li><li>     testCallbackFn = function(result) print("Callback Result: " .. result) end</li><li>     testWebviewA = hs.webview.newBrowser(hs.geometry.rect(250, 250, 250, 250)):show()</li><li>     testWebviewB = hs.webview.newBrowser(hs.geometry.rect(450, 450, 450, 450)):show()</li><li>     hs.dialog.webviewAlert(testWebviewA, testCallbackFn, "Message", "Informative Text", "Button One", "Button Two", "warning")</li><li>     hs.dialog.webviewAlert(testWebviewB, testCallbackFn, "Message", "Informative Text", "Single Button")```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 440](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L440){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 440](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L440) |
 
 ---
 

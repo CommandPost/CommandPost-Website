@@ -30,7 +30,7 @@ delayed, up to a finite number of loops.
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/just/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L42){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/just/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L42) |
 
 ---
 
@@ -46,7 +46,7 @@ delayed, up to a finite number of loops.
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/just/init.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L16){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/just/init.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L16) |
 
 ---
 
@@ -62,7 +62,7 @@ delayed, up to a finite number of loops.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/just/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/just/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L68) |
 
 ---
 

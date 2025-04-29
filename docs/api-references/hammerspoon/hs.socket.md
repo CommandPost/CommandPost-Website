@@ -107,7 +107,7 @@ The document has moved
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Timeout for the socket operations, in seconds.                                                                     |
 | **Notes**                                   | <ul><li>New [`hs.socket`](#new) objects will be created with this timeout value, but can individually change it with the [`hs.socket:setTimeout`](#setTimeout) method.</li><li></li><li>If the timeout value is negative, the operations will not use a timeout. The default value is `-1`.</li></ul> |
-| **Source**                                  | [extensions/socket/socket.lua line 162](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L162){target="_blank"} |
+| **Source**                                  | [extensions/socket/socket.lua line 162](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L162) |
 
 ---
 
@@ -125,7 +125,7 @@ The document has moved
 | **Returns**                                 | <ul><li>A table describing the address with the following keys or `nil`:</li><li> host - A string containing the host IP.</li><li> port - A number containing the port.</li><li> addressFamily - A number containing the address family.</li></ul>          |
 | **Notes**                                   | <ul><li>Some address family definitions from `<sys/socket.h>`:</li><li></li><li>address family | number | description</li><li>:--- | :--- | :</li><li>AF_UNSPEC | 0 | unspecified</li><li>AF_UNIX | 1 | local to host (pipes)</li><li>AF_LOCAL | AF_UNIX | backward compatibility</li><li>AF_INET | 2 | internetwork: UDP, TCP, etc.</li><li>AF_NS | 6 | XEROX NS protocols</li><li>AF_CCITT | 10 | CCITT protocols, X.25 etc</li><li>AF_APPLETALK | 16 | Apple Talk</li><li>AF_ROUTE | 17 | Internal Routing Protocol</li><li>AF_LINK | 18 | Link layer interface</li><li>AF_INET6 | 30 | IPv6</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L187){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L187) |
 
 ---
 
@@ -143,7 +143,7 @@ The document has moved
 | **Returns**                                 | <ul><li>An [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L154){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L154) |
 
 ---
 
@@ -159,7 +159,7 @@ The document has moved
 | **Returns**                                 | <ul><li>An [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/socket.lua line 190](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L190){target="_blank"} |
+| **Source**                                  | [extensions/socket/socket.lua line 190](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L190) |
 
 ---
 
@@ -177,7 +177,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Either a host/port pair OR a Unix domain socket path must be supplied. If no port is passed, the first parameter is assumed to be a path to the socket file.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 234](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L234){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 234](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L234) |
 
 ---
 
@@ -193,7 +193,7 @@ The document has moved
 | **Returns**                                 | <ul><li>`true` if the socket is connected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>If the socket is bound for listening, this method returns `true` if there is at least one connection.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L572){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L572) |
 
 ---
 
@@ -209,7 +209,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The number of connections to the socket.</li></ul>          |
 | **Notes**                                   | <ul><li>This method returns at most 1 for default (non-listening) sockets.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 593](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L593){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 593](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L593) |
 
 ---
 
@@ -225,7 +225,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>If called on a listening socket with multiple connections, each client is disconnected.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 345](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L345){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 345](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L345) |
 
 ---
 
@@ -241,7 +241,7 @@ The document has moved
 | **Returns**                                 | <ul><li>A table containing the following keys:</li><li>  connectedAddress - `string` (`sockaddr` struct)</li><li>  connectedHost - `string`</li><li>  connectedPort - `number`</li><li>  connectedURL - `string`</li><li>  connections - `number`</li><li>  isConnected - `boolean`</li><li>  isDisconnected - `boolean`</li><li>  isIPv4 - `boolean`</li><li>  isIPv4Enabled - `boolean`</li><li>  isIPv4PreferredOverIPv6 - `boolean`</li><li>  isIPv6 - `boolean`</li><li>  isIPv6Enabled - `boolean`</li><li>  isSecure - `boolean`</li><li>  localAddress - `string` (`sockaddr` struct)</li><li>  localHost - `string`</li><li>  localPort - `number`</li><li>  timeout - `number`</li><li>  unixSocketPath - `string`</li><li>  userData - `string`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 614](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L614){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 614](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L614) |
 
 ---
 
@@ -257,7 +257,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 297](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L297){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 297](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L297) |
 
 ---
 
@@ -273,7 +273,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Results are passed to the socket's [callback function](#setCallback), which must be set to use this method.</li><li>If called on a listening socket with multiple connections, data is read from each of them.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 369](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L369){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 369](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L369) |
 
 ---
 
@@ -288,7 +288,7 @@ The document has moved
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/socket/socket.lua line 225](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L225){target="_blank"} |
+| **Source**                                  | [extensions/socket/socket.lua line 225](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L225) |
 
 ---
 
@@ -303,7 +303,7 @@ The document has moved
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/socket/socket.lua line 231](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L231){target="_blank"} |
+| **Source**                                  | [extensions/socket/socket.lua line 231](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L231) |
 
 ---
 
@@ -321,7 +321,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>A callback must be set in order to read data from the socket.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 473](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L473){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 473](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L473) |
 
 ---
 
@@ -337,7 +337,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li> If the timeout value is negative, the operations will not use a timeout, which is the default.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 503](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L503){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 503](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L503) |
 
 ---
 
@@ -353,7 +353,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>The socket will disconnect immediately if TLS negotiation fails. </li><li>**IMPORTANT SECURITY NOTE**: The default settings will check to make sure the remote party's certificate is signed by a trusted 3rd party certificate agency (e.g. verisign) and that the certificate is not expired.  However it will not verify the name on the certificate unless you give it a name to verify against via `peerName`.  The security implications of this are important to understand.  Imagine you are attempting to create a secure connection to MySecureServer.com, but your socket gets directed to MaliciousServer.com because of a hacked DNS server.  If you simply use the default settings, and MaliciousServer.com has a valid certificate, the default settings will not detect any problems since the certificate is valid.  To properly secure your connection in this particular scenario you should set `peerName` to "MySecureServer.com".</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 527](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L527){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 527](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L527) |
 
 ---
 
@@ -369,7 +369,7 @@ The document has moved
 | **Returns**                                 | <ul><li>The [`hs.socket`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>If called on a listening socket with multiple connections, data is broadcast to all connected sockets.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/socket/libsocket.m line 429](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L429){target="_blank"} |
+| **Source**                                  | [extensions/socket/libsocket.m line 429](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket.m#L429) |
 
 ---
 

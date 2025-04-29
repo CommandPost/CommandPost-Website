@@ -32,7 +32,7 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>The new `ReplaySubject.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L18){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L18) |
 
 ---
 
@@ -50,7 +50,7 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L78){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L78) |
 
 ---
 
@@ -66,7 +66,7 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L40){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L40) |
 
 ---
 

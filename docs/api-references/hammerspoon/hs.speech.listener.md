@@ -40,7 +40,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>a speech recognizer object or nil, if the system was unable to create a new recognizer.</li></ul>          |
 | **Notes**                                   | <ul><li>You can change the title later with the `hs.speech.listener:title` method.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L62){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L62) |
 
 ---
 
@@ -58,7 +58,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L187){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L187) |
 
 ---
 
@@ -74,7 +74,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul><li>The list of commands will appear in the Dictation Commands window, if it is visible, under the title of this speech recognizer.  The text of each command is a possible value which may be sent as the second argument to a callback function for this speech recognizer, if one is defined.</li><li>Setting this to an empty list does not disable the speech recognizer, but it does make it of limited use, other than to provide a title in the Dictation Commands window.  To disable the recognizer, use the `hs.speech.listener:stop` or `hs.speech.listener:delete` methods.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 97](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L97){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 97](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L97) |
 
 ---
 
@@ -90,7 +90,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>this disables the speech recognizer and removes it from the list in the Dictation Commands window.  The object is effectively destroyed, so you will need to create a new one with `hs.speech.listener.new` if you want to bring it back.</li><li>if this was the only speech recognizer currently available, the Dictation Commands window and feedback display will be removed from the users display.</li><li>this method is automatically called during a reload or restart of Hammerspoon.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 338](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L338){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 338](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L338) |
 
 ---
 
@@ -106,7 +106,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 165](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L165){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 165](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L165) |
 
 ---
 
@@ -122,7 +122,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>true if the listener is listening (has been started) or false if it is not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 250](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L250){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 250](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L250) |
 
 ---
 
@@ -138,7 +138,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>the recognizer object</li></ul>          |
 | **Notes**                                   | <ul><li>Possible string values for the command spoken are set with the `hs.speech.listener:commands` method.</li><li>Removing the callback does not disable the speech recognizer, but it does make it of limited use, other than to provide a list in the Dictation Commands window.  To disable the recognizer, use the `hs.speech.listener:stop` or `hs.speech.listener:delete` methods.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 267](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L267){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 267](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L267) |
 
 ---
 
@@ -154,7 +154,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>returns the recognizer object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 209](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L209){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 209](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L209) |
 
 ---
 
@@ -170,7 +170,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>returns the recognizer object.</li></ul>          |
 | **Notes**                                   | <ul><li>this only disables the speech recognizer.  To completely remove it from the list in the Dictation Commands window, use `hs.speech.listener:delete`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 228](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L228){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 228](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L228) |
 
 ---
 
@@ -186,7 +186,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 | **Returns**                                 | <ul><li>If no parameter is provided, returns the current value; otherwise returns the recognizer object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/speech/libspeech_listener.m line 138](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L138){target="_blank"} |
+| **Source**                                  | [extensions/speech/libspeech_listener.m line 138](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/speech/libspeech_listener.m#L138) |
 
 ---
 

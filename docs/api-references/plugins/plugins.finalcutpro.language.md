@@ -27,7 +27,7 @@ Final Cut Pro Language Plugin.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/language/init.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/language/init.lua#L18){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/language/init.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/language/init.lua#L18) |
 
 ---
 

@@ -71,7 +71,7 @@ See:
 | **Returns**                                 | <ul><li>`true` if the thing is a `Element` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This is a type method, not an instance method or a type function. It is called with `:` on the type itself,</li><li>   not an instance. For example `Element:isTypeOf(value)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L86){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L86) |
 
 ---
 
@@ -87,7 +87,7 @@ See:
 | **Returns**                                 | <ul><li>`true` if the element is a valid instance of an `hs.axuielement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L103){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L103) |
 
 ---
 
@@ -105,7 +105,7 @@ See:
 | **Returns**                                 | <ul><li>The new `Element` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L121){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L121) |
 
 ---
 
@@ -120,7 +120,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the table containing the `x`, `y`, `w`, and `h` values for the `Element` frame, or `nil` if not available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 386](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L386){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 386](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L386) |
 
 ---
 
@@ -133,7 +133,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AX` identifier for the element.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 372](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L372){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 372](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L372) |
 
 ---
 
@@ -146,7 +146,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the `Element` is visible and enabled.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L379){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L379) |
 
 ---
 
@@ -159,7 +159,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the `AXFocused` attribute is `true`. Not always a reliable way to determine focus however.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L393){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L393) |
 
 ---
 
@@ -172,7 +172,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the `Element` is showing on screen.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L194){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L194) |
 
 ---
 
@@ -185,7 +185,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the table containing the `x` and `y` values for the `Element` frame, or `nil` if not available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 400](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L400){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 400](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L400) |
 
 ---
 
@@ -198,7 +198,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AX` role name for the element.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L358){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L358) |
 
 ---
 
@@ -211,7 +211,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the table containing the `w` and `h` values for the `Element` frame, or `nil` if not available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L408){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L408) |
 
 ---
 
@@ -224,7 +224,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AX` subrole name for the element.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 365](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L365){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 365](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L365) |
 
 ---
 
@@ -237,7 +237,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'AXValue' of the element, if it is a `string`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L164){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L164) |
 
 ---
 
@@ -250,7 +250,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'AXTitle' of the element.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L187){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L187) |
 
 ---
 
@@ -263,7 +263,7 @@ See:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'AXValue' of the element.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L157){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L157) |
 
 ---
 
@@ -281,7 +281,7 @@ See:
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 429](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L429){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 429](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L429) |
 
 ---
 
@@ -297,7 +297,7 @@ See:
 | **Returns**                                 | <ul><li>The current value for the attribute, or `nil` if the `UI` is not available, followed by `true` if the `UI` is present and was called.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 265](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L265){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 265](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L265) |
 
 ---
 
@@ -313,7 +313,7 @@ See:
 | **Returns**                                 | <ul><li>The same `Element` class instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The order of the argument names here is the order in which they will be passed to the `Element` constructor, no matter what</li><li>   order they are called on the `Builder` itself.</li><li>Once defined, the class can be accessed via the static `<Element Name>.Builder` of the `Element` subclass.</li><li>For example, if you have a `cp.ui.Element` subclass named `MyElement`, with an extra `alpha` and `beta` constructor argument, you can do this:</li><li>   ```lua</li><li>   -- The class definition</li><li>   local MyElement = Element:subclass("cp.ui.MyElement"):defineBuilder("withAlpha", "withBeta")</li><li>   -- The constructor</li><li>   function MyElement.Builder:initialize(parent, uiFinder, alpha, beta)</li><li>       Element.initialize(self, parent, uiFinder)</li><li>       self.alpha = alpha</li><li>       self.beta = beta</li><li>   end</li><li>   -- Create a callable `MyClass.Builder` instance</li><li>   local myElementBuilder = MyElement:withAlpha(1):withBeta(2)</li><li>   -- alternately, same result:</li><li>   local myElementBuilder = MyElement:withBeta(2):withAlpha(1)</li><li>   -- Alternately, same result:</li><li>   local myElementBuilder = MyElement.Builder():withAlpha(1):withBeta(2)</li><li>   -- Create an instance of `MyClass`:</li><li>   local myElement = myElementBuilder(parent, uiFinder)</li><li>   ```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L33){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L33) |
 
 ---
 
@@ -329,7 +329,7 @@ See:
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 251](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L251){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 251](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L251) |
 
 ---
 
@@ -345,7 +345,7 @@ See:
 | **Returns**                                 | <ul><li>The `Statement` which will perform the action.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 462](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L462){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 462](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L462) |
 
 ---
 
@@ -361,7 +361,7 @@ See:
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md) to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, to enable backwards-compatibility, this method will simply call the [#loadLayout]. Override it to provide more optimal asynchonous behaviour if required.</li><li>When subclassing, the overriding `doLayout` method should call the parent class's `doLayout` method,</li><li>then process any custom values from it, like so:</li><li>   ```lua</li><li>   function MyElement:doLayout(layout)</li><li>       layout = layout or {}</li><li>       return Do(Element.doLayout(self, layout))</li><li>       :Then(function()</li><li>           self.myConfig = layout.myConfig</li><li>       end)</li><li>       :Label("MyElement:doLayout")</li><li>   end</li><li>   ```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 574](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L574){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 574](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L574) |
 
 ---
 
@@ -377,7 +377,7 @@ See:
 | **Returns**                                 | <ul><li>The `Statement` which will perform the action.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L339){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L339) |
 
 ---
 
@@ -393,7 +393,7 @@ See:
 | **Returns**                                 | <ul><li>The `Statement` which will perform the action and resolve to `true` if the UI is available and set, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L319){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L319) |
 
 ---
 
@@ -409,7 +409,7 @@ See:
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L206){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L206) |
 
 ---
 
@@ -425,7 +425,7 @@ See:
 | **Returns**                                 | <ul><li>self, boolean - the boolean indicates if the focus was set.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L238){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L238) |
 
 ---
 
@@ -441,7 +441,7 @@ See:
 | **Returns**                                 | <ul><li>the same `Element` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 507](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L507){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 507](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L507) |
 
 ---
 
@@ -457,7 +457,7 @@ See:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>When subclassing, the overriding `loadLayout` method should call the parent's `loadLayout` method,</li><li>then process any custom values from it, like so:</li><li>   ```</li><li>   function MyElement:loadLayout(layout)</li><li>       Element.loadLayout(self, layout)</li><li>       self.myConfig = layout.myConfig</li><li>   end</li><li>   ```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 547](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L547){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 547](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L547) |
 
 ---
 
@@ -473,7 +473,7 @@ See:
 | **Returns**                                 | <ul><li>parent</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 416](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L416){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 416](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L416) |
 
 ---
 
@@ -489,7 +489,7 @@ See:
 | **Returns**                                 | <ul><li>`true` if the `UI` is available and the action was performed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L301){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L301) |
 
 ---
 
@@ -505,7 +505,7 @@ See:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>When subclassing, the overriding `saveLayout` method should call the parent's saveLayout method,</li><li>then add values to it, like so:</li><li>   ```</li><li>   function MyElement:saveLayout()</li><li>       local layout = Element.saveLayout(self)</li><li>       layout.myConfig = self.myConfig</li><li>       return layout</li><li>   end</li><li>   ```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 523](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L523){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 523](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L523) |
 
 ---
 
@@ -521,7 +521,7 @@ See:
 | **Returns**                                 | <ul><li>The `Element` instance, then `true` if the UI is available and the value was set, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L282){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L282) |
 
 ---
 
@@ -537,7 +537,7 @@ See:
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L221){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L221) |
 
 ---
 
@@ -553,7 +553,7 @@ See:
 | **Returns**                                 | <ul><li>The `hs.image` that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 443](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L443){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 443](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L443) |
 
 ---
 
@@ -569,7 +569,7 @@ See:
 | **Returns**                                 | <ul><li>`true` if the current [#value] is equal to the provided `value`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Element.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L174){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Element.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Element.lua#L174) |
 
 ---
 

@@ -28,7 +28,7 @@ Volume Slider
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/widgets/volume.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/volume.lua#L42){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/widgets/volume.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/volume.lua#L42) |
 
 ---
 
@@ -44,7 +44,7 @@ Volume Slider
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/widgets/volume.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/volume.lua#L17){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/widgets/volume.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/volume.lua#L17) |
 
 ---
 

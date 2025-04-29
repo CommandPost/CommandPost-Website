@@ -50,7 +50,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The new `cp.strings`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L198){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L198) |
 
 ---
 
@@ -68,7 +68,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>string:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L34){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L34) |
 
 ---
 
@@ -84,7 +84,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L130){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L130) |
 
 ---
 
@@ -100,7 +100,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L185){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L185) |
 
 ---
 
@@ -116,7 +116,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L92){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L92) |
 
 ---
 
@@ -132,7 +132,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>Not recommended in production code, as it will potentially be very inefficient.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L167){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L167) |
 
 ---
 
@@ -148,7 +148,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L111){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L111) |
 
 ---
 
@@ -164,7 +164,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L63){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L63) |
 
 ---
 
@@ -180,7 +180,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/strings/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L79){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L79) |
 
 ---
 

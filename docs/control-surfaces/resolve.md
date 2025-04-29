@@ -1,6 +1,6 @@
 # Resolve
 
-CommandPost allows full control over the [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02){target="_blank"} and [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard){target="_blank"}.
+CommandPost allows full control over the [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02) and [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard).
 
 DaVinci Resolve will totally override CommandPost when running, even if DaVinci Resolve is just running in the background.
 

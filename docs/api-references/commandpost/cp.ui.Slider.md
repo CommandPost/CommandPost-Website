@@ -46,7 +46,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L12){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L12) |
 
 ---
 
@@ -64,7 +64,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>A new `Slider` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L25){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L25) |
 
 ---
 
@@ -79,7 +79,7 @@ Slider Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the maximum value of the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L53) |
 
 ---
 
@@ -92,7 +92,7 @@ Slider Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the minimum value of the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L46){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L46) |
 
 ---
 
@@ -105,7 +105,7 @@ Slider Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Sets or gets the value of the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L39){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L39) |
 
 ---
 
@@ -123,7 +123,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L147){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L147) |
 
 ---
 
@@ -139,7 +139,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>The value as a number.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L117){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L117) |
 
 ---
 
@@ -155,7 +155,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>The value as a number.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L104){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L104) |
 
 ---
 
@@ -171,7 +171,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>The value of the slider as a number.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L60){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L60) |
 
 ---
 
@@ -187,7 +187,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L130){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L130) |
 
 ---
 
@@ -203,7 +203,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L196){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L196) |
 
 ---
 
@@ -219,7 +219,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>A table containing the current Slider Layout.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L181){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L181) |
 
 ---
 
@@ -235,7 +235,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L73){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L73) |
 
 ---
 
@@ -251,7 +251,7 @@ Slider Module.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L87){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L87) |
 
 ---
 

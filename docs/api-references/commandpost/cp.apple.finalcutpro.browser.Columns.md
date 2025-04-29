@@ -34,7 +34,7 @@ Final Cut Pro Browser List View Columns
 | **Returns**                                 | <ul><li>The new `Columns` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L22){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L22) |
 
 ---
 
@@ -49,7 +49,7 @@ Final Cut Pro Browser List View Columns
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Columns menu object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L81) |
 
 ---
 
@@ -67,7 +67,7 @@ Final Cut Pro Browser List View Columns
 | **Returns**                                 | <ul><li>`true` if the columns menu popup is showing, otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L68) |
 
 ---
 
@@ -83,7 +83,7 @@ Final Cut Pro Browser List View Columns
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L38){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L38) |
 
 ---
 

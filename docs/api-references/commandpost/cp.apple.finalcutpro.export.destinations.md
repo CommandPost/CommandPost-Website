@@ -89,7 +89,7 @@ back after you restart FCPX.
 | **Returns**                                 | <ul><li>The index of the named Destination, or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/destinations.lua line 253](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/destinations.lua#L253){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/destinations.lua line 253](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/destinations.lua#L253) |
 
 ---
 
@@ -105,7 +105,7 @@ back after you restart FCPX.
 | **Returns**                                 | <ul><li>The table of Share Destination names, or `nil` if an error has occurred.</li><li>An error message as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/destinations.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/destinations.lua#L138){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/destinations.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/destinations.lua#L138) |
 
 ---
 

@@ -43,7 +43,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>`true` if the element is a RadioGroup.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L27){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L27) |
 
 ---
 
@@ -61,7 +61,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The new `RadioGroup` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L40){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L40) |
 
 ---
 
@@ -76,7 +76,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of options in the group.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L56){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L56) |
 
 ---
 
@@ -90,7 +90,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Description**                             | A `table` containing `cp.ui.Element` available in the radio group.                                                                     |
 | **Returns**                                 | <ul><li>The `cp.prop` of options.</li></ul>          |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L81) |
 
 ---
 
@@ -104,7 +104,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Description**                             | A `cp.prop` containing `table` of `axuielement` options available in the radio group.                                                                     |
 | **Returns**                                 | <ul><li>The `cp.prop` of options.</li></ul>          |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L68) |
 
 ---
 
@@ -117,7 +117,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The currently selected option number.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L102) |
 
 ---
 
@@ -135,7 +135,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `Statement`, that resolves to `true` if successful or sends an error if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L179){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L179) |
 
 ---
 
@@ -151,7 +151,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `Statement`, which resolves to `true` if successful or sends an error if not..</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L218){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L218) |
 
 ---
 
@@ -167,7 +167,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful or send an error if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L135){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L135) |
 
 ---
 
@@ -183,7 +183,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `RadioGroup`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L160){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L160) |
 
 ---
 
@@ -199,7 +199,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 | **Returns**                                 | <ul><li>The `RadioGroup`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L199){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/RadioGroup.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioGroup.lua#L199) |
 
 ---
 

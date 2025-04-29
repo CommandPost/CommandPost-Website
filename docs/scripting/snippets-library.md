@@ -4,7 +4,7 @@ This page contains a collection of useful Lua Snippets organised in alphabetical
 
 You can learn more about Lua [here](../developer/lua-overview/).
 
-Also remember that CommandPost is entirely written in Lua, so you can [explore the source code](https://github.com/CommandPost/CommandPost/tree/develop/src){target="_blank"} to see how we've built things.
+Also remember that CommandPost is entirely written in Lua, so you can [explore the source code](https://github.com/CommandPost/CommandPost/tree/develop/src) to see how we've built things.
 
 ---
 

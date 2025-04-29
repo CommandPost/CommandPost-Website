@@ -83,7 +83,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table of zero or more audio devices connected to the system</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L173){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L173) |
 
 ---
 
@@ -99,7 +99,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table of zero or more audio input devices connected to the system</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 141](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L141){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 141](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L141) |
 
 ---
 
@@ -115,7 +115,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table of zero or more audio output devices connected to the system</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L128){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L128) |
 
 ---
 
@@ -131,7 +131,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table with the following contents:</li><li>```lua</li><li>    {</li><li>        name = defaultOutputDevice():name(),</li><li>        uid = module.defaultOutputDevice():uid(),</li><li>        muted = defaultOutputDevice():muted(),</li><li>        volume = defaultOutputDevice():volume(),</li><li>        device = defaultOutputDevice(),</li><li>    }</li><li>```</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 15](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L15){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 15](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L15) |
 
 ---
 
@@ -147,7 +147,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice object, or nil if no suitable device could be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L315){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L315) |
 
 ---
 
@@ -163,7 +163,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice object, or nil if no suitable device could be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 284](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L284){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 284](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L284) |
 
 ---
 
@@ -179,7 +179,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice object, or nil if no suitable device could be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 253](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L253){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 253](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L253) |
 
 ---
 
@@ -195,7 +195,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An `hs.audiodevice` object or nil if the device could not be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L50){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L50) |
 
 ---
 
@@ -211,7 +211,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An `hs.audiodevice` object or nil if the device could not be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L63){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L63) |
 
 ---
 
@@ -227,7 +227,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 89](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L89){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 89](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L89) |
 
 ---
 
@@ -243,7 +243,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L115){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L115) |
 
 ---
 
@@ -259,7 +259,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 76](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L76){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 76](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L76) |
 
 ---
 
@@ -275,7 +275,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L102){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/audiodevice.lua line 102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/audiodevice.lua#L102) |
 
 ---
 
@@ -293,7 +293,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A list of hs.audiodevice.dataSource objects, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1499](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1499){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1499](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1499) |
 
 ---
 
@@ -309,7 +309,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A list of hs.audiodevice.dataSource objects, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1446](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1446){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1446](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1446) |
 
 ---
 
@@ -325,7 +325,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A number between 0.0 and 1.0, representing the balance (0.0 for full left, 1.0 for full right, 0.5 for center), or nil if the audio device does not support balance</li></ul>          |
 | **Notes**                                   | <ul><li>The return value will be a floating point number</li><li>This method will inspect the device to determine if it is an input or output device, and return the appropriate volume. For devices that are both input and output devices, see `:inputVolume()` and `:outputVolume()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1067](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1067){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1067](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1067) |
 
 ---
 
@@ -341,7 +341,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice.dataSource object, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>Before calling this method, you should check the result of hs.audiodevice:supportsInputDataSources()</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1372](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1372){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1372](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1372) |
 
 ---
 
@@ -357,7 +357,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An hs.audiodevice.dataSource object, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>Before calling this method, you should check the result of hs.audiodevice:supportsOutputDataSources()</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1409](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1409){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1409](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1409) |
 
 ---
 
@@ -373,7 +373,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the audio device's Input is muted. False if it's not muted, nil if it does not support muting</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 563](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L563){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 563](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L563) |
 
 ---
 
@@ -389,7 +389,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A number between 0 and 100, representing the input volume percentage, or nil if the audio device does not support input volume levels</li></ul>          |
 | **Notes**                                   | <ul><li>The return value will be a floating point number</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 794](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L794){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 794](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L794) |
 
 ---
 
@@ -405,7 +405,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the audio device is in use, False if not. nil if an error occurred.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 521](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L521){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 521](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L521) |
 
 ---
 
@@ -421,7 +421,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the device is an input device, false if not</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1185](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1185){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1185](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1185) |
 
 ---
 
@@ -437,7 +437,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the device is an output device, false if not</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1165](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1165){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1165](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1165) |
 
 ---
 
@@ -453,7 +453,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if a jack is connected, false if not, or nil if the device does not support jack sense</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1284](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1284){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1284](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1284) |
 
 ---
 
@@ -469,7 +469,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the audio device is muted, False if it is not muted, nil if it does not support muting</li></ul>          |
 | **Notes**                                   | <ul><li>If a device is capable of both input and output, this method will prefer the output. See `:inputMuted()` and `:outputMuted()` for specific variants.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 635](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L635){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 635](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L635) |
 
 ---
 
@@ -485,7 +485,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A string containing the name of the audio device, or nil if it has no name</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 448](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L448){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 448](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L448) |
 
 ---
 
@@ -501,7 +501,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the audio device's Output is muted. False if it's not muted, nil if it does not support muting</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 599](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L599){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 599](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L599) |
 
 ---
 
@@ -517,7 +517,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A number between 0 and 100, representing the output volume percentage, or nil if the audio device does not support output volume levels</li></ul>          |
 | **Notes**                                   | <ul><li>The return value will be a floating point number</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 835](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L835){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 835](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L835) |
 
 ---
 
@@ -533,7 +533,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the balance was set, false if the audio device does not support setting a balance.</li></ul>          |
 | **Notes**                                   | <ul><li>This method will inspect the device to determine if it is an input or output device, and set the appropriate volume. For devices that are both input and output devices, see `:setInputVolume()` and `:setOutputVolume()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1112](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1112){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1112](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1112) |
 
 ---
 
@@ -549,7 +549,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the audio device was successfully selected, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 382](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L382){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 382](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L382) |
 
 ---
 
@@ -565,7 +565,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the audio device was successfully selected, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 415](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L415){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 415](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L415) |
 
 ---
 
@@ -581,7 +581,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the audio device was successfully selected, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 349](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L349){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 349](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L349) |
 
 ---
 
@@ -597,7 +597,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the device's Input mutedness state was set, or False if it does not support muting</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 678](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L678){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 678](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L678) |
 
 ---
 
@@ -613,7 +613,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the volume was set, false if the audio device does not support setting an input volume level</li></ul>          |
 | **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 921](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L921){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 921](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L921) |
 
 ---
 
@@ -629,7 +629,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the device's mutedness state was set, or False if it does not support muting</li></ul>          |
 | **Notes**                                   | <ul><li>If a device is capable of both input and output, this method will prefer the output. See `:setInputMuted()` and `:setOutputMuted()` for specific variants.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 751](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L751){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 751](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L751) |
 
 ---
 
@@ -645,7 +645,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the device's Output mutedness state was set, or False if it does not support muting</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 714](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L714){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 714](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L714) |
 
 ---
 
@@ -661,7 +661,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the volume was set, false if the audio device does not support setting an output volume level</li></ul>          |
 | **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 967](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L967){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 967](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L967) |
 
 ---
 
@@ -677,7 +677,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>True if the volume was set, false if the audio device does not support setting a volume level.</li></ul>          |
 | **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments.</li><li>This method will inspect the device to determine if it is an input or output device, and set the appropriate volume. For devices that are both input and output devices, see `:setInputVolume()` and `:setOutputVolume()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1013](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1013){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1013](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1013) |
 
 ---
 
@@ -693,7 +693,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the device supports input data sources, false if not</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1318](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1318){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1318](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1318) |
 
 ---
 
@@ -709,7 +709,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the device supports output data sources, false if not</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1345](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1345){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1345](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1345) |
 
 ---
 
@@ -725,7 +725,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A string containing the transport type, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1205](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1205){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1205](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1205) |
 
 ---
 
@@ -741,7 +741,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A string containing the UID of the audio device, or nil if it has no UID.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 482](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L482){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 482](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L482) |
 
 ---
 
@@ -757,7 +757,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A number between 0 and 100, representing the volume percentage, or nil if the audio device does not support volume levels</li></ul>          |
 | **Notes**                                   | <ul><li>The return value will be a floating point number</li><li>This method will inspect the device to determine if it is an input or output device, and return the appropriate volume. For devices that are both input and output devices, see `:inputVolume()` and `:outputVolume()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 876](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L876){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 876](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L876) |
 
 ---
 
@@ -789,7 +789,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.audiodevice` object</li></ul>          |
 | **Notes**                                   | <ul><li>You will receive many events to your callback, so filtering on the name/scope/element arguments is vital. For example, on a stereo device, it is not uncommon to receive a `volm` event for each audio channel when the volume changes, or multiple `mute` events for channels. Dragging a volume slider in the system Sound preferences will produce a large number of `volm` events. Plugging/unplugging headphones may trigger `volm` events in addition to `jack` ones, etc.</li><li>If you need to use the `hs.audiodevice` object in your callback, use `hs.audiodevice.findDeviceByUID()` to obtain it fro the first callback argument</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1552](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1552){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1552](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1552) |
 
 ---
 
@@ -805,7 +805,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the watcher is running, false if not</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1698](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1698){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1698](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1698) |
 
 ---
 
@@ -821,7 +821,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.audiodevice` object, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1608](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1608){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1608](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1608) |
 
 ---
 
@@ -837,7 +837,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.audiodevice` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1676](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1676){target="_blank"} |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1676](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1676) |
 
 ---
 

@@ -32,7 +32,7 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L79){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L79) |
 
 ---
 
@@ -48,7 +48,7 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L92){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L92) |
 
 ---
 
@@ -64,7 +64,7 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L40){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L40) |
 
 ---
 
@@ -80,7 +80,7 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L53){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L53) |
 
 ---
 
@@ -96,7 +96,7 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>The ID of the current File Dropped to Dock Icon Callback as a `string`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L66){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L66) |
 
 ---
 
@@ -112,7 +112,7 @@ Virtual Touch Bar Update Location Callback
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L13){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/location.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/location.lua#L13) |
 
 ---
 

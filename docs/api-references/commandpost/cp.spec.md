@@ -205,7 +205,7 @@ cp.spec "*" ()
 | **Returns**                                 | <ul><li>A `function` that must be called with the set of [definitions](cp.spec.Definition.md) or [suites](cp.spec.Specification.md) to run.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//spec.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L200){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//spec.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L200) |
 
 ---
 
@@ -221,7 +221,7 @@ cp.spec "*" ()
 | **Returns**                                 | <ul><li>The spec or `nil` and an error message.</li></ul>          |
 | **Notes**                                   | <ul><li>Essentially, this is a standard `require` id/path to the spec file, with an optional `"*"` at the end to indicate that all specs available under that path should be loaded. Eg. "foo.bar" will find the specific spec at `foo/bar_spec.lua` or `foo/bar/._spec.lua`, or if those don't exist it will see if there is a `foo/bar_test.lua` or `foo/bar/._test.lua` and load that via [test](#test) instead.</li><li>However, if the pattern is "foo.bar.*", it will not only look for those specs, but will also check under that folder for other `_spec.lua` or `_test.lua` files to add to the collection to run.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//spec.lua line 566](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L566){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//spec.lua line 566](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L566) |
 
 ---
 
@@ -237,7 +237,7 @@ cp.spec "*" ()
 | **Returns**                                 | <ul><li>A `cp.spec.Scenario` object</li></ul>          |
 | **Notes**                                   | <ul><li>See [doing](cp.spec.Scenario.md#doing) for more details regarding the function.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//spec.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L211){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//spec.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L211) |
 
 ---
 
@@ -253,7 +253,7 @@ cp.spec "*" ()
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//spec.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L234){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//spec.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L234) |
 
 ---
 
@@ -269,7 +269,7 @@ cp.spec "*" ()
 | **Returns**                                 | <ul><li>The [Definition](cp.spec.Definition.md), or throws an error.</li></ul>          |
 | **Notes**                                   | <ul><li>It will first look for a file ending with `_spec.lua`, then will look for a file named `_spec.lua` in the folder.</li><li>For example, if you run `require "cp.spec" "foo.bar"`, it will first look for `"foo/bar_spec.lua"`, then `"foo/bar/_spec.lua"`.</li><li>This gives flexibility for extensions that are organised as single files or as folders.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//spec.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L363){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//spec.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L363) |
 
 ---
 
@@ -285,7 +285,7 @@ cp.spec "*" ()
 | **Returns**                                 | <ul><li>The `Definition` or throws an error if it can't be found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//spec.lua line 433](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L433){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//spec.lua line 433](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//spec.lua#L433) |
 
 ---
 

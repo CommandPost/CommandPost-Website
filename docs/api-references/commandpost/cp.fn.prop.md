@@ -27,7 +27,7 @@ A module of free-standing functions for working with [cp.prop](cp.prop.md) value
 | **Returns**                                 | <ul><li>A [cp.prop](cp.prop.md) that is the result of the mutation.</li></ul>          |
 | **Notes**                                   | <ul><li>Unlike `cp.prop:mutate(...)`, the `getFn` receives the actual current value when called, rather than the `cp.prop` itself, and no additional parameters.</li><li>Also unlike `cp.prop:mutate(...)`, the `setFn` is called with the mutated value and the current value, rather than the `cp.prop` itself, and no additional parameters.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/prop.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/prop.lua#L9){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/prop.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/prop.lua#L9) |
 
 ---
 

@@ -34,7 +34,7 @@ Touch Bar Widgets Manager
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Widget Manager                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L46){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L46) |
 
 ---
 
@@ -52,7 +52,7 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L96){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L96) |
 
 ---
 
@@ -70,7 +70,7 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>table containing the widget</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L44){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L44) |
 
 ---
 
@@ -86,7 +86,7 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L57){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L57) |
 
 ---
 
@@ -102,7 +102,7 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>The ID of the widget as a `string`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L70){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L70) |
 
 ---
 
@@ -118,7 +118,7 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L20){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L20) |
 
 ---
 
@@ -134,7 +134,7 @@ Touch Bar Widgets Manager
 | **Returns**                                 | <ul><li>The paramaters of the widget</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L83){target="_blank"} |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L83) |
 
 ---
 

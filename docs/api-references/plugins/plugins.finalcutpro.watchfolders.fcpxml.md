@@ -49,7 +49,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Seconds until a file is deleted.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L31){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L31) |
 
 ---
 
@@ -64,7 +64,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not new generated voice file are automatically added to the timeline or not.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L61){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L61) |
 
 ---
 
@@ -77,7 +77,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not you want to delete file after they've been imported.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L71){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L71) |
 
 ---
 
@@ -90,7 +90,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | When `true` Notifications will no longer be triggered.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L56){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L56) |
 
 ---
 
@@ -103,7 +103,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Files currently being copied                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L41){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L41) |
 
 ---
 
@@ -116,7 +116,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Notifications                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L51){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L51) |
 
 ---
 
@@ -129,7 +129,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Notifications that are saved between restarts                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L66){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L66) |
 
 ---
 
@@ -142,7 +142,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of the users watch folders.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L76){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L76) |
 
 ---
 
@@ -155,7 +155,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watch Folder Table ID                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L36){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L36) |
 
 ---
 
@@ -173,7 +173,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 559](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L559){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 559](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L559) |
 
 ---
 
@@ -189,7 +189,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L170){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L170) |
 
 ---
 
@@ -205,7 +205,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L408){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L408) |
 
 ---
 
@@ -221,7 +221,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>Returns a HTML table as a string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L81){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L81) |
 
 ---
 
@@ -237,7 +237,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 337](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L337){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 337](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L337) |
 
 ---
 
@@ -253,7 +253,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>Table of the module.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 659](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L659){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 659](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L659) |
 
 ---
 
@@ -269,7 +269,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L295){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L295) |
 
 ---
 
@@ -285,7 +285,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 532](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L532){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 532](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L532) |
 
 ---
 
@@ -301,7 +301,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L145){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L145) |
 
 ---
 
@@ -317,7 +317,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L545){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L545) |
 
 ---
 
@@ -333,7 +333,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L619){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L619) |
 
 ---
 
@@ -349,7 +349,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>Returns Style Sheet as a string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L190){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L190) |
 
 ---
 
@@ -365,7 +365,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 436](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L436){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/fcpxml/init.lua line 436](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/fcpxml/init.lua#L436) |
 
 ---
 

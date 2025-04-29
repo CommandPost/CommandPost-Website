@@ -32,7 +32,7 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L21) |
 
 ---
 
@@ -47,7 +47,7 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The TextArea that displays the content.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L84){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L84) |
 
 ---
 
@@ -60,7 +60,7 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ScrollArea](cp.ui.ScrollArea.md) that displays the contained [TextArea](cp.ui.TextArea.md).                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L77){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L77) |
 
 ---
 
@@ -73,7 +73,7 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The StaticText that displays the label.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L63){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandDetail.lua#L63) |
 
 ---
 

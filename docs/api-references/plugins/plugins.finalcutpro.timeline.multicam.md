@@ -27,7 +27,7 @@ Multicam Tools.
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/multicam.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/multicam.lua#L25){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/multicam.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/multicam.lua#L25) |
 
 ---
 

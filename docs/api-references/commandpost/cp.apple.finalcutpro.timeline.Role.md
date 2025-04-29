@@ -46,7 +46,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Contains the list of [strings](cp.apple.finalcutpro.strings.md) used for default roles.                                                                     |
 | **Notes**                                   | <ul><li>CAPTIONS - "Captions"</li><li>VIDEO - "Video"</li><li>TITLES - "Titles"</li><li>DIALOGUE - "Dialogue"</li><li>MUSIC - "Music"</li><li>EFFECTS - "Effects"</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L25){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L25) |
 
 ---
 
@@ -59,7 +59,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Contains the set of role types.                                                                     |
 | **Notes**                                   | <ul><li>VIDEO - A Video Role</li><li>AUDIO - An Audio Role</li><li>CAPTION - A Caption Role</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L45){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L45) |
 
 ---
 
@@ -77,7 +77,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L87){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L87) |
 
 ---
 
@@ -93,7 +93,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>`true` if the thing is a `Table` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L74){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L74) |
 
 ---
 
@@ -109,7 +109,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L59){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L59) |
 
 ---
 
@@ -127,7 +127,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>The new `Role` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L109){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L109) |
 
 ---
 
@@ -142,7 +142,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that determines if the `Role` is active in the timeline.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L159){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L159) |
 
 ---
 
@@ -155,7 +155,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The AXCell `axuielement` containing the Role details.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L141){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L141) |
 
 ---
 
@@ -168,7 +168,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Type**                                    | Field                                                                     |
 | **Description**                             | This is `true` if the `Role` is an Subrole [Row](cp.ui.OldRow.md).                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L150){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L150) |
 
 ---
 
@@ -181,7 +181,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [StaticText](cp.ui.StaticText.md) containing the title.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L168){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L168) |
 
 ---
 
@@ -199,7 +199,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 177](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L177){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 177](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L177) |
 
 ---
 
@@ -215,7 +215,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L190){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L190) |
 
 ---
 
@@ -231,7 +231,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 | **Returns**                                 | <ul><li>Role Type</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L128){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Role.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Role.lua#L128) |
 
 ---
 

@@ -30,7 +30,7 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/messages/messages.lua line 18](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/messages/messages.lua#L18){target="_blank"} |
+| **Source**                                  | [extensions/messages/messages.lua line 18](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/messages/messages.lua#L18) |
 
 ---
 
@@ -46,7 +46,7 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/messages/messages.lua line 32](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/messages/messages.lua#L32){target="_blank"} |
+| **Source**                                  | [extensions/messages/messages.lua line 32](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/messages/messages.lua#L32) |
 
 ---
 

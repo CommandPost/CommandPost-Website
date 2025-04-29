@@ -29,7 +29,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Audio" filter.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L126){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L126) |
 
 ---
 
@@ -42,7 +42,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Titles" filter.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L135){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L135) |
 
 ---
 
@@ -55,7 +55,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Video" filter.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L117){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L117) |
 
 ---
 
@@ -73,7 +73,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L90){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L90) |
 
 ---
 

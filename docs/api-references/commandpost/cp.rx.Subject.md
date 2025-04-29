@@ -35,7 +35,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>The `Subject`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L21) |
 
 ---
 
@@ -53,7 +53,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L127){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L127) |
 
 ---
 
@@ -69,7 +69,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L105){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L105) |
 
 ---
 
@@ -85,7 +85,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L86){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L86) |
 
 ---
 
@@ -101,7 +101,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L39){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/Subject.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Subject.lua#L39) |
 
 ---
 

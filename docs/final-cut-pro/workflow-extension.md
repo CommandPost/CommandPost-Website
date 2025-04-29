@@ -14,4 +14,4 @@ Because of this, you can resize the window to make it as small as possible, and 
 
 We don't currently have any plans to add any features to the Workflow Extension as we already have the CommandPost HUD, which offers similar functionality in a more streamlined user interface.
 
-If you have any ideas or suggestions on how we could enhance the Workflow Extension, [let us know](https://github.com/CommandPost/CommandPost/issues){target="_blank"}.
+If you have any ideas or suggestions on how we could enhance the Workflow Extension, [let us know](https://github.com/CommandPost/CommandPost/issues).

@@ -36,7 +36,7 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>`true` if is a mode otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L32){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L32) |
 
 ---
 
@@ -54,7 +54,7 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li> *</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L16){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L16) |
 
 ---
 
@@ -72,7 +72,7 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L69){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L69) |
 
 ---
 
@@ -88,7 +88,7 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>```lua</li><li>function() -> nil</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L45){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L45) |
 
 ---
 
@@ -104,7 +104,7 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L82){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L82) |
 
 ---
 
@@ -120,7 +120,7 @@ Represents a Tangent Mode
 | **Returns**                                 | <ul><li>The `xml` for the Mode.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L104){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/mode.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/mode.lua#L104) |
 
 ---
 

@@ -94,7 +94,7 @@ The `"withLeftOf"` value will still be passed to the constructor first, because 
 | **Returns**                                 | <ul><li>A new `Element` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Builder.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Builder.lua#L105){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Builder.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Builder.lua#L105) |
 
 ---
 

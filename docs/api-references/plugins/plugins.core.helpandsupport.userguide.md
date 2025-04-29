@@ -27,7 +27,7 @@ User Guide Menu Item.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/helpandsupport/userguide.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/helpandsupport/userguide.lua#L12){target="_blank"} |
+| **Source**                                  | [src/plugins/core/helpandsupport/userguide.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/helpandsupport/userguide.lua#L12) |
 
 ---
 

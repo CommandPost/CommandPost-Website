@@ -36,7 +36,7 @@ Watch for USB device connection/disconnection events
 | **Returns**                                 | <ul><li>A `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/usb/libusb_watcher.m line 177](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L177){target="_blank"} |
+| **Source**                                  | [extensions/usb/libusb_watcher.m line 177](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L177) |
 
 ---
 
@@ -54,7 +54,7 @@ Watch for USB device connection/disconnection events
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/usb/libusb_watcher.m line 212](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L212){target="_blank"} |
+| **Source**                                  | [extensions/usb/libusb_watcher.m line 212](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L212) |
 
 ---
 
@@ -70,7 +70,7 @@ Watch for USB device connection/disconnection events
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/usb/libusb_watcher.m line 251](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L251){target="_blank"} |
+| **Source**                                  | [extensions/usb/libusb_watcher.m line 251](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L251) |
 
 ---
 

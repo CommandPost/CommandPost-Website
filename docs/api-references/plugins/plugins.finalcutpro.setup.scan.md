@@ -27,7 +27,7 @@ Show setup panel if Final Cut Pro needs scanning.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/setup/scan.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/setup/scan.lua#L17){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/setup/scan.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/setup/scan.lua#L17) |
 
 ---
 

@@ -44,7 +44,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A collection of UTF-8 characters already converted from codepoint and available as convenient key-value pairs.  UTF-8 printable versions of common Apple and OS X special keys are predefined and others can be added with `hs.utf8.registerCodepoint(label, codepoint)` for your own use.                                                                     |
 | **Notes**                                   | <ul><li>This table has a __tostring() metamethod which allows listing it's contents in the Hammerspoon console by typing `hs.utf8.registeredKeys`.</li><li>For parity with `hs.utf8.registeredLabels`, this can also invoked as a function, i.e. `hs.utf8.registeredKeys["cmd"]` is equivalent to `hs.utf8.registeredKeys("cmd")`</li></ul> |
-| **Source**                                  | [extensions/utf8/utf8.lua line 188](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L188){target="_blank"} |
+| **Source**                                  | [extensions/utf8/utf8.lua line 188](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L188) |
 
 ---
 
@@ -62,7 +62,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 | **Returns**                                 | <ul><li>The cleaned up string, with non-printable characters escaped.</li></ul>          |
 | **Notes**                                   | <ul><li>Because Unicode characters outside of the basic ascii alphabet are multi-byte characters, any UTF8 or other Unicode encoded character will be broken up into their individual bytes and likely escaped by this function.</li><li>This function is useful for displaying binary data in a human readable way that might otherwise be inexpressible in the Hammerspoon console or other destination.  For example:</li><li>  `utf8.charpattern`, which contains the regular expression for matching valid UTF8 encoded sequences, results in `(null)` in the Hammerspoon console, but `hs.utf8.asciiOnly(utf8.charpattern)` will display `[\x00-\x7F\xC2-\xF4][\x80-\xBF]*`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/utf8/utf8.lua line 296](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L296){target="_blank"} |
+| **Source**                                  | [extensions/utf8/utf8.lua line 296](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L296) |
 
 ---
 
@@ -78,7 +78,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 | **Returns**                                 | <ul><li>A string containing the UTF-8 byte sequences corresponding to provided codepoints as a combined string.</li></ul>          |
 | **Notes**                                   | <ul><li>Valid codepoint values are from 0x0000 - 0x10FFFF (0 - 1114111)</li><li>If the codepoint provided is a string that starts with U+, then the 'U+' is converted to a '0x' so that lua can properly treat the value as numeric.</li><li>Invalid codepoints are returned as the Unicode Replacement Character (U+FFFD)</li><li>  This includes out of range codepoints as well as the Unicode Surrogate codepoints (U+D800 - U+DFFF)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/utf8/utf8.lua line 72](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L72){target="_blank"} |
+| **Source**                                  | [extensions/utf8/utf8.lua line 72](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L72) |
 
 ---
 
@@ -94,7 +94,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 | **Returns**                                 | <ul><li>outString - The contents of `inString` with all invalid UTF8 byte sequences replaced by the `replacementChar`.</li><li>posTable - a table of indexes in `outString` corresponding indicating where `replacementChar` has been used.</li></ul>          |
 | **Notes**                                   | <ul><li>This function is a slight modification to code found at http://notebook.kulchenko.com/programming/fixing-malformed-utf8-in-lua.</li><li>If `replacementChar` is a multi-byte character (like U+FFFD) or multi character string, then the string length of `outString` will be longer than the string length of `inString`.  The character positions in `posTable` will reflect these new positions in `outString`.</li><li>To calculate the character position of the invalid characters in `inString`, use something like the following:</li><li></li><li>      outString, outErrors = hs.utf8.fixUTF8(inString, replacement)</li><li>      inErrors = {}</li><li>      for i,p in ipairs(outErrors) do</li><li>          table.insert(inErrors, p - ((i - 1)string.length(replacement) - 1))</li><li>      end</li><li></li><li>   Where replacement is `utf8.char(0xFFFD)`, if you leave it out of the `hs.utf8.fixUTF8` function in the first line.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/utf8/utf8.lua line 121](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L121){target="_blank"} |
+| **Source**                                  | [extensions/utf8/utf8.lua line 121](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L121) |
 
 ---
 
@@ -110,7 +110,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 | **Returns**                                 | <ul><li>a string containing the hex dump of the input string.</li></ul>          |
 | **Notes**                                   | <ul><li>Like hs.utf8.asciiOnly, this function will break up Unicode characters into their individual bytes.</li><li>As an example:</li><li>     `hs.utf8.hexDump(utf8.charpattern)` will return</li><li>     `00 : 5B 00 2D 7F C2 2D F4 5D 5B 80 2D BF 5D 2A        : [.-..-.][.-.]*`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/utf8/utf8.lua line 328](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L328){target="_blank"} |
+| **Source**                                  | [extensions/utf8/utf8.lua line 328](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L328) |
 
 ---
 
@@ -126,7 +126,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 | **Returns**                                 | <ul><li>Returns the UTF-8 byte sequence for the Unicode codepoint registered.</li></ul>          |
 | **Notes**                                   | <ul><li>If a codepoint label was previously registered, this will overwrite the previous value with a new one.  Because many of the special keys you may want to register have different variants, this allows you to easily modify the existing predefined defaults to suite your preferences.</li><li>The return value is merely syntactic sugar and you do not need to save it locally; it can be safely ignored -- future access to the pre-converted codepoint should be retrieved as `hs.utf8.registeredKeys[label]` in your code.  It looks good when invoked from the console, though ☺.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/utf8/utf8.lua line 169](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L169){target="_blank"} |
+| **Source**                                  | [extensions/utf8/utf8.lua line 169](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L169) |
 
 ---
 
@@ -142,7 +142,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 | **Returns**                                 | <ul><li>The string label for the UTF8 character or a string in the format of "U+XXXX", if it is not defined in `hs.utf8.registeredKeys[]`, or nil, if utf8char is not a valid UTF8 character.</li></ul>          |
 | **Notes**                                   | <ul><li>For parity with `hs.utf8.registeredKeys`, this can also be invoked as if it were an array: i.e. `hs.utf8.registeredLabels(char)` is equivalent to `hs.utf8.registeredLabels[char]`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/utf8/utf8.lua line 46](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L46){target="_blank"} |
+| **Source**                                  | [extensions/utf8/utf8.lua line 46](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L46) |
 
 ---
 

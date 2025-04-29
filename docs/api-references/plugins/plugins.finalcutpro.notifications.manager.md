@@ -31,7 +31,7 @@ Notifications Manager Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event Types                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L16){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L16) |
 
 ---
 
@@ -46,7 +46,7 @@ Notifications Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watchers                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L139){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L139) |
 
 ---
 
@@ -64,7 +64,7 @@ Notifications Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L159){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L159) |
 
 ---
 
@@ -80,7 +80,7 @@ Notifications Manager Plugin.
 | **Returns**                                 | <ul><li>The ID of the watcher as string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L144){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L144) |
 
 ---
 

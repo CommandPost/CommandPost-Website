@@ -48,7 +48,7 @@ end
 | **Returns**                                 | <ul><li>The Bundle ID string, or `nil` if it's not a `cp.app.prefs`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/app/prefs.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L122){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/app/prefs.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L122) |
 
 ---
 
@@ -64,7 +64,7 @@ end
 | **Returns**                                 | <ul><li>The current value, or `defaultValue` if not set.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/app/prefs.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L162){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/app/prefs.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L162) |
 
 ---
 
@@ -80,7 +80,7 @@ end
 | **Returns**                                 | <ul><li>`true` if if's a `prefs`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/app/prefs.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L109){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/app/prefs.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L109) |
 
 ---
 
@@ -96,7 +96,7 @@ end
 | **Returns**                                 | <ul><li>The `cp.prop` for the key.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/app/prefs.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L222){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/app/prefs.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L222) |
 
 ---
 
@@ -112,7 +112,7 @@ end
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `value` equals the `defaultValue`, the preference is removed rather than being `set`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/app/prefs.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L186){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/app/prefs.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L186) |
 
 ---
 
@@ -130,7 +130,7 @@ end
 | **Returns**                                 | <ul><li>A new `cp.app.prefs` with read/write access to the application's preferences.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/app/prefs.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L94){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/app/prefs.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/app/prefs.lua#L94) |
 
 ---
 

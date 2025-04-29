@@ -47,7 +47,7 @@ If a # is place before the timecode, it will create a "To Do" marker.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/browser/pasteboardtomarkers.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/pasteboardtomarkers.lua#L296){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/browser/pasteboardtomarkers.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/pasteboardtomarkers.lua#L296) |
 
 ---
 
@@ -63,7 +63,7 @@ If a # is place before the timecode, it will create a "To Do" marker.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/browser/pasteboardtomarkers.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/pasteboardtomarkers.lua#L41){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/browser/pasteboardtomarkers.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/pasteboardtomarkers.lua#L41) |
 
 ---
 

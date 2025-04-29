@@ -41,7 +41,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `InfoBar`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L23){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L23) |
 
 ---
 
@@ -59,7 +59,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Returns**                                 | <ul><li>The new `InfoBar`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L46){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L46) |
 
 ---
 
@@ -74,7 +74,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the full format text value, or `nil` if not available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L77){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L77) |
 
 ---
 
@@ -87,7 +87,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Field" value for the current clip, as a [StaticText](cp.ui.StaticText.md)                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L66){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L66) |
 
 ---
 
@@ -100,7 +100,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the framerate as a number, or `nil` if not available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L84){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L84) |
 
 ---
 
@@ -113,7 +113,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the Title of the clip in the Viewer as a [StaticText](cp.ui.StaticText.md).                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L104){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L104) |
 
 ---
 
@@ -126,7 +126,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the Title of the clip in the Viewer as a [StaticText](cp.ui.StaticText.md).                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L95){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L95) |
 
 ---
 
@@ -139,7 +139,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) for the "View" menu.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L111){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L111) |
 
 ---
 
@@ -152,7 +152,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) for the "Zoom Level" menu.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L120){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/InfoBar.lua#L120) |
 
 ---
 

@@ -34,7 +34,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L24){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L24) |
 
 ---
 
@@ -49,7 +49,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [axuielement](cp.prop.axuielement) for the content Group.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L52){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L52) |
 
 ---
 
@@ -62,7 +62,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Table` that displays the contents.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L87){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L87) |
 
 ---
 
@@ -75,7 +75,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ScrollArea` that displays the detail.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L77){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L77) |
 
 ---
 
@@ -88,7 +88,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Image` that displays the key.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L68) |
 
 ---
 
@@ -101,7 +101,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `StaticText` that displays the label.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L59){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L59) |
 
 ---
 

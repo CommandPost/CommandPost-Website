@@ -37,7 +37,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The value for `AXOrientation` when it is horizontal.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L17){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L17) |
 
 ---
 
@@ -50,7 +50,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The value for `AXOrientation` when it is vertical.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L12){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L12) |
 
 ---
 
@@ -68,7 +68,7 @@ Represents an `AXSplitter`.
 | **Returns**                                 | <ul><li>`true` if the value matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L22){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L22) |
 
 ---
 
@@ -83,7 +83,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `Splitter` is horizontal, otherwise `false`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L77){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L77) |
 
 ---
 
@@ -96,7 +96,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The maximum value of the splitter.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L33){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L33) |
 
 ---
 
@@ -109,7 +109,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The minimum value of the splitter.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L40){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L40) |
 
 ---
 
@@ -122,7 +122,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielementObject` for the next contents of the splitter.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L47){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L47) |
 
 ---
 
@@ -135,7 +135,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `AXOrientation` string.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L61){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L61) |
 
 ---
 
@@ -148,7 +148,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielementObject` for the previous contents of the splitter.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L54){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L54) |
 
 ---
 
@@ -161,7 +161,7 @@ Represents an `AXSplitter`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `Splitter` is vertical, otherwise `false`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Splitter.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Splitter.lua#L68) |
 
 ---
 

@@ -41,7 +41,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L90){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L90) |
 
 ---
 
@@ -54,7 +54,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Icons.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L85){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L85) |
 
 ---
 
@@ -72,7 +72,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1297](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1297){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1297](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1297) |
 
 ---
 
@@ -88,7 +88,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1248](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1248){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1248](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1248) |
 
 ---
 
@@ -104,7 +104,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 906](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L906){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 906](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L906) |
 
 ---
 
@@ -122,7 +122,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The deviceType should be either `hs.loupedeck.deviceTypes.LIVE`</li><li>   or `hs.loupedeck.deviceTypes.CT`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L110){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L110) |
 
 ---
 
@@ -140,7 +140,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>HTML content as string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 631](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L631){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 631](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L631) |
 
 ---
 
@@ -156,7 +156,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 734](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L734){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 734](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L734) |
 
 ---
 
@@ -172,7 +172,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1384](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1384){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1384](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1384) |
 
 ---
 
@@ -188,7 +188,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1370](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1370){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 1370](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L1370) |
 
 ---
 
@@ -204,7 +204,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>HTML content as string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 585](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L585){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 585](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L585) |
 
 ---
 
@@ -220,7 +220,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 694](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L694){target="_blank"} |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/prefs/init.lua line 694](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/prefs/init.lua#L694) |
 
 ---
 

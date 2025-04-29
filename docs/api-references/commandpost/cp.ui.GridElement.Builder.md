@@ -29,7 +29,7 @@ A `Builder` for `GridElement`s.
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L52){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L52) |
 
 ---
 
@@ -45,7 +45,7 @@ A `Builder` for `GridElement`s.
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L32){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L32) |
 
 ---
 
@@ -61,7 +61,7 @@ A `Builder` for `GridElement`s.
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L42){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L42) |
 
 ---
 

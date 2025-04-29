@@ -34,7 +34,7 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The new choice builder.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 7](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L7){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 7](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L7) |
 
 ---
 
@@ -52,7 +52,7 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L53) |
 
 ---
 
@@ -68,7 +68,7 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L67){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L67) |
 
 ---
 
@@ -84,7 +84,7 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L83){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L83) |
 
 ---
 
@@ -100,7 +100,7 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L39){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L39) |
 
 ---
 
@@ -116,7 +116,7 @@ Choices Builder Module.
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L25){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L25) |
 
 ---
 

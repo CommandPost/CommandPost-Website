@@ -43,7 +43,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A lookup table of the duration values.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L63){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L63) |
 
 ---
 
@@ -61,7 +61,7 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>`true` if the `element` is the "Clip Appearance & Filtering Menu" popover otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L30){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L30) |
 
 ---
 
@@ -79,7 +79,7 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>The new `AppearanceAndFiltering` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L43){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L43) |
 
 ---
 
@@ -94,7 +94,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Clip Appearance & Filtering Menu" button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L124){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L124) |
 
 ---
 
@@ -107,7 +107,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Clip Height Slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L134){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L134) |
 
 ---
 
@@ -120,7 +120,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Continuous Playback checkbox.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L179){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L179) |
 
 ---
 
@@ -133,7 +133,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Duration Slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L143){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L143) |
 
 ---
 
@@ -146,7 +146,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Group By" popup button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L152){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L152) |
 
 ---
 
@@ -159,7 +159,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Sort By" popup button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L161){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L161) |
 
 ---
 
@@ -172,7 +172,7 @@ Clip Appearance & Filtering Menu Popover
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Waveforms checkbox.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L170){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L170) |
 
 ---
 
@@ -190,7 +190,7 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L105){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L105) |
 
 ---
 
@@ -206,7 +206,7 @@ Clip Appearance & Filtering Menu Popover
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L86){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/AppearanceAndFiltering.lua#L86) |
 
 ---
 

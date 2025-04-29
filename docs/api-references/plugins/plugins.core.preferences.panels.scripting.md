@@ -24,7 +24,7 @@ Scripting Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/panels/scripting/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/scripting/init.lua#L36){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/panels/scripting/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/scripting/init.lua#L36) |
 
 ---
 

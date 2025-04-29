@@ -43,7 +43,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L20){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L20) |
 
 ---
 
@@ -61,7 +61,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L35){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L35) |
 
 ---
 
@@ -76,7 +76,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckBox](cp.ui.CheckBox.md) that toggles this role is larger than the other audio roles on the timeline.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L49){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L49) |
 
 ---
 
@@ -89,7 +89,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckButton](cp.ui.CheckButton.md) that toggles whether the subroles are visible in the [Timeline](cp.apple.finalcutpro.timeline.Timeline.md).                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L70){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L70) |
 
 ---
 
@@ -102,7 +102,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckButton](cp.ui.CheckButton.md) that toggles whether the roles are visible in the Index.                                                                     |
 | **Notes**                                   | <ul><li>Unlike the [VideoRole](cp.finalcutpro.apple.timeline.VideoRole.md) and [CaptionsRole](cp.apple.finalcutpro.timeline.CaptionsRole.md), this is a [CheckBox](cp.ui.CheckBox.md) and is always visible.</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L58){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L58) |
 
 ---
 
@@ -120,7 +120,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L79){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L79) |
 
 ---
 
@@ -136,7 +136,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L118){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L118) |
 
 ---
 
@@ -152,7 +152,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L105){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L105) |
 
 ---
 
@@ -168,7 +168,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L92){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L92) |
 
 ---
 

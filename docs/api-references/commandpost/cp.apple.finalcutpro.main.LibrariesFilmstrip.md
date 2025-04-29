@@ -49,7 +49,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L191){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L191) |
 
 ---
 
@@ -65,7 +65,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L167){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L167) |
 
 ---
 
@@ -81,7 +81,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 407](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L407){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 407](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L407) |
 
 ---
 
@@ -97,7 +97,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>The index or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 347](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L347){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 347](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L347) |
 
 ---
 
@@ -113,7 +113,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 387](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L387){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 387](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L387) |
 
 ---
 
@@ -129,7 +129,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L307){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L307) |
 
 ---
 
@@ -145,7 +145,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L330){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L330) |
 
 ---
 
@@ -161,7 +161,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 368](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L368){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 368](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L368) |
 
 ---
 
@@ -177,7 +177,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L234){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L234) |
 
 ---
 
@@ -193,7 +193,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L211){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L211) |
 
 ---
 
@@ -209,7 +209,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 247](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L247){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 247](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L247) |
 
 ---
 
@@ -225,7 +225,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L290){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L290) |
 
 ---
 
@@ -241,7 +241,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`true` if clip A is above clip B, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L115){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L115) |
 
 ---
 
@@ -259,7 +259,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>A new `LibrariesFilmstrip` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L37){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L37) |
 
 ---
 
@@ -274,7 +274,7 @@ Libraries Filmstrip Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries Filmstrip Playhead.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L95){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L95) |
 
 ---
 
@@ -287,7 +287,7 @@ Libraries Filmstrip Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries Filmstrip Skimming Playhead.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L102) |
 
 ---
 
@@ -305,7 +305,7 @@ Libraries Filmstrip Module.
 | **Returns**                                 | <ul><li>`LibrariesFilmstrip` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L73){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesFilmstrip.lua#L73) |
 
 ---
 

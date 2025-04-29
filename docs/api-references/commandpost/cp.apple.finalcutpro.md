@@ -217,7 +217,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of audio file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L236){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L236) |
 
 ---
 
@@ -230,7 +230,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of all file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 246](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L246){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 246](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L246) |
 
 ---
 
@@ -243,7 +243,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of image file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L241){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L241) |
 
 ---
 
@@ -256,7 +256,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of video file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L231){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L231) |
 
 ---
 
@@ -269,7 +269,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version of Final Cut Pro supported by this module.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L206){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L206) |
 
 ---
 
@@ -282,7 +282,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The Event Description Path.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L221){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L221) |
 
 ---
 
@@ -295,7 +295,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Final Cut Pro's supported Languages for the Flexo Framework                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L226){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L226) |
 
 ---
 
@@ -308,7 +308,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Final Cut Pro's Pasteboard UTI                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L211){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L211) |
 
 ---
 
@@ -321,7 +321,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for Final Cut Pro.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L161){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L161) |
 
 ---
 
@@ -334,7 +334,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to the custom workspaces folder.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 216](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L216){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 216](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L216) |
 
 ---
 
@@ -349,7 +349,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Contins the 'Active Command Set' as a `table`. The result is cached, but                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1058](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1058){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1058](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1058) |
 
 ---
 
@@ -362,7 +362,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing the display names of all the user created custom workspaces.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 616](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L616){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 616](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L616) |
 
 ---
 
@@ -375,7 +375,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A string containing the default open/save panel path.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 943](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L943){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 943](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L943) |
 
 ---
 
@@ -388,7 +388,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The currently selected workspace name. The result is cached, but updated                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 584](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L584){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 584](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L584) |
 
 ---
 
@@ -406,7 +406,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The Command Set as a table, or `nil` if there was a problem.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1040](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1040){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1040](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1040) |
 
 ---
 
@@ -422,7 +422,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L30){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L30) |
 
 ---
 
@@ -438,7 +438,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `TranscodeMedia`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L21) |
 
 ---
 
@@ -454,7 +454,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A path as a string or `nil` if the folder doesn't exist.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 984](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L984){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 984](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L984) |
 
 ---
 
@@ -470,7 +470,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table of Workflow Extension names</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 645](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L645){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 645](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L645) |
 
 ---
 
@@ -488,7 +488,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The new `Color`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/color/Tracker.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/color/Tracker.lua#L34){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/color/Tracker.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/color/Tracker.lua#L34) |
 
 ---
 
@@ -504,7 +504,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The new `TranscodeMedia`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L42){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L42) |
 
 ---
 
@@ -519,7 +519,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the 'Active Command Set' value from the Final Cut Pro preferences                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1033](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1033){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1033](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1033) |
 
 ---
 
@@ -532,7 +532,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides basic access to any 'alert' dialog windows in the app.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 907](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L907){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 907](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L907) |
 
 ---
 
@@ -545,7 +545,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Audio Enhancements                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L139){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L139) |
 
 ---
 
@@ -558,7 +558,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if audio lanes are currently showing. May be set to ensure it is showing or hidden.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L103){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L103) |
 
 ---
 
@@ -571,7 +571,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Audio Meters button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L93){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L93) |
 
 ---
 
@@ -584,7 +584,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [BackgroundTasksDialog](cp.apple.finalcutpro.main.BackgroundTasksDialog.md) dialog window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 790](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L790){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 790](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L790) |
 
 ---
 
@@ -597,7 +597,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Browser](cp.apple.finalcutpro.main.Browser.md) instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 844](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L844){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 844](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L844) |
 
 ---
 
@@ -610,7 +610,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Change Position Button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L236){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L236) |
 
 ---
 
@@ -623,7 +623,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorInspector instance from the primary window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 900](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L900){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 900](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L900) |
 
 ---
 
@@ -636,7 +636,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard instance from the primary window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 893](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L893){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 893](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L893) |
 
 ---
 
@@ -649,7 +649,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Color Correction" `PopUpButton`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L116){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L116) |
 
 ---
 
@@ -662,7 +662,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `table` of all available command descriptions, with keys mapped to human-readable descriptions in the current locale.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1135){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1135) |
 
 ---
 
@@ -675,7 +675,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Command Editor                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 755](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L755){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 755](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L755) |
 
 ---
 
@@ -688,7 +688,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `table` of all available command names, with keys mapped to human-readable names in the current locale.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1114){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1114) |
 
 ---
 
@@ -701,7 +701,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The CommandPost Workflow Extension window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 714](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L714){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 714](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L714) |
 
 ---
 
@@ -714,7 +714,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 438](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L438){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 438](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L438) |
 
 ---
 
@@ -727,7 +727,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua#L105){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua#L105) |
 
 ---
 
@@ -740,7 +740,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 473](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L473){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 473](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L473) |
 
 ---
 
@@ -753,7 +753,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The EffectsBrowser instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 872](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L872){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 872](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L872) |
 
 ---
 
@@ -766,7 +766,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Effects                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L153){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L153) |
 
 ---
 
@@ -779,7 +779,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Event [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 837](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L837){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 837](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L837) |
 
 ---
 
@@ -792,7 +792,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Export Dialog Box                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 776](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L776){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 776](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L776) |
 
 ---
 
@@ -805,7 +805,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [FindAndReplaceTitleText](cp.apple.finalcutpro.main.FindAndReplaceTitleText.md) dialog window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 783](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L783){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 783](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L783) |
 
 ---
 
@@ -818,7 +818,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the Final Cut Pro Full Screen Window (usually triggered by Cmd+Shift+F)                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 748](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L748){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 748](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L748) |
 
 ---
 
@@ -831,7 +831,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The GeneratorsBrowser instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 865](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L865){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 865](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L865) |
 
 ---
 
@@ -844,7 +844,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Inspector](cp.apple.finalcutpro.inspector.Inspector.md) instance from the primary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 886](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L886){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 886](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L886) |
 
 ---
 
@@ -857,7 +857,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Inspector Units" `PopUpButton`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L125){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L125) |
 
 ---
 
@@ -870,7 +870,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the audio scrubbing is enabled for the application.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1163](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1163){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1163](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1163) |
 
 ---
 
@@ -883,7 +883,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut Pro Frontmost?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 288](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L288){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 288](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L288) |
 
 ---
 
@@ -896,7 +896,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is any version of Final Cut Pro Installed?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L281){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L281) |
 
 ---
 
@@ -909,7 +909,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a modal dialog currently open?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L295){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L295) |
 
 ---
 
@@ -922,7 +922,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'playing' status of the viewer. If true, it is playing, if not it is paused.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 254](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L254){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 254](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L254) |
 
 ---
 
@@ -935,7 +935,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'playing' status of the viewer. If true, it is playing, if not it is paused.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L336){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L336) |
 
 ---
 
@@ -948,7 +948,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut Pro Running?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L263){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L263) |
 
 ---
 
@@ -961,7 +961,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut visible on screen?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L274){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L274) |
 
 ---
 
@@ -974,7 +974,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the skimming playhead is enabled for the application.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1156){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1156) |
 
 ---
 
@@ -987,7 +987,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a supported version of Final Cut Pro installed?                                                                     |
 | **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to `cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION`</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 302](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L302){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 302](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L302) |
 
 ---
 
@@ -1000,7 +1000,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is an unsupported version of Final Cut Pro installed?                                                                     |
 | **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 315](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L315){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 315](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L315) |
 
 ---
 
@@ -1013,7 +1013,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Keyword Editor                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 762](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L762){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 762](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L762) |
 
 ---
 
@@ -1026,7 +1026,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [LibrariesBrowser](cp.apple.finalcutpro.main.LibrariesBrowser.md) instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 851](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L851){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 851](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L851) |
 
 ---
 
@@ -1039,7 +1039,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The MediaBrowser instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 858](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L858){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 858](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L858) |
 
 ---
 
@@ -1052,7 +1052,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Media Import Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 769](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L769){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 769](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L769) |
 
 ---
 
@@ -1065,7 +1065,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pan                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L146){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L146) |
 
 ---
 
@@ -1078,7 +1078,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L245){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L245) |
 
 ---
 
@@ -1091,7 +1091,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Full Screen Button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L84){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L84) |
 
 ---
 
@@ -1104,7 +1104,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Image.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 279](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L279){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 279](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L279) |
 
 ---
 
@@ -1117,7 +1117,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Preferences Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 727](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L727){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 727](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L727) |
 
 ---
 
@@ -1130,7 +1130,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The preset popup found at the top of the inspector.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L483){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L483) |
 
 ---
 
@@ -1143,7 +1143,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Primary Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 734](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L734){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 734](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L734) |
 
 ---
 
@@ -1156,7 +1156,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Reset Dialog warnings" `Button`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L98){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L98) |
 
 ---
 
@@ -1169,7 +1169,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Preferences Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 741](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L741){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 741](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L741) |
 
 ---
 
@@ -1182,7 +1182,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Text Inspector main Text Area.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 493](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L493){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 493](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L493) |
 
 ---
 
@@ -1195,7 +1195,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 451](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L451){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 451](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L451) |
 
 ---
 
@@ -1208,7 +1208,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 462](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L462){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 462](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L462) |
 
 ---
 
@@ -1221,7 +1221,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Timecode Field                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L102) |
 
 ---
 
@@ -1234,7 +1234,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Time Display" `PopUpButton`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L89){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L89) |
 
 ---
 
@@ -1247,7 +1247,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Timeline instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 823](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L823){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 823](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L823) |
 
 ---
 
@@ -1260,7 +1260,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Primary Toolbar - the toolbar at the top of the Primary Window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 816](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L816){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 816](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L816) |
 
 ---
 
@@ -1273,7 +1273,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TranscodeMedia](cp.apple.finalcutpro.main.TranscodeMedia.md) sheet.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 803](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L803){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 803](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L803) |
 
 ---
 
@@ -1286,7 +1286,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Transitions `EffectsBrowser` instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 879](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L879){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 879](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L879) |
 
 ---
 
@@ -1299,7 +1299,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro `axuielement`, if available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 270](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L270){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 270](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L270) |
 
 ---
 
@@ -1312,7 +1312,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Validate Audio Units" `Button`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L107){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L107) |
 
 ---
 
@@ -1325,7 +1325,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance, whether it is in the primary or secondary window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 830](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L830){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 830](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L830) |
 
 ---
 
@@ -1338,7 +1338,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Volume                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L132){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L132) |
 
 ---
 
@@ -1356,7 +1356,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table containing any active library paths.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 400](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L400){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 400](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L400) |
 
 ---
 
@@ -1372,7 +1372,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 505](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L505){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 505](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L505) |
 
 ---
 
@@ -1388,7 +1388,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The 'Default' Command Set path, or `nil` if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1019](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1019){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1019](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1019) |
 
 ---
 
@@ -1404,7 +1404,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A `Statement` that will perform the shortcut when executed.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1173){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1173) |
 
 ---
 
@@ -1420,7 +1420,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The array of shortcuts, or `nil` if no command exists with the specified `id`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1088](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1088){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 1088](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L1088) |
 
 ---
 
@@ -1436,7 +1436,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A string containing Final Cut Pro's filesystem path, or nil if Final Cut Pro's path could not be determined.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 357](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L357){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 357](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L357) |
 
 ---
 
@@ -1452,7 +1452,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A boolean value indicating whether the AppleScript succeeded or not</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 920](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L920){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 920](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L920) |
 
 ---
 
@@ -1468,7 +1468,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The array of keys with a matching string.</li></ul>          |
 | **Notes**                                   | <ul><li>This method may be very inefficient, since it has to search through every possible key/value pair to find matches. It is not recommended that this is used in production.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L340){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L340) |
 
 ---
 
@@ -1484,7 +1484,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 467](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L467){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 467](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L467) |
 
 ---
 
@@ -1500,7 +1500,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The plugins manager.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 552](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L552){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 552](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L552) |
 
 ---
 
@@ -1516,7 +1516,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table containing any recent library names.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 446](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L446){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 446](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L446) |
 
 ---
 
@@ -1532,7 +1532,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table containing any recent library paths.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 421](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L421){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 421](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L421) |
 
 ---
 
@@ -1548,7 +1548,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A MenuBar object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L565){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L565) |
 
 ---
 
@@ -1564,7 +1564,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The library row `axuielement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 492](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L492){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 492](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L492) |
 
 ---
 
@@ -1580,7 +1580,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L325){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L325) |
 
 ---
 
@@ -1596,7 +1596,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Returns**                                 | <ul><li>A table of user command sets as strings.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 997](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L997){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 997](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L997) |
 
 ---
 

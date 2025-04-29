@@ -37,7 +37,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L32){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L32) |
 
 ---
 
@@ -55,7 +55,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Returns**                                 | <ul><li>A `BaseMotionPanel` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L47){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L47) |
 
 ---
 
@@ -70,7 +70,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The primary content `axuielement` for the panel.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L70){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L70) |
 
 ---
 
@@ -83,7 +83,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'Published Parameters' section.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L63){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BaseMotionPanel.lua#L63) |
 
 ---
 

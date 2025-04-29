@@ -36,7 +36,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of common accessibility object notification names, provided for reference.                                                                     |
 | **Notes**                                   | <ul><li>Notifications are application dependent and can be any string that the application developers choose; this list provides the suggested notification names found within the macOS Framework headers, but the list is not exhaustive nor is an application or element required to provide them.</li></ul> |
-| **Source**                                  | [extensions/axuielement/observer.m line 402](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L402){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 402](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L402) |
 
 ---
 
@@ -54,7 +54,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>a new observerObject; generates an error if the pid does not exist or if the object cannot be created.</li></ul>          |
 | **Notes**                                   | <ul><li>If you already have the `hs.application` object for an application, you can get its process ID with `hs.application:pid()`</li><li>If you already have an `hs.axuielement` from the application you wish to observe (it doesn't have to be the application axuielement object, just one belonging to the application), you can get the process ID with `hs.axuielement:pid()`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 117](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L117){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 117](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L117) |
 
 ---
 
@@ -72,7 +72,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>the observerObject; generates an error if watcher cannot be registered</li></ul>          |
 | **Notes**                                   | <ul><li>multiple notifications for the same accessibility element can be registered by invoking this method multiple times with the same element but different notification strings.</li><li>if the specified element and notification string are already registered, this method does nothing.</li><li>the notification string is application dependent and can be any string that the application developers choose; some common ones are found in `hs.axuielement.observer.notifications`, but the list is not exhaustive nor is an application or element required to provide them.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 263](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L263){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 263](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L263) |
 
 ---
 
@@ -88,7 +88,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>If an argument is provided, the observerObject; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>the callback should expect 4 arguments and return none. The arguments passed to the callback will be as follows:</li><li>  the observerObject itself</li><li>  the `hs.axuielement` object for the accessibility element which generated the notification</li><li>  a string specifying the specific notification which was received</li><li>  a table containing key-value pairs with more information about the notification, if the element and notification type provide it. Commonly this will be an empty table indicating that no additional detail was provided.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L221){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L221) |
 
 ---
 
@@ -104,7 +104,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>a boolean value indicating whether or not the observer is currently active.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 202](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L202){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 202](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L202) |
 
 ---
 
@@ -120,7 +120,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>the observerObject; generates an error if watcher cannot be unregistered</li></ul>          |
 | **Notes**                                   | <ul><li>if the specified element and notification string are not currently registered with the observer, this method does nothing.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 308](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L308){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 308](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L308) |
 
 ---
 
@@ -136,7 +136,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>the observerObject</li></ul>          |
 | **Notes**                                   | <ul><li>This method does nothing if the observer is already running</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L148){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L148) |
 
 ---
 
@@ -152,7 +152,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>the observerObject</li></ul>          |
 | **Notes**                                   | <ul><li>This method does nothing if the observer is not currently running</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 175](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L175){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 175](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L175) |
 
 ---
 
@@ -168,7 +168,7 @@ This submodule allows you to create observers for accessibility elements and be 
 | **Returns**                                 | <ul><li>a table containing the currently registered notifications</li></ul>          |
 | **Notes**                                   | <ul><li>If an element is specified, then the table returned will contain a list of strings specifying the specific notifications that the observer is watching that element for.</li><li>If no argument is specified, then the table will contain key-value pairs in which each key will be an `hs.axuielement` that is being observed and the corresponding value will be a table containing a list of strings specifying the specific notifications that the observer is watching for from that element.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/axuielement/observer.m line 348](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L348){target="_blank"} |
+| **Source**                                  | [extensions/axuielement/observer.m line 348](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/observer.m#L348) |
 
 ---
 

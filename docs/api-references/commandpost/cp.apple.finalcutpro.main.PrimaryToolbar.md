@@ -40,7 +40,7 @@ Timeline Toolbar.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L23){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L23) |
 
 ---
 
@@ -58,7 +58,7 @@ Timeline Toolbar.
 | **Returns**                                 | <ul><li>A new `PrimaryToolbar` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L49){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L49) |
 
 ---
 
@@ -73,7 +73,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` that will open the `BackgroundTasksWindow` dialog                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L120){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L120) |
 
 ---
 
@@ -86,7 +86,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the `Browser` is showing                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L142){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L142) |
 
 ---
 
@@ -99,7 +99,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that will open the "Available Extensions" dialog, or trigger the only extension, if only one is installed.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L133){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L133) |
 
 ---
 
@@ -112,7 +112,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the Inspector is showing                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L170){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L170) |
 
 ---
 
@@ -125,7 +125,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` that will open the `KeywordEditor` dialog when checked.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L107){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L107) |
 
 ---
 
@@ -138,7 +138,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that will open the `MediaImport` dialog                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L98){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L98) |
 
 ---
 
@@ -151,7 +151,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Share Button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L184){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L184) |
 
 ---
 
@@ -164,7 +164,7 @@ Timeline Toolbar.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the `Timeline` is showing                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L156){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryToolbar.lua#L156) |
 
 ---
 

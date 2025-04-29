@@ -36,7 +36,7 @@ Timeline Index Mode Radio Group Module.
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L30){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L30) |
 
 ---
 
@@ -54,7 +54,7 @@ Timeline Index Mode Radio Group Module.
 | **Returns**                                 | <ul><li>The new `IndexMode` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L47){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L47) |
 
 ---
 
@@ -69,7 +69,7 @@ Timeline Index Mode Radio Group Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Captions" mode.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L120){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L120) |
 
 ---
 
@@ -82,7 +82,7 @@ Timeline Index Mode Radio Group Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Clips" mode.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L66){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L66) |
 
 ---
 
@@ -95,7 +95,7 @@ Timeline Index Mode Radio Group Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Roles" mode.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L102) |
 
 ---
 
@@ -108,7 +108,7 @@ Timeline Index Mode Radio Group Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Tags" mode.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L84){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexMode.lua#L84) |
 
 ---
 

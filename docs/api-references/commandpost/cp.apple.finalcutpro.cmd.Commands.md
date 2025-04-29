@@ -34,7 +34,7 @@ that can be mapped to a keyboard shortcut.
 | **Returns**                                 | <ul><li>`true` if the element matches the criteria for this class.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L24){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L24) |
 
 ---
 

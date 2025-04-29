@@ -49,7 +49,7 @@ Controls for iTunes music player
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is paused                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 17](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L17){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 17](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L17) |
 
 ---
 
@@ -62,7 +62,7 @@ Controls for iTunes music player
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is playing                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 22](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L22){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 22](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L22) |
 
 ---
 
@@ -75,7 +75,7 @@ Controls for iTunes music player
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is stopped                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 27](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L27){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 27](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L27) |
 
 ---
 
@@ -93,7 +93,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 108](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L108){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 108](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L108) |
 
 ---
 
@@ -109,7 +109,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 304](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L304){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 304](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L304) |
 
 ---
 
@@ -125,7 +125,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 137](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L137){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 137](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L137) |
 
 ---
 
@@ -141,7 +141,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 124](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L124){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 124](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L124) |
 
 ---
 
@@ -157,7 +157,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 150](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L150){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 150](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L150) |
 
 ---
 
@@ -173,7 +173,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>The number of seconds long the current song is, 0 if no song is playing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 290](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L290){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 290](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L290) |
 
 ---
 
@@ -189,7 +189,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.itunes.state_stopped`</li><li>   - `hs.itunes.state_paused`</li><li>   - `hs.itunes.state_playing`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 163](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L163){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 163](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L163) |
 
 ---
 
@@ -205,7 +205,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 264](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L264){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 264](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L264) |
 
 ---
 
@@ -221,7 +221,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A number, between 1 and 100, containing the current iTunes playback volume</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L216){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L216) |
 
 ---
 
@@ -237,7 +237,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether iTunes is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 192](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L192){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 192](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L192) |
 
 ---
 
@@ -253,7 +253,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether the iTunes application is running.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 179](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L179){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 179](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L179) |
 
 ---
 
@@ -269,7 +269,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 82](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L82){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 82](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L82) |
 
 ---
 
@@ -285,7 +285,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L69){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L69) |
 
 ---
 
@@ -301,7 +301,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 56](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L56){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 56](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L56) |
 
 ---
 
@@ -317,7 +317,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 43](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L43){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 43](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L43) |
 
 ---
 
@@ -333,7 +333,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 95](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L95){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 95](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L95) |
 
 ---
 
@@ -349,7 +349,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L315){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L315) |
 
 ---
 
@@ -365,7 +365,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L275){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L275) |
 
 ---
 
@@ -381,7 +381,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 227](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L227){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 227](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L227) |
 
 ---
 
@@ -397,7 +397,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 253](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L253){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 253](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L253) |
 
 ---
 
@@ -413,7 +413,7 @@ Controls for iTunes music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/itunes/itunes.lua line 242](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L242){target="_blank"} |
+| **Source**                                  | [extensions/itunes/itunes.lua line 242](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/itunes/itunes.lua#L242) |
 
 ---
 

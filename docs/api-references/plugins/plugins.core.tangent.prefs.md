@@ -27,7 +27,7 @@ Tangent Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/prefs/init.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/prefs/init.lua#L408){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/prefs/init.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/prefs/init.lua#L408) |
 
 ---
 

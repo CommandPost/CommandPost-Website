@@ -27,7 +27,7 @@ A Table UI element. It extends [GridElement](cp.ui.GridElement.md), so will inhe
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Table.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Table.lua#L15){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Table.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Table.lua#L15) |
 
 ---
 

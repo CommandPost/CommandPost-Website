@@ -1,20 +1,20 @@
 # Contribute
 
-The CommandPost website is entirely open source and hosted on [GitHub](https://github.com){target="_blank"}.
+The CommandPost website is entirely open source and hosted on [GitHub](https://github.com).
 
-[GitHub](https://github.com){target="_blank"} is a **safe and secure** developers platform used by **over 73 million users** worldwide.
+[GitHub](https://github.com) is a **safe and secure** developers platform used by **over 73 million users** worldwide.
 
 CommandPost uses [VentraIP](https://ventraip.com.au) for domain hosting.
 
-You can make changes to the site by [submitting pull requests on GitHub](https://github.com/CommandPost/CommandPost-Website){target="_blank"}.
+You can make changes to the site by [submitting pull requests on GitHub](https://github.com/CommandPost/CommandPost-Website).
 
 We welcome and encourage users submitting changes to the website's content.
 
-You can see all the current contributors [here](https://github.com/CommandPost/CommandPost-Website/graphs/contributors){target="_blank"}. Everything is tracked and archived on [GitHub](https://github.com/CommandPost/CommandPost-Website){target="_blank"}.
+You can see all the current contributors [here](https://github.com/CommandPost/CommandPost-Website/graphs/contributors). Everything is tracked and archived on [GitHub](https://github.com/CommandPost/CommandPost-Website).
 
 The entire site is written in [Markdown](https://www.markdownguide.org), so it's very easy to modify and update without necessarily knowing any HTML or code.
 
-The website is build on [Retype](https://retype.com){target="_blank"}, which has a lot of power and flexibility, so you can easily add all kinds of [components](https://retype.com/components/){target="_blank"} just using Markdown.
+The website is build on [Retype](https://retype.com), which has a lot of power and flexibility, so you can easily add all kinds of [components](https://retype.com/components/) just using Markdown.
 
 However, if you're not confident using GitHub, you can also email us content here: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=FCPCafe)
 
@@ -59,13 +59,13 @@ So, in simple terms, **a pull request is a way of proposing changes to a shared 
 
 To create the fastest website possible, CommandPost is what's called a "static site". It just a collection of HTML files in a folder - nothing fancy.
 
-However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions){target="_blank"} to "do stuff" to our markdown files whenever we submit a pull request.
+However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions) to "do stuff" to our markdown files whenever we submit a pull request.
 
-For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/CommandPost-Website/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
+For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/CommandPost-Website/blob/main/.github/workflows/retype-action.yml) does the following:
 
-- Pulls all the latest [GitHub issues](https://github.com/CommandPost/CommandPost/issues){target="_blank"} and populates the [Wish List](/wish-list/) and [Bug Tracker](/bugtracker/) pages.
+- Pulls all the latest [GitHub issues](https://github.com/CommandPost/CommandPost/issues) and populates the [Wish List](/wish-list/) and [Bug Tracker](/bugtracker/) pages.
 - Update the [Sponsor](/sponsor/) page with latest GitHub Sponsors.
-- Looks at all the individual **Snippets** in [this folder](https://github.com/CommandPost/CommandPost-Website/tree/main/docs/_includes/snippets){target="_blank"}, and generates an alphabetical list of them for the [Snippets Library page](/scripting/snippets-library/).
+- Looks at all the individual **Snippets** in [this folder](https://github.com/CommandPost/CommandPost-Website/tree/main/docs/_includes/snippets), and generates an alphabetical list of them for the [Snippets Library page](/scripting/snippets-library/).
 
 This means, if you want to add a Snippet to the [Snippets Library](/scripting/snippets-library/), you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
 
@@ -73,7 +73,7 @@ This means, if you want to add a Snippet to the [Snippets Library](/scripting/sn
 
 ### How to Edit Pages
 
-If you're not already registered with GitHub, [create a free account](https://github.com/join){target="_blank"}.
+If you're not already registered with GitHub, [create a free account](https://github.com/join).
 
 There's an **Edit this page on GitHub** link at the bottom of every page.
 
@@ -89,7 +89,7 @@ You can then make changes in the text editor using the Markdown syntax. Copying 
 
 You should make sure all external links open in a new tab/window (edit this page to see how that works).
 
-You can learn more about basic formatting [here](https://retype.com/guides/formatting/){target="_blank"}.
+You can learn more about basic formatting [here](https://retype.com/guides/formatting/).
 
 ![Edit this file](../static/editor.png)
 
@@ -107,7 +107,7 @@ This will send your changes to the CommandPost team to review and approve.
 
 If changes are required, they'll add comments within the pull request.
 
-If you have questions, you can ask them on the [Discussions board](https://github.com/CommandPost/CommandPost/discussions){target="_blank"}.
+If you have questions, you can ask them on the [Discussions board](https://github.com/CommandPost/CommandPost/discussions).
 
 You can also email us here: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=CommandPost)
 
@@ -115,7 +115,7 @@ You can also email us here: [support@latenitefilms.com](mailto:support@latenitef
 
 ### GitHub Web-based Editor
 
-You can use the [github.dev](https://github.dev){target="_blank"} web-based editor to edit files and commit your changes.
+You can use the [github.dev](https://github.dev) web-based editor to edit files and commit your changes.
 
 Simply replace the `.com` with `.dev` on any GitHub URL.
 
@@ -133,12 +133,12 @@ You can learn more [here](https://docs.github.com/en/codespaces/the-githubdev-we
 
 All external links should open in a new tab/window.
 
-The trick is to add `{target="_blank"}` at the end of the link.
+The trick is to add `` at the end of the link.
 
 Here's an example of how to do this in Markdown:
 
 ```
-[Sync-N-Link](/tools/#sync-n-link-x){target="_blank"}
+[Sync-N-Link](/tools/#sync-n-link-x)
 ```
 
 ---
@@ -152,10 +152,10 @@ Instead, we'll be posting the Video Thumbnail as a clickable link to the video.
 Here's an example of how this looks in Markdown:
 
 ```
-[![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4){target="_blank"}
+[![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4)
 ```
 
-You can use [this website](https://youtube-thumbnail-grabber.com){target="_blank"} for download YouTube Thumbnails.
+You can use [this website](https://youtube-thumbnail-grabber.com) for download YouTube Thumbnails.
 
 ---
 
@@ -163,7 +163,7 @@ You can use [this website](https://youtube-thumbnail-grabber.com){target="_blank
 
 All images should be stored within the `/docs/static/` folder on GitHub.
 
-You can find it [here](https://github.com/CommandPost/CommandPost-Website/tree/main/docs/static){target="_blank"}.
+You can find it [here](https://github.com/CommandPost/CommandPost-Website/tree/main/docs/static).
 
 ---
 
@@ -173,19 +173,19 @@ You can also use GitHub Desktop to essentially "clone" the entire CommandPost we
 
 You can then make changes locally, and once done, submit a pull request back to the main GitHub repository.
 
-You can download GitHub Desktop [here](https://desktop.github.com){target="_blank"}.
+You can download GitHub Desktop [here](https://desktop.github.com).
 
-You can then use a text editor like [BBEdit](https://www.barebones.com/products/bbedit/){target="_blank"} to edit your Markdown files on your Mac.
+You can then use a text editor like [BBEdit](https://www.barebones.com/products/bbedit/) to edit your Markdown files on your Mac.
 
 ---
 
 ### Powered by Retype
 
-The CommandPost Website is powered by [Retype](https://retype.com){target="_blank"} and hosted on [GitHub Pages](https://pages.github.com){target="_blank"}.
+The CommandPost Website is powered by [Retype](https://retype.com) and hosted on [GitHub Pages](https://pages.github.com).
 
-We've VERY thankful for [all the support](https://github.com/retypeapp/retype/issues/created_by/latenitefilms){target="_blank"} Retype has given us!
+We've VERY thankful for [all the support](https://github.com/retypeapp/retype/issues/created_by/latenitefilms) Retype has given us!
 
-The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app){target="_blank"}.
+The comments feature at the bottom of every page is powered by [giscus](https://giscus.vercel.app).
 
 ---
 

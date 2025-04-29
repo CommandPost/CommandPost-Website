@@ -31,7 +31,7 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>The new `BehaviorSubject`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L15){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L15) |
 
 ---
 
@@ -47,7 +47,7 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>The last value.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also call the `BehaviorSubject` as a function to retrieve the value. E.g. `mySubject()`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L80){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L80) |
 
 ---
 
@@ -63,7 +63,7 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L66){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L66) |
 
 ---
 
@@ -79,7 +79,7 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L37){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L37) |
 
 ---
 

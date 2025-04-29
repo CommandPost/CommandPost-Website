@@ -37,7 +37,7 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>the new `action`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L17){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L17) |
 
 ---
 
@@ -52,7 +52,7 @@ Represents a Tangent Action
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the action is active. It will only be active if                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L41){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L41) |
 
 ---
 
@@ -65,7 +65,7 @@ Represents a Tangent Action
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the action should ignore the parent's `enabled` state when determining if the action is active.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L34){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L34) |
 
 ---
 
@@ -83,7 +83,7 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>`true` if the object is an action otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L50){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L50) |
 
 ---
 
@@ -99,7 +99,7 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L63){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L63) |
 
 ---
 
@@ -115,7 +115,7 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L100){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L100) |
 
 ---
 
@@ -131,7 +131,7 @@ Represents a Tangent Action
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L137){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L137) |
 
 ---
 

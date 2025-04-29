@@ -38,7 +38,7 @@ Save Sheet
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L21) |
 
 ---
 
@@ -54,7 +54,7 @@ Save Sheet
 | **Returns**                                 | <ul><li>A new SaveSheet object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L34){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L34) |
 
 ---
 
@@ -69,7 +69,7 @@ Save Sheet
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Cancel" `Button`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L62){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L62) |
 
 ---
 
@@ -82,7 +82,7 @@ Save Sheet
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Save Sheet Filename Text Field.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L71){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L71) |
 
 ---
 
@@ -95,7 +95,7 @@ Save Sheet
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Go To Prompt object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L108){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L108) |
 
 ---
 
@@ -108,7 +108,7 @@ Save Sheet
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Replace Alert object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L101){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L101) |
 
 ---
 
@@ -121,7 +121,7 @@ Save Sheet
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Save" `Button`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L53) |
 
 ---
 
@@ -139,7 +139,7 @@ Save Sheet
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.SaveSheet` object for method chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L80){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/SaveSheet.lua#L80) |
 
 ---
 

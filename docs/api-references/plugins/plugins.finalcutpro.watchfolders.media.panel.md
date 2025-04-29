@@ -32,7 +32,7 @@ Watch Folder Media Panel.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watch Folder Table ID                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L28){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L28) |
 
 ---
 
@@ -50,7 +50,7 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L343){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L343) |
 
 ---
 
@@ -66,7 +66,7 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L107){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L107) |
 
 ---
 
@@ -82,7 +82,7 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>Returns a HTML table as a string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L137){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L137) |
 
 ---
 
@@ -98,7 +98,7 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L33){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L33) |
 
 ---
 
@@ -114,7 +114,7 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 219](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L219){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 219](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L219) |
 
 ---
 
@@ -130,7 +130,7 @@ Watch Folder Media Panel.
 | **Returns**                                 | <ul><li>Returns Style Sheet as a string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L245){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/panel.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/panel.lua#L245) |
 
 ---
 

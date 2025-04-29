@@ -36,7 +36,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A mapping from string representation of a key to its keycode, and vice versa.                                                                     |
 | **Notes**                                   | <ul><li>For example: keycodes[1] == "s", and keycodes["s"] == 1, and so on.</li><li>This is primarily used by the hs.eventtap and hs.hotkey extensions.</li><li>Valid strings are any single-character string, or any of the following strings:</li><li> f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15,</li><li> f16, f17, f18, f19, f20, pad., pad*, pad+, pad/, pad-, pad=,</li><li> pad0, pad1, pad2, pad3, pad4, pad5, pad6, pad7, pad8, pad9,</li><li> padclear, padenter, return, tab, space, delete, escape, help,</li><li> home, pageup, forwarddelete, end, pagedown, left, right, down, up,</li><li> shift, rightshift, cmd, rightcmd, alt, rightalt, ctrl, rightctrl,</li><li> capslock, fn</li></ul> |
-| **Source**                                  | [extensions/keycodes/keycodes.lua line 67](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/keycodes.lua#L67){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/keycodes.lua line 67](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/keycodes.lua#L67) |
 
 ---
 
@@ -54,7 +54,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>A string containing the name of the current keyboard layout</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 370](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L370){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 370](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L370) |
 
 ---
 
@@ -70,7 +70,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>An hs.image object containing the icon, if available</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 387](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L387){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 387](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L387) |
 
 ---
 
@@ -86,7 +86,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>Name of current input method, or nil</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 472](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L472){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 472](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L472) |
 
 ---
 
@@ -102,7 +102,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>If no parameter is provided, returns a string containing the source id for the current keyboard layout or input method; if a parameter is provided, returns true or false specifying whether or not the input source was able to be changed.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 334](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L334){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 334](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L334) |
 
 ---
 
@@ -118,7 +118,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>An hs.image object, or nil if no image could be found</li></ul>          |
 | **Notes**                                   | <ul><li>Not all layouts/methods have icons, so you should assume this will return nil at some point</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 566](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L566){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 566](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L566) |
 
 ---
 
@@ -134,7 +134,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This may be helpful for rebinding your hotkeys to appropriate keys in the new layout</li><li>Setting this will un-set functions previously registered by this function.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/keycodes.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/keycodes.lua#L87){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/keycodes.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/keycodes.lua#L87) |
 
 ---
 
@@ -150,7 +150,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>A table containing a list of keyboard layouts enabled in System Preferences</li></ul>          |
 | **Notes**                                   | <ul><li>Only those layouts which can be explicitly switched to will be included in the table.  Keyboard layouts which are part of input methods are not included.  See `hs.keycodes.methods`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 404](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L404){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 404](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L404) |
 
 ---
 
@@ -166,7 +166,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>A table containing a list of input methods enabled in System Preferences</li></ul>          |
 | **Notes**                                   | <ul><li>Keyboard layouts which are not part of an input method are not included in this table.  See `hs.keycodes.layouts`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 438](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L438){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 438](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L438) |
 
 ---
 
@@ -182,7 +182,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>A boolean, true if the layout was successfully changed, otherwise false</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 502](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L502){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 502](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L502) |
 
 ---
 
@@ -198,7 +198,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 | **Returns**                                 | <ul><li>A boolean, true if the method was successfully changed, otherwise false</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/keycodes/libkeycodes.m line 534](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L534){target="_blank"} |
+| **Source**                                  | [extensions/keycodes/libkeycodes.m line 534](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/keycodes/libkeycodes.m#L534) |
 
 ---
 

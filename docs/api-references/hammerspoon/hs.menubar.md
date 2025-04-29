@@ -45,7 +45,7 @@ Create and manage menubar icons
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pre-defined list of image positions for a menubar item                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 1113](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1113){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 1113](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1113) |
 
 ---
 
@@ -63,7 +63,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>menubar item object to use with other API methods, or nil if it could not be created</li></ul>          |
 | **Notes**                                   | <ul><li>You should call hs.menubar:setTitle() or hs.menubar:setIcon() after creating the object, otherwise it will be invisible</li><li></li><li>Calling this method with inMenuBar equal to false is equivalent to calling hs.menubar.new():removeFromMenuBar().</li><li>A hidden menubaritem can be added to the system menubar by calling hs.menubar:returnToMenuBar() or used as a pop-up menu by calling hs.menubar:popupMenu().</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 395](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L395){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 395](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L395) |
 
 ---
 
@@ -81,7 +81,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>Either the menubar item, if its autosave name was changed, or the current value of the autosave name</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 466](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L466){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 466](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L466) |
 
 ---
 
@@ -97,7 +97,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 801](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L801){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 801](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L801) |
 
 ---
 
@@ -113,7 +113,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>an hs.geometry rect describing the menubar item's frame or nil if the menubar item is not currently in the menubar.</li></ul>          |
 | **Notes**                                   | <ul><li>This will return a frame even if no icon or title is set</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/menubar.lua line 36](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/menubar.lua#L36){target="_blank"} |
+| **Source**                                  | [extensions/menubar/menubar.lua line 36](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/menubar.lua#L36) |
 
 ---
 
@@ -129,7 +129,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubar item icon as an hs.image object, or nil, if there isn't one.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 1036](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1036){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 1036](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1036) |
 
 ---
 
@@ -145,7 +145,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>Either the menubar item, if its image position was changed, or the current value of the image position</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 506](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L506){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 506](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L506) |
 
 ---
 
@@ -161,7 +161,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>a boolean indicating whether or not the specified menu is currently in the OS X menubar</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 999](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L999){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 999](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L999) |
 
 ---
 
@@ -177,7 +177,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>The menubaritem</li></ul>          |
 | **Notes**                                   | <ul><li>Items which trigger hs.menubar:setClickCallback() will invoke the callback function, but we cannot control the positioning of any visual elements the function may create -- calling this method on such an object is the equivalent of invoking its callback function directly.</li><li>This method is blocking. Hammerspoon will be unable to respond to any other activity while the pop-up menu is being displayed.</li><li>`darkMode` uses an undocumented macOS API call, so may break in a future release.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 851](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L851){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 851](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L851) |
 
 ---
 
@@ -193,7 +193,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 934](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L934){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 934](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L934) |
 
 ---
 
@@ -209,7 +209,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 967](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L967){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 967](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L967) |
 
 ---
 
@@ -230,7 +230,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | <ul><li>If a menu has been attached to the menubar item, this callback will never be called</li><li>Has no affect on the display of a pop-up menu, but changes will be be in effect if hs.menubar:returnToMenuBar() is called on the menubaritem.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 654](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L654){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 654](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L654) |
 
 ---
 
@@ -250,7 +250,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubaritem if the image was loaded and set, `nil` if it could not be found or loaded</li></ul>          |
 | **Notes**                                   | <ul><li>** API Change **</li><li>  This method used to return true on success -- this has been changed to return the menubaritem on success to facilitate method chaining.  Since Lua treats any value which is not nil or false as "true", this should only affect code where the return value was actually being compared to true, e.g. `if result == true then...` rather than the (unaffected) `if result then...`.</li><li></li><li>If you set a title as well as an icon, they will both be displayed next to each other</li><li>Has no affect on the display of a pop-up menu, but changes will be be in effect if hs.menubar:returnToMenuBar() is called on the menubaritem.</li><li></li><li>Icons should be small, transparent images that roughly match the size of normal menubar icons, otherwise they will look very strange. Note that if you're using an `hs.image` image object as the icon, you can force it to be resized with `hs.image:setSize({w=16,h=16})`</li><li>Retina scaling is supported if the image is either scalable (e.g. a PDF produced by Adobe Illustrator) or contain multiple sizes (e.g. a TIFF with small and large images). Images will not automatically do the right thing if you have a @2x version present</li><li>Icons are by default specified as "templates", which allows them to automatically support OS X 10.10's Dark Mode, but this also means they cannot be complicated, colour images.</li><li>For examples of images that work well, see Hammerspoon.app/Contents/Resources/statusicon.tiff (for a retina-capable multi-image TIFF icon) or [https://github.com/jigish/slate/blob/master/Slate/status.pdf](https://github.com/jigish/slate/blob/master/Slate/status.pdf) (for a scalable vector PDF icon)</li><li>For guidelines on the sizing of images, see [http://alastairs-place.net/blog/2013/07/23/nsstatusitem-what-size-should-your-icon-be/](http://alastairs-place.net/blog/2013/07/23/nsstatusitem-what-size-should-your-icon-be/)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 573](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L573){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 573](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L573) |
 
 ---
 
@@ -289,7 +289,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | <ul><li>If you are using the callback function, you should take care not to take too long to generate the menu, as you will block the process and the OS may decide to remove the menubar item</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 703](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L703){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 703](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L703) |
 
 ---
 
@@ -305,7 +305,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubar item</li></ul>          |
 | **Notes**                                   | <ul><li>If you set an icon as well as a title, they will both be displayed next to each other</li><li>Has no affect on the display of a pop-up menu, but changes will be be in effect if hs.menubar:returnToMenuBar() is called on the menubaritem.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 534](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L534){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 534](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L534) |
 
 ---
 
@@ -321,7 +321,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | <ul><li>Has no affect on the display of a pop-up menu, but changes will be be in effect if hs.menubar:returnToMenuBar() is called on the menubaritem.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 630](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L630){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 630](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L630) |
 
 ---
 
@@ -337,7 +337,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>if a parameter is provided, returns the menubar item; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>An image is used rather than a checkmark or dash only when you set them with the `onStateImage`, `offStateImage`, or `mixedStateImage` keys.  If you are not using these keys, then this method will have no visible effect on the menu's rendering.  See  [hs.menubar:setMenu](#setMenu) for more information.</li><li>If you are setting the menu contents with a static table, you should invoke this method before invoking [hs.menubar:setMenu](#setMenu), as changes will only go into effect when the table is next converted to a menu structure.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 1073](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1073){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 1073](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1073) |
 
 ---
 
@@ -353,7 +353,7 @@ Create and manage menubar icons
 | **Returns**                                 | <ul><li>the menubar item title, or an empty string, if there isn't one.  If `styled` is not set or is false, then a string is returned; otherwise a styledtextObject will be returned.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/menubar/libmenubar.m line 1014](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1014){target="_blank"} |
+| **Source**                                  | [extensions/menubar/libmenubar.m line 1014](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/menubar/libmenubar.m#L1014) |
 
 ---
 

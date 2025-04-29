@@ -30,7 +30,7 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it matches a ColorCurve element.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua#L25){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua#L25) |
 
 ---
 
@@ -48,7 +48,7 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `ColorCurve`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua#L40){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurve.lua#L40) |
 
 ---
 

@@ -53,7 +53,7 @@ The only false positives I've ever had with this detector are various rare throa
 | **Returns**                                 | <ul><li>An `hs.noises` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/noises/libnoises.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/noises/libnoises.m#L236){target="_blank"} |
+| **Source**                                  | [extensions/noises/libnoises.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/noises/libnoises.m#L236) |
 
 ---
 
@@ -71,7 +71,7 @@ The only false positives I've ever had with this detector are various rare throa
 | **Returns**                                 | <ul><li>The `hs.noises` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/noises/libnoises.m line 205](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/noises/libnoises.m#L205){target="_blank"} |
+| **Source**                                  | [extensions/noises/libnoises.m line 205](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/noises/libnoises.m#L205) |
 
 ---
 
@@ -87,7 +87,7 @@ The only false positives I've ever had with this detector are various rare throa
 | **Returns**                                 | <ul><li>The `hs.noises` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/noises/libnoises.m line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/noises/libnoises.m#L189){target="_blank"} |
+| **Source**                                  | [extensions/noises/libnoises.m line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/noises/libnoises.m#L189) |
 
 ---
 

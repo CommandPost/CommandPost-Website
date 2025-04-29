@@ -8,7 +8,7 @@ For example, to launch Final Cut Pro, you can use this simple Lua code:
 
 `cp.apple.finalcutpro:launch()`
 
-CommandPost is also compatible with **Hammerspoon**, so you can also use any of the examples on the [Hammerspoon website](http://www.hammerspoon.org/go/){target="_blank"}.
+CommandPost is also compatible with **Hammerspoon**, so you can also use any of the examples on the [Hammerspoon website](http://www.hammerspoon.org/go/).
 
 You can learn more about Lua [here](../developer/lua-overview/).
 

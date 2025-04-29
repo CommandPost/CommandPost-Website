@@ -27,7 +27,7 @@ Shortcut for changing Final Cut Pro's Browser Height
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Change timeline clip height already in progress.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/browser/duration.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/duration.lua#L17){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/browser/duration.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/duration.lua#L17) |
 
 ---
 
@@ -45,7 +45,7 @@ Shortcut for changing Final Cut Pro's Browser Height
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/browser/duration.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/duration.lua#L63){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/browser/duration.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/duration.lua#L63) |
 
 ---
 

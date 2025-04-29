@@ -36,7 +36,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 123](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L123){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 123](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L123) |
 
 ---
 
@@ -52,7 +52,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>If the Spoon is installed, it returns a table with the Spoon information as returned by `list()`. Returns `nil` if the Spoon is not installed.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 182](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L182){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 182](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L182) |
 
 ---
 
@@ -68,7 +68,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>`true` if the Spoon is loaded, `nil` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 201](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L201){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 201](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L201) |
 
 ---
 
@@ -84,7 +84,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>Table with a list of installed/loaded spoons (depending on the value of `onlyLoaded`). Each entry is a table with the following entries:</li><li>  `name` - Spoon name</li><li>  `loaded` - boolean indication of whether the Spoon is loaded (`true`) or only installed (`false`)</li><li>  `version` - Spoon version number. Available only for loaded Spoons.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L148){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L148) |
 
 ---
 
@@ -100,7 +100,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>The full directory path where the template was created, or `nil` if there was an error.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L40){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L40) |
 
 ---
 
@@ -116,7 +116,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>Absolute path of the file. Note: no existence or other checks are done on the path.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 110](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L110){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 110](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L110) |
 
 ---
 
@@ -132,7 +132,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>String with the path from where the calling code was loaded.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 95](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L95){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 95](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L95) |
 
 ---
 
@@ -153,7 +153,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 | **Returns**                                 | <ul><li>`true` if the spoon was loaded, `nil` otherwise</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spoons/spoons.lua line 220](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L220){target="_blank"} |
+| **Source**                                  | [extensions/spoons/spoons.lua line 220](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spoons/spoons.lua#L220) |
 
 ---
 

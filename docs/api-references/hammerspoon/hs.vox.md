@@ -48,7 +48,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L115){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L115) |
 
 ---
 
@@ -64,7 +64,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 141](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L141){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 141](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L141) |
 
 ---
 
@@ -80,7 +80,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 193](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L193){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 193](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L193) |
 
 ---
 
@@ -96,7 +96,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 167](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L167){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 167](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L167) |
 
 ---
 
@@ -112,7 +112,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L154){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L154) |
 
 ---
 
@@ -128,7 +128,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L128){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L128) |
 
 ---
 
@@ -144,7 +144,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the artist of current Album, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 261](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L261){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 261](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L261) |
 
 ---
 
@@ -160,7 +160,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 248](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L248){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 248](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L248) |
 
 ---
 
@@ -176,7 +176,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L235){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L235) |
 
 ---
 
@@ -192,7 +192,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>0 for paused</li><li>1 for playing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 287](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L287){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 287](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L287) |
 
 ---
 
@@ -208,7 +208,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L274){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L274) |
 
 ---
 
@@ -224,7 +224,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 180](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L180){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 180](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L180) |
 
 ---
 
@@ -240,7 +240,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether the vox application is running</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 301](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L301){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 301](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L301) |
 
 ---
 
@@ -256,7 +256,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L63){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L63) |
 
 ---
 
@@ -272,7 +272,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 24](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L24){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 24](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L24) |
 
 ---
 
@@ -288,7 +288,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L37){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L37) |
 
 ---
 
@@ -304,7 +304,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L50){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L50) |
 
 ---
 
@@ -320,7 +320,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L102){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L102) |
 
 ---
 
@@ -336,7 +336,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 76](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L76){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 76](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L76) |
 
 ---
 
@@ -352,7 +352,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 89](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L89){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 89](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L89) |
 
 ---
 
@@ -368,7 +368,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 206](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L206){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 206](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L206) |
 
 ---
 
@@ -384,7 +384,7 @@ Controls for VOX music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/vox/vox.lua line 219](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L219){target="_blank"} |
+| **Source**                                  | [extensions/vox/vox.lua line 219](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/vox/vox.lua#L219) |
 
 ---
 

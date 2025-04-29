@@ -33,7 +33,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L30){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L30) |
 
 ---
 
@@ -51,7 +51,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L41){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L41) |
 
 ---
 
@@ -66,7 +66,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the MainProperties group.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/MainProperties.lua#L102) |
 
 ---
 

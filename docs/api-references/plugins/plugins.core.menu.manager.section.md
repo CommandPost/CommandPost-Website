@@ -41,7 +41,7 @@ Controls sections for the CommandPost menu.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default priority                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L12){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L12) |
 
 ---
 
@@ -54,7 +54,7 @@ Controls sections for the CommandPost menu.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The preferences key prefix for a disabled section.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L17){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L17) |
 
 ---
 
@@ -72,7 +72,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L172){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L172) |
 
 ---
 
@@ -88,7 +88,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L148){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L148) |
 
 ---
 
@@ -104,7 +104,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The section the item was added to.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L110){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L110) |
 
 ---
 
@@ -120,7 +120,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The section the item was added to.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L129){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L129) |
 
 ---
 
@@ -136,7 +136,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L223){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L223) |
 
 ---
 
@@ -152,7 +152,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L244){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L244) |
 
 ---
 
@@ -168,7 +168,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The new section that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L208){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L208) |
 
 ---
 
@@ -184,7 +184,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`table`	- The menu table for this section. See `hs.menubar` for details on the format.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L263){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L263) |
 
 ---
 
@@ -200,7 +200,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`true` if the section has a disabled preferences key defined, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L69){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L69) |
 
 ---
 
@@ -216,7 +216,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`true` if it does contain an application heading, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L195){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L195) |
 
 ---
 
@@ -232,7 +232,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>`true` if the section is disabled, otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L82){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L82) |
 
 ---
 
@@ -248,7 +248,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>section - The section that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L22){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L22) |
 
 ---
 
@@ -264,7 +264,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L55){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L55) |
 
 ---
 
@@ -280,7 +280,7 @@ Controls sections for the CommandPost menu.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L41){target="_blank"} |
+| **Source**                                  | [src/plugins/core/menu/manager/section.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/section.lua#L41) |
 
 ---
 

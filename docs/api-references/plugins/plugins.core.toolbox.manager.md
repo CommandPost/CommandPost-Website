@@ -50,7 +50,7 @@ Manager for the CommandPost Toolbox Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of Preferences Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L38){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L38) |
 
 ---
 
@@ -63,7 +63,7 @@ Manager for the CommandPost Toolbox Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of Preferences Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L43){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L43) |
 
 ---
 
@@ -76,7 +76,7 @@ Manager for the CommandPost Toolbox Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last tab saved in settings.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L63){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L63) |
 
 ---
 
@@ -89,7 +89,7 @@ Manager for the CommandPost Toolbox Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L58){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L58) |
 
 ---
 
@@ -102,7 +102,7 @@ Manager for the CommandPost Toolbox Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The WebView Label                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L33){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L33) |
 
 ---
 
@@ -117,7 +117,7 @@ Manager for the CommandPost Toolbox Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing handlers.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L53){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L53) |
 
 ---
 
@@ -130,7 +130,7 @@ Manager for the CommandPost Toolbox Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing panels.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L48){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L48) |
 
 ---
 
@@ -148,7 +148,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L94){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L94) |
 
 ---
 
@@ -164,7 +164,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `closeFn`       - A callback function that's triggered when the Preferences window is closed.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 553](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L553){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 553](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L553) |
 
 ---
 
@@ -180,7 +180,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>The panel ID as a string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L152){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L152) |
 
 ---
 
@@ -196,7 +196,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>`true` if successful or otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 406](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L406){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 406](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L406) |
 
 ---
 
@@ -212,7 +212,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L108){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L108) |
 
 ---
 
@@ -228,7 +228,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L81){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L81) |
 
 ---
 
@@ -244,7 +244,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>A `hs.webview`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L68){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L68) |
 
 ---
 
@@ -260,7 +260,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 425](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L425){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 425](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L425) |
 
 ---
 
@@ -276,7 +276,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L234){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L234) |
 
 ---
 
@@ -292,7 +292,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 463](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L463){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 463](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L463) |
 
 ---
 
@@ -308,7 +308,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>The maximum panel height.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L249){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L249) |
 
 ---
 
@@ -324,7 +324,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L290){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L290) |
 
 ---
 
@@ -340,7 +340,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L441){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L441) |
 
 ---
 
@@ -356,7 +356,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 487](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L487){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 487](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L487) |
 
 ---
 
@@ -372,7 +372,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L121){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L121) |
 
 ---
 
@@ -388,7 +388,7 @@ Manager for the CommandPost Toolbox Window.
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 374](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L374){target="_blank"} |
+| **Source**                                  | [src/plugins/core/toolbox/manager/init.lua line 374](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/init.lua#L374) |
 
 ---
 

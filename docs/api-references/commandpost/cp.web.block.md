@@ -27,7 +27,7 @@ Block.
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/block.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/block.lua#L283){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/block.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/block.lua#L283) |
 
 ---
 

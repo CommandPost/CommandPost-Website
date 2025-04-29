@@ -27,7 +27,7 @@ Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandGroups.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandGroups.lua#L19){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandGroups.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandGroups.lua#L19) |
 
 ---
 

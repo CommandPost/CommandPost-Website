@@ -59,7 +59,7 @@ Timeline Toolbar
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L30){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L30) |
 
 ---
 
@@ -77,7 +77,7 @@ Timeline Toolbar
 | **Returns**                                 | <ul><li>The new Toolbar instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L43){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L43) |
 
 ---
 
@@ -92,7 +92,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Appearance](cp.apple.finalcutpro.timeline.Appearance.md) button/palette control.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L242){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L242) |
 
 ---
 
@@ -105,7 +105,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `CheckBox` field which will toggle the `appearance` popover.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L231){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L231) |
 
 ---
 
@@ -118,7 +118,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) which appends a clip from the Browser into the Timeline.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L101){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L101) |
 
 ---
 
@@ -131,7 +131,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is played while skimming.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 219](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L219){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 219](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L219) |
 
 ---
 
@@ -144,7 +144,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) for "go back in timeline history".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L147){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L147) |
 
 ---
 
@@ -157,7 +157,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Toolbar.Browser](cp.apple.finalcutpro.timeline.Toolbar.Browser.md) containing buttons that will toggle the Effects/Transitions browsers.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L249){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L249) |
 
 ---
 
@@ -170,7 +170,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Clip](cp.apple.finalcutpro.timeline.Toolbar.Clip.md) group of checkbox items.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L196){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L196) |
 
 ---
 
@@ -183,7 +183,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) which allows the user to select the media type that will                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L123){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L123) |
 
 ---
 
@@ -196,7 +196,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [StaticText](cp.ui.StaticText.md) which displays the duration of the Timeline.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L171){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L171) |
 
 ---
 
@@ -209,7 +209,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) which toggles the 'Effects' browser visibility.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L260){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L260) |
 
 ---
 
@@ -222,7 +222,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) for "go forward in timeline history".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L185){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L185) |
 
 ---
 
@@ -235,7 +235,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) which indicates if the Timeline Index is visible.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L68) |
 
 ---
 
@@ -248,7 +248,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) which inserts a clip from the Browser into the Timeline.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L90){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L90) |
 
 ---
 
@@ -261,7 +261,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) which overwrites a clip from the Browser into the Timeline.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L112){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L112) |
 
 ---
 
@@ -274,7 +274,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if video/audio skimming is active.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L215){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L215) |
 
 ---
 
@@ -287,7 +287,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if snapping is enabled.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L227){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L227) |
 
 ---
 
@@ -300,7 +300,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is soloed on the selected clip(s).                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L223){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L223) |
 
 ---
 
@@ -313,7 +313,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) which lists the current project and allows                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L158){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L158) |
 
 ---
 
@@ -326,7 +326,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ToolPalette](cp.apple.finalcutpro.timeline.ToolPalette.md), which allows the user to select the tool                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L135){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L135) |
 
 ---
 
@@ -339,7 +339,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) which toggles the 'Transitions' browser visibility.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 264](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L264){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 264](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L264) |
 
 ---
 
@@ -352,7 +352,7 @@ Timeline Toolbar
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) which allows the user to trim the edges of the selected clips.                                                                     |
 | **Notes**                                   | <ul><li>As of FCP 10.6.3, this is currently always hidden, and cannot have its value changed.</li><li>Uncertain in exactly which version this turned up.</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 207](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L207){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 207](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L207) |
 
 ---
 

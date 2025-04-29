@@ -42,7 +42,7 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A table containing a list of the IP addresses for the interfaces as determined by the arguments provided.</li></ul>          |
 | **Notes**                                   | <ul><li>The order of the IP addresses returned is undefined.</li><li>If no arguments are provided, then this function returns the same results as `hs.host.addresses`, but does not block.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/network/network.lua line 145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L145){target="_blank"} |
+| **Source**                                  | [extensions/network/network.lua line 145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L145) |
 
 ---
 
@@ -58,7 +58,7 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A table containing key-value pairs describing interface details.  Returns an empty table if no primary interface can be determined. Logs an error and returns nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>When determining the primary interface, the `favorIPv6` flag only determines interface search order.  If you specify true for this flag, but no primary IPv6 interface exists (i.e. your DHCP server only provides an IPv4 address an IPv6 is limited to local only traffic), then the primary IPv4 interface will be used instead.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/network/network.lua line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L69){target="_blank"} |
+| **Source**                                  | [extensions/network/network.lua line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L69) |
 
 ---
 
@@ -74,7 +74,7 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A string containing the user defined name for the interface, if one exists, or false if the interface does not have a user defined name. Logs an error and returns nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>Only interfaces which show up in the System Preferences Network panel will have a user defined name.</li><li></li><li>When determining the primary interface, the `favorIPv6` flag only determines interface search order.  If you specify true for this flag, but no primary IPv6 interface exists (i.e. your DHCP server only provides an IPv4 address an IPv6 is limited to local only traffic), then the primary IPv4 interface will be used instead.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/network/network.lua line 190](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L190){target="_blank"} |
+| **Source**                                  | [extensions/network/network.lua line 190](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L190) |
 
 ---
 
@@ -90,7 +90,7 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>A table containing a list of the interfaces active for the system.  Logs an error and returns nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>The names of the interfaces returned by this function correspond to the interface's BSD name, not the user defined name that shows up in the System Preferences's Network panel.</li><li>This function returns *all* interfaces, even ones used by the system that are not directly manageable by the user.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/network/network.lua line 38](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L38){target="_blank"} |
+| **Source**                                  | [extensions/network/network.lua line 38](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L38) |
 
 ---
 
@@ -106,7 +106,7 @@ This module provides functions for inquiring about and monitoring changes to the
 | **Returns**                                 | <ul><li>The name of the primary IPv4 interface or false if there isn't one, and the name of the IPv6 interface or false if there isn't one. Logs an error and returns a single nil if there was a problem retrieving this information.</li></ul>          |
 | **Notes**                                   | <ul><li>The IPv4 and IPv6 interface names are often, but not always, the same.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/network/network.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L115){target="_blank"} |
+| **Source**                                  | [extensions/network/network.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L115) |
 
 ---
 

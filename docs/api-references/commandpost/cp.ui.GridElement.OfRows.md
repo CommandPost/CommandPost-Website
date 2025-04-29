@@ -32,7 +32,7 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Returns**                                 | <ul><li>A new `GridElement.OfRows` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 505](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L505){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 505](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L505) |
 
 ---
 
@@ -50,7 +50,7 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Returns**                                 | <ul><li>The new `Row` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L518){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L518) |
 
 ---
 
@@ -66,7 +66,7 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Returns**                                 | <ul><li>A table of `Row`s.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 532](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L532){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 532](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L532) |
 
 ---
 

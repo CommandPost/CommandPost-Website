@@ -47,7 +47,7 @@ Note:
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table holding the gamma values for given color temperatures; each key must be a color temperature number in K (useful values are between                                                                     |
 | **Notes**                                   | <ul><li>`hs.inspect(hs.redshift.COLORRAMP)` from the console will show you how the table is built</li><li>the default ramp has entries from 1000K to 10000K every 100K</li></ul> |
-| **Source**                                  | [extensions/redshift/redshift.lua line 342](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L342){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 342](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L342) |
 
 ---
 
@@ -65,7 +65,7 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>You can use this to dynamically adjust the UI colors in your modules or configuration, if appropriate.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 107](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L107){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 107](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L107) |
 
 ---
 
@@ -81,7 +81,7 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L128){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L128) |
 
 ---
 
@@ -97,7 +97,7 @@ Note:
 | **Returns**                                 | <ul><li>false if the colors are not currently inverted; otherwise, a string indicating the reason, one of:</li><li>  "user" for the user override (see `hs.redshift.toggleInvert()`)</li><li>  "redshift-night" if `hs.redshift.start()` was called with `invertAtNight` set to true,</li><li>     and it's currently night time</li><li>  the ID string (usually the module name) provided to `hs.redshift.requestInvert()`, if another module requested color inversion</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 144](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L144){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 144](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L144) |
 
 ---
 
@@ -113,7 +113,7 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>you can use this function e.g. to automatically invert colors if the ambient light sensor reading drops below</li><li>   a certain threshold (`hs.brightness.DDCauto()` can optionally do exactly that)</li><li>if the user's configuration doesn't explicitly start the redshift module, calling this will have no effect</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 161](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L161){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 161](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L161) |
 
 ---
 
@@ -129,7 +129,7 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 273](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L273){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 273](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L273) |
 
 ---
 
@@ -145,7 +145,7 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 243](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L243){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 243](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L243) |
 
 ---
 
@@ -161,7 +161,7 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function should be bound to a hotkey, e.g.: `hs.hotkey.bind('ctrl-cmd','-','Redshift',hs.redshift.toggle)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 218](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L218){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 218](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L218) |
 
 ---
 
@@ -177,7 +177,7 @@ Note:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function should be bound to a hotkey, e.g.: `hs.hotkey.bind('ctrl-cmd','=','Invert',hs.redshift.toggleInvert)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/redshift/redshift.lua line 195](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L195){target="_blank"} |
+| **Source**                                  | [extensions/redshift/redshift.lua line 195](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/redshift/redshift.lua#L195) |
 
 ---
 

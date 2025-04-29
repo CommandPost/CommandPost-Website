@@ -54,7 +54,7 @@ o:start()
 | **Returns**                                 | <ul><li>A table of `cp.ui.notifier` instances.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L160){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L160) |
 
 ---
 
@@ -72,7 +72,7 @@ o:start()
 | **Returns**                                 | <ul><li>A new `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The function has a signature of `function() -> hs.axuielement`.</li><li>It simply returns the current element being observed, or `nil` if none is available.</li><li>The function will be called multiple times over the life of the notifier.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L126){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L126) |
 
 ---
 
@@ -90,7 +90,7 @@ o:start()
 | **Returns**                                 | <ul><li>The running `hs.application` for the notifier's `bundleID`, or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L294){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L294) |
 
 ---
 
@@ -106,7 +106,7 @@ o:start()
 | **Returns**                                 | <ul><li>The application 'bundle ID' string (e.g. "com.apple.FinalCut")</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L281){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L281) |
 
 ---
 
@@ -122,7 +122,7 @@ o:start()
 | **Returns**                                 | <ul><li>The `axuielement`, or `nil` if not available.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L173){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L173) |
 
 ---
 
@@ -138,7 +138,7 @@ o:start()
 | **Returns**                                 | <ul><li>`true` if currently debugging, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L619){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L619) |
 
 ---
 
@@ -154,7 +154,7 @@ o:start()
 | **Returns**                                 | <ul><li>The PID, or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L329){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L329) |
 
 ---
 
@@ -170,7 +170,7 @@ o:start()
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 581](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L581){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 581](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L581) |
 
 ---
 
@@ -186,7 +186,7 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 564](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L564){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 564](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L564) |
 
 ---
 
@@ -202,7 +202,7 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 489](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L489){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 489](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L489) |
 
 ---
 
@@ -218,7 +218,7 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This should generally just be used for debugging purposes. It's best to use `watchFor`[#watchFor] in most cases.</li><li>The callback function should expect 3 arguments and return none. The arguments passed to the callback will be as follows:</li><li>    the `hs.axuielement` object for the accessibility element which generated the notification.</li><li>    a string with the notification type.</li><li>    A table containing key-value pairs with more information about the notification, if provided. Commonly this will be an empty table.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L234){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L234) |
 
 ---
 
@@ -234,7 +234,7 @@ o:start()
 | **Returns**                                 | <ul><li>The `cp.ui.notifier` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 3 arguments and return none. The arguments passed to the callback will be as follows:</li><li>    the `hs.axuielement` object for the accessibility element which generated the notification.</li><li>    a string with the notification type.</li><li>    A table containing key-value pairs with more information about the notification, if provided. Commonly this will be an empty table.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L186){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/notifier.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/notifier.lua#L186) |
 
 ---
 

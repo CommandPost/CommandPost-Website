@@ -27,7 +27,7 @@ Tangent Display Functions.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/os/display.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/display.lua#L17){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/os/display.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/display.lua#L17) |
 
 ---
 

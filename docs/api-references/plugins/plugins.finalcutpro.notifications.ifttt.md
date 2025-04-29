@@ -36,7 +36,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L63){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L63) |
 
 ---
 
@@ -52,7 +52,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L77){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L77) |
 
 ---
 
@@ -68,7 +68,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L38){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L38) |
 
 ---
 
@@ -83,7 +83,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Application API Key                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L28){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L28) |
 
 ---
 
@@ -96,7 +96,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L33){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L33) |
 
 ---
 
@@ -109,7 +109,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | User API Key                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L23){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/ifttt.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/ifttt.lua#L23) |
 
 ---
 

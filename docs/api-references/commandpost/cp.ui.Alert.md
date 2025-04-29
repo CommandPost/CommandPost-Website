@@ -27,7 +27,7 @@ Alert UI Module.
 | **Returns**                                 | <ul><li>A new `Browser` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Alert.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Alert.lua#L13){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Alert.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Alert.lua#L13) |
 
 ---
 

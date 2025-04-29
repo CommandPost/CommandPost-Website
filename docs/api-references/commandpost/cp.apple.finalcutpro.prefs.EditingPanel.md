@@ -35,7 +35,7 @@ Editing Panel Module.
 | **Returns**                                 | <ul><li>A new `EditingPanel` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L21) |
 
 ---
 
@@ -50,7 +50,7 @@ Editing Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Audio Fade Duration" `TextField` with a `number` value.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L61){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L61) |
 
 ---
 
@@ -63,7 +63,7 @@ Editing Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Position playhead after edit operation" `CheckBox`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L43){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L43) |
 
 ---
 
@@ -76,7 +76,7 @@ Editing Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Show detailed trimming feedback" `CheckBox`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L34){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L34) |
 
 ---
 
@@ -89,7 +89,7 @@ Editing Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Show reference waveforms" `CheckBox`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L52){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L52) |
 
 ---
 
@@ -102,7 +102,7 @@ Editing Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Still image Duration" `TextField` with a `number` value.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L70){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L70) |
 
 ---
 
@@ -115,7 +115,7 @@ Editing Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Transition Duration" `TextField` with a `number` value.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L79){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/EditingPanel.lua#L79) |
 
 ---
 

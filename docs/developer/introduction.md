@@ -2,9 +2,9 @@
 
 ## What is CommandPost?
 
-CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple’s [Final Cut Pro](http://apple.com/final-cut-pro/){target="_blank"}. It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/).
+CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple’s [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/).
 
-You can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/){target="_blank"}.
+You can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/).
 
 It has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
@@ -76,8 +76,8 @@ You can learn more about the URL Handler [here](/scripting/url-handler/).
 
 CommandPost is made up of two seperate components:
 
-* [CommandPost-App](https://github.com/CommandPost/CommandPost-App){target="_blank"} is a fork of [Hammerspoon](http://www.hammerspoon.org){target="_blank"}. This is the main Objective-C based Xcode project.
-* [CommandPost](https://github.com/CommandPost/CommandPost){target="_blank"} is a repository that contains all of the CommandPost [Lua](https://www.lua.org/about.html){target="_blank"} scripts, which actually make up the CommandPost user interface and feature set.
+* [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). This is the main Objective-C based Xcode project.
+* [CommandPost](https://github.com/CommandPost/CommandPost) is a repository that contains all of the CommandPost [Lua](https://www.lua.org/about.html) scripts, which actually make up the CommandPost user interface and feature set.
 
 Essentially, we're using Hammerspoon as an "engine" to drive our Lua-based application.
 
@@ -85,7 +85,7 @@ Essentially, we're using Hammerspoon as an "engine" to drive our Lua-based appli
 
 ## What is Hammerspoon?
 
-[Hammerspoon](http://www.hammerspoon.org){target="_blank"} is a tool for powerful automation of macOS. At its core, Hammerspoon is just a bridge between the operating system and a Lua scripting engine. What gives Hammerspoon its power is a set of extensions that expose specific pieces of system functionality, to the user.
+[Hammerspoon](http://www.hammerspoon.org) is a tool for powerful automation of macOS. At its core, Hammerspoon is just a bridge between the operating system and a Lua scripting engine. What gives Hammerspoon its power is a set of extensions that expose specific pieces of system functionality, to the user.
 
 With Hammerspoon, you can write Lua code that interacts with macOS APIs for applications, windows, mouse pointers, filesystem objects, audio devices, batteries, screens, low-level keyboard/mouse events, clipboards, location services, wifi, and more.
 
@@ -99,9 +99,9 @@ Because behind-the-scenes CommandPost is pretty much exactly the same code as Ha
 
 ## How has Hammerspoon been built?
 
-Hammerspoon is actually a fork of [Mjolnir](https://github.com/sdegutis/mjolnir){target="_blank"} by Steven Degutis. Unlike Hammerspoon, Mjolnir aims to be a very minimal application, with its extensions hosted externally and managed using a Lua package manager. Hammerspoon wanted to provide a more integrated experience.
+Hammerspoon is actually a fork of [Mjolnir](https://github.com/sdegutis/mjolnir) by Steven Degutis. Unlike Hammerspoon, Mjolnir aims to be a very minimal application, with its extensions hosted externally and managed using a Lua package manager. Hammerspoon wanted to provide a more integrated experience.
 
-Hammerspoon is composed of three separate logical areas - a Lua runtime wrapper framework called [LuaSkin](http://www.hammerspoon.org/docs/LuaSkin/Classes/LuaSkin/index.html#){target="_blank"}, the core Hammerspoon app which houses the LuaSkin/Lua runtime and provides the ability to load extensions, and [various extension modules](https://github.com/Hammerspoon/hammerspoon/tree/master/extensions){target="_blank"} that [expose system APIs](/developer/hs/) to the user's Lua code.
+Hammerspoon is composed of three separate logical areas - a Lua runtime wrapper framework called [LuaSkin](http://www.hammerspoon.org/docs/LuaSkin/Classes/LuaSkin/index.html#), the core Hammerspoon app which houses the LuaSkin/Lua runtime and provides the ability to load extensions, and [various extension modules](https://github.com/Hammerspoon/hammerspoon/tree/master/extensions) that [expose system APIs](/developer/hs/) to the user's Lua code.
 
 ---
 
@@ -111,9 +111,9 @@ What do Adobe Photoshop Lightroom, Angry Birds, Apache HTTP Server, Apache Traff
 
 Lua is a powerful and fast programming language that is easy to learn and use and to embed into your application.
 
-Lua is designed to be a lightweight embeddable scripting language and is used for [all sorts of applications](https://www.lua.org/uses.html){target="_blank"} from games to web applications and image processing.
+Lua is designed to be a lightweight embeddable scripting language and is used for [all sorts of applications](https://www.lua.org/uses.html) from games to web applications and image processing.
 
-Lua is freely available for any purpose, including commercial purposes, at absolutely no cost, and using it requires no paperwork. Read the details in the [license page](https://www.lua.org/license.html){target="_blank"}.
+Lua is freely available for any purpose, including commercial purposes, at absolutely no cost, and using it requires no paperwork. Read the details in the [license page](https://www.lua.org/license.html).
 
 ---
 

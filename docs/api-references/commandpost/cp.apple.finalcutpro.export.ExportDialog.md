@@ -37,7 +37,7 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L37){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L37) |
 
 ---
 
@@ -52,7 +52,7 @@ Export Dialog Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "File Extension" [StaticText](cp.ui.StaticText.md).                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 288](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L288){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 288](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L288) |
 
 ---
 
@@ -65,7 +65,7 @@ Export Dialog Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `SaveSheet`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 299](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L299){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 299](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L299) |
 
 ---
 
@@ -83,7 +83,7 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L234){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L234) |
 
 ---
 
@@ -99,7 +99,7 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L255){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L255) |
 
 ---
 
@@ -115,7 +115,7 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L275){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L275) |
 
 ---
 
@@ -131,7 +131,7 @@ Export Dialog Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li><li>If an error occurred, the message is returned as the second value</li></ul>          |
 | **Notes**                                   | <ul><li>If providing a function, it will be passed one item - the name of the destination, and should return `true` to indicate a match. The name will not contain " (default)" if present.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L72){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ExportDialog.lua#L72) |
 
 ---
 

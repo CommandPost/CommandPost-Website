@@ -32,7 +32,7 @@ Shortcuts Preferences Panel
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Shortcuts File Name                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L33){target="_blank"} |
+| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L33) |
 
 ---
 
@@ -50,7 +50,7 @@ Shortcuts Preferences Panel
 | **Returns**                                 | <ul><li>Group Editor</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 640](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L640){target="_blank"} |
+| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 640](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L640) |
 
 ---
 
@@ -66,7 +66,7 @@ Shortcuts Preferences Panel
 | **Returns**                                 | <ul><li>The Module</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 571](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L571){target="_blank"} |
+| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 571](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L571) |
 
 ---
 
@@ -82,7 +82,7 @@ Shortcuts Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 623](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L623){target="_blank"} |
+| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 623](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L623) |
 
 ---
 
@@ -97,7 +97,7 @@ Shortcuts Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L38){target="_blank"} |
+| **Source**                                  | [src/plugins/core/shortcuts/prefs/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/prefs/init.lua#L38) |
 
 ---
 

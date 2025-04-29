@@ -18,7 +18,7 @@ This features requires Loupedeck Software v5.1 or later.
 
 ![](../static/controlsurface-loupedeck-plugin.png)
 
-You can learn more on the [official Loupedeck site](https://support.loupedeck.com/setting-up-commandpost-plugin){target="_blank"}.
+You can learn more on the [official Loupedeck site](https://support.loupedeck.com/setting-up-commandpost-plugin).
 
 ---
 
@@ -36,6 +36,6 @@ Using this method gives you a lot more control and flexibility.
 
 Here's a collection of third-party videos:
 
-- [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0){target="_blank"}
-- [YCImaging: THIS Made Me Edit Twice As Fast (Loupedeck CT 2 Years Later)](https://youtu.be/mu67HtWjom8){target="_blank"}
-- [Serge M: POWER UP Final Cut Pro with Loupedeck CT & CommandPost](https://www.youtube.com/watch?v=I962Dj5IFzw){target="_blank"}
+- [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0)
+- [YCImaging: THIS Made Me Edit Twice As Fast (Loupedeck CT 2 Years Later)](https://youtu.be/mu67HtWjom8)
+- [Serge M: POWER UP Final Cut Pro with Loupedeck CT & CommandPost](https://www.youtube.com/watch?v=I962Dj5IFzw)

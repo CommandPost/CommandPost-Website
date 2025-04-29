@@ -44,7 +44,7 @@ Represents a Tangent Connection.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing all the Tangent connections.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L66){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L66) |
 
 ---
 
@@ -62,7 +62,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A new Connection object.</li></ul>          |
 | **Notes**                                   | <ul><li>Notes for the `task` parameter:</li><li>  ** This is used to assist with automatic switching of panels when your application gains mouse focus on the GUI.</li><li>  ** This parameter should only be required if the string passed in appStr does not match the Task name that the OS identifies as your application. Typically, this is only usually required for Plugins which run within a parent Host application. Under these circumstances it is the name of the Host Application’s Task which should be passed.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 490](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L490){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 490](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L490) |
 
 ---
 
@@ -80,7 +80,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The new `mode`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 431](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L431){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 431](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L431) |
 
 ---
 
@@ -96,7 +96,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The application name as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L379){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L379) |
 
 ---
 
@@ -112,7 +112,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A `hs.tangent` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 710](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L710){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 710](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L710) |
 
 ---
 
@@ -128,7 +128,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 723](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L723){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 723](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L723) |
 
 ---
 
@@ -144,7 +144,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The XML controls</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L314){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L314) |
 
 ---
 
@@ -160,7 +160,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The `mode`, or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 448](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L448){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 448](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L448) |
 
 ---
 
@@ -176,7 +176,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The plugin path as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 418](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L418){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 418](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L418) |
 
 ---
 
@@ -192,7 +192,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>A `hs.tangent` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L47){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L47) |
 
 ---
 
@@ -208,7 +208,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The system path as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 366](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L366){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 366](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L366) |
 
 ---
 
@@ -224,7 +224,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The task as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L405){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L405) |
 
 ---
 
@@ -240,7 +240,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 692](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L692){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 692](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L692) |
 
 ---
 
@@ -256,7 +256,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 466](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L466){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 466](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L466) |
 
 ---
 
@@ -272,7 +272,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L221){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L221) |
 
 ---
 
@@ -288,7 +288,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>The user path as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 392](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L392){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 392](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L392) |
 
 ---
 
@@ -304,7 +304,7 @@ Represents a Tangent Connection.
 | **Returns**                                 | <ul><li>`true` if successfully created otherwise `false` if an error occurred.</li><li>If an error occurs an error message will also be returned as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L266){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/connection.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/connection.lua#L266) |
 
 ---
 

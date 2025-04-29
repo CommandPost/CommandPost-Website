@@ -36,7 +36,7 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L107){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L107) |
 
 ---
 
@@ -52,7 +52,7 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L121){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L121) |
 
 ---
 
@@ -68,7 +68,7 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L82){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L82) |
 
 ---
 
@@ -84,7 +84,7 @@ Pushover Notifications Plugin.
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L40){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L40) |
 
 ---
 
@@ -99,7 +99,7 @@ Pushover Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the API keys have been validated.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L30){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L30) |
 
 ---
 
@@ -112,7 +112,7 @@ Pushover Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Application API Key                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L25){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L25) |
 
 ---
 
@@ -125,7 +125,7 @@ Pushover Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L35){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L35) |
 
 ---
 
@@ -138,7 +138,7 @@ Pushover Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | User API Key                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L20){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/pushover.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/pushover.lua#L20) |
 
 ---
 

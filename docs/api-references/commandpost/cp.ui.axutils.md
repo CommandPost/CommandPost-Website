@@ -65,7 +65,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The valid cached value.</li></ul>          |
 | **Notes**                                   | <ul><li>If the optional `verifyFn` is provided, it will be called to check that the cached value is still valid. It is passed a single parameter (the axuielement) and is expected to return `true` or `false`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 654](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L654){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 654](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L654) |
 
 ---
 
@@ -81,7 +81,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 385](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L385){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 385](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L385) |
 
 ---
 
@@ -97,7 +97,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 528](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L528){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 528](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L528) |
 
 ---
 
@@ -113,7 +113,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L483){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L483) |
 
 ---
 
@@ -129,7 +129,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 498](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L498){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 498](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L498) |
 
 ---
 
@@ -145,7 +145,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 513](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L513){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 513](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L513) |
 
 ---
 
@@ -161,7 +161,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L133){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L133) |
 
 ---
 
@@ -177,7 +177,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The index (`1` or higher) of the `element`, or `nil` if it was not found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 603](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L603){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 603](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L603) |
 
 ---
 
@@ -193,7 +193,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or nil if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 354](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L354){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 354](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L354) |
 
 ---
 
@@ -209,7 +209,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>a table of children</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L149){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L149) |
 
 ---
 
@@ -225,7 +225,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielements` that are above, or `nil` if the element is not available.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 197](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L197){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 197](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L197) |
 
 ---
 
@@ -241,7 +241,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielements` that are below, or `nil` if the element is not available.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L183){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L183) |
 
 ---
 
@@ -257,7 +257,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L93){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L93) |
 
 ---
 
@@ -273,7 +273,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L39){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L39) |
 
 ---
 
@@ -289,7 +289,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L65){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L65) |
 
 ---
 
@@ -305,7 +305,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 572](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L572){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 572](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L572) |
 
 ---
 
@@ -321,7 +321,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 543](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L543){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 543](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L543) |
 
 ---
 
@@ -337,7 +337,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 558](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L558){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 558](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L558) |
 
 ---
 
@@ -353,7 +353,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or nil if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L283){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L283) |
 
 ---
 
@@ -369,7 +369,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L340){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L340) |
 
 ---
 
@@ -385,7 +385,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 298](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L298){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 298](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L298) |
 
 ---
 
@@ -401,7 +401,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 312](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L312){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 312](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L312) |
 
 ---
 
@@ -417,7 +417,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L326){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L326) |
 
 ---
 
@@ -433,7 +433,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>`true` if the `element` has the supplied attribute value, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L211){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L211) |
 
 ---
 
@@ -449,7 +449,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>`true` if any child matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 589](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L589){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 589](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L589) |
 
 ---
 
@@ -465,7 +465,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>`true` if the element is valid.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 624](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L624){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 624](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L624) |
 
 ---
 
@@ -481,7 +481,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `cp.prop` for the attribute.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `uiFinder` is a `cp.prop`, it will be monitored for changes, making the resulting `prop` "live".</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 761](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L761){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 761](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L761) |
 
 ---
 
@@ -497,7 +497,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>An `hs.image` file, or `nil` if the element could not be snapped.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 689](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L689){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 689](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L689) |
 
 ---
 
@@ -513,7 +513,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The attribute value, or the `default` if none is found.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L22){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L22) |
 
 ---
 
@@ -529,7 +529,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L226){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L226) |
 
 ---
 
@@ -545,7 +545,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L241){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L241) |
 
 ---
 
@@ -561,7 +561,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L269){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L269) |
 
 ---
 
@@ -577,7 +577,7 @@ Utility functions to support `hs.axuielement`.
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L255){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L255) |
 
 ---
 

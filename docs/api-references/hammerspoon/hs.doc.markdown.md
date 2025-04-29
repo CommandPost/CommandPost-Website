@@ -36,7 +36,7 @@ The Lua wrapper portion is licensed under the MIT license by the Hammerspoon dev
 | **Returns**                                 | <ul><li>an HTML or plaintext representation of the markdown encoded text provided.</li></ul>          |
 | **Notes**                                   | <ul><li>The standard GitHub/Markdown extensions enabled for all conversions are:</li><li>  NO_INTRA_EMPHASIS -  disallow emphasis inside of words</li><li>  LAX_SPACING       - supports spacing like in Markdown 1.0.0 (i.e. do not require an empty line between two different blocks in a paragraph)</li><li>  STRIKETHROUGH     - support strikethrough with double tildes (~)</li><li>  TABLES            - support Markdown tables</li><li>  FENCED_CODE       - supports fenced code blocks surround by three back-ticks (`) or three tildes (~)</li><li>  AUTOLINK          - HTTP URL's are treated as links, even if they aren't marked as such with Markdown tags</li><li></li><li>The "gfm" type also includes the following extensions:</li><li> HARD_WRAP     - line breaks are replaced with <br> entities</li><li> SPACE_HEADERS - require a space between the `#` and the name of a header (prevents collisions with the Issues filter)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/doc/markdown.m line 167](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/markdown.m#L167){target="_blank"} |
+| **Source**                                  | [extensions/doc/markdown.m line 167](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/markdown.m#L167) |
 
 ---
 

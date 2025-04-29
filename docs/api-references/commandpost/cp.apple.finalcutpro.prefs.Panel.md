@@ -28,7 +28,7 @@ Preferences Panel.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/Panel.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/Panel.lua#L73){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/Panel.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/Panel.lua#L73) |
 
 ---
 
@@ -44,7 +44,7 @@ Preferences Panel.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/Panel.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/Panel.lua#L55){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/Panel.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/Panel.lua#L55) |
 
 ---
 

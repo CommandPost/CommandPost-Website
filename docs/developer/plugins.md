@@ -34,7 +34,7 @@ You view the contents of the bundle, simply right click and select **Show Packag
 
 At a very minimum, the plugin should contain a single `.lua` file, which will be the Lua code that's executed.
 
-CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (although since they are just dynamically loaded libraries, they could ultimately be compiled in almost any language such as [Swift](https://developer.apple.com/swift/){target="_blank"}.
+CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (although since they are just dynamically loaded libraries, they could ultimately be compiled in almost any language such as [Swift](https://developer.apple.com/swift/).
 
 ---
 

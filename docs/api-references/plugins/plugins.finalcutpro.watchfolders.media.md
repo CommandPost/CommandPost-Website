@@ -44,7 +44,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Seconds until a file is deleted.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L135){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L135) |
 
 ---
 
@@ -59,7 +59,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not new generated voice file are automatically added to the timeline or not.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L140){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L140) |
 
 ---
 
@@ -72,7 +72,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not you want to delete file after they've been imported.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L150){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L150) |
 
 ---
 
@@ -85,7 +85,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not the files are automatically added to the timeline or not.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L145){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L145) |
 
 ---
 
@@ -103,7 +103,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L27){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L27) |
 
 ---
 
@@ -119,7 +119,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L64){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L64) |
 
 ---
 
@@ -135,7 +135,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>Table of the module.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L155){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L155) |
 
 ---
 
@@ -151,7 +151,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L111){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L111) |
 
 ---
 
@@ -167,7 +167,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>A table of all the media folders.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L81){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L81) |
 
 ---
 
@@ -183,7 +183,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L44){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L44) |
 
 ---
 
@@ -199,7 +199,7 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L94){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/init.lua#L94) |
 
 ---
 

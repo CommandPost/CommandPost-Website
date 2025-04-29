@@ -32,7 +32,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L67){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L67) |
 
 ---
 
@@ -48,7 +48,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>A boolean value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L39){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L39) |
 
 ---
 
@@ -64,7 +64,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>A sourcewatcher instance</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L20){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L20) |
 
 ---
 
@@ -80,7 +80,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L129){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L129) |
 
 ---
 
@@ -96,7 +96,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L112){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L112) |
 
 ---
 
@@ -112,7 +112,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Returns**                                 | <ul><li>sourcewatcher</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L93){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L93) |
 
 ---
 

@@ -43,7 +43,7 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 81](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L81){target="_blank"} |
+| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 81](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L81) |
 
 ---
 
@@ -62,7 +62,7 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>An `hs.distributednotifications` object</li></ul>          |
 | **Notes**                                   | <ul><li>On Catalina and above, it is no longer possible to observe all notifications - the `name` parameter is effectively now required. See https://mjtsai.com/blog/2019/10/04/nsdistributednotificationcenter-no-longer-supports-nil-names</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L40){target="_blank"} |
+| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L40) |
 
 ---
 
@@ -80,7 +80,7 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>The `hs.distributednotifications` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 119](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L119){target="_blank"} |
+| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 119](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L119) |
 
 ---
 
@@ -96,7 +96,7 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Returns**                                 | <ul><li>The `hs.distributednotifications` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 142](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L142){target="_blank"} |
+| **Source**                                  | [extensions/distributednotifications/libdistributednotifications.m line 142](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/distributednotifications/libdistributednotifications.m#L142) |
 
 ---
 

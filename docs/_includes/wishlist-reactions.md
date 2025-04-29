@@ -1,30 +1,30 @@
-- [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322){target="_blank"}
-- [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247){target="_blank"}
-- [Add action to change export path to current library path (November 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3397){target="_blank"}
-- [Add support for Contour Design ShuttlePRO v2 (October 10, 2024)](https://github.com/CommandPost/CommandPost/issues/3388){target="_blank"}
-- [Add support for Logitech MX Creative Console (October 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3387){target="_blank"}
-- [Add support for Binepad panels (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3385){target="_blank"}
-- [Add support for DeepDeck (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3382){target="_blank"}
-- [Add support for Griffin PowerMate (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3381){target="_blank"}
-- [Add support for Loupedeck v6 software update (October 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3380){target="_blank"}
-- [Update Batch Rename HUD to allow taking values from any column (September 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3373){target="_blank"}
-- [Add relative MIDI controls for scale & position (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3369){target="_blank"}
-- [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356){target="_blank"}
-- [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348){target="_blank"}
-- [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332){target="_blank"}
-- [Commit Multicam - Add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329){target="_blank"}
-- [Make Text to Speech Action more visible/accessible (March 5, 2024)](https://github.com/CommandPost/CommandPost/issues/3327){target="_blank"}
-- [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325){target="_blank"}
-- [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323){target="_blank"}
-- [Add option to disable Timeline Batch Export alert (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3321){target="_blank"}
-- [Project Spell Checker (January 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3319){target="_blank"}
-- [Add action to "Batch Compound Clip" (January 25, 2024)](https://github.com/CommandPost/CommandPost/issues/3318){target="_blank"}
-- [Add action for A/V Output selection (January 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3306){target="_blank"}
-- [SSL UF1 controller  (January 12, 2024)](https://github.com/CommandPost/CommandPost/issues/3305){target="_blank"}
-- [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304){target="_blank"}
-- [Transcription in "Titles to Keywords Toolbox" (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3298){target="_blank"}
-- [Render in place (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3297){target="_blank"}
-- [Create new renamed clips (that have a marker applied) from a Timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3296){target="_blank"}
-- [Batch replace clips in a timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3295){target="_blank"}
-- [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290){target="_blank"}
-- [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288){target="_blank"}
+- [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322)
+- [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247)
+- [Add action to change export path to current library path (November 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3397)
+- [Add support for Contour Design ShuttlePRO v2 (October 10, 2024)](https://github.com/CommandPost/CommandPost/issues/3388)
+- [Add support for Logitech MX Creative Console (October 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3387)
+- [Add support for Binepad panels (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3385)
+- [Add support for DeepDeck (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3382)
+- [Add support for Griffin PowerMate (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3381)
+- [Add support for Loupedeck v6 software update (October 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3380)
+- [Update Batch Rename HUD to allow taking values from any column (September 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3373)
+- [Add relative MIDI controls for scale & position (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3369)
+- [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356)
+- [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348)
+- [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332)
+- [Commit Multicam - Add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329)
+- [Make Text to Speech Action more visible/accessible (March 5, 2024)](https://github.com/CommandPost/CommandPost/issues/3327)
+- [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325)
+- [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323)
+- [Add option to disable Timeline Batch Export alert (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3321)
+- [Project Spell Checker (January 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3319)
+- [Add action to "Batch Compound Clip" (January 25, 2024)](https://github.com/CommandPost/CommandPost/issues/3318)
+- [Add action for A/V Output selection (January 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3306)
+- [SSL UF1 controller  (January 12, 2024)](https://github.com/CommandPost/CommandPost/issues/3305)
+- [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304)
+- [Transcription in "Titles to Keywords Toolbox" (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3298)
+- [Render in place (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3297)
+- [Create new renamed clips (that have a marker applied) from a Timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3296)
+- [Batch replace clips in a timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3295)
+- [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290)
+- [Update Scrolling Timeline to match functionality of Final Cut Pro 10.7 (December 2, 2023)](https://github.com/CommandPost/CommandPost/issues/3288)

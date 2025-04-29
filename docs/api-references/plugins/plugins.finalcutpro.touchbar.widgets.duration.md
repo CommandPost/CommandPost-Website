@@ -28,7 +28,7 @@ Final Cut Pro Browser Duration Control Widget for Touch Bar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/duration.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/duration.lua#L106){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/duration.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/duration.lua#L106) |
 
 ---
 
@@ -44,7 +44,7 @@ Final Cut Pro Browser Duration Control Widget for Touch Bar.
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/duration.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/duration.lua#L16){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/duration.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/duration.lua#L16) |
 
 ---
 

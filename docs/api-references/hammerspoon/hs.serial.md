@@ -62,7 +62,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>A table containing the IOKit details of any connected serial ports, organised by port name.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 655](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L655){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 655](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L655) |
 
 ---
 
@@ -78,7 +78,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>A table containing the names of any connected serial port names as strings.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 631](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L631){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 631](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L631) |
 
 ---
 
@@ -94,7 +94,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>A table containing the names of any connected serial port paths as strings.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 683](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L683){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 683](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L683) |
 
 ---
 
@@ -110,7 +110,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 1 argument and should not return anything:</li><li>  `devices` - A table containing the names of any serial ports connected as strings.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 1161](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1161){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 1161](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1161) |
 
 ---
 
@@ -128,7 +128,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>An `hs.serial` object or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortNames()`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 525](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L525){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 525](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L525) |
 
 ---
 
@@ -144,7 +144,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>An `hs.serial` object or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortPaths()`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 558](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L558){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 558](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L558) |
 
 ---
 
@@ -162,7 +162,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the baud rate as a number</li></ul>          |
 | **Notes**                                   | <ul><li>This function supports the following standard baud rates as numbers: 300, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200, 230400.</li><li>If no baud rate is supplied, it defaults to 115200.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 783](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L783){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 783](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L783) |
 
 ---
 
@@ -178,7 +178,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.serial` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  `serialPortObject` - The serial port object that triggered the callback.</li><li>  `callbackType` - A string containing "opened", "closed", "received", "removed" or "error".</li><li>  `message` - If the `callbackType` is "received", then this will be the data received as a string. If the `callbackType` is "error", this will be the error message as a string.</li><li>  `hexadecimalString` - If the `callbackType` is "received", then this will be the data received as a hexadecimal string.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 591](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L591){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 591](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L591) |
 
 ---
 
@@ -194,7 +194,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.serial` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 765](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L765){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 765](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L765) |
 
 ---
 
@@ -210,7 +210,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the data bits as a number.</li><li>The default value is 8.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 1091](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1091){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 1091](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1091) |
 
 ---
 
@@ -226,7 +226,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 972](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L972){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 972](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L972) |
 
 ---
 
@@ -242,7 +242,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 1122](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1122){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 1122](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1122) |
 
 ---
 
@@ -258,7 +258,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The name as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 707](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L707){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 707](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L707) |
 
 ---
 
@@ -274,7 +274,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The `hs.serial` object or `nil` if the port could not be opened.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 743](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L743){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 743](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L743) |
 
 ---
 
@@ -290,7 +290,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a string value of "none", "odd" or "even".</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 834](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L834){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 834](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L834) |
 
 ---
 
@@ -306,7 +306,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>The path as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 725](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L725){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 725](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L725) |
 
 ---
 
@@ -322,7 +322,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 1001](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1001){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 1001](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1001) |
 
 ---
 
@@ -338,7 +338,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 1140](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1140){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 1140](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1140) |
 
 ---
 
@@ -354,7 +354,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 1030](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1030){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 1030](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1030) |
 
 ---
 
@@ -370,7 +370,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the number of stop bits as a number.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is 1.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 1058](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1058){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 1058](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L1058) |
 
 ---
 
@@ -386,7 +386,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 916](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L916){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 916](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L916) |
 
 ---
 
@@ -402,7 +402,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
 | **Notes**                                   | <ul><li>The default value is `false`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/serial/libserial.m line 944](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L944){target="_blank"} |
+| **Source**                                  | [extensions/serial/libserial.m line 944](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/serial/libserial.m#L944) |
 
 ---
 

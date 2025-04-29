@@ -48,7 +48,7 @@ Color Inspector Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Correction Types.                                                                     |
 | **Notes**                                   | <ul><li>Possible values are:</li><li>  ** "Color Board"</li><li>  ** "Color Wheels"</li><li>  ** "Color Curves"</li><li>  ** "Hue/Saturation Curves"</li><li>  ** "Color Adjustments" (Final Cut Pro 10.6.6 or later)</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua#L28){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/CorrectionsBar.lua#L28) |
 
 ---
 
@@ -66,7 +66,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>`true` if the element is the Color Inspector.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L29){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L29) |
 
 ---
 
@@ -81,7 +81,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorAdjustments object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 286](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L286){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 286](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L286) |
 
 ---
 
@@ -94,7 +94,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L234){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L234) |
 
 ---
 
@@ -107,7 +107,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorCurves object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L260){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L260) |
 
 ---
 
@@ -120,7 +120,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorWheels object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 247](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L247){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 247](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L247) |
 
 ---
 
@@ -133,7 +133,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CorrectionsBar` instance representing the available corrections,                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L106){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L106) |
 
 ---
 
@@ -146,7 +146,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object representing the currently-selected corrector panel.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L82){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L82) |
 
 ---
 
@@ -159,7 +159,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The HueSaturationCurves object.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L273){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L273) |
 
 ---
 
@@ -172,7 +172,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object representing the top bar.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L63){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L63) |
 
 ---
 
@@ -185,7 +185,7 @@ Color Inspector Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the Color Well Value as a `cp.drawing.color`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 286](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L286){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 286](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L286) |
 
 ---
 
@@ -203,7 +203,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L154){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L154) |
 
 ---
 
@@ -219,7 +219,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L184){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L184) |
 
 ---
 
@@ -235,7 +235,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L50){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L50) |
 
 ---
 
@@ -251,7 +251,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>The `Statement`, which sends a single `true` value if successful, or sends an error if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L169){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L169) |
 
 ---
 
@@ -267,7 +267,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful, or sending an error if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L198){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L198) |
 
 ---
 
@@ -283,7 +283,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or sending an error if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L136){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L136) |
 
 ---
 
@@ -299,7 +299,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L212){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L212) |
 
 ---
 
@@ -315,7 +315,7 @@ Color Inspector Module.
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L120){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorInspector.lua#L120) |
 
 ---
 

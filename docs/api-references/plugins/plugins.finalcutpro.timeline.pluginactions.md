@@ -27,7 +27,7 @@ Adds Final Cut Pro Plugins (i.e. Effects, Generators, Titles and Transitions) to
 | **Returns**                                 | <ul><li>The module</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/pluginactions.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/pluginactions.lua#L43){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/pluginactions.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/pluginactions.lua#L43) |
 
 ---
 

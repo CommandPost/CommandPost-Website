@@ -51,7 +51,7 @@ Notes:
 | **Returns**                                 | <ul><li>An `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | <ul><li>By default, the server will start on a random TCP port and advertise itself with Bonjour. You can check the port with `hs.httpserver:getPort()`</li><li>By default, the server will listen on all network interfaces. You can override this with `hs.httpserver:setInterface()` before starting the server</li><li>Currently, in HTTPS mode, the server will use a self-signed certificate, which most browsers will warn about. If you want/need to be able to use `hs.httpserver` with a certificate signed by a trusted Certificate Authority, please file an bug on Hammerspoon requesting support for this.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 374](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L374){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 374](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L374) |
 
 ---
 
@@ -69,7 +69,7 @@ Notes:
 | **Returns**                                 | <ul><li>A string containing the network interface name, or nil if the server will listen on all interfaces</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 647](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L647){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 647](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L647) |
 
 ---
 
@@ -85,7 +85,7 @@ Notes:
 | **Returns**                                 | <ul><li>A string containing the Bonjour name of this server</li></ul>          |
 | **Notes**                                   | <ul><li>This is not the hostname of the server, just its name in Bonjour service lists (e.g. Safari's Bonjour bookmarks menu)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 689](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L689){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 689](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L689) |
 
 ---
 
@@ -101,7 +101,7 @@ Notes:
 | **Returns**                                 | <ul><li>A number containing the TCP port</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 616](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L616){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 616](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L616) |
 
 ---
 
@@ -117,7 +117,7 @@ Notes:
 | **Returns**                                 | <ul><li>If a new size is specified, returns the `hs.httpserver` object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>Because the Hammerspoon http server processes incoming requests completely in memory, this method puts a limit on the maximum size for a POST or PUT request.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 513](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L513){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 513](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L513) |
 
 ---
 
@@ -133,7 +133,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 446](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L446){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 446](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L446) |
 
 ---
 
@@ -149,7 +149,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback will be passed four arguments:</li><li> A string containing the type of request (i.e. `GET`/`POST`/`DELETE`/etc)</li><li> A string containing the path element of the request (e.g. `/index.html`)</li><li> A table containing the request headers</li><li> A string containing the raw contents of the request body, or the empty string if no body is included in the request.</li><li>The callback *must* return three values:</li><li> A string containing the body of the response</li><li> An integer containing the response code (e.g. 200 for a successful request)</li><li> A table containing additional HTTP headers to set (or an empty table, `{}`, if no extra headers are required)</li><li></li><li>A POST request, often used by HTML forms, will store the contents of the form in the body of the request.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 466](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L466){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 466](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L466) |
 
 ---
 
@@ -165,7 +165,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | <ul><li>As well as real interface names (e.g. `en0`) the following values are valid:</li><li> An IP address of one of your interfaces</li><li> localhost</li><li> loopback</li><li> nil (which means all interfaces, and is the default)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 662](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L662){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 662](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L662) |
 
 ---
 
@@ -181,7 +181,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | <ul><li>This is not the hostname of the server, just its name in Bonjour service lists (e.g. Safari's Bonjour bookmarks menu)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 707](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L707){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 707](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L707) |
 
 ---
 
@@ -197,7 +197,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | <ul><li>It is not currently possible to set multiple passwords for different users, or passwords only on specific paths</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 539](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L539){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 539](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L539) |
 
 ---
 
@@ -213,7 +213,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 631](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L631){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 631](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L631) |
 
 ---
 
@@ -229,7 +229,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 573](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L573){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 573](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L573) |
 
 ---
 
@@ -245,7 +245,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 599](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L599){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 599](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L599) |
 
 ---
 
@@ -261,7 +261,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.httpserver` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback is passed one string parameter containing the received message</li><li>The callback must return a string containing the response message</li><li>Given a path '/mysock' and a port of 8000, the websocket URL is as follows:</li><li> ws://localhost:8000/mysock</li><li> wss://localhost:8000/mysock (if SSL enabled)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/httpserver/libhttpserver.m line 415](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L415){target="_blank"} |
+| **Source**                                  | [extensions/httpserver/libhttpserver.m line 415](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L415) |
 
 ---
 

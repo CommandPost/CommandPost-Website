@@ -30,7 +30,7 @@ General Panel Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The time display options.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L20){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L20) |
 
 ---
 
@@ -48,7 +48,7 @@ General Panel Module.
 | **Returns**                                 | <ul><li>The time display if successful, otherwise `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L30){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L30) |
 
 ---
 
@@ -66,7 +66,7 @@ General Panel Module.
 | **Returns**                                 | <ul><li>A new `GeneralPanel` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L76){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/GeneralPanel.lua#L76) |
 
 ---
 

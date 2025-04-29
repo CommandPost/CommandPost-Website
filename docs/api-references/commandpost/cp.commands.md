@@ -58,7 +58,7 @@ Commands Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The menubar position priority.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L33){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L33) |
 
 ---
 
@@ -76,7 +76,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L379){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L379) |
 
 ---
 
@@ -92,7 +92,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`cp.commands` - The command group with the specified ID, or `nil` if none exists.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L57){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L57) |
 
 ---
 
@@ -108,7 +108,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`table` - The array of group IDs.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L40){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L40) |
 
 ---
 
@@ -124,7 +124,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`cp.commands` - The command group with the specified ID, or `nil` if none exists.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L70){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L70) |
 
 ---
 
@@ -140,7 +140,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`true` if the file was found and loaded successfully.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 404](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L404){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 404](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L404) |
 
 ---
 
@@ -156,7 +156,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>cp.commands - The command group that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L83){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L83) |
 
 ---
 
@@ -172,7 +172,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`true` if the shortcuts were saved successfully.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 456](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L456){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 456](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L456) |
 
 ---
 
@@ -187,7 +187,7 @@ Commands Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If enabled, the commands in the group will be active as well.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L104){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L104) |
 
 ---
 
@@ -200,7 +200,7 @@ Commands Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `false`, the command group is not user-editable.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L116){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L116) |
 
 ---
 
@@ -218,7 +218,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L300){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L300) |
 
 ---
 
@@ -234,7 +234,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The new `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>myCommands:add("fooBar"):groupedBy("foo"):whenActivated(function() ... end)`</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L139){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L139) |
 
 ---
 
@@ -250,7 +250,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 197](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L197){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 197](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L197) |
 
 ---
 
@@ -266,7 +266,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L212){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L212) |
 
 ---
 
@@ -282,7 +282,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L242){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L242) |
 
 ---
 
@@ -298,7 +298,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L228){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L228) |
 
 ---
 
@@ -314,7 +314,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command`, or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L162){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L162) |
 
 ---
 
@@ -330,7 +330,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>for id,cmd in pairs(myCommands:getAll()) do</li><li>    ...</li><li>end</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L175){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L175) |
 
 ---
 
@@ -346,7 +346,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group ID string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L126){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L126) |
 
 ---
 
@@ -362,7 +362,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L358){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L358) |
 
 ---
 
@@ -378,7 +378,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The table of shortcuts for commands.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L333){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L333) |
 
 ---
 
@@ -394,7 +394,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The command group instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The table can have properties with the following functions, which will be called for the specific event:</li><li> ** `add(command)`:      Called after the provided `cp.commands.command` instance has been added.</li><li> ** `activate()`         Called when the command group is activated.</li><li> ** `enable()`:          Called when the command group is enabled.</li><li> ** `disable()`:         Called when the command group is disabled.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/init.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L256){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/init.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/init.lua#L256) |
 
 ---
 

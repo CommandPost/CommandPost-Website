@@ -62,7 +62,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A suffix applied to the end of Application Names as they appear in Tangent Mapper                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L41){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L41) |
 
 ---
 
@@ -75,7 +75,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum number of socket connections to Tangent Hub.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L56){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L56) |
 
 ---
 
@@ -88,7 +88,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum number of favourites.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L51){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L51) |
 
 ---
 
@@ -101,7 +101,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The full name for storing User Control Maps                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L46){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L46) |
 
 ---
 
@@ -116,7 +116,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table to translate an Application Name to a Group ID for the Search Console                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L71){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L71) |
 
 ---
 
@@ -129,7 +129,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Custom Applications                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L61){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L61) |
 
 ---
 
@@ -142,7 +142,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Enable or disables the Tangent Manager.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L104){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L104) |
 
 ---
 
@@ -155,7 +155,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Tangent Hub Installed?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L76){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L76) |
 
 ---
 
@@ -168,7 +168,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Tangent Mapper Installed?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L83){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L83) |
 
 ---
 
@@ -186,7 +186,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>A table containing the names of all the registered connections.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L170){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L170) |
 
 ---
 
@@ -202,7 +202,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>The connection object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L157){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L157) |
 
 ---
 
@@ -218,7 +218,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L91){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L91) |
 
 ---
 
@@ -234,7 +234,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>The connection object</li></ul>          |
 | **Notes**                                   | <ul><li>Notes for the `task` parameter:</li><li>  ** This is used to assist with automatic switching of panels when your application gains mouse focus on the GUI.</li><li>  ** This parameter should only be required if the string passed in appStr does not match the Task name that the OS identifies as your application. Typically, this is only usually required for Plugins which run within a parent Host application. Under these circumstances it is the name of the Host Application’s Task which should be passed.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L122){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L122) |
 
 ---
 
@@ -250,7 +250,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>A table where the application name is the key, and display name is the value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L188){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L188) |
 
 ---
 
@@ -266,7 +266,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L212){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L212) |
 
 ---
 
@@ -282,7 +282,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L243){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/init.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/init.lua#L243) |
 
 ---
 

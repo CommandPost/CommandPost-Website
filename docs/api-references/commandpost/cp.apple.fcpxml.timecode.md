@@ -45,7 +45,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L61){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L61) |
 
 ---
 
@@ -61,7 +61,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L47){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L47) |
 
 ---
 
@@ -77,7 +77,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L25){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L25) |
 
 ---
 
@@ -95,7 +95,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The timecode string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L102) |
 
 ---
 
@@ -111,7 +111,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The `time` value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L75){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L75) |
 
 ---
 
@@ -127,7 +127,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Returns**                                 | <ul><li>The total number of frames as a `number`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L89){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/timecode.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/timecode.lua#L89) |
 
 ---
 

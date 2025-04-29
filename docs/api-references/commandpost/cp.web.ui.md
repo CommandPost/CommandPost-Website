@@ -41,7 +41,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>`cp.web.html` element representing the heading.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table has the following fields:</li><li> ** `text`      - The string (or function) containing the text of the heading.</li><li> ** `level`         - The heading level (or function) (1-7). Defaults to 3.</li><li> ** `class`     - The CSS class (or function) for the heading tag.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L91){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L91) |
 
 ---
 
@@ -57,7 +57,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>A `cp.web.html` with the select defined.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table has the following supported fields:</li><li> ** `src`       - The source of the image. If this points to a local file, it will be encoded as Base64.</li><li> ** `class`     - A string, (or function returning a string) with the CSS class for the element.</li><li> ** `width`     - The width of the image.</li><li> ** `height`    - The height of the image.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L326){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L326) |
 
 ---
 
@@ -73,7 +73,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>a `cp.web.html` element representing the JavaScript block.</li></ul>          |
 | **Notes**                                   | <ul><li>The script is self-contained and only has access to global variables. Any local `var` values will not be available to other scripts.</li><li>The script will be evaluated as a `resty.template`, and variables can be injected from the `context` table. For example, this will create a script that will display an alert saying "Hello world!":</li><li></li><li>```lua</li><li>ui.javascript([[ alert("{{ message }}") ]], { message = "Hello world!"})</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L35){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L35) |
 
 ---
 
@@ -89,7 +89,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>`cp.web.html` containing the textbox.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table has the following supported fields:</li><li> ** `id`                - The unique ID for the textbox.</li><li> ** `name`          - The name of the textbox field.</li><li> ** `class`         - The CSS classname.</li><li> ** `placeholder`   - Placeholder text</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L156){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L156) |
 
 ---
 
@@ -105,7 +105,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>A `cp.web.html` with the select defined.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table has the following supported fields:</li><li> ** `id`        - a string (or function) the unique ID for the select.</li><li> ** `value`     - a string, number, or boolean (or function) with the value of the select. May be `nil`.</li><li> ** `options`   - an array (or function returning an array) of option tables, with the following keys:</li><li> *** `value`    - the value of the option.</li><li> *** `label`    - (optional) the label for the option. If not set, the `value` is used.</li><li> *** `disabled` - (optional) if the option is disabled.</li><li> ** `required`  - (optional) if `true`, there will not be a 'blank' option at the top of the list.</li><li> ** `blankLabel`    - (optional) if specified, the value will be used for the 'blank' option label.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L252){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L252) |
 
 ---
 
@@ -121,7 +121,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>a `cp.web.html` element representing the JavaScript block.</li></ul>          |
 | **Notes**                                   | <ul><li>The `rules` will be evaluated as a `resty.template`, and variables can be injected from the `context` table. For example, this will create a set of rules that injects the provided color:</li><li></li><li>```lua</li><li>ui.style([[ body { color: {{ bodyColor }}; } ]], { bodyColor = "#FFFFFF"})</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L67){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L67) |
 
 ---
 
@@ -137,7 +137,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>`cp.web.html` containing the template.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table has the following supported fields:</li><li> ** `view`      - The file path to the template, or the template content itself. Required.</li><li> ** `context`   - The table containing the context to execute the template in.</li><li> ** `unescaped` - If true, the template will not be escaped before outputting.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L115){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L115) |
 
 ---
 
@@ -153,7 +153,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>`cp.web.html` containing the textbox.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table has the following supported fields:</li><li> ** `id`                - The unique ID for the textbox.</li><li> ** `name`          - The name of the textbox field.</li><li> ** `class`         - The CSS classname.</li><li> ** `placeholder`   - Placeholder text.</li><li> ** `value`         - The default value of the textbox.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L135){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L135) |
 
 ---
 
@@ -171,7 +171,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>A `cp.web.ui` representing the button.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `value`     - The value of the button.</li><li> ** `label`     - The text label for the button. Defaults to the `value` if not provided.</li><li> ** `width`     - The width of the button in pixels.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L214){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L214) |
 
 ---
 
@@ -187,7 +187,7 @@ and if functions are provided, they are re-evaluated every time the element is g
 | **Returns**                                 | <ul><li>The `cp.web.ui.element`.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table has the following supported fields:</li><li> ** `value`     - a string (or function) with the value of the checkbox. If not specified, the title is used.</li><li> ** `checked`   - a boolean (or function) set to `true` or `false`, depending on if the checkbox is checked.</li><li> ** `disabled`  - a boolean (or function) set to `true` or `false`, depending on if the checkbox is disabled.</li><li> ** `id`        - (optional) a string (or function) with the unique ID for the checkbox.</li><li> ** `name`      - (optional) a unique name for the checkbox field.</li><li> ** `class`     - (optional) the CSS class list.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/ui.lua line 176](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L176){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/ui.lua line 176](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L176) |
 
 ---
 

@@ -34,7 +34,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>a new `hs.timer.delayed` object</li></ul>          |
 | **Notes**                                   | <ul><li>These timers are meant to be long-lived: once instantiated, there's no way to remove them from the run loop; create them once at the module level.</li><li>Delayed timers have specialized methods that behave differently from regular timers. When the `:start()` method is invoked, the timer will wait for `delay` seconds before calling `fn()`; this is referred to as the callback countdown. If `:start()` is invoked again before `delay` has elapsed, the countdown starts over again.</li><li>You can use a delayed timer to coalesce processing of unpredictable asynchronous events into a single callback; for example, if you have an event stream that happens in "bursts" of dozens of events at once, set an appropriate `delay` to wait for things to settle down, and then your callback will run just once.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/timer/timer.lua line 328](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L328){target="_blank"} |
+| **Source**                                  | [extensions/timer/timer.lua line 328](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L328) |
 
 ---
 
@@ -52,7 +52,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>if the callback countdown is running, returns the number of seconds until it triggers; otherwise returns nil</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/timer/timer.lua line 318](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L318){target="_blank"} |
+| **Source**                                  | [extensions/timer/timer.lua line 318](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L318) |
 
 ---
 
@@ -68,7 +68,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>a boolean</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/timer/timer.lua line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L295){target="_blank"} |
+| **Source**                                  | [extensions/timer/timer.lua line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L295) |
 
 ---
 
@@ -84,7 +84,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>the delayed timer object</li></ul>          |
 | **Notes**                                   | <ul><li>if the callback countdown is running, calling this method will restart it</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/timer/timer.lua line 305](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L305){target="_blank"} |
+| **Source**                                  | [extensions/timer/timer.lua line 305](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L305) |
 
 ---
 
@@ -100,7 +100,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>the delayed timer object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/timer/timer.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L275){target="_blank"} |
+| **Source**                                  | [extensions/timer/timer.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L275) |
 
 ---
 
@@ -116,7 +116,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 | **Returns**                                 | <ul><li>the delayed timer object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/timer/timer.lua line 285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L285){target="_blank"} |
+| **Source**                                  | [extensions/timer/timer.lua line 285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/timer/timer.lua#L285) |
 
 ---
 

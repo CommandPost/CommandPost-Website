@@ -57,7 +57,7 @@ Commands Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the command is active. To be active, both the command and the group it belongs to must be enabled.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L38){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L38) |
 
 ---
 
@@ -70,7 +70,7 @@ Commands Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `true`, the command is enabled.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L33){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L33) |
 
 ---
 
@@ -88,7 +88,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The command that was created.</li></ul>          |
 | **Notes**                                   | <ul><li>The `getFn` function should have no arguments.</li><li>The `setFn` function can have two optional arguments:</li><li>  `clear` - A boolean that defines whether or not the value should be cleared.</li><li>  `completionFn` - An optional completion function callback.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L95){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L95) |
 
 ---
 
@@ -104,7 +104,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>the last 'truthy' result (non-nil/false).</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 493](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L493){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 493](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L493) |
 
 ---
 
@@ -120,7 +120,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`command` if a `keyCode` was provided, or `modifier` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>This method can be called multiple times, and multiple key combinations will be registered for the command.</li><li>To remove existing key combinations, call the `command:deleteShortcuts()` method.</li><li>  ** If the `keyCode` is provided, no modifiers need to be pressed to activate and the `command` is returned.</li><li>  ** If the `modifiers` and `keyCode` are provided, the combination is created and the `command` is returned.</li><li>  ** If no `keyCode` is provided, a `modifier` is returned, which lets you specify keyboard combinations.</li><li>For example:</li><li></li><li>```</li><li>local global    	= commands.collection("global")</li><li>local pressA 		= global:add("commandA"):activatedBy("a")</li><li>local pressShiftA	= global:add("commandShiftA"):activatedBy({"shift"}, "a")</li><li>local pressCmdA		= global:add("commandCmdA"):activatedBy():command("a")</li><li>local pressOptCmdA	= global:add("commandOptCmdA"):activatedBy():option():command("a")</li><li>global:enable()</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 253](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L253){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 253](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L253) |
 
 ---
 
@@ -136,7 +136,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L334){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L334) |
 
 ---
 
@@ -152,7 +152,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L300){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L300) |
 
 ---
 
@@ -168,7 +168,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 526](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L526){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 526](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L526) |
 
 ---
 
@@ -184,7 +184,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 512](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L512){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 512](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L512) |
 
 ---
 
@@ -200,7 +200,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>getFn - The function that gets the action.</li><li>setFn - The function that sets the action.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L117){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L117) |
 
 ---
 
@@ -216,7 +216,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The first shortcut, or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 372](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L372){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 372](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L372) |
 
 ---
 
@@ -232,7 +232,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The group ID.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L240){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L240) |
 
 ---
 
@@ -248,7 +248,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>A hs.image object or `nil` if not is specified.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L210){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L210) |
 
 ---
 
@@ -264,7 +264,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The associated shortcuts.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L359){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L359) |
 
 ---
 
@@ -280,7 +280,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The subtitle value or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L179){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L179) |
 
 ---
 
@@ -296,7 +296,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The human-readable command title.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L144){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L144) |
 
 ---
 
@@ -312,7 +312,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This is different to the command group/parent value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L223){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L223) |
 
 ---
 
@@ -328,7 +328,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>`true` if action callbacks have been assigned, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L131){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L131) |
 
 ---
 
@@ -344,7 +344,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The ID.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L55){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L55) |
 
 ---
 
@@ -360,7 +360,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L196){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L196) |
 
 ---
 
@@ -376,7 +376,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The command that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L16){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L16) |
 
 ---
 
@@ -392,7 +392,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The parent `cp.commands`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L68) |
 
 ---
 
@@ -408,7 +408,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>the result of the function, or `nil` if none is present.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 443](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L443){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 443](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L443) |
 
 ---
 
@@ -424,7 +424,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>the result of the function, or `nil` if none is present.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 457](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L457){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 457](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L457) |
 
 ---
 
@@ -440,7 +440,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>the last result.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 471](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L471){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 471](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L471) |
 
 ---
 
@@ -456,7 +456,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L317){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L317) |
 
 ---
 
@@ -472,7 +472,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>The `cp.commands.command` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will look up the `<ID>_subtitle` value.</li><li>Anything set here will override it in all langauges.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L161){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L161) |
 
 ---
 
@@ -488,7 +488,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The command that was created.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L81) |
 
 ---
 
@@ -504,7 +504,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | <ul><li>This is a shortcut for calling `whenPressed(...)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 385](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L385){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 385](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L385) |
 
 ---
 
@@ -520,7 +520,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 401](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L401){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 401](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L401) |
 
 ---
 
@@ -536,7 +536,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 415](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L415){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 415](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L415) |
 
 ---
 
@@ -552,7 +552,7 @@ Commands Module.
 | **Returns**                                 | <ul><li>command - The current command</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/commands/command.lua line 429](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L429){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/commands/command.lua line 429](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L429) |
 
 ---
 

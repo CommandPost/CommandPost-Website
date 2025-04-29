@@ -30,7 +30,7 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it matches a HueSaturationCurve element.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua#L28){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua#L28) |
 
 ---
 
@@ -48,7 +48,7 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `HueSaturationCurve`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua#L43){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/HueSaturationCurve.lua#L43) |
 
 ---
 

@@ -30,7 +30,7 @@ Schedules `Observables` by running all operations immediately.
 | **Returns**                                 | <ul><li>The new `ImmediateScheduler`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/ImmediateScheduler.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ImmediateScheduler.lua#L14){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/ImmediateScheduler.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ImmediateScheduler.lua#L14) |
 
 ---
 
@@ -48,7 +48,7 @@ Schedules `Observables` by running all operations immediately.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/ImmediateScheduler.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ImmediateScheduler.lua#L27){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/ImmediateScheduler.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ImmediateScheduler.lua#L27) |
 
 ---
 

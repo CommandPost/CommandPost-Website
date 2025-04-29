@@ -36,7 +36,7 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/docs/init.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L24){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L24) |
 
 ---
 
@@ -52,7 +52,7 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>The result as a string, otherwise `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/docs/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L130){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L130) |
 
 ---
 
@@ -68,7 +68,7 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>`true` if successful otherwise `nil`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/docs/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L53) |
 
 ---
 

@@ -26,7 +26,7 @@ Represents the sidebar for a document opened in Highland.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Document](cp.highland2.Document.md) this `Sidebar` belongs to.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L19){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L19) |
 
 ---
 
@@ -39,7 +39,7 @@ Represents the sidebar for a document opened in Highland.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to hide the Sidebar, if possible.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L35){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L35) |
 
 ---
 
@@ -52,7 +52,7 @@ Represents the sidebar for a document opened in Highland.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to show the Sidebar, if possible.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L26){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L26) |
 
 ---
 

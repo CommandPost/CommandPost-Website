@@ -39,7 +39,7 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 853](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L853){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 853](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L853) |
 
 ---
 
@@ -57,7 +57,7 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Returns**                                 | <ul><li>The `context` table.</li></ul>          |
 | **Notes**                                   | <ul><li>The `context` is shared between the `Statement` and all `Statement.Modifiers` when being executed.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 866](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L866){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 866](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L866) |
 
 ---
 
@@ -73,7 +73,7 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Returns**                                 | <ul><li>The new `Observable` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 882](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L882){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 882](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L882) |
 
 ---
 

@@ -29,7 +29,7 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Returns**                                 | <ul><li>Action ID as string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/menu/menuaction.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/menuaction.lua#L56){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/menu/menuaction.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/menuaction.lua#L56) |
 
 ---
 
@@ -45,7 +45,7 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/menu/menuaction.lua line 1261](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/menuaction.lua#L1261){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/menu/menuaction.lua line 1261](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/menuaction.lua#L1261) |
 
 ---
 

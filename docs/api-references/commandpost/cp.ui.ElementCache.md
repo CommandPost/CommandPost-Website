@@ -35,7 +35,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>The new `ElementCache`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L12){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L12) |
 
 ---
 
@@ -53,7 +53,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>`cp.ui.Element` or `nil`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L61){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L61) |
 
 ---
 
@@ -69,7 +69,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L81) |
 
 ---
 
@@ -85,7 +85,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L28){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L28) |
 
 ---
 
@@ -101,7 +101,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>`cp.ui.Element` or `nil`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L99){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L99) |
 
 ---
 
@@ -117,7 +117,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>A `table` of [Element](cp.ui.Element.md) values.</li></ul>          |
 | **Notes**                                   | <ul><li>If any of the provided `axuielement` values are either not from the parent, or no longer valid, a `nil` value will be stored in the matching index. Note that in that case, this will break useage of `ipairs` due to leaving holes in the list.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L126){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L126) |
 
 ---
 
@@ -133,7 +133,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L48){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ElementCache.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ElementCache.lua#L48) |
 
 ---
 

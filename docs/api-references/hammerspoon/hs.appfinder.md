@@ -34,7 +34,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.application object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/appfinder/appfinder.lua line 12](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L12){target="_blank"} |
+| **Source**                                  | [extensions/appfinder/appfinder.lua line 12](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L12) |
 
 ---
 
@@ -50,7 +50,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.application object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/appfinder/appfinder.lua line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L23){target="_blank"} |
+| **Source**                                  | [extensions/appfinder/appfinder.lua line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L23) |
 
 ---
 
@@ -66,7 +66,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.application object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul><li>For more about Lua patterns, see http://lua-users.org/wiki/PatternsTutorial and http://www.lua.org/manual/5.2/manual.html#6.4.1</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/appfinder/appfinder.lua line 36](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L36){target="_blank"} |
+| **Source**                                  | [extensions/appfinder/appfinder.lua line 36](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L36) |
 
 ---
 
@@ -82,7 +82,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.window object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/appfinder/appfinder.lua line 52](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L52){target="_blank"} |
+| **Source**                                  | [extensions/appfinder/appfinder.lua line 52](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L52) |
 
 ---
 
@@ -98,7 +98,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 | **Returns**                                 | <ul><li>An hs.window object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul><li>For more about Lua patterns, see http://lua-users.org/wiki/PatternsTutorial and http://www.lua.org/manual/5.2/manual.html#6.4.1</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/appfinder/appfinder.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L63){target="_blank"} |
+| **Source**                                  | [extensions/appfinder/appfinder.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/appfinder/appfinder.lua#L63) |
 
 ---
 

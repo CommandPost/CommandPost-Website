@@ -97,7 +97,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>The new `Scenario`.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `testFn` is not provided here, it must be done via the [doing](#doing) method prior to running,</li><li>  an `error` will occur.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L102) |
 
 ---
 
@@ -115,7 +115,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>The same `Definition`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L121){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L121) |
 
 ---
 
@@ -131,7 +131,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>cp.spec.Run object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L186){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L186) |
 
 ---
 
@@ -147,7 +147,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Returns**                                 | <ul><li>The [Where](cp.spec.Where.md).</li></ul>          |
 | **Notes**                                   | <ul><li>The first row should be all strings, which will be the name of the parameter. Subsequent rows are the values for those rows.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L208){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Scenario.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Scenario.lua#L208) |
 
 ---
 

@@ -34,7 +34,7 @@ Given(anObservable):Then(function(value) return value:doSomething() end)
 | **Returns**                                 | <ul><li>Another [Given.Then](cp.rx.go.Given.Then.md) instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Given.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Given.lua#L105){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Given.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Given.lua#L105) |
 
 ---
 

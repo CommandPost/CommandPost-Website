@@ -27,7 +27,7 @@ Caption Tools
 | **Returns**                                 | <ul><li>`cp.rx.go.Statement`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/captions.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/captions.lua#L21){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/captions.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/captions.lua#L21) |
 
 ---
 

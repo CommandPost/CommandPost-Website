@@ -36,7 +36,7 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L33){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L33) |
 
 ---
 
@@ -54,7 +54,7 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>A new `Menu` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L21) |
 
 ---
 
@@ -72,7 +72,7 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L46){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L46) |
 
 ---
 
@@ -88,7 +88,7 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L63){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L63) |
 
 ---
 
@@ -104,7 +104,7 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L81) |
 
 ---
 
@@ -120,7 +120,7 @@ UI for AXMenus.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L131){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L131) |
 
 ---
 

@@ -29,7 +29,7 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Returns**                                 | <ul><li>The new `TimeoutScheduler`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/TimeoutScheduler.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/TimeoutScheduler.lua#L17){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/TimeoutScheduler.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/TimeoutScheduler.lua#L17) |
 
 ---
 
@@ -45,7 +45,7 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/TimeoutScheduler.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/TimeoutScheduler.lua#L30){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/TimeoutScheduler.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/TimeoutScheduler.lua#L30) |
 
 ---
 
@@ -61,7 +61,7 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/TimeoutScheduler.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/TimeoutScheduler.lua#L51){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/TimeoutScheduler.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/TimeoutScheduler.lua#L51) |
 
 ---
 

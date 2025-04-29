@@ -27,7 +27,7 @@ Each [Otherwise](cp.rx.go.If.Then.Otherwise.md) can have a subsequent `Then` whi
 | **Returns**                                 | <ul><li>The new `Then` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L202){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L202) |
 
 ---
 

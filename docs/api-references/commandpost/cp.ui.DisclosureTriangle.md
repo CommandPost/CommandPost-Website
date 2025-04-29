@@ -61,7 +61,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L36){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L36) |
 
 ---
 
@@ -79,7 +79,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The new `DisclosureTriangle`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L49){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L49) |
 
 ---
 
@@ -94,7 +94,7 @@ myButton(false) == false	-- now false
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the disclosure triangle is currently opened.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L70){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L70) |
 
 ---
 
@@ -107,7 +107,7 @@ myButton(false) == false	-- now false
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L63){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L63) |
 
 ---
 
@@ -125,7 +125,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L89){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L89) |
 
 ---
 
@@ -141,7 +141,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L180){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L180) |
 
 ---
 
@@ -157,7 +157,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L161){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L161) |
 
 ---
 
@@ -173,7 +173,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L140){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L140) |
 
 ---
 
@@ -189,7 +189,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L214){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L214) |
 
 ---
 
@@ -205,7 +205,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L123){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L123) |
 
 ---
 
@@ -221,7 +221,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>A settings table.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L199){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L199) |
 
 ---
 
@@ -237,7 +237,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L109){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/DisclosureTriangle.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/DisclosureTriangle.lua#L109) |
 
 ---
 

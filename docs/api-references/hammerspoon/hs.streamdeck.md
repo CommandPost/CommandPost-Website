@@ -63,7 +63,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 51](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L51){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 51](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L51) |
 
 ---
 
@@ -79,7 +79,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>An hs.streamdeck object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 92](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L92){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 92](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L92) |
 
 ---
 
@@ -97,7 +97,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 25](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L25){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 25](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L25) |
 
 ---
 
@@ -113,7 +113,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>A number containing the number of Stream Deck devices attached to the system</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L75){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L75) |
 
 ---
 
@@ -134,7 +134,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 109](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L109){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 109](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L109) |
 
 ---
 
@@ -150,7 +150,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The number of columns</li><li>The number of rows</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L274){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L274) |
 
 ---
 
@@ -171,7 +171,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L136){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L136) |
 
 ---
 
@@ -187,7 +187,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>A string containing the firmware version of the deck</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 255](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L255){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 255](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L255) |
 
 ---
 
@@ -203,7 +203,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>An table with keys `w` and `h` containing the width and height, respectively, of images expected by the Stream Deck</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L295){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L295) |
 
 ---
 
@@ -219,7 +219,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L216){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L216) |
 
 ---
 
@@ -241,7 +241,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 165](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L165){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 165](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L165) |
 
 ---
 
@@ -257,7 +257,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>A string containing the serial number of the deck</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L236){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L236) |
 
 ---
 
@@ -273,7 +273,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 195](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L195){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 195](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L195) |
 
 ---
 
@@ -289,7 +289,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 359](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L359){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 359](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L359) |
 
 ---
 
@@ -305,7 +305,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L315){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 315](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L315) |
 
 ---
 
@@ -321,7 +321,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 337](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L337){target="_blank"} |
+| **Source**                                  | [extensions/streamdeck/libstreamdeck.m line 337](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/streamdeck/libstreamdeck.m#L337) |
 
 ---
 

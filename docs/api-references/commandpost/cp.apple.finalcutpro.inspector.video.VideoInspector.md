@@ -80,7 +80,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Blend Modes                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 277](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L277){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 277](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L277) |
 
 ---
 
@@ -93,7 +93,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Crop Types                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 316](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L316){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 316](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L316) |
 
 ---
 
@@ -106,7 +106,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Rolling Shutter Amounts                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L334){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L334) |
 
 ---
 
@@ -119,7 +119,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Spatial Conform Types                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L345){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L345) |
 
 ---
 
@@ -132,7 +132,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Stabilisation Methods                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L325){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L325) |
 
 ---
 
@@ -150,7 +150,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L78){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L78) |
 
 ---
 
@@ -166,7 +166,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A axuielement object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 246](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L246){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 246](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L246) |
 
 ---
 
@@ -184,7 +184,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `VideoInspector` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L94){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L94) |
 
 ---
 
@@ -199,7 +199,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 193](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L193){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 193](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L193) |
 
 ---
 
@@ -217,7 +217,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A table.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L204){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/video/VideoInspector.lua#L204) |
 
 ---
 

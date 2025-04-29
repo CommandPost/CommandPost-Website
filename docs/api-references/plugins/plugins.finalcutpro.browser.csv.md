@@ -27,7 +27,7 @@ Save Browser to CSV
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/browser/csv.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/csv.lua#L18){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/browser/csv.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/csv.lua#L18) |
 
 ---
 

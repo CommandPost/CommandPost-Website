@@ -45,7 +45,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L24){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L24) |
 
 ---
 
@@ -63,7 +63,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>The new `PopUpButton` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L37){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L37) |
 
 ---
 
@@ -78,7 +78,7 @@ Pop Up Button Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AXMenu` for the PopUpMenu if it is currently visible.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L81) |
 
 ---
 
@@ -91,7 +91,7 @@ Pop Up Button Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns or sets the current `PopUpButton` value.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L48){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L48) |
 
 ---
 
@@ -109,7 +109,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L235){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L235) |
 
 ---
 
@@ -125,7 +125,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L124){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L124) |
 
 ---
 
@@ -141,7 +141,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L152){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L152) |
 
 ---
 
@@ -157,7 +157,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>The `PopUpButton` value as string, or `nil` if the value cannot be determined.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L191){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L191) |
 
 ---
 
@@ -173,7 +173,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L283){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L283) |
 
 ---
 
@@ -189,7 +189,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L218){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L218) |
 
 ---
 
@@ -205,7 +205,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>A table containing the current `PopUpButton` Layout.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L268){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L268) |
 
 ---
 
@@ -221,7 +221,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L97){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L97) |
 
 ---
 
@@ -237,7 +237,7 @@ Pop Up Button Module.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L204){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/PopUpButton.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PopUpButton.lua#L204) |
 
 ---
 

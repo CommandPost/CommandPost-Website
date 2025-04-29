@@ -37,7 +37,7 @@ UI Text Area.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L21) |
 
 ---
 
@@ -55,7 +55,7 @@ UI Text Area.
 | **Returns**                                 | <ul><li>A new `TextArea` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L9){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L9) |
 
 ---
 
@@ -70,7 +70,7 @@ UI Text Area.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L34){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L34) |
 
 ---
 
@@ -88,7 +88,7 @@ UI Text Area.
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L55){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L55) |
 
 ---
 
@@ -104,7 +104,7 @@ UI Text Area.
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L70){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L70) |
 
 ---
 

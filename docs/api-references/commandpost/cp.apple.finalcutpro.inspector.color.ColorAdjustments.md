@@ -82,7 +82,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Control Ranges.                                                                     |
 | **Notes**                                   | <ul><li>Possible values are:</li><li>  ** SDR</li><li>  ** HLG</li><li>  ** PQ 1000 nits</li><li>  ** PQ 2000 nites</li><li>  ** PQ 4000 nits</li><li>  ** PQ 10000 nits</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L163){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L163) |
 
 ---
 
@@ -100,7 +100,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Returns**                                 | <ul><li>`true` if the element is the Color Curves.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L33){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L33) |
 
 ---
 
@@ -118,7 +118,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L53) |
 
 ---
 
@@ -133,7 +133,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 472](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L472){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 472](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L472) |
 
 ---
 
@@ -146,7 +146,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L479){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L479) |
 
 ---
 
@@ -159,7 +159,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 491](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L491){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 491](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L491) |
 
 ---
 
@@ -172,7 +172,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L343){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L343) |
 
 ---
 
@@ -185,7 +185,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 350](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L350){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 350](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L350) |
 
 ---
 
@@ -198,7 +198,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 362](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L362){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 362](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L362) |
 
 ---
 
@@ -211,7 +211,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` representing the content element of the ColorAdjustments corrector.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L121){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L121) |
 
 ---
 
@@ -224,7 +224,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L300){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L300) |
 
 ---
 
@@ -237,7 +237,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L307){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L307) |
 
 ---
 
@@ -250,7 +250,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L319){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L319) |
 
 ---
 
@@ -263,7 +263,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L257){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L257) |
 
 ---
 
@@ -276,7 +276,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 264](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L264){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 264](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L264) |
 
 ---
 
@@ -289,7 +289,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L276){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L276) |
 
 ---
 
@@ -302,7 +302,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 429](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L429){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 429](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L429) |
 
 ---
 
@@ -315,7 +315,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 436](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L436){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 436](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L436) |
 
 ---
 
@@ -328,7 +328,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 448](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L448){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 448](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L448) |
 
 ---
 
@@ -341,7 +341,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 601](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L601){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 601](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L601) |
 
 ---
 
@@ -354,7 +354,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 608](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L608){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 608](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L608) |
 
 ---
 
@@ -367,7 +367,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 620](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L620){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 620](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L620) |
 
 ---
 
@@ -380,7 +380,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 558](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L558){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 558](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L558) |
 
 ---
 
@@ -393,7 +393,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L565){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L565) |
 
 ---
 
@@ -406,7 +406,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 577](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L577){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 577](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L577) |
 
 ---
 
@@ -419,7 +419,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 687](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L687){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 687](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L687) |
 
 ---
 
@@ -432,7 +432,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 694](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L694){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 694](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L694) |
 
 ---
 
@@ -445,7 +445,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 706](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L706){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 706](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L706) |
 
 ---
 
@@ -458,7 +458,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 644](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L644){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 644](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L644) |
 
 ---
 
@@ -471,7 +471,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 651](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L651){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 651](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L651) |
 
 ---
 
@@ -484,7 +484,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 663](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L663){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 663](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L663) |
 
 ---
 
@@ -497,7 +497,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 816](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L816){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 816](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L816) |
 
 ---
 
@@ -510,7 +510,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 823](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L823){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 823](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L823) |
 
 ---
 
@@ -523,7 +523,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 835](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L835){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 835](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L835) |
 
 ---
 
@@ -536,7 +536,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 386](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L386){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 386](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L386) |
 
 ---
 
@@ -549,7 +549,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L393){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L393) |
 
 ---
 
@@ -562,7 +562,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L405){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L405) |
 
 ---
 
@@ -575,7 +575,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 515](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L515){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 515](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L515) |
 
 ---
 
@@ -588,7 +588,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 522](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L522){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 522](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L522) |
 
 ---
 
@@ -601,7 +601,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 534](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L534){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 534](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L534) |
 
 ---
 
@@ -614,7 +614,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 773](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L773){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 773](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L773) |
 
 ---
 
@@ -627,7 +627,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 780](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L780){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 780](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L780) |
 
 ---
 
@@ -640,7 +640,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 792](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L792){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 792](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L792) |
 
 ---
 
@@ -653,7 +653,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the parameter, and `axuielement` values for that row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 730](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L730){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 730](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L730) |
 
 ---
 
@@ -666,7 +666,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 737](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L737){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 737](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L737) |
 
 ---
 
@@ -679,7 +679,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the slider.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 749](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L749){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 749](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L749) |
 
 ---
 
@@ -697,7 +697,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L184){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L184) |
 
 ---
 
@@ -713,7 +713,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 220](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L220){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 220](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L220) |
 
 ---
 
@@ -729,7 +729,7 @@ Requires Final Cut Pro v10.6.6 or later.
 | **Returns**                                 | <ul><li>ColorAdjustments object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L99){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorAdjustments.lua#L99) |
 
 ---
 

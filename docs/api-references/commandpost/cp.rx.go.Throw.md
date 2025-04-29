@@ -33,7 +33,7 @@ Throw("There was an error: %s", errorMessage)
 | **Returns**                                 | <ul><li>The `Statement` which will send the provided error message.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Throw.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Throw.lua#L16){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Throw.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Throw.lua#L16) |
 
 ---
 

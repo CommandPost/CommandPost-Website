@@ -34,7 +34,7 @@ Motion and Compressor.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | List of number keys on the number pad. Also mapped with the key name set to `true` for lookup purposes.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L25){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L25) |
 
 ---
 
@@ -47,7 +47,7 @@ Motion and Compressor.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The list of supported modifiers                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L35){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L35) |
 
 ---
 
@@ -65,7 +65,7 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>Keycode as String or ""</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L79){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L79) |
 
 ---
 
@@ -81,7 +81,7 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>string or nil</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L93){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L93) |
 
 ---
 
@@ -97,7 +97,7 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>A table of modifier strings.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L155){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L155) |
 
 ---
 
@@ -113,7 +113,7 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>`true` if there's a match otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>This function only takes into account 'ctrl', 'alt', 'cmd', 'shift'.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L128){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L128) |
 
 ---
 
@@ -129,7 +129,7 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>A table of shortcuts for a specific command.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L187){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L187) |
 
 ---
 
@@ -145,7 +145,7 @@ Motion and Compressor.
 | **Returns**                                 | <ul><li>table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L110){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/commandeditor/init.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/commandeditor/init.lua#L110) |
 
 ---
 

@@ -43,7 +43,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 591](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L591){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 591](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L591) |
 
 ---
 
@@ -59,7 +59,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L313){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L313) |
 
 ---
 
@@ -75,7 +75,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L622){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L622) |
 
 ---
 
@@ -91,7 +91,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 341](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L341){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 341](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L341) |
 
 ---
 
@@ -107,7 +107,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 506](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L506){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 506](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L506) |
 
 ---
 
@@ -123,7 +123,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 482](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L482){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 482](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L482) |
 
 ---
 
@@ -139,7 +139,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L67){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L67) |
 
 ---
 
@@ -155,7 +155,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 571](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L571){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 571](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L571) |
 
 ---
 
@@ -171,7 +171,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 549](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L549){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 549](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L549) |
 
 ---
 
@@ -187,7 +187,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L41){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L41) |
 
 ---
 
@@ -203,7 +203,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L289){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L289) |
 
 ---
 
@@ -219,7 +219,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L164){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L164) |
 
 ---
 
@@ -235,7 +235,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 430](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L430){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 430](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L430) |
 
 ---
 
@@ -251,7 +251,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 527](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L527){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 527](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L527) |
 
 ---
 
@@ -267,7 +267,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 752](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L752){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 752](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L752) |
 
 ---
 
@@ -283,7 +283,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 825](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L825){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 825](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L825) |
 
 ---
 
@@ -299,7 +299,7 @@ Common Final Cut Pro functions for Tangent
 | **Returns**                                 | <ul><li>An updated ID</li><li>The `x` parameter value</li><li>The `y` parameter value</li><li>The xy binding</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 668](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L668){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 668](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L668) |
 
 ---
 

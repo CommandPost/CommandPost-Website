@@ -67,7 +67,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that passes its arguments to all the functions in `fns` and returns the last result, if all functions return a `truthy` value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L52){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L52) |
 
 ---
 
@@ -83,7 +83,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that passes its arguments to all the functions in `fns` and returns the first `truthy` result,</li><li>   or `nil` if all functions return a 'falsy' value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L82){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L82) |
 
 ---
 
@@ -99,7 +99,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The results of the function call.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L169){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L169) |
 
 ---
 
@@ -115,7 +115,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes any number of inputs and returns any number of inputs.</li></ul>          |
 | **Notes**                                   | <ul><li>The difference between `chain` and `pipe` is that chain will fail early with a `nil` result, while `pipe` will pass the `nil` onto the next function.</li><li>Alternately, you can create a chain using the `//` operator, followed by `>>` for each subsequent function. Eg: `chain // fn1 >> fn2 >> fn3`.</li><li>If using the alternate syntax, you may have to put parentheses around the chain if mixing with other operators like `pipe` or `compose`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 634](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L634){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 634](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L634) |
 
 ---
 
@@ -131,7 +131,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes two inputs and `true` if the first input is less than the second input.</li></ul>          |
 | **Notes**                                   | <ul><li>The comparators are called in the order they are provided.</li><li>If no comparators are provided, returns a `nil` function, which is generally sorted with the standard `<` operator.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L182){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L182) |
 
 ---
 
@@ -147,7 +147,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes the input for the last function, and returns the result of the first function.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L221){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L221) |
 
 ---
 
@@ -163,7 +163,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that always returns the value `value`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L241){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L241) |
 
 ---
 
@@ -179,7 +179,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that accepts the first argument.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L280){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L280) |
 
 ---
 
@@ -195,7 +195,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that will print the provided message to the console.</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for debugging, but is not recommended for production code.</li><li>For example, the following will return "b" and also print `"table: 0xXXXXXXXXX"` and `"b"` to the console:</li><li>   `fn.chain // fn.constant({"a", "b", "c"}) >> fn.debug("%d") >> fn.table.get(2) >> fn.debug("%d")`</li><li>Optional functions can be passed in, which will be provided the values passed to the returned function.</li><li>If not provided, the values will be passed into the message for formatting directly.</li><li>The returned function will always return the values passed in.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 654](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L654){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 654](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L654) |
 
 ---
 
@@ -211,7 +211,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that accepts the second argument and returns</li><li>    a function expecting the first argument.</li></ul>          |
 | **Notes**                                   | <ul><li>If multiple arguments are provided for either function, the order of the arguments within that list are not flipped.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L296){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L296) |
 
 ---
 
@@ -227,7 +227,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that returns the result of calling `...` with the functions passed in.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L140){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L140) |
 
 ---
 
@@ -243,7 +243,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The values passed in.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L318){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L318) |
 
 ---
 
@@ -259,7 +259,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes a table and returns a filtered table.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/table.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L173){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L173) |
 
 ---
 
@@ -275,7 +275,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function which will be `true` if all of the functions in `fns` are `falsy`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L113){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L113) |
 
 ---
 
@@ -291,7 +291,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A root transform function.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L331){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L331) |
 
 ---
 
@@ -307,7 +307,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes any number of inputs and returns any number of inputs.</li></ul>          |
 | **Notes**                                   | <ul><li>The difference between `chain` and `pipe` is that chain will fail early with a `nil` result, while `pipe` will pass the `nil` onto the next function.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L345){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L345) |
 
 ---
 
@@ -323,7 +323,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes the remainder of `fn`'s arguments and returns the result of `fn` with the provided arguments prepended.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 370](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L370){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 370](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L370) |
 
 ---
 
@@ -339,7 +339,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The reduced value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 396](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L396){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 396](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L396) |
 
 ---
 
@@ -355,7 +355,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>The resolved value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 416](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L416){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 416](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L416) |
 
 ---
 
@@ -371,7 +371,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A root transform function.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 433](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L433){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 433](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L433) |
 
 ---
 
@@ -387,7 +387,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that takes the specified number of arguments.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 465](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L465){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 465](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L465) |
 
 ---
 
@@ -403,7 +403,7 @@ often with configuration parameters passed in.
 | **Returns**                                 | <ul><li>A function that will call the provided function with the provided value as the first argument.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//fn.lua line 481](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L481){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//fn.lua line 481](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//fn.lua#L481) |
 
 ---
 

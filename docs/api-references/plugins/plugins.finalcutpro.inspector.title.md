@@ -24,7 +24,7 @@ Final Cut Pro Title Inspector Additions.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | MotionVFX Title Animation Amount Slider                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/inspector/title.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/inspector/title.lua#L30){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/inspector/title.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/inspector/title.lua#L30) |
 
 ---
 

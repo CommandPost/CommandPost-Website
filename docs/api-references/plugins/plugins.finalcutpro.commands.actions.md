@@ -34,7 +34,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L110){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L110) |
 
 ---
 
@@ -50,7 +50,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L97){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L97) |
 
 ---
 
@@ -66,7 +66,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L317){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L317) |
 
 ---
 
@@ -82,7 +82,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L32){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L32) |
 
 ---
 
@@ -98,7 +98,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L241){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L241) |
 
 ---
 
@@ -114,7 +114,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L330){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L330) |
 
 ---
 
@@ -130,7 +130,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L150){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L150) |
 
 ---
 

@@ -28,7 +28,7 @@ MIDI Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last application used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L42){target="_blank"} |
+| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L42) |
 
 ---
 
@@ -41,7 +41,7 @@ MIDI Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last bank used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L47){target="_blank"} |
+| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L47) |
 
 ---
 
@@ -54,7 +54,7 @@ MIDI Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L57){target="_blank"} |
+| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L57) |
 
 ---
 
@@ -67,7 +67,7 @@ MIDI Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L62){target="_blank"} |
+| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L62) |
 
 ---
 
@@ -80,7 +80,7 @@ MIDI Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Scroll Bar Position                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L52){target="_blank"} |
+| **Source**                                  | [src/plugins/core/midi/prefs/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/prefs/init.lua#L52) |
 
 ---
 

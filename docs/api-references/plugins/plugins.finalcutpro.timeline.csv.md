@@ -27,7 +27,7 @@ Save Timeline Index to CSV
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/csv.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/csv.lua#L19){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/csv.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/csv.lua#L19) |
 
 ---
 

@@ -27,7 +27,7 @@ Final Cut Pro Tangent Pasteboard Group
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `core.tangent.manager.group` that collects Final Cut Pro New actions/parameters/etc.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/pasteboard.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/pasteboard.lua#L13){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/pasteboard.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/pasteboard.lua#L13) |
 
 ---
 
@@ -45,7 +45,7 @@ Final Cut Pro Tangent Pasteboard Group
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/pasteboard.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/pasteboard.lua#L18){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/pasteboard.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/pasteboard.lua#L18) |
 
 ---
 

@@ -53,7 +53,7 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//disk.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L214){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//disk.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L214) |
 
 ---
 
@@ -69,7 +69,7 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//disk.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L184){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//disk.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L184) |
 
 ---
 
@@ -85,7 +85,7 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//disk.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L199){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//disk.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L199) |
 
 ---
 
@@ -101,7 +101,7 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp//disk.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L165){target="_blank"} |
+| **Source**                                  | [src/extensions/cp//disk.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L165) |
 
 ---
 

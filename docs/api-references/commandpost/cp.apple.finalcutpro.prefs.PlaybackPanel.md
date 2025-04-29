@@ -41,7 +41,7 @@ Playback Panel Module.
 | **Returns**                                 | <ul><li>A new `PlaybackPanel` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L22){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L22) |
 
 ---
 
@@ -56,7 +56,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PopUpButton` for "A/V Output".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L125){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L125) |
 
 ---
 
@@ -69,7 +69,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "Background render".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L35){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L35) |
 
 ---
 
@@ -82,7 +82,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` for "Background render".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L44){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L44) |
 
 ---
 
@@ -95,7 +95,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "Create optimized media for multicam clips".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L62){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L62) |
 
 ---
 
@@ -108,7 +108,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PopUpButton` for "Player Background".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L116){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L116) |
 
 ---
 
@@ -121,7 +121,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` for "Post-Roll Duration" in seconds.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L107){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L107) |
 
 ---
 
@@ -134,7 +134,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` for "Pre-Roll Duration" in seconds.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L98){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L98) |
 
 ---
 
@@ -147,7 +147,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PopUpButton` for "Render/Share GPU".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L53) |
 
 ---
 
@@ -160,7 +160,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "Show HDR as Tone Mapped".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L134){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L134) |
 
 ---
 
@@ -173,7 +173,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "If frames drop due to disk performance, warn after playback".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L80){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L80) |
 
 ---
 
@@ -186,7 +186,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "If frames drop on VR headset, warn after playback".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L89){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L89) |
 
 ---
 
@@ -199,7 +199,7 @@ Playback Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` for "If a frame drops, stop playback and warn".                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L71){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PlaybackPanel.lua#L71) |
 
 ---
 

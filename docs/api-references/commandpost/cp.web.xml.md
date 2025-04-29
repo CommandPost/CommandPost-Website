@@ -63,7 +63,7 @@ There are two 'special' tag names:
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/web/xml.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/xml.lua#L77){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/web/xml.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/xml.lua#L77) |
 
 ---
 

@@ -49,7 +49,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing the names of all installed Audio Units Effects.</li></ul>          |
 | **Notes**                                   | <ul><li>Example usage: `hs.inspect(hs.audiounit.getAudioEffectNames())`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L62){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L62) |
 
 ---
 
@@ -65,7 +65,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing the sound file filename extensions that are supported by the system</li></ul>          |
 | **Notes**                                   | <ul><li>This function is unlikely to be tremendously useful, as filename extensions are essentially meaningless. The data returned by `hs.sound.soundTypes()` is far more valuable</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 200](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L200){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 200](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L200) |
 
 ---
 
@@ -81,7 +81,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing the UTI sound formats that are supported by the system</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 184](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L184){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 184](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L184) |
 
 ---
 
@@ -97,7 +97,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A table containing all of the available sound files (i.e. those found in ~/Library/Sounds, /Library/Sounds, /Network/Library/Sounds and /System/Library/Sounds)</li></ul>          |
 | **Notes**                                   | <ul><li>The sounds listed by this function can be loaded using `hs.sound.getByName()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 150](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L150){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 150](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L150) |
 
 ---
 
@@ -115,7 +115,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>An `hs.sound` object or nil if the file could not be loaded</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L128){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L128) |
 
 ---
 
@@ -131,7 +131,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>An `hs.sound` object or nil if no matching sound could be found</li></ul>          |
 | **Notes**                                   | <ul><li>Sounds can only be loaded by name if they are System Sounds (i.e. those found in ~/Library/Sounds, /Library/Sounds, /Network/Library/Sounds and /System/Library/Sounds) or are sound files that have previously been loaded and named</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L103){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L103) |
 
 ---
 
@@ -149,7 +149,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current position.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 435](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L435){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 435](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L435) |
 
 ---
 
@@ -165,7 +165,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>To obtain the UID of a sound device, see `hs.audiodevice:uid()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 400](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L400){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 400](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L400) |
 
 ---
 
@@ -181,7 +181,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A number containing the length of the sound, in seconds</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 457](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L457){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 457](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L457) |
 
 ---
 
@@ -197,7 +197,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>A boolean, true if the sound is currently playing, otherwise false</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 496](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L496){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 496](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L496) |
 
 ---
 
@@ -213,7 +213,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>If you have registered a callback function for completion of a sound's playback, it will not be called when the sound loops</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 316](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L316){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 316](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L316) |
 
 ---
 
@@ -229,7 +229,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>If remove the sound name by specifying `nil`, the sound will automatically be set to stop when Hammerspoon is reloaded.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 370](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L370){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 370](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L370) |
 
 ---
 
@@ -245,7 +245,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 253](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L253){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 253](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L253) |
 
 ---
 
@@ -261,7 +261,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 228](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L228){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 228](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L228) |
 
 ---
 
@@ -277,7 +277,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L274){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 274](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L274) |
 
 ---
 
@@ -293,7 +293,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>the sound object</li></ul>          |
 | **Notes**                                   | <ul><li>the callback function should accept two parameters and return none.  The parameters passed to the callback function are:</li><li>  state - a boolean flag indicating if the sound completed playing.  Returns true if playback completes properly, or false if a decoding error occurs or if the sound is stopped early with `hs.sound:stop`.</li><li>  sound - the soundObject userdata</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 513](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L513){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 513](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L513) |
 
 ---
 
@@ -309,7 +309,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>The `hs.sound` object if the command was successful, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L295){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L295) |
 
 ---
 
@@ -325,7 +325,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current setting.</li></ul>          |
 | **Notes**                                   | <ul><li>This method can only be used on a named `hs.sound` object, see `hs.sound:name()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 341](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L341){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 341](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L341) |
 
 ---
 
@@ -341,7 +341,7 @@ Load/play/manipulate sound files
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the sound object; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/sound/libsound.m line 474](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L474){target="_blank"} |
+| **Source**                                  | [extensions/sound/libsound.m line 474](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sound/libsound.m#L474) |
 
 ---
 

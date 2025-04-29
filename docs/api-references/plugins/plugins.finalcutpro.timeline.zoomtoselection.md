@@ -29,7 +29,7 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L183){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L183) |
 
 ---
 
@@ -45,7 +45,7 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L154){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L154) |
 
 ---
 
@@ -61,7 +61,7 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Returns**                                 | <ul><li>`true` if there is selected content in the timeline and zooming was successful.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L101){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L101) |
 
 ---
 

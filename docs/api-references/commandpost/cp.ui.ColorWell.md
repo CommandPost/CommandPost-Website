@@ -30,7 +30,7 @@ UI ColorWell.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ColorWell.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ColorWell.lua#L23){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ColorWell.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ColorWell.lua#L23) |
 
 ---
 
@@ -48,7 +48,7 @@ UI ColorWell.
 | **Returns**                                 | <ul><li>A new `ColorWell` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ColorWell.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ColorWell.lua#L11){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ColorWell.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ColorWell.lua#L11) |
 
 ---
 

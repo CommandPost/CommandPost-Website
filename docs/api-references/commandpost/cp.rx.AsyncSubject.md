@@ -37,7 +37,7 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>The new `AsyncSubject`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L23){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L23) |
 
 ---
 
@@ -55,7 +55,7 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L121){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L121) |
 
 ---
 
@@ -71,7 +71,7 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L99){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L99) |
 
 ---
 
@@ -87,7 +87,7 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L84){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L84) |
 
 ---
 
@@ -103,7 +103,7 @@ the `Observer` will immediately receive the value or the error.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L43){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L43) |
 
 ---
 

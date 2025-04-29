@@ -27,7 +27,7 @@ Specifies that the `Require`d value `Is` a specific value.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value all values from the `requirement` must match.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L83){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L83) |
 
 ---
 
@@ -45,7 +45,7 @@ Specifies that the `Require`d value `Is` a specific value.
 | **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L122){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L122) |
 
 ---
 

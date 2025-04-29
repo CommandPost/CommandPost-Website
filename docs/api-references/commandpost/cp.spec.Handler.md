@@ -45,7 +45,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>The current `Handler` implementation.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L16){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L16) |
 
 ---
 
@@ -63,7 +63,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L36){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L36) |
 
 ---
 
@@ -81,7 +81,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L119){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L119) |
 
 ---
 
@@ -97,7 +97,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L61){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L61) |
 
 ---
 
@@ -113,7 +113,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L107){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L107) |
 
 ---
 
@@ -129,7 +129,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L143){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L143) |
 
 ---
 
@@ -145,7 +145,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L96){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L96) |
 
 ---
 
@@ -161,7 +161,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L74){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L74) |
 
 ---
 
@@ -177,7 +177,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L85){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L85) |
 
 ---
 
@@ -193,7 +193,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L155){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L155) |
 
 ---
 
@@ -209,7 +209,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>The `Handler` instance, for chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L47){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L47) |
 
 ---
 
@@ -225,7 +225,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L131){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L131) |
 
 ---
 

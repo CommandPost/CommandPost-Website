@@ -39,7 +39,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been activated (i.e. given keyboard/mouse focus)                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 33](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L33){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 33](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L33) |
 
 ---
 
@@ -52,7 +52,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been deactivated (i.e. lost keyboard/mouse focus)                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L37){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L37) |
 
 ---
 
@@ -65,7 +65,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been hidden                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 25](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L25){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 25](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L25) |
 
 ---
 
@@ -78,7 +78,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been launched                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 17](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L17){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 17](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L17) |
 
 ---
 
@@ -91,7 +91,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application is in the process of being launched                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 13](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L13){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 13](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L13) |
 
 ---
 
@@ -104,7 +104,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been terminated                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L21){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L21) |
 
 ---
 
@@ -117,7 +117,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been unhidden                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L29){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L29) |
 
 ---
 
@@ -138,7 +138,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>An `hs.application.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>If the function is called with an event type of `hs.application.watcher.terminated` then the application name parameter will be `nil` and the `hs.application` parameter, will only be useful for getting the UNIX process ID (i.e. the PID) of the application</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 142](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L142){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 142](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L142) |
 
 ---
 
@@ -156,7 +156,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.application.watcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 224](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L224){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 224](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L224) |
 
 ---
 
@@ -172,7 +172,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The `hs.application.watcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/application/libapplication_watcher.m line 247](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L247){target="_blank"} |
+| **Source**                                  | [extensions/application/libapplication_watcher.m line 247](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication_watcher.m#L247) |
 
 ---
 

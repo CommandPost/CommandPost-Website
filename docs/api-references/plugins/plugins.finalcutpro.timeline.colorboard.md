@@ -31,7 +31,7 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L111){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L111) |
 
 ---
 
@@ -47,7 +47,7 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L127){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L127) |
 
 ---
 
@@ -63,7 +63,7 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L81){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L81) |
 
 ---
 
@@ -79,7 +79,7 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L23){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L23) |
 
 ---
 
@@ -95,7 +95,7 @@ Color Board Plugins.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L68){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L68) |
 
 ---
 

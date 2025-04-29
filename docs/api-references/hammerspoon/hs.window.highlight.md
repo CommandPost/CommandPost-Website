@@ -41,7 +41,7 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allows customization of the highlight overlays and behaviour.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/window/window_highlight.lua line 34](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L34){target="_blank"} |
+| **Source**                                  | [extensions/window/window_highlight.lua line 34](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L34) |
 
 ---
 
@@ -59,7 +59,7 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>overlay mode is disabled by default - see `hs.window.highlight.ui.overlayColor`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/window/window_highlight.lua line 225](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L225){target="_blank"} |
+| **Source**                                  | [extensions/window/window_highlight.lua line 225](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L225) |
 
 ---
 
@@ -75,7 +75,7 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/window/window_highlight.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L275){target="_blank"} |
+| **Source**                                  | [extensions/window/window_highlight.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L275) |
 
 ---
 
@@ -91,7 +91,7 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function should be bound to a hotkey, e.g.: `hs.hotkey.bind('ctrl-cmd','\','Isolate',hs.window.highlight.toggleIsolate)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/window/window_highlight.lua line 198](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L198){target="_blank"} |
+| **Source**                                  | [extensions/window/window_highlight.lua line 198](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L198) |
 
 ---
 

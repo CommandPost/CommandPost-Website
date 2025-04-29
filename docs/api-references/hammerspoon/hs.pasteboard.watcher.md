@@ -36,7 +36,7 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>The polling interval as a number.</li></ul>          |
 | **Notes**                                   | <ul><li>This only affects new watchers, not existing/running ones.</li><li>The default value is 0.25.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 249](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L249){target="_blank"} |
+| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 249](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L249) |
 
 ---
 
@@ -55,7 +55,7 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>An `hs.pasteboard.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>Internally this extension uses a single `NSTimer` to check for changes to the pasteboard count every half a second.</li><li>Example usage:</li><li> ```lua</li><li> generalPBWatcher = hs.pasteboard.watcher.new(function(v) print(string.format("General Pasteboard Contents: %s", v)) end)</li><li> specialPBWatcher = hs.pasteboard.watcher.new(function(v) print(string.format("Special Pasteboard Contents: %s", v)) end, "special")</li><li> hs.pasteboard.writeObjects("This is on the general pasteboard.")</li><li> hs.pasteboard.writeObjects("This is on the special pasteboard.", "special")```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 143](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L143){target="_blank"} |
+| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 143](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L143) |
 
 ---
 
@@ -73,7 +73,7 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>A boolean value indicating whether or not the timer is currently running.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 209](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L209){target="_blank"} |
+| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 209](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L209) |
 
 ---
 
@@ -89,7 +89,7 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>The `hs.pasteboard.watcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L187){target="_blank"} |
+| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 187](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L187) |
 
 ---
 
@@ -105,7 +105,7 @@ macOS doesn't offer any API for getting Pasteboard notifications, so this extens
 | **Returns**                                 | <ul><li>The `hs.pasteboard.watcher` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 228](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L228){target="_blank"} |
+| **Source**                                  | [extensions/pasteboard/libpasteboard_watcher.m line 228](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L228) |
 
 ---
 

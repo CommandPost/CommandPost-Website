@@ -51,7 +51,7 @@ Controls for Spotify music player
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is paused                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 11](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L11){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 11](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L11) |
 
 ---
 
@@ -64,7 +64,7 @@ Controls for Spotify music player
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is playing                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 16](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L16){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 16](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L16) |
 
 ---
 
@@ -77,7 +77,7 @@ Controls for Spotify music player
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is stopped                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L21){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L21) |
 
 ---
 
@@ -95,7 +95,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L115){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 115](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L115) |
 
 ---
 
@@ -111,7 +111,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 323](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L323){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 323](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L323) |
 
 ---
 
@@ -127,7 +127,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 144](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L144){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 144](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L144) |
 
 ---
 
@@ -143,7 +143,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 131](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L131){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 131](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L131) |
 
 ---
 
@@ -159,7 +159,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 157](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L157){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 157](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L157) |
 
 ---
 
@@ -175,7 +175,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing the id of the current track, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 169](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L169){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 169](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L169) |
 
 ---
 
@@ -191,7 +191,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>The number of seconds long the current song is, 0 if no song is playing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 309](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L309){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 309](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L309) |
 
 ---
 
@@ -207,7 +207,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.spotify.state_stopped`</li><li>   - `hs.spotify.state_paused`</li><li>   - `hs.spotify.state_playing`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 182](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L182){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 182](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L182) |
 
 ---
 
@@ -223,7 +223,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 283](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L283){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 283](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L283) |
 
 ---
 
@@ -239,7 +239,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A number containing the volume Spotify is set to between 1 and 100</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L235){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L235) |
 
 ---
 
@@ -255,7 +255,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether Spotify is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 211](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L211){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 211](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L211) |
 
 ---
 
@@ -271,7 +271,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>A boolean value indicating whether the Spotify application is running.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 198](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L198){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 198](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L198) |
 
 ---
 
@@ -287,7 +287,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 76](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L76){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 76](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L76) |
 
 ---
 
@@ -303,7 +303,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L63){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L63) |
 
 ---
 
@@ -319,7 +319,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L50){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L50) |
 
 ---
 
@@ -335,7 +335,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L37){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L37) |
 
 ---
 
@@ -351,7 +351,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L102){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L102) |
 
 ---
 
@@ -367,7 +367,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 89](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L89){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 89](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L89) |
 
 ---
 
@@ -383,7 +383,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 334](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L334){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 334](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L334) |
 
 ---
 
@@ -399,7 +399,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 294](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L294){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 294](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L294) |
 
 ---
 
@@ -415,7 +415,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L246){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L246) |
 
 ---
 
@@ -431,7 +431,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 272](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L272){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 272](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L272) |
 
 ---
 
@@ -447,7 +447,7 @@ Controls for Spotify music player
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/spotify/spotify.lua line 261](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L261){target="_blank"} |
+| **Source**                                  | [extensions/spotify/spotify.lua line 261](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spotify/spotify.lua#L261) |
 
 ---
 

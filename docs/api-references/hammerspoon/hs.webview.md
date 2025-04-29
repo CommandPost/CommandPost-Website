@@ -113,7 +113,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a placeholder object</li></ul>          |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/webview/webview.lua line 346](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L346){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 346](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L346) |
 
 ---
 
@@ -126,7 +126,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | Returns an hs.window object for the webview so that you can use hs.window methods on it.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/webview/webview.lua line 269](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L269){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 269](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L269) |
 
 ---
 
@@ -141,7 +141,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Parameters**                              | <ul><li>`theLevel` - the level specified as a number, which can be obtained from `hs.drawing.windowLevels`.</li></ul> |
 | **Returns**                                 | <ul><li>the webview object</li></ul>          |
 | **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul> |
-| **Source**                                  | [extensions/webview/webview.lua line 282](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L282){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 282](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L282) |
 
 ---
 
@@ -156,7 +156,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of common OID values found in SSL certificates.  SSL certificates provided to the callback function for [hs.webview:sslCallback](#sslCallback) or in the results of [hs.webview:certificateChain](#certificateChain) use OID strings as the keys which describe the properties of the certificate and this table can be used to get a more common name for the keys you are most likely to see.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2572){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2572) |
 
 ---
 
@@ -169,7 +169,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing valid masks for the webview window.                                                                     |
 | **Notes**                                   | <ul><li>The Maximize button in the window title is enabled when Resizable is set.</li><li>The Close, Minimize, and Maximize buttons are only visible when the Window is also Titled.</li></ul> |
-| **Source**                                  | [extensions/webview/libwebview.m line 2530](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2530){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2530](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2530) |
 
 ---
 
@@ -187,7 +187,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a value is provided, returns the webview object; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>See also [hs.webview:windowStyle](#windowStyle) and [hs.webview.windowMasks](#windowMasks).</li><li></li><li>When a toolbar is attached to the webview, this function can be used to specify whether the Toolbar appears underneath the webview window's title ("visible") or in the window's title bar itself, as seen in applications like Safari ("hidden"). When the title is hidden, the toolbar will only display the toolbar items as icons without labels, and ignores changes made with `hs.webview.toolbar:displayMode`.</li><li></li><li>If a toolbar is attached to the webview, you can achieve the same effect as this method with `hs.webview:attachedToolbar():inTitleBar(boolean)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2181](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2181){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2181](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2181) |
 
 ---
 
@@ -211,7 +211,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>To set the initial URL, use the `hs.webview:url` method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple's documentation, but is included in the WebKit2 documentation.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1800](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1800){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1800](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1800) |
 
 ---
 
@@ -227,7 +227,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters are the same as for [hs.webview.new](#new) -- check there for more details</li><li>This constructor is just a short-hand for `hs.webview.new(...):allowTextEntry(true):allowGestures(true):windowStyle(15)`, which specifies a webview with a title bar, title bar buttons (zoom, close, minimize), and allows form entry and gesture support for previous and next pages.</li><li></li><li>* See [hs.webview.new](#new) and the following for more details:</li><li> [hs.webview:allowGestures](#allowGestures)</li><li> [hs.webview:allowTextEntry](#allowTextEntry)</li><li> [hs.webview:windowStyle](#windowStyle)</li><li> [hs.webview.windowMasks](#windowMasks)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 80](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L80){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 80](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L80) |
 
 ---
 
@@ -245,7 +245,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>This is a shorthand method for getting or setting both `hs.webview:allowMagnificationGestures` and `hs.webview:allowNavigationGestures`.</li><li>This method will set both types of gestures to true or false, if given an argument, but will only return true if *both* gesture types are currently true; if either or both gesture methods are false, then this method will return false.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 166](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L166){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 166](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L166) |
 
 ---
 
@@ -261,7 +261,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1275){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1275) |
 
 ---
 
@@ -277,7 +277,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1365](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1365){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1365](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1365) |
 
 ---
 
@@ -293,7 +293,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>This method allows you to prevent a webview from being able to open a new window by any method.   This includes right-clicking on a link and selecting "Open in a New Window", JavaScript pop-ups, links with the target of "__blank", etc.</li><li>If you just want to prevent automatic JavaScript windows, set the preference value javaScriptCanOpenWindowsAutomatically to false when creating the web view - this method blocks *all* methods.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1299](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1299){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1299](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1299) |
 
 ---
 
@@ -309,7 +309,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1994](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1994){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1994](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1994) |
 
 ---
 
@@ -325,7 +325,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the webview object; otherwise returns the current value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2322](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2322){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2322](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2322) |
 
 ---
 
@@ -341,7 +341,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a toolbarObject or explicit nil is specified, returns the webviewObject; otherwise returns the current toolbarObject or nil, if no toolbar is attached to the webview.</li></ul>          |
 | **Notes**                                   | <ul><li>this method is a convenience wrapper for the `hs.webview.toolbar.attachToolbar` function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the webview.  If you wish to attach the same toolbar to multiple webviews, see `hs.webview.toolbar:copy`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 107](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L107){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 107](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L107) |
 
 ---
 
@@ -357,7 +357,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2447](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2447){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2447](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2447) |
 
 ---
 
@@ -373,7 +373,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 299](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L299){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 299](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L299) |
 
 ---
 
@@ -389,7 +389,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2286](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2286){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2286](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2286) |
 
 ---
 
@@ -405,7 +405,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a table containing the certificates that make up the SSL certificate chain securing the most recent committed navigation.  Each certificate is described in a table with the following keys:</li><li>  `commonName` - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate's purpose.</li><li>  `values`     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in [hs.webview.certificateOIDs](#certificateOIDs). The value for each key will be a table with the following keys:</li><li>    `label`           - a description or label for the entry</li><li>    `localized label` - a localized version of `label`</li><li>    `type`            - a description of the data type for this value</li><li>    `value`           - the value</li></ul>          |
 | **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li>A navigation which was performed via HTTP instead of HTTPS will return an empty array.</li><li></li><li>For OIDs which specify a type of "date" -- e.g. "2.5.29.24" (invalidityDate) -- the number provided represents the number of seconds since 12:00:00 AM, January 1, 1970 and can be used directly with the Lua `os.date` command.</li><li>For OIDs which are known to represent a date, but specify its type as a "number" -- e.g. "2.16.840.1.113741.2.1.1.1.7" (X509V1ValidityNotAfter) or "2.16.840.1.113741.2.1.1.1.6" (X509V1ValidityNotBefore) -- the epoch is 12:00:00 AM, Jan 1, 2001.  To convert these dates into a format usable by Lua, you will need to do something similar to the following:  `os.date("%c", value + os.time({year=2001,month=1,day=1,hour=0,min=0,sec=0})`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1008](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1008){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1008](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1008) |
 
 ---
 
@@ -421,7 +421,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>an array containing the webview objects of all child windows opened from this webview.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 856](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L856){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 856](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L856) |
 
 ---
 
@@ -437,7 +437,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>If this is set to true, Escape will only close the window if no other element responds to the Escape key first (e.g. if you are editing a text input field, the Escape will be captured by the text field, not by the webview Window.)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2073](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2073){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2073](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2073) |
 
 ---
 
@@ -453,7 +453,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>A boolean, `true` if dark mode is enabled otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2042](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2042){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2042](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2042) |
 
 ---
 
@@ -469,7 +469,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L189){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L189) |
 
 ---
 
@@ -485,7 +485,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>If set to true, a webview object will be deleted when the user clicks on the close button of a titled and closable webview (see `hs.webview.windowStyle`).</li><li>Children of an explicitly created webview automatically have this attribute set to true.  To cause closed children to remain after the user closes the parent, you can set this to false with a policy callback function when it receives the "newWindow" action.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2016](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2016){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2016](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2016) |
 
 ---
 
@@ -501,7 +501,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a numerical value between 0.0 and 1.0 indicating the percentage of expected content which has been loaded.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1137](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1137){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1137](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1137) |
 
 ---
 
@@ -519,7 +519,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the webview object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1678](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1678){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1678](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1678) |
 
 ---
 
@@ -535,7 +535,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>In order for this setting to have any effect, you must also register an ssl callback function with [hs.webview:sslCallback](#sslCallback) which should return true if the certificate should be granted an exception or false if it should not.  For a certificate to be granted an exception, both this method and the result of the callback *must* be true.</li><li></li><li>A server certificate may be invalid for a variety of reasons:</li><li>  it is not signed by a recognized certificate authority - most commonly this means the certificate is self-signed.</li><li>  the certificate has expired</li><li>  the certificate has a common name (web site server name) other than the one requested (e.g. the certificate's common name is www.site.com, but it is being used for something else, possibly just https://site.com, possibly something else entirely</li><li>  some corporate proxy servers don't handle SSL properly and can cause a certificate to appear invalid even when they are valid (this is less common then it used to be, but does still occur occasionally)</li><li>  potentially nefarious reasons including man-in-the-middle attacks or phishing scams.</li><li></li><li>The Hammerspoon server provided by `hs.httpserver` uses a self-signed certificate when set to use SSL, so it will be considered invalid for reason 1 above.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this setting has no effect for that certificate.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1327](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1327){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1327](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1327) |
 
 ---
 
@@ -551,7 +551,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview window (keys `x`  and `y`) and the new size (keys `h` and `w`).  The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L216){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 216](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L216) |
 
 ---
 
@@ -567,7 +567,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1197](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1197){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1197](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1197) |
 
 ---
 
@@ -583,7 +583,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1177](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1177){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1177](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1177) |
 
 ---
 
@@ -599,7 +599,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1968](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1968){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1968](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1968) |
 
 ---
 
@@ -615,7 +615,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>A table which is an array of the URLs viewed within this webview and a key named `current` which is equal to the index corresponding to the currently visible entry.  Each array element will be a table with the following keys:</li><li>  `URL`        - the URL of the web page</li><li>  `initialURL` - the URL of the initial request that led to this item</li><li>  `title`      - the web page title</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1655](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1655){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1655](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1655) |
 
 ---
 
@@ -631,7 +631,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>an hs.window object</li></ul>          |
 | **Notes**                                   | <ul><li>hs.window:minimize only works if the webview is minimizable (see `hs.webview.windowStyle`)</li><li>hs.window:setSize only works if the webview is resizable (see `hs.webview.windowStyle`)</li><li>hs.window:close only works if the webview is closable (see `hs.webview.windowStyle`)</li><li>hs.window:maximize will reposition the webview to the upper left corner of your screen, but will only resize the webview if the webview is resizable (see `hs.webview.windowStyle`)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2100](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2100){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2100](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2100) |
 
 ---
 
@@ -647,7 +647,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | <ul><li>Web Pages generated in this manner are not added to the webview history list</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1423](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1423){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1423](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1423) |
 
 ---
 
@@ -663,7 +663,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>true if all content current displayed in the web view was loaded over securely encrypted connections; otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1157](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1157){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1157](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1157) |
 
 ---
 
@@ -679,7 +679,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>`true` if the webview window is visible, otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2128){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2128) |
 
 ---
 
@@ -695,7 +695,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a parameter is specified, returns the webview object, otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2252](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2252){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2252](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2252) |
 
 ---
 
@@ -711,7 +711,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>true if the content is still being loaded, or false if it has completed.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1091](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1091){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1091](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1091) |
 
 ---
 
@@ -727,7 +727,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1389](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1389){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1389](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1389) |
 
 ---
 
@@ -747,7 +747,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>The return value of the callback function is ignored except when the `action` argument is equal to `didFailNavigation` or `didFailProvisionalNavigation`.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1458](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1458){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1458](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1458) |
 
 ---
 
@@ -763,7 +763,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the navigation identifier</li></ul>          |
 | **Notes**                                   | <ul><li>This navigation identifier can be used to track the progress of a webview with the navigation callback function - see `hs.webview.navigationCallback`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1069](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1069){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1069](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1069) |
 
 ---
 
@@ -779,7 +779,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2390](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2390){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2390](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2390) |
 
 ---
 
@@ -795,7 +795,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2406](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2406){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2406](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2406) |
 
 ---
 
@@ -811,7 +811,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the parent webview object for the calling webview object, or nil if the webview has no parent</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 879](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L879){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 879](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L879) |
 
 ---
 
@@ -835,7 +835,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>With the `newWindow` action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1505](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1505){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1505](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1505) |
 
 ---
 
@@ -851,7 +851,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a boolean value indicating whether or not the datastore is non-persistent.</li></ul>          |
 | **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>See `hs.webview.datastore` and [hs.webview.new](#new) for more information.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 821](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L821){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 821](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L821) |
 
 ---
 
@@ -867,7 +867,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1217](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1217){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1217](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1217) |
 
 ---
 
@@ -883,7 +883,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2304](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2304){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2304](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2304) |
 
 ---
 
@@ -899,7 +899,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2346](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2346){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2346](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2346) |
 
 ---
 
@@ -915,7 +915,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1942](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1942){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1942](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1942) |
 
 ---
 
@@ -931,7 +931,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a size-table is a table with key-value pairs specifying the size (keys `h` and `w`) the webview should be resized to. The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1767](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1767){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1767](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1767) |
 
 ---
 
@@ -956,7 +956,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns `true`, the certificate will only be granted an exception if [hs.webview:examineInvalidCertificates](#examineInvalidCertificates) has also been set to `true`.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1602](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1602){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1602](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1602) |
 
 ---
 
@@ -972,7 +972,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | <ul><li>this method does not stop the loading of the primary content for the page at the specified URL</li><li>if [hs.webview:loading](#loading) would return true, this method does nothing -- see notes:</li><li>  The documentation from Apple is unclear and experimentation has shown that if this method is applied before the content of the specified URL has loaded, it can cause the webview to lock up; however it appears to stop the loading of additional resources specified for the content (external script files, external style files, AJAX queries, etc.) and should be used in this context.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1111](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1111){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1111](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1111) |
 
 ---
 
@@ -988,7 +988,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>the title</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1050](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1050){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1050](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1050) |
 
 ---
 
@@ -1004,7 +1004,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
 | **Notes**                                   | <ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview (keys `x`  and `y`). The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1735](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1735){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1735](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1735) |
 
 ---
 
@@ -1020,7 +1020,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
 | **Notes**                                   | <ul><li>When enabled, the webview's background color is equal to the body's `background-color` (transparent by default)</li><li>Setting `background-color:rgba(0, 225, 0, 0.3)` on `<body>` will give a translucent green webview background</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 1247](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1247){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 1247](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1247) |
 
 ---
 
@@ -1046,7 +1046,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>If a URL is specified, then this method returns the webview Object; otherwise it returns the current url being displayed.</li></ul>          |
 | **Notes**                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system's ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 902](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L902){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 902](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L902) |
 
 ---
 
@@ -1062,7 +1062,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>a table containing the keys for the webview's URL.  See the function `hs.http.urlParts` for a description of the possible keys returned in the table.</li></ul>          |
 | **Notes**                                   | <ul><li>This method is a wrapper to the `hs.http.urlParts` function wich uses the OS X APIs, based on RFC 1808.</li><li>You may also want to consider the `hs.httpserver.hsminweb.urlParts` function for a version more consistent with RFC 3986.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 252](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L252){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 252](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L252) |
 
 ---
 
@@ -1078,7 +1078,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a parameter is specified, returns the webviewObject, otherwise returns the current value</li></ul>          |
 | **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>The default user string used by webview objects will be something like this (the exact version numbers will differ, depending upon your OS X version):</li><li> "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko)"</li><li>By default, this method will return the empty string ("") when queried -- this indicates that the default, shown above, is used.  You can also return to this default by setting the user agent to "" with this method (e.g. `hs.webview:userAgent("")`).</li><li></li><li>Some web sites tailor content based on the user string or use it for other internal purposes (tracking, statistics, page availability, layout, etc.).  Common user-agent strings can be found at http://www.useragentstring.com/pages/useragentstring.php.</li><li></li><li>If you have set the user agent application name with the `applicationName` parameter to the [hs.webview.new](#new) constructor, it will be ignored unless this value is "", i.e. the default user agent string.  If you wish to specify an application name after the user agent string and use a custom string, include the application name in your custom string.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 964](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L964){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 964](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L964) |
 
 ---
 
@@ -1097,7 +1097,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2488](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2488){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2488](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2488) |
 
 ---
 
@@ -1116,7 +1116,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>if a mask is provided, then the webviewObject is returned; otherwise the current mask value is returned.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/webview.lua line 123](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L123){target="_blank"} |
+| **Source**                                  | [extensions/webview/webview.lua line 123](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L123) |
 
 ---
 
@@ -1132,7 +1132,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
 | **Notes**                                   | <ul><li>The title will be hidden unless the window style includes the "titled" style (see `hs.webview.windowStyle` and `hs.webview.windowMasks`)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/webview/libwebview.m line 2149](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2149){target="_blank"} |
+| **Source**                                  | [extensions/webview/libwebview.m line 2149](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2149) |
 
 ---
 

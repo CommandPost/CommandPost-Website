@@ -27,7 +27,7 @@ A [Statement.Modifier](cp.rx.go.Statement.Modifier.md) for [If](cp.rx.go.If.md) 
 | **Returns**                                 | <ul><li>An [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L248){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L248) |
 
 ---
 

@@ -33,7 +33,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table representing the supplied JSON data</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for retrieving some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/json/libjson.m line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L139){target="_blank"} |
+| **Source**                                  | [extensions/json/libjson.m line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L139) |
 
 ---
 
@@ -49,7 +49,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A string containing a JSON representation of the supplied table</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for storing some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/json/libjson.m line 112](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L112){target="_blank"} |
+| **Source**                                  | [extensions/json/libjson.m line 112](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L112) |
 
 ---
 
@@ -65,7 +65,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table representing the supplied JSON data, or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/json/libjson.m line 197](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L197){target="_blank"} |
+| **Source**                                  | [extensions/json/libjson.m line 197](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L197) |
 
 ---
 
@@ -81,7 +81,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false` if an error has occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/json/libjson.m line 164](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L164){target="_blank"} |
+| **Source**                                  | [extensions/json/libjson.m line 164](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/json/libjson.m#L164) |
 
 ---
 

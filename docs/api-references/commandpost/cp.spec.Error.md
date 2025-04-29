@@ -27,7 +27,7 @@ Provides an Error message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Error.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Error.lua#L9){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Error.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Error.lua#L9) |
 
 ---
 

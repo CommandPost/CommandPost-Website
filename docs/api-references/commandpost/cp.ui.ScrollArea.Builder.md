@@ -27,7 +27,7 @@
 | **Returns**                                 | <ul><li>The `Builder` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L61){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L61) |
 
 ---
 

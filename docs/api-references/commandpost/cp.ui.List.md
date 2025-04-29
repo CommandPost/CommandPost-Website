@@ -35,7 +35,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it is an `AXList`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/List.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L14){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/List.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L14) |
 
 ---
 
@@ -53,7 +53,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/List.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L27){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/List.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L27) |
 
 ---
 
@@ -71,7 +71,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/List.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L51){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/List.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L51) |
 
 ---
 

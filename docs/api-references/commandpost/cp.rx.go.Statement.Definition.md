@@ -33,7 +33,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>`true` if the thing is a `Statement.Definition`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L225){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L225) |
 
 ---
 
@@ -51,7 +51,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>The new [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L292){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L292) |
 
 ---
 
@@ -67,7 +67,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>The Statement Definition</li></ul>          |
 | **Notes**                                   | <ul><li>* The function will be passed the `context` table as the first parameter,</li><li>  and any other parameters passed to the statement follow.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L243){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L243) |
 
 ---
 
@@ -83,7 +83,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Returns**                                 | <ul><li>The `Statement.Definition`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L262){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L262) |
 
 ---
 

@@ -34,7 +34,7 @@ UI Group.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L12){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L12) |
 
 ---
 
@@ -52,7 +52,7 @@ UI Group.
 | **Returns**                                 | <ul><li>A new `Popover` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L25){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L25) |
 
 ---
 
@@ -70,7 +70,7 @@ UI Group.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L53) |
 
 ---
 
@@ -86,7 +86,7 @@ UI Group.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L36){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L36) |
 
 ---
 

@@ -33,7 +33,7 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Message.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L9){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Message.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L9) |
 
 ---
 
@@ -51,7 +51,7 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>A new message.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Message.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L22){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Message.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L22) |
 
 ---
 
@@ -69,7 +69,7 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Message.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L36){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Message.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L36) |
 
 ---
 

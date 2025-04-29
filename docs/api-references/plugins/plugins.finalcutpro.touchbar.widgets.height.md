@@ -28,7 +28,7 @@ Final Cut Pro Browser Height Control Widget for Touch Bar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/height.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/height.lua#L111){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/height.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/height.lua#L111) |
 
 ---
 
@@ -44,7 +44,7 @@ Final Cut Pro Browser Height Control Widget for Touch Bar.
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/height.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/height.lua#L16){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/height.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/height.lua#L16) |
 
 ---
 

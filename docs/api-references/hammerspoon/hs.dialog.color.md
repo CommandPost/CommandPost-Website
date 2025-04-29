@@ -34,7 +34,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>The current alpha value as a number.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.alpha(0.5)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L257){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L257) |
 
 ---
 
@@ -50,7 +50,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>The last callbackFn or `nil` so you can save it and re-attach it if something needs to temporarily take the callbacks.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.callback(function(a,b) print("COLOR CALLBACK:\nSelected Color: " .. hs.inspect(a) .. "\nPanel Closed: " .. hs.inspect(b)) end)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 79](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L79){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 79](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L79) |
 
 ---
 
@@ -66,7 +66,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>A table of the currently selected color in the form of `hs.drawing.color`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.color(hs.drawing.color.blue)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 164](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L164){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 164](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L164) |
 
 ---
 
@@ -82,7 +82,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>`true` if continuous is enabled otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.continuous(true)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 116](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L116){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 116](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L116) |
 
 ---
 
@@ -98,7 +98,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.hide()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 305](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L305){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 305](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L305) |
 
 ---
 
@@ -114,7 +114,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>The current mode as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.mode("RGB")`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L189){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L189) |
 
 ---
 
@@ -130,7 +130,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.show()`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L285){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 285](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L285) |
 
 ---
 
@@ -146,7 +146,7 @@ A panel that allows users to select a color.
 | **Returns**                                 | <ul><li>`true` if the opacity slider is displayed otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>     `hs.dialog.color.showsAlpha(true)`</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dialog/libdialog.m line 140](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L140){target="_blank"} |
+| **Source**                                  | [extensions/dialog/libdialog.m line 140](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L140) |
 
 ---
 

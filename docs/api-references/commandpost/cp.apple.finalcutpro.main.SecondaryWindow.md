@@ -45,7 +45,7 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L24){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L24) |
 
 ---
 
@@ -63,7 +63,7 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>A new `SecondaryWindow` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L41){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L41) |
 
 ---
 
@@ -78,7 +78,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI element that will contain the `Browser` if it's on the Secondary Window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L114){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L114) |
 
 ---
 
@@ -91,7 +91,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current position (x, y, width, height) of the window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L88){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L88) |
 
 ---
 
@@ -104,7 +104,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.window` instance for the window, or `nil` if it can't be found.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L67){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L67) |
 
 ---
 
@@ -117,7 +117,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is full-screen.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L81) |
 
 ---
 
@@ -130,7 +130,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is visible.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L74){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L74) |
 
 ---
 
@@ -143,7 +143,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The root UI element on the window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L95){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L95) |
 
 ---
 
@@ -156,7 +156,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI element that will contain the `Timeline` if it's on the Secondary Window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L121){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L121) |
 
 ---
 
@@ -169,7 +169,7 @@ Secondary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI element that will contain the `Viewer` if it's on the Secondary Window.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L107){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L107) |
 
 ---
 
@@ -187,7 +187,7 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L142){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L142) |
 
 ---
 
@@ -203,7 +203,7 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>The `SecondaryWindow` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L173){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L173) |
 
 ---
 
@@ -219,7 +219,7 @@ Secondary Window Module.
 | **Returns**                                 | <ul><li>The `SecondaryWindow` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L155){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/SecondaryWindow.lua#L155) |
 
 ---
 

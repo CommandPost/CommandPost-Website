@@ -30,7 +30,7 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>The contents of the plist as a Lua table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/plist/libplist.m line 4](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L4){target="_blank"} |
+| **Source**                                  | [extensions/plist/libplist.m line 4](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L4) |
 
 ---
 
@@ -46,7 +46,7 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>The contents of the property list as a Lua table or `nil` if an error occurs</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/plist/libplist.m line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L23){target="_blank"} |
+| **Source**                                  | [extensions/plist/libplist.m line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L23) |
 
 ---
 
@@ -62,7 +62,7 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>A boolean, true if the plist was written successfully, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>Only simple types can be converted to plist items:</li><li> Strings</li><li> Numbers</li><li> Booleans</li><li> Tables</li><li>You should be careful when reading a plist, modifying and writing it - Hammerspoon may not be able to preserve all of the datatypes via Lua</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/plist/libplist.m line 100](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L100){target="_blank"} |
+| **Source**                                  | [extensions/plist/libplist.m line 100](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L100) |
 
 ---
 
@@ -78,7 +78,7 @@ Read and write Property List files
 | **Returns**                                 | <ul><li>A string representing the data as a plist or nil if there was a problem with the date or serialization.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/plist/libplist.m line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L62){target="_blank"} |
+| **Source**                                  | [extensions/plist/libplist.m line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/plist/libplist.m#L62) |
 
 ---
 

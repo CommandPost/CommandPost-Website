@@ -27,7 +27,7 @@ Color Module.
 | **Returns**                                 | <ul><li>The new `Color`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/color/Color.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/color/Color.lua#L20){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/color/Color.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/color/Color.lua#L20) |
 
 ---
 

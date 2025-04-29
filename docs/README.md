@@ -4,17 +4,19 @@
 
 **The Swiss Army Knife for Post Production Professionals**
 
-CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md){target="_blank"} macOS application that makes your post production and editing life faster and more fun.
+CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life faster and more fun.
 
-It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} to make it even better and more enjoyable to edit with.
+It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) to make it even better and more enjoyable to edit with.
 
 It has **extensive** control surface support - allowing you to control your Mac anyway you want. It's also fully **native on Apple Silicon**.
 
-It's been downloaded over **[234 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}**, and there are over **[2.9 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"}** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
+It's been downloaded over **[256 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost)**, and there are over **[3 thousands members](https://www.facebook.com/groups/commandpost/members)** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/).
+
+We also have a growing [Discord community](https://ltnt.tv/discord).
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
-All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost.
+All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
 
 ![](../static/commandpost-hero.png)
 
@@ -22,23 +24,23 @@ All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final 
 
 ### Built for Professionals
 
-We developed new CommandPost features especially for **[Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/){target="_blank"}**, edited by [David Tillman](https://twitter.com/davidtillman){target="_blank"}.
+We developed new CommandPost features especially for **[Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/)**, edited by [David Tillman](https://twitter.com/davidtillman).
 
-We've also built custom tools for Denmark’s second largest production company, **[Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake){target="_blank"}**.
+We've also built custom tools for Denmark’s second largest production company, **[Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake)**.
 
 > _“ Titles to Keywords is a huge timesaver when editing complex scenes. Couldn’t live without it anymore. And directors love that every delivery of any line from any take is just one click away! ”_<br />
-> **[Knut Hake](http://www.knuthake.de){target="_blank"}** <font size="2">- _Editor on Netflix's Blood Red Sky_</font>
+> **[Knut Hake](http://www.knuthake.de)** <font size="2">- _Editor on Netflix's Blood Red Sky_</font>
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
 
-[![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw){target="_blank"}
+[![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw)
 
 ---
 
 ### Where Technology Meets Creativity
 
 > _“ CommandPost and FCP are so intertwined on my day to day that I see them as one app! ”_<br />
-> **[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}** <font size="2">- _Editor on Netflix's Turn of the Tide_</font>
+> **[Marcos Castiel BFE](http://www.marcoscastiel.com/)** <font size="2">- _Editor on Netflix's Turn of the Tide_</font>
 
 CommandPost has been **built by filmmakers, for filmmakers**.
 
@@ -51,14 +53,14 @@ However, it's also used by developers, scientists and macOS power users all over
 ### Experience Unparalleled Control
 
 > _“ Command Post started as a FCPX utility but it goes further than that. You can use it to map almost any function to supported hardware devices to work with any app like a BMD Speed Editor and Avid Media Composer! ”_<br />
-> **[Marc Bach](https://www.interfacelab.tv){target="_blank"}** <font size="2">- _Editor & Colourist_</font>
+> **[Marc Bach](https://www.interfacelab.tv)** <font size="2">- _Editor & Colourist_</font>
 
 CommandPost has deep support for a wide range of **control surfaces**.
 
 It even brings back **[Razer](/control-surfaces/razer/)** keypad support to the Mac!
 
 > _“ Chris's support is the best you will find anywhere on the planet. He was proactive and able to implement features for me on the spot. 5 STAR product 5 STAR support. ControllerMate is what I used to use. CommandPost is faster and easier. ”_<br />
-> **[Ross Batten](https://www.roscoaudio.com.au){target="_blank"}** <font size="2">- _Senior Sound Designer (ProTools)_</font>
+> **[Ross Batten](https://www.roscoaudio.com.au)** <font size="2">- _Senior Sound Designer (ProTools)_</font>
 
 You can basically control **ANYTHING** in Final Cut Pro with a huge range of control surfaces.
 
@@ -71,7 +73,7 @@ You can basically control **ANYTHING** in Final Cut Pro with a huge range of con
 ### Powerful Search Console Redefines Navigation
 
 > _“ Search Console is like Spotlight on steroids. It can quickly find and execute any obscure command, NLE and OS-wide, fire up keyboard makros (scripts), and especially, find and place Effects and Effect Templates, directly onto selected clips in my FCP timeline. It constantly saves me clicks. ”_<br />
-> **[Florian Duffe](https://florian-duffe.de/en/flow-en/){target="_blank"}** <font size="2">- _Editor_</font>
+> **[Florian Duffe](https://florian-duffe.de/en/flow-en/)** <font size="2">- _Editor_</font>
 
 CommandPost has an insanely powerful **Search Console** that allows you to trigger all of CommandPost's actions.
 
@@ -84,7 +86,7 @@ Like Spotlight, this is accessible system-wide, and is also used to quickly assi
 ### Revolutionise Your Workflow
 
 > _“ CommandPost is so many things for so many people. For me it is a Final Cut Pro automation system that unlocks hidden features and uniquely supports advanced workflows. CommandPost’s secret weapon? Deep connections with the postproduction community which mean that it constantly improves as the needs of editors and post professionals evolve. ”_<br />
-> **[Alex ‘4D’ Gollner](https://alex4d.com){target="_blank"}** <font size="2">- _Motion Template Creator_</font>
+> **[Alex ‘4D’ Gollner](https://alex4d.com)** <font size="2">- _Motion Template Creator_</font>
 
 CommandPost allows you to do things in Final Cut Pro that are otherwise not possible, such as **Highlight Browser Playhead** and **Scrolling Timeline**.
 
@@ -97,7 +99,7 @@ There's literally hundreds of actions in CommandPost for controlling Final Cut P
 ### Say Goodbye to Complexity
 
 > _“ Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters. ”_<br />
-> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
+> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/)** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
 
 CommandPost can do complex things with a single keystroke, such as exporting your Final Cut Pro **Timeline Index and Browser Contents to a CSV**.
 
@@ -108,13 +110,13 @@ CommandPost can do complex things with a single keystroke, such as exporting you
 ### Diversify Your Creativity
 
 > _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable! ”_<br />
-> **[Oli Frost](https://olifro.st/){target="_blank"}** <font size="2">- _Editor_</font>
+> **[Oli Frost](https://olifro.st/)** <font size="2">- _Editor_</font>
 
 Whilst CommandPost was originally designed with Final Cut Pro in mind, it can actually control **ANY** Mac application.
 
 It's also always growing and expanding, for example it can scan After Effects so that you can trigger any effect from a control surface.
 
-The Search Console will also list all your [Keyboard Maestro](https://www.keyboardmaestro.com/){target="_blank"} macros, macOS Shortcuts and even AppleScript's!
+The Search Console will also list all your [Keyboard Maestro](https://www.keyboardmaestro.com/) macros, macOS Shortcuts and even AppleScript's!
 
 ![](../static/homepage-after-effects.png)
 
@@ -123,9 +125,9 @@ The Search Console will also list all your [Keyboard Maestro](https://www.keyboa
 ### Multi-language Support
 
 > _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
-> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
+> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/)** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
 
-CommandPost has been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy){target="_blank"}.
+CommandPost has been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
 ![](../static/homepage-japanese.png)
 
@@ -134,13 +136,13 @@ CommandPost has been translated into Arabic, Bengali, Catalan, Chinese (Simplifi
 ### Powered by Lua
 
 > _“ CommandPost is the first thing you should install If you like to tinker. This genius app extends Final Cut Pro in all kinds of ways, enabling advanced workflows, automation, and even integration with external hardware such as MIDI controllers. Recommended. ”_<br />
-> **[Iain Anderson](https://iain-anderson.com){target="_blank"}** <font size="2">- _Author of Final Cut Pro Efficient Editing_</font>
+> **[Iain Anderson](https://iain-anderson.com)** <font size="2">- _Author of Final Cut Pro Efficient Editing_</font>
 
-Powered by [Lua](https://dev.commandpost.io/lua/overview/){target="_blank"} (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/){target="_blank"}, [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html){target="_blank"} and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792){target="_blank"}), it's insanely customisable and powerful.
+Powered by [Lua](https://dev.commandpost.io/lua/overview/) (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/), [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html) and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792)), it's insanely customisable and powerful.
 
 Every part of CommandPost can be easily modified and enhanced in a simple text editor. All the interfaces are built in plain HTML.
 
-It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org){target="_blank"} Lua scripts.
+It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org) Lua scripts.
 
 ![](../static/homepage-lua.png)
 

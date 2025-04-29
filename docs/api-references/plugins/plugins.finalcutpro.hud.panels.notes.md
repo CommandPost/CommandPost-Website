@@ -27,7 +27,7 @@ Notes Panel for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/notes/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/notes/init.lua#L64){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/notes/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/notes/init.lua#L64) |
 
 ---
 

@@ -43,7 +43,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `button`   - A `cp.ui.Button`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L441){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L441) |
 
 ---
 
@@ -59,7 +59,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.CheckBox` which contains the boolean value for the row.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 490](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L490){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 490](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L490) |
 
 ---
 
@@ -75,7 +75,7 @@ other properties.
 | **Returns**                                 | <ul><li>boolean</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>local o = {</li><li>    propertiesUI = ...,</li><li>}</li><li>InspectorProperty.hasProperties(o, o.propertiesUI) {</li><li>    propOne     = InspectorProperty.textField "FFPropOne",</li><li>    sectionOne  = InspectorProperty.section "FFSectionOne" {</li><li>        sliderOne   = InspectorProperty.slider "FFSliderOne",</li><li>    },</li><li>}</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L38){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L38) |
 
 ---
 
@@ -91,7 +91,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.MenuButton` which contains the text value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 421](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L421){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 421](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L421) |
 
 ---
 
@@ -107,7 +107,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.TextField` which contains the number value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L339){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L339) |
 
 ---
 
@@ -123,7 +123,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.PopUpButton` which contains the text value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 461](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L461){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 461](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L461) |
 
 ---
 
@@ -139,7 +139,7 @@ other properties.
 | **Returns**                                 | <ul><li>A function which will create the section row when called.</li></ul>          |
 | **Notes**                                   | <ul><li>This does *not* return an actual `cp.prop`. Rather, it returns a 'factory' function that will help configure the sub-properties of of the section. This can be used as follows:</li><li></li><li>```lua</li><li>local o = {}</li><li>prop.bind(o) {</li><li>  sectionOne         = InspectorProperty.section "FFHeaderOneKey" {     -- has sub-properties inside the `{}`</li><li>    subRowOne       = InspectorProperty.textField "FFSubRowOneKey",</li><li>    subRowTwo       = InspectorProperty.slider "FFSubRowTwoKey",</li><li>  },</li><li>  sectionTwo         = InspectorProperty.section "FFHeaderTwoKey" {}    -- no sub-properties, still needs `{}`</li><li>}</li><li></li><li>-- access subRowOne</li><li>local value = o:sectionOne():subRowOne()</li><li>```</li><li></li><li>The `o.sectionOne` property will be a `cp.prop` with the following built-in additional properties:</li><li>  ** `enabled`     - a `cp.ui.CheckBox` which reports if the section row is enabled.</li><li>  ** `toggle`      - a `cp.ui.Button` which will toggle the show/hide button (if present)</li><li>  ** `reset`       - a `cp.ui.Button` which will reset the sub-property values, if present in the UI.</li><li>  ** `expanded`    - a `cp.prop` which reports if the section is currently expanded.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L99){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L99) |
 
 ---
 
@@ -155,7 +155,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has no additional properties, but it does allow a `prepareFn` to be provided, which will be called after the `PropertyRow` is created, and passed the new `PropertyRow` as the first argument.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L268){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L268) |
 
 ---
 
@@ -171,7 +171,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.TextField` which contains the value of the slider.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 401](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L401){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 401](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L401) |
 
 ---
 
@@ -187,7 +187,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.StaticText` which contains the text value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L359){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L359) |
 
 ---
 
@@ -203,7 +203,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has one additional property:</li><li>  ** `value`   - A `cp.ui.TextField` which contains the text value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L319){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L319) |
 
 ---
 
@@ -219,7 +219,7 @@ other properties.
 | **Returns**                                 | <ul><li>The `cp.prop` that returns the `PropertyRow`.</li></ul>          |
 | **Notes**                                   | <ul><li>It has two additional properties:</li><li>  ** `x`   - A `cp.ui.TextField` containing the 'X' value.</li><li>  ** `y`   - A `cp.ui.TextField` containing the `Y` value.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L379){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/InspectorProperty.lua#L379) |
 
 ---
 

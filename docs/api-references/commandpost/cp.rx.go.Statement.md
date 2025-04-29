@@ -110,7 +110,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>A new `Observer`, or the previous factory function if a new one was provided.</li></ul>          |
 | **Notes**                                   | <ul><li>The factory function has no arguments provided and must return a new `Observer` instance.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 384](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L384){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 384](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L384) |
 
 ---
 
@@ -126,7 +126,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>`true` if the thing is a `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L364){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L364) |
 
 ---
 
@@ -142,7 +142,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>It converts the following:</li><li></li><li>`Observable`          - Returned unchanged.</li><li>`cp.rx.go.Statement`  - Returns the result of the `toObservable()` method. Note: this will cancel any scheduled executions for the Statement.</li><li>`cp.prop`             - Returns the `cp.prop:toObservable()` value.</li><li>`function`            - Executes the function, passing in the `params` as a list of values, returning the results converted to an `Observable`.</li><li>Other values          - Returned via `Observable.of(thing)`.</li><li></li><li>Note that with `functions`, the function is not executed immediately, but it will be passed the params as</li><li>a list when the resulting `Observable` is subscribed to. For example:</li><li></li><li>```lua</li><li>-- set up the function</li><li>multiply = toObservable(function(one, two) return onetwo end, {2, 3})</li><li>-- nothing has happened yet</li><li>multiply:subscribe(function(result) print(result) end)</li><li>-- now the function has been executed</li><li>```</li><li>This results in printing `6`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L99){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L99) |
 
 ---
 
@@ -158,7 +158,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>A table list of the things, converted to `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li></li><li>For example:</li><li>```lua</li><li>result = toObservables({1, 2, 3})</li><li>for _,o in ipairs(results) do</li><li>    o:subscribe(function(x) print x end)</li><li>end</li><li></li><li>If any of the things are `function`s, then the `params` table is unpacked to a list</li><li>and passed into the function when it is called. For example:</li><li></li><li>```lua</li><li>toObservables({function(x) return x2 end}, {3})</li><li>    :subscribe(function(x) print end) -- outputs 6</li><li>```</li><li></li><li>Any type supported by [toObservable](#toObservable) can be included in the `things` array.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L158){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L158) |
 
 ---
 
@@ -176,7 +176,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>A [Statement.Definition](cp.rx.go.Statement.Definition.md).</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 351](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L351){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 351](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L351) |
 
 ---
 
@@ -194,7 +194,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 657](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L657){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 657](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L657) |
 
 ---
 
@@ -210,7 +210,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The same `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>The function will receive the error signal and the returned value will be pass onwards.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 501](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L501){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 501](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L501) |
 
 ---
 
@@ -226,7 +226,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The same `Statement` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 468](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L468){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 468](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L468) |
 
 ---
 
@@ -242,7 +242,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The same `Statement` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The original signal will be passed on without modification. This will trigger after any [Catch](#Catch) handler, so will be affected by the results of that.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L483){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L483) |
 
 ---
 
@@ -258,7 +258,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The full Statement name.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 422](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L422){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 422](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L422) |
 
 ---
 
@@ -274,7 +274,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The `Statement` if a new lable is specified, otherwise the current label value.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 452](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L452){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 452](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L452) |
 
 ---
 
@@ -290,7 +290,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The Statement name.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L405){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L405) |
 
 ---
 
@@ -306,7 +306,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 631](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L631){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 631](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L631) |
 
 ---
 
@@ -322,7 +322,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The same `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 531](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L531){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 531](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L531) |
 
 ---
 
@@ -338,7 +338,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The same `Statement`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L518){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L518) |
 
 ---
 
@@ -354,7 +354,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The same `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>This can be called multiple times before the statement is executed, and the most recent configuration will be used at that time.</li><li>The `next` value may be either a string to send as the error, or a `resolvable` value to pass on instead of failing. If nothing is provided, a default error message is output.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L545){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L545) |
 
 ---
 
@@ -370,7 +370,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 | **Returns**                                 | <ul><li>The `Observable`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 569](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L569){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Statement.lua line 569](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L569) |
 
 ---
 

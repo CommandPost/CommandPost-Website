@@ -31,7 +31,7 @@ Keyword Text Field Module.
 | **Returns**                                 | <ul><li>The new `KeywordField`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordField.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordField.lua#L17){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordField.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordField.lua#L17) |
 
 ---
 
@@ -49,7 +49,7 @@ Keyword Text Field Module.
 | **Returns**                                 | <ul><li>`true` if the keyword was not present and added, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordField.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordField.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordField.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordField.lua#L53) |
 
 ---
 
@@ -65,7 +65,7 @@ Keyword Text Field Module.
 | **Returns**                                 | <ul><li>`true` if the keyword was present and removed, otherwise false.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordField.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordField.lua#L77){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordField.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordField.lua#L77) |
 
 ---
 

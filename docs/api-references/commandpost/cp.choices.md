@@ -36,7 +36,7 @@ Choices Module.
 | **Returns**                                 | <ul><li>The new `choices` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L105){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L105) |
 
 ---
 
@@ -54,7 +54,7 @@ Choices Module.
 | **Returns**                                 | <ul><li>The array of choices.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L157){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L157) |
 
 ---
 
@@ -70,7 +70,7 @@ Choices Module.
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | <ul><li>Additional settings can be set using the returned builder instance. E.g.:</li><li></li><li>```</li><li>choices:add("Do Something")</li><li>	:subText("Cool Actions")</li><li>		:params({</li><li>		one = "foo",</li><li>		two = "bar",</li><li>	})</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/choices/init.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L127){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L127) |
 
 ---
 

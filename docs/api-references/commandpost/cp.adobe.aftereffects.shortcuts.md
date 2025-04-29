@@ -26,7 +26,7 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing key translations.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/shortcuts.lua line 766](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/shortcuts.lua#L766){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/shortcuts.lua line 766](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/shortcuts.lua#L766) |
 
 ---
 
@@ -39,7 +39,7 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing label translations.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/shortcuts.lua line 6](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/shortcuts.lua#L6){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/shortcuts.lua line 6](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/shortcuts.lua#L6) |
 
 ---
 
@@ -52,7 +52,7 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing modifier translations.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/shortcuts.lua line 973](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/shortcuts.lua#L973){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/shortcuts.lua line 973](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/shortcuts.lua#L973) |
 
 ---
 

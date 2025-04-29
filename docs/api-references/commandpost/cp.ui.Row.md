@@ -47,7 +47,7 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The `Row.Builder`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L17){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L17) |
 
 ---
 
@@ -65,7 +65,7 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L38){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L38) |
 
 ---
 
@@ -80,7 +80,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `axuielement` children of the row.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L54){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L54) |
 
 ---
 
@@ -93,7 +93,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the `Row` is disclosing other `Rows`.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L68){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L68) |
 
 ---
 
@@ -106,7 +106,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The depth of disclosure. `0` is the top level.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L75){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L75) |
 
 ---
 
@@ -119,7 +119,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this row in the overall container, with `0` being the first item.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L123){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L123) |
 
 ---
 
@@ -132,7 +132,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the row is currently selected. May be set.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L116){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L116) |
 
 ---
 
@@ -150,7 +150,7 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>A `cp.ui.Row` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L82){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L82) |
 
 ---
 
@@ -166,7 +166,7 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>The `table` of Rows, or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L97){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L97) |
 
 ---
 
@@ -182,7 +182,7 @@ Represents an `AXRow` `axuielement`.
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/Row.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L27){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/Row.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Row.lua#L27) |
 
 ---
 

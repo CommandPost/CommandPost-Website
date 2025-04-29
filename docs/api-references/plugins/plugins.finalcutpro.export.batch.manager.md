@@ -54,7 +54,7 @@ Manager for the Batch Export Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of Preferences Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L39){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L39) |
 
 ---
 
@@ -67,7 +67,7 @@ Manager for the Batch Export Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of Preferences Window                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L44){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L44) |
 
 ---
 
@@ -80,7 +80,7 @@ Manager for the Batch Export Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last tab saved in settings.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L64){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L64) |
 
 ---
 
@@ -93,7 +93,7 @@ Manager for the Batch Export Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L59){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L59) |
 
 ---
 
@@ -106,7 +106,7 @@ Manager for the Batch Export Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The WebView Label                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L34){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L34) |
 
 ---
 
@@ -121,7 +121,7 @@ Manager for the Batch Export Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing handlers.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L54){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L54) |
 
 ---
 
@@ -134,7 +134,7 @@ Manager for the Batch Export Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing panels.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L49){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L49) |
 
 ---
 
@@ -152,7 +152,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L95){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L95) |
 
 ---
 
@@ -168,7 +168,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `closeFn`       - A callback function that's triggered when the Preferences window is closed.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 525](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L525){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 525](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L525) |
 
 ---
 
@@ -184,7 +184,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 451](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L451){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 451](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L451) |
 
 ---
 
@@ -200,7 +200,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L109){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L109) |
 
 ---
 
@@ -216,7 +216,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L82){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L82) |
 
 ---
 
@@ -232,7 +232,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>A `hs.webview`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L69){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L69) |
 
 ---
 
@@ -248,7 +248,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 395](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L395){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 395](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L395) |
 
 ---
 
@@ -264,7 +264,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 229](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L229){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 229](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L229) |
 
 ---
 
@@ -280,7 +280,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 431](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L431){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 431](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L431) |
 
 ---
 
@@ -296,7 +296,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>The maximum panel height.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L244){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L244) |
 
 ---
 
@@ -312,7 +312,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 285](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L285){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 285](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L285) |
 
 ---
 
@@ -328,7 +328,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 415](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L415){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 415](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L415) |
 
 ---
 
@@ -344,7 +344,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 464](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L464){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 464](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L464) |
 
 ---
 
@@ -360,7 +360,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L122){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L122) |
 
 ---
 
@@ -376,7 +376,7 @@ Manager for the Batch Export Window.
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 369](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L369){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/manager/init.lua line 369](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/manager/init.lua#L369) |
 
 ---
 

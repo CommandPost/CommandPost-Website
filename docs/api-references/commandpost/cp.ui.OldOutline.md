@@ -43,7 +43,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L89){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L89) |
 
 ---
 
@@ -61,7 +61,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The new `Outline` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L102){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L102) |
 
 ---
 
@@ -79,7 +79,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L118){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L118) |
 
 ---
 
@@ -95,7 +95,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L162){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L162) |
 
 ---
 
@@ -111,7 +111,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A Table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L131){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L131) |
 
 ---
 
@@ -127,7 +127,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The [Column](cp.ui.OldColumn.md) or an error if a problem occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Subclasses which want to provide a custom [Column](cp.ui.OldColumn.md) implementation should override this method.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L144){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L144) |
 
 ---
 
@@ -143,7 +143,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The [Row](cp.ui.OldRow.md) or an error if a problem occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Subclasses which want to provide a custom [Row](cp.ui.OldRow.md) implementation should override this method.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L218){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L218) |
 
 ---
 
@@ -159,7 +159,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A `table` with the same number of elements, containing the matching [Column](cp.ui.OldColumn.md) instances.</li></ul>          |
 | **Notes**                                   | <ul><li>If provided items in the table are not valid columns in this table, then `nil` will be put in the matching index.</li><li>Note that this will break the standard `#`/looping behaviour for tables at that point.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L188){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L188) |
 
 ---
 
@@ -175,7 +175,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>The [Row](cp.ui.OldRow.md), or `nil` if the `rowUI` is not in this `Outline`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L248){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L248) |
 
 ---
 
@@ -191,7 +191,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A `table` with the same number of elements, containing the matching [Row](cp.ui.OldRow.md) instances.</li></ul>          |
 | **Notes**                                   | <ul><li>If provided items in the table are not valid rows in this table, then `nil` will be put in the matching index.</li><li>Note that this will break the standard `#`/looping behaviour for tables at that point.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 261](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L261){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 261](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L261) |
 
 ---
 
@@ -207,7 +207,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A `table` of [Row](cp.ui.OldRow.md)s, or `nil` if no UI is currently available.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 278](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L278){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 278](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L278) |
 
 ---
 
@@ -223,7 +223,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table containing the list of [Row](cp.ui.OldRow.md)s in the `Outline`, or `nil` if the `Outline` is not presently available.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L235){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L235) |
 
 ---
 
@@ -239,7 +239,7 @@ Represents an `AXOutline` `axuielement`.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L205){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L205) |
 
 ---
 

@@ -33,7 +33,7 @@ Replace Alert
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua#L16){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua#L16) |
 
 ---
 
@@ -51,7 +51,7 @@ Replace Alert
 | **Returns**                                 | <ul><li>A new ReplaceAlert object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua#L32){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua#L32) |
 
 ---
 
@@ -69,7 +69,7 @@ Replace Alert
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ReplaceAlert` object for method chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua#L52){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/ReplaceAlert.lua#L52) |
 
 ---
 

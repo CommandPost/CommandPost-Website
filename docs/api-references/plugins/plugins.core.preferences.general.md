@@ -36,7 +36,7 @@ General Preferences Panel.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of registered Drag & Drop File Actions.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L79){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L79) |
 
 ---
 
@@ -49,7 +49,7 @@ General Preferences Panel.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of registered Drag & Drop Text Actions.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L56){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L56) |
 
 ---
 
@@ -62,7 +62,7 @@ General Preferences Panel.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Open Error Log on Dock Icon Click.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L51){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L51) |
 
 ---
 
@@ -80,7 +80,7 @@ General Preferences Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L84){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L84) |
 
 ---
 
@@ -96,7 +96,7 @@ General Preferences Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L61){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L61) |
 
 ---
 
@@ -111,7 +111,7 @@ General Preferences Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Controls if CommandPost will automatically upload crash data to the developer.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L26){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L26) |
 
 ---
 
@@ -124,7 +124,7 @@ General Preferences Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Controls whether or not CommandPost should show a dock icon.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L34){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L34) |
 
 ---
 
@@ -137,7 +137,7 @@ General Preferences Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Which Drag & Drop File Action is enabled?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L41){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L41) |
 
 ---
 
@@ -150,7 +150,7 @@ General Preferences Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Which Drag & Drop Text Action is enabled?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/preferences/general.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L46){target="_blank"} |
+| **Source**                                  | [src/plugins/core/preferences/general.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/general.lua#L46) |
 
 ---
 

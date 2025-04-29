@@ -38,7 +38,7 @@ Media Import
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L35){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L35) |
 
 ---
 
@@ -56,7 +56,7 @@ Media Import
 | **Returns**                                 | <ul><li>A new MediaImport object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L53){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L53) |
 
 ---
 
@@ -71,7 +71,7 @@ Media Import
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Import All button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L74){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L74) |
 
 ---
 
@@ -84,7 +84,7 @@ Media Import
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Stop Import" button.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L81){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L81) |
 
 ---
 
@@ -102,7 +102,7 @@ Media Import
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.import.MediaImport` object for method chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L110){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L110) |
 
 ---
 
@@ -118,7 +118,7 @@ Media Import
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.import.MediaImport` object for method chaining.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L90){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/import/MediaImport.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/import/MediaImport.lua#L90) |
 
 ---
 

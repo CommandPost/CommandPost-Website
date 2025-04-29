@@ -30,7 +30,7 @@ Combo Box Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ComboBox.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ComboBox.lua#L18){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ComboBox.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ComboBox.lua#L18) |
 
 ---
 
@@ -48,7 +48,7 @@ Combo Box Module.
 | **Returns**                                 | <ul><li>The new `ComboBox`.</li></ul>          |
 | **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li>For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = ComboBox(parent, function() return ... end, tonumber, tostring)</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/ui/ComboBox.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ComboBox.lua#L57){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/ui/ComboBox.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ComboBox.lua#L57) |
 
 ---
 

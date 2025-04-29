@@ -27,7 +27,7 @@ A `Statement` that will complete after the only the last result resolves.
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>Last(someObservable)</li><li>```</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Last.lua line 8](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Last.lua#L8){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Last.lua line 8](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Last.lua#L8) |
 
 ---
 

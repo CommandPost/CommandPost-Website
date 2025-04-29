@@ -35,7 +35,7 @@ https://github.com/kikito/inspect.lua
 | **Returns**                                 | <ul><li>A string containing the human readable version of `variable`</li></ul>          |
 | **Notes**                                   | <ul><li>For convenience, you can call this function as `hs.inspect(variable)`</li><li>To view the output in Hammerspoon's Console, use `print(hs.inspect(variable))`</li><li>For more information on the options, and some examples, see [the upstream docs](https://github.com/kikito/inspect.lua)</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/inspect/inspect.lua line 307](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/inspect/inspect.lua#L307){target="_blank"} |
+| **Source**                                  | [extensions/inspect/inspect.lua line 307](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/inspect/inspect.lua#L307) |
 
 ---
 

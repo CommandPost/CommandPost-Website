@@ -27,7 +27,7 @@ An synchronous/asynchronous test library for Lua.
 | **Returns**                                 | <ul><li>A boolean.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/spec/Handled.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handled.lua#L9){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/spec/Handled.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handled.lua#L9) |
 
 ---
 

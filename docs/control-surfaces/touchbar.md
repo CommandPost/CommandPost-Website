@@ -57,7 +57,7 @@ For example, the **Color Board (Grouped)** widget looks like this:
 
 This widget allows you to control Final Cut Pro's Color Board using your fingers, which is pretty awesome.
 
-If you don't have a physical Touch Bar, you can also use [Duet](https://www.duetdisplay.com){target="_blank"} to view the Color Board Widget on your iPad.
+If you don't have a physical Touch Bar, you can also use [Duet](https://www.duetdisplay.com) to view the Color Board Widget on your iPad.
 
 At the bottom of the Touch Bar Preferences screen there's an option to **Reset All Touch Bar Items** which will set all the Touch Bar Items to None. There's also a **Reset Application** option and a **Reset Bank** option that reset only the currently selected Application or Bank repsectively.
 

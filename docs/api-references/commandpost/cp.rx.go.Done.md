@@ -33,7 +33,7 @@ Done()
 | **Returns**                                 | <ul><li>The `Statement` which will complete immediately.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/rx/go/Done.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Done.lua#L14){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/rx/go/Done.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Done.lua#L14) |
 
 ---
 

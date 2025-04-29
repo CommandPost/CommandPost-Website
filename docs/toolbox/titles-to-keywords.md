@@ -2,7 +2,7 @@
 
 CommandPost has as insanely powerful Toolbox called **Titles to Keywords**.
 
-You can read about how it's used in professional feature film workflows [here](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro){target="_blank"}.
+You can read about how it's used in professional feature film workflows [here](https://fcp.co/final-cut-pro/2605-a-new-script-focused-feature-film-workflow-for-final-cut-pro).
 
 ---
 
@@ -19,7 +19,7 @@ When you drag a Final Cut Pro Event to this Toolbox (which must only contain a s
 
 This will happen automatically if you only have one library open, otherwise you'll be prompted to select a library to import it into.
 
-This Toolbox was thrown together for [Knut Hake](http://www.knuthake.de/){target="_blank"} & [Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}.
+This Toolbox was thrown together for [Knut Hake](http://www.knuthake.de/) & [Sam Pluemacher](https://www.imdb.com/name/nm10223233/).
 
 Options include:
 

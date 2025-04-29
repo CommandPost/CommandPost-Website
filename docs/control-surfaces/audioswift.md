@@ -6,6 +6,6 @@ It has several modes, so you can use it for sliders, buttons and two axis contro
 
 You can setup AudioSwift in the MIDI Preferences Panel using the 'Learn' feature.
 
-You can learn more about AudioSwift [here](https://audioswiftapp.com/fcp/){target="_blank"}.
+You can learn more about AudioSwift [here](https://audioswiftapp.com/fcp/).
 
 ![](../static/controlsurface-audioswift.png)

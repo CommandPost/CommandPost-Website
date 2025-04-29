@@ -31,7 +31,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Indicates if the widget is active.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 678](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L678){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 678](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L678) |
 
 ---
 
@@ -44,7 +44,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Indicates if any widgests have been created.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 673](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L673){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 673](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L673) |
 
 ---
 
@@ -57,7 +57,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | How often the Touch Bar widgets should be refreshed in seconds                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L24){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L24) |
 
 ---
 
@@ -75,7 +75,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 503](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L503){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 503](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L503) |
 
 ---
 
@@ -91,7 +91,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L179){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L179) |
 
 ---
 
@@ -107,7 +107,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L205){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/colorboard.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/colorboard.lua#L205) |
 
 ---
 

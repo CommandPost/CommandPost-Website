@@ -11,17 +11,17 @@ Before I explain the workflow behind **Shot Data**, let me explain the concept o
 > *Picture lock is a stage in editing a film or editing a television production. It is the stage prior to online editing when all changes to the film or television program cut have been done and approved. It is then sent to subsequent stages in the process, such as online editing and audio mixing. Any last-minute changes can force portions of subsequent work to be redone.*
 >
 
-*Source: [Wikipedia](https://en.wikipedia.org/wiki/Picture_lock){target="_blank"}*
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Picture_lock)*
 
 In an analogous fashion, Sound Lock is a stage in a film or editing a television production where a sequence is edited before the production starts principal photography. In other words, before the project is being shot, in the pre-production or development stage. You could call it “Pre-Editing” as well. The filmmaker would use a series of concept images to construct a timeline.
 
 ### What is Sound Locking?
 
-Now, you might ask, where does the Sound component come in? In projects like Music Video, music follows higher precedence over visuals. Not that the visuals are not important, but in 99% of all Music Videos, the music will always be composed and recorded first. Thus, with that piece of the Music, it becomes the “Locked” component. It will never change. The filmmaker now uses that music track as an anchor point to construct the matching visual or rather envisioned visuals against that music right within the NLE. These envisioned visuals could come as a set of reference images, [hand-drawn sketches](https://wonderunit.com/storyboarder/){target="_blank"} or even 3D generated shots. It mostly revolves around the filmmaker’s workflow.
+Now, you might ask, where does the Sound component come in? In projects like Music Video, music follows higher precedence over visuals. Not that the visuals are not important, but in 99% of all Music Videos, the music will always be composed and recorded first. Thus, with that piece of the Music, it becomes the “Locked” component. It will never change. The filmmaker now uses that music track as an anchor point to construct the matching visual or rather envisioned visuals against that music right within the NLE. These envisioned visuals could come as a set of reference images, [hand-drawn sketches](https://wonderunit.com/storyboarder/) or even 3D generated shots. It mostly revolves around the filmmaker’s workflow.
 
 Sound Locking is not an entirely a new concept. Filmmakers, Music Video Directors and the animation industry have utilised this technique for a long time. The biggest hurdle from the above mentioned workflow is, there is no path to bring shot and scene information out from NLE to on-set usage meaningfully. Even if you have edited and prepared the sequence, the only method within the NLE is to export that sequence out as a rendered video file. It is not entirely useful, and shot information is not entirely homogenous. You are also required to do a Shot List manually based on the envisioned visuals. Which would precipitate tons of physical print out for various departments in productions, which yields a non eco-friendly work practice.
 
-However, there are applications on the market like [Shot Lister](https://www.shotlister.com/){target="_blank"}, [Studio Binder](https://www.studiobinder.com/){target="_blank"} or [Celtx](https://www.celtx.com/){target="_blank"} that allow you to develop industry standard Shot Lists. But all seems to tackle the Shot List construction from a script level. There is undoubtedly nothing wrong with this approach. The script is the anchor point, as screenplay is the foundation of every production.
+However, there are applications on the market like [Shot Lister](https://www.shotlister.com/), [Studio Binder](https://www.studiobinder.com/) or [Celtx](https://www.celtx.com/) that allow you to develop industry standard Shot Lists. But all seems to tackle the Shot List construction from a script level. There is undoubtedly nothing wrong with this approach. The script is the anchor point, as screenplay is the foundation of every production.
 
 For Music Videos and music driven narratives, sound or music invariably takes higher precedence. You can’t visualise music on a sheet of paper except on a musical score sheet and you can’t conceivably construct a Shot List from a score sheet.
 
@@ -43,30 +43,30 @@ Starting with **Shot Data**, I aim to streamline and optimise the process for Sh
 
 ### Why Final Cut Pro?
 
-Final Cut Pro is a radical and controversial NLE. There are users who loathe it and there are users who espouse the application. I am the latter. Apart from speed, Final Cut Pro is extremely powerful when it comes to handling Metadata. In particular, it’s [FCPXML](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference){target="_blank"} file. The `*.fcpxml` file contains most of the timeline’s information, including Metadata from custom Motion Titles.
+Final Cut Pro is a radical and controversial NLE. There are users who loathe it and there are users who espouse the application. I am the latter. Apart from speed, Final Cut Pro is extremely powerful when it comes to handling Metadata. In particular, it’s [FCPXML](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference) file. The `*.fcpxml` file contains most of the timeline’s information, including Metadata from custom Motion Titles.
 
-Utilising the Sound Locking principles, Shot Data is a 2-part workflow and a tool that allows you to generate [Storyboard](https://en.wikipedia.org/wiki/Storyboard){target="_blank"} or [Shot-List](https://www.masterclass.com/articles/film-101-what-is-a-shot-list-how-to-format-and-create-a-shot-list){target="_blank"} from within Final Cut Pro to Notion.  It utilises a custom Motion Template as a basis for Shot’s Data tabulation. Hence the name **Shot Data**.
+Utilising the Sound Locking principles, Shot Data is a 2-part workflow and a tool that allows you to generate [Storyboard](https://en.wikipedia.org/wiki/Storyboard) or [Shot-List](https://www.masterclass.com/articles/film-101-what-is-a-shot-list-how-to-format-and-create-a-shot-list) from within Final Cut Pro to Notion.  It utilises a custom Motion Template as a basis for Shot’s Data tabulation. Hence the name **Shot Data**.
 
 ### Why Notion?
 
-[Notion](https://www.notion.so/){target="_blank"} is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. Notion provides the building blocks and you can create your own layouts and toolkit to get work done at an affordable cost.
+[Notion](https://www.notion.so/) is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. Notion provides the building blocks and you can create your own layouts and toolkit to get work done at an affordable cost.
 
 Notion’s workspace allows you to write in a beautiful clean space, build your own personal wiki (with endless layers of content), plan using a kanban view, a calendar or a simple list view and last, but not least, to capture your workflows and record everything by creating databases.
 
-If you are familiar with Final Cut Pro’s [Smart Collections](https://support.apple.com/en-sg/guide/final-cut-pro/ver2833eb5b/mac){target="_blank"}, you will feel right at home with Notion’s database. Notion’s database allows you to create custom views with specific [filters and sort criteria](https://www.notion.so/help/views-filters-and-sorts){target="_blank"}.
+If you are familiar with Final Cut Pro’s [Smart Collections](https://support.apple.com/en-sg/guide/final-cut-pro/ver2833eb5b/mac), you will feel right at home with Notion’s database. Notion’s database allows you to create custom views with specific [filters and sort criteria](https://www.notion.so/help/views-filters-and-sorts).
 
-[![Why Notion?](https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg)](https://www.youtube.com/watch?v=gp2yhkVw0z4 "Why Notion?"){target="_blank"}
+[![Why Notion?](https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg)](https://www.youtube.com/watch?v=gp2yhkVw0z4 "Why Notion?")
 
 ### Introduction to Notion’s databases
 
 One feature that sets Notion apart from other database (i.e Airtable) is every entry or record is its own editable page. The record you enter into your database can be opened as its own Notion page, where you can layer or add in any information or [blocks](https://www.youtube.com/watch?v=BZnR2Ml17sc) you want.
 
-[![Introduction to Notion’s databases](https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg)](https://www.youtube.com/watch?v=npaNKlAO7g8){target="_blank"}
+[![Introduction to Notion’s databases](https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg)](https://www.youtube.com/watch?v=npaNKlAO7g8)
 
 ## Basic Usage - Shot Data
 
 ==- Part 0 - Download CommandPost
-1. Download and Install the latest version of CommandPost from [GitHub](https://github.com/CommandPost/CommandPost/releases/){target="_blank"}.
+1. Download and Install the latest version of CommandPost from [GitHub](https://github.com/CommandPost/CommandPost/releases/).
 ===
 
 ==- Part 1 - Sound Locking (Pre-Editing)
@@ -180,11 +180,11 @@ But if they are going to be the same for continuing shots, leave them as blank. 
 ===
 
 ==- Part 2 - Sending to Notion
-1. [Duplicate](https://www.notion.so/help/duplicate-public-pages){target="_blank"} my [Shot Data Template](https://soothsayer.notion.site/1e6a317008e546159ca7015011cdb173?v=a1b16c2a1fa447138268a8f1fe515bd7){target="_blank"} into your Notion Workspace. You can rename the template to your desire.
+1. [Duplicate](https://www.notion.so/help/duplicate-public-pages) my [Shot Data Template](https://soothsayer.notion.site/1e6a317008e546159ca7015011cdb173?v=a1b16c2a1fa447138268a8f1fe515bd7) into your Notion Workspace. You can rename the template to your desire.
 
 2. Select **Shot Data** from the **CommandPost**’s Toolbox Menu.
 
-3. Paste your [Notion v2 Token](https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede){target="_blank"} in the Notion Token field. Make sure both **Automatically Upload Converted FCPXMLs** and **Merge with Existing Database** are Checked.
+3. Paste your [Notion v2 Token](https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede) in the Notion Token field. Make sure both **Automatically Upload Converted FCPXMLs** and **Merge with Existing Database** are Checked.
 
 ![](../static/S2.1.png)
 
@@ -217,18 +217,18 @@ The upload speed is dependent on your internet connection and Notion’s servers
 
 ==- Using Notion’s Mobile App
 
-1. [Download](https://www.notion.so/mobile){target="_blank"} the Mobile version of Notion.
+1. [Download](https://www.notion.so/mobile) the Mobile version of Notion.
 
-2. Add [widget](https://www.notion.so/help/mobile-widgets){target="_blank"}  on your home screen.
+2. Add [widget](https://www.notion.so/help/mobile-widgets)  on your home screen.
 
 !!!info Info
-You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/){target="_blank"} your iPhone or iPad to your Camera Rig and to your [Director's Monitor Cage](https://woodencamera.com/products/directors-monitor-cage-v3){target="_blank"}.
+You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/) your iPhone or iPad to your Camera Rig and to your [Director's Monitor Cage](https://woodencamera.com/products/directors-monitor-cage-v3).
 !!!
 
 ===
 
 ==- Setting up database relationships
-1. Make sure you have read and understand Notion’s [documentation on Relations & Rollups](https://www.notion.so/help/relations-and-rollups){target="_blank"}.
+1. Make sure you have read and understand Notion’s [documentation on Relations & Rollups](https://www.notion.so/help/relations-and-rollups).
 
 2. You can create separate databases for **Scene Characters**, **Scenes**, **Sets**, **Locations**, **Wardrobe** and so on.
 
@@ -281,7 +281,7 @@ If your entire scene in **Final Cut Pro** is updated with a different set of cut
 
 ==- Emojis 😀
 
-1. In Notion, you can customise your pages with [Icons](https://www.notion.so/help/customize-and-style-your-content){target="_blank"}.
+1. In Notion, you can customise your pages with [Icons](https://www.notion.so/help/customize-and-style-your-content).
 
 2. The default icon for all the records is. 🎬.
 
@@ -339,7 +339,7 @@ Please make sure you have pre-configured all your settings within **Shot Data**�
 ==- Can Shot Data be used with Airtable?
 Interestingly, I initially experimented Shot Data with Airtable. Airtable offers a superior database system compared to Notion. However, Notion offers greater affordability, superior embeds, note-taking features within each page, comparatively.
 
-If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, [get in touch with me](https://twitter.com/IAmVigneswaran) {target="_blank"}.
+If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, [get in touch with me](https://twitter.com/IAmVigneswaran) .
 
 ===
 
@@ -351,12 +351,12 @@ This workflow would be particularly advantageous if you are the Writer, Director
 
 ---
 
-Workflow Created by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com){target="_blank"}
+Workflow Created by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com)
 
-Shot Data’s Toolbox Programming was made possible by [Chris Hocking](https://github.com/latenitefilms){target="_blank"}
+Shot Data’s Toolbox Programming was made possible by [Chris Hocking](https://github.com/latenitefilms)
 
-Notion’s [Import Tool](https://github.com/vzhd1701/csv2notion){target="_blank"} by [Vladilen Zhdanov](https://github.com/vzhd1701){target="_blank"}
+Notion’s [Import Tool](https://github.com/vzhd1701/csv2notion) by [Vladilen Zhdanov](https://github.com/vzhd1701)
 
-Initial Motion Template rigging was assisted by [Peter Wiggins](https://twitter.com/peterwiggins){target="_blank"}
+Initial Motion Template rigging was assisted by [Peter Wiggins](https://twitter.com/peterwiggins)
 
-Empire Strikes Back storyboard illustrations by [Joe Johnston](https://www.imdb.com/name/nm0002653/){target="_blank"} and [Nilo Rodis-Jamero](https://www.imdb.com/name/nm0734890/){target="_blank"}
+Empire Strikes Back storyboard illustrations by [Joe Johnston](https://www.imdb.com/name/nm0002653/) and [Nilo Rodis-Jamero](https://www.imdb.com/name/nm0734890/)

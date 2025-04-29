@@ -68,7 +68,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application Build                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L31){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L31) |
 
 ---
 
@@ -81,7 +81,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The name of the Application                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L21){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L21) |
 
 ---
 
@@ -94,7 +94,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application Version                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L26){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L26) |
 
 ---
 
@@ -107,7 +107,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where Application Assets are stored                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L84){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L84) |
 
 ---
 
@@ -120,7 +120,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where the Extensions & Plugins folders are stored.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L89){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L89) |
 
 ---
 
@@ -133,7 +133,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to bundled plugins                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L94){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L94) |
 
 ---
 
@@ -146,7 +146,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application's Bundle ID                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L36){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L36) |
 
 ---
 
@@ -159,7 +159,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to the CommandPost Cache folder.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L104){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L104) |
 
 ---
 
@@ -172,7 +172,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Prefix used for Configuration Settings                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L46){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L46) |
 
 ---
 
@@ -185,7 +185,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to the Application Icon                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L122){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L122) |
 
 ---
 
@@ -198,7 +198,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to the Languages Folder                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L127){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L127) |
 
 ---
 
@@ -211,7 +211,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Plugins Paths. Earlier entries take precedence.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L114){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L114) |
 
 ---
 
@@ -224,7 +224,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | URL for Privacy Policy                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L51){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L51) |
 
 ---
 
@@ -237,7 +237,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application's Process ID                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L41){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L41) |
 
 ---
 
@@ -250,7 +250,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where Application Scripts are stored                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L61){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L61) |
 
 ---
 
@@ -263,7 +263,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Extensions for files which will trigger a reload when modified.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L132){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L132) |
 
 ---
 
@@ -276,7 +276,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `cp.sourcewatcher` that will watch for source files and reload CommandPost if any change.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L137){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L137) |
 
 ---
 
@@ -289,7 +289,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | URL for Translations                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L56){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L56) |
 
 ---
 
@@ -302,7 +302,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to user configuration folders                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L99){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L99) |
 
 ---
 
@@ -315,7 +315,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to user plugins                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L109){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L109) |
 
 ---
 
@@ -330,7 +330,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatic Script Reloading.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 310](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L310){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 310](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L310) |
 
 ---
 
@@ -343,7 +343,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Config Watcher                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 270](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L270){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 270](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L270) |
 
 ---
 
@@ -361,7 +361,7 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>hs.application object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L146){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L146) |
 
 ---
 
@@ -377,7 +377,7 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>The value of the setting</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L172){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L172) |
 
 ---
 
@@ -393,7 +393,7 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>A `cp.prop` instance for the key.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L223){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L223) |
 
 ---
 
@@ -409,7 +409,7 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L252){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L252) |
 
 ---
 
@@ -425,7 +425,7 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function cannot set dates or raw data types</li><li>Valid datatypes are:</li><li>   ** string</li><li>   ** number</li><li>   ** boolean</li><li>   ** nil</li><li>   ** table (which may contain any of the same valid datatypes)</li><li>if no value is provided, it is assumed to be nil</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L190){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L190) |
 
 ---
 
@@ -441,7 +441,7 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>`true` if a watcher with the ID existed and was successfully removed.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L292){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L292) |
 
 ---
 
@@ -457,7 +457,7 @@ Manage CommandPost's constants and settings.
 | **Returns**                                 | <ul><li>a unique ID that can be used to `unwatch`.</li></ul>          |
 | **Notes**                                   | <ul><li>Supported events:</li><li> ** `reset()`	- occurs after CommandPost's settings are reset.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L275){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L275) |
 
 ---
 
@@ -472,7 +472,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | When `true`, the app is in developer mode.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 305](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L305){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 305](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L305) |
 
 ---
 
@@ -485,7 +485,7 @@ Manage CommandPost's constants and settings.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Application is frontmost.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L162){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L162) |
 
 ---
 

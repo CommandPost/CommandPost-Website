@@ -31,7 +31,7 @@ Libraries Sidebar Browser Module.
 | **Returns**                                 | <ul><li>A new `LibrariesSidebar` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua#L22){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua#L22) |
 
 ---
 
@@ -49,7 +49,7 @@ Libraries Sidebar Browser Module.
 | **Returns**                                 | <ul><li>The `LibrariesSidebar` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua#L56){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua#L56) |
 
 ---
 
@@ -65,7 +65,7 @@ Libraries Sidebar Browser Module.
 | **Returns**                                 | <ul><li>The `LibrariesSidebar` object.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua#L39){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesSidebar.lua#L39) |
 
 ---
 

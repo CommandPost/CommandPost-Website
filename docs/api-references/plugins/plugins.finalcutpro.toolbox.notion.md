@@ -28,7 +28,7 @@ Notion Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Database URL.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L61){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L61) |
 
 ---
 
@@ -41,7 +41,7 @@ Notion Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Default Emoji                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L66){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L66) |
 
 ---
 
@@ -54,7 +54,7 @@ Notion Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Merge data?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L51){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L51) |
 
 ---
 
@@ -67,7 +67,7 @@ Notion Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L46){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L46) |
 
 ---
 
@@ -80,7 +80,7 @@ Notion Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Token.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L56){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/notion/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/notion/init.lua#L56) |
 
 ---
 

@@ -54,7 +54,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>The new action handler instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L29){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L29) |
 
 ---
 
@@ -69,7 +69,7 @@ containing the details of the action to execute if the choice is selected.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `true` (the default), any choices created will be cached until [reset] is called.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L131){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L131) |
 
 ---
 
@@ -82,7 +82,7 @@ containing the details of the action to execute if the choice is selected.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides `cp.choices` instance for the handler. May be watched/monitored/etc.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L141){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L141) |
 
 ---
 
@@ -100,7 +100,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 189](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L189){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 189](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L189) |
 
 ---
 
@@ -116,7 +116,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>`true` if the execution succeeded.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L215){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L215) |
 
 ---
 
@@ -132,7 +132,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>Group as string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L92){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L92) |
 
 ---
 
@@ -148,7 +148,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L105){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L105) |
 
 ---
 
@@ -164,7 +164,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L118){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L118) |
 
 ---
 
@@ -180,7 +180,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L78){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L78) |
 
 ---
 
@@ -196,7 +196,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L64){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L64) |
 
 ---
 
@@ -212,7 +212,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L50){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L50) |
 
 ---
 
@@ -228,7 +228,7 @@ containing the details of the action to execute if the choice is selected.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L231){target="_blank"} |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L231) |
 
 ---
 

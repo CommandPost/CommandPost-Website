@@ -36,7 +36,7 @@ Search Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/console/console.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L23){target="_blank"} |
+| **Source**                                  | [src/plugins/core/console/console.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L23) |
 
 ---
 
@@ -52,7 +52,7 @@ Search Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/console/console.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L37){target="_blank"} |
+| **Source**                                  | [src/plugins/core/console/console.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L37) |
 
 ---
 

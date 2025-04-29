@@ -40,7 +40,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>A panel object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L27){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L27) |
 
 ---
 
@@ -58,7 +58,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 312](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L312){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 312](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L312) |
 
 ---
 
@@ -74,7 +74,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `id`        - (optional) The unique ID. If none is provided, one will be generated.</li><li> ** `name`      - (optional) The name of the checkbox field.</li><li> ** `label`     - (optional) The text label to display after the checkbox.</li><li> ** `onchange`  - (optional) a function that will get called when the checkbox value changes. It will be passed two parameters, `id` and `params`, the latter of which is a table containing the `value` and `checked` values of the checkbox.</li><li> ** `class`     - (optional) the CSS class list to apply to the checkbox.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L201){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L201) |
 
 ---
 
@@ -90,7 +90,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L112){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L112) |
 
 ---
 
@@ -106,7 +106,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L133){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L133) |
 
 ---
 
@@ -122,7 +122,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L240){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L240) |
 
 ---
 
@@ -138,7 +138,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L185){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L185) |
 
 ---
 
@@ -154,7 +154,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 284](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L284){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 284](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L284) |
 
 ---
 
@@ -170,7 +170,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L334){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L334) |
 
 ---
 
@@ -186,7 +186,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L255){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L255) |
 
 ---
 
@@ -202,7 +202,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>A string of generated content</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L75){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L75) |
 
 ---
 
@@ -218,7 +218,7 @@ Watch Folder Panel Manager.
 | **Returns**                                 | <ul><li>Table of Toolbar Item Values</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L55){target="_blank"} |
+| **Source**                                  | [src/plugins/core/watchfolders/manager/panel.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/watchfolders/manager/panel.lua#L55) |
 
 ---
 

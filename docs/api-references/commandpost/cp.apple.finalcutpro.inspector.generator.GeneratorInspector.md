@@ -27,7 +27,7 @@ Generator Inspector Module. This appears for both Generators and Titles.
 | **Returns**                                 | <ul><li>A GeneratorInspector object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/generator/GeneratorInspector.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/generator/GeneratorInspector.lua#L14){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/generator/GeneratorInspector.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/generator/GeneratorInspector.lua#L14) |
 
 ---
 

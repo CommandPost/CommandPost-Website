@@ -33,7 +33,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L23){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L23) |
 
 ---
 
@@ -51,7 +51,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L34){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L34) |
 
 ---
 
@@ -66,7 +66,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the TopProperties group.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L49){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/TopProperties.lua#L49) |
 
 ---
 

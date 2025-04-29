@@ -36,7 +36,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L50){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L50) |
 
 ---
 
@@ -52,7 +52,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 36](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L36){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 36](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L36) |
 
 ---
 
@@ -68,7 +68,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 64](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L64){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 64](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L64) |
 
 ---
 
@@ -84,7 +84,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 22](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L22){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 22](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L22) |
 
 ---
 
@@ -100,7 +100,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>If the dock icon is assigned a canvas object, that canvas object will be returned, otherwise returns nil.</li></ul>          |
 | **Notes**                                   | <ul><li>If you update the canvas object by changing any of its components, it will not be reflected in the dock icon until you invoke [hs.dockicon.tileUpdate](#tileUpdate).</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 83](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L83){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 83](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L83) |
 
 ---
 
@@ -116,7 +116,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>a table containing the size of the tile representing the dock icon for Hammerspoon. This table will contain `h` and `w` keys specifying the tile height and width as numbers.</li></ul>          |
 | **Notes**                                   | <ul><li>the size returned specifies the display size of the dock icon tile. If your canvas item is larger than this, then only the top left portion corresponding to the size returned will be displayed.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 118](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L118){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 118](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L118) |
 
 ---
 
@@ -132,7 +132,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Changes made to a canvas object are not reflected automatically like they are when a canvas is being displayed on the screen; you must invoke this method after making changes to the canvas for the updates to be reflected in the dock icon.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L139){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L139) |
 
 ---
 
@@ -148,7 +148,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the dock icon is visible, false if not</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/dockicon/libdockicon.m line 7](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L7){target="_blank"} |
+| **Source**                                  | [extensions/dockicon/libdockicon.m line 7](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dockicon/libdockicon.m#L7) |
 
 ---
 

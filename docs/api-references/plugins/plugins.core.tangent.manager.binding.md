@@ -33,7 +33,7 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>the new `binding`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L16){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L16) |
 
 ---
 
@@ -51,7 +51,7 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The `binding` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L43){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L43) |
 
 ---
 
@@ -67,7 +67,7 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The `binding` instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L58){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L58) |
 
 ---
 
@@ -83,7 +83,7 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The name.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L30){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L30) |
 
 ---
 
@@ -99,7 +99,7 @@ Represents a Tangent Binding
 | **Returns**                                 | <ul><li>The `xml` for the Binding.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L74){target="_blank"} |
+| **Source**                                  | [src/plugins/core/tangent/manager/binding.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/binding.lua#L74) |
 
 ---
 

@@ -23,7 +23,7 @@ Some useful functions to generate a [`hs.image`](../api-references/hammerspoon/h
 
 You can also use [`hs.canvas`](../api-references/hammerspoon/hs.canvas/) to programatically draw things.
 
-There's some more complex [`hs.canvas`](/api-references/hammerspoon/hs.canvas/) examples [here](https://github.com/asmagill/hammerspoon/wiki/hs.canvas.examples){target="_blank"}.
+There's some more complex [`hs.canvas`](/api-references/hammerspoon/hs.canvas/) examples [here](https://github.com/asmagill/hammerspoon/wiki/hs.canvas.examples).
 
 You can learn more about Lua [here](../developer/lua-overview/).
 

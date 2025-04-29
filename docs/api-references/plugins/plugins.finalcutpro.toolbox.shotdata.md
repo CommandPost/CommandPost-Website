@@ -32,7 +32,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Automatically Upload CSV?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L329){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L329) |
 
 ---
 
@@ -45,7 +45,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Database URL.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 344](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L344){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 344](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L344) |
 
 ---
 
@@ -58,7 +58,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Ignore Columns                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 354](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L354){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 354](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L354) |
 
 ---
 
@@ -71,7 +71,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last save path                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L324){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L324) |
 
 ---
 
@@ -84,7 +84,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last open path                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L314){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L314) |
 
 ---
 
@@ -97,7 +97,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last upload path                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L319){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L319) |
 
 ---
 
@@ -110,7 +110,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Merge data?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L334){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L334) |
 
 ---
 
@@ -123,7 +123,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 284](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L284){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 284](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L284) |
 
 ---
 
@@ -136,7 +136,7 @@ Shot Data Toolbox Panel.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Token.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L339){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/shotdata/init.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/shotdata/init.lua#L339) |
 
 ---
 

@@ -57,7 +57,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is aligned with `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>Two elements are considered to be aligned if the interesection if their heights are at least 50% of the height of both elements.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L205){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L205) |
 
 ---
 
@@ -73,7 +73,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function which will return the `AX` value of the given `name` from the given `uivalue`.</li><li>This is safe to use as a [cp.prop:mutate](cp.prop.md#mutate) getter, since it will resolve the `original` value before getting the named attribute.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L118){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L118) |
 
 ---
 
@@ -89,7 +89,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is below `b`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 426](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L426){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 426](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L426) |
 
 ---
 
@@ -105,7 +105,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is below or to the right of `b` in the UI, `false` otherwise.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 519](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L519){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 519](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L519) |
 
 ---
 
@@ -121,7 +121,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The valid cached value.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `verifyFn` is provided, it will be called to check that the cached</li><li>   value is still valid. It is passed a single parameter (the axuielement) and is expected</li><li>   to return `true` or `false`.</li><li>Example:</li><li>   ```lua</li><li>   ax.cache(self, "_ui", MyElement.matches)(</li><li>       fn.table.get(1) -- return the first child of the element.</li><li>   )</li><li>If the optional `verifyFn` is provided, it will be called to check that the cached value is still valid. It is passed a single parameter (the axuielement) and is expected to return `true` or `false`.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L158){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L158) |
 
 ---
 
@@ -137,7 +137,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that will return the first child of the given `uivalue` that matches the given `predicate`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L274){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L274) |
 
 ---
 
@@ -153,7 +153,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The children of the given `value` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li> If it is a `table` with a `AXChildren` field, the `AXChildren` field is returned.</li><li> If it is a `table` with a `UI` field, the `UI` field is called and the result is returned.</li><li> If it is a `table` with a `children` function, it is called and the result is returned.</li><li> If it is a `table` with a `children` field, the `children` field is returned.</li><li> Otherwise, if it's any `table`, that table is returned.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L232){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L232) |
 
 ---
 
@@ -169,7 +169,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A table of `axuielement`s that match the given `predicate`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 259](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L259){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 259](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L259) |
 
 ---
 
@@ -185,7 +185,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The children of the given `value`, sorted [topDown](#topDown), or `nil`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 629](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L629){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 629](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L629) |
 
 ---
 
@@ -201,7 +201,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that will return the first child of the given `uivalue` that has the given `attribute` set to `value`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L296){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L296) |
 
 ---
 
@@ -217,7 +217,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that accepts an `axuielement` [uivalue](#uielement) which in turn returns `true` if the `uivalue` has the given `attribute` set to the `value`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 327](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L327){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 327](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L327) |
 
 ---
 
@@ -233,7 +233,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that accepts an `axuielement` [uivalue](#uielement) which in turn returns `true` if the `uivalue` has the given `AXRole`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 347](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L347){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 347](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L347) |
 
 ---
 
@@ -249,7 +249,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that will create a new `cp.ui.Element` of the given `elementType` with the given `parent` and `uiFinder`.</li></ul>          |
 | **Notes**                                   | <ul><li>Any additional arguments will be passed to the `elementType` constructor after the `parent` and `uiFinder`.</li><li>If any of the additional arguments are a `function`, they will be called with the `parent` and `uiFinder` as the first two arguments when being passed into the constructor.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 533](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L533){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 533](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L533) |
 
 ---
 
@@ -265,7 +265,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A table of `cp.ui.Element`s.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 568](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L568){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 568](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L568) |
 
 ---
 
@@ -281,7 +281,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if the value is an `axuielement`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L28){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L28) |
 
 ---
 
@@ -297,7 +297,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if the element is valid.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L358){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L358) |
 
 ---
 
@@ -313,7 +313,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is left of `b`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 378](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L378){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 378](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L378) |
 
 ---
 
@@ -329,7 +329,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A `function` which will return `true` if the `value` is a match.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 609](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L609){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 609](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L609) |
 
 ---
 
@@ -345,7 +345,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is narrower than `b`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 468](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L468){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 468](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L468) |
 
 ---
 
@@ -361,7 +361,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function that accepts an `axuielement` [uivalue](#uielement) which in turn returns the result of performing the action.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 308](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L308){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 308](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L308) |
 
 ---
 
@@ -377,7 +377,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The `cp.prop` for the attribute.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `uiFinder` is a `cp.prop`, it will be monitored for changes, making the resulting `prop` "live".</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 587](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L587){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 587](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L587) |
 
 ---
 
@@ -393,7 +393,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is right of `b`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 394](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L394){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 394](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L394) |
 
 ---
 
@@ -409,7 +409,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>A function which will set the `AX` value of the given `name` from the given `uivalue`.</li><li>The `newValue` will be passed to the `setAttributeValue` method of the `uivalue`.</li><li>The `uivalue` will attempt to be resolved via [uielement](#uielement).</li><li>This is safe to use as a [cp.prop:mutate](cp.prop.md#mutate) setter, since it will take the `newValue` and `uivalue` in the correct order and resolve the `uivalue`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L137){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L137) |
 
 ---
 
@@ -425,7 +425,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is shorter than `b`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 484](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L484){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 484](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L484) |
 
 ---
 
@@ -441,7 +441,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is above or to the left of `b` in the UI, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>1. If both elements intersect vertically by more than 50% their heights, they are considered to be on the same line.</li><li>2. If not on the same line, the element whose bottom edge is highest is before the other.</li><li>3. If they are both still equal, the left-most element is before the other.</li><li>4. If they are both still equal, the shortest element is before the other.</li><li>5. If they are both still equal, the narrowest element is before the other.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 500](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L500){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 500](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L500) |
 
 ---
 
@@ -457,7 +457,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 410](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L410){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 410](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L410) |
 
 ---
 
@@ -473,7 +473,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>Two elements are considered to be aligned if the intersection of the height is at least 50% of the height of both elements.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 442](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L442){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 442](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L442) |
 
 ---
 
@@ -489,7 +489,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The `axuielement` for the given `value` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li> If the `value` is an `axuielement`, it is returned.</li><li> If the `value` is a table with a callable `UI` field, the `UI` field is called and the result is returned.</li><li> If the `value` is callable, it is called and the result is returned.</li><li> Otherwise, `nil` is returned.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L41){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L41) |
 
 ---
 
@@ -505,7 +505,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 | **Returns**                                 | <ul><li>The `axuielement` list for the given `value` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li> If the `value` is a `table` with a `UI` field, the `UI` field is called and the result is returned if it is a list.</li><li> If the `value` is callable (i.e. a `function`), it is called and the result is returned if it is a list.</li><li> If the `value` is a `table`, it is returned.</li><li> Otherwise, `nil` is returned.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/extensions/cp/fn/ax.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L69){target="_blank"} |
+| **Source**                                  | [src/extensions/cp/fn/ax.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/ax.lua#L69) |
 
 ---
 

@@ -54,7 +54,7 @@ Manager for the Final Cut Pro HUD.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of HUD                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L73){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L73) |
 
 ---
 
@@ -67,7 +67,7 @@ Manager for the Final Cut Pro HUD.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of HUD                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L78){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L78) |
 
 ---
 
@@ -80,7 +80,7 @@ Manager for the Final Cut Pro HUD.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last tab saved in settings.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L103){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L103) |
 
 ---
 
@@ -93,7 +93,7 @@ Manager for the Final Cut Pro HUD.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L98){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L98) |
 
 ---
 
@@ -108,7 +108,7 @@ Manager for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing handlers.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L88){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L88) |
 
 ---
 
@@ -121,7 +121,7 @@ Manager for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing panels.                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L83){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L83) |
 
 ---
 
@@ -139,7 +139,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L134){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L134) |
 
 ---
 
@@ -155,7 +155,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `openFn`        - A callback function that's triggered when the panel is opened.</li><li> ** `closeFn`       - A callback function that's triggered when the panel is closed.</li><li> ** `loadedFn`      - A callback function that's triggered when the panel is loaded.</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 789](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L789){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 789](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L789) |
 
 ---
 
@@ -171,7 +171,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>The panel ID as a string</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L179){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L179) |
 
 ---
 
@@ -187,7 +187,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 613](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L613){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 613](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L613) |
 
 ---
 
@@ -203,7 +203,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L148){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L148) |
 
 ---
 
@@ -219,7 +219,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L121){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L121) |
 
 ---
 
@@ -235,7 +235,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>A `hs.webview`</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L108){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L108) |
 
 ---
 
@@ -251,7 +251,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 597](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L597){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 597](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L597) |
 
 ---
 
@@ -267,7 +267,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 672](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L672){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 672](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L672) |
 
 ---
 
@@ -283,7 +283,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>The maximum panel height.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 411](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L411){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 411](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L411) |
 
 ---
 
@@ -299,7 +299,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 476](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L476){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 476](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L476) |
 
 ---
 
@@ -315,7 +315,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 650](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L650){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 650](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L650) |
 
 ---
 
@@ -331,7 +331,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 630](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L630){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 630](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L630) |
 
 ---
 
@@ -347,7 +347,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 691](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L691){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 691](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L691) |
 
 ---
 
@@ -363,7 +363,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 569](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L569){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 569](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L569) |
 
 ---
 
@@ -379,7 +379,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 911](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L911){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 911](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L911) |
 
 ---
 
@@ -395,7 +395,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 881](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L881){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 881](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L881) |
 
 ---
 
@@ -411,7 +411,7 @@ Manager for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 865](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L865){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 865](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L865) |
 
 ---
 
@@ -426,7 +426,7 @@ Manager for the Final Cut Pro HUD.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the HUD enabled in the settings?                                                                     |
 | **Notes**                                   | None |
-| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L68){target="_blank"} |
+| **Source**                                  | [src/plugins/finalcutpro/hud/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/manager/init.lua#L68) |
 
 ---
 

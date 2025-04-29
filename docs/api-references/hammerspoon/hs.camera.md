@@ -41,7 +41,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A table containing all of the known cameras</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 329](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L329){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 329](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L329) |
 
 ---
 
@@ -57,7 +57,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A boolean, True if the watcher is running, otherwise False</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 468](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L468){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 468](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L468) |
 
 ---
 
@@ -73,7 +73,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The callback will be called when a camera is added or removed from the system</li><li>To watch for changes within a single camera device, see `hs.camera:newWatcher()`</li><li>The callback function arguments are:</li><li> An hs.camera device object for the affected device</li><li> A string, either "Added" or "Removed" depending on whether the device was added or removed from the system</li><li>For "Removed" events, most methods on the hs.camera device object will not function correctly anymore and the device object passed to the callback is likely to be useless. It is recommended you re-check `hs.camera.allCameras()` and keep records of the cameras you care about</li><li>Passing nil will cause the watcher to stop if it is running</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 486](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L486){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 486](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L486) |
 
 ---
 
@@ -89,7 +89,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 378](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L378){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 378](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L378) |
 
 ---
 
@@ -105,7 +105,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 435](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L435){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 435](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L435) |
 
 ---
 
@@ -123,7 +123,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A number containing the connection ID of the camera</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 554](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L554){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 554](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L554) |
 
 ---
 
@@ -139,7 +139,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A boolean, True if the camera is in use, otherwise False</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 590](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L590){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 590](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L590) |
 
 ---
 
@@ -155,7 +155,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A boolean, True if the property watcher is running, otherwise False</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 691](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L691){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 691](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L691) |
 
 ---
 
@@ -171,7 +171,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A string containing the name of the camera</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L572){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L572) |
 
 ---
 
@@ -192,7 +192,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 608](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L608){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 608](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L608) |
 
 ---
 
@@ -208,7 +208,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 644](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L644){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 644](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L644) |
 
 ---
 
@@ -224,7 +224,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 671](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L671){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 671](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L671) |
 
 ---
 
@@ -240,7 +240,7 @@ Inspect the system's camera devices
 | **Returns**                                 | <ul><li>A string containing the UID of the camera</li></ul>          |
 | **Notes**                                   | <ul><li>The UID is not guaranteed to be stable across reboots</li></ul> |
 | **Examples**                                | None |
-| **Source**                                  | [extensions/camera/libcamera.m line 533](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L533){target="_blank"} |
+| **Source**                                  | [extensions/camera/libcamera.m line 533](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/camera/libcamera.m#L533) |
 
 ---
 
