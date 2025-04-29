@@ -1,3 +1,4 @@
+- [Trim to Playhead command not working with Loupedeck (April 11, 2025)](https://github.com/CommandPost/CommandPost/issues/3435)
 - [[Bug] Garbled Text in Tangent Mapper When Using Final Cut Pro in Chinese (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3434)
 - [Bugs in sample Lua Snippets (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3433)
 - [Compatibility issues with CommandPost on macOS Sonoma and Final Cut Pro Trial – Search Console & Modifier Key not working (March 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3431)
@@ -27,4 +28,3 @@
 - [Force FCP to select a specific secondary monitor on a 3 monitor setup (+ more) (September 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3268)
 - [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265)
 - [CP causing FCPX's import window to automatically close right after opening it (August 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3251)
-- [Rename Clip Action fails on macOS 13.5 (August 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3250)
