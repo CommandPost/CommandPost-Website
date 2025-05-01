@@ -245,7 +245,7 @@
 
 #### ⚠️ Important Changes
 
-- With the release of macOS Ventura, CommandPost v1.4.14 now requires macOS Big Sur or later. You can still use CommandPost v1.4.13 on macOS Catalina.
+- With the release of macOS Ventura, CommandPost v1.4.14 now requires macOS Big Sur or later. You can still use **CommandPost v1.4.13** on macOS Catalina.
 
 #### 🔨 Improvements
 
@@ -667,7 +667,7 @@
 
 #### ⚠️ Important Changes
 
-- CommandPost has dropped Mojave support in this release. We now only support macOS Catalina, Big Sur & Monterey. If you're stuck on Mojave you can still use ### CommandPost 1.2.16.
+- CommandPost has dropped Mojave support in this release. We now only support macOS Catalina, Big Sur & Monterey. If you're stuck on Mojave you can still use **CommandPost v1.2.16**.
 
 #### 🎉 New Features
 
