@@ -10,7 +10,7 @@ It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.
 
 It has **extensive** control surface support - allowing you to control your Mac anyway you want. It's also fully **native on Apple Silicon**.
 
-It's been downloaded over **[256 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost)**, and there are over **[3 thousands members](https://www.facebook.com/groups/commandpost/members)** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over **[258 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost)**, and there are over **[3 thousands members](https://www.facebook.com/groups/commandpost/members)** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 We also have a growing [Discord community](https://ltnt.tv/discord).
 
