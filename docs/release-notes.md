@@ -1,5 +1,26 @@
 # Release Notes
 
+### CommandPost 1.5.2
+
+**🎉 Released:**
+- Wednesday 18th December 2024
+
+#### 🔨 Improvements
+
+- Added a Set Speed Rate to 2000% action for Final Cut Pro. Thanks for suggesting Aad Straathof!
+
+#### 🐞 Bug Fixes
+
+- Fixed Color Board Actions in Final Cut Pro 11. Thanks for reporting Eric Badura!
+- Fixed a bug where we were incorrectly detecting the Viewer Control Bar when in Timecode Entry Mode in macOS Sequoia.
+- Fixed a bug where we weren't able to watch for file-system level Preferences changes in Final Cut Pro 11.
+- Fixed a bug in Loupedeck's button LED colour controls where you weren't able to adjust the brightness correctly. Thanks for reporting Eric Badura!
+- Fixed a bug in the Loupedeck Preferences UI where the LED colour Examples button wasn't visible on macOS Sequoia.
+- Fixed a bug in the Final Cut Pro Inspector where incorrect buttons were being triggered. For example, the action to add a keyframe for the Rotation property, would incorrectly select the Position property in Final Cut Pro 11. Thanks for reporting Dani Ditu!
+- Fixed a bug where Audio Inspector actions were no longer working - such as pan mode - in Final Cut Pro 11. Thanks for reporting Dani Ditu!
+
+---
+
 ### CommandPost 1.5.1
 
 **🎉 Released:**
