@@ -59,3 +59,6 @@ favicon: static/favicon.ico
 data:
   star: "<span class=\"fa fa-star checked\"></span>"
   unstar: "<span class=\"fa fa-star\">"
+
+scheme:
+  mode: dark
