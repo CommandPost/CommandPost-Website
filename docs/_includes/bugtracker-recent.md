@@ -1,3 +1,5 @@
+- [Text to speech: randomly doesn't activate context menu (May 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3446)
+- [Text to speech: voice selection broken (May 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3445)
 - [Bug in Tangent Video API (May 1, 2025)](https://github.com/CommandPost/CommandPost/issues/3440)
 - [Trim to Playhead command not working with Loupedeck (April 11, 2025)](https://github.com/CommandPost/CommandPost/issues/3435)
 - [[Bug] Garbled Text in Tangent Mapper When Using Final Cut Pro in Chinese (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3434)
@@ -26,5 +28,3 @@
 - [Commit Multicam Clip on Retimed Multicam clip will not work (November 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3284)
 - [Text to Speech: assign Roles, add Caption, add to notes field (FCP 10.6.10) (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3282)
 - [Unable to enable Command Line Support (CommandPost v1.4.22 (Build: 7972) - macOS 14.0 on Apple M1) (October 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3278)
-- [Force FCP to select a specific secondary monitor on a 3 monitor setup (+ more) (September 13, 2023)](https://github.com/CommandPost/CommandPost/issues/3268)
-- [Updater window ignores "skip this release"... (August 31, 2023)](https://github.com/CommandPost/CommandPost/issues/3265)
