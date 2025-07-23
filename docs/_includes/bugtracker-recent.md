@@ -1,3 +1,4 @@
+- [Add MPC server plugin (July 1, 2025)](https://github.com/CommandPost/CommandPost/pull/3451)
 - [Text to speech: randomly doesn't activate context menu (May 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3446)
 - [Text to speech: voice selection broken (May 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3445)
 - [Bug in Tangent Video API (May 1, 2025)](https://github.com/CommandPost/CommandPost/issues/3440)
@@ -27,4 +28,3 @@
 - [Speed Editor Jog Wheel Doesn't Respond to Actions when moved very slowly (December 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3292)
 - [Commit Multicam Clip on Retimed Multicam clip will not work (November 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3284)
 - [Text to Speech: assign Roles, add Caption, add to notes field (FCP 10.6.10) (November 5, 2023)](https://github.com/CommandPost/CommandPost/issues/3282)
-- [Unable to enable Command Line Support (CommandPost v1.4.22 (Build: 7972) - macOS 14.0 on Apple M1) (October 17, 2023)](https://github.com/CommandPost/CommandPost/issues/3278)
