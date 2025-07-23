@@ -16,7 +16,7 @@ We also have a growing [Discord community](https://ltnt.tv/discord).
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
-All of the 2024 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
+All of the 2024 and 2025 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
 
 ![](../static/commandpost-hero.png)
 
