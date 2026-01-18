@@ -1,3 +1,6 @@
+- [Add Brightness Controls for Stream Deck (January 18, 2026)](https://github.com/CommandPost/CommandPost/issues/3468)
+- [Batch export chapters as distinct files (October 31, 2025)](https://github.com/CommandPost/CommandPost/issues/3462)
+- [Add the Contour Shuttle Pro 2 support (September 16, 2025)](https://github.com/CommandPost/CommandPost/issues/3455)
 - [Allow copying Control Surface settings to "Unlisted & Ignored Applications" (February 3, 2025)](https://github.com/CommandPost/CommandPost/issues/3422)
 - [Add Actions for Overlay Appearance  (January 5, 2025)](https://github.com/CommandPost/CommandPost/issues/3414)
 - [Add action to change export path to current library path (November 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3397)
@@ -25,6 +28,3 @@
 - [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304)
 - [Transcription in "Titles to Keywords Toolbox" (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3298)
 - [Render in place (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3297)
-- [Create new renamed clips (that have a marker applied) from a Timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3296)
-- [Batch replace clips in a timeline (December 15, 2023)](https://github.com/CommandPost/CommandPost/issues/3295)
-- [Add action to "Reveal in Browser Folder" (December 4, 2023)](https://github.com/CommandPost/CommandPost/issues/3290)

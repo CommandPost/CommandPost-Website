@@ -1,3 +1,4 @@
+- [Loupedeck CT cant change bank correctly (August 2, 2025)](https://github.com/CommandPost/CommandPost/issues/3453)
 - [Add MPC server plugin (July 1, 2025)](https://github.com/CommandPost/CommandPost/pull/3451)
 - [Text to speech: randomly doesn't activate context menu (May 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3446)
 - [Text to speech: voice selection broken (May 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3445)
@@ -6,7 +7,6 @@
 - [[Bug] Garbled Text in Tangent Mapper When Using Final Cut Pro in Chinese (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3434)
 - [Bugs in sample Lua Snippets (April 9, 2025)](https://github.com/CommandPost/CommandPost/issues/3433)
 - [Compatibility issues with CommandPost on macOS Sonoma and Final Cut Pro Trial – Search Console & Modifier Key not working (March 29, 2025)](https://github.com/CommandPost/CommandPost/issues/3431)
-- [Sony Timecode repair not working in FCP 11.0.1 (February 5, 2025)](https://github.com/CommandPost/CommandPost/issues/3424)
 - [FCP XML issue when importing to Davinci Resolve studio 19.1 using CommandPost (December 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3409)
 - [Stuck keys on DaVinci Resolve Editors Keyboard (December 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3403)
 - [Error Message Displayed: Failed to switch back to Final Cut Pro when Batch exporting active timeline  (September 30, 2024)](https://github.com/CommandPost/CommandPost/issues/3378)
