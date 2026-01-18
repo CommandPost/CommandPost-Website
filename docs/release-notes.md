@@ -1,5 +1,30 @@
 # Release Notes
 
+### CommandPost 1.6.0
+
+**🎉 Released:**
+- Monday 19th January 2026
+
+#### 🎉 New Features
+
+- JKWTCN has added a new WebSocket Control Surfaces Panel, so you can easily trigger CommandPost actions via WebSocket messages. Thanks heaps for your contribution JKWTCN!
+
+#### 💪 Changes
+
+- Updated the CommandPost application icon for macOS Tahoe. Thanks Matthew Skiles!
+- Removed Notion Toolbox and Shot Data Toolbox.
+- Removed the in-app Feedback form. We now just link to the website.
+- Updated various website URLs.
+
+#### 🐞 Bug Fixes
+
+- Fixed a bug which caused Timeline Batch Export to generate a "Failed to get the original Filename" error on macOS Tahoe. Thanks for reporting karelkasik-droid, ok-kenji, fiona-gray, savvas215, godloveeric and many others!
+- Fixed a bug in the Sony Timecode Repair Toolbox that would show a DTD validation error on Final Cut Pro 11.0.1 and later. Thanks for reporting rileyendicott, asohawramii and many others!
+- Fixed a bug which prevented the Stream Deck Mini Button 1 from working. Thanks for reporting SungChul Kang!
+- Renée Köcher fixed a bug that prevented menubar's from updating correctly on macOS 15 Sequoia and later. Thanks Renée!
+
+---
+
 ### CommandPost 1.5.2
 
 **🎉 Released:**
