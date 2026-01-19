@@ -1,5 +1,9 @@
 # Shot Data
 
+!!!danger Danger
+This feature was removed in CommandPost v1.6.0.
+!!!
+
 ![](../static/shot-data-cover.png)
 
 ![](../static/Shot_Data_Toolbox.png)
