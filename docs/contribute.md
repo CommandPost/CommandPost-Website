@@ -155,7 +155,7 @@ Here's an example of how this looks in Markdown:
 [![](/static/caption-converter.jpg)](https://www.youtube.com/watch?v=2VOY70LfA-4)
 ```
 
-You can use [this website](https://youtube-thumbnail-grabber.com) for download YouTube Thumbnails.
+You can use [this website](https://youtube-thumbnail-grabber.com) or [Yt thumbnail downloader](https://www.pluseup.com/youtube-thumbnail-downloader) for downloading YouTube Thumbnails for both Youtube shorts and Regular Yt videos.
 
 ---
 
