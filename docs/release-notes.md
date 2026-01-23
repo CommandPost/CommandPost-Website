@@ -1,5 +1,19 @@
 # Release Notes
 
+### CommandPost 1.6.1
+
+**🎉 Released:**
+- Friday 23rd January 2026
+
+#### 🔨 Improvements
+
+- Added support for TourBox Elite and TourBox Elite Plus. Thanks for suggesting CloudK!
+- Added haptic controls for TourBox Elite and TourBox Elite Plus.
+- Removed some verbose logging from the new WebSocket Control Surfaces Panel.
+- Added "Join Discord" menu item.
+
+---
+
 ### CommandPost 1.6.0
 
 **🎉 Released:**

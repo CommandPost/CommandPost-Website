@@ -5,7 +5,7 @@ If you use CommandPost for paid/commercial work, we'd LOVE you to sponsor our co
 You can learn more [here](/sponsor).
 !!!
 
-You can download the latest **CommandPost v1.6.0** release [here](https://github.com/CommandPost/CommandPost/releases/download/1.6.0/CommandPost_1.6.0.dmg).
+You can download the latest **CommandPost v1.6.1** release [here](https://github.com/CommandPost/CommandPost/releases/download/1.6.1/CommandPost_1.6.1.dmg).
 
 You can find all previous versions of CommandPost on [GitHub](https://github.com/CommandPost/CommandPost/releases/).
 
