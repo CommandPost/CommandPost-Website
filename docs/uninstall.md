@@ -8,9 +8,9 @@ Inside the CommandPost DMG package is an uninstall application:
 
 By running this Uninstall application it will remove everything related to CommandPost, including your Preferences and Settings.
 
-If you have enabled "Enable Moving Markers", or changed the "Smart Collection Label" or "Backup Interval", you should change these settings back to their defaults prior to uninstalling CommandPost.
+If you have enabled **Enable Moving Markers**, or changed the **Smart Collection Label** or **Backup Interval**, you should change these settings back to their defaults prior to uninstalling CommandPost.
 
-If you have enabled "Waveform Drawing", "Rendering During Playback", "Show Timeline in Viewers", or "Hidden FCPXML Import/Export Options" you can trash the Final Cut Pro preferences by holding down OPTION+COMMAND when you launch Final Cut Pro to reset these values if you've already uninstalled CommandPost.
+If you have enabled **Waveform Drawing**, **Rendering During Playback**, **Show Timeline in Viewers**, or **Hidden FCPXML Import/Export Options** you can trash the Final Cut Pro preferences by holding down `OPTION+COMMAND` when you launch Final Cut Pro to reset these values if you've already uninstalled CommandPost.
 
 ---
 
