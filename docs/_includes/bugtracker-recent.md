@@ -1,3 +1,4 @@
+- [Force a built-in Command Layout when using Timeline Batch Export (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3478)
 - [Timeline Batch Export fails in German (January 20, 2026)](https://github.com/CommandPost/CommandPost/issues/3469)
 - [Loupedeck CT cant change bank correctly (August 2, 2025)](https://github.com/CommandPost/CommandPost/issues/3453)
 - [Add MPC server plugin (July 1, 2025)](https://github.com/CommandPost/CommandPost/pull/3451)
@@ -27,4 +28,3 @@
 - [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316)
 - [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299)
 - [Speed Editor Jog Wheel Doesn't Respond to Actions when moved very slowly (December 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3292)
-- [Commit Multicam Clip on Retimed Multicam clip will not work (November 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3284)
