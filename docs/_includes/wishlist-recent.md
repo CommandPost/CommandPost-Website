@@ -1,3 +1,6 @@
+- [Explore using PremiereRemote to control Adobe Premiere Pro (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3481)
+- [Automatically retrieve Excalibur actions (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3480)
+- [Bug: Using Workspace Remapper - new layouts break Stream Deck / possibly other contrrol surfaces (January 26, 2026)](https://github.com/CommandPost/CommandPost/issues/3477)
 - [Add support for TourBox Lite (January 26, 2026)](https://github.com/CommandPost/CommandPost/issues/3476)
 - [Add support for TourBox NEO (January 26, 2026)](https://github.com/CommandPost/CommandPost/issues/3475)
 - [Add Bluetooth Support for TourBox Elite (January 23, 2026)](https://github.com/CommandPost/CommandPost/issues/3474)
@@ -25,6 +28,3 @@
 - [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325)
 - [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323)
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322)
-- [Add option to disable Timeline Batch Export alert (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3321)
-- [Project Spell Checker (January 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3319)
-- [Add action to "Batch Compound Clip" (January 25, 2024)](https://github.com/CommandPost/CommandPost/issues/3318)
