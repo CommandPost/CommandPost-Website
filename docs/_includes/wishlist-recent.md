@@ -1,3 +1,6 @@
+- [Add support for TourBox Lite (January 26, 2026)](https://github.com/CommandPost/CommandPost/issues/3476)
+- [Add support for TourBox NEO (January 26, 2026)](https://github.com/CommandPost/CommandPost/issues/3475)
+- [Add Bluetooth Support for TourBox Elite (January 23, 2026)](https://github.com/CommandPost/CommandPost/issues/3474)
 - [Add support for Yamaha CC1 USB Controller (January 23, 2026)](https://github.com/CommandPost/CommandPost/issues/3473)
 - [Add support for Apple Creator Studio version of Final Cut Pro (January 23, 2026)](https://github.com/CommandPost/CommandPost/issues/3471)
 - [Add Brightness Controls for Stream Deck (January 18, 2026)](https://github.com/CommandPost/CommandPost/issues/3468)
@@ -25,6 +28,3 @@
 - [Add option to disable Timeline Batch Export alert (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3321)
 - [Project Spell Checker (January 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3319)
 - [Add action to "Batch Compound Clip" (January 25, 2024)](https://github.com/CommandPost/CommandPost/issues/3318)
-- [Add action for A/V Output selection (January 14, 2024)](https://github.com/CommandPost/CommandPost/issues/3306)
-- [SSL UF1 controller  (January 12, 2024)](https://github.com/CommandPost/CommandPost/issues/3305)
-- [Add "Open Project" Search Console which lists available projects (December 27, 2023)](https://github.com/CommandPost/CommandPost/issues/3304)
