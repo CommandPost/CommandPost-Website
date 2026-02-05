@@ -1,6 +1,6 @@
 # Sponsor CommandPost
 
-To help continue CommandPost to grow, evolve, and stay completely **free and open-source**, we offer several ways to sponsor CommandPost's development.
+To help continue CommandPost to grow, evolve, and stay **open-source**, we offer several ways to sponsor CommandPost's development.
 
 Our **preferred method** is [monthly GitHub Sponsorship](#github) - even if it's just a few dollars each month.
 

@@ -6,7 +6,9 @@
 
 <a href="https://www.buymeacoffee.com/latenitefilms" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy us a coffee &emoji=&slug=latenitefilms&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
-CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life faster and more fun.
+CommandPost is a [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life faster and more fun.
+
+After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid [LateNite application](https://fcp.cafe/latenite/) installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it). Thank you to EVERYONE who has supported CommandPost throughout these years!
 
 It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) to make it even better and more enjoyable to edit with.
 

@@ -1,5 +1,25 @@
 # Release Notes
 
+### CommandPost 2.0.0
+
+**🎉 Released:**
+- Thursday 5th February 2026
+
+#### ⚠️ Important Changes
+
+- **CommandPost v2** requires at least ONE paid LateNite App installed. After 9 years of free updates, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid LateNite application installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it). Thank you to EVERYONE who has supported CommandPost throughout these years! To use CommandPost v2 (and later) please download and install at least ONE LateNite App from the [Mac App Store](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) OR roll back to a previous version of CommandPost v1.
+
+#### 🔨 Improvements
+
+- Added support for **Final Cut Pro Creator Studio** (subscription).
+- Added support for FCPXML `v1.14`.
+
+#### 🐞 Bug Fixes
+
+- Fixed Effects Browser actions in **Final Cut Pro v12**.
+
+---
+
 ### CommandPost 1.6.1
 
 **🎉 Released:**
