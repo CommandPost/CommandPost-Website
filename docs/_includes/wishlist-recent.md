@@ -1,3 +1,4 @@
+- [Shortcut to Scale value field in the inspector (February 1, 2026)](https://github.com/CommandPost/CommandPost/issues/3483)
 - [Explore using PremiereRemote to control Adobe Premiere Pro (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3481)
 - [Automatically retrieve Excalibur actions (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3480)
 - [Bug: Using Workspace Remapper - new layouts break Stream Deck / possibly other contrrol surfaces (January 26, 2026)](https://github.com/CommandPost/CommandPost/issues/3477)
@@ -27,4 +28,3 @@
 - [Make Text to Speech Action more visible/accessible (March 5, 2024)](https://github.com/CommandPost/CommandPost/issues/3327)
 - [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325)
 - [Add option to horizontally centre the timeline (February 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3323)
-- [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322)
