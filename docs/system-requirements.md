@@ -1,6 +1,14 @@
 # System Requirements
 
-CommandPost supports **macOS Sequoia 15.1**.
+!!!success Support CommandPost
+**CommandPost v2** requires at least ONE paid LateNite App installed.<br />
+<br />
+After 9 years of free updates, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid LateNite application installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).<br />
+<br />
+Thank you to EVERYONE who has supported CommandPost throughout these years! To use CommandPost v2 (and later) please download and install at least ONE LateNite App from the [Mac App Store](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) OR roll back to a previous version of CommandPost v1.
+!!!
+
+CommandPost supports **macOS Sequoia 15.1** and later. It works great on **macOS Tahoe v26.2** and later.
 
 It has **native** support for both Intel and Apple Silicon Macs.
 
@@ -12,9 +20,11 @@ We use Apple’s built-in Accessibility API, which requires both **Accessibility
 
 The latest version of CommandPost requires **Final Cut Pro 10.6.5** or later.
 
-It works great on the latest **Final Cut Pro 11** release.
+It works great on the latest **Final Cut Pro v12** and **Final Cut Pro Creator Studio v12** releases.
 
-You can find Final Cut Pro's system requirements [here](https://www.apple.com/au/final-cut-pro/specs/).
+**We recommend always using the latest version of Final Cut Pro.**
+
+You can find Final Cut Pro's system requirements [here](https://support.apple.com/en-us/111903).
 
 ---
 

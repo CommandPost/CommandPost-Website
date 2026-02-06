@@ -1,6 +1,6 @@
 # Sponsor CommandPost
 
-To help continue CommandPost to grow, evolve, and stay **open-source**, we offer several ways to sponsor CommandPost's development.
+To help continue CommandPost to grow, evolve, and stay **open-source**, we offer several ways to sponsor CommandPost's continued development.
 
 Our **preferred method** is [monthly GitHub Sponsorship](#github) - even if it's just a few dollars each month.
 
@@ -16,7 +16,7 @@ You can "buy us a coffee" here:
 
 ### Mac App Store
 
-We also sell several useful paid Final Cut Pro tools on the Mac App Store such as:
+We also sell many useful paid Final Cut Pro tools on the Mac App Store such as:
 
 - **BRAW Toolbox** allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.
 - **Gyroflow Toolbox** allows you to import Gyroflow Projects into Apple's Final Cut Pro.
