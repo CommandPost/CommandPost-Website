@@ -1,5 +1,40 @@
 # Release Notes
 
+### CommandPost 2.0.2
+
+**🎉 Released:**
+- Sunday 8th February 2026
+
+#### 🐞 Bug Fixes
+
+- Fixed Transition Actions in **Final Cut Pro v12**. Thanks for reporting Pebowski!
+
+---
+
+### CommandPost 2.0.1
+
+**🎉 Released:**
+- Sunday 8th February 2026
+
+#### 🎉 New Feature
+
+- Added new **Focus on Scale All** action. Thanks for suggesting Iván de Paz!
+
+#### 🔨 Improvements
+
+- Updated translations for all 24 languages! Thanks team!
+- Improved how we handle things when **Final Cut Pro v12** (perpetual/lifetime), **Final Cut Pro v11.2 Free Trial** and **Final Cut Pro Creator Studio v12** (subscription) are all installed in your `/Applications` folder. CommandPost will prioritise whatever is running at the time CommandPost starts.
+- Improved the Final Cut Pro General Preferences API when using **Final Cut Pro Creator Studio** (subscription).
+- Improved Administrator Permission popups when using **Final Cut Pro Creator Studio** (subscription).
+- Updated the Monogram Plugin to work with **Final Cut Pro Creator Studio v12** (subscription).
+
+#### 🐞 Bug Fixes
+
+- Fixed Titles & Generator Actions in **Final Cut Pro v12**. Thanks for reporting Geroimparable and Pebowski!
+- Fixed Video Inspector Tint Actions. Thanks for reporting  푸쉬맨!
+
+---
+
 ### CommandPost 2.0.0
 
 **🎉 Released:**

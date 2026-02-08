@@ -10,6 +10,8 @@ CommandPost is a [open source](https://github.com/CommandPost/CommandPost/blob/d
 
 After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid [LateNite application](https://fcp.cafe/latenite/) installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it). Thank you to EVERYONE who has supported CommandPost throughout these years!
 
+You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
+
 It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) to make it even better and more enjoyable to edit with.
 
 It has **extensive** control surface support - allowing you to control your Mac anyway you want. It's also fully **native on Apple Silicon**.

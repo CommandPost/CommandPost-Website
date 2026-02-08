@@ -183,3 +183,15 @@ As CommandPost is just enabling these hidden preferences, unfortunately there's 
 However, you can still use these features if you're using Final Cut Pro 10.4.4 to 10.4.8.
 
 If you found this feature useful, please [send feedback to Apple](https://www.apple.com/feedback/finalcutpro/) explaining how you used it and why you found it useful.
+
+---
+
+### Why did you remove the Shot Data Toolbox?
+
+This feature was removed in **CommandPost v1.6.0**, as it was rarely used, and Vigneswaran Rajkumar has started work on a Swift rewrite of this functionality.
+
+---
+
+### Why did you remove the Notion Toolbox?
+
+This feature was removed in **CommandPost v1.6.0**, as it was rarely used, and Vigneswaran Rajkumar has started work on a Swift rewrite of this functionality.
