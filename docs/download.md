@@ -8,7 +8,7 @@ After 9 years of free updates, to ensure that CommandPost continues to be develo
 Thank you to EVERYONE who has supported CommandPost throughout these years! To use CommandPost v2 (and later) please download and install at least ONE LateNite App from the [Mac App Store](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) OR roll back to a previous version of CommandPost v1.
 !!!
 
-You can download the latest **CommandPost v2.0.0** release [here](https://github.com/CommandPost/CommandPost/releases/download/2.0.0/CommandPost_2.0.0.dmg).
+You can download the latest **CommandPost v2.0.1** release [here](https://github.com/CommandPost/CommandPost/releases/download/2.0.1/CommandPost_2.0.1.dmg).
 
 You can find all previous versions of CommandPost on [GitHub](https://github.com/CommandPost/CommandPost/releases/).
 

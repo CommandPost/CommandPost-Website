@@ -1331,4 +1331,4 @@
 
 Woohoo! 🎉
 
-After **78 releases*- of FCPX Hacks and **91 beta releases*- of CommandPost, we're extremely excited to announce that we're finally removing the beta label from CommandPost.
+After **78 releases** of **FCPX Hacks** and **91 beta releases** of CommandPost, we're extremely excited to announce that we're finally removing the beta label from CommandPost.
