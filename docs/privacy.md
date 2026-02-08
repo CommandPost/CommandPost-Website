@@ -6,7 +6,7 @@ By using our site and products, you consent to this privacy policy.
 
 ### Important Notes
 
-* Starting in CommandPost 1.0.7-beta.11 (11 Aug 2020) we switch from [Crashlytics](https://fabric.io) to [Sentry](https://sentry.io).
+* Starting in **CommandPost 1.0.7-beta.11** (11 Aug 2020) we switched from [Crashlytics](https://fabric.io) to [Sentry](https://sentry.io).
 * You can view our previous privacy policy [here](https://github.com/CommandPost/CommandPost-UserGuide/blob/54fe4b0358fb1fdbbce898eafa7637626cfa5931/privacy_credits/privacy_policy/README.md).
 
 ---
