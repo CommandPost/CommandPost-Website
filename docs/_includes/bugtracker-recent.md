@@ -1,3 +1,6 @@
+- [CP2.0 FCP12 loupedeck CT direct control loading error (February 7, 2026)](https://github.com/CommandPost/CommandPost/issues/3488)
+- ["Color Wheel - Tint - Nudge Down 0.1" Action Fails (February 7, 2026)](https://github.com/CommandPost/CommandPost/issues/3487)
+- [Batch Export with FCP Creator Studio (February 6, 2026)](https://github.com/CommandPost/CommandPost/issues/3486)
 - [Force a built-in Command Layout when using Timeline Batch Export (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3478)
 - [Timeline Batch Export fails in German (January 20, 2026)](https://github.com/CommandPost/CommandPost/issues/3469)
 - [Loupedeck CT cant change bank correctly (August 2, 2025)](https://github.com/CommandPost/CommandPost/issues/3453)
@@ -25,6 +28,3 @@
 - [Unmount external drives when switching to battery power is not working (April 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3335)
 - [Main screen not updating on Loupedeck CT (Hardware Version 02.00) (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328)
 - [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326)
-- [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316)
-- [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299)
-- [Speed Editor Jog Wheel Doesn't Respond to Actions when moved very slowly (December 10, 2023)](https://github.com/CommandPost/CommandPost/issues/3292)
