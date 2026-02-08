@@ -1,6 +1,5 @@
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322)
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247)
-- [Shortcut to Scale value field in the inspector (February 1, 2026)](https://github.com/CommandPost/CommandPost/issues/3483)
 - [Explore using PremiereRemote to control Adobe Premiere Pro (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3481)
 - [Automatically retrieve Excalibur actions (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3480)
 - [Bug: Using Workspace Remapper - new layouts break Stream Deck / possibly other contrrol surfaces (January 26, 2026)](https://github.com/CommandPost/CommandPost/issues/3477)
@@ -28,3 +27,4 @@
 - [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332)
 - [Commit Multicam - Add option with audio (March 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3329)
 - [Make Text to Speech Action more visible/accessible (March 5, 2024)](https://github.com/CommandPost/CommandPost/issues/3327)
+- [Disconnect from Speed Editor when sleeping (February 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3325)
