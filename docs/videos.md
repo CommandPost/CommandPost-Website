@@ -1,7 +1,12 @@
 # Videos
 
+Here's our favourite video from the community:
+
+[![](/static/arthur-moore-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA)
+
 Here’s a collection of awesome videos made by members of our community in English:
 
+- [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0)
 - [Ripple Training: Color Grading in Final Cut with Monogram Creating Console](https://www.youtube.com/watch?v=MmG8bhJjdB0)
 - [Chadeveryday: Batch Export Clips in FCPX](https://www.youtube.com/watch?v=mLkxzpRbYh8)
 - [Matthew O'Brien: Edit & Color Grade FASTER with Monogram's Video Console in Final Cut Pro](https://www.youtube.com/watch?v=p7iyAvGk0lk)
@@ -15,7 +20,6 @@ Here’s a collection of awesome videos made by members of our community in Engl
 - [LVUP with Monogram - Final Cut Pro setup via CommandPost](https://www.youtube.com/watch?v=DYndh74Fa7U)
 - [Live Demo: Monogram Creative Console + Final Cut Pro](https://www.youtube.com/watch?v=sR7_TZQaZ9w)
 - [Serge M demoes CommandPost](https://www.youtube.com/watch?v=yYCNVb24kR8)
-- [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0)
 - [How to Hack the Touch Bar on the MacBook Pro using CommandPost](https://www.youtube.com/watch?v=Wf7MZ2MjgkA)
 - [Creative Techniques #12: MIDI Color Correction with CommandPost](https://www.youtube.com/watch?v=V4YvDeOtpGc)
 - [Batch Export FCPX browser clips using CommandPost](https://www.youtube.com/watch?v=FXzoeAUWMe4)

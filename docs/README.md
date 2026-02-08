@@ -4,11 +4,11 @@
 
 **The Swiss Army Knife for Post Production Professionals**
 
-<a href="https://www.buymeacoffee.com/latenitefilms" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy us a coffee &emoji=&slug=latenitefilms&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
-
 CommandPost is a [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life faster and more fun.
 
-After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid [LateNite application](https://fcp.cafe/latenite/) installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it). Thank you to EVERYONE who has supported CommandPost throughout these years!
+After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least **ONE** paid [LateNite application](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).
+
+The cheapest option is only **USD$10**. Thank you to EVERYONE who has supported CommandPost throughout these years!
 
 You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
 
@@ -25,6 +25,16 @@ It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at
 All of the 2024 and 2025 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
 
 ![](../static/commandpost-hero.png)
+
+---
+
+### Used by Professionals
+
+Rather than produce our own video tutorials - CommandPost is so popular that the community does it for us!
+
+Watch this awesome introduction video by Arthur Moore on [YouTube](https://www.youtube.com/watch?v=2IkCYS9Svrw) on 14th September 2019:
+
+[![](/static/arthur-moore-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA)
 
 ---
 
