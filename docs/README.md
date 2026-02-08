@@ -4,7 +4,11 @@
 
 **The Swiss Army Knife for Post Production Professionals**
 
-CommandPost is a [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life faster and more fun.
+CommandPost is a [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life **faster** and **lots more fun** (everything better with more buttons!).
+
+It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
+
+All of the 2024 and 2025 **Apple Worldwide Developer Conference (WWDC)** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
 
 After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least **ONE** paid [LateNite application](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).
 
@@ -19,10 +23,6 @@ It has **extensive** control surface support - allowing you to control your Mac 
 It's been downloaded over **[277 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost)**, and there are over **[3 thousands members](https://www.facebook.com/groups/commandpost/members)** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 We also have a rapidly growing [Discord community](https://ltnt.tv/discord) full of industry veterans and professionals.
-
-It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
-
-All of the 2024 and 2025 **Apple WWDC** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
 
 ![](../static/commandpost-hero.png)
 
