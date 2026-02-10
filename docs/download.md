@@ -14,7 +14,7 @@ Thank you to **EVERYONE** who has supported CommandPost throughout these years! 
 You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
 !!!
 
-You can download the latest **CommandPost v2.0.2** release [here](https://github.com/CommandPost/CommandPost/releases/download/2.0.2/CommandPost_2.0.2.dmg).
+You can download the latest **CommandPost v2.0.4** release [here](https://github.com/CommandPost/CommandPost/releases/download/2.0.4/CommandPost_2.0.4.dmg).
 
 You can find the source code to previous versions of CommandPost on [GitHub](https://github.com/CommandPost/CommandPost/releases/).
 
