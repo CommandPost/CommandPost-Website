@@ -1,5 +1,6 @@
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322)
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247)
+- [Spin off CommandPost Workflow Extension into it's own paid application (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3495)
 - [Build a better Uninstall Tool for CommandPost (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3494)
 - [Add Avid Media Composer Panel (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3493)
 - [Navigate with middle mouse button (February 8, 2026)](https://github.com/CommandPost/CommandPost/issues/3489)
@@ -27,4 +28,3 @@
 - [Add relative MIDI controls for scale & position (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3369)
 - [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356)
 - [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348)
-- [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332)
