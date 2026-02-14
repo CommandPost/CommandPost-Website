@@ -4,7 +4,7 @@
 
 **The Swiss Army Knife for Post Production Professionals**
 
-CommandPost is a [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life **faster** and **lots more fun** (everything better with more buttons!).
+CommandPost is a [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that makes your post production and editing life **faster** and **lots more fun** (everything is better with more buttons!). 🎛️
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
@@ -12,7 +12,9 @@ All of the 2024 and 2025 **Apple Worldwide Developer Conference (WWDC)** videos 
 
 After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least **ONE** paid [LateNite application](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).
 
-The cheapest option is only **USD$10**. Thank you to EVERYONE who has supported CommandPost throughout these years!
+The cheapest option is only **USD$10** - although we think [Marker Toolbox](https://markertoolbox.fcp.cafe) is the most useful application of the bunch.
+
+Thank you to EVERYONE who has supported CommandPost throughout these years!
 
 You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
 

@@ -28,7 +28,7 @@
 **🎉 Released:**
 - Sunday 8th February 2026
 
-**🐞 Bug Fixes**
+**🐞 Bug Fix**
 - Fixed Transition Actions in **Final Cut Pro v12**. Thanks for reporting Pebowski!
 
 ---

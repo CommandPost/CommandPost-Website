@@ -2,6 +2,16 @@
 
 ### Why is CommandPost no longer free?
 
+!!!tip
+**CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store.**\
+\
+The cheapest options are [Fast Collections](https://fastcollections.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe), [LUT Robot](https://lutrobot.fcp.cafe), [News Import](https://newsimport.fcp.cafe), [Recall Toolbox](https://recalltoolbox.fcp.cafe) and [Transfer Toolbox](https://transfertoolbox.fcp.cafe) - all **USD$9.99**.\
+\
+All our applications on the Mac App Store support Family Sharing, and offer a reduced price on the Apple School Manager for volume purchases.\
+\
+**CommandPost remains open source - and you can build it yourself.**
+!!!
+
 Back on 15th September 2016, **FCPX Hacks** was born into the world. You can read the origin story [on this old blog post](https://fcp.cafe/blog/final-cut-pro-hacks/#original-blog-post-15th-september-2016).
 
 I wrote:
