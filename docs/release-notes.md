@@ -1,5 +1,17 @@
 # Release Notes
 
+### CommandPost 2.0.5
+
+**🎉 Released:**
+- Friday 20th February 2026
+
+**🔨 Improvements**
+- ScriptStar can now "unlock" CommandPost.
+- The Uninstaller has been rewritten in Swift. Thanks to [Matthew Skiles](https://matthewskiles.com/) for the awesome new icon!
+- We've added much more verbose logging for the menubar scanner, to help work out applications that might be slowing down the scanning process.
+
+---
+
 ### CommandPost 2.0.4
 
 **🎉 Released:**
