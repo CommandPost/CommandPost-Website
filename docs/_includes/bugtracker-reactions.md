@@ -1,3 +1,4 @@
+- [Investigate AUDIO_UNITS_CACHE_PATH (February 16, 2026)](https://github.com/CommandPost/CommandPost/issues/3497)
 - [CommandPost Timeline Zoom with Mouse Wheel Not Working in Final Cut Pro (February 11, 2026)](https://github.com/CommandPost/CommandPost/issues/3496)
 - [Force a built-in Command Layout when using Timeline Batch Export (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3478)
 - [Timeline Batch Export fails in German (January 20, 2026)](https://github.com/CommandPost/CommandPost/issues/3469)
@@ -27,4 +28,3 @@
 - [Main screen not updating on Loupedeck CT (Hardware Version 02.00) (March 6, 2024)](https://github.com/CommandPost/CommandPost/issues/3328)
 - [HUD will break actions with virtual mouse clicks if it's sitting on top of Final Cut Pro (February 28, 2024)](https://github.com/CommandPost/CommandPost/issues/3326)
 - [Investigate Strings Scanning Errors in Final Cut Pro 10.7.1 (January 22, 2024)](https://github.com/CommandPost/CommandPost/issues/3316)
-- [CP doesn't clear the search term when adding something via the CP console (December 16, 2023)](https://github.com/CommandPost/CommandPost/issues/3299)
