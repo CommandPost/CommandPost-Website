@@ -1,7 +1,7 @@
+- [Make hiding columns in the FCP Index sticky (February 21, 2026)](https://github.com/CommandPost/CommandPost/issues/3499)
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322)
 - [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247)
 - [Spin off CommandPost Workflow Extension into it's own paid application (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3495)
-- [Build a better Uninstall Tool for CommandPost (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3494)
 - [Add Avid Media Composer Panel (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3493)
 - [Navigate with middle mouse button (February 8, 2026)](https://github.com/CommandPost/CommandPost/issues/3489)
 - [Explore using PremiereRemote to control Adobe Premiere Pro (January 27, 2026)](https://github.com/CommandPost/CommandPost/issues/3481)
