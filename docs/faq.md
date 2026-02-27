@@ -5,7 +5,9 @@
 !!!tip
 **CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store.**\
 \
-The cheapest options are [Fast Collections](https://fastcollections.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe), [LUT Robot](https://lutrobot.fcp.cafe), [News Import](https://newsimport.fcp.cafe), [Recall Toolbox](https://recalltoolbox.fcp.cafe) and [Transfer Toolbox](https://transfertoolbox.fcp.cafe) - all **USD$9.99**.\
+The cheapest options are [ScriptStar](https://scriptstar.fcp.cafe), [Fast Collections](https://fastcollections.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe), [LUT Robot](https://lutrobot.fcp.cafe), [News Import](https://newsimport.fcp.cafe), [Recall Toolbox](https://recalltoolbox.fcp.cafe) and [Transfer Toolbox](https://transfertoolbox.fcp.cafe) - all **USD$9.99**.\
+\
+You can find a list of all our applications on the [Mac App Store](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641).
 \
 All our applications on the Mac App Store support Family Sharing, and offer a reduced price on the Apple School Manager for volume purchases.\
 \

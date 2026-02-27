@@ -1,20 +1,16 @@
 # Download
 
-!!!warning Important Change
-**CommandPost v2** now requires at least **ONE PAID** [LateNite](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) application installed.<br />
-<br />
-After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid [LateNite](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) application installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).<br />
-<br />
-To use **CommandPost v2** please download and install at least **ONE** [LateNite](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641) application from the [Mac App Store](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641).<br />
-<br />
-There are several applications for sale at **USD$9.99**.<br />
-<br />
-Alternatively, you can always stay on **CommandPost v1** without updating (you can turn off **Automatically Check for Updates** in the CommandPost's **General Preferences**), or build CommandPost yourself in [Xcode](https://github.com/CommandPost/CommandPost), as it remains completely open source.<br />
-<br />
-If you're a film student, indie filmmaker, or you're under financial stress, also feel free to reach out via Discord.<br />
-<br />
-Thank you to **EVERYONE** who has supported CommandPost throughout these years! Onwards & Upwards!<br />
-<br />
+!!!tip
+**CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store.**\
+\
+The cheapest options are [ScriptStar](https://scriptstar.fcp.cafe), [Fast Collections](https://fastcollections.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe), [LUT Robot](https://lutrobot.fcp.cafe), [News Import](https://newsimport.fcp.cafe), [Recall Toolbox](https://recalltoolbox.fcp.cafe) and [Transfer Toolbox](https://transfertoolbox.fcp.cafe) - all **USD$9.99**.\
+\
+You can find a list of all our applications on the [Mac App Store](https://apps.apple.com/au/developer/latenite-films-pty-ltd/id1652018641).
+\
+All our applications on the Mac App Store support Family Sharing, and offer a reduced price on the Apple School Manager for volume purchases.\
+\
+**CommandPost remains open source - and you can build it yourself.**\
+\
 You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
 !!!
 
