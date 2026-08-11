@@ -1,0 +1,118 @@
+# cp.apple.finalcutpro.inspector.BasePanel
+
+A base class for the different panels in the [Inspector](cp.apple.finalcutpro.inspector.Inspector.md).
+
+Extends [Element](cp.ui.Element.md).
+
+---
+
+## API Overview
+**Constructors** - _API calls which return an object, typically one that offers API methods_
+ * [BasePanel](#basepanel)
+
+**Methods** - _API calls which can only be made on an object returned by a constructor_
+ * [doShow](#doshow)
+ * [hide](#hide)
+ * [panelType](#paneltype)
+ * [show](#show)
+
+---
+
+## API Documentation
+
+#### Constructors
+
+### [BasePanel](#basepanel)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel(parent, panelType) -> BasePanel`                                                                    |
+| **Type**                                    | Constructor                                                                     |
+| **Description**                             | Constructs the panel, initialising the parent and the [UI](cp.ui.Element.md#UI).                                                                     |
+| **Parameters**                              | <ul><li>parent        - The parent [Element](cp.ui.Element.md).</li><li>panelType     - The panel type string, as defined in [Inspector.INSPECTOR_TABS](cp.apple.finalcutpro.inspector.Inspector.md#INSPECTOR_TABS).</li></ul> |
+| **Returns**                                 | <ul><li>The new `BasePanel` instance.</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L16) |
+
+---
+
+#### Methods
+
+### [doShow](#doshow)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:doShow() -> cp.rx.go.Statment`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | A [Statement](cp.rx.go.Statement.md) that hides the panel.                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful and sending an error if not.</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L101) |
+
+---
+
+### [hide](#hide)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:hide() -> none`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Hides the panel.                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>None</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L85) |
+
+---
+
+### [panelType](#paneltype)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:panelType() -> string`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Gets the type of panel this is.                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>The panel type identifier.</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L41) |
+
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel:show() -> none`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Shows the panel.                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>None</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L54) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

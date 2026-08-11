@@ -1,0 +1,71 @@
+# cp.highland2.Sidebar
+
+Represents the sidebar for a document opened in Highland.
+
+---
+
+## API Overview
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
+ * [document](#document)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
+
+---
+
+## API Documentation
+
+#### Fields
+
+### [document](#document)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.highland2.Sidebar.document <cp.highland2.Document>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The [Document](cp.highland2.Document.md) this `Sidebar` belongs to.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L19) |
+
+---
+
+### [doHide](#dohide)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.highland2.Sidebar.doHide <cp.rx.go.Statement>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to hide the Sidebar, if possible.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L35) |
+
+---
+
+### [doShow](#doshow)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.highland2.Sidebar.doShow <cp.rx.go.Statement>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to show the Sidebar, if possible.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/highland2/Sidebar.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Sidebar.lua#L26) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

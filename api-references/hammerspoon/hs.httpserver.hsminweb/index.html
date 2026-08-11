@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825540135771">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.839746225756">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.0.1">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>hs.httpserver.hsminweb</title>
@@ -16,6 +16,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://commandpost.fcp.cafe/api-references/hammerspoon/hs.httpserver.hsminweb/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://commandpost.fcp.cafe/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -25,14 +26,23 @@
     <meta property="og:site_name" content="CommandPost">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://commandpost.fcp.cafe/api-references/hammerspoon/hs.httpserver.hsminweb/">
+    <meta name="twitter:title" content="hs.httpserver.hsminweb">
+    <meta name="twitter:description" content="Minimalist Web Server for Hammerspoon">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://commandpost.fcp.cafe/api-references/hammerspoon/hs.httpserver.hsminweb.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.0.1.825540135771" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.839746225756" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.0.1.825540135771" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.0.1.825540135771" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.839746225756" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.839746225756" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -89,10 +99,9 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://commandpost.fcp.cafe/" class="flex items-center leading-snug text-2xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="../../../static/logo.png">
+                            <img class="max-h-10 md:inline-block" src="../../../static/logo.png" alt="" width="40" height="40">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">CommandPost</span>
                     </a>
@@ -107,70 +116,56 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../download/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
                                 </svg>
                                 <span>Download</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../wishlist/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
                                 </svg>
                                 <span>Wish List</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../bugtracker/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
                                 </svg>
                                 <span>Bug Tracker</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                 </svg>
                                 <span>Discord</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                 </svg>
                                 <span>Discussions</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
                                 </svg>
                                 <span>FCP Cafe</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
                                 </svg>
                                 <span>LateNite</span>
                             </a>
@@ -220,70 +215,56 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../download/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
                                         </svg>
                                         <span>Download</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../wishlist/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M13.349 2.378a.748.748 0 0 1 .808-.361l.127.027a3.875 3.875 0 0 1 2.879 4.97L16.527 9h1.137c2.645 0 4.513 2.591 3.676 5.1l-1.559 4.678A3.25 3.25 0 0 1 16.698 21h-5.289a4.503 4.503 0 0 1-2.828-.999A1.75 1.75 0 0 1 7 21H4.75A1.75 1.75 0 0 1 3 19.25v-8.5C3 9.784 3.784 9 4.75 9h4.67a.251.251 0 0 0 .217-.126l3.712-6.496ZM8.75 18.16l.683.598a3.003 3.003 0 0 0 1.976.742h5.289a1.75 1.75 0 0 0 1.66-1.197l1.559-4.677a2.375 2.375 0 0 0-2.253-3.126H15.5a.75.75 0 0 1-.714-.979l.948-2.964a2.375 2.375 0 0 0-1.373-2.927l-3.422 5.988a1.749 1.749 0 0 1-1.519.882h-.67v7.66Zm-1.5-7.66h-2.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25H7a.25.25 0 0 0 .25-.25V10.5Z"/>
                                         </svg>
                                         <span>Wish List</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../bugtracker/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M7.72.22a.75.75 0 0 1 1.06 0l1.204 1.203A4.98 4.98 0 0 1 12 1c.717 0 1.4.151 2.016.423L15.22.22a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-.971.972A4.991 4.991 0 0 1 17 6v1.104a2.755 2.755 0 0 1 1.917 1.974l1.998-.999a.75.75 0 0 1 .67 1.342L19 10.714V13.5l3.25.003a.75.75 0 0 1 0 1.5L19 15.001V16c0 .568-.068 1.134-.204 1.686l.04.018 2.75 1.375a.75.75 0 1 1-.671 1.342l-2.638-1.319A6.998 6.998 0 0 1 12 23a6.998 6.998 0 0 1-6.197-3.742l-2.758 1.181a.752.752 0 0 1-1.064-.776.752.752 0 0 1 .474-.602l2.795-1.199A6.976 6.976 0 0 1 5 16v-.996H1.75a.75.75 0 0 1 0-1.5H5v-2.79L2.415 9.42a.75.75 0 0 1 .67-1.342l1.998.999A2.756 2.756 0 0 1 7 7.104V6a4.99 4.99 0 0 1 1.69-3.748l-.97-.972a.75.75 0 0 1 0-1.06ZM6.5 9.75V16a5.5 5.5 0 1 0 11 0V9.75c0-.69-.56-1.25-1.25-1.25h-8.5c-.69 0-1.25.56-1.25 1.25ZM8.5 7h7V6a3.5 3.5 0 1 0-7 0Z"/>
                                         </svg>
                                         <span>Bug Tracker</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                         </svg>
                                         <span>Discord</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
                                         </svg>
                                         <span>Discussions</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
                                         </svg>
                                         <span>FCP Cafe</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
                                         </svg>
                                         <span>LateNite</span>
                                     </a>
@@ -301,7 +282,7 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
@@ -338,13 +319,10 @@
                     </ol>
                 </nav>
 
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
-<doc-anchor-target id="hshttpserverhsminweb" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#hshttpserverhsminweb">#</doc-anchor-trigger>
-        <span>hs.httpserver.hsminweb</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="hshttpserverhsminweb">hs.httpserver.hsminweb</h1>
 <p>Minimalist Web Server for Hammerspoon</p>
 <p>This module aims to be a minimal, but (mostly) standards-compliant web server for use within Hammerspoon.  Expanding upon the Hammerspoon module, <code translate="no" v-pre>hs.httpserver</code>, this module adds support for serving static pages stored at a specified document root as well as serving dynamic content from Lua Template Files interpreted within the Hammerspoon environment and external executables which support the CGI/1.1 framework.</p>
 <p>This module aims to provide a fully functional, and somewhat extendable, web server foundation, but will never replace a true dedicated web server application.  Some limitations include:</p>
@@ -358,22 +336,12 @@
 <p>You can start this web server by typing the following into your Hammerspoon console:
 <code translate="no" v-pre>require(&quot;hs.doc.hsdocs&quot;).start()</code> and then visiting <code translate="no" v-pre>http://localhost:12345/</code> with your web browser.</p>
 <hr>
-<doc-anchor-target id="submodules">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#submodules">#</doc-anchor-trigger>
-        <span>Submodules</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="submodules">Submodules</h2>
 <ul>
 <li><a href="../hs.httpserver.hsminweb.cgilua/">hs.httpserver.hsminweb.cgilua</a></li>
 </ul>
 <hr>
-<doc-anchor-target id="api-overview">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
-        <span>API Overview</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="api-overview">API Overview</h2>
 <p><strong>Constants</strong> - <em>Useful values which cannot be changed</em></p>
 <ul>
 <li><doc-anchor-trigger to="#dateformatstring">dateFormatString</doc-anchor-trigger></li>
@@ -419,30 +387,22 @@
 <li><doc-anchor-trigger to="#stop">stop</doc-anchor-trigger></li>
 </ul>
 <hr>
-<doc-anchor-target id="api-documentation">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
-        <span>API Documentation</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="constants">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
-        <span>Constants</span>
-    </h4>
-</doc-anchor-target>
-<doc-anchor-target id="dateformatstring">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#dateformatstring">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#dateformatstring">dateFormatString</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h2 id="api-documentation">API Documentation</h2>
+<h4 id="constants">Constants</h4>
+<h3 id="dateformatstring"><doc-anchor-trigger to="#dateformatstring">dateFormatString</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb.dateFormatString`                                                                    |
+| **Type**                                    | Constant                                                                     |
+| **Description**                             | A format string, usable with `os.date`, which will display a date in the format expected for HTTP communications as described in RFC 822, updated by RFC 1123.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1592](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1592) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -464,24 +424,27 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1592" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1592</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1592" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1592</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="statuscodes">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#statuscodes">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#statuscodes">statusCodes</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="statuscodes"><doc-anchor-trigger to="#statuscodes">statusCodes</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb.statusCodes`                                                                    |
+| **Type**                                    | Constant                                                                     |
+| **Description**                             | HTTP Response Status Codes                                                                     |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;The keys and labels in this table have been combined from a variety of sources including, but not limited to:&lt;/li&gt;&lt;li&gt;  &quot;Official&quot; list at https://en.wikipedia.org/wiki/List_of_HTTP_status_codes&lt;/li&gt;&lt;li&gt;  KeplerProject's wsapi at https://github.com/keplerproject/wsapi&lt;/li&gt;&lt;li&gt;  IIS additions from https://support.microsoft.com/en-us/kb/943891&lt;/li&gt;&lt;li&gt;This table has metatable additions which allow you to review its contents from the Hammerspoon console by typing `hs.httpserver.hsminweb.statusCodes`&lt;/li&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1644](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1644) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -499,34 +462,32 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td><ul><li>The keys and labels in this table have been combined from a variety of sources including, but not limited to:</li><li>  &quot;Official&quot; list at <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" class="outbound" target="_blank"><span>https://en.wikipedia.org/wiki/List_of_HTTP_status_codes</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li>  KeplerProject&#x27;s wsapi at <a href="https://github.com/keplerproject/wsapi" class="outbound" target="_blank"><span>https://github.com/keplerproject/wsapi</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li>  IIS additions from <a href="https://support.microsoft.com/en-us/kb/943891" class="outbound" target="_blank"><span>https://support.microsoft.com/en-us/kb/943891</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li>This table has metatable additions which allow you to review its contents from the Hammerspoon console by typing <code translate="no" v-pre>hs.httpserver.hsminweb.statusCodes</code></li></ul></td>
+<td><ul><li>The keys and labels in this table have been combined from a variety of sources including, but not limited to:</li><li>  &quot;Official&quot; list at <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" class="outbound" target="_blank"><span>https://en.wikipedia.org/wiki/List_of_HTTP_status_codes</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li>  KeplerProject&#x27;s wsapi at <a href="https://github.com/keplerproject/wsapi" class="outbound" target="_blank"><span>https://github.com/keplerproject/wsapi</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li>  IIS additions from <a href="https://support.microsoft.com/en-us/kb/943891" class="outbound" target="_blank"><span>https://support.microsoft.com/en-us/kb/943891</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li><li>This table has metatable additions which allow you to review its contents from the Hammerspoon console by typing <code translate="no" v-pre>hs.httpserver.hsminweb.statusCodes</code></li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1644" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1644</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1644" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1644</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="variables">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#variables">#</doc-anchor-trigger>
-        <span>Variables</span>
-    </h4>
-</doc-anchor-target>
-<doc-anchor-target id="_accesslog">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#_accesslog">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#_accesslog">_accessLog</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h4 id="variables">Variables</h4>
+<h3 id="_accesslog"><doc-anchor-trigger to="#_accesslog">_accessLog</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb._accessLog`                                                                    |
+| **Type**                                    | Variable                                                                     |
+| **Description**                             | Accessed as `self._accessLog`.  If query logging is enabled for the web server, an Apache style common log entry will be appended to this string for each request.  See [hs.httpserver.hsminweb:queryLogging](#queryLogging).                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1552](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1552) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -548,24 +509,27 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1552" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1552</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1552" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1552</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="_errorhandlers">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#_errorhandlers">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#_errorhandlers">_errorHandlers</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="_errorhandlers"><doc-anchor-trigger to="#_errorhandlers">_errorHandlers</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb._errorHandlers`                                                                    |
+| **Type**                                    | Variable                                                                     |
+| **Description**                             | Accessed as `self._errorHandlers[errorCode]`.  A table whose keyed entries specify the function to generate the error response page for an HTTP error.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1556](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1556) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -587,24 +551,27 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1556" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1556</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1556" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1556</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="_serveradmin">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#_serveradmin">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#_serveradmin">_serverAdmin</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="_serveradmin"><doc-anchor-trigger to="#_serveradmin">_serverAdmin</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb._serverAdmin`                                                                    |
+| **Type**                                    | Variable                                                                     |
+| **Description**                             | Accessed as `self._serverAdmin`.  A string containing the administrator for the web server.  Defaults to the currently logged in user's short form username and the computer's localized name as returned by `hs.host.localizedName()` (e.g. &quot;user@computer&quot;).                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1546](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1546) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -626,24 +593,27 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1546" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1546</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1546" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1546</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="_supportmethods">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#_supportmethods">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#_supportmethods">_supportMethods</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="_supportmethods"><doc-anchor-trigger to="#_supportmethods">_supportMethods</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb._supportMethods`                                                                    |
+| **Type**                                    | Variable                                                                     |
+| **Description**                             | Accessed as `self._supportMethods[method]`.  A table whose keyed entries specify whether or not a specified HTTP method is supported by this server.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1574](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1574) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -665,24 +635,27 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1574" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1574</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1574" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1574</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="log">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#log">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#log">log</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="log"><doc-anchor-trigger to="#log">log</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb.log`                                                                    |
+| **Type**                                    | Variable                                                                     |
+| **Description**                             | The `hs.logger` instance for the `hs.httpserver.hsminweb` module. See the documentation for `hs.logger` for more information.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1639](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1639) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -704,30 +677,31 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1639" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1639</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1639" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1639</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="functions">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
-        <span>Functions</span>
-    </h4>
-</doc-anchor-target>
-<doc-anchor-target id="formatteddate">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#formatteddate">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#formatteddate">formattedDate</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h4 id="functions">Functions</h4>
+<h3 id="formatteddate"><doc-anchor-trigger to="#formatteddate">formattedDate</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb.formattedDate([date]) -&gt; string`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Returns the current or specified time in the format expected for HTTP communications as described in RFC 822, updated by RFC 1123.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;date - an optional integer specifying the date as the number of seconds since 00:00:00 UTC on 1 January 1970.  Defaults to the current time as returned by `os.time()`&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the time indicated as a string in the format expected for HTTP communications as described in RFC 822, updated by RFC 1123.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1597](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1597) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -761,24 +735,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1597" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1597</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1597" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1597</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="urlparts">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#urlparts">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#urlparts">urlParts</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="urlparts"><doc-anchor-trigger to="#urlparts">urlParts</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb.urlParts(url) -&gt; table`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Parse the specified URL into its constituent parts.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;url - the url to parse&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;a table containing the constituent parts of the provided url.  The table will contain one or more of the following key-value pairs:&lt;/li&gt;&lt;li&gt;  fragment           - the anchor name a URL refers to within an HTML document.  Appears after '#' at the end of a URL.  Note that not all web clients include this in an HTTP request since its normal purpose is to indicate where to scroll to within a page after the content has been retrieved.&lt;/li&gt;&lt;li&gt;  host               - the host name portion of the URL, if any&lt;/li&gt;&lt;li&gt;  lastPathComponent  - the last component of the path portion of the URL&lt;/li&gt;&lt;li&gt;  password           - the password specified in the URL.  Note that this is not the password that would be entered when using Basic or Digest authentication; rather it is a password included in the URL itself -- for security reasons, use of this field has been deprecated in most situations and modern browsers will often prompt for confirmation before allowing URL's which contain a password to be transmitted.&lt;/li&gt;&lt;li&gt;  path               - the full path specified in the URL&lt;/li&gt;&lt;li&gt;  pathComponents     - an array containing the path components as individual strings.  Components which specify a sub-directory of the path will end with a &quot;/&quot; character.&lt;/li&gt;&lt;li&gt;  pathExtension      - if the final component of the path refers to a file, the file's extension, if any.&lt;/li&gt;&lt;li&gt;  port               - the port specified in the URL, if any&lt;/li&gt;&lt;li&gt;  query              - the portion of the URL after a '?' character, if any; used to contain query information often from a form submitting it's input with the GET method.&lt;/li&gt;&lt;li&gt;  resourceSpecifier  - the portion of the URL after the scheme&lt;/li&gt;&lt;li&gt;  scheme             - the URL scheme; for web traffic, this will be &quot;http&quot; or &quot;https&quot;&lt;/li&gt;&lt;li&gt;  standardizedURL    - the URL with any path components of &quot;..&quot; or &quot;.&quot; normalized.  The use of &quot;..&quot; that would cause the URL to refer to something preceding its root is simply removed.&lt;/li&gt;&lt;li&gt;  URL                - the URL as it was provided to this function (no changes)&lt;/li&gt;&lt;li&gt;  user               - the user name specified in the URL.  Note that this is not the user name that would be entered when using Basic or Digest authentication; rather it is a user name included in the URL itself -- for security reasons, use of this field has been deprecated in most situations and modern browsers will often prompt for confirmation before allowing URL's which contain a user name to be transmitted.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;This function differs from the similar function `hs.http.urlParts` in a few ways:&lt;/li&gt;&lt;li&gt;  To simplify the logic used by this module to determine if a request for a directory is properly terminated with a &quot;/&quot;, the path components returned by this function do not remove this character from the component, if present.&lt;/li&gt;&lt;li&gt;  Some extraneous or duplicate keys have been removed.&lt;/li&gt;&lt;li&gt;  This function is patterned after RFC 3986 while `hs.http.urlParts` uses OS X API functions which are patterned after RFC 1808. RFC 3986 obsoletes 1808.  The primary distinction that affects this module is in regards to `parameters` for path components in the URI -- RFC 3986 disallows them in schema based URI's (like the URL's that are used for web based traffic).&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1608](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1608) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -812,30 +792,31 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1608" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1608</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1608" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1608</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="constructors">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
-        <span>Constructors</span>
-    </h4>
-</doc-anchor-target>
-<doc-anchor-target id="new">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#new">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#new">new</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h4 id="constructors">Constructors</h4>
+<h3 id="new"><doc-anchor-trigger to="#new">new</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb.new([documentRoot]) -&gt; hsminwebTable`                                                                    |
+| **Type**                                    | Constructor                                                                     |
+| **Description**                             | Create a new hsminweb table object representing a Hammerspoon Web Server.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;documentRoot - an optional string specifying the document root for the new web server.  Defaults to the Hammerspoon users `Sites` sub-directory (i.e. `os.getenv(&quot;HOME&quot;)..&quot;/Sites&quot;`).&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;a table representing the hsminweb object.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;a web server's document root is the directory which contains the documents or files to be served by the web server.&lt;/li&gt;&lt;li&gt;while an hs.minweb object is actually represented by a Lua table, it has been assigned a meta-table which allows methods to be called directly on it like a user-data object.  For most purposes, you should think of this table as the module's userdata.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1505](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1505) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -869,30 +850,31 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1505" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1505</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1505" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1505</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="methods">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
-        <span>Methods</span>
-    </h4>
-</doc-anchor-target>
-<doc-anchor-target id="accesslist">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accesslist">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#accesslist">accessList</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h4 id="methods">Methods</h4>
+<h3 id="accesslist"><doc-anchor-trigger to="#accesslist">accessList</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:accessList([table]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the access-list table for the hsminweb web server                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;table - an optional table or `nil` containing the access list for the web server, default `nil`.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;The access-list feature works by comparing the request headers against a list of tests which either accept or reject the request.  If no access list is set (i.e. it is assigned a value of `nil`), then all requests are served.  If a table is passed into this method, then any request which is not explicitly accepted by one of the tests provided is rejected (i.e. there is an implicit &quot;reject&quot; at the end of the list).&lt;/li&gt;&lt;li&gt;The access-list table is a list of tests which are evaluated in order.  The first test which matches a given request determines whether or not the request is accepted or rejected.&lt;/li&gt;&lt;li&gt;Each entry in the access-list table is also a table with the following format:&lt;/li&gt;&lt;li&gt;  { 'header', 'value', isPattern, isAccepted }&lt;/li&gt;&lt;li&gt;    header     - a string value matching the name of a header.  While the header name must match exactly, the comparison is case-insensitive (i.e. &quot;X-Remote-addr&quot; and &quot;x-remote-addr&quot; will both match the actual header name used, which is &quot;X-Remote-Addr&quot;).&lt;/li&gt;&lt;li&gt;    value      - a string value specifying the value to compare the header key's value to.&lt;/li&gt;&lt;li&gt;    isPattern  - a boolean indicating whether or not the header key's value should be compared to `value` as a pattern match (true) -- see Lua documentation 6.4.1, `help.lua._man._6_4_1` in the console, or as an exact match (false)&lt;/li&gt;&lt;li&gt;    isAccepted - a boolean indicating whether or not a match should be accepted (true) or rejected (false)&lt;/li&gt;&lt;li&gt;  A special entry of the form { '\*', '\*', '\*', true } accepts all further requests and can be used as the final entry if you wish for the access list to function as a list of requests to reject, but to accept any requests which do not match a previous test.&lt;/li&gt;&lt;li&gt;  A special entry of the form { '\*', '\*', '\*', false } rejects all further requests and can be used as the final entry if you wish for the access list to function as a list of requests to accept, but to reject any requests which do not match a previous test.  This is the implicit &quot;default&quot; final test if a table is assigned with the access-list method and does not actually need to be specified, but is included for completeness.&lt;/li&gt;&lt;li&gt;  Note that any entry after an entry in which the first two parameters are equal to '\*' will never actually be used.&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;The tests are performed in order; if you wich to allow one IP address in a range, but reject all others, you should list the accepted IP addresses first. For example:&lt;/li&gt;&lt;li&gt;    ~~~&lt;/li&gt;&lt;li&gt;    {&lt;/li&gt;&lt;li&gt;       { 'X-Remote-Addr', '192.168.1.100',  false, true },  -- accept requests from 192.168.1.100&lt;/li&gt;&lt;li&gt;       { 'X-Remote-Addr', '^192%.168%.1%.', true,  false }, -- reject all others from the 192.168.1 subnet&lt;/li&gt;&lt;li&gt;       { '*',             '*',              '*',   true }   -- accept all other requests&lt;/li&gt;&lt;li&gt;    }&lt;/li&gt;&lt;li&gt;    ~~~&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;Most of the headers available are provided by the requesting web browser, so the exact headers available will vary.  You can find some information about common HTTP request headers at: https://en.wikipedia.org/wiki/List_of_HTTP_header_fields.&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;The following headers are inserted automatically by `hs.httpserver` and are probably the most useful for use in an access list:&lt;/li&gt;&lt;li&gt;  X-Remote-Addr - the remote IPv4 or IPv6 address of the machine making the request,&lt;/li&gt;&lt;li&gt;  X-Remote-Port - the TCP port of the remote machine where the request originated.&lt;/li&gt;&lt;li&gt;  X-Server-Addr - the server IPv4 or IPv6 address that the web server received the request from.  For machines with multiple interfaces, this will allow you to determine which interface the request was received on.&lt;/li&gt;&lt;li&gt;  X-Server-Port - the TCP port of the web server that received the request.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1367](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1367) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -918,7 +900,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td><ul><li>The access-list feature works by comparing the request headers against a list of tests which either accept or reject the request.  If no access list is set (i.e. it is assigned a value of <code translate="no" v-pre>nil</code>), then all requests are served.  If a table is passed into this method, then any request which is not explicitly accepted by one of the tests provided is rejected (i.e. there is an implicit &quot;reject&quot; at the end of the list).</li><li>The access-list table is a list of tests which are evaluated in order.  The first test which matches a given request determines whether or not the request is accepted or rejected.</li><li>Each entry in the access-list table is also a table with the following format:</li><li>  { &#x27;header&#x27;, &#x27;value&#x27;, isPattern, isAccepted }</li><li>    header     - a string value matching the name of a header.  While the header name must match exactly, the comparison is case-insensitive (i.e. &quot;X-Remote-addr&quot; and &quot;x-remote-addr&quot; will both match the actual header name used, which is &quot;X-Remote-Addr&quot;).</li><li>    value      - a string value specifying the value to compare the header key&#x27;s value to.</li><li>    isPattern  - a boolean indicating whether or not the header key&#x27;s value should be compared to <code translate="no" v-pre>value</code> as a pattern match (true) -- see Lua documentation 6.4.1, <code translate="no" v-pre>help.lua._man._6_4_1</code> in the console, or as an exact match (false)</li><li>    isAccepted - a boolean indicating whether or not a match should be accepted (true) or rejected (false)</li><li>  A special entry of the form { &#x27;*&#x27;, &#x27;*&#x27;, &#x27;*&#x27;, true } accepts all further requests and can be used as the final entry if you wish for the access list to function as a list of requests to reject, but to accept any requests which do not match a previous test.</li><li>  A special entry of the form { &#x27;*&#x27;, &#x27;*&#x27;, &#x27;*&#x27;, false } rejects all further requests and can be used as the final entry if you wish for the access list to function as a list of requests to accept, but to reject any requests which do not match a previous test.  This is the implicit &quot;default&quot; final test if a table is assigned with the access-list method and does not actually need to be specified, but is included for completeness.</li><li>  Note that any entry after an entry in which the first two parameters are equal to &#x27;*&#x27; will never actually be used.</li><li></li><li>The tests are performed in order; if you wich to allow one IP address in a range, but reject all others, you should list the accepted IP addresses first. For example:</li><li>    ~~~</li><li>    {</li><li>       { &#x27;X-Remote-Addr&#x27;, &#x27;192.168.1.100&#x27;,  false, true },  -- accept requests from 192.168.1.100</li><li>       { &#x27;X-Remote-Addr&#x27;, &#x27;^192%.168%.1%.&#x27;, true,  false }, -- reject all others from the 192.168.1 subnet</li><li>       { &#x27;<em>&#x27;,             &#x27;</em>&#x27;,              &#x27;*&#x27;,   true }   -- accept all other requests</li><li>    }</li><li>    ~~~</li><li></li><li>Most of the headers available are provided by the requesting web browser, so the exact headers available will vary.  You can find some information about common HTTP request headers at: <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" class="outbound" target="_blank"><span>https://en.wikipedia.org/wiki/List_of_HTTP_header_fields</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</li><li></li><li>The following headers are inserted automatically by <code translate="no" v-pre>hs.httpserver</code> and are probably the most useful for use in an access list:</li><li>  X-Remote-Addr - the remote IPv4 or IPv6 address of the machine making the request,</li><li>  X-Remote-Port - the TCP port of the remote machine where the request originated.</li><li>  X-Server-Addr - the server IPv4 or IPv6 address that the web server received the request from.  For machines with multiple interfaces, this will allow you to determine which interface the request was received on.</li><li>  X-Server-Port - the TCP port of the web server that received the request.</li></ul></td>
+<td><ul><li>The access-list feature works by comparing the request headers against a list of tests which either accept or reject the request.  If no access list is set (i.e. it is assigned a value of <code translate="no" v-pre>nil</code>), then all requests are served.  If a table is passed into this method, then any request which is not explicitly accepted by one of the tests provided is rejected (i.e. there is an implicit &quot;reject&quot; at the end of the list).</li><li>The access-list table is a list of tests which are evaluated in order.  The first test which matches a given request determines whether or not the request is accepted or rejected.</li><li>Each entry in the access-list table is also a table with the following format:</li><li>  { &#x27;header&#x27;, &#x27;value&#x27;, isPattern, isAccepted }</li><li>    header     - a string value matching the name of a header.  While the header name must match exactly, the comparison is case-insensitive (i.e. &quot;X-Remote-addr&quot; and &quot;x-remote-addr&quot; will both match the actual header name used, which is &quot;X-Remote-Addr&quot;).</li><li>    value      - a string value specifying the value to compare the header key&#x27;s value to.</li><li>    isPattern  - a boolean indicating whether or not the header key&#x27;s value should be compared to <code translate="no" v-pre>value</code> as a pattern match (true) -- see Lua documentation 6.4.1, <code translate="no" v-pre>help.lua._man._6_4_1</code> in the console, or as an exact match (false)</li><li>    isAccepted - a boolean indicating whether or not a match should be accepted (true) or rejected (false)</li><li>  A special entry of the form { &#x27;*&#x27;, &#x27;*&#x27;, &#x27;*&#x27;, true } accepts all further requests and can be used as the final entry if you wish for the access list to function as a list of requests to reject, but to accept any requests which do not match a previous test.</li><li>  A special entry of the form { &#x27;*&#x27;, &#x27;*&#x27;, &#x27;*&#x27;, false } rejects all further requests and can be used as the final entry if you wish for the access list to function as a list of requests to accept, but to reject any requests which do not match a previous test.  This is the implicit &quot;default&quot; final test if a table is assigned with the access-list method and does not actually need to be specified, but is included for completeness.</li><li>  Note that any entry after an entry in which the first two parameters are equal to &#x27;*&#x27; will never actually be used.</li><li></li><li>The tests are performed in order; if you wich to allow one IP address in a range, but reject all others, you should list the accepted IP addresses first. For example:</li><li>    ~~<sub></li><li>    {</li><li>       { &#x27;X-Remote-Addr&#x27;, &#x27;192.168.1.100&#x27;,  false, true },  -- accept requests from 192.168.1.100</li><li>       { &#x27;X-Remote-Addr&#x27;, &#x27;^192%.168%.1%.&#x27;, true,  false }, -- reject all others from the 192.168.1 subnet</li><li>       { &#x27;<em>&#x27;,             &#x27;</em>&#x27;,              &#x27;*&#x27;,   true }   -- accept all other requests</li><li>    }</li><li>    </sub>~~</li><li></li><li>Most of the headers available are provided by the requesting web browser, so the exact headers available will vary.  You can find some information about common HTTP request headers at: <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" class="outbound" target="_blank"><span>https://en.wikipedia.org/wiki/List_of_HTTP_header_fields</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</li><li></li><li>The following headers are inserted automatically by <code translate="no" v-pre>hs.httpserver</code> and are probably the most useful for use in an access list:</li><li>  X-Remote-Addr - the remote IPv4 or IPv6 address of the machine making the request,</li><li>  X-Remote-Port - the TCP port of the remote machine where the request originated.</li><li>  X-Server-Addr - the server IPv4 or IPv6 address that the web server received the request from.  For machines with multiple interfaces, this will allow you to determine which interface the request was received on.</li><li>  X-Server-Port - the TCP port of the web server that received the request.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Examples</strong></td>
@@ -926,24 +908,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1367" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1367</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1367" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1367</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="allowdirectory">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#allowdirectory">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#allowdirectory">allowDirectory</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="allowdirectory"><doc-anchor-trigger to="#allowdirectory">allowDirectory</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:allowDirectory([flag]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the whether or not a directory index is returned when the requested URL specifies a directory and no file matching an entry in the directory indexes table is found.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;flag - an optional boolean, defaults to false, indicating whether or not a directory index can be returned when a default file cannot be located.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;if this value is false, then an attempt to retrieve a URL specifying a directory that does not contain a default file as identified by one of the entries in the [hs.httpserver.hsminweb:directoryIndex](#directoryIndex) list will result in a &quot;403.2&quot; error.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1183](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1183) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -977,24 +965,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1183" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1183</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1183" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1183</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="bonjour">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bonjour">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#bonjour">bonjour</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="bonjour"><doc-anchor-trigger to="#bonjour">bonjour</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:bonjour([flag]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the whether or not the web server should advertise itself via Bonjour when it is running.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;flag - an optional boolean, defaults to true, indicating whether or not the server should advertise itself via Bonjour when it is running.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;this flag can only be changed when the server is not running (i.e. the [hs.httpserver.hsminweb:start](#start) method has not yet been called, or the [hs.httpserver.hsminweb:stop](#stop) method is called first.)&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1156) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1028,24 +1022,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1156" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1156</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1156" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1156</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="cgienabled">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#cgienabled">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#cgienabled">cgiEnabled</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="cgienabled"><doc-anchor-trigger to="#cgienabled">cgiEnabled</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:cgiEnabled([flag]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the whether or not CGI file execution is enabled.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;flag - an optional boolean, defaults to false, indicating whether or not CGI script execution is enabled for the web server.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1277](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1277) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1079,24 +1079,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1277" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1277</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1277" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1277</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="cgiextensions">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#cgiextensions">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#cgiextensions">cgiExtensions</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="cgiextensions"><doc-anchor-trigger to="#cgiextensions">cgiExtensions</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:cgiExtensions([table]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the file extensions which identify files which should be executed as CGI scripts to provide the results to an HTTP request.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;table - an optional table or `nil`, defaults to `{ &quot;cgi&quot;, &quot;pl&quot; }`, specifying a list of file extensions which indicate that a file should be executed as CGI scripts to provide the content for an HTTP request.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;this list is ignored if [hs.httpserver.hsminweb:cgiEnabled](#cgiEnabled) is not also set to true.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1297](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1297) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1130,24 +1136,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1297" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1297</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1297" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1297</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="directoryindex">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#directoryindex">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#directoryindex">directoryIndex</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="directoryindex"><doc-anchor-trigger to="#directoryindex">directoryIndex</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:directoryIndex([table]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the file names to look for when the requested URL specifies a directory.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;table - an optional table or `nil`, defaults to `{ &quot;index.html&quot;, &quot;index.htm&quot; }`, specifying a list of file names to look for when the requested URL specifies a directory.  If a file with one of the names is found in the directory, this file is served instead of the directory.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;Files listed in this table are checked in order, so the first matched is served.  If no file match occurs, then the server will return a generated list of the files in the directory, or a &quot;403.2&quot; error, depending upon the value controlled by [hs.httpserver.hsminweb:allowDirectory](#allowDirectory).&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1254](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1254) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1181,24 +1193,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1254" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1254</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1254" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1254</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="dnslookup">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#dnslookup">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#dnslookup">dnsLookup</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="dnslookup"><doc-anchor-trigger to="#dnslookup">dnsLookup</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:dnsLookup([flag]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the whether or not DNS lookups are performed.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;flag - an optional boolean, defaults to false, indicating whether or not DNS lookups are performed.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;DNS lookups can be time consuming or even block Hammerspoon for a short time, so they are disabled by default.&lt;/li&gt;&lt;li&gt;Currently DNS lookups are (optionally) performed for CGI scripts, but may be added for other purposes in the future (logging, etc.).&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1206](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1206) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1232,24 +1250,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1206" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1206</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1206" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1206</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="documentroot">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#documentroot">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#documentroot">documentRoot</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="documentroot"><doc-anchor-trigger to="#documentroot">documentRoot</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:documentRoot([path]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the document root for the web server.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;path - an optional string, default `os.getenv(&quot;HOME&quot;) .. &quot;/Sites&quot;`, specifying where documents for the web server should be served from.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1104](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1104) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1283,24 +1307,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1104" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1104</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1104" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1104</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="interface">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#interface">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#interface">interface</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="interface"><doc-anchor-trigger to="#interface">interface</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:interface([interface]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the network interface that the hsminweb web server will listen on                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;interface - an optional string, or nil, specifying the network interface the web server will listen on.  An explicit nil specifies that the web server should listen on all active interfaces for the machine.  Defaults to nil.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;See `hs.httpserver.setInterface` for a description of valid values that can be specified as the `interface` argument to this method.&lt;/li&gt;&lt;li&gt;the interface can only be specified before the hsminweb web server has been started.  If you wish to change the listening interface for a running web server, you must stop it with [hs.httpserver.hsminweb:stop](#stop) before invoking this method and then restart it with [hs.httpserver.hsminweb:start](#start).&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1417](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1417) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1334,24 +1364,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1417" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1417</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1417" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1417</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="luatemplateextension">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#luatemplateextension">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#luatemplateextension">luaTemplateExtension</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="luatemplateextension"><doc-anchor-trigger to="#luatemplateextension">luaTemplateExtension</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:luaTemplateExtension([string]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the extension of files which contain Lua code which should be executed within Hammerspoon to provide the results to an HTTP request.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;string - an optional string or `nil`, defaults to `nil`, specifying the file extension which indicates that a file should be executed as Lua code within the Hammerspoon environment to provide the content for an HTTP request.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;This extension is checked after the extensions given to [hs.httpserver.hsminweb:cgiExtensions](#cgiExtensions); this means that if the same extension set by this method is also in the CGI extensions list, then the file will be interpreted as a CGI script and ignore this setting.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1320](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1320) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1385,24 +1421,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1320" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1320</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1320" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1320</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="maxbodysize">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#maxbodysize">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#maxbodysize">maxBodySize</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="maxbodysize"><doc-anchor-trigger to="#maxbodysize">maxBodySize</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:maxBodySize([size]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the maximum body size for an HTTP request                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;size - An optional integer value specifying the maximum body size allowed for an incoming HTTP request in bytes.  Defaults to 10485760 (10 MB).&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;Because the Hammerspoon http server processes incoming requests completely in memory, this method puts a limit on the maximum size for a POST or PUT request.&lt;/li&gt;&lt;li&gt;If the request body exceeds this size, `hs.httpserver` will respond with a status code of 405 for the method before this module ever receives the request.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1075](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1075) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1436,24 +1478,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1075" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1075</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1075" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1075</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="name">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#name">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#name">name</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="name"><doc-anchor-trigger to="#name">name</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:name([name]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the name the web server uses in Bonjour advertisement when the web server is running.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;name - an optional string specifying the name the server advertises itself as when Bonjour is enabled and the web server is running.  Defaults to `nil`, which causes the server to be advertised with the computer's name as defined in the Sharing preferences panel for the computer.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1020](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1020) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1487,24 +1535,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1020" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1020</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1020" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1020</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="password">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#password">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#password">password</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="password"><doc-anchor-trigger to="#password">password</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:password([password]) -&gt; hsminwebTable | boolean`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Set a password for the hsminweb web server, or return a boolean indicating whether or not a password is currently set for the web server.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;password - An optional string that contains the server password, or an explicit `nil` to remove an existing password.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or a boolean indicating whether or not a password has been set if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;the password, if set, is server wide and causes the server to use the Basic authentication scheme with an empty string for the username.&lt;/li&gt;&lt;li&gt;this module is an extension to the Hammerspoon core module `hs.httpserver`, so it has the same limitations regarding server passwords. See the documentation for `hs.httpserver.setPassword` (`help.hs.httpserver.setPassword` in the Hammerspoon console).&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1045](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1045) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1538,24 +1592,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1045" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1045</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1045" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1045</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="port">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#port">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#port">port</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="port"><doc-anchor-trigger to="#port">port</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:port([port]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the name the port the web server listens on                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;port - an optional integer specifying the TCP port the server listens for requests on when it is running.  Defaults to `nil`, which causes the server to randomly choose a port when it is started.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;due to security restrictions enforced by OS X, the port must be a number greater than 1023&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 992](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L992) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1589,24 +1649,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L992" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 992</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L992" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 992</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="querylogging">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#querylogging">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#querylogging">queryLogging</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="querylogging"><doc-anchor-trigger to="#querylogging">queryLogging</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:queryLogging([flag]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the whether or not requests to this web server are logged.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;flag - an optional boolean, defaults to false, indicating whether or not query requests are logged.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;If logging is enabled, an Apache common style log entry is appended to [self._accesslog](#_accessLog) for each request made to the web server.&lt;/li&gt;&lt;li&gt;Error messages during content generation are always logged to the Hammerspoon console via the `hs.logger` instance saved to [hs.httpserver.hsminweb.log](#log).&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1230](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1230) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1640,24 +1706,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1230" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1230</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1230" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1230</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="scripttimeout">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#scripttimeout">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#scripttimeout">scriptTimeout</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="scripttimeout"><doc-anchor-trigger to="#scripttimeout">scriptTimeout</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:scriptTimeout([integer]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the timeout for a CGI script                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;integer - an optional integer, defaults to 30, specifying the length of time in seconds a CGI script should be allowed to run before being forcibly terminated if it has not yet completed its task.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;With the current functionality available in `hs.httpserver`, any script which is expected to return content for an HTTP request must run in a blocking manner -- this means that no other Hammerspoon activity can be occurring while the script is executing.  This parameter lets you set the maximum amount of time such a script can hold things up before being terminated.&lt;/li&gt;&lt;li&gt;An alternative implementation of at least some of the methods available in `hs.httpserver` is being considered which may make it possible to use `hs.task` for these scripts, which would alleviate this blocking behavior.  However, even if this is addressed, a timeout for scripts is still desirable so that a client making a request doesn't sit around waiting forever if a script is malformed.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1343](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1343) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1691,24 +1763,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1343" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1343</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1343" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1343</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="ssl">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ssl">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#ssl">ssl</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="ssl"><doc-anchor-trigger to="#ssl">ssl</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:ssl([flag]) -&gt; hsminwebTable | current-value`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Get or set the whether or not the web server utilizes SSL for HTTP request and response communications.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;flag - an optional boolean, defaults to false, indicating whether or not the server utilizes SSL for HTTP request and response traffic.&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminwebTable object if a parameter is provided, or the current value if no parameter is specified.&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;this flag can only be changed when the server is not running (i.e. the [hs.httpserver.hsminweb:start](#start) method has not yet been called, or the [hs.httpserver.hsminweb:stop](#stop) method is called first.)&lt;/li&gt;&lt;li&gt;this module is an extension to the Hammerspoon core module `hs.httpserver`, so it has the same considerations regarding SSL. See the documentation for `hs.httpserver.new` (`help.hs.httpserver.new` in the Hammerspoon console).&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1128) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1742,24 +1820,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1128" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1128</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1128" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1128</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="start">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#start">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#start">start</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="start"><doc-anchor-trigger to="#start">start</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:start() -&gt; hsminwebTable`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Start serving pages for the hsminweb web server.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminWebTable object&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1448](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1448) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1793,24 +1877,30 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1448" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1448</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1448" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1448</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
-<doc-anchor-target id="stop">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#stop">#</doc-anchor-trigger>
-        <span><doc-anchor-trigger to="#stop">stop</doc-anchor-trigger></span>
-    </h3>
-</doc-anchor-target>
+<h3 id="stop"><doc-anchor-trigger to="#stop">stop</doc-anchor-trigger></h3>
+<retype-table copy-text="|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.httpserver.hsminweb:stop() -&gt; hsminwebTable`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Stop serving pages for the hsminweb web server.                                                                     |
+| **Parameters**                              | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt; |
+| **Returns**                                 | &lt;ul&gt;&lt;li&gt;the hsminWebTable object&lt;/li&gt;&lt;/ul&gt;          |
+| **Notes**                                   | &lt;ul&gt;&lt;li&gt;this method is called automatically during garbage collection.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/httpserver/httpserver_hsminweb.lua line 1479](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1479) |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th> </th>
+<th> </th>
 </tr>
 </thead>
 <tbody>
@@ -1844,32 +1934,37 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1479" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1479</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/httpserver_hsminweb.lua#L1479" class="outbound" target="_blank"><span>extensions/httpserver/httpserver_hsminweb.lua line 1479</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
-    <div class="grid gap-4 [grid-template-columns:repeat(auto-fit,minmax(300px,1fr))]">
-        <a href="/api-references/hammerspoon/" class="group no-link">
-            <div class="flex flex-col">
-                <div>
-                    <span>CommandPost</span>
-                </div>
-                <p>Module</p>
+<div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="/api-references/hammerspoon/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-title">CommandPost</span>
             </div>
-        </a>
-        <a href="/api-references/hammerspoon/hs.httpserver/" class="group no-link">
-            <div class="flex flex-col">
-                <div>
-                    <span>hs.httpserver</span>
-                </div>
-                <p>Simple HTTP server</p>
+            <p class="card-compact-description">Module</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/api-references/hammerspoon/hs.httpserver/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-title">hs.httpserver</span>
             </div>
-        </a>
-    </div>
+            <p class="card-compact-description">Simple HTTP server</p>
+        </div>
+    </a>
+</div>
+</div>
 </div>
 <hr>
 <script src="https://giscus.app/client.js"
@@ -1893,7 +1988,7 @@
                 <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
             </div>
             <footer id="retype-content-footer" class="clear-both">
-                <div class="flex flex-wrap items-center justify-between mt-14">
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-2 mt-14">
                     <a id="retype-edit-this-page" class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-body-link font-body-link hover:text-body-link-hover hover:underline" href="https://github.com/CommandPost/CommandPost-Website/blob/main/docs/api-references/hammerspoon/hs.httpserver.hsminweb.md" target="_blank" rel="noopener">
                         <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         <span>Edit this page on GitHub</span>
@@ -1930,9 +2025,9 @@
                     <ul class="flex flex-wrap items-center text-sm">
                         <li>
                             <a class="inline-flex items-center mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="../../../contribute/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                     <g fill="currentColor">
-                                        <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
+                                        <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/>
                                     </g>
                                 </svg>
                                 <span>Contribute</span>
@@ -1969,6 +2064,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "hs.httpserver.hsminweb", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "hs.httpserver.hsminweb", level: 3, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/api-references/hammerspoon/hs.httpserver.hsminweb.md" }</script>
 </body>
 </html>

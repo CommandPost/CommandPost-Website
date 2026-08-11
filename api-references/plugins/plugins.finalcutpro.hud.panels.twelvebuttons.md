@@ -1,0 +1,65 @@
+# plugins.finalcutpro.hud.panels.twelvebuttons
+
+Twelve Button Panel for the Final Cut Pro HUD.
+
+---
+
+## API Overview
+**Functions** - _API calls offered directly by the extension_
+ * [updateInfo](#updateinfo)
+
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
+ * [buttons](#buttons)
+
+---
+
+## API Documentation
+
+#### Functions
+
+### [updateInfo](#updateinfo)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.finalcutpro.hud.panels.twelvebuttons.updateInfo() -> none`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Update the Buttons Panel HTML content.                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>None</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua#L34) |
+
+---
+
+#### Fields
+
+### [buttons](#buttons)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.finalcutpro.hud.panels.twelvebuttons.buttons <cp.prop: table>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | Table of HUD button values.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/twelvebuttons/init.lua#L29) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

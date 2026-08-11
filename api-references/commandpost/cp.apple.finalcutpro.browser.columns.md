@@ -1,0 +1,101 @@
+# cp.apple.finalcutpro.browser.Columns
+
+Final Cut Pro Browser List View Columns
+
+---
+
+## API Overview
+**Constructors** - _API calls which return an object, typically one that offers API methods_
+ * [Columns](#columns)
+
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
+ * [menu](#menu)
+
+**Methods** - _API calls which can only be made on an object returned by a constructor_
+ * [isMenuShowing](#ismenushowing)
+ * [show](#show)
+
+---
+
+## API Documentation
+
+#### Constructors
+
+### [Columns](#columns)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.browser.Columns(parent) -> Columns`                                                                    |
+| **Type**                                    | Constructor                                                                     |
+| **Description**                             | Constructs a new Columns object.                                                                     |
+| **Parameters**                              | <ul><li>parent - The parent object</li></ul> |
+| **Returns**                                 | <ul><li>The new `Columns` instance.</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L22) |
+
+---
+
+#### Fields
+
+### [menu](#menu)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.browser.Columns.menu <cp.ui.Menu>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The Columns menu object.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L81) |
+
+---
+
+#### Methods
+
+### [isMenuShowing](#ismenushowing)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.browser.Columns:isMenuShowing() -> boolean`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Is the Columns menu popup showing?                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>`true` if the columns menu popup is showing, otherwise `false`</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L68) |
+
+---
+
+### [show](#show)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.browser.Columns:show() -> self`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Shows the Browser List View columns menu popup.                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>Self</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/browser/Columns.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/browser/Columns.lua#L38) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -1,0 +1,66 @@
+# hs.audiodevice.datasource
+
+Inspect/manipulate the data sources of an audio device
+
+Note: These objects are obtained from the methods on an `hs.audiodevice` object
+
+---
+
+## API Overview
+**Methods** - _API calls which can only be made on an object returned by a constructor_
+ * [name](#name)
+ * [setDefault](#setdefault)
+
+---
+
+## API Documentation
+
+#### Methods
+
+### [name](#name)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.audiodevice.datasource:name() -> string`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Gets the name of an audio device datasource                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>A string containing the name of the datasource</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1806](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1806) |
+
+---
+
+### [setDefault](#setdefault)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `hs.audiodevice.datasource:setDefault() -> hs.audiodevice.datasource`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Sets the audio device datasource as the default                                                                     |
+| **Parameters**                              | <ul><li>None</li></ul> |
+| **Returns**                                 | <ul><li>The `hs.audiodevice.datasource` object</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1827](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1827) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

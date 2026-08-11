@@ -1,0 +1,71 @@
+# cp.apple.finalcutpro.cmd.Commands.Row
+
+Commands Row.
+
+---
+
+## API Overview
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
+ * [command](#command)
+ * [key](#key)
+ * [modifiers](#modifiers)
+
+---
+
+## API Documentation
+
+#### Fields
+
+### [command](#command)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Row.command <cp.ui.TextField>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The command [TextField](cp.ui.TextField.md) (read-only).                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L96) |
+
+---
+
+### [key](#key)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Row.key <cp.ui.TextField>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The key [TextField](cp.ui.TextField.md) (read-only).                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L110) |
+
+---
+
+### [modifiers](#modifiers)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Row.modifiers <cp.ui.TextField>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The modifiers [TextField](cp.ui.TextField.md) (read-only)                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L103) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

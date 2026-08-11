@@ -1,0 +1,48 @@
+# plugins.finalcutpro.timeline.selectalltimelineclips
+
+Select All Timeline Clips
+
+---
+
+## API Overview
+**Functions** - _API calls offered directly by the extension_
+ * [selectalltimelineclips](#selectalltimelineclips)
+
+---
+
+## API Documentation
+
+#### Functions
+
+### [selectalltimelineclips](#selectalltimelineclips)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.finalcutpro.timeline.selectalltimelineclips(forwards) -> boolean`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Selects all timeline clips to the left or right of the timeline playhead in Final Cut Pro.                                                                     |
+| **Parameters**                              | <ul><li>forwards - `true` if you want to select forwards</li></ul> |
+| **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/selectalltimelineclips.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/selectalltimelineclips.lua#L13) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

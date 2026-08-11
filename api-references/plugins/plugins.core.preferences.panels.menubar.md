@@ -1,0 +1,97 @@
+# plugins.core.preferences.panels.menubar
+
+Menubar Preferences Panel
+
+---
+
+## API Overview
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
+ * [displayMenubarAsIcon](#displaymenubarasicon)
+ * [lastGroup](#lastgroup)
+ * [lastIconPath](#lasticonpath)
+ * [menubarLabel](#menubarlabel)
+ * [showSectionHeadingsInMenubar](#showsectionheadingsinmenubar)
+
+---
+
+## API Documentation
+
+#### Fields
+
+### [displayMenubarAsIcon](#displaymenubarasicon)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.core.preferences.panels.menubar.displayMenubarAsIcon <cp.prop: boolean>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | If `true`, the menubar item will be the app icon. If not, it will be the app name.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L62) |
+
+---
+
+### [lastGroup](#lastgroup)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.core.preferences.panels.menubar.lastGroup <cp.prop: string>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L36) |
+
+---
+
+### [lastIconPath](#lasticonpath)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.core.preferences.panels.menubar.lastIconPath <cp.prop: string>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | Last Icon path.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L31) |
+
+---
+
+### [menubarLabel](#menubarlabel)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.core.preferences.panels.menubar.menubarLabel <cp.prop: table>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | The menubar icon.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L57) |
+
+---
+
+### [showSectionHeadingsInMenubar](#showsectionheadingsinmenubar)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `plugins.core.preferences.panels.menubar.showSectionHeadingsInMenubar <cp.prop: boolean>`                                                                    |
+| **Type**                                    | Field                                                                     |
+| **Description**                             | Show section headings in menubar.                                                                     |
+| **Notes**                                   | None |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L41) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

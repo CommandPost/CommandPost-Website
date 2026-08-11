@@ -1,0 +1,29 @@
+# Resolve
+
+CommandPost allows full control over the [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02) and [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard).
+
+DaVinci Resolve will totally override CommandPost when running, even if DaVinci Resolve is just running in the background.
+
+These features have been tested with Editor Keyboard Firmware v1.4 and Speed Editor Firmware v1.4.1.
+
+Whilst CommandPost does support Bluetooth connections, we strongly recommend using a wired connection.
+
+![](../static/controlsurface-resolve.png)
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

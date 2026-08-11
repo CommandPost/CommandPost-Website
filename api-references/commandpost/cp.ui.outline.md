@@ -1,0 +1,48 @@
+# cp.ui.Outline
+
+A Outline UI element. It extends [GridElement](cp.ui.GridElement.md), so will inherit all of its properties and methods.
+
+---
+
+## API Overview
+**Functions** - _API calls offered directly by the extension_
+ * [matches](#matches)
+
+---
+
+## API Documentation
+
+#### Functions
+
+### [matches](#matches)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.ui.Outline.matches(element) -> boolean`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Checks if the `element` is a `Outline`.                                                                     |
+| **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
+| **Returns**                                 | <ul><li>A boolean</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/ui/Outline.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Outline.lua#L15) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

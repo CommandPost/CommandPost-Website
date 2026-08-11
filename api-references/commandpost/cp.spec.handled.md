@@ -1,0 +1,48 @@
+# cp.spec.Handled
+
+An synchronous/asynchronous test library for Lua.
+
+---
+
+## API Overview
+**Functions** - _API calls offered directly by the extension_
+ * [is](#is)
+
+---
+
+## API Documentation
+
+#### Functions
+
+### [is](#is)
+
+|                                             |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.spec.Handled.is(other) -> boolean`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Checks if the `other` is an instance of the `Handled` class.                                                                     |
+| **Parameters**                              | <ul><li>other - An object to check.</li></ul> |
+| **Returns**                                 | <ul><li>A boolean.</li></ul>          |
+| **Notes**                                   | None |
+| **Examples**                                | None |
+| **Source**                                  | [src/extensions/cp/spec/Handled.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handled.lua#L9) |
+
+---
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
