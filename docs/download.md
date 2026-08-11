@@ -14,7 +14,7 @@ All our applications on the Mac App Store support Family Sharing, and offer a re
 You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
 !!!
 
-You can download the latest **CommandPost v2.0.5** release [here](https://github.com/CommandPost/CommandPost/releases/download/2.0.5/CommandPost_2.0.5.dmg).
+You can download the latest **CommandPost v2.1.0** release [here](https://github.com/CommandPost/CommandPost/releases/download/2.1.0/CommandPost_2.1.0.dmg).
 
 You can find the source code to previous versions of CommandPost on [GitHub](https://github.com/CommandPost/CommandPost/releases/).
 

@@ -1,5 +1,18 @@
 # Release Notes
 
+### CommandPost 2.1.0
+
+**🎉 Released:**
+- Tuesday 11th August 2026
+
+**🐞 Bug Fixes**
+- Fixed applying Effects & Transitions in Final Cut Pro v12.3. As of Final Cut Pro v12.3 you can no longer use the Accessibility API to programatically change the Search textboxes - annoyingly, they are now all read only. As a workaround we now have to use the Pasteboard to paste in the required text to trigger a search. Thanks to EVERYONE who reported this issue!
+- Fixed the **Save Timeline Index to CSV** action for Final Cut Pro v12.3. Thanks to EVERYONE who reported this issue!
+- Fixed a bug where the Effects actions could fail to load if there's a Motion Template with an invalid Property List file. Thanks for reporting freppair!
+- Fixed menubar actions when using the Final Cut Pro v11 free trial. Thanks for reporting CharlesTeton!
+
+---
+
 ### CommandPost 2.0.5
 
 **🎉 Released:**
