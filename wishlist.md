@@ -16,7 +16,9 @@ Here's a list of the **30 most popular** CommandPost feature requests:
 
 - [Make hiding columns in the FCP Index sticky (February 21, 2026)](https://github.com/CommandPost/CommandPost/issues/3499)
 - [Add "Project Name" tag to Timeline Batch Export File Naming (January 29, 2024)](https://github.com/CommandPost/CommandPost/issues/3322)
-- [Press Keys on Keyboard and highlife the command on the UI (July 20, 2023)](https://github.com/CommandPost/CommandPost/issues/3247)
+- [Ulanzi Creative Deck Stream D200x (June 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3520)
+- [Applying effects from Search Console should put timeline in focus after completion (March 17, 2026)](https://github.com/CommandPost/CommandPost/issues/3513)
+- [Add support for Stream Deck + XL (March 4, 2026)](https://github.com/CommandPost/CommandPost/issues/3507)
 - [Spin off CommandPost Workflow Extension into it's own paid application (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3495)
 - [Add Avid Media Composer Panel (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3493)
 - [Navigate with middle mouse button (February 8, 2026)](https://github.com/CommandPost/CommandPost/issues/3489)
@@ -42,8 +44,6 @@ Here's a list of the **30 most popular** CommandPost feature requests:
 - [Add support for Loupedeck v6 software update (October 3, 2024)](https://github.com/CommandPost/CommandPost/issues/3380)
 - [Update Batch Rename HUD to allow taking values from any column (September 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3373)
 - [Add relative MIDI controls for scale & position (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3369)
-- [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356)
-- [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/CommandPost/issues).
 
@@ -53,6 +53,9 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 
 Here's a list of the **30 most recently added** CommandPost feature requests:
 
+- [Ulanzi Creative Deck Stream D200x (June 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3520)
+- [Applying effects from Search Console should put timeline in focus after completion (March 17, 2026)](https://github.com/CommandPost/CommandPost/issues/3513)
+- [Add support for Stream Deck + XL (March 4, 2026)](https://github.com/CommandPost/CommandPost/issues/3507)
 - [Make hiding columns in the FCP Index sticky (February 21, 2026)](https://github.com/CommandPost/CommandPost/issues/3499)
 - [Spin off CommandPost Workflow Extension into it's own paid application (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3495)
 - [Add Avid Media Composer Panel (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3493)
@@ -80,9 +83,6 @@ Here's a list of the **30 most recently added** CommandPost feature requests:
 - [Update Batch Rename HUD to allow taking values from any column (September 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3373)
 - [Add relative MIDI controls for scale & position (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3369)
 - [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356)
-- [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348)
-- [DaVinci Resolve Micro Color Panel Support (May 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3345)
-- [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/CommandPost/issues).
 

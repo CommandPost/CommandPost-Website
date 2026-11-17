@@ -16,6 +16,7 @@
 - [Videos](https://commandpost.fcp.cafe/videos.md): Here's our favourite video from the community:
 - [Privacy Policy](https://commandpost.fcp.cafe/privacy.md): By using our site and products, you consent to this privacy policy.
 - [Credits](https://commandpost.fcp.cafe/credits.md): CommandPost was created by Chris Hocking as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for Scott Simmons.
+- [CommandPost Helper](https://commandpost.fcp.cafe/helper.md): CommandPost Helper is an optional helper tool that gives Accessibility powers to CommandPost v3.
 - [Contribute](https://commandpost.fcp.cafe/contribute.md): The CommandPost website is entirely open source and hosted on GitHub.
 
 ## Interface
