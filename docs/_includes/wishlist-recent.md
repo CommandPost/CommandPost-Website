@@ -1,3 +1,6 @@
+- [Ulanzi Creative Deck Stream D200x (June 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3520)
+- [Applying effects from Search Console should put timeline in focus after completion (March 17, 2026)](https://github.com/CommandPost/CommandPost/issues/3513)
+- [Add support for Stream Deck + XL (March 4, 2026)](https://github.com/CommandPost/CommandPost/issues/3507)
 - [Make hiding columns in the FCP Index sticky (February 21, 2026)](https://github.com/CommandPost/CommandPost/issues/3499)
 - [Spin off CommandPost Workflow Extension into it's own paid application (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3495)
 - [Add Avid Media Composer Panel (February 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3493)
@@ -25,6 +28,3 @@
 - [Update Batch Rename HUD to allow taking values from any column (September 8, 2024)](https://github.com/CommandPost/CommandPost/issues/3373)
 - [Add relative MIDI controls for scale & position (August 26, 2024)](https://github.com/CommandPost/CommandPost/issues/3369)
 - [Add Toggle Action for Spatial Conform (July 15, 2024)](https://github.com/CommandPost/CommandPost/issues/3356)
-- [Add support for Color Adjustments Effect (June 21, 2024)](https://github.com/CommandPost/CommandPost/issues/3348)
-- [DaVinci Resolve Micro Color Panel Support (May 27, 2024)](https://github.com/CommandPost/CommandPost/issues/3345)
-- [Add Import, Export & Search to Scripting Preferences (April 16, 2024)](https://github.com/CommandPost/CommandPost/issues/3332)
