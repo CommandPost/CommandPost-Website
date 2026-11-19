@@ -6,8 +6,7 @@ You should use the version of **CommandPost Helper** that matches the version of
 
 CommandPost Version | Download
 --------------------|----------------------------------------------------------------------------------------------------------------------------
-v3.0.0 (Build 8167) | [GitHub](https://github.com/CommandPost/CommandPost/releases/download/3.0.0-build-8167/CommandPost-Helper-3.0.0-8167.dmg)
-v3.0.0 (Build 8166) | [GitHub](https://github.com/CommandPost/CommandPost/releases/download/3.0.0-build-8166/CommandPost-Helper-3.0.0-8166.dmg)
+v3.0.0 (Build 8168) | [GitHub](https://github.com/CommandPost/CommandPost/releases/download/3.0.0-build-8168/CommandPost-Helper-3.0.0-8168.dmg)
 
 ---
 
