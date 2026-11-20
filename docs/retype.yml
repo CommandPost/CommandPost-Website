@@ -9,6 +9,8 @@ branding:
 
 nav:
   mode: stack # Pro key required: shows each top-level folder as a sidebar section
+  icons:
+    mode: pages # Pro key required: icons on pages only, so section headings sit flush left
 
 links:
 - text: Buy
