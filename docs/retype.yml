@@ -7,6 +7,9 @@ branding:
   title: CommandPost
   logo: static/logo.png
 
+nav:
+  mode: stack # Pro key required: shows each top-level folder as a sidebar section
+
 links:
 - text: Buy
   link: /commandpost-v3/buy

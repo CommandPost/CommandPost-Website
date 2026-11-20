@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "retype-pro-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/private/tmp/claude-501/-Users-chrishocking--claude-spares-spare-Ygt2iZ/aafb2afc-dcfc-4806-8f24-88246fc10aff/scratchpad/rt/node_modules/retypeapp/retype.js",
+        "start",
+        "docs/retype.yml",
+        "--pro",
+        "--port",
+        "5005",
+        "--no-open"
+      ],
+      "port": 5005
+    }
+  ]
+}
