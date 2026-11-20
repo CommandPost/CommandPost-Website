@@ -13,6 +13,13 @@ on:
   release:
     types: [created]
 
+# Every trigger (pushes, issues, releases) commits to main and pushes the
+# 'retype' branch, so overlapping runs get "rejected (fetch first)". Run one
+# at a time; a newer queued run replaces an older queued one.
+concurrency:
+  group: build-commandpost-website
+  cancel-in-progress: false
+
 jobs:
   generate_markdown:
     runs-on: ubuntu-latest
