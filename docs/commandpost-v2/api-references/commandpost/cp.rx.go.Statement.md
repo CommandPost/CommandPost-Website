@@ -4,7 +4,7 @@ A `Statement` is defined to enable processing of asynchronous `resolvable` value
 as [cp.rx.Observable](cp.rx.Observable.md) values.
 
 To define a new `Statement`, you call the [named](#named) constructor, assigning the result
-to a constant value and calling the [define](#define) method.
+to a constant value and calling the [define](cp.rx.go.Statement.Definition.md#define) method.
 
 ## Definine a new Statement
 

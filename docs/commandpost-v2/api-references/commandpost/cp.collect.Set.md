@@ -26,7 +26,7 @@ As indicated above, you can use operators for common set operations. Specificall
  * [union](#union) (A ⋃ B):                          `a | b` or `a + b`
  * [intersection](#intersection) (A ∩ B):            `a & b`
  * [complement](#complement) (A<sup>c</sup>):        `-a`
- * [difference](#diference) (A - B):                 `a - b`
+ * [difference](#difference) (A - B):                 `a - b`
  * [symetric difference](#symetricDifference) (A ⊕ B)  `a ~ b`
 
 Keep in mind that Lua's operator precedence may be different to that of standard set operations, so it's probably best to group operations in brackets if you combine more than one in a single statement. For example:

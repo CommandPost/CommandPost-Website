@@ -232,7 +232,7 @@ cp.spec "*" ()
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.it(name[, ...]) -> cp.spec.Scenario`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | Returns an [Scenario](cp.spec.Scenario.md) with the specified name and optional `doingFn` function. If the function is not provided, it must be done via the [doing](#doing) method prior to running.                                                                     |
+| **Description**                             | Returns an [Scenario](cp.spec.Scenario.md) with the specified name and optional `doingFn` function. If the function is not provided, it must be done via the [doing](cp.spec.Scenario.md#doing) method prior to running.                                                                     |
 | **Parameters**                              | <ul><li>name      - The name of the scenario.</li><li>doingFn   - (optional) The `function` to call when doing the operation. Will be passed the [Run.This](cp.spec.Run.This.md) instance for the definition.</li></ul> |
 | **Returns**                                 | <ul><li>A `cp.spec.Scenario` object</li></ul>          |
 | **Notes**                                   | <ul><li>See [doing](cp.spec.Scenario.md#doing) for more details regarding the function.</li></ul> |
@@ -264,7 +264,7 @@ cp.spec "*" ()
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec(id) -> cp.spec.Definition`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | This will search the package path (and [specPath](#setSpecPath), if set) for `_spec.lua` files.                                                                     |
+| **Description**                             | This will search the package path (and [specPath](#setsearchpath), if set) for `_spec.lua` files.                                                                     |
 | **Parameters**                              | <ul><li>id - the path ID for the spec. Eg. "cp.app"</li></ul> |
 | **Returns**                                 | <ul><li>The [Definition](cp.spec.Definition.md), or throws an error.</li></ul>          |
 | **Notes**                                   | <ul><li>It will first look for a file ending with `_spec.lua`, then will look for a file named `_spec.lua` in the folder.</li><li>For example, if you run `require "cp.spec" "foo.bar"`, it will first look for `"foo/bar_spec.lua"`, then `"foo/bar/_spec.lua"`.</li><li>This gives flexibility for extensions that are organised as single files or as folders.</li></ul> |

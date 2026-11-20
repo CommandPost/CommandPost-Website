@@ -1,7 +1,7 @@
 # cp.rx.go.Statement.Definition
 
 A [Statement](cp.rx.go.Statement.md) is defined before being executable.
-A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.md#modifer) method.
+A definition is initiated with the Statement:modifier(...) method.
 
 ---
 

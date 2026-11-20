@@ -8,7 +8,7 @@ Currently we don't support the **TourBox NEO** and **TourBox Lite**.
 
 We have feature requests in GitHub for the [TourBox NEO](https://github.com/CommandPost/CommandPost/issues/3475) and [TourBox Lite](https://github.com/CommandPost/CommandPost/issues/3476).
 
-If you would like to see us add support, please consider [sponsoring CommandPost](/sponsor/) so we can purchase the hardware to develop and test.
+If you would like to see us add support, please consider [sponsoring CommandPost](/commandpost-v2/sponsor/) so we can purchase the hardware to develop and test.
 
 If you have the original **TourBox** you need to have firmware installed that was included with **TourBox Console Version v2.1**.
 

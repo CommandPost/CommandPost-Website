@@ -6,7 +6,7 @@ Provides support for NIB files.
 
 ## Submodules
  * [cp.nib.archiver](cp.nib.archiver.md)
- * [cp.nib.type](cp.nib.type.md)
+ * cp.nib.type
  * [cp.nib.types](cp.nib.types.md)
 
 ---

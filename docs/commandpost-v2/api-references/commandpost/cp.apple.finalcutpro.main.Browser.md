@@ -144,7 +144,7 @@ Browser Module.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.libraries <cp.apple.finalcutpro.main.LibrariesBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [module](package.module.md) object.                                                                     |
+| **Description**                             | The module object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `LibrariesBrowser` object.</li></ul>          |
 | **Notes**                                   | None |
@@ -252,7 +252,7 @@ Browser Module.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.appearanceAndFiltering <cp.apple.finalcutpro.main.AppearanceAndFiltering>`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | The Clip [AppearanceAndFiltering](cp.apple.finalcutpro.main.AppearanceAndFiltering.md) Menu Popover                                                                     |
+| **Description**                             | The Clip [AppearanceAndFiltering](cp.apple.finalcutpro.browser.AppearanceAndFiltering.md) Menu Popover                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |

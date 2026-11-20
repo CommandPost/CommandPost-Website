@@ -45,9 +45,9 @@ Adds actions that allows you to transcode clips from the timeline.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.doTranscodeSelectedBrowserClips() -> Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected browser clips.                                                                     |
+| **Description**                             | Creates a [Statement](../commandpost/cp.rx.go.Statement.md) to transcode selected browser clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
-| **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
+| **Returns**                                 | <ul><li>[Statement](../commandpost/cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L208) |
@@ -61,9 +61,9 @@ Adds actions that allows you to transcode clips from the timeline.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.doTranscodeSelectedClips() -> Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected clips.                                                                     |
+| **Description**                             | Creates a [Statement](../commandpost/cp.rx.go.Statement.md) to transcode selected clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
-| **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
+| **Returns**                                 | <ul><li>[Statement](../commandpost/cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L263) |
@@ -77,9 +77,9 @@ Adds actions that allows you to transcode clips from the timeline.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.doTranscodeSelectedTimelineClips() -> Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected timeline clips.                                                                     |
+| **Description**                             | Creates a [Statement](../commandpost/cp.rx.go.Statement.md) to transcode selected timeline clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
-| **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
+| **Returns**                                 | <ul><li>[Statement](../commandpost/cp.rx.go.Statement.md) to execute</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/timeline/transcode.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/transcode.lua#L232) |

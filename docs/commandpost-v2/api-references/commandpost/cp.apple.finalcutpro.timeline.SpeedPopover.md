@@ -1,6 +1,6 @@
 # cp.apple.finalcutpro.timeline.SpeedPopover
 
- *Extends [Timeline](cp.apple.finalcutpro.timeline.md)*
+ *Extends [Timeline](cp.apple.finalcutpro.timeline.Timeline.md)*
 
 Represents the Speed Popover.
 

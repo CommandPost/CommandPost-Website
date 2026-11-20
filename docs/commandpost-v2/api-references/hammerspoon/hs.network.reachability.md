@@ -82,7 +82,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 | **Description**                             | Returns a reachability object for the specified network address.                                                                     |
 | **Parameters**                              | <ul><li>address - a string or number representing an IPv4 or IPv6 network address to get or track reachability status for.  If the argument is a number, it is treated as the 32 bit numerical representation of an IPv4 address.</li></ul> |
 | **Returns**                                 | <ul><li>a reachability object for the specified network address.</li></ul>          |
-| **Notes**                                   | <ul><li>this object will reflect reachability status for any interface available on the computer.  To check for reachability from a specific interface, use [hs.network.reachability.forAddressPair](#addressPair).</li></ul> |
+| **Notes**                                   | <ul><li>this object will reflect reachability status for any interface available on the computer.  To check for reachability from a specific interface, use [hs.network.reachability.forAddressPair](#foraddresspair).</li></ul> |
 | **Examples**                                | None |
 | **Source**                                  | [extensions/network/libnetwork_reachability.m line 74](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L74) |
 
@@ -98,7 +98,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 | **Description**                             | Returns a reachability object for the specified network address from the specified localAddress.                                                                     |
 | **Parameters**                              | <ul><li>localAddress - a string or number representing a local IPv4 or IPv6 network address. If the address specified is not present on the computer, the remote address will be unreachable.</li><li>remoteAddress - a string or number representing an IPv4 or IPv6 network address to get or track reachability status for.  If the argument is a number, it is treated as the 32 bit numerical representation of an IPv4 address.</li></ul> |
 | **Returns**                                 | <ul><li>a reachability object for the specified network address.</li></ul>          |
-| **Notes**                                   | <ul><li>this object will reflect reachability status for a specific interface on the computer.  To check for reachability from any interface, use [hs.network.reachability.forAddress](#address).</li><li>this constructor can be used to test for a specific local network.</li></ul> |
+| **Notes**                                   | <ul><li>this object will reflect reachability status for a specific interface on the computer.  To check for reachability from any interface, use [hs.network.reachability.forAddress](#foraddress).</li><li>this constructor can be used to test for a specific local network.</li></ul> |
 | **Examples**                                | None |
 | **Source**                                  | [extensions/network/libnetwork_reachability.m line 105](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L105) |
 

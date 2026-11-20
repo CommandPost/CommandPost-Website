@@ -42,9 +42,9 @@ CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (
 
 Below is a simple Plugin example that adds a button to the very bottom of the CommandPost menubar, and when click it displays the CommandPost version in a dialog box.
 
-* To make things easy for others to understand, and to help with automatic documentation generation, we recommend you use [these naming conventions](/developer/naming-conventions/) when building your own plugins.
-* You can learn more about the plugins API [here](/developer/cp/cp.plugins/).
-* You can learn more about `cp.config` [here](/developer/cp/cp.config/).
+* To make things easy for others to understand, and to help with automatic documentation generation, we recommend you use [these naming conventions](/commandpost-v2/developer/naming-conventions/) when building your own plugins.
+* You can learn more about the plugins API [here](/commandpost-v2/api-references/commandpost/cp.plugins/).
+* You can learn more about `cp.config` [here](/commandpost-v2/api-references/commandpost/cp.config/).
 
 ```lua
 --- === plugins.core.example ===

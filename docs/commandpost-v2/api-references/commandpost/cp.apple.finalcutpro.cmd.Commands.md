@@ -1,6 +1,6 @@
 # cp.apple.finalcutpro.cmd.Commands
 
-The list of available commands (depending on search and/or [CommandGroup](cp.apple.finalcutpro.cmd.CommandGroups.md])
+The list of available commands (depending on search and/or [CommandGroup](cp.apple.finalcutpro.cmd.CommandGroups.md)
 that can be mapped to a keyboard shortcut.
 
 ---

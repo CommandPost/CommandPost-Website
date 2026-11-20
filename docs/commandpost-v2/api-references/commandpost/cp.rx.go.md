@@ -9,7 +9,7 @@ do some more work with those results.
 
 Lets say you want to calculate the price of an item that is in US Dollars (USD) and
 output it in Australian Dollars (AUD). We have `anItem` that will return an
-[Observable](cp.rx.go.Observable.md) that fetches the item price, and an
+[Observable](cp.rx.Observable.md) that fetches the item price, and an
 `exchangeRate` function that will fetch the current exchange rate for two currencies.
 
 Using reactive operators, you could use the `zip` function to achieve this:
@@ -41,7 +41,7 @@ end)
 ```
 
 For more information on using and creating statements, see the
-[Statements](cp.rx.go.Statements.md) documentation.
+[Statements](cp.rx.go.Statement.md) documentation.
 
 ---
 

@@ -2,11 +2,11 @@
 
 Talk to custom protocols using asynchronous TCP sockets.
 
-For UDP sockets see [`hs.socket.udp`](./hs.socket.udp.html).
+For UDP sockets see [`hs.socket.udp`](hs.socket.udp.md).
 
 `hs.socket` is implemented with [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket). CocoaAsyncSocket's [tagging features](https://github.com/robbiehanson/CocoaAsyncSocket/wiki/Intro_GCDAsyncSocket#reading--writing) provide a handy way to implement custom protocols.
 
-For example, you can easily implement a basic HTTP client as follows (though using [`hs.http`](./hs.http.html) is recommended for the real world):
+For example, you can easily implement a basic HTTP client as follows (though using [`hs.http`](hs.http.md) is recommended for the real world):
 
 ```lua
 local TAG_HTTP_HEADER, TAG_HTTP_CONTENT = 1, 2
@@ -121,7 +121,7 @@ The document has moved
 | **Signature**                               | `hs.socket.parseAddress(sockaddr) -> table or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
 | **Description**                             | Parses a binary socket address structure into a readable table.                                                                     |
-| **Parameters**                              | <ul><li>`sockaddr` - A binary socket address structure, usually obtained from the [`info`](#info) method or in [`hs.socket.udp`](./hs.socket.udp.html)'s [read callback](./hs.socket.udp.html#setCallback).</li></ul> |
+| **Parameters**                              | <ul><li>`sockaddr` - A binary socket address structure, usually obtained from the [`info`](#info) method or in [`hs.socket.udp`](hs.socket.udp.md)'s [read callback](hs.socket.udp.md#setcallback).</li></ul> |
 | **Returns**                                 | <ul><li>A table describing the address with the following keys or `nil`:</li><li> host - A string containing the host IP.</li><li> port - A number containing the port.</li><li> addressFamily - A number containing the address family.</li></ul>          |
 | **Notes**                                   | <ul><li>Some address family definitions from `<sys/socket.h>`:</li><li></li><li>address family | number | description</li><li>:--- | :--- | :</li><li>AF_UNSPEC | 0 | unspecified</li><li>AF_UNIX | 1 | local to host (pipes)</li><li>AF_LOCAL | AF_UNIX | backward compatibility</li><li>AF_INET | 2 | internetwork: UDP, TCP, etc.</li><li>AF_NS | 6 | XEROX NS protocols</li><li>AF_CCITT | 10 | CCITT protocols, X.25 etc</li><li>AF_APPLETALK | 16 | Apple Talk</li><li>AF_ROUTE | 17 | Internal Routing Protocol</li><li>AF_LINK | 18 | Link layer interface</li><li>AF_INET6 | 30 | IPv6</li></ul> |
 | **Examples**                                | None |

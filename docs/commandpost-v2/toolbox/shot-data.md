@@ -246,7 +246,7 @@ You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/)
 
 6. In **Shot Data** Template of each instance, back in Final Cut Pro, you can enter the Exact name of that record from your **Characters** database.
 
-![](../static/S3.3%201.png)
+![](../static/S3.3-1.png)
 
 !!!info Info
 If you have added `Luke` and `Yoda` in your **Characters** database, enter `Luke,Yoda`. It is case-sensitive. And if you have more than 1 item for the field, have to separate them with `,`.

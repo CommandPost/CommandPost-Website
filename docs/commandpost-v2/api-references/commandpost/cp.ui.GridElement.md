@@ -110,7 +110,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.GridElement:withRowsOf(...) -> function(parent, uiFinder) -> GridElement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | A combinator that returns a function expecting a `parent` and `uiFinder` and returns a `GridElement` instance, with the arguments defining the [Cell](cp.ui.Cell.md.html) instances that make up the rows of the table.                                                                     |
+| **Description**                             | A combinator that returns a function expecting a `parent` and `uiFinder` and returns a `GridElement` instance, with the arguments defining the [Cell](cp.ui.Cell.md) instances that make up the rows of the table.                                                                     |
 | **Parameters**                              | <ul><li>... - One or more arguments to pass to the constructor.</li></ul> |
 | **Returns**                                 | <ul><li>A function that will return a new `GridElement` instance.</li></ul>          |
 | **Notes**                                   | None |

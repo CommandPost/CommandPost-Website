@@ -37,7 +37,7 @@ footer:
   copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
   links:
     - text: Contribute
-      link: /contribute
+      link: /commandpost-v2/contribute
       icon: mark-github
 
 poweredByRetype: false

@@ -10,7 +10,7 @@ Alternatively, you can download the open-source [CommandPost v2](/commandpost-v2
 
 There is no free trial.
 
-You can find information about Educational Pricing [here](/educational).
+You can find information about Educational Pricing [here](/commandpost-v3/educational/).
 
 ---
 

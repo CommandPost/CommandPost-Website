@@ -9,7 +9,7 @@ Also remember that CommandPost is entirely written in Lua, so you can [explore t
 ---
 
 !!!
-Want to add a Snippet? [Submit via GitHub!](/contribute/)
+Want to add a Snippet? [Submit via GitHub!](/commandpost-v2/contribute/)
 !!!
 
 ---

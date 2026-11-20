@@ -68,7 +68,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Function                                                                     |
 | **Description**                             | A combinator function that returns a `Cell.Builder` that accepts the `parent` and `uiFinder` to construct a new `Cell`.                                                                     |
 | **Parameters**                              | <ul><li>... - One or more arguments to pass to the constructor.</li></ul> |
-| **Returns**                                 | <ul><li>A [Cell.Builder](cp.ui.Cell.Builder.md)</li></ul>          |
+| **Returns**                                 | <ul><li>A Cell.Builder</li></ul>          |
 | **Notes**                                   | <ul><li>For example, if a cell contains a [Button](cp.ui.Button.md), you can use `cp.ui.Cell:with(Button)`, and it will return a `Cell`</li><li>   `Builder` that accepts the `parent` and `uiFinder` parameters, and whose contents is expected to be a `Button`.</li><li>   That `Button` instance can be accessed via the `children[1]` value.</li><li>   ```</li></ul> |
 | **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/Cell.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L41) |

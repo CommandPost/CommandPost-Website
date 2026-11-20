@@ -90,7 +90,7 @@ Represents an `AXOutline` `axuielement`.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:columns() -> table of cp.ui.Columns`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Returns the list of [Column](cp.ui.OldColumn.md)s in this `Outline`.                                                                     |
+| **Description**                             | Returns the list of Columns in this `Outline`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | None |
@@ -122,10 +122,10 @@ Represents an `AXOutline` `axuielement`.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.ui.OldOutline:createColumn(columnUI) -> cp.ui.OldColumn`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Attempts to create a new [Column](cp.ui.OldColumn.md) with the provided `columnUI` `axuielement`. If there is a problem, an `error` is thrown.                                                                     |
-| **Parameters**                              | <ul><li>columnUI - the `AXColumn` `axuielement` to create a [Column](cp.ui.OldColumn.md) for.</li></ul> |
-| **Returns**                                 | <ul><li>The [Column](cp.ui.OldColumn.md) or an error if a problem occurred.</li></ul>          |
-| **Notes**                                   | <ul><li>Subclasses which want to provide a custom [Column](cp.ui.OldColumn.md) implementation should override this method.</li></ul> |
+| **Description**                             | Attempts to create a new Column with the provided `columnUI` `axuielement`. If there is a problem, an `error` is thrown.                                                                     |
+| **Parameters**                              | <ul><li>columnUI - the `AXColumn` `axuielement` to create a Column for.</li></ul> |
+| **Returns**                                 | <ul><li>The Column or an error if a problem occurred.</li></ul>          |
+| **Notes**                                   | <ul><li>Subclasses which want to provide a custom Column implementation should override this method.</li></ul> |
 | **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L144) |
 
@@ -156,7 +156,7 @@ Represents an `AXOutline` `axuielement`.
 | **Type**                                    | Method                                                                     |
 | **Description**                             | Returns a `table` of the same length as `columnsUI`.                                                                     |
 | **Parameters**                              | <ul><li>columnsUI - The list of `AXColumn` `axuielement`s to find.</li></ul> |
-| **Returns**                                 | <ul><li>A `table` with the same number of elements, containing the matching [Column](cp.ui.OldColumn.md) instances.</li></ul>          |
+| **Returns**                                 | <ul><li>A `table` with the same number of elements, containing the matching Column instances.</li></ul>          |
 | **Notes**                                   | <ul><li>If provided items in the table are not valid columns in this table, then `nil` will be put in the matching index.</li><li>Note that this will break the standard `#`/looping behaviour for tables at that point.</li></ul> |
 | **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/ui/OldOutline.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldOutline.lua#L188) |

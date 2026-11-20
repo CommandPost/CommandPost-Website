@@ -29,4 +29,4 @@ The text box at the bottom of the Debug Console allows you to execute Lua Comman
 
 ![](/static/error-log-code.png)
 
-You can learn more about developing for CommandPost in the [Developers](/developers/) section of this site.
+You can learn more about developing for CommandPost in the [Developers](/commandpost-v2/developer/introduction/) section of this site.

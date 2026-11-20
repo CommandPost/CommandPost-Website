@@ -109,7 +109,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.audio <cp.apple.finalcutpro.inspector.AudioInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [AudioInspector](cp.apple.finalcutpro.inspector.AudioInspector.md).                                                                     |
+| **Description**                             | The [AudioInspector](cp.apple.finalcutpro.inspector.audio.AudioInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 609](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L609) |
 
@@ -135,7 +135,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.color <cp.apple.finalcutpro.inspector.ColorInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [ColorInspector](cp.apple.finalcutpro.inspector.ColorInspector.md).                                                                     |
+| **Description**                             | The [ColorInspector](cp.apple.finalcutpro.inspector.color.ColorInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 635](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L635) |
 
@@ -148,7 +148,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.generator <cp.apple.finalcutpro.inspector.GeneratorInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [GeneratorInspector](package.GeneratorInspector.md)                                                                     |
+| **Description**                             | The [GeneratorInspector](cp.apple.finalcutpro.inspector.generator.GeneratorInspector.md)                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 537](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L537) |
 
@@ -161,7 +161,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.info <cp.apple.finalcutpro.inspector.InfoInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The  [InfoInspector](cp.apple.finalcutpro.inspector.InfoInspector.md).                                                                     |
+| **Description**                             | The  [InfoInspector](cp.apple.finalcutpro.inspector.info.InfoInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 550](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L550) |
 
@@ -226,7 +226,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.projectInfo <cp.apple.finalcutpro.inspector.InfoProjectInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The  [InfoProjectInspector](cp.apple.finalcutpro.inspector.InfoProjectInspector.md).                                                                     |
+| **Description**                             | The  [InfoProjectInspector](cp.apple.finalcutpro.inspector.info.InfoProjectInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 557](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L557) |
 
@@ -252,7 +252,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.share <cp.apple.finalcutpro.inspector.ShareInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [ShareInspector](cp.apple.finalcutpro.inspector.ShareInspector.md).                                                                     |
+| **Description**                             | The [ShareInspector](cp.apple.finalcutpro.inspector.share.ShareInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L622) |
 
@@ -265,7 +265,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.text <cp.apple.finalcutpro.inspector.TextInspector`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [TextzInspector](cp.apple.finalcutpro.inspector.TextzInspector.md).                                                                     |
+| **Description**                             | The [TextInspector](cp.apple.finalcutpro.inspector.text.TextInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 570](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L570) |
 
@@ -278,7 +278,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.title <cp.apple.finalcutpro.inspector.TitleInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [TitleInspector](cp.apple.finalcutpro.inspector.TitleInspector.md).                                                                     |
+| **Description**                             | The [TitleInspector](cp.apple.finalcutpro.inspector.title.TitleInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 583](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L583) |
 
@@ -304,7 +304,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.transition <cp.apple.finalcutpro.inspector.TransitionInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [TransitionInspector](cp.apple.finalcutpro.inspector.TransitionInspector.md).                                                                     |
+| **Description**                             | The [TransitionInspector](cp.apple.finalcutpro.inspector.transition.TransitionInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 596](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L596) |
 
@@ -317,7 +317,7 @@ Inspector
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.video <cp.apple.finalcutpro.inspector.VideoInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [VideoInspector](cp.apple.finalcutpro.inspector.VideoInspector.md).                                                                     |
+| **Description**                             | The [VideoInspector](cp.apple.finalcutpro.inspector.video.VideoInspector.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 524](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L524) |
 

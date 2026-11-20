@@ -125,9 +125,9 @@ Pasteboard Manager.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doDecodeBuffer(id) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | A [Statement](cp.rx.go.Statement.md) which decodes the buffer with the specified ID.                                                                     |
+| **Description**                             | A [Statement](../commandpost/cp.rx.go.Statement.md) which decodes the buffer with the specified ID.                                                                     |
 | **Parameters**                              | <ul><li>id        - The ID to decode</li></ul> |
-| **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that sends the decoded buffer, or throws an error if not available.</li></ul>          |
+| **Returns**                                 | <ul><li>A [Statement](../commandpost/cp.rx.go.Statement.md) that sends the decoded buffer, or throws an error if not available.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 601](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L601) |
@@ -141,9 +141,9 @@ Pasteboard Manager.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doRestoreFromBuffer(id) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | A [Statement](cp.rx.go.Statement.md) which restore a Pasteboard item from the buffer.                                                                     |
+| **Description**                             | A [Statement](../commandpost/cp.rx.go.Statement.md) which restore a Pasteboard item from the buffer.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the buffer item.</li></ul> |
-| **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
+| **Returns**                                 | <ul><li>A [Statement](../commandpost/cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L622) |
@@ -157,9 +157,9 @@ Pasteboard Manager.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doSaveToBuffer(id) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | A [Statement](cp.rx.go.Statement.md) which saves a Pasteboard item to the buffer.                                                                     |
+| **Description**                             | A [Statement](../commandpost/cp.rx.go.Statement.md) which saves a Pasteboard item to the buffer.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the buffer item.</li></ul> |
-| **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
+| **Returns**                                 | <ul><li>A [Statement](../commandpost/cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 551](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L551) |
@@ -173,9 +173,9 @@ Pasteboard Manager.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doWaitForData(newData) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | A [Statement](cp.rx.go.Statement.md) which waits for up to 10 seconds for new data to appear on the clipboard. If none is found, an error is sent.                                                                     |
+| **Description**                             | A [Statement](../commandpost/cp.rx.go.Statement.md) which waits for up to 10 seconds for new data to appear on the clipboard. If none is found, an error is sent.                                                                     |
 | **Parameters**                              | <ul><li>newData - The new Pasteboard data.</li></ul> |
-| **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
+| **Returns**                                 | <ul><li>A [Statement](../commandpost/cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 531](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L531) |
@@ -189,9 +189,9 @@ Pasteboard Manager.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `plugins.finalcutpro.pasteboard.manager.doWaitForFreshData(oldData) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | A [Statement](cp.rx.go.Statement.md) which waits for up to 10 seconds for new data to copy to the clipboard. If none is found, an error is sent.                                                                     |
+| **Description**                             | A [Statement](../commandpost/cp.rx.go.Statement.md) which waits for up to 10 seconds for new data to copy to the clipboard. If none is found, an error is sent.                                                                     |
 | **Parameters**                              | <ul><li>oldData - The original Pasteboard data.</li></ul> |
-| **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
+| **Returns**                                 | <ul><li>A [Statement](../commandpost/cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 511](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L511) |

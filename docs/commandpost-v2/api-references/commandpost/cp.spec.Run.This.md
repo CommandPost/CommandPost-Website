@@ -240,7 +240,7 @@ will complete asynchronously.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.spec.Run.This:log(message[, ...])`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | When the current [Run](cp.spec.Run.md) is in [debug](#debug) mode, output the message to the console.                                                                     |
+| **Description**                             | When the current [Run](cp.spec.Run.md) is in [debug](cp.spec.Run.md#debug) mode, output the message to the console.                                                                     |
 | **Parameters**                              | <ul><li>message   - the text message to output.</li><li>...       - optional parameters, to be injected into the message, ala `string.format`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |

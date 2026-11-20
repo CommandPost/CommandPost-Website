@@ -2,7 +2,7 @@
 
 Talk to custom protocols using asynchronous UDP sockets.
 
-For TCP sockets see [`hs.socket`](./hs.socket.html).
+For TCP sockets see [`hs.socket`](hs.socket.md).
 
 You can do a lot of neat trivial and non-trivial things with these. A simple ping ponger:
 ```lua
@@ -149,7 +149,7 @@ from host: 192.168.0.3 port: 53057
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `hs.socket.udp.parseAddress(sockaddr) -> table or nil`                                                                    |
 | **Type**                                    | Function                                                                     |
-| **Description**                             | Alias for [`hs.socket.parseAddress`](./hs.socket.html#parseAddress)                                                                     |
+| **Description**                             | Alias for [`hs.socket.parseAddress`](hs.socket.md#parseaddress)                                                                     |
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | None |

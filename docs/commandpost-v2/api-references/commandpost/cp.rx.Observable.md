@@ -178,7 +178,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Signature**                               | `cp.rx.Observable.fromCoroutine(fn, scheduler) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Constructor                                                                     |
 | **Description**                             | Creates an Observable that produces values when the specified coroutine yields.                                                                     |
-| **Parameters**                              | <ul><li>fn - A `coroutine` or `function` to use to generate values.  Note that if a coroutine is used, the values it yields will be shared by all subscribed [Observers](cp.rx.Observer.md) (influenced by the [Scheduler](cp.rx.Scheduler.md)), whereas a new coroutine will be created for each Observer when a `function` is used.</li><li>scheduler - The scheduler</li></ul> |
+| **Parameters**                              | <ul><li>fn - A `coroutine` or `function` to use to generate values.  Note that if a coroutine is used, the values it yields will be shared by all subscribed [Observers](cp.rx.Observer.md) (influenced by the Scheduler), whereas a new coroutine will be created for each Observer when a `function` is used.</li><li>scheduler - The scheduler</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
@@ -467,7 +467,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:debounce(time[, scheduler]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Returns an `Observable` that mirrors the source `Observable`, except that it drops items emitted by the source that are followed by newer items before a timeout value expires on a specified [Scheduler](cp.rx.Scheduler.md). The timer resets on each emission.                                                                     |
+| **Description**                             | Returns an `Observable` that mirrors the source `Observable`, except that it drops items emitted by the source that are followed by newer items before a timeout value expires on a specified Scheduler. The timer resets on each emission.                                                                     |
 | **Parameters**                              | <ul><li>time        - The number of milliseconds.</li><li>scheduler   - The scheduler. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | None |
@@ -500,7 +500,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Signature**                               | `cp.rx.Observable:delay(time, scheduler) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
 | **Description**                             | Returns a new `Observable` that produces the values of the original delayed by a time period.                                                                     |
-| **Parameters**                              | <ul><li>time - An amount in milliseconds to delay by, or a `function` which returns this value.</li><li>scheduler - The [Scheduler](cp.rx.Scheduler.md) to run the `Observable` on. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
+| **Parameters**                              | <ul><li>time - An amount in milliseconds to delay by, or a `function` which returns this value.</li><li>scheduler - The Scheduler to run the `Observable` on. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
@@ -660,7 +660,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Signature**                               | `cp.rx.Observable:flatMapLatest([callback]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
 | **Description**                             | Returns a new `Observable` that uses a callback to create `Observables` from the values produced by the source, then produces values from the most recent of these `Observables`.                                                                     |
-| **Parameters**                              | <ul><li>callback - The function used to convert values to Observables. Defaults to the [identity](cp.rx.util#identity) function.</li></ul> |
+| **Parameters**                              | <ul><li>callback - The function used to convert values to Observables. Defaults to the identity function.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
@@ -884,7 +884,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Signature**                               | `cp.rx.Observable:retryWithDelay(count[, delay[, scheduler]]) -> cp.rx.Observable`                                                                    |
 | **Type**                                    | Method                                                                     |
 | **Description**                             | Returns an `Observable` that restarts in the event of an error.                                                                     |
-| **Parameters**                              | <ul><li>count - The maximum number of times to retry.  If left unspecified, an infinite number of retries will be attempted.</li><li>delay - The `function` returning or a `number` representing the delay in milliseconds or a `function`. If left unspecified, defaults to 1000 ms (1 second).</li><li>scheduler - The [Scheduler](cp.rx.Scheduler.md) to use. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
+| **Parameters**                              | <ul><li>count - The maximum number of times to retry.  If left unspecified, an infinite number of retries will be attempted.</li><li>delay - The `function` returning or a `number` representing the delay in milliseconds or a `function`. If left unspecified, defaults to 1000 ms (1 second).</li><li>scheduler - The Scheduler to use. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
@@ -1011,7 +1011,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.Observable:subscribe(observer [, onError[, onCompleted]]) -> cp.rx.Reference`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Shorthand for creating an [Observer](cp.rx.Observer.md) and passing it to this Observable's [subscription](#subscri) function.                                                                     |
+| **Description**                             | Shorthand for creating an [Observer](cp.rx.Observer.md) and passing it to this Observable's [subscription](#subscribe) function.                                                                     |
 | **Parameters**                              | <ul><li>observer - Either an [Observer](cp.rx.Observer.md) or a `function` to be called when the Observable produces a value.</li><li>onError - A `function` to be called when the Observable terminates due to an error.</li><li>onCompleted - A 'function` to be called when the Observable completes normally.</li></ul> |
 | **Returns**                                 | <ul><li>A [Reference](cp.rx.Reference.md) which can be used to cancel the subscription.</li></ul>          |
 | **Notes**                                   | None |

@@ -25,7 +25,7 @@
 | [cp.apple.finalcutpro.cmd.CommandEditor](cp.apple.finalcutpro.cmd.CommandEditor.md)                          | Command Editor Module.     |
 | [cp.apple.finalcutpro.cmd.CommandGroups](cp.apple.finalcutpro.cmd.CommandGroups.md)                          | Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.cmd.CommandList.md).     |
 | [cp.apple.finalcutpro.cmd.CommandList](cp.apple.finalcutpro.cmd.CommandList.md)                          | A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.CommandEditor.md).     |
-| [cp.apple.finalcutpro.cmd.Commands](cp.apple.finalcutpro.cmd.Commands.md)                          | The list of available commands (depending on search and/or [CommandGroup](cp.apple.finalcutpro.cmd.CommandGroups.md])     |
+| [cp.apple.finalcutpro.cmd.Commands](cp.apple.finalcutpro.cmd.Commands.md)                          | The list of available commands (depending on search and/or [CommandGroup](cp.apple.finalcutpro.cmd.CommandGroups.md)     |
 | [cp.apple.finalcutpro.cmd.Commands.Header](cp.apple.finalcutpro.cmd.Commands.Header.md)                          | The header of the Commands.     |
 | [cp.apple.finalcutpro.cmd.Commands.Row](cp.apple.finalcutpro.cmd.Commands.Row.md)                          | Commands Row.     |
 | [cp.apple.finalcutpro.cmd.KeyDetail](cp.apple.finalcutpro.cmd.KeyDetail.md)                          | This class provides a UI for displaying the details of a key when it is selected on the keyboard layout.     |
@@ -114,7 +114,7 @@
 | [cp.apple.finalcutpro.timeline.IndexTags](cp.apple.finalcutpro.timeline.IndexTags.md)                          | Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md)     |
 | [cp.apple.finalcutpro.timeline.IndexTags.Type](cp.apple.finalcutpro.timeline.IndexTags.Type.md)                          | The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by Video/Audio/Title.     |
 | [cp.apple.finalcutpro.timeline.Role](cp.apple.finalcutpro.timeline.Role.md)                          |  *Extends [Row](cp.ui.OldRow.md)*     |
-| [cp.apple.finalcutpro.timeline.SpeedPopover](cp.apple.finalcutpro.timeline.SpeedPopover.md)                          |  *Extends [Timeline](cp.apple.finalcutpro.timeline.md)*     |
+| [cp.apple.finalcutpro.timeline.SpeedPopover](cp.apple.finalcutpro.timeline.SpeedPopover.md)                          |  *Extends [Timeline](cp.apple.finalcutpro.timeline.Timeline.md)*     |
 | [cp.apple.finalcutpro.timeline.Timeline](cp.apple.finalcutpro.timeline.Timeline.md)                          | Timeline Module.     |
 | [cp.apple.finalcutpro.timeline.Toolbar](cp.apple.finalcutpro.timeline.Toolbar.md)                          | Timeline Toolbar     |
 | [cp.apple.finalcutpro.timeline.Toolbar.Browser](cp.apple.finalcutpro.timeline.Toolbar.Browser.md)                          | A [RadioGroup](cp.ui.RadioGroup.md) that contains buttons to show or hide the Effects and Transitions Browsers.     |
@@ -244,7 +244,7 @@
 | [cp.rx.Observer](cp.rx.Observer.md)                          | Observers are simple objects that receive values from [Observables](cp.rx.Observable.md).     |
 | [cp.rx.Reference](cp.rx.Reference.md)                          | A handle representing the link between an [Observer](cp.rx.Observer.md) and an [Observable](cp.rx.Observable.md), as well as any     |
 | [cp.rx.RelaySubject](cp.rx.RelaySubject.md)                          | A [Subject](cp.rx.Subject.md) that provides new [Observers](cp.rx.Observer.md) with some or all of the most recently     |
-| [cp.rx.Subject](cp.rx.Subject.md)                          | `Subjects` function both as an [Observer](cp.rs.Observer.md) and as an [Observable](cp.rx.Observable.md). Subjects inherit all     |
+| [cp.rx.Subject](cp.rx.Subject.md)                          | `Subjects` function both as an [Observer](cp.rx.Observer.md) and as an [Observable](cp.rx.Observable.md). Subjects inherit all     |
 | [cp.rx.TimeoutScheduler](cp.rx.TimeoutScheduler.md)                          | A scheduler that uses the `hs.timer` library to schedule events on an event loop.     |
 | [cp.sourcewatcher](cp.sourcewatcher.md)                          | Watches folders for specific file extensions and reloads the app if they change.     |
 | [cp.spec](cp.spec.md)                          | An synchronous/asynchronous test library for Lua.     |

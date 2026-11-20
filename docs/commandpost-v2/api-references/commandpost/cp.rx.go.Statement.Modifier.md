@@ -1,7 +1,7 @@
 # cp.rx.go.Statement.Modifier
 
 A `Statement.Modifier` is an extension to a [Statement](cp.rx.go.Statement.md) that provides additional configuration details.
-They are initiated via the [modifier](#modifier) method of a defined [Statement](cp.rx.go.Statement.md).
+They are initiated via the modifier method of a defined [Statement](cp.rx.go.Statement.md).
 
 All `Statement.Modifier` instances will also have the methods defined by [Statement](cp.rx.go.Statement.md).
 

@@ -8,7 +8,7 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 
 When requesting technical support, we recommend including the following information:
 
-- [Any crash logs and BRAW Toolbox log files](/troubleshooting/#ive-run-into-a-bug-where-can-i-find-the-log-files) - we can't do much without this information
+- [Any crash logs and BRAW Toolbox log files](/commandpost-v3/troubleshooting/#ive-run-into-a-bug-where-can-i-find-the-log-files) - we can't do much without this information
 - macOS Version
 - Final Cut Pro Version
 - A screenshot of the **About This Mac** screen so we can see your system specs

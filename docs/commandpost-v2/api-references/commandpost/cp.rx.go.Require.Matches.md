@@ -42,7 +42,7 @@ Specifies that the `Require`d value `Matches` a function predicate.
 | **Type**                                    | Method                                                                     |
 | **Description**                             | Specifies what is thrown if the [Require](cp.rx.go.Require.md) test fails.                                                                     |
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` items to process.</li></ul> |
-| **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
+| **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.md#orthrow) instance.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L240) |

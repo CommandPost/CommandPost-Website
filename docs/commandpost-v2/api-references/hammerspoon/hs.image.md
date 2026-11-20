@@ -302,7 +302,7 @@ A module for capturing and manipulating image objects from other modules for use
   GIF  - save in Graphics Image Format (GIF) format
   JPEG - save in Joint Photographic Experts Group (JPEG) format</li></ul> |
 | **Returns**                                 | <ul><li>the bitmap image representation as a Base64 encoded string</li></ul>          |
-| **Notes**                                   | <ul><li>You can convert the string back into an image object with [hs.image.imageFromURL](#URL), e.g. `hs.image.imageFromURL(string)`</li></ul> |
+| **Notes**                                   | <ul><li>You can convert the string back into an image object with [hs.image.imageFromURL](#imagefromurl), e.g. `hs.image.imageFromURL(string)`</li></ul> |
 | **Examples**                                | None |
 | **Source**                                  | [extensions/image/libimage.m line 1397](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/image/libimage.m#L1397) |
 

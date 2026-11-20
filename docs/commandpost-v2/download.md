@@ -11,14 +11,14 @@ All our applications on the Mac App Store support Family Sharing, and offer a re
 \
 **CommandPost remains open source - and you can build it yourself.**\
 \
-You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
+You can read more about this decision on the [FAQ page](/commandpost-v2/faq/#why-is-commandpost-no-longer-free).
 !!!
 
 You can download the latest **CommandPost v2.1.0** release [here](https://github.com/CommandPost/CommandPost/releases/download/2.1.0/CommandPost_2.1.0.dmg).
 
 You can find the source code to previous versions of CommandPost on [GitHub](https://github.com/CommandPost/CommandPost/releases/).
 
-You can find installation instructions [here](/installation).
+You can find installation instructions [here](/commandpost-v2/installation/).
 
 ---
 

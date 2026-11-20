@@ -44,7 +44,7 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurve(parent, type) -> ColorCurve`                                                                    |
 | **Type**                                    | Constructor                                                                     |
 | **Description**                             | Creates a new `ColorCurve` [Element](cp.ui.Element.md).                                                                     |
-| **Parameters**                              | <ul><li>parent    - The parent `Element`.</li><li>type     - The [TYPE](#TYPE) of curve.</li></ul> |
+| **Parameters**                              | <ul><li>parent    - The parent `Element`.</li><li>type     - The TYPE of curve.</li></ul> |
 | **Returns**                                 | <ul><li>The new `ColorCurve`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |

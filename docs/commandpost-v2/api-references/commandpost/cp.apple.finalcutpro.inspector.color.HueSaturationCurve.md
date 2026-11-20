@@ -44,7 +44,7 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.HueSaturationCurve(parent, type) -> HueSaturationCurve`                                                                    |
 | **Type**                                    | Constructor                                                                     |
 | **Description**                             | Creates a new `HueSaturationCurve` [Element](cp.ui.Element.md).                                                                     |
-| **Parameters**                              | <ul><li>parent    - The parent `Element`.</li><li>type     - The [TYPE](#TYPE) of curve.</li></ul> |
+| **Parameters**                              | <ul><li>parent    - The parent `Element`.</li><li>type     - The TYPE of curve.</li></ul> |
 | **Returns**                                 | <ul><li>The new `HueSaturationCurve`.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |

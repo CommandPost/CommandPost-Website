@@ -1,6 +1,6 @@
 # Installation
 
-You can download the latest release of CommandPost as an DMG package [here](/download/).
+You can download the latest release of CommandPost as an DMG package [here](/commandpost-v2/download/).
 
 Once downloaded, simply open the package by double-clicking it.
 
@@ -58,7 +58,7 @@ As soon as you click it, System Preferences will close, and you'll go back to th
 
 
 !!!warning Are you recording my screen?
-No, we're **not** recording your screen. You can learn more [here](/faq/#why-does-commandpost-require-screen-recording-permissions).
+No, we're **not** recording your screen. You can learn more [here](/commandpost-v2/faq/#why-does-commandpost-require-screen-recording-permissions).
 !!!
 
 When you click **ALLOW SCREEN RECORDING**, the **Privacy** Tab of the **Security & Privacy** System Preferences opens.
@@ -99,6 +99,6 @@ Once the scanning is complete you'll be presented with:
 
 Click **CLOSE**, and you're ready to use CommandPost!
 
-You can access CommandPost's features via it's [menubar icon](/interface/menubar/).
+You can access CommandPost's features via it's [menubar icon](/commandpost-v2/interface/menubar/).
 
 Have fun!

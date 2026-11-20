@@ -43,7 +43,7 @@ that appear in Final Cut Pro.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.strings:find(key[, locale][, quiet]]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Looks up an application string with the specified `key`. If no `context` value is provided, the [current context](#context) is used.                                                                     |
+| **Description**                             | Looks up an application string with the specified `key`. If no `context` value is provided, the [current context](cp.strings.md#context) is used.                                                                     |
 | **Parameters**                              | <ul><li>`key`	- The key to look up.</li><li>`locale` - Optional locale to retrieve the key for, if available. May be a `string` or `cp.i18n.localeID`.</li><li>`quiet`	- Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
 | **Notes**                                   | None |

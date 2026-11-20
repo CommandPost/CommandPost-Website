@@ -13,7 +13,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 ---
 
 ## Submodules
- * [cp.strings.source](cp.strings.source.md)
+ * cp.strings.source
 
 ---
 

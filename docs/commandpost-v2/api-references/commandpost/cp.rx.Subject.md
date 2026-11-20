@@ -1,8 +1,8 @@
 # cp.rx.Subject
 
-`Subjects` function both as an [Observer](cp.rs.Observer.md) and as an [Observable](cp.rx.Observable.md). Subjects inherit all
+`Subjects` function both as an [Observer](cp.rx.Observer.md) and as an [Observable](cp.rx.Observable.md). Subjects inherit all
 `Observable` functions, including [subscribe](#subscribe). Values can also be pushed to the `Subject`, which will
-be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
+be broadcasted to any subscribed [Observers](cp.rx.Observer.md).
 
 ---
 

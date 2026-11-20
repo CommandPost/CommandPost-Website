@@ -47,7 +47,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.contentGroupUI <cp.prop: axuielement>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | The [axuielement](cp.prop.axuielement) for the content Group.                                                                     |
+| **Description**                             | The axuielement for the content Group.                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/KeyDetail.lua#L52) |
 

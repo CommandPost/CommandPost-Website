@@ -2,7 +2,7 @@
 
 `AsyncSubjects` are subjects that produce either no values or a single value.  If
 multiple values are produced via `onNext`, only the last one is used.  If `onError` is called, then
-no value is produced and `onError` is called on any subscribed [Observers](cp.rx.Observers.md).
+no value is produced and `onError` is called on any subscribed [Observers](cp.rx.Observer.md).
 If an [Observer](cp.rx.Observer.md) subscribes and the `AsyncSubject` has already terminated,
 the `Observer` will immediately receive the value or the error.
 
@@ -50,7 +50,7 @@ the `Observer` will immediately receive the value or the error.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.rx.AsyncSubject:onCompleted() -> nil`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Signal to all [Observers](cp.rx.Observers.md) that the `AsyncSubject` will not produce any more values.                                                                     |
+| **Description**                             | Signal to all [Observers](cp.rx.Observer.md) that the `AsyncSubject` will not produce any more values.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | None |

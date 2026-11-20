@@ -6,18 +6,18 @@ Core CommandPost functionality.
 
 ## Submodules
  * [cp.18n](cp.18n.md)
- * [cp.adobe](cp.adobe.md)
+ * cp.adobe
  * [cp.app](cp.app.md)
- * [cp.apple](cp.apple.md)
+ * cp.apple
  * [cp.battery](cp.battery.md)
  * [cp.bench](cp.bench.md)
- * [cp.blackmagic](cp.blackmagic.md)
+ * cp.blackmagic
  * [cp.buffer](cp.buffer.md)
  * [cp.choices](cp.choices.md)
- * [cp.collect](cp.collect.md)
+ * cp.collect
  * [cp.commands](cp.commands.md)
  * [cp.config](cp.config.md)
- * [cp.console](cp.console.md)
+ * cp.console
  * [cp.deferred](cp.deferred.md)
  * [cp.delegator](cp.delegator.md)
  * [cp.dev](cp.dev.md)
@@ -27,7 +27,7 @@ Core CommandPost functionality.
  * [cp.feedback](cp.feedback.md)
  * [cp.fn](cp.fn.md)
  * [cp.highland2](cp.highland2.md)
- * [cp.i18n](cp.i18n.md)
+ * cp.i18n
  * [cp.idle](cp.idle.md)
  * [cp.ids](cp.ids.md)
  * [cp.interpolate](cp.interpolate.md)
@@ -49,13 +49,13 @@ Core CommandPost functionality.
  * [cp.strings](cp.strings.md)
  * [cp.test](cp.test.md)
  * [cp.text](cp.text.md)
- * [cp.time](cp.time.md)
+ * cp.time
  * [cp.tools](cp.tools.md)
- * [cp.ui](cp.ui.md)
+ * cp.ui
  * [cp.utf16](cp.utf16.md)
  * [cp.watcher](cp.watcher.md)
- * [cp.web](cp.web.md)
- * [cp.websocket](cp.websocket.md)
+ * cp.web
+ * cp.websocket
 
 ---
 

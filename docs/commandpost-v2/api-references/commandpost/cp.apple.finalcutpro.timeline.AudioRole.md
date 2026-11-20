@@ -87,7 +87,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.AudioRole.subroleLanes <cp.ui.CheckButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | A [CheckButton](cp.ui.CheckButton.md) that toggles whether the subroles are visible in the [Timeline](cp.apple.finalcutpro.timeline.Timeline.md).                                                                     |
+| **Description**                             | A [CheckButton](cp.ui.CheckBox.md) that toggles whether the subroles are visible in the [Timeline](cp.apple.finalcutpro.timeline.Timeline.md).                                                                     |
 | **Notes**                                   | None |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L70) |
 
@@ -100,8 +100,8 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.AudioRole.subrolesExpanded <cp.ui.CheckButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
-| **Description**                             | A [CheckButton](cp.ui.CheckButton.md) that toggles whether the roles are visible in the Index.                                                                     |
-| **Notes**                                   | <ul><li>Unlike the [VideoRole](cp.finalcutpro.apple.timeline.VideoRole.md) and [CaptionsRole](cp.apple.finalcutpro.timeline.CaptionsRole.md), this is a [CheckBox](cp.ui.CheckBox.md) and is always visible.</li></ul> |
+| **Description**                             | A [CheckButton](cp.ui.CheckBox.md) that toggles whether the roles are visible in the Index.                                                                     |
+| **Notes**                                   | <ul><li>Unlike the [VideoRole](cp.apple.finalcutpro.timeline.VideoRole.md) and [CaptionsRole](cp.apple.finalcutpro.timeline.CaptionsRole.md), this is a [CheckBox](cp.ui.CheckBox.md) and is always visible.</li></ul> |
 | **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioRole.lua#L58) |
 
 ---

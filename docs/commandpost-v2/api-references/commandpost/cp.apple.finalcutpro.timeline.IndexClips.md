@@ -179,7 +179,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips:doFindClipsContaining(text) -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Returns a [Statement](cp.go.rx.Statement.md) that will use the index to search for clips containing the specified text.                                                                     |
+| **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will use the index to search for clips containing the specified text.                                                                     |
 | **Parameters**                              | <ul><li>text - The text to search for.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>Because the `text` can change each time, this result is not cached automatically. However as long as you are searching for the same text the result can be safely cached. The [#toFindMissingMedia] method does this, for example.</li></ul> |

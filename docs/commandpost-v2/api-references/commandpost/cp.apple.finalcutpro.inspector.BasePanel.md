@@ -30,7 +30,7 @@ Extends [Element](cp.ui.Element.md).
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BasePanel(parent, panelType) -> BasePanel`                                                                    |
 | **Type**                                    | Constructor                                                                     |
-| **Description**                             | Constructs the panel, initialising the parent and the [UI](cp.ui.Element.md#UI).                                                                     |
+| **Description**                             | Constructs the panel, initialising the parent and the UI.                                                                     |
 | **Parameters**                              | <ul><li>parent        - The parent [Element](cp.ui.Element.md).</li><li>panelType     - The panel type string, as defined in [Inspector.INSPECTOR_TABS](cp.apple.finalcutpro.inspector.Inspector.md#INSPECTOR_TABS).</li></ul> |
 | **Returns**                                 | <ul><li>The new `BasePanel` instance.</li></ul>          |
 | **Notes**                                   | None |

@@ -70,20 +70,20 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ## Submodules
  * [cp.apple.finalcutpro.app](cp.apple.finalcutpro.app.md)
- * [cp.apple.finalcutpro.browser](cp.apple.finalcutpro.browser.md)
- * [cp.apple.finalcutpro.cmd](cp.apple.finalcutpro.cmd.md)
- * [cp.apple.finalcutpro.content](cp.apple.finalcutpro.content.md)
- * [cp.apple.finalcutpro.export](cp.apple.finalcutpro.export.md)
- * [cp.apple.finalcutpro.import](cp.apple.finalcutpro.import.md)
- * [cp.apple.finalcutpro.inspector](cp.apple.finalcutpro.inspector.md)
- * [cp.apple.finalcutpro.main](cp.apple.finalcutpro.main.md)
+ * cp.apple.finalcutpro.browser
+ * cp.apple.finalcutpro.cmd
+ * cp.apple.finalcutpro.content
+ * cp.apple.finalcutpro.export
+ * cp.apple.finalcutpro.import
+ * cp.apple.finalcutpro.inspector
+ * cp.apple.finalcutpro.main
  * [cp.apple.finalcutpro.menu](cp.apple.finalcutpro.menu.md)
  * [cp.apple.finalcutpro.plugins](cp.apple.finalcutpro.plugins.md)
- * [cp.apple.finalcutpro.prefs](cp.apple.finalcutpro.prefs.md)
+ * cp.apple.finalcutpro.prefs
  * [cp.apple.finalcutpro.strings](cp.apple.finalcutpro.strings.md)
- * [cp.apple.finalcutpro.timeline](cp.apple.finalcutpro.timeline.md)
- * [cp.apple.finalcutpro.viewer](cp.apple.finalcutpro.viewer.md)
- * [cp.apple.finalcutpro.workflowextensions](cp.apple.finalcutpro.workflowextensions.md)
+ * cp.apple.finalcutpro.timeline
+ * cp.apple.finalcutpro.viewer
+ * cp.apple.finalcutpro.workflowextensions
 
 ---
 
@@ -1384,7 +1384,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro:defaultCommandSetPath([locale]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
 | **Description**                             | Gets the path to the 'Default' Command Set.                                                                     |
-| **Parameters**                              | <ul><li>`locale`	- The optional locale to use. Defaults to the [current locale](#currentLocale).</li></ul> |
+| **Parameters**                              | <ul><li>`locale`	- The optional locale to use. Defaults to the [current locale](cp.app.md#currentlocale).</li></ul> |
 | **Returns**                                 | <ul><li>The 'Default' Command Set path, or `nil` if an error occurred</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
@@ -1575,7 +1575,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro:string(key[, locale[, quiet]]) -> string`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Looks up an application string with the specified `key`. If no `locale` value is provided, the [current locale](#currentLocale) is used.                                                                     |
+| **Description**                             | Looks up an application string with the specified `key`. If no `locale` value is provided, the [current locale](cp.app.md#currentlocale) is used.                                                                     |
 | **Parameters**                              | <ul><li>`key`	- The key to look up.</li><li>`locale`	- The locale code to use. Defaults to the current locale.</li><li>`quiet`	- Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
 | **Notes**                                   | None |

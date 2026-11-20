@@ -63,11 +63,11 @@ However, to make sure the website is super easy to update and improve, we use [G
 
 For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/CommandPost-Website/blob/main/.github/workflows/retype-action.yml) does the following:
 
-- Pulls all the latest [GitHub issues](https://github.com/CommandPost/CommandPost/issues) and populates the [Wish List](/wish-list/) and [Bug Tracker](/bugtracker/) pages.
-- Update the [Sponsor](/sponsor/) page with latest GitHub Sponsors.
-- Looks at all the individual **Snippets** in [this folder](https://github.com/CommandPost/CommandPost-Website/tree/main/docs/_includes/snippets), and generates an alphabetical list of them for the [Snippets Library page](/scripting/snippets-library/).
+- Pulls all the latest [GitHub issues](https://github.com/CommandPost/CommandPost/issues) and populates the [Wish List](/commandpost-v3/wishlist/) and [Bug Tracker](/commandpost-v3/bugtracker/) pages.
+- Update the [Sponsor](/commandpost-v2/sponsor/) page with latest GitHub Sponsors.
+- Looks at all the individual **Snippets** in [this folder](https://github.com/CommandPost/CommandPost-Website/tree/main/docs/_includes/snippets), and generates an alphabetical list of them for the [Snippets Library page](/commandpost-v2/scripting/snippets-library/).
 
-This means, if you want to add a Snippet to the [Snippets Library](/scripting/snippets-library/), you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
+This means, if you want to add a Snippet to the [Snippets Library](/commandpost-v2/scripting/snippets-library/), you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
 
 ---
 

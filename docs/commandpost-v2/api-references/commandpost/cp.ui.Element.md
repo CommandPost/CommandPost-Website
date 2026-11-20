@@ -4,8 +4,8 @@ A support class for `hs.axuielement` management.
 
 See:
  * [Button](cp.ui.Button.md)
- * [CheckBox](cp.rx.CheckBox.md)
- * [MenuButton](cp.rx.MenuButton.md)
+ * [CheckBox](cp.ui.CheckBox.md)
+ * [MenuButton](cp.ui.MenuButton.md)
 
 ---
 

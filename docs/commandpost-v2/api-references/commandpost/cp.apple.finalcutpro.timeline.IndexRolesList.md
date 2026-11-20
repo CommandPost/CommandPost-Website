@@ -32,7 +32,7 @@ Timeline Index Roles List.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRolesList:allRoles([includeSubroles]) -> table of Roles`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Returns the list of caption [Role](cp.ui.Role.md)s in the current list.                                                                     |
+| **Description**                             | Returns the list of caption [Role](cp.apple.finalcutpro.timeline.Role.md)s in the current list.                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - if `true`, include Subroles, otherwise exclude them.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
 | **Notes**                                   | None |
@@ -48,7 +48,7 @@ Timeline Index Roles List.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRolesList:audioRoles([includeSubroles]) -> table of Roles`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Returns the list of all audio [Role](cp.ui.Role.md)s in the current list.                                                                     |
+| **Description**                             | Returns the list of all audio [Role](cp.apple.finalcutpro.timeline.Role.md)s in the current list.                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - if `true`, include Subroles, otherwise exclude them.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
 | **Notes**                                   | None |
@@ -192,7 +192,7 @@ Timeline Index Roles List.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRolesList:videoRoles([includeSubroles]) -> table of Roles`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Returns the list of all video [Role](cp.ui.Role.md)s in the current list.                                                                     |
+| **Description**                             | Returns the list of all video [Role](cp.apple.finalcutpro.timeline.Role.md)s in the current list.                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - if `true`, include Subroles, otherwise exclude them.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
 | **Notes**                                   | None |

@@ -110,7 +110,7 @@ Pasteboard History
 | **Type**                                    | Function                                                                     |
 | **Description**                             | Returns a function which will paste a Pasteboard History Item when executed.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the Pasteboard history item.</li></ul> |
-| **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to be executed.</li></ul>          |
+| **Returns**                                 | <ul><li>A [Statement](../commandpost/cp.rx.go.Statement.md) to be executed.</li></ul>          |
 | **Notes**                                   | None |
 | **Examples**                                | None |
 | **Source**                                  | [src/plugins/finalcutpro/pasteboard/history.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/history.lua#L95) |

@@ -6,8 +6,8 @@ The Blackmagic DaVinci Resolve Extension.
 
 ## Submodules
  * [cp.blackmagic.resolve.app](cp.blackmagic.resolve.app.md)
- * [cp.blackmagic.resolve.color](cp.blackmagic.resolve.color.md)
- * [cp.blackmagic.resolve.main](cp.blackmagic.resolve.main.md)
+ * cp.blackmagic.resolve.color
+ * cp.blackmagic.resolve.main
 
 ---
 
@@ -352,7 +352,7 @@ The Blackmagic DaVinci Resolve Extension.
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | **Signature**                               | `cp.blackmagic.resolve:doRestart() -> cp.rx.go.Statement`                                                                    |
 | **Type**                                    | Method                                                                     |
-| **Description**                             | Returns a [Statement](cp.rx.go.Statement.cp) that will restart DaVinci Resolve, if it is running. If not, nothing happens.                                                                     |
+| **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will restart DaVinci Resolve, if it is running. If not, nothing happens.                                                                     |
 | **Parameters**                              | <ul><li>None.</li></ul> |
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
 | **Notes**                                   | None |

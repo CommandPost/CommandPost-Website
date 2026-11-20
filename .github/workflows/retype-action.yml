@@ -18,12 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v7
         with:
-          node-version: 16
+          node-version: 24
 
       - name: Install dependencies
         run: npm install axios
@@ -65,7 +65,7 @@ jobs:
           )
 
       - name: Archive production artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: docs
           path: docs/
@@ -80,13 +80,25 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: 9.0.x
 
-      - uses: retypeapp/action-build@latest
+      # Retype 4.6.0 intermittently crashes during its parallel deploy phase
+      # ("A concurrent update was performed on this collection..." or
+      # "capacity ('-2') must be a non-negative value"). It's a race inside
+      # Retype, not a content problem, so retry the build once before failing.
+      - id: retype-build
+        uses: retypeapp/action-build@latest
+        continue-on-error: true
+        env:
+          RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
+
+      - name: Retry Retype build
+        if: steps.retype-build.outcome == 'failure'
+        uses: retypeapp/action-build@latest
         env:
           RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
 
