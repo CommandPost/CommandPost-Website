@@ -1,11 +1,9 @@
-﻿# CommandPost
+﻿# README
 
-> Workflow Enhancements for Creatives
-
-- [CommandPost](https://commandpost.fcp.cafe/readme.md): CommandPost
 
 ## CommandPost v3
 
+- [CommandPost v3](https://commandpost.fcp.cafe/commandpost-v3/introduction.md): Workflow Enhancements for Creatives
 - [Buy on Mac App Store](https://commandpost.fcp.cafe/commandpost-v3/buy.md): CommandPost v3 is a one-time payment of USD$79.99 on the Mac App Store.
 - [Educational Pricing](https://commandpost.fcp.cafe/commandpost-v3/educational.md): Educational institutions can get a 50% discount when they purchase 20 or more copies through Apple School Manager.
 - [System Requirements](https://commandpost.fcp.cafe/commandpost-v3/system-requirements.md): CommandPost v3 on requires macOS Sequoia 15.6 or later.
@@ -16,9 +14,11 @@
 - [Bug Tracker](https://commandpost.fcp.cafe/commandpost-v3/bugtracker.md): This page is dedicated to keeping track of the latest CommandPost bugs and issues.
 - [Credits](https://commandpost.fcp.cafe/commandpost-v3/credits.md): CommandPost was created by Chris Hocking as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for Scott Simmons.
 - [Privacy Policy](https://commandpost.fcp.cafe/commandpost-v3/privacy.md): This is the privacy policy for the CommandPost v3, macOS Application that is available on the macOS App Store and TestFlight.
+- [CommandPost Helper](https://commandpost.fcp.cafe/commandpost-v3/helper.md): CommandPost Helper is an optional helper tool that gives Accessibility powers to CommandPost v3.
 
 ## CommandPost v2
 
+- [CommandPost](https://commandpost.fcp.cafe/commandpost-v2/introduction.md): Workflow Enhancements for Creatives
 - [Sponsor CommandPost](https://commandpost.fcp.cafe/commandpost-v2/sponsor.md): CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store. The cheapest options are ScriptStar, Fast Collections, Gyroflow Toolbox, LUT Robot, News Import, Recall Toolbox and Transfer Toolbox - all USD$9.99.
 - [Download](https://commandpost.fcp.cafe/commandpost-v2/download.md): CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store. The cheapest options are ScriptStar, Fast Collections, Gyroflow Toolbox, LUT Robot, News Import, Recall Toolbox and Transfer Toolbox - all USD$9.99.
 - [System Requirements](https://commandpost.fcp.cafe/commandpost-v2/system-requirements.md): CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store. The cheapest options are ScriptStar, Fast Collections, Gyroflow Toolbox, LUT Robot, News Import, Recall Toolbox and Transfer Toolbox - all USD$9.99.
@@ -902,5 +902,4 @@
 - [plugins.zoom.application.manager](https://commandpost.fcp.cafe/commandpost-v2/api-references/plugins/plugins.zoom.application.manager.md): Registers Zoom with the Core Application Manager if installed.
 - [plugins.zoom.shortcuts](https://commandpost.fcp.cafe/commandpost-v2/api-references/plugins/plugins.zoom.shortcuts.md): Trigger Zoom Shortcuts
 - [Privacy Policy](https://commandpost.fcp.cafe/commandpost-v2/privacy.md): By using our site and products, you consent to this privacy policy.
-- [CommandPost Helper](https://commandpost.fcp.cafe/commandpost-v2/helper.md): CommandPost Helper is an optional helper tool that gives Accessibility powers to CommandPost v3.
 - [Contribute](https://commandpost.fcp.cafe/commandpost-v2/contribute.md): The CommandPost website is entirely open source and hosted on GitHub.
