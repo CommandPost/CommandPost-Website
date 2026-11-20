@@ -1,0 +1,39 @@
+# TourBox
+
+CommandPost has support for the original **TourBox**, **TourBox Elite** and **TourBox Elite Plus**.
+
+![](../static/tourbox.png)
+
+Currently we don't support the **TourBox NEO** and **TourBox Lite**.
+
+We have feature requests in GitHub for the [TourBox NEO](https://github.com/CommandPost/CommandPost/issues/3475) and [TourBox Lite](https://github.com/CommandPost/CommandPost/issues/3476).
+
+If you would like to see us add support, please consider [sponsoring CommandPost](/commandpost-v2/sponsor/) so we can purchase the hardware to develop and test.
+
+If you have the original **TourBox** you need to have firmware installed that was included with **TourBox Console Version v2.1**.
+
+The **TourBox Elite** and **TourBox Elite Plus** have been tested with the firmware that was included with **TourBox Console v5.11.0**.
+
+The **TourBox Elite** and **TourBox Elite Plus** support haptic feedback - the original **TourBox** doesn't have the hardware to do haptic feedback.
+
+Some of the modifier actions in the TourBox control surfaces panel currently only work with the original TourBox.
+
+If you want to use the TourBox with CommandPost, you should make sure that **TourBox Console** is closed - as CommandPost talks directly to the TourBox hardware, without the need for the official software.
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

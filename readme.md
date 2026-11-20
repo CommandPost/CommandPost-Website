@@ -16,7 +16,7 @@ The cheapest option is only **USD$10** - although we think [Marker Toolbox](http
 
 Thank you to EVERYONE who has supported CommandPost throughout these years!
 
-You can read more about this decision on the [FAQ page](/faq/#why-is-commandpost-no-longer-free).
+You can read more about this decision on the [FAQ page](/commandpost-v2/faq/#why-is-commandpost-no-longer-free).
 
 It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) to make it even better and more enjoyable to edit with.
 
@@ -77,14 +77,14 @@ However, it's also used by developers, scientists and macOS power users all over
 
 CommandPost has deep support for a wide range of **control surfaces**.
 
-It even brings back **[Razer](/control-surfaces/razer/)** keypad support to the Mac!
+It even brings back **[Razer](/commandpost-v2/control-surfaces/razer/)** keypad support to the Mac!
 
 > _“ Chris's support is the best you will find anywhere on the planet. He was proactive and able to implement features for me on the spot. 5 STAR product 5 STAR support. ControllerMate is what I used to use. CommandPost is faster and easier. ”_<br />
 > **[Ross Batten](https://www.roscoaudio.com.au)** <font size="2">- _Senior Sound Designer (ProTools)_</font>
 
 You can basically control **ANYTHING** in Final Cut Pro with a huge range of control surfaces.
 
-**[Tangent](/control-surfaces/tangent/)**, **[Monogram](/control-surfaces/monogram/)** and **[Loupedeck](/control-surfaces/loupedeck/)** all officially rely on CommandPost for Final Cut Pro support.
+**[Tangent](/commandpost-v2/control-surfaces/tangent/)**, **[Monogram](/commandpost-v2/control-surfaces/monogram/)** and **[Loupedeck](/commandpost-v2/control-surfaces/loupedeck/)** all officially rely on CommandPost for Final Cut Pro support.
 
 ![](../static/homepage-control-surface.png)
 
@@ -168,7 +168,7 @@ It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org) Lua sc
 
 ---
 
-[Download now](/download) for **free** and accelerate your post production workflow...
+[Download now](/commandpost-v2/download/) for **free** and accelerate your post production workflow...
 
 ---
 

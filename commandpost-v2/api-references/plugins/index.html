@@ -1,0 +1,1901 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.848525743501">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.6.0">
+
+    <!-- Primary Meta Tags -->
+    <title>CommandPost</title>
+    <meta name="title" content="CommandPost">
+    <meta name="description" content="Module">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.fcp.cafe/commandpost-v2/api-references/plugins/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://commandpost.fcp.cafe/sitemap.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.fcp.cafe/commandpost-v2/api-references/plugins/">
+    <meta property="og:title" content="CommandPost">
+    <meta property="og:description" content="Module">
+    <meta property="og:image" content="https://commandpost.fcp.cafe/static/thumbnail.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="CommandPost">
+    <meta property="og:site_name" content="CommandPost">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://commandpost.fcp.cafe/commandpost-v2/api-references/plugins/">
+    <meta name="twitter:title" content="CommandPost">
+    <meta name="twitter:description" content="Module">
+    <meta name="twitter:image" content="https://commandpost.fcp.cafe/static/thumbnail.png">
+    <meta name="twitter:image:alt" content="CommandPost">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://commandpost.fcp.cafe/commandpost-v2/api-references/plugins/index.md">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
+    <link href="../../../resources/css/retype.css?v=4.6.0.848525743501" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.848525743501" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.848525743501" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Hide Logos on Mobile */
+        @media (max-width: 959px) {
+            img.rightLogo {
+                display: none !important;
+            }
+            #docs-site-logo > span.w-10.mr-2.grow-0.shrink-0.overflow-hidden {
+                display: none !important;
+            }
+        }
+        .review {
+            text-align: left;
+            color: #1956AF;
+            border-radius: 10px;
+            background-color: #E1EDFF;
+            border: 1px solid #1956AF;
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+        }
+        html.dark .review {
+            background-color: rgb(39 39 39/var(--tw-bg-opacity));
+            color: rgb(189 189 189/var(--tw-text-opacity));
+        }
+        .review p {
+            font-size: 11px;
+        }
+        .review-rating {
+            margin-bottom: 5px;
+        }
+        .fa-star {
+            font-size: 20px;
+            color: #ccc;
+        }
+        .fa-star.checked {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://commandpost.fcp.cafe/" class="flex items-center leading-snug text-2xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="../../../static/logo.png" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                    </a>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../commandpost-v3/buy/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                </svg>
+                                <span>Buy</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                </svg>
+                                <span>Discord</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/CommandPost/CommandPost/issues" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                </svg>
+                                <span>Bugs &amp; Feature Requests</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                </svg>
+                                <span>FCP Cafe</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                </svg>
+                                <span>LateNite</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../../commandpost-v3/buy/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </svg>
+                                        <span>Buy</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://ltnt.tv/discord" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </svg>
+                                        <span>Discord</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/CommandPost/CommandPost/issues" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </svg>
+                                        <span>Bugs &amp; Feature Requests</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </svg>
+                                        <span>FCP Cafe</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fcp.cafe/latenite/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </svg>
+                                        <span>LateNite</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="relative retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="../../../" class="pr-4">
+                                Introduction
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                Commandpost v​2
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <span class="pr-4">
+                                API References
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../../commandpost-v2/api-references/plugins/" class="pr-4">
+                                Plugins API
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <doc-page-actions></doc-page-actions>
+
+                <!-- Page content  -->
+<h1 id="commandpost">CommandPost</h1>
+<h2 id="api-documentation">API Documentation</h2>
+<retype-table copy-text="| Module                                                             | Description           |
+| ------------------------------------------------------------------ | --------------------- |
+| [plugins.aftereffects.application.manager](plugins.aftereffects.application.manager.md)                          | Registers After Effects with the Core Application Manager if installed.     |
+| [plugins.aftereffects.effects](plugins.aftereffects.effects.md)                          | Apply an After Effect effect to selected layer     |
+| [plugins.aftereffects.preferences](plugins.aftereffects.preferences.md)                          | After Effects Preferences Panel     |
+| [plugins.aftereffects.shortcuts](plugins.aftereffects.shortcuts.md)                          | Trigger After Effects Shortcuts     |
+| [plugins.aftereffects.tangent.manager](plugins.aftereffects.tangent.manager.md)                          | Manager for After Effects Tangent Support     |
+| [plugins.compressor.application.manager](plugins.compressor.application.manager.md)                          | Registers Compressor with the Core Application Manager.     |
+| [plugins.compressor.feedback.bugreport](plugins.compressor.feedback.bugreport.md)                          | Sends Apple a Bug Report or Feature Request for Compressor.     |
+| [plugins.core.accessibility](plugins.core.accessibility.md)                          | Accessibility Plugin.     |
+| [plugins.core.accessibility.screenrecording](plugins.core.accessibility.screenrecording.md)                          | Screen Recording Permission.     |
+| [plugins.core.accessibility.tools](plugins.core.accessibility.tools.md)                          | Actions for control user interface elements via the Accessibility API.     |
+| [plugins.core.action.activator](plugins.core.action.activator.md)                          | This module provides provides a way of activating choices provided by action handlers.     |
+| [plugins.core.action.handler](plugins.core.action.handler.md)                          | A support class for handler handlers. It is not used directly, rather     |
+| [plugins.core.action.manager](plugins.core.action.manager.md)                          | Action Manager Module.     |
+| [plugins.core.actions.custom](plugins.core.actions.custom.md)                          | Creates a bunch of commands that can be used to assign actions to.     |
+| [plugins.core.application.manager](plugins.core.application.manager.md)                          | Application manager.     |
+| [plugins.core.audioswift.prefs](plugins.core.audioswift.prefs.md)                          | AudioSwift Preferences Panel     |
+| [plugins.core.commands.actions](plugins.core.commands.actions.md)                          | An `action` which will execute a command with matching group/id values.     |
+| [plugins.core.commands.global](plugins.core.commands.global.md)                          | The 'global' command collection.     |
+| [plugins.core.console](plugins.core.console.md)                          | Search Console     |
+| [plugins.core.console.applications](plugins.core.console.applications.md)                          | Adds all installed applications to the Search Console.     |
+| [plugins.core.console.keyboardmaestromacros](plugins.core.console.keyboardmaestromacros.md)                          | Adds Keyboard Maestro Macros to the Search Console.     |
+| [plugins.core.console.preferences](plugins.core.console.preferences.md)                          | Preferences for the Search Console.     |
+| [plugins.core.console.scripts](plugins.core.console.scripts.md)                          | Adds all installed AppleScripts to the Search Console.     |
+| [plugins.core.controlsurfaces.manager](plugins.core.controlsurfaces.manager.md)                          | Manager for the CommandPost Preferences Window.     |
+| [plugins.core.controlsurfaces.manager.panel](plugins.core.controlsurfaces.manager.panel.md)                          | CommandPost Control Surfaces Panel.     |
+| [plugins.core.controlsurfaces.resolve.manager](plugins.core.controlsurfaces.resolve.manager.md)                          | Blackmagic DaVinci Resolve Control Surface Support.     |
+| [plugins.core.controlsurfaces.resolve.prefs](plugins.core.controlsurfaces.resolve.prefs.md)                          | Blackmagic DaVinci Resolve Control Surface Preferences Panel     |
+| [plugins.core.disk.automount](plugins.core.disk.automount.md)                          | Automatic Disk Mounting &amp; Unmounting.     |
+| [plugins.core.disk.favourites](plugins.core.disk.favourites.md)                          | Action that allows you save and open user-defined favourite folders.     |
+| [plugins.core.display](plugins.core.display.md)                          | Display Controls.     |
+| [plugins.core.gamepad.prefs](plugins.core.gamepad.prefs.md)                          | Gamepad Preferences Panel     |
+| [plugins.core.gestures](plugins.core.gestures.md)                          | Adds mouse actions.     |
+| [plugins.core.helpandsupport.credits](plugins.core.helpandsupport.credits.md)                          | Credits Menu Item.     |
+| [plugins.core.helpandsupport.debugconsole](plugins.core.helpandsupport.debugconsole.md)                          | Debug Console Menu Item.     |
+| [plugins.core.helpandsupport.developerguide](plugins.core.helpandsupport.developerguide.md)                          | Developer Guide Menu Item.     |
+| [plugins.core.helpandsupport.donate](plugins.core.helpandsupport.donate.md)                          | Donate Menu Item.     |
+| [plugins.core.helpandsupport.facebook](plugins.core.helpandsupport.facebook.md)                          | Facebook Group Menu Item.     |
+| [plugins.core.helpandsupport.feedback](plugins.core.helpandsupport.feedback.md)                          | Feedback Menu Item.     |
+| [plugins.core.helpandsupport.userguide](plugins.core.helpandsupport.userguide.md)                          | User Guide Menu Item.     |
+| [plugins.core.language](plugins.core.language.md)                          | Language Module.     |
+| [plugins.core.loupedeck.prefs](plugins.core.loupedeck.prefs.md)                          | Loupedeck+ Preferences Panel     |
+| [plugins.core.loupedeckctandlive.manager](plugins.core.loupedeckctandlive.manager.md)                          | Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stream Controller.     |
+| [plugins.core.loupedeckctandlive.prefs](plugins.core.loupedeckctandlive.prefs.md)                          | Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stream Controller.     |
+| [plugins.core.loupedeckplugin](plugins.core.loupedeckplugin.md)                          | General/macOS Loupedeck Plugin Actions     |
+| [plugins.core.loupedeckplugin.manager](plugins.core.loupedeckplugin.manager.md)                          | Loupedeck Plugin Manager Plugin.     |
+| [plugins.core.loupedeckplugin.prefs](plugins.core.loupedeckplugin.prefs.md)                          | Loupedeck Plugin Preferences Panel     |
+| [plugins.core.loupedeckplus.prefs](plugins.core.loupedeckplus.prefs.md)                          | Loupedeck+ Preferences Panel     |
+| [plugins.core.macosshortcuts](plugins.core.macosshortcuts.md)                          | Adds actions for macOS Monterey Shortcuts.     |
+| [plugins.core.macosshortcuts.preferences](plugins.core.macosshortcuts.preferences.md)                          | macOS Shortcuts Preferences Panel     |
+| [plugins.core.menu.manager](plugins.core.menu.manager.md)                          | Menu Manager Plugin.     |
+| [plugins.core.menu.manager.section](plugins.core.menu.manager.section.md)                          | Controls sections for the CommandPost menu.     |
+| [plugins.core.menu.menuaction](plugins.core.menu.menuaction.md)                          | Add actions that allow you to trigger the menubar items from any application.     |
+| [plugins.core.midi.manager](plugins.core.midi.manager.md)                          | MIDI Manager Plugin.     |
+| [plugins.core.midi.manager.controls](plugins.core.midi.manager.controls.md)                          | MIDI Manager Controls.     |
+| [plugins.core.midi.prefs](plugins.core.midi.prefs.md)                          | MIDI Preferences Panel     |
+| [plugins.core.monogram.manager](plugins.core.monogram.manager.md)                          | Monogram Manager Plugin.     |
+| [plugins.core.monogram.prefs](plugins.core.monogram.prefs.md)                          | Monogram Preferences Panel     |
+| [plugins.core.mouse](plugins.core.mouse.md)                          | Adds mouse actions.     |
+| [plugins.core.pasteboard.history](plugins.core.pasteboard.history.md)                          | Adds text pasteboard history actions to the Search Console.     |
+| [plugins.core.preferences.general](plugins.core.preferences.general.md)                          | General Preferences Panel.     |
+| [plugins.core.preferences.manager](plugins.core.preferences.manager.md)                          | Manager for the CommandPost Preferences Window.     |
+| [plugins.core.preferences.manager.panel](plugins.core.preferences.manager.panel.md)                          | CommandPost Preferences Panel.     |
+| [plugins.core.preferences.panels.general](plugins.core.preferences.panels.general.md)                          | General Preferences Panel     |
+| [plugins.core.preferences.panels.menubar](plugins.core.preferences.panels.menubar.md)                          | Menubar Preferences Panel     |
+| [plugins.core.preferences.panels.notifications](plugins.core.preferences.panels.notifications.md)                          | Notifications Preferences Panel     |
+| [plugins.core.preferences.panels.plugins](plugins.core.preferences.panels.plugins.md)                          | Plugins Preferences Panel     |
+| [plugins.core.preferences.panels.scripting](plugins.core.preferences.panels.scripting.md)                          | Scripting Preferences Panel     |
+| [plugins.core.preferences.panels.settings](plugins.core.preferences.panels.settings.md)                          | Settings Preferences Panel     |
+| [plugins.core.preferences.updates](plugins.core.preferences.updates.md)                          | Updates Module.     |
+| [plugins.core.razer.changeapplications](plugins.core.razer.changeapplications.md)                          | Allows you to change the Razer application if set to manual.     |
+| [plugins.core.razer.manager](plugins.core.razer.manager.md)                          | Razer Manager Plugin.     |
+| [plugins.core.razer.prefs](plugins.core.razer.prefs.md)                          | Razer Preferences Panel     |
+| [plugins.core.setup](plugins.core.setup.md)                          | Manager for the CommandPost Setup Screen.     |
+| [plugins.core.setup.panel](plugins.core.setup.panel.md)                          | CommandPost Setup Window Panel.     |
+| [plugins.core.shortcuts.actions](plugins.core.shortcuts.actions.md)                          | Adds actions which allow you to trigger keyboard shortcuts.     |
+| [plugins.core.shortcuts.prefs](plugins.core.shortcuts.prefs.md)                          | Shortcuts Preferences Panel     |
+| [plugins.core.streamdeck.manager](plugins.core.streamdeck.manager.md)                          | Elgato Stream Deck Manager Plugin.     |
+| [plugins.core.streamdeck.prefs](plugins.core.streamdeck.prefs.md)                          | Stream Deck Preferences Panel     |
+| [plugins.core.tangent.manager](plugins.core.tangent.manager.md)                          | Tangent Control Surface Manager     |
+| [plugins.core.tangent.manager.action](plugins.core.tangent.manager.action.md)                          | Represents a Tangent Action     |
+| [plugins.core.tangent.manager.binding](plugins.core.tangent.manager.binding.md)                          | Represents a Tangent Binding     |
+| [plugins.core.tangent.manager.connection](plugins.core.tangent.manager.connection.md)                          | Represents a Tangent Connection.     |
+| [plugins.core.tangent.manager.controls](plugins.core.tangent.manager.controls.md)                          | Represents a Tangent Group     |
+| [plugins.core.tangent.manager.group](plugins.core.tangent.manager.group.md)                          | Represents a Tangent Group. Groups can also be used to enable/disable multiple     |
+| [plugins.core.tangent.manager.menu](plugins.core.tangent.manager.menu.md)                          | Represents a Tangent Menu. Menus are controls that have a fixed set of     |
+| [plugins.core.tangent.manager.mode](plugins.core.tangent.manager.mode.md)                          | Represents a Tangent Mode     |
+| [plugins.core.tangent.manager.named](plugins.core.tangent.manager.named.md)                          | Provides common functions for 'named' Tangent nodes     |
+| [plugins.core.tangent.manager.parameter](plugins.core.tangent.manager.parameter.md)                          | Represents a Tangent Parameter control.     |
+| [plugins.core.tangent.prefs](plugins.core.tangent.prefs.md)                          | Tangent Preferences Panel     |
+| [plugins.core.toolbox.intro](plugins.core.toolbox.intro.md)                          | Intro Toolbox Panel.     |
+| [plugins.core.toolbox.manager](plugins.core.toolbox.manager.md)                          | Manager for the CommandPost Toolbox Window.     |
+| [plugins.core.tools.caffeinate](plugins.core.tools.caffeinate.md)                          | Prevents your Mac from going to sleep.     |
+| [plugins.core.touchbar.banks](plugins.core.touchbar.banks.md)                          | Touch Bar Bank Actions.     |
+| [plugins.core.touchbar.location](plugins.core.touchbar.location.md)                          | Virtual Touch Bar Update Location Callback     |
+| [plugins.core.touchbar.manager](plugins.core.touchbar.manager.md)                          | Touch Bar Manager Plugin.     |
+| [plugins.core.touchbar.manager.widgets](plugins.core.touchbar.manager.widgets.md)                          | Touch Bar Widgets Manager     |
+| [plugins.core.touchbar.prefs](plugins.core.touchbar.prefs.md)                          | Touch Bar Preferences Panel     |
+| [plugins.core.touchbar.virtual](plugins.core.touchbar.virtual.md)                          | Virtual Touch Bar Manager     |
+| [plugins.core.touchbar.widgets.volume](plugins.core.touchbar.widgets.volume.md)                          | Volume Slider     |
+| [plugins.core.touchbar.widgets.windowSlide](plugins.core.touchbar.widgets.windowSlide.md)                          | Window Slide Widget for Touch Bar.     |
+| [plugins.core.tourbox.changeapplications](plugins.core.tourbox.changeapplications.md)                          | Allows you to change the TourBox application if set to manual.     |
+| [plugins.core.tourbox.manager](plugins.core.tourbox.manager.md)                          | Loupedeck CT Manager Plugin.     |
+| [plugins.core.tourbox.prefs](plugins.core.tourbox.prefs.md)                          | TourBox Preferences Panel     |
+| [plugins.core.utilities.manager.panel](plugins.core.utilities.manager.panel.md)                          | CommandPost Preferences Panel.     |
+| [plugins.core.watchfolders.manager](plugins.core.watchfolders.manager.md)                          | Manager for the CommandPost Watch Folders Panel.     |
+| [plugins.core.watchfolders.manager.panel](plugins.core.watchfolders.manager.panel.md)                          | Watch Folder Panel Manager.     |
+| [plugins.diskutility.application.manager](plugins.diskutility.application.manager.md)                          | Registers Disk Utility with the Core Application Manager.     |
+| [plugins.ecammlive.application.manager](plugins.ecammlive.application.manager.md)                          | Registers Ecamm Live with the Core Application Manager.     |
+| [plugins.finalcutpro.actions.custom](plugins.finalcutpro.actions.custom.md)                          | Creates a bunch of commands that can be used to assign actions to.     |
+| [plugins.finalcutpro.advanced.backupinterval](plugins.finalcutpro.advanced.backupinterval.md)                          | Change Final Cut Pro's Backup Interval.     |
+| [plugins.finalcutpro.advanced.disablewaveforms](plugins.finalcutpro.advanced.disablewaveforms.md)                          | Disable Waveforms Plugin.     |
+| [plugins.finalcutpro.advanced.fcpxml](plugins.finalcutpro.advanced.fcpxml.md)                          | Adds preferences for extra FCPXML import and export options.     |
+| [plugins.finalcutpro.advanced.multicam](plugins.finalcutpro.advanced.multicam.md)                          | Show Timeline In Player.     |
+| [plugins.finalcutpro.advanced.playbackrendering](plugins.finalcutpro.advanced.playbackrendering.md)                          | Playback Rendering Plugin.     |
+| [plugins.finalcutpro.advanced.showtimelineinviewers](plugins.finalcutpro.advanced.showtimelineinviewers.md)                          | Show Timeline In Player.     |
+| [plugins.finalcutpro.application.manager](plugins.finalcutpro.application.manager.md)                          | Registers Final Cut Pro with the Core Application Manager.     |
+| [plugins.finalcutpro.browser.addnote](plugins.finalcutpro.browser.addnote.md)                          | Add Note Plugin.     |
+| [plugins.finalcutpro.browser.appearanceandfiltering](plugins.finalcutpro.browser.appearanceandfiltering.md)                          | Solo a clip in the Final Cut Pro Browser.     |
+| [plugins.finalcutpro.browser.clearnotes](plugins.finalcutpro.browser.clearnotes.md)                          | Clear Notes in Final Cut Pro Browser.     |
+| [plugins.finalcutpro.browser.csv](plugins.finalcutpro.browser.csv.md)                          | Save Browser to CSV     |
+| [plugins.finalcutpro.browser.duration](plugins.finalcutpro.browser.duration.md)                          | Shortcut for changing Final Cut Pro's Browser Height     |
+| [plugins.finalcutpro.browser.frameiotomarkers](plugins.finalcutpro.browser.frameiotomarkers.md)                          | Takes the contents of a Frame.io CSV file and adds markers to a clip     |
+| [plugins.finalcutpro.browser.height](plugins.finalcutpro.browser.height.md)                          | Shortcut for changing Final Cut Pro's Browser Height     |
+| [plugins.finalcutpro.browser.insertvertical](plugins.finalcutpro.browser.insertvertical.md)                          | Insert Clips Vertically from Browser to Timeline.     |
+| [plugins.finalcutpro.browser.keywords](plugins.finalcutpro.browser.keywords.md)                          | Browser Keywords Presets.     |
+| [plugins.finalcutpro.browser.layouts](plugins.finalcutpro.browser.layouts.md)                          | Allows you to save and restore Browser Layouts.     |
+| [plugins.finalcutpro.browser.pasteboardtomarkers](plugins.finalcutpro.browser.pasteboardtomarkers.md)                          | Take the contents of the Pasteboard and pastes it as clip markers on the     |
+| [plugins.finalcutpro.browser.playhead](plugins.finalcutpro.browser.playhead.md)                          | Browser Playhead Plugin.     |
+| [plugins.finalcutpro.browser.selectlibrary](plugins.finalcutpro.browser.selectlibrary.md)                          | Actions for selecting libraries     |
+| [plugins.finalcutpro.browser.soloclip](plugins.finalcutpro.browser.soloclip.md)                          | Solo a clip in the Final Cut Pro Browser.     |
+| [plugins.finalcutpro.commands](plugins.finalcutpro.commands.md)                          | The 'fcpx' command collection.     |
+| [plugins.finalcutpro.commands.actions](plugins.finalcutpro.commands.actions.md)                          | An `action` which will execute a command with matching group/id values.     |
+| [plugins.finalcutpro.console](plugins.finalcutpro.console.md)                          | Final Cut Pro Search Consoles     |
+| [plugins.finalcutpro.console.font](plugins.finalcutpro.console.font.md)                          | Final Cut Pro Font Console     |
+| [plugins.finalcutpro.export.batch](plugins.finalcutpro.export.batch.md)                          | Timeline Batch Export Plugin.     |
+| [plugins.finalcutpro.export.batch.manager](plugins.finalcutpro.export.batch.manager.md)                          | Manager for the Batch Export Window.     |
+| [plugins.finalcutpro.export.batch.manager.panel](plugins.finalcutpro.export.batch.manager.panel.md)                          | CommandPost Batch Export Panel.     |
+| [plugins.finalcutpro.feedback.bugreport](plugins.finalcutpro.feedback.bugreport.md)                          | Sends Apple a Bug Report or Feature Request for Final Cut Pro.     |
+| [plugins.finalcutpro.fullscreen.disableesc](plugins.finalcutpro.fullscreen.disableesc.md)                          | Disables the ESC key when Final Cut Pro is in fullscreen mode.     |
+| [plugins.finalcutpro.fullscreen.dockicon](plugins.finalcutpro.fullscreen.dockicon.md)                          | Manages the CommandPost dock icon when FCP is full-screen.     |
+| [plugins.finalcutpro.fullscreen.shortcuts](plugins.finalcutpro.fullscreen.shortcuts.md)                          | Fullscreen Shortcuts     |
+| [plugins.finalcutpro.fullscreen.stopped](plugins.finalcutpro.fullscreen.stopped.md)                          | Play Full Screen &amp; Stop     |
+| [plugins.finalcutpro.hud.manager](plugins.finalcutpro.hud.manager.md)                          | Manager for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.fcpxml](plugins.finalcutpro.hud.panels.fcpxml.md)                          | FCPXML Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.info](plugins.finalcutpro.hud.panels.info.md)                          | Info Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.minimise](plugins.finalcutpro.hud.panels.minimise.md)                          | Minimise button for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.notes](plugins.finalcutpro.hud.panels.notes.md)                          | Notes Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.pasteboard](plugins.finalcutpro.hud.panels.pasteboard.md)                          | FCPXML Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.rename](plugins.finalcutpro.hud.panels.rename.md)                          | Batch Rename Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.search](plugins.finalcutpro.hud.panels.search.md)                          | Ten Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.tenbuttons](plugins.finalcutpro.hud.panels.tenbuttons.md)                          | Ten Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.twelvebuttons](plugins.finalcutpro.hud.panels.twelvebuttons.md)                          | Twelve Button Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.hud.panels.twentyfourbuttons](plugins.finalcutpro.hud.panels.twentyfourbuttons.md)                          | Twenty Four Button Panel for the Final Cut Pro HUD.     |
+| [plugins.finalcutpro.import.ignorecard](plugins.finalcutpro.import.ignorecard.md)                          | Ignore Final Cut Pro's Media Import Window.     |
+| [plugins.finalcutpro.import.preferences](plugins.finalcutpro.import.preferences.md)                          | Import Preferences     |
+| [plugins.finalcutpro.inspector.audio](plugins.finalcutpro.inspector.audio.md)                          | Final Cut Pro Audio Inspector Additions.     |
+| [plugins.finalcutpro.inspector.coloradjustments](plugins.finalcutpro.inspector.coloradjustments.md)                          | Actions for the Final Cut Pro Color Adjustments Effect.     |
+| [plugins.finalcutpro.inspector.colourlabai](plugins.finalcutpro.inspector.colourlabai.md)                          | Colourlab Ai Effect.     |
+| [plugins.finalcutpro.inspector.info](plugins.finalcutpro.inspector.info.md)                          | Final Cut Pro Info Inspector Additions.     |
+| [plugins.finalcutpro.inspector.show](plugins.finalcutpro.inspector.show.md)                          | Final Cut Pro Inspector Additions.     |
+| [plugins.finalcutpro.inspector.text](plugins.finalcutpro.inspector.text.md)                          | Final Cut Pro Text Inspector Additions.     |
+| [plugins.finalcutpro.inspector.title](plugins.finalcutpro.inspector.title.md)                          | Final Cut Pro Title Inspector Additions.     |
+| [plugins.finalcutpro.inspector.video](plugins.finalcutpro.inspector.video.md)                          | Final Cut Pro Video Inspector Additions.     |
+| [plugins.finalcutpro.language](plugins.finalcutpro.language.md)                          | Final Cut Pro Language Plugin.     |
+| [plugins.finalcutpro.menu.manager](plugins.finalcutpro.menu.manager.md)                          | Final Cut Pro Menu Manager.     |
+| [plugins.finalcutpro.menu.menuaction](plugins.finalcutpro.menu.menuaction.md)                          | A `action` which will trigger an Final Cut Pro menu with a matching path, if available/enabled.     |
+| [plugins.finalcutpro.menu.proxyicon](plugins.finalcutpro.menu.proxyicon.md)                          | Final Cut Pro Proxy Icon Plugin.     |
+| [plugins.finalcutpro.midi.controls.audio](plugins.finalcutpro.midi.controls.audio.md)                          | Final Cut Pro MIDI Audio Controls.     |
+| [plugins.finalcutpro.midi.controls.colorboard](plugins.finalcutpro.midi.controls.colorboard.md)                          | Final Cut Pro MIDI Color Board Controls.     |
+| [plugins.finalcutpro.midi.controls.colorwheels](plugins.finalcutpro.midi.controls.colorwheels.md)                          | Final Cut Pro MIDI Color Controls.     |
+| [plugins.finalcutpro.midi.controls.controlui.absolute](plugins.finalcutpro.midi.controls.controlui.absolute.md)                          | Adds the ability to control any Final Cut Pro User Interface Element via a MIDI Knob/Slider.     |
+| [plugins.finalcutpro.midi.controls.controlui.relative](plugins.finalcutpro.midi.controls.controlui.relative.md)                          | Adds the ability to control any Final Cut Pro User Interface Element via a MIDI Knob/Slider.     |
+| [plugins.finalcutpro.midi.controls.timeline](plugins.finalcutpro.midi.controls.timeline.md)                          | Final Cut Pro MIDI Timeline Controls.     |
+| [plugins.finalcutpro.midi.controls.video](plugins.finalcutpro.midi.controls.video.md)                          | Final Cut Pro MIDI Video Inspector Controls.     |
+| [plugins.finalcutpro.midi.controls.zoom](plugins.finalcutpro.midi.controls.zoom.md)                          | Final Cut Pro MIDI Zoom Control.     |
+| [plugins.finalcutpro.notifications.ifttt](plugins.finalcutpro.notifications.ifttt.md)                          | IFTTT Notifications Plugin.     |
+| [plugins.finalcutpro.notifications.imessage](plugins.finalcutpro.notifications.imessage.md)                          | iMessage Notifications Plugin.     |
+| [plugins.finalcutpro.notifications.manager](plugins.finalcutpro.notifications.manager.md)                          | Notifications Manager Plugin.     |
+| [plugins.finalcutpro.notifications.prowl](plugins.finalcutpro.notifications.prowl.md)                          | Prowl Notifications Plugin.     |
+| [plugins.finalcutpro.notifications.pushover](plugins.finalcutpro.notifications.pushover.md)                          | Pushover Notifications Plugin.     |
+| [plugins.finalcutpro.open](plugins.finalcutpro.open.md)                          | Opens Final Cut Pro via Global Shortcut &amp; Menubar.     |
+| [plugins.finalcutpro.pasteboard.history](plugins.finalcutpro.pasteboard.history.md)                          | Pasteboard History     |
+| [plugins.finalcutpro.pasteboard.manager](plugins.finalcutpro.pasteboard.manager.md)                          | Pasteboard Manager.     |
+| [plugins.finalcutpro.pasteboard.shared](plugins.finalcutpro.pasteboard.shared.md)                          | Shared Pasteboard Plugin.     |
+| [plugins.finalcutpro.preferences.animations](plugins.finalcutpro.preferences.animations.md)                          | Adds Preference for &quot;Enable User Interface Animations&quot; within Final Cut Pro X.     |
+| [plugins.finalcutpro.preferences.clearcache](plugins.finalcutpro.preferences.clearcache.md)                          | Adds a &quot;Clear Cache&quot; button to the Final Cut Pro Preferences.     |
+| [plugins.finalcutpro.preferences.general](plugins.finalcutpro.preferences.general.md)                          | Final Cut Pro General Preferences     |
+| [plugins.finalcutpro.preferences.manager](plugins.finalcutpro.preferences.manager.md)                          | Final Cut Pro Preferences Panel Manager.     |
+| [plugins.finalcutpro.preferences.spelling](plugins.finalcutpro.preferences.spelling.md)                          | Adds Preference for &quot;Correct Spelling Automatically&quot; within Final Cut Pro X.     |
+| [plugins.finalcutpro.setup.scan](plugins.finalcutpro.setup.scan.md)                          | Show setup panel if Final Cut Pro needs scanning.     |
+| [plugins.finalcutpro.tangent.audio](plugins.finalcutpro.tangent.audio.md)                          | Final Cut Pro Audio Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.browser](plugins.finalcutpro.tangent.browser.md)                          | Final Cut Pro Tangent Browser Group     |
+| [plugins.finalcutpro.tangent.clip](plugins.finalcutpro.tangent.clip.md)                          | Final Cut Pro Tangent View Group     |
+| [plugins.finalcutpro.tangent.color](plugins.finalcutpro.tangent.color.md)                          | Final Cut Pro Tangent Color Manager.     |
+| [plugins.finalcutpro.tangent.commandpost.functions](plugins.finalcutpro.tangent.commandpost.functions.md)                          | CommandPost Functions for Tangent.     |
+| [plugins.finalcutpro.tangent.common](plugins.finalcutpro.tangent.common.md)                          | Common Final Cut Pro functions for Tangent     |
+| [plugins.finalcutpro.tangent.edit](plugins.finalcutpro.tangent.edit.md)                          | Final Cut Pro Tangent View Group     |
+| [plugins.finalcutpro.tangent.features](plugins.finalcutpro.tangent.features.md)                          | Final Cut Pro CommandPost Actions for Tangent     |
+| [plugins.finalcutpro.tangent.generator](plugins.finalcutpro.tangent.generator.md)                          | Final Cut Pro Generator Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.info](plugins.finalcutpro.tangent.info.md)                          | Final Cut Pro Info Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.manager](plugins.finalcutpro.tangent.manager.md)                          | Manager for Final Cut Pro's Tangent Support     |
+| [plugins.finalcutpro.tangent.new](plugins.finalcutpro.tangent.new.md)                          | Final Cut Pro Tangent View Group     |
+| [plugins.finalcutpro.tangent.open](plugins.finalcutpro.tangent.open.md)                          | Final Cut Pro Tangent Open FCPX.     |
+| [plugins.finalcutpro.tangent.os](plugins.finalcutpro.tangent.os.md)                          | macOS Group for the Tangent.     |
+| [plugins.finalcutpro.tangent.os.display](plugins.finalcutpro.tangent.os.display.md)                          | Tangent Display Functions.     |
+| [plugins.finalcutpro.tangent.os.pasteboard](plugins.finalcutpro.tangent.os.pasteboard.md)                          | Pasteboard Tools for Tangent.     |
+| [plugins.finalcutpro.tangent.os.sound](plugins.finalcutpro.tangent.os.sound.md)                          | Tangent Sound Functions.     |
+| [plugins.finalcutpro.tangent.os.window](plugins.finalcutpro.tangent.os.window.md)                          | Window Management Tools for Tangent.     |
+| [plugins.finalcutpro.tangent.overlay](plugins.finalcutpro.tangent.overlay.md)                          | Final Cut Pro Tangent Viewer Overlay Group     |
+| [plugins.finalcutpro.tangent.pasteboard](plugins.finalcutpro.tangent.pasteboard.md)                          | Final Cut Pro Tangent Pasteboard Group     |
+| [plugins.finalcutpro.tangent.playback](plugins.finalcutpro.tangent.playback.md)                          | Final Cut Pro Tangent Playback Group/Management     |
+| [plugins.finalcutpro.tangent.share](plugins.finalcutpro.tangent.share.md)                          | Final Cut Pro Share Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.text](plugins.finalcutpro.tangent.text.md)                          | Final Cut Pro Text Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.timeline](plugins.finalcutpro.tangent.timeline.md)                          | Final Cut Pro Tangent Timeline Group/Management     |
+| [plugins.finalcutpro.tangent.title](plugins.finalcutpro.tangent.title.md)                          | Final Cut Pro Title Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.transition](plugins.finalcutpro.tangent.transition.md)                          | Final Cut Pro Transition Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.trim](plugins.finalcutpro.tangent.trim.md)                          | Final Cut Pro Tangent Trim Group     |
+| [plugins.finalcutpro.tangent.video](plugins.finalcutpro.tangent.video.md)                          | Final Cut Pro Video Inspector for Tangent     |
+| [plugins.finalcutpro.tangent.view](plugins.finalcutpro.tangent.view.md)                          | Final Cut Pro Tangent View Group     |
+| [plugins.finalcutpro.tangent.viewer](plugins.finalcutpro.tangent.viewer.md)                          | Final Cut Pro Viewer Actions for Tangent     |
+| [plugins.finalcutpro.tangent.workspaces](plugins.finalcutpro.tangent.workspaces.md)                          | Final Cut Pro Workspace Actions for Tangent     |
+| [plugins.finalcutpro.text2speech](plugins.finalcutpro.text2speech.md)                          | Text to Speech Plugin.     |
+| [plugins.finalcutpro.timeline.audioeffects](plugins.finalcutpro.timeline.audioeffects.md)                          | Controls Final Cut Pro's Audio Effects.     |
+| [plugins.finalcutpro.timeline.captions](plugins.finalcutpro.timeline.captions.md)                          | Caption Tools     |
+| [plugins.finalcutpro.timeline.clipnavigation](plugins.finalcutpro.timeline.clipnavigation.md)                          | Clip Navigation Actions.     |
+| [plugins.finalcutpro.timeline.colorboard](plugins.finalcutpro.timeline.colorboard.md)                          | Color Board Plugins.     |
+| [plugins.finalcutpro.timeline.colorboardv2](plugins.finalcutpro.timeline.colorboardv2.md)                          | Color Board Plugins.     |
+| [plugins.finalcutpro.timeline.colorwheels](plugins.finalcutpro.timeline.colorwheels.md)                          | Color Wheel Enhancements.     |
+| [plugins.finalcutpro.timeline.commandsetactions](plugins.finalcutpro.timeline.commandsetactions.md)                          | Adds Actions to the Console for triggering Final Cut Pro shortcuts as defined in the Command Set files.     |
+| [plugins.finalcutpro.timeline.csv](plugins.finalcutpro.timeline.csv.md)                          | Save Timeline Index to CSV     |
+| [plugins.finalcutpro.timeline.editnewtitle](plugins.finalcutpro.timeline.editnewtitle.md)                          | Allows adding and editing titles in Final Cut Pro's timeline.     |
+| [plugins.finalcutpro.timeline.generators](plugins.finalcutpro.timeline.generators.md)                          | Controls Final Cut Pro's Generators.     |
+| [plugins.finalcutpro.timeline.height](plugins.finalcutpro.timeline.height.md)                          | Shortcut for changing Final Cut Pro's Timeline Height     |
+| [plugins.finalcutpro.timeline.horizontal](plugins.finalcutpro.timeline.horizontal.md)                          | Actions for changing the Timeline Horizontally     |
+| [plugins.finalcutpro.timeline.lanes](plugins.finalcutpro.timeline.lanes.md)                          | Controls Final Cut Pro's Lanes.     |
+| [plugins.finalcutpro.timeline.markallclips](plugins.finalcutpro.timeline.markallclips.md)                          | Add a marker to all selected clips under the playhead, or all clips if only one clip is selected.     |
+| [plugins.finalcutpro.timeline.matchframe](plugins.finalcutpro.timeline.matchframe.md)                          | Match Frame Tools for Final Cut Pro.     |
+| [plugins.finalcutpro.timeline.mousezoom](plugins.finalcutpro.timeline.mousezoom.md)                          | Allows you to zoom in or out of a Final Cut Pro timeline using the mechanical scroll wheel on your mouse or the Touch Pad on the Magic Mouse when holding down the OPTION modifier key.     |
+| [plugins.finalcutpro.timeline.movetoplayhead](plugins.finalcutpro.timeline.movetoplayhead.md)                          | Move To Playhead.     |
+| [plugins.finalcutpro.timeline.multicam](plugins.finalcutpro.timeline.multicam.md)                          | Multicam Tools.     |
+| [plugins.finalcutpro.timeline.navigation](plugins.finalcutpro.timeline.navigation.md)                          | Actions to control Timeline Navigation.     |
+| [plugins.finalcutpro.timeline.pasteboard](plugins.finalcutpro.timeline.pasteboard.md)                          | Actions related to the pasteboard.     |
+| [plugins.finalcutpro.timeline.playback](plugins.finalcutpro.timeline.playback.md)                          | Playback Plugin.     |
+| [plugins.finalcutpro.timeline.playhead](plugins.finalcutpro.timeline.playhead.md)                          | Manages features relating to the Timeline Playhead.     |
+| [plugins.finalcutpro.timeline.pluginactions](plugins.finalcutpro.timeline.pluginactions.md)                          | Adds Final Cut Pro Plugins (i.e. Effects, Generators, Titles and Transitions) to CommandPost Actions.     |
+| [plugins.finalcutpro.timeline.preferences](plugins.finalcutpro.timeline.preferences.md)                          | Final Cut Pro Timeline Preferences.     |
+| [plugins.finalcutpro.timeline.renameclip](plugins.finalcutpro.timeline.renameclip.md)                          | Rename Clip     |
+| [plugins.finalcutpro.timeline.selectalltimelineclips](plugins.finalcutpro.timeline.selectalltimelineclips.md)                          | Select All Timeline Clips     |
+| [plugins.finalcutpro.timeline.speed](plugins.finalcutpro.timeline.speed.md)                          | Speed Related Actions     |
+| [plugins.finalcutpro.timeline.titles](plugins.finalcutpro.timeline.titles.md)                          | Controls Final Cut Pro's Titles.     |
+| [plugins.finalcutpro.timeline.transcode](plugins.finalcutpro.timeline.transcode.md)                          | Adds actions that allows you to transcode clips from the timeline.     |
+| [plugins.finalcutpro.timeline.transitions](plugins.finalcutpro.timeline.transitions.md)                          | Controls Final Cut Pro's Transitions.     |
+| [plugins.finalcutpro.timeline.videoanimation](plugins.finalcutpro.timeline.videoanimation.md)                          | Video Animation Actions     |
+| [plugins.finalcutpro.timeline.videoeffects](plugins.finalcutpro.timeline.videoeffects.md)                          | Controls Final Cut Pro's Video Effects.     |
+| [plugins.finalcutpro.timeline.zoom](plugins.finalcutpro.timeline.zoom.md)                          | Action for changing Final Cut Pro's Timeline Zoom Level     |
+| [plugins.finalcutpro.timeline.zoomtoselection](plugins.finalcutpro.timeline.zoomtoselection.md)                          | Zoom the Timeline to fit the currently-selected clips.     |
+| [plugins.finalcutpro.toolbox.autosequence](plugins.finalcutpro.toolbox.autosequence.md)                          | Orders clips on a timeline by timecode.     |
+| [plugins.finalcutpro.toolbox.fcpxmltitles](plugins.finalcutpro.toolbox.fcpxmltitles.md)                          | FCPXML Titles Toolbox Panel     |
+| [plugins.finalcutpro.toolbox.notion](plugins.finalcutpro.toolbox.notion.md)                          | Notion Toolbox Panel.     |
+| [plugins.finalcutpro.toolbox.shotdata](plugins.finalcutpro.toolbox.shotdata.md)                          | Shot Data Toolbox Panel.     |
+| [plugins.finalcutpro.toolbox.sonytimecode](plugins.finalcutpro.toolbox.sonytimecode.md)                          | Adds correct timecode from Sony cameras in a FCPXML.     |
+| [plugins.finalcutpro.toolbox.titlestokeywords](plugins.finalcutpro.toolbox.titlestokeywords.md)                          | Converts Titles to Keywords     |
+| [plugins.finalcutpro.touchbar.manager](plugins.finalcutpro.touchbar.manager.md)                          | Final Cut Pro Touch Bar Manager.     |
+| [plugins.finalcutpro.touchbar.virtual](plugins.finalcutpro.touchbar.virtual.md)                          | Virtual Touch Bar Plugin.     |
+| [plugins.finalcutpro.touchbar.widgets.colorboard](plugins.finalcutpro.touchbar.widgets.colorboard.md)                          | A collection of Final Cut Pro Color Board Widgets for the Touch Bar.     |
+| [plugins.finalcutpro.touchbar.widgets.duration](plugins.finalcutpro.touchbar.widgets.duration.md)                          | Final Cut Pro Browser Duration Control Widget for Touch Bar.     |
+| [plugins.finalcutpro.touchbar.widgets.height](plugins.finalcutpro.touchbar.widgets.height.md)                          | Final Cut Pro Browser Height Control Widget for Touch Bar.     |
+| [plugins.finalcutpro.touchbar.widgets.zoom](plugins.finalcutpro.touchbar.widgets.zoom.md)                          | Final Cut Pro Zoom Control Widget for Touch Bar.     |
+| [plugins.finalcutpro.viewer.actions](plugins.finalcutpro.viewer.actions.md)                          | Viewer Actions     |
+| [plugins.finalcutpro.viewer.overlays](plugins.finalcutpro.viewer.overlays.md)                          | Final Cut Pro Viewer Overlays.     |
+| [plugins.finalcutpro.watchfolders.fcpxml](plugins.finalcutpro.watchfolders.fcpxml.md)                          | Final Cut Pro FCPXML Watch Folder Plugin.     |
+| [plugins.finalcutpro.watchfolders.media](plugins.finalcutpro.watchfolders.media.md)                          | Final Cut Pro Media Watch Folder Plugin.     |
+| [plugins.finalcutpro.watchfolders.media.MediaFolder](plugins.finalcutpro.watchfolders.media.MediaFolder.md)                          | Final Cut Pro Media Watch Folder Plugin.     |
+| [plugins.finalcutpro.watchfolders.media.panel](plugins.finalcutpro.watchfolders.media.panel.md)                          | Watch Folder Media Panel.     |
+| [plugins.finalcutpro.workflowextension](plugins.finalcutpro.workflowextension.md)                          | Workflow Extension Helper     |
+| [plugins.finder.application.manager](plugins.finder.application.manager.md)                          | Registers Finder with the Core Application Manager.     |
+| [plugins.finder.audio](plugins.finder.audio.md)                          | Actions for Audio Controls     |
+| [plugins.finder.dateandtime](plugins.finder.dateandtime.md)                          | Types the date and time in the &quot;YYYYMMDD HHMM&quot; format.     |
+| [plugins.finder.pasteboard](plugins.finder.pasteboard.md)                          | Handy text tools.     |
+| [plugins.finder.pasteboard.history](plugins.finder.pasteboard.history.md)                          | Adds text pasteboard history actions to the Search Console.     |
+| [plugins.finder.preferences.panel](plugins.finder.preferences.panel.md)                          | General Preferences Panel     |
+| [plugins.finder.preferences.powerchime](plugins.finder.preferences.powerchime.md)                          | General Preferences Panel     |
+| [plugins.finder.window](plugins.finder.window.md)                          | Handy tools for Windows Management in macOS.     |
+| [plugins.microsoftteams.application.manager](plugins.microsoftteams.application.manager.md)                          | Registers Microsoft Teams with the Core Application Manager if installed.     |
+| [plugins.motion.application.manager](plugins.motion.application.manager.md)                          | Registers Motion with the Core Application Manager.     |
+| [plugins.motion.feedback.bugreport](plugins.motion.feedback.bugreport.md)                          | Sends Apple a Bug Report or Feature Request for Motion.     |
+| [plugins.resolve.application.manager](plugins.resolve.application.manager.md)                          | Registers Motion with the Core Application Manager.     |
+| [plugins.resolve.tangent.emulation](plugins.resolve.tangent.emulation.md)                          | Emulates a Tangent Element Panel.     |
+| [plugins.resolve.tangent.manager](plugins.resolve.tangent.manager.md)                          | Manager for DaVinci Resolve's Tangent Support     |
+| [plugins.skype.application.manager](plugins.skype.application.manager.md)                          | Registers Skype with the Core Application Manager if installed.     |
+| [plugins.skype.shortcuts](plugins.skype.shortcuts.md)                          | Trigger Skype Shortcuts     |
+| [plugins.spotify.application.manager](plugins.spotify.application.manager.md)                          | Registers Spotify with the Core Application Manager if installed.     |
+| [plugins.spotify.loupedeckplugin](plugins.spotify.loupedeckplugin.md)                          | Spotify Loupedeck Plugin Actions     |
+| [plugins.systempreferences.application.manager](plugins.systempreferences.application.manager.md)                          | Registers System Preferences with the Core Application Manager.     |
+| [plugins.textedit.application.manager](plugins.textedit.application.manager.md)                          | Registers TextEdit with the Core Application Manager.     |
+| [plugins.zoom.application.manager](plugins.zoom.application.manager.md)                          | Registers Zoom with the Core Application Manager if installed.     |
+| [plugins.zoom.shortcuts](plugins.zoom.shortcuts.md)                          | Trigger Zoom Shortcuts     |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Module</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="plugins.aftereffects.application.manager/">plugins.aftereffects.application.manager</a></td>
+<td>Registers After Effects with the Core Application Manager if installed.</td>
+</tr>
+<tr>
+<td><a href="plugins.aftereffects.effects/">plugins.aftereffects.effects</a></td>
+<td>Apply an After Effect effect to selected layer</td>
+</tr>
+<tr>
+<td><a href="plugins.aftereffects.preferences/">plugins.aftereffects.preferences</a></td>
+<td>After Effects Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.aftereffects.shortcuts/">plugins.aftereffects.shortcuts</a></td>
+<td>Trigger After Effects Shortcuts</td>
+</tr>
+<tr>
+<td><a href="plugins.aftereffects.tangent.manager/">plugins.aftereffects.tangent.manager</a></td>
+<td>Manager for After Effects Tangent Support</td>
+</tr>
+<tr>
+<td><a href="plugins.compressor.application.manager/">plugins.compressor.application.manager</a></td>
+<td>Registers Compressor with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.compressor.feedback.bugreport/">plugins.compressor.feedback.bugreport</a></td>
+<td>Sends Apple a Bug Report or Feature Request for Compressor.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.accessibility/">plugins.core.accessibility</a></td>
+<td>Accessibility Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.accessibility.screenrecording/">plugins.core.accessibility.screenrecording</a></td>
+<td>Screen Recording Permission.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.accessibility.tools/">plugins.core.accessibility.tools</a></td>
+<td>Actions for control user interface elements via the Accessibility API.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.action.activator/">plugins.core.action.activator</a></td>
+<td>This module provides provides a way of activating choices provided by action handlers.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.action.handler/">plugins.core.action.handler</a></td>
+<td>A support class for handler handlers. It is not used directly, rather</td>
+</tr>
+<tr>
+<td><a href="plugins.core.action.manager/">plugins.core.action.manager</a></td>
+<td>Action Manager Module.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.actions.custom/">plugins.core.actions.custom</a></td>
+<td>Creates a bunch of commands that can be used to assign actions to.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.application.manager/">plugins.core.application.manager</a></td>
+<td>Application manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.audioswift.prefs/">plugins.core.audioswift.prefs</a></td>
+<td>AudioSwift Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.commands.actions/">plugins.core.commands.actions</a></td>
+<td>An <code translate="no" v-pre>action</code> which will execute a command with matching group/id values.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.commands.global/">plugins.core.commands.global</a></td>
+<td>The &#x27;global&#x27; command collection.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.console/">plugins.core.console</a></td>
+<td>Search Console</td>
+</tr>
+<tr>
+<td><a href="plugins.core.console.applications/">plugins.core.console.applications</a></td>
+<td>Adds all installed applications to the Search Console.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.console.keyboardmaestromacros/">plugins.core.console.keyboardmaestromacros</a></td>
+<td>Adds Keyboard Maestro Macros to the Search Console.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.console.preferences/">plugins.core.console.preferences</a></td>
+<td>Preferences for the Search Console.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.console.scripts/">plugins.core.console.scripts</a></td>
+<td>Adds all installed AppleScripts to the Search Console.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.controlsurfaces.manager/">plugins.core.controlsurfaces.manager</a></td>
+<td>Manager for the CommandPost Preferences Window.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.controlsurfaces.manager.panel/">plugins.core.controlsurfaces.manager.panel</a></td>
+<td>CommandPost Control Surfaces Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.controlsurfaces.resolve.manager/">plugins.core.controlsurfaces.resolve.manager</a></td>
+<td>Blackmagic DaVinci Resolve Control Surface Support.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.controlsurfaces.resolve.prefs/">plugins.core.controlsurfaces.resolve.prefs</a></td>
+<td>Blackmagic DaVinci Resolve Control Surface Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.disk.automount/">plugins.core.disk.automount</a></td>
+<td>Automatic Disk Mounting &amp; Unmounting.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.disk.favourites/">plugins.core.disk.favourites</a></td>
+<td>Action that allows you save and open user-defined favourite folders.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.display/">plugins.core.display</a></td>
+<td>Display Controls.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.gamepad.prefs/">plugins.core.gamepad.prefs</a></td>
+<td>Gamepad Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.gestures/">plugins.core.gestures</a></td>
+<td>Adds mouse actions.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.helpandsupport.credits/">plugins.core.helpandsupport.credits</a></td>
+<td>Credits Menu Item.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.helpandsupport.debugconsole/">plugins.core.helpandsupport.debugconsole</a></td>
+<td>Debug Console Menu Item.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.helpandsupport.developerguide/">plugins.core.helpandsupport.developerguide</a></td>
+<td>Developer Guide Menu Item.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.helpandsupport.donate/">plugins.core.helpandsupport.donate</a></td>
+<td>Donate Menu Item.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.helpandsupport.facebook/">plugins.core.helpandsupport.facebook</a></td>
+<td>Facebook Group Menu Item.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.helpandsupport.feedback/">plugins.core.helpandsupport.feedback</a></td>
+<td>Feedback Menu Item.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.helpandsupport.userguide/">plugins.core.helpandsupport.userguide</a></td>
+<td>User Guide Menu Item.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.language/">plugins.core.language</a></td>
+<td>Language Module.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.loupedeck.prefs/">plugins.core.loupedeck.prefs</a></td>
+<td>Loupedeck+ Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.loupedeckctandlive.manager/">plugins.core.loupedeckctandlive.manager</a></td>
+<td>Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stream Controller.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.loupedeckctandlive.prefs/">plugins.core.loupedeckctandlive.prefs</a></td>
+<td>Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stream Controller.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.loupedeckplugin/">plugins.core.loupedeckplugin</a></td>
+<td>General/macOS Loupedeck Plugin Actions</td>
+</tr>
+<tr>
+<td><a href="plugins.core.loupedeckplugin.manager/">plugins.core.loupedeckplugin.manager</a></td>
+<td>Loupedeck Plugin Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.loupedeckplugin.prefs/">plugins.core.loupedeckplugin.prefs</a></td>
+<td>Loupedeck Plugin Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.loupedeckplus.prefs/">plugins.core.loupedeckplus.prefs</a></td>
+<td>Loupedeck+ Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.macosshortcuts/">plugins.core.macosshortcuts</a></td>
+<td>Adds actions for macOS Monterey Shortcuts.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.macosshortcuts.preferences/">plugins.core.macosshortcuts.preferences</a></td>
+<td>macOS Shortcuts Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.menu.manager/">plugins.core.menu.manager</a></td>
+<td>Menu Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.menu.manager.section/">plugins.core.menu.manager.section</a></td>
+<td>Controls sections for the CommandPost menu.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.menu.menuaction/">plugins.core.menu.menuaction</a></td>
+<td>Add actions that allow you to trigger the menubar items from any application.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.midi.manager/">plugins.core.midi.manager</a></td>
+<td>MIDI Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.midi.manager.controls/">plugins.core.midi.manager.controls</a></td>
+<td>MIDI Manager Controls.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.midi.prefs/">plugins.core.midi.prefs</a></td>
+<td>MIDI Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.monogram.manager/">plugins.core.monogram.manager</a></td>
+<td>Monogram Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.monogram.prefs/">plugins.core.monogram.prefs</a></td>
+<td>Monogram Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.mouse/">plugins.core.mouse</a></td>
+<td>Adds mouse actions.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.pasteboard.history/">plugins.core.pasteboard.history</a></td>
+<td>Adds text pasteboard history actions to the Search Console.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.general/">plugins.core.preferences.general</a></td>
+<td>General Preferences Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.manager/">plugins.core.preferences.manager</a></td>
+<td>Manager for the CommandPost Preferences Window.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.manager.panel/">plugins.core.preferences.manager.panel</a></td>
+<td>CommandPost Preferences Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.panels.general/">plugins.core.preferences.panels.general</a></td>
+<td>General Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.panels.menubar/">plugins.core.preferences.panels.menubar</a></td>
+<td>Menubar Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.panels.notifications/">plugins.core.preferences.panels.notifications</a></td>
+<td>Notifications Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.panels.plugins/">plugins.core.preferences.panels.plugins</a></td>
+<td>Plugins Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.panels.scripting/">plugins.core.preferences.panels.scripting</a></td>
+<td>Scripting Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.panels.settings/">plugins.core.preferences.panels.settings</a></td>
+<td>Settings Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.preferences.updates/">plugins.core.preferences.updates</a></td>
+<td>Updates Module.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.razer.changeapplications/">plugins.core.razer.changeapplications</a></td>
+<td>Allows you to change the Razer application if set to manual.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.razer.manager/">plugins.core.razer.manager</a></td>
+<td>Razer Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.razer.prefs/">plugins.core.razer.prefs</a></td>
+<td>Razer Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.setup/">plugins.core.setup</a></td>
+<td>Manager for the CommandPost Setup Screen.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.setup.panel/">plugins.core.setup.panel</a></td>
+<td>CommandPost Setup Window Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.shortcuts.actions/">plugins.core.shortcuts.actions</a></td>
+<td>Adds actions which allow you to trigger keyboard shortcuts.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.shortcuts.prefs/">plugins.core.shortcuts.prefs</a></td>
+<td>Shortcuts Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.streamdeck.manager/">plugins.core.streamdeck.manager</a></td>
+<td>Elgato Stream Deck Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.streamdeck.prefs/">plugins.core.streamdeck.prefs</a></td>
+<td>Stream Deck Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager/">plugins.core.tangent.manager</a></td>
+<td>Tangent Control Surface Manager</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.action/">plugins.core.tangent.manager.action</a></td>
+<td>Represents a Tangent Action</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.binding/">plugins.core.tangent.manager.binding</a></td>
+<td>Represents a Tangent Binding</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.connection/">plugins.core.tangent.manager.connection</a></td>
+<td>Represents a Tangent Connection.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.controls/">plugins.core.tangent.manager.controls</a></td>
+<td>Represents a Tangent Group</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.group/">plugins.core.tangent.manager.group</a></td>
+<td>Represents a Tangent Group. Groups can also be used to enable/disable multiple</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.menu/">plugins.core.tangent.manager.menu</a></td>
+<td>Represents a Tangent Menu. Menus are controls that have a fixed set of</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.mode/">plugins.core.tangent.manager.mode</a></td>
+<td>Represents a Tangent Mode</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.named/">plugins.core.tangent.manager.named</a></td>
+<td>Provides common functions for &#x27;named&#x27; Tangent nodes</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.manager.parameter/">plugins.core.tangent.manager.parameter</a></td>
+<td>Represents a Tangent Parameter control.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tangent.prefs/">plugins.core.tangent.prefs</a></td>
+<td>Tangent Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.toolbox.intro/">plugins.core.toolbox.intro</a></td>
+<td>Intro Toolbox Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.toolbox.manager/">plugins.core.toolbox.manager</a></td>
+<td>Manager for the CommandPost Toolbox Window.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tools.caffeinate/">plugins.core.tools.caffeinate</a></td>
+<td>Prevents your Mac from going to sleep.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.banks/">plugins.core.touchbar.banks</a></td>
+<td>Touch Bar Bank Actions.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.location/">plugins.core.touchbar.location</a></td>
+<td>Virtual Touch Bar Update Location Callback</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.manager/">plugins.core.touchbar.manager</a></td>
+<td>Touch Bar Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.manager.widgets/">plugins.core.touchbar.manager.widgets</a></td>
+<td>Touch Bar Widgets Manager</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.prefs/">plugins.core.touchbar.prefs</a></td>
+<td>Touch Bar Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.virtual/">plugins.core.touchbar.virtual</a></td>
+<td>Virtual Touch Bar Manager</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.widgets.volume/">plugins.core.touchbar.widgets.volume</a></td>
+<td>Volume Slider</td>
+</tr>
+<tr>
+<td><a href="plugins.core.touchbar.widgets.windowslide/">plugins.core.touchbar.widgets.windowSlide</a></td>
+<td>Window Slide Widget for Touch Bar.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tourbox.changeapplications/">plugins.core.tourbox.changeapplications</a></td>
+<td>Allows you to change the TourBox application if set to manual.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tourbox.manager/">plugins.core.tourbox.manager</a></td>
+<td>Loupedeck CT Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.tourbox.prefs/">plugins.core.tourbox.prefs</a></td>
+<td>TourBox Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.core.utilities.manager.panel/">plugins.core.utilities.manager.panel</a></td>
+<td>CommandPost Preferences Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.watchfolders.manager/">plugins.core.watchfolders.manager</a></td>
+<td>Manager for the CommandPost Watch Folders Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.core.watchfolders.manager.panel/">plugins.core.watchfolders.manager.panel</a></td>
+<td>Watch Folder Panel Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.diskutility.application.manager/">plugins.diskutility.application.manager</a></td>
+<td>Registers Disk Utility with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.ecammlive.application.manager/">plugins.ecammlive.application.manager</a></td>
+<td>Registers Ecamm Live with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.actions.custom/">plugins.finalcutpro.actions.custom</a></td>
+<td>Creates a bunch of commands that can be used to assign actions to.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.advanced.backupinterval/">plugins.finalcutpro.advanced.backupinterval</a></td>
+<td>Change Final Cut Pro&#x27;s Backup Interval.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.advanced.disablewaveforms/">plugins.finalcutpro.advanced.disablewaveforms</a></td>
+<td>Disable Waveforms Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.advanced.fcpxml/">plugins.finalcutpro.advanced.fcpxml</a></td>
+<td>Adds preferences for extra FCPXML import and export options.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.advanced.multicam/">plugins.finalcutpro.advanced.multicam</a></td>
+<td>Show Timeline In Player.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.advanced.playbackrendering/">plugins.finalcutpro.advanced.playbackrendering</a></td>
+<td>Playback Rendering Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.advanced.showtimelineinviewers/">plugins.finalcutpro.advanced.showtimelineinviewers</a></td>
+<td>Show Timeline In Player.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.application.manager/">plugins.finalcutpro.application.manager</a></td>
+<td>Registers Final Cut Pro with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.addnote/">plugins.finalcutpro.browser.addnote</a></td>
+<td>Add Note Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.appearanceandfiltering/">plugins.finalcutpro.browser.appearanceandfiltering</a></td>
+<td>Solo a clip in the Final Cut Pro Browser.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.clearnotes/">plugins.finalcutpro.browser.clearnotes</a></td>
+<td>Clear Notes in Final Cut Pro Browser.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.csv/">plugins.finalcutpro.browser.csv</a></td>
+<td>Save Browser to CSV</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.duration/">plugins.finalcutpro.browser.duration</a></td>
+<td>Shortcut for changing Final Cut Pro&#x27;s Browser Height</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.frameiotomarkers/">plugins.finalcutpro.browser.frameiotomarkers</a></td>
+<td>Takes the contents of a Frame.io CSV file and adds markers to a clip</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.height/">plugins.finalcutpro.browser.height</a></td>
+<td>Shortcut for changing Final Cut Pro&#x27;s Browser Height</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.insertvertical/">plugins.finalcutpro.browser.insertvertical</a></td>
+<td>Insert Clips Vertically from Browser to Timeline.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.keywords/">plugins.finalcutpro.browser.keywords</a></td>
+<td>Browser Keywords Presets.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.layouts/">plugins.finalcutpro.browser.layouts</a></td>
+<td>Allows you to save and restore Browser Layouts.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.pasteboardtomarkers/">plugins.finalcutpro.browser.pasteboardtomarkers</a></td>
+<td>Take the contents of the Pasteboard and pastes it as clip markers on the</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.playhead/">plugins.finalcutpro.browser.playhead</a></td>
+<td>Browser Playhead Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.selectlibrary/">plugins.finalcutpro.browser.selectlibrary</a></td>
+<td>Actions for selecting libraries</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.browser.soloclip/">plugins.finalcutpro.browser.soloclip</a></td>
+<td>Solo a clip in the Final Cut Pro Browser.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.commands/">plugins.finalcutpro.commands</a></td>
+<td>The &#x27;fcpx&#x27; command collection.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.commands.actions/">plugins.finalcutpro.commands.actions</a></td>
+<td>An <code translate="no" v-pre>action</code> which will execute a command with matching group/id values.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.console/">plugins.finalcutpro.console</a></td>
+<td>Final Cut Pro Search Consoles</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.console.font/">plugins.finalcutpro.console.font</a></td>
+<td>Final Cut Pro Font Console</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.export.batch/">plugins.finalcutpro.export.batch</a></td>
+<td>Timeline Batch Export Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.export.batch.manager/">plugins.finalcutpro.export.batch.manager</a></td>
+<td>Manager for the Batch Export Window.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.export.batch.manager.panel/">plugins.finalcutpro.export.batch.manager.panel</a></td>
+<td>CommandPost Batch Export Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.feedback.bugreport/">plugins.finalcutpro.feedback.bugreport</a></td>
+<td>Sends Apple a Bug Report or Feature Request for Final Cut Pro.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.fullscreen.disableesc/">plugins.finalcutpro.fullscreen.disableesc</a></td>
+<td>Disables the ESC key when Final Cut Pro is in fullscreen mode.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.fullscreen.dockicon/">plugins.finalcutpro.fullscreen.dockicon</a></td>
+<td>Manages the CommandPost dock icon when FCP is full-screen.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.fullscreen.shortcuts/">plugins.finalcutpro.fullscreen.shortcuts</a></td>
+<td>Fullscreen Shortcuts</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.fullscreen.stopped/">plugins.finalcutpro.fullscreen.stopped</a></td>
+<td>Play Full Screen &amp; Stop</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.manager/">plugins.finalcutpro.hud.manager</a></td>
+<td>Manager for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.fcpxml/">plugins.finalcutpro.hud.panels.fcpxml</a></td>
+<td>FCPXML Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.info/">plugins.finalcutpro.hud.panels.info</a></td>
+<td>Info Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.minimise/">plugins.finalcutpro.hud.panels.minimise</a></td>
+<td>Minimise button for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.notes/">plugins.finalcutpro.hud.panels.notes</a></td>
+<td>Notes Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.pasteboard/">plugins.finalcutpro.hud.panels.pasteboard</a></td>
+<td>FCPXML Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.rename/">plugins.finalcutpro.hud.panels.rename</a></td>
+<td>Batch Rename Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.search/">plugins.finalcutpro.hud.panels.search</a></td>
+<td>Ten Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.tenbuttons/">plugins.finalcutpro.hud.panels.tenbuttons</a></td>
+<td>Ten Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.twelvebuttons/">plugins.finalcutpro.hud.panels.twelvebuttons</a></td>
+<td>Twelve Button Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.hud.panels.twentyfourbuttons/">plugins.finalcutpro.hud.panels.twentyfourbuttons</a></td>
+<td>Twenty Four Button Panel for the Final Cut Pro HUD.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.import.ignorecard/">plugins.finalcutpro.import.ignorecard</a></td>
+<td>Ignore Final Cut Pro&#x27;s Media Import Window.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.import.preferences/">plugins.finalcutpro.import.preferences</a></td>
+<td>Import Preferences</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.audio/">plugins.finalcutpro.inspector.audio</a></td>
+<td>Final Cut Pro Audio Inspector Additions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.coloradjustments/">plugins.finalcutpro.inspector.coloradjustments</a></td>
+<td>Actions for the Final Cut Pro Color Adjustments Effect.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.colourlabai/">plugins.finalcutpro.inspector.colourlabai</a></td>
+<td>Colourlab Ai Effect.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.info/">plugins.finalcutpro.inspector.info</a></td>
+<td>Final Cut Pro Info Inspector Additions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.show/">plugins.finalcutpro.inspector.show</a></td>
+<td>Final Cut Pro Inspector Additions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.text/">plugins.finalcutpro.inspector.text</a></td>
+<td>Final Cut Pro Text Inspector Additions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.title/">plugins.finalcutpro.inspector.title</a></td>
+<td>Final Cut Pro Title Inspector Additions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.inspector.video/">plugins.finalcutpro.inspector.video</a></td>
+<td>Final Cut Pro Video Inspector Additions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.language/">plugins.finalcutpro.language</a></td>
+<td>Final Cut Pro Language Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.menu.manager/">plugins.finalcutpro.menu.manager</a></td>
+<td>Final Cut Pro Menu Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.menu.menuaction/">plugins.finalcutpro.menu.menuaction</a></td>
+<td>A <code translate="no" v-pre>action</code> which will trigger an Final Cut Pro menu with a matching path, if available/enabled.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.menu.proxyicon/">plugins.finalcutpro.menu.proxyicon</a></td>
+<td>Final Cut Pro Proxy Icon Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.audio/">plugins.finalcutpro.midi.controls.audio</a></td>
+<td>Final Cut Pro MIDI Audio Controls.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.colorboard/">plugins.finalcutpro.midi.controls.colorboard</a></td>
+<td>Final Cut Pro MIDI Color Board Controls.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.colorwheels/">plugins.finalcutpro.midi.controls.colorwheels</a></td>
+<td>Final Cut Pro MIDI Color Controls.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.controlui.absolute/">plugins.finalcutpro.midi.controls.controlui.absolute</a></td>
+<td>Adds the ability to control any Final Cut Pro User Interface Element via a MIDI Knob/Slider.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.controlui.relative/">plugins.finalcutpro.midi.controls.controlui.relative</a></td>
+<td>Adds the ability to control any Final Cut Pro User Interface Element via a MIDI Knob/Slider.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.timeline/">plugins.finalcutpro.midi.controls.timeline</a></td>
+<td>Final Cut Pro MIDI Timeline Controls.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.video/">plugins.finalcutpro.midi.controls.video</a></td>
+<td>Final Cut Pro MIDI Video Inspector Controls.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.midi.controls.zoom/">plugins.finalcutpro.midi.controls.zoom</a></td>
+<td>Final Cut Pro MIDI Zoom Control.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.notifications.ifttt/">plugins.finalcutpro.notifications.ifttt</a></td>
+<td>IFTTT Notifications Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.notifications.imessage/">plugins.finalcutpro.notifications.imessage</a></td>
+<td>iMessage Notifications Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.notifications.manager/">plugins.finalcutpro.notifications.manager</a></td>
+<td>Notifications Manager Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.notifications.prowl/">plugins.finalcutpro.notifications.prowl</a></td>
+<td>Prowl Notifications Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.notifications.pushover/">plugins.finalcutpro.notifications.pushover</a></td>
+<td>Pushover Notifications Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.open/">plugins.finalcutpro.open</a></td>
+<td>Opens Final Cut Pro via Global Shortcut &amp; Menubar.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.pasteboard.history/">plugins.finalcutpro.pasteboard.history</a></td>
+<td>Pasteboard History</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.pasteboard.manager/">plugins.finalcutpro.pasteboard.manager</a></td>
+<td>Pasteboard Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.pasteboard.shared/">plugins.finalcutpro.pasteboard.shared</a></td>
+<td>Shared Pasteboard Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.preferences.animations/">plugins.finalcutpro.preferences.animations</a></td>
+<td>Adds Preference for &quot;Enable User Interface Animations&quot; within Final Cut Pro X.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.preferences.clearcache/">plugins.finalcutpro.preferences.clearcache</a></td>
+<td>Adds a &quot;Clear Cache&quot; button to the Final Cut Pro Preferences.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.preferences.general/">plugins.finalcutpro.preferences.general</a></td>
+<td>Final Cut Pro General Preferences</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.preferences.manager/">plugins.finalcutpro.preferences.manager</a></td>
+<td>Final Cut Pro Preferences Panel Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.preferences.spelling/">plugins.finalcutpro.preferences.spelling</a></td>
+<td>Adds Preference for &quot;Correct Spelling Automatically&quot; within Final Cut Pro X.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.setup.scan/">plugins.finalcutpro.setup.scan</a></td>
+<td>Show setup panel if Final Cut Pro needs scanning.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.audio/">plugins.finalcutpro.tangent.audio</a></td>
+<td>Final Cut Pro Audio Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.browser/">plugins.finalcutpro.tangent.browser</a></td>
+<td>Final Cut Pro Tangent Browser Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.clip/">plugins.finalcutpro.tangent.clip</a></td>
+<td>Final Cut Pro Tangent View Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.color/">plugins.finalcutpro.tangent.color</a></td>
+<td>Final Cut Pro Tangent Color Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.commandpost.functions/">plugins.finalcutpro.tangent.commandpost.functions</a></td>
+<td>CommandPost Functions for Tangent.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.common/">plugins.finalcutpro.tangent.common</a></td>
+<td>Common Final Cut Pro functions for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.edit/">plugins.finalcutpro.tangent.edit</a></td>
+<td>Final Cut Pro Tangent View Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.features/">plugins.finalcutpro.tangent.features</a></td>
+<td>Final Cut Pro CommandPost Actions for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.generator/">plugins.finalcutpro.tangent.generator</a></td>
+<td>Final Cut Pro Generator Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.info/">plugins.finalcutpro.tangent.info</a></td>
+<td>Final Cut Pro Info Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.manager/">plugins.finalcutpro.tangent.manager</a></td>
+<td>Manager for Final Cut Pro&#x27;s Tangent Support</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.new/">plugins.finalcutpro.tangent.new</a></td>
+<td>Final Cut Pro Tangent View Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.open/">plugins.finalcutpro.tangent.open</a></td>
+<td>Final Cut Pro Tangent Open FCPX.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.os/">plugins.finalcutpro.tangent.os</a></td>
+<td>macOS Group for the Tangent.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.os.display/">plugins.finalcutpro.tangent.os.display</a></td>
+<td>Tangent Display Functions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.os.pasteboard/">plugins.finalcutpro.tangent.os.pasteboard</a></td>
+<td>Pasteboard Tools for Tangent.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.os.sound/">plugins.finalcutpro.tangent.os.sound</a></td>
+<td>Tangent Sound Functions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.os.window/">plugins.finalcutpro.tangent.os.window</a></td>
+<td>Window Management Tools for Tangent.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.overlay/">plugins.finalcutpro.tangent.overlay</a></td>
+<td>Final Cut Pro Tangent Viewer Overlay Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.pasteboard/">plugins.finalcutpro.tangent.pasteboard</a></td>
+<td>Final Cut Pro Tangent Pasteboard Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.playback/">plugins.finalcutpro.tangent.playback</a></td>
+<td>Final Cut Pro Tangent Playback Group/Management</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.share/">plugins.finalcutpro.tangent.share</a></td>
+<td>Final Cut Pro Share Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.text/">plugins.finalcutpro.tangent.text</a></td>
+<td>Final Cut Pro Text Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.timeline/">plugins.finalcutpro.tangent.timeline</a></td>
+<td>Final Cut Pro Tangent Timeline Group/Management</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.title/">plugins.finalcutpro.tangent.title</a></td>
+<td>Final Cut Pro Title Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.transition/">plugins.finalcutpro.tangent.transition</a></td>
+<td>Final Cut Pro Transition Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.trim/">plugins.finalcutpro.tangent.trim</a></td>
+<td>Final Cut Pro Tangent Trim Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.video/">plugins.finalcutpro.tangent.video</a></td>
+<td>Final Cut Pro Video Inspector for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.view/">plugins.finalcutpro.tangent.view</a></td>
+<td>Final Cut Pro Tangent View Group</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.viewer/">plugins.finalcutpro.tangent.viewer</a></td>
+<td>Final Cut Pro Viewer Actions for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.tangent.workspaces/">plugins.finalcutpro.tangent.workspaces</a></td>
+<td>Final Cut Pro Workspace Actions for Tangent</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.text2speech/">plugins.finalcutpro.text2speech</a></td>
+<td>Text to Speech Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.audioeffects/">plugins.finalcutpro.timeline.audioeffects</a></td>
+<td>Controls Final Cut Pro&#x27;s Audio Effects.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.captions/">plugins.finalcutpro.timeline.captions</a></td>
+<td>Caption Tools</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.clipnavigation/">plugins.finalcutpro.timeline.clipnavigation</a></td>
+<td>Clip Navigation Actions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.colorboard/">plugins.finalcutpro.timeline.colorboard</a></td>
+<td>Color Board Plugins.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.colorboardv2/">plugins.finalcutpro.timeline.colorboardv2</a></td>
+<td>Color Board Plugins.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.colorwheels/">plugins.finalcutpro.timeline.colorwheels</a></td>
+<td>Color Wheel Enhancements.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.commandsetactions/">plugins.finalcutpro.timeline.commandsetactions</a></td>
+<td>Adds Actions to the Console for triggering Final Cut Pro shortcuts as defined in the Command Set files.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.csv/">plugins.finalcutpro.timeline.csv</a></td>
+<td>Save Timeline Index to CSV</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.editnewtitle/">plugins.finalcutpro.timeline.editnewtitle</a></td>
+<td>Allows adding and editing titles in Final Cut Pro&#x27;s timeline.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.generators/">plugins.finalcutpro.timeline.generators</a></td>
+<td>Controls Final Cut Pro&#x27;s Generators.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.height/">plugins.finalcutpro.timeline.height</a></td>
+<td>Shortcut for changing Final Cut Pro&#x27;s Timeline Height</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.horizontal/">plugins.finalcutpro.timeline.horizontal</a></td>
+<td>Actions for changing the Timeline Horizontally</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.lanes/">plugins.finalcutpro.timeline.lanes</a></td>
+<td>Controls Final Cut Pro&#x27;s Lanes.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.markallclips/">plugins.finalcutpro.timeline.markallclips</a></td>
+<td>Add a marker to all selected clips under the playhead, or all clips if only one clip is selected.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.matchframe/">plugins.finalcutpro.timeline.matchframe</a></td>
+<td>Match Frame Tools for Final Cut Pro.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.mousezoom/">plugins.finalcutpro.timeline.mousezoom</a></td>
+<td>Allows you to zoom in or out of a Final Cut Pro timeline using the mechanical scroll wheel on your mouse or the Touch Pad on the Magic Mouse when holding down the OPTION modifier key.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.movetoplayhead/">plugins.finalcutpro.timeline.movetoplayhead</a></td>
+<td>Move To Playhead.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.multicam/">plugins.finalcutpro.timeline.multicam</a></td>
+<td>Multicam Tools.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.navigation/">plugins.finalcutpro.timeline.navigation</a></td>
+<td>Actions to control Timeline Navigation.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.pasteboard/">plugins.finalcutpro.timeline.pasteboard</a></td>
+<td>Actions related to the pasteboard.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.playback/">plugins.finalcutpro.timeline.playback</a></td>
+<td>Playback Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.playhead/">plugins.finalcutpro.timeline.playhead</a></td>
+<td>Manages features relating to the Timeline Playhead.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.pluginactions/">plugins.finalcutpro.timeline.pluginactions</a></td>
+<td>Adds Final Cut Pro Plugins (i.e. Effects, Generators, Titles and Transitions) to CommandPost Actions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.preferences/">plugins.finalcutpro.timeline.preferences</a></td>
+<td>Final Cut Pro Timeline Preferences.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.renameclip/">plugins.finalcutpro.timeline.renameclip</a></td>
+<td>Rename Clip</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.selectalltimelineclips/">plugins.finalcutpro.timeline.selectalltimelineclips</a></td>
+<td>Select All Timeline Clips</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.speed/">plugins.finalcutpro.timeline.speed</a></td>
+<td>Speed Related Actions</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.titles/">plugins.finalcutpro.timeline.titles</a></td>
+<td>Controls Final Cut Pro&#x27;s Titles.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.transcode/">plugins.finalcutpro.timeline.transcode</a></td>
+<td>Adds actions that allows you to transcode clips from the timeline.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.transitions/">plugins.finalcutpro.timeline.transitions</a></td>
+<td>Controls Final Cut Pro&#x27;s Transitions.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.videoanimation/">plugins.finalcutpro.timeline.videoanimation</a></td>
+<td>Video Animation Actions</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.videoeffects/">plugins.finalcutpro.timeline.videoeffects</a></td>
+<td>Controls Final Cut Pro&#x27;s Video Effects.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.zoom/">plugins.finalcutpro.timeline.zoom</a></td>
+<td>Action for changing Final Cut Pro&#x27;s Timeline Zoom Level</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.timeline.zoomtoselection/">plugins.finalcutpro.timeline.zoomtoselection</a></td>
+<td>Zoom the Timeline to fit the currently-selected clips.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.toolbox.autosequence/">plugins.finalcutpro.toolbox.autosequence</a></td>
+<td>Orders clips on a timeline by timecode.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.toolbox.fcpxmltitles/">plugins.finalcutpro.toolbox.fcpxmltitles</a></td>
+<td>FCPXML Titles Toolbox Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.toolbox.notion/">plugins.finalcutpro.toolbox.notion</a></td>
+<td>Notion Toolbox Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.toolbox.shotdata/">plugins.finalcutpro.toolbox.shotdata</a></td>
+<td>Shot Data Toolbox Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.toolbox.sonytimecode/">plugins.finalcutpro.toolbox.sonytimecode</a></td>
+<td>Adds correct timecode from Sony cameras in a FCPXML.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.toolbox.titlestokeywords/">plugins.finalcutpro.toolbox.titlestokeywords</a></td>
+<td>Converts Titles to Keywords</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.touchbar.manager/">plugins.finalcutpro.touchbar.manager</a></td>
+<td>Final Cut Pro Touch Bar Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.touchbar.virtual/">plugins.finalcutpro.touchbar.virtual</a></td>
+<td>Virtual Touch Bar Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.touchbar.widgets.colorboard/">plugins.finalcutpro.touchbar.widgets.colorboard</a></td>
+<td>A collection of Final Cut Pro Color Board Widgets for the Touch Bar.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.touchbar.widgets.duration/">plugins.finalcutpro.touchbar.widgets.duration</a></td>
+<td>Final Cut Pro Browser Duration Control Widget for Touch Bar.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.touchbar.widgets.height/">plugins.finalcutpro.touchbar.widgets.height</a></td>
+<td>Final Cut Pro Browser Height Control Widget for Touch Bar.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.touchbar.widgets.zoom/">plugins.finalcutpro.touchbar.widgets.zoom</a></td>
+<td>Final Cut Pro Zoom Control Widget for Touch Bar.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.viewer.actions/">plugins.finalcutpro.viewer.actions</a></td>
+<td>Viewer Actions</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.viewer.overlays/">plugins.finalcutpro.viewer.overlays</a></td>
+<td>Final Cut Pro Viewer Overlays.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.watchfolders.fcpxml/">plugins.finalcutpro.watchfolders.fcpxml</a></td>
+<td>Final Cut Pro FCPXML Watch Folder Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.watchfolders.media/">plugins.finalcutpro.watchfolders.media</a></td>
+<td>Final Cut Pro Media Watch Folder Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.watchfolders.media.mediafolder/">plugins.finalcutpro.watchfolders.media.MediaFolder</a></td>
+<td>Final Cut Pro Media Watch Folder Plugin.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.watchfolders.media.panel/">plugins.finalcutpro.watchfolders.media.panel</a></td>
+<td>Watch Folder Media Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.finalcutpro.workflowextension/">plugins.finalcutpro.workflowextension</a></td>
+<td>Workflow Extension Helper</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.application.manager/">plugins.finder.application.manager</a></td>
+<td>Registers Finder with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.audio/">plugins.finder.audio</a></td>
+<td>Actions for Audio Controls</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.dateandtime/">plugins.finder.dateandtime</a></td>
+<td>Types the date and time in the &quot;YYYYMMDD HHMM&quot; format.</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.pasteboard/">plugins.finder.pasteboard</a></td>
+<td>Handy text tools.</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.pasteboard.history/">plugins.finder.pasteboard.history</a></td>
+<td>Adds text pasteboard history actions to the Search Console.</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.preferences.panel/">plugins.finder.preferences.panel</a></td>
+<td>General Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.preferences.powerchime/">plugins.finder.preferences.powerchime</a></td>
+<td>General Preferences Panel</td>
+</tr>
+<tr>
+<td><a href="plugins.finder.window/">plugins.finder.window</a></td>
+<td>Handy tools for Windows Management in macOS.</td>
+</tr>
+<tr>
+<td><a href="plugins.microsoftteams.application.manager/">plugins.microsoftteams.application.manager</a></td>
+<td>Registers Microsoft Teams with the Core Application Manager if installed.</td>
+</tr>
+<tr>
+<td><a href="plugins.motion.application.manager/">plugins.motion.application.manager</a></td>
+<td>Registers Motion with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.motion.feedback.bugreport/">plugins.motion.feedback.bugreport</a></td>
+<td>Sends Apple a Bug Report or Feature Request for Motion.</td>
+</tr>
+<tr>
+<td><a href="plugins.resolve.application.manager/">plugins.resolve.application.manager</a></td>
+<td>Registers Motion with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.resolve.tangent.emulation/">plugins.resolve.tangent.emulation</a></td>
+<td>Emulates a Tangent Element Panel.</td>
+</tr>
+<tr>
+<td><a href="plugins.resolve.tangent.manager/">plugins.resolve.tangent.manager</a></td>
+<td>Manager for DaVinci Resolve&#x27;s Tangent Support</td>
+</tr>
+<tr>
+<td><a href="plugins.skype.application.manager/">plugins.skype.application.manager</a></td>
+<td>Registers Skype with the Core Application Manager if installed.</td>
+</tr>
+<tr>
+<td><a href="plugins.skype.shortcuts/">plugins.skype.shortcuts</a></td>
+<td>Trigger Skype Shortcuts</td>
+</tr>
+<tr>
+<td><a href="plugins.spotify.application.manager/">plugins.spotify.application.manager</a></td>
+<td>Registers Spotify with the Core Application Manager if installed.</td>
+</tr>
+<tr>
+<td><a href="plugins.spotify.loupedeckplugin/">plugins.spotify.loupedeckplugin</a></td>
+<td>Spotify Loupedeck Plugin Actions</td>
+</tr>
+<tr>
+<td><a href="plugins.systempreferences.application.manager/">plugins.systempreferences.application.manager</a></td>
+<td>Registers System Preferences with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.textedit.application.manager/">plugins.textedit.application.manager</a></td>
+<td>Registers TextEdit with the Core Application Manager.</td>
+</tr>
+<tr>
+<td><a href="plugins.zoom.application.manager/">plugins.zoom.application.manager</a></td>
+<td>Registers Zoom with the Core Application Manager if installed.</td>
+</tr>
+<tr>
+<td><a href="plugins.zoom.shortcuts/">plugins.zoom.shortcuts</a></td>
+<td>Trigger Zoom Shortcuts</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<hr>
+<script src="https://giscus.app/client.js"
+        data-repo="CommandPost/CommandPost"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk3NDY0NTk2NQ=="
+        data-category="Website Discussion"
+        data-category-id="DIC_kwDOBHMBzc4CXFFA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+                
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-2 mt-14">
+                    <a id="retype-edit-this-page" class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-body-link font-body-link hover:text-body-link-hover hover:underline" href="https://github.com/CommandPost/CommandPost-Website/blob/main/docs/commandpost-v2/api-references/plugins/index.md" target="_blank" rel="noopener">
+                        <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        <span>Edit this page on GitHub</span>
+                    </a>
+                </div>
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../commandpost-v2/api-references/hammerspoon/hs.window.tiling/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">hs.​window.​tiling</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../commandpost-v2/api-references/plugins/plugins.aftereffects.application.manager/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">plugins.​aftereffects.​application.​manager</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                        <li>
+                            <a class="inline-flex items-center mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="../../../commandpost-v2/contribute/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                    <g fill="currentColor">
+                                        <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/>
+                                    </g>
+                                </svg>
+                                <span>Contribute</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright 2026 LateNite Films Pty Ltd. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Plugins API", level: 3, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/commandpost-v2/api-references/plugins/index.md" }</script>
+</body>
+</html>
