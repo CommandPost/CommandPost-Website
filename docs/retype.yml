@@ -8,26 +8,19 @@ branding:
   logo: static/logo.png
 
 links:
-- text: Download
-  link: /download
+- text: Buy
+  link: /commandpost-v3/buy
   icon: desktop-download
-
-- text: Wish List
-  link: /wishlist
-  icon: thumbsup
-
-- text: Bug Tracker
-  link: /bugtracker
-  icon: bug
 
 - text: Discord
   link: https://ltnt.tv/discord
   icon: comment-discussion
   target: blank
 
-- text: Discussions
-  link: https://github.com/commandpost/commandpost/discussions
-  icon: comment-discussion
+
+- text: Bugs & Feature Requests
+  link: https://github.com/CommandPost/CommandPost/issues
+  icon: issue-opened
   target: blank
 
 - text: FCP Cafe
@@ -55,10 +48,6 @@ edit:
   label: Edit this page on GitHub
 
 favicon: static/favicon.ico
-
-data:
-  star: "<span class=\"fa fa-star checked\"></span>"
-  unstar: "<span class=\"fa fa-star\">"
 
 scheme:
   mode: dark
