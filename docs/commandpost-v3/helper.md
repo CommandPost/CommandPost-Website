@@ -1,4 +1,4 @@
-# CommandPost Helper
+# Download Helper
 
 **CommandPost Helper** is an **optional** helper tool that gives Accessibility powers to **CommandPost v3**.
 
