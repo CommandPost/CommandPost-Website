@@ -1,4 +1,4 @@
-label: CommandPost Helper
-icon: question
-order: 1
+label: Download Helper
+icon: copilot
+order: 8999
 image: static/thumbnail.png
