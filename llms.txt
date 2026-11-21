@@ -4,6 +4,7 @@
 
 - [CommandPost v3](https://commandpost.fcp.cafe/commandpost-v3/introduction.md): Workflow Enhancements for Creatives
 - [Buy on Mac App Store](https://commandpost.fcp.cafe/commandpost-v3/buy.md): We're currently testing CommandPost v3 on TestFlight and are awaiting Apple's approval for the Mac App Store!
+- [CommandPost Helper](https://commandpost.fcp.cafe/commandpost-v3/helper.md): CommandPost Helper is an optional helper tool that gives Accessibility powers to CommandPost v3.
 - [Educational Pricing](https://commandpost.fcp.cafe/commandpost-v3/educational.md): Educational institutions can get a 50% discount when they purchase 20 or more copies through Apple School Manager.
 - [System Requirements](https://commandpost.fcp.cafe/commandpost-v3/system-requirements.md): CommandPost v3 on requires macOS Sequoia 15.6 or later.
 - [Support](https://commandpost.fcp.cafe/commandpost-v3/support.md): The best place to get support is the FCP Cafe Discord.
@@ -14,7 +15,6 @@
 - [Release Notes](https://commandpost.fcp.cafe/commandpost-v3/release-notes.md): 🎉 Released:
 - [Credits](https://commandpost.fcp.cafe/commandpost-v3/credits.md): CommandPost was created by Chris Hocking as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for Scott Simmons.
 - [Privacy Policy](https://commandpost.fcp.cafe/commandpost-v3/privacy.md): This is the privacy policy for the CommandPost v3, macOS Application that is available on the macOS App Store and TestFlight.
-- [CommandPost Helper](https://commandpost.fcp.cafe/commandpost-v3/helper.md): CommandPost Helper is an optional helper tool that gives Accessibility powers to CommandPost v3.
 
 ## CommandPost v2
 
