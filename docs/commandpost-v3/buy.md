@@ -1,5 +1,9 @@
 # Buy on Mac App Store
 
+!!!warning Coming soon!
+We're currently testing **CommandPost v3** on TestFlight and are awaiting Apple's approval for the Mac App Store!
+!!!
+
 **CommandPost v3** is a one-time payment of **USD$79.99** on the **Mac App Store**.
 
 Alternatively, you can download the open-source [CommandPost v2](/commandpost-v2/download/).
