@@ -1,12 +1,14 @@
 # CommandPost v3
 
-**The Swiss Army Knife for Post Production Professionals**
-
 !!!warning Coming soon!
 We're currently testing **CommandPost v3** on TestFlight and are awaiting Apple's approval for the Mac App Store!
 !!!
 
+**The Swiss Army Knife for Post Production Professionals**
+
 **CommandPost v3** is a insanely powerful macOS application that makes your post production and editing life **faster** and **lots more fun** (everything is better with more buttons!). 🎛️
+
+![](/static/commandpost-logo.png)
 
 This isn't some new vibe-coded... thing. It's grown over the last **decade**, based on feedback from industry professionals.
 
