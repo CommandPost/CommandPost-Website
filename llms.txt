@@ -3,7 +3,7 @@
 ## CommandPost v3
 
 - [CommandPost v3](https://commandpost.fcp.cafe/commandpost-v3/introduction.md): Workflow Enhancements for Creatives
-- [Buy on Mac App Store](https://commandpost.fcp.cafe/commandpost-v3/buy.md): CommandPost v3 is a one-time payment of USD$79.99 on the Mac App Store.
+- [Buy on Mac App Store](https://commandpost.fcp.cafe/commandpost-v3/buy.md): We're currently testing CommandPost v3 on TestFlight and are awaiting Apple's approval for the Mac App Store!
 - [Educational Pricing](https://commandpost.fcp.cafe/commandpost-v3/educational.md): Educational institutions can get a 50% discount when they purchase 20 or more copies through Apple School Manager.
 - [System Requirements](https://commandpost.fcp.cafe/commandpost-v3/system-requirements.md): CommandPost v3 on requires macOS Sequoia 15.6 or later.
 - [Support](https://commandpost.fcp.cafe/commandpost-v3/support.md): The best place to get support is the FCP Cafe Discord.
