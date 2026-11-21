@@ -100,6 +100,10 @@ If people aren't going to contribute to CommandPost's code - I'd rather just kee
 
 It also means I don't need to worry as much about making sure the repo is in good order, with good comments, etc as it's really just for me to navigate.
 
+And of course, CommandPost v2 remains open source - so anyone can still fork it and do amazing things with it!
+
+All the building blocks and logic for CommandPost v3 are within the CommandPost v2 Lua codebase, that I've spent so much time in - long before the world of LLMs.
+
 ---
 
 ### Why the Mac App Store?
