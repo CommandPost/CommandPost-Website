@@ -1,1 +1,0 @@
-- [After the OS update, CommandPost shows on launch: "URLs of type 'afp:' are not supported." (November 16, 2026)](https://github.com/CommandPost/CommandPost/issues/3546)
