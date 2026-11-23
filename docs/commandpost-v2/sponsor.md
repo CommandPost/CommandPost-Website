@@ -56,7 +56,7 @@ You can find the [**Pro Editor Bundle v2** on the Mac App Store](https://itunes.
 
 We also sell Metaburner on FxFactory - however, this doesn't "unlock" CommandPost (only our Mac App Store apps do).
 
-![](/static/metaburner-v1-1-0.png)
+![](/static/metaburner-v1-1-0.png){loading="lazy"}
 
 You can learn more and download a free trial via the [Metaburner website](https://metaburner.pro).
 

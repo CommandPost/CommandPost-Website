@@ -5,7 +5,7 @@ url: commandpost.fcp.cafe
 
 branding:
   title: CommandPost
-  logo: static/logo.png
+  logo: static/logo-nav.png
 
 nav:
   mode: stack # Pro key required: shows each top-level folder as a sidebar section

@@ -8,7 +8,7 @@ We're currently testing **CommandPost v3** on TestFlight and are awaiting Apple'
 
 **CommandPost v3** is a insanely powerful macOS application that makes your post production and editing life **faster** and **lots more fun** (everything is better with more buttons!). 🎛️
 
-![](/static/commandpost-logo.png)
+[![](/static/commandpost-logo.jpg)](/static/commandpost-logo.png "View the full-resolution CommandPost artwork")
 
 This isn't some new vibe-coded... thing. It's grown over the last **decade**, based on feedback from industry professionals.
 
@@ -24,7 +24,7 @@ It has **extensive** control surface support - allowing you to control your Mac 
 
 It has MCP support - so LLM's can drive every aspect of CommandPost.
 
-![](/static/commandpost-v3-01.png)
+![](/static/commandpost-v3-01.png){loading="lazy"}
 
 ---
 
@@ -34,7 +34,7 @@ Rather than produce our own video tutorials - CommandPost is so popular that the
 
 Watch this awesome introduction video by Arthur Moore on [YouTube](https://www.youtube.com/watch?v=2IkCYS9Svrw) on 14th September 2019:
 
-[![](/static/arthur-moore-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA)
+[![](/static/arthur-moore-youtube.jpg){loading="lazy"}](https://www.youtube.com/watch?v=_tHdyD9TGCA)
 
 ---
 
@@ -49,7 +49,7 @@ We've also built custom tools for Denmark’s second largest production company,
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost v2's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
 
-[![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw)
+[![](/static/blood-and-gold.jpg){loading="lazy"}](https://www.youtube.com/watch?v=mqNzrsUerYw)
 
 ---
 
@@ -61,7 +61,7 @@ It has built-in actions for Final Cut Pro v13's new `fcptool`.
 
 It has deep support of Final Cut Pro, and includes a powerful Workflow Extension.
 
-![](/static/commandpost-v3-06.png)
+![](/static/commandpost-v3-06.png){loading="lazy"}
 
 ---
 
@@ -71,7 +71,7 @@ It has deep support of Final Cut Pro, and includes a powerful Workflow Extension
 
 Anything CommandPost can do... can be triggered by Claude, Codex, Copilot, Siri, or your local LLM.
 
-![](/static/commandpost-v3-07.png)
+![](/static/commandpost-v3-07.png){loading="lazy"}
 
 ---
 
@@ -84,7 +84,7 @@ CommandPost has been **built by filmmakers, for filmmakers**.
 
 However, it's also used by developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
-![](/static/commandpost-v3-02.png)
+![](/static/commandpost-v3-02.png){loading="lazy"}
 
 ---
 
@@ -104,7 +104,7 @@ You can basically control **ANYTHING** in Final Cut Pro with a huge range of con
 
 **[Tangent](/commandpost-v2/control-surfaces/tangent/)**, **[Monogram](/commandpost-v2/control-surfaces/monogram/)** and **[Loupedeck](/commandpost-v2/control-surfaces/loupedeck/)** all officially rely on CommandPost v2 for Final Cut Pro support.
 
-![](/static/commandpost-v3-04.png)
+![](/static/commandpost-v3-04.png){loading="lazy"}
 
 ---
 
@@ -117,7 +117,7 @@ CommandPost has an insanely powerful **Search Console** that allows you to trigg
 
 Like Spotlight, this is accessible system-wide, and is also used to quickly assign actions to control surfaces buttons and knobs.
 
-![](/static/commandpost-v3-05.png)
+![](/static/commandpost-v3-05.png){loading="lazy"}
 
 ---
 
@@ -130,7 +130,7 @@ CommandPost allows you to do things in Final Cut Pro that are otherwise not poss
 
 There's literally hundreds of actions in CommandPost for controlling Final Cut Pro in almost unlimited ways.
 
-![](/static/commandpost-v3-03.png)
+![](/static/commandpost-v3-03.png){loading="lazy"}
 
 ---
 
@@ -143,7 +143,7 @@ CommandPost can do complex things with a single keystroke or button press.
 
 It has some INSANELY powerful actions.
 
-![](/static/commandpost-v3-08.png)
+![](/static/commandpost-v3-08.png){loading="lazy"}
 
 ---
 
@@ -156,4 +156,4 @@ Whilst CommandPost was originally designed with Final Cut Pro in mind, it can ac
 
 The Search Console will also list all your [Keyboard Maestro](https://www.keyboardmaestro.com/) macros, macOS Shortcuts and even AppleScript's!
 
-![](/static/commandpost-v3-09.png)
+![](/static/commandpost-v3-09.png){loading="lazy"}

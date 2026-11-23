@@ -52,7 +52,7 @@ Over the years both David and I have spent an insane amount of hours on CommandP
 
 We've also spent a LOT of money on control surfaces out of our own pockets.
 
-![](/static/commandpost-buttons.jpg)
+![](/static/commandpost-buttons.jpg){loading="lazy"}
 
 Whilst we've always offered a way to sponsor CommandPost on GitHub, very few took up the opportunity.
 
@@ -162,13 +162,13 @@ This will **disable Moveable Markers**:
 
 However, due to new security protections in **macOS Sequoia 15**, after running the above commands, you'll now see something like this (noting, that I've renamed `Final Cut Pro.app` to `Final Cut Pro Modified.app`:
 
-![](/static/fcp-modified-warning.png)
+![](/static/fcp-modified-warning.png){loading="lazy"}
 
 Click **Cancel** and then open **System Settings**.
 
 In the **Privacy & Security** panel, you'll need to click the **Open Anyway** button:
 
-![](/static/fcp-modified-warning-open-anyway.png)
+![](/static/fcp-modified-warning-open-anyway.png){loading="lazy"}
 
 Apple obviously does **NOT** want you to do this, so tread with care.
 

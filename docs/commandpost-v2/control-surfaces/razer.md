@@ -13,7 +13,7 @@ CommandPost has support for a huge variety of Razer devices:
 
 You can select between a **Razer** device and a **Razer Stream Controller** when you click the Control Surfaces panel icon:
 
-![](../static/controlsurface-razer-popup.png)
+![](/static/controlsurface-razer-popup.png)
 
 ---
 
@@ -21,7 +21,7 @@ You can select between a **Razer** device and a **Razer Stream Controller** when
 
 You have lots of control over Razer devices:
 
-![](../static/controlsurface-razer.png)
+![](/static/controlsurface-razer.png){loading="lazy"}
 
 ---
 
@@ -29,4 +29,4 @@ You have lots of control over Razer devices:
 
 The Razer Stream Controller is essentially just a rebranded Loupedeck Live.
 
-![](../static/controlsurface-razer-stream-controller.png)
+![](/static/controlsurface-razer-stream-controller.png){loading="lazy"}

@@ -4,9 +4,9 @@
 This feature was removed in CommandPost v1.6.0.
 !!!
 
-![](../static/shot-data-cover.png)
+![](/static/shot-data-cover.png)
 
-![](../static/Shot_Data_Toolbox.png)
+![](/static/Shot_Data_Toolbox.png){loading="lazy"}
 
 ## Background
 
@@ -31,7 +31,7 @@ For Music Videos and music driven narratives, sound or music invariably takes hi
 
 ### The Most Resilient Parasite
 
-![](../static/inception.gif)
+![](/static/inception.gif){loading="lazy"}
 
 > *What is the most resilient parasite? Bacteria? A virus? An intestinal worm? An idea. Resilient... highly contagious. Once an idea has taken hold of the brain it's almost impossible to eradicate. An idea that is fully formed - fully understood - that sticks; right in there somewhere. - Cobb*
 
@@ -59,13 +59,13 @@ Notion’s workspace allows you to write in a beautiful clean space, build your 
 
 If you are familiar with Final Cut Pro’s [Smart Collections](https://support.apple.com/en-sg/guide/final-cut-pro/ver2833eb5b/mac), you will feel right at home with Notion’s database. Notion’s database allows you to create custom views with specific [filters and sort criteria](https://www.notion.so/help/views-filters-and-sorts).
 
-[![Why Notion?](https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg)](https://www.youtube.com/watch?v=gp2yhkVw0z4 "Why Notion?")
+[![Why Notion?](https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg){loading="lazy"}](https://www.youtube.com/watch?v=gp2yhkVw0z4 "Why Notion?")
 
 ### Introduction to Notion’s databases
 
 One feature that sets Notion apart from other database (i.e Airtable) is every entry or record is its own editable page. The record you enter into your database can be opened as its own Notion page, where you can layer or add in any information or [blocks](https://www.youtube.com/watch?v=BZnR2Ml17sc) you want.
 
-[![Introduction to Notion’s databases](https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg)](https://www.youtube.com/watch?v=npaNKlAO7g8)
+[![Introduction to Notion’s databases](https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg){loading="lazy"}](https://www.youtube.com/watch?v=npaNKlAO7g8)
 
 ## Basic Usage - Shot Data
 
@@ -76,21 +76,21 @@ One feature that sets Notion apart from other database (i.e Airtable) is every e
 ==- Part 1 - Sound Locking (Pre-Editing)
 1. Select **Shot Data** from the **CommandPost**’s Toolbox Menu.
 
-![](../static/S1.1.png)
+![](/static/S1.1.png){loading="lazy"}
 
 2. Click **Install Motion Template** from the **Shot Data**’s Toolbox
 
-![](../static/S1.2.png)
+![](/static/S1.2.png){loading="lazy"}
 
 3. Launch **Final Cut Pro**.
 
-![](../static/S1.3.png)
+![](/static/S1.3.png){loading="lazy"}
 
 4. Create a new **Library** of your choosing.
 
 5. In **Titles and Generators** sidebar, you will now see the **Shot Data** Template under **CommandPost** category.
 
-![](../static/S1.4.png)
+![](/static/S1.4.png){loading="lazy"}
 
 6. Create a new **Project** with your desired Resolution and Frame Rate.
 
@@ -100,7 +100,7 @@ One feature that sets Notion apart from other database (i.e Airtable) is every e
 
 7. Append a **Custom Solid** to the Timeline.
 
-![](../static/S1.5.png)
+![](/static/S1.5.png){loading="lazy"}
 
 !!!info Info
 Custom Solid is used for this example. You can use any other available Solids from the Generators.
@@ -112,7 +112,7 @@ There is an apparent bug in Final Cut Pro where Custom **Generators** with compl
 
 8. Connect your desired Music or Score Track to the first clip.
 
-![](../static/S1.6.png)
+![](/static/S1.6.png){loading="lazy"}
 
 !!!info Info
 You can completely use Shot Data without a Music Track. It all depends on your project’s workflow and requirements.
@@ -120,7 +120,7 @@ You can completely use Shot Data without a Music Track. It all depends on your p
 
 9. With the Custom Solid Generator, you can start editing using the music’s structure and rhythm.
 
-![](../static/S1.7.png)
+![](/static/S1.7.png){loading="lazy"}
 
 !!!info Info
 You could change the colour of each Custom Solid to provide you a visual indication. For quicker reusability, create a set of Custom Solids with different colours. And you could also create a separate **Role** for all the Custom Solids and tag with a different colour.
@@ -132,7 +132,7 @@ You could change the colour of each Custom Solid to provide you a visual indicat
 These reference images, could be hand-drawn sketches, movie stills, photographs or even 3D rendered images.
 !!!
 
-![](../static/S1.8.png)
+![](/static/S1.8.png){loading="lazy"}
 
 !!!info Info
 Upon connecting the images to the timeline, select all the images. press `CMD` + `G` to create a secondary storyline. With secondary storyline, you can easily snap the images to each edit point.
@@ -140,11 +140,11 @@ Upon connecting the images to the timeline, select all the images. press `CMD` +
 
 11. Now, Connect **Shot Data** Template to the timeline.
 
-![](../static/S1.9.png)
+![](/static/S1.9.png){loading="lazy"}
 
 12. Take a look at the **Published Parameters** of the **Shot Data** Template. Don’t get overwhelmed with the number of fields. 😳
 
-![](../static/S1.10.gif)
+![](/static/S1.10.gif){loading="lazy"}
 
 !!!info Info
 You need not have to tabulate data in every field. They are published for greater versatility and flexibility when generating the `*.csv`.
@@ -152,7 +152,7 @@ You need not have to tabulate data in every field. They are published for greate
 
 13. Back in your timeline, perform an Extend Edit `Shift` + `X` on **Shot Data** Template.
 
-![S1.11.gif](../static/S1.11.gif)
+![S1.11.gif](/static/S1.11.gif){loading="lazy"}
 
 14. Go back to the **Published Parameters** of the **Shot Data** Template, enter your desired shot information pertaining the timeline and scene. If your entire timeline is meant only for scene 10, enter in `10` in the Scene Number field. Enter `01` under Shot Number.
 
@@ -160,15 +160,15 @@ You need not have to tabulate data in every field. They are published for greate
 For the purpose of sorting, use a 2 digit numbering with padding for the Shot Number field. You can also use 3 digit numbering with padding if you desire. It is unlikely that you would require more than 100 shots within a single Scene.
 !!!
 
-![](../static/S1.12.png)
+![](/static/S1.12.png){loading="lazy"}
 
 15. Back in your timeline, press `CMD` + `G` to create a secondary storyline for the **Shot Data** Template. Using the **Blade** Tool, cut the **Shot Data** Template base on existing edit points. If you have **Snapping** enabled, all of the edit points should be identical across all 3 connected storyline.
 
-![](../static/S1.13.png)
+![](/static/S1.13.png){loading="lazy"}
 
 16. In order for **CommandPost** to the process **Shot Data** Template with the connected images, the storyline needs to be reordered. Both of the connected storylines need to be broken apart using `Shift` + `CMD` + `G`. To bring the visibility of the **Shot Data** Template’s Text on screen, you can reduce the opacity of the Images and Custom Solids to your desired value.
 
-![](../static/S1.14.png)
+![](/static/S1.14.png){loading="lazy"}
 
 17. Make sure you have entered and selected all the values within each **Shot Data** Template instance. You are required to enter a unique Shot Number `01`, `02`, `03`, `04` and so on for each **Shot Data** Template instance. If you have 19 cuts in your timeline, you should have 19 instances of **Shot Data** Template.
 
@@ -178,7 +178,7 @@ At this point, you can enter as much of **Shot Data** information pertaining eac
 
 But if they are going to be the same for continuing shots, leave them as blank. You can copy & paste them easily later in Notion.
 
-![](../static/S1.15.png)
+![](/static/S1.15.png){loading="lazy"}
 
 18. We are finally done with Part 1! Here comes the fun Part. 🥳
 ===
@@ -190,7 +190,7 @@ But if they are going to be the same for continuing shots, leave them as blank. 
 
 3. Paste your [Notion v2 Token](https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede) in the Notion Token field. Make sure both **Automatically Upload Converted FCPXMLs** and **Merge with Existing Database** are Checked.
 
-![](../static/S2.1.png)
+![](/static/S2.1.png){loading="lazy"}
 
 !!!info Info
 Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.
@@ -200,11 +200,11 @@ Please take note that your Notion v2 Token may expire after some period of time.
 
 5. Select your preferred **Export Destination** by pressing on **Change Export Destination**.
 
-![](../static/S2.2.png)
+![](/static/S2.2.png){loading="lazy"}
 
 6. Drag & Drop your your Project into **Shot Data’s Toolbox** XML Drop Zone.
 
-![](../static/S3.3.png)
+![](/static/S3.3.png){loading="lazy"}
 
 7. Watch as the magic happens!
 
@@ -242,11 +242,11 @@ You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/)
 
 5. You'll be asked to find the database you want to create the relation with. You can use the input at the top to search for this database.
 
-![](../static/S3.2.png)
+![](/static/S3.2.png){loading="lazy"}
 
 6. In **Shot Data** Template of each instance, back in Final Cut Pro, you can enter the Exact name of that record from your **Characters** database.
 
-![](../static/S3.3-1.png)
+![](/static/S3.3-1.png){loading="lazy"}
 
 !!!info Info
 If you have added `Luke` and `Yoda` in your **Characters** database, enter `Luke,Yoda`. It is case-sensitive. And if you have more than 1 item for the field, have to separate them with `,`.
@@ -271,7 +271,7 @@ In order to batch update your records, couple of conditions have to be met. The 
 
 2. Select all the Columns except **Scene Description** and **Image Filename**. The **Scene Description** will always be used as the Image’s Caption within Notion.
 
-![](../static/S3.4.gif)
+![](/static/S3.4.gif){loading="lazy"}
 
 3. Now when you Drag & Drop your your Project into **Shot Data’s Toolbox** XML Drop Zone, **Shot Data** will only upload and update the images that are embedded within each record.
 
@@ -289,7 +289,7 @@ If your entire scene in **Final Cut Pro** is updated with a different set of cut
 
 2. The default icon for all the records is. 🎬.
 
-![](../static/S3.5.png)
+![](/static/S3.5.png){loading="lazy"}
 
 3. You can click on the **Emoji Picker** button to change to a different Emoji.
 
@@ -304,7 +304,7 @@ You can get creative with emojis. You can assign ☀️ sun emoji for day scene
 
 2. You are able to **Save Settings** for multiple configuration.
 
-![](../static/S3.6.png)
+![](/static/S3.6.png){loading="lazy"}
 
 3. You can recall different configuration by pressing **Load Settings**.
 
@@ -313,15 +313,15 @@ You can get creative with emojis. You can assign ☀️ sun emoji for day scene
 ==- Drag & Drop Final Cut Pro’s Project to Dock Icon
 1. Check CommandPost’s Dock Icon, under **Preferences**, **General**.
 
-![](../static/S3.7.png)
+![](/static/S3.7.png){loading="lazy"}
 
 2. CommandPost’s Dock Icon will appear in your Dock.
 
-![](../static/S3.8.png)
+![](/static/S3.8.png){loading="lazy"}
 
 3. Check **Enable Dropping Final Cut Pro Project to Dock Icon**.
 
-![](../static/S3.9.png)
+![](/static/S3.9.png){loading="lazy"}
 
 4. You can now Drag & Drop Project’s **Shot Data** Sequences into CommandPost’s Dock Icon easily without opening **Shot Data**’s Toolbox.
 

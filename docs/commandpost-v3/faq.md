@@ -10,7 +10,7 @@ It was later renamed to **CommandPost** after I teamed up with David Peterson.
 
 Over the last decade, CommandPost has grown and evolved - adding thousands of features, and supporting thousands of users.
 
-![](../static/stats.png)
+![](/static/stats.png)
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
@@ -52,11 +52,11 @@ Whilst there were some amazing companies like Tangent and Loupedeck who have bee
 
 Over the years both David and I have spent an insane amount of hours on CommandPost, especially in the early days:
 
-![](/static/github-stats.png)
+![](/static/github-stats.png){loading="lazy"}
 
 We've also spent a LOT of money on control surfaces out of our own pockets.
 
-![](/static/commandpost-buttons.jpg)
+![](/static/commandpost-buttons.jpg){loading="lazy"}
 
 Whilst we've always offered a way to sponsor CommandPost on GitHub, very few took up the opportunity.
 

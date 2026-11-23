@@ -109,6 +109,13 @@ jobs:
         env:
           RETYPE_KEY: ${{ secrets.RETYPE_SECRET }}
 
+      # Retype's client reapplies image attributes in markup order. Setting src
+      # before loading starts the download even for an offscreen image.
+      - name: Apply lazy loading before image sources
+        run: |
+          find "$RETYPE_OUTPUT_PATH" -type f -name '*.html' -exec \
+            perl -pi -e 's/<img\b([^>]*?) loading="lazy"/<img loading="lazy"$1/g' {} +
+
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
