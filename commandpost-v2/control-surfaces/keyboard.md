@@ -19,7 +19,7 @@ You can customise the shortcuts keys in the **Keyboard** Preferences panel - whi
 
 This is what the Shortcut Preferences panel looks like:
 
-![](/static/shortcuts-prefs.png)
+![](/static/shortcuts-prefs.png){loading="lazy"}
 
 The top drop-down allows you to select between "All Applications" Shortcuts or application specific shortcuts (currently limited to Final Cut Pro).
 

@@ -4,7 +4,7 @@ There are two ways to interact with Loupedeck devices in CommandPost - native/di
 
 You can select between the various Loupedeck devices when you click the Control Surfaces menubar item:
 
-![](../static/controlsurface-loupedeck-popup.png)
+![](/static/controlsurface-loupedeck-popup.png)
 
 ---
 
@@ -16,7 +16,7 @@ If you enable the Loupedeck Plugin, CommandPost's native Loupedeck CT and Live s
 
 This features requires Loupedeck Software v5.1 or later.
 
-![](../static/controlsurface-loupedeck-plugin.png)
+![](/static/controlsurface-loupedeck-plugin.png){loading="lazy"}
 
 You can learn more on the [official Loupedeck site](https://support.loupedeck.com/setting-up-commandpost-plugin).
 
@@ -28,7 +28,7 @@ You can also avoid the official Loupedeck Plugin all together and let CommandPos
 
 Using this method gives you a lot more control and flexibility.
 
-![](../static/controlsurface-loupedeck-ct.png)
+![](/static/controlsurface-loupedeck-ct.png){loading="lazy"}
 
 ---
 

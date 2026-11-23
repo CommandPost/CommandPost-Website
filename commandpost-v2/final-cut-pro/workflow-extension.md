@@ -10,7 +10,7 @@ Currently the Workflow Extension is basically just a helper tool - it has no use
 
 Because of this, you can resize the window to make it as small as possible, and drag it off-screen.
 
-![](/static/workflow-extension-small.png)
+![](/static/workflow-extension-small.png){loading="lazy"}
 
 We don't currently have any plans to add any features to the Workflow Extension as we already have the CommandPost HUD, which offers similar functionality in a more streamlined user interface.
 

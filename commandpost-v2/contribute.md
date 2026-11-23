@@ -77,13 +77,13 @@ If you're not already registered with GitHub, [create a free account](https://gi
 
 There's an **Edit this page on GitHub** link at the bottom of every page.
 
-![Edit this file](../static/editthispage.png)
+![Edit this file](/static/editthispage.png)
 
 You can edit the contents of this page by clicking the link at the bottom of this page.
 
 To make changes simply click the little pencil **Edit this file** button.
 
-![Edit this file](../static/editthisfile.png)
+![Edit this file](/static/editthisfile.png){loading="lazy"}
 
 You can then make changes in the text editor using the Markdown syntax. Copying and pasting existing syntax is the best way to get started.
 
@@ -91,17 +91,17 @@ You should make sure all external links open in a new tab/window (edit this page
 
 You can learn more about basic formatting [here](https://retype.com/guides/formatting/).
 
-![Edit this file](../static/editor.png)
+![Edit this file](/static/editor.png){loading="lazy"}
 
 Once done click **Commit changes**. You can enter a message and description for the commit. Press **Commit changes** again.
 
-![Edit this file](../static/proposechanges.png)
+![Edit this file](/static/proposechanges.png){loading="lazy"}
 
 You will now be presented with a **Open a pull request** page.
 
 You can add a title and detailed description to the pull request. Once you're done click **Create pull request**.
 
-![Edit this file](../static/pullrequest.png)
+![Edit this file](/static/pullrequest.png){loading="lazy"}
 
 This will send your changes to the CommandPost team to review and approve.
 

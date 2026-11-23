@@ -8,11 +8,11 @@ You can access the Debug Console via the "Help & Support > CommandPost" section 
 
 There is also an option to "Open Debug Console on Dock Icon Click", which is 'on' by default:
 
-![](/static/general-preferences.png)
+![](/static/general-preferences.png){loading="lazy"}
 
 Similar to `Console.app` in macOS, the Debug Console basically displays all of CommandPost's log files for the current session:
 
-![](/static/error-log.png)
+![](/static/error-log.png){loading="lazy"}
 
 In the menu bar, you can:
 
@@ -27,7 +27,7 @@ In the menu bar, you can:
 
 The text box at the bottom of the Debug Console allows you to execute Lua Commands directly. This is really useful when developing CommandPost plugins. For example:
 
-![](/static/error-log-code.png)
+![](/static/error-log-code.png){loading="lazy"}
 
 You can learn more about developing for CommandPost in the [Developers](/commandpost-v2/developer/introduction/) section of this site.
 

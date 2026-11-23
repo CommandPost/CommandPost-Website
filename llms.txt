@@ -20,7 +20,7 @@
 
 - [CommandPost](https://commandpost.fcp.cafe/commandpost-v2/introduction.md): Workflow Enhancements for Creatives
 - [Sponsor CommandPost](https://commandpost.fcp.cafe/commandpost-v2/sponsor.md): CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store. The cheapest options are ScriptStar, Fast Collections, Gyroflow Toolbox, LUT Robot, News Import, Recall Toolbox and Transfer Toolbox - all USD$9.99.
-- [Download](https://commandpost.fcp.cafe/commandpost-v2/download.md): CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store. The cheapest options are ScriptStar, Fast Collections, Gyroflow Toolbox, LUT Robot, News Import, Recall Toolbox and Transfer Toolbox - all USD$9.99.
+- [Download](https://commandpost.fcp.cafe/commandpost-v2/download.md): CommandPost v2 is no longer actively maintained or supported.
 - [System Requirements](https://commandpost.fcp.cafe/commandpost-v2/system-requirements.md): CommandPost now requires at least ONE paid LateNite application installed from the Mac App Store. The cheapest options are ScriptStar, Fast Collections, Gyroflow Toolbox, LUT Robot, News Import, Recall Toolbox and Transfer Toolbox - all USD$9.99.
 - [Installation](https://commandpost.fcp.cafe/commandpost-v2/installation.md): You can download the latest release of CommandPost as an DMG package here.
 - [Uninstall](https://commandpost.fcp.cafe/commandpost-v2/uninstall.md): Inside the CommandPost DMG package is an uninstall application:

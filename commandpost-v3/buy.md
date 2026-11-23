@@ -22,7 +22,7 @@ You can find information about Educational Pricing [here](/commandpost-v3/educat
 
 You can learn more about LateNite's amazing range of apps on [FCP Cafe](https://fcp.cafe/latenite/).
 
-![](/static/lateniteapps.png)
+[![](/static/lateniteapps.jpg)](/static/lateniteapps.png "View the full-resolution LateNite app collection")
 
 ---
 

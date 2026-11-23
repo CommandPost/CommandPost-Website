@@ -64,11 +64,11 @@ To do this we can use [UI Browser](https://latenightsw.com/freeware/ui-browser/)
 
 **Accessibility Inspector:**
 
-![](/static/animation-amount-ui.png)
+![](/static/animation-amount-ui.png){loading="lazy"}
 
 **UI Browser:**
 
-![](/static/animation-amount-ui-browser.png)
+![](/static/animation-amount-ui-browser.png){loading="lazy"}
 
 With this information we can determine that the `AXSlider` is contained within a `AXScrollArea` within an `AXGroup`.
 

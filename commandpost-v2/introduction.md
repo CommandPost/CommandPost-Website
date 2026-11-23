@@ -1,4 +1,4 @@
-<img class="rightLogo" src="https://commandpost.io/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
+<img class="rightLogo" src="/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # CommandPost
 
@@ -24,11 +24,11 @@ It has **extensive** control surface support - allowing you to control your Mac 
 
 It's been downloaded over **277 thousand times**, and there are over **[3 thousands members](https://www.facebook.com/groups/commandpost/members)** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
-![](../static/stats.png)
+![](/static/stats.png)
 
 We also have a rapidly growing [Discord community](https://ltnt.tv/discord) full of industry veterans and professionals.
 
-![](../static/commandpost-hero.png)
+[![](/static/commandpost-hero.jpg){loading="lazy"}](/static/commandpost-hero.png "View the full-resolution CommandPost v2 interface")
 
 ---
 
@@ -38,7 +38,7 @@ Rather than produce our own video tutorials - CommandPost is so popular that the
 
 Watch this awesome introduction video by Arthur Moore on [YouTube](https://www.youtube.com/watch?v=2IkCYS9Svrw) on 14th September 2019:
 
-[![](/static/arthur-moore-youtube.jpg)](https://www.youtube.com/watch?v=_tHdyD9TGCA)
+[![](/static/arthur-moore-youtube.jpg){loading="lazy"}](https://www.youtube.com/watch?v=_tHdyD9TGCA)
 
 ---
 
@@ -53,7 +53,7 @@ We've also built custom tools for Denmark’s second largest production company,
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
 
-[![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw)
+[![](/static/blood-and-gold.jpg){loading="lazy"}](https://www.youtube.com/watch?v=mqNzrsUerYw)
 
 ---
 
@@ -66,7 +66,7 @@ CommandPost has been **built by filmmakers, for filmmakers**.
 
 However, it's also used by developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
-![](../static/homepage-scripting.png)
+![](/static/homepage-scripting.png){loading="lazy"}
 
 ---
 
@@ -86,7 +86,7 @@ You can basically control **ANYTHING** in Final Cut Pro with a huge range of con
 
 **[Tangent](/commandpost-v2/control-surfaces/tangent/)**, **[Monogram](/commandpost-v2/control-surfaces/monogram/)** and **[Loupedeck](/commandpost-v2/control-surfaces/loupedeck/)** all officially rely on CommandPost for Final Cut Pro support.
 
-![](../static/homepage-control-surface.png)
+![](/static/homepage-control-surface.png){loading="lazy"}
 
 ---
 
@@ -99,7 +99,7 @@ CommandPost has an insanely powerful **Search Console** that allows you to trigg
 
 Like Spotlight, this is accessible system-wide, and is also used to quickly assign actions to control surfaces buttons and knobs.
 
-![](../static/homepage-search-console.png)
+![](/static/homepage-search-console.png){loading="lazy"}
 
 ---
 
@@ -112,7 +112,7 @@ CommandPost allows you to do things in Final Cut Pro that are otherwise not poss
 
 There's literally hundreds of actions in CommandPost for controlling Final Cut Pro in almost unlimited ways.
 
-![](../static/homepage-final-cut-pro.png)
+![](/static/homepage-final-cut-pro.png){loading="lazy"}
 
 ---
 
@@ -123,7 +123,7 @@ There's literally hundreds of actions in CommandPost for controlling Final Cut P
 
 CommandPost can do complex things with a single keystroke, such as exporting your Final Cut Pro **Timeline Index and Browser Contents to a CSV**.
 
-![](../static/homepage-csv.png)
+![](/static/homepage-csv.png){loading="lazy"}
 
 ---
 
@@ -138,7 +138,7 @@ It's also always growing and expanding, for example it can scan After Effects so
 
 The Search Console will also list all your [Keyboard Maestro](https://www.keyboardmaestro.com/) macros, macOS Shortcuts and even AppleScript's!
 
-![](../static/homepage-after-effects.png)
+![](/static/homepage-after-effects.png){loading="lazy"}
 
 ---
 
@@ -149,7 +149,7 @@ The Search Console will also list all your [Keyboard Maestro](https://www.keyboa
 
 CommandPost has been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
-![](../static/homepage-japanese.png)
+![](/static/homepage-japanese.png){loading="lazy"}
 
 ---
 
@@ -164,7 +164,7 @@ Every part of CommandPost can be easily modified and enhanced in a simple text e
 
 It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org) Lua scripts.
 
-![](../static/homepage-lua.png)
+![](/static/homepage-lua.png){loading="lazy"}
 
 ---
 

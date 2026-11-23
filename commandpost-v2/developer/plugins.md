@@ -30,7 +30,7 @@ If you click **Add** it will turn that newly created folder into a CommandPost P
 
 You view the contents of the bundle, simply right click and select **Show Package Contents**.
 
-![Show Package Contents](/static/show-package-contents.png)
+![Show Package Contents](/static/show-package-contents.png){loading="lazy"}
 
 At a very minimum, the plugin should contain a single `.lua` file, which will be the Lua code that's executed.
 

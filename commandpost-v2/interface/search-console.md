@@ -14,7 +14,7 @@ With a similar interface to [Alfred](https://www.alfredapp.com) you can then sea
 
 If you right-click on the Search Console, you'll see the follow menu:
 
-![](/static/global-console-context.png)
+![](/static/global-console-context.png){loading="lazy"}
 
 This allows you to:
 
@@ -30,17 +30,17 @@ However, this isn't the only instance of the Search Console - we use it right th
 
 For example, with CommandPost running after an initial install, and Final Cut Pro open and active, if you press **CONTROL + SPACE** on your keyboard, this will activate the Search Console as well.
 
-![](/static/fcpx-console.png)
+![](/static/fcpx-console.png){loading="lazy"}
 
 As you see in the above screenshot, it's exactly the same interface as when you activate the Search Console from other applications but with more/different sections.
 
 We also use the Search Console in the Preferences panel for selecting actions. For example, in the Touch Bar Preferences you'll see the "Select" button in the Layout Editor:
 
-![](/static/action-button.png)
+![](/static/action-button.png){loading="lazy"}
 
 This opens a Search Console, allowing you to select an Action for this Touch Bar Item:
 
-![](/static/touch-bar-console.png)
+![](/static/touch-bar-console.png){loading="lazy"}
 
 Each Search Console remembers it's own settings (i.e. selected sections, favourites, hides, remember the last query entered, etc.).
 

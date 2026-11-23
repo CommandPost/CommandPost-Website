@@ -14,8 +14,6 @@ To submit a new bug report, simply sign up for a free GitHub account and post an
 
 Here's a list of the **30 most popular** CommandPost bug reports:
 
-- [After the OS update, CommandPost shows on launch: "URLs of type 'afp:' are not supported." (November 16, 2026)](https://github.com/CommandPost/CommandPost/issues/3546)
-
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/CommandPost/issues).
 
 ---
@@ -23,8 +21,6 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 ### Recently Added
 
 Here's a list of the **30 most recently added** CommandPost bug reports:
-
-- [After the OS update, CommandPost shows on launch: "URLs of type 'afp:' are not supported." (November 16, 2026)](https://github.com/CommandPost/CommandPost/issues/3546)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/CommandPost/issues).
 
