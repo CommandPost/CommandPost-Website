@@ -1,0 +1,3 @@
+- [Improve removing Monogram/Palette panels (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3550)
+- [Do further testing and review of Monogram / Palette Control Surfaces (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3549)
+- [Game Controller Bugs & Issues (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3548)
