@@ -6,9 +6,11 @@ We're currently testing **CommandPost v3** on TestFlight and are awaiting Apple'
 
 **The Swiss Army Knife for Post Production Professionals**
 
-**CommandPost v3** is a insanely powerful macOS application that makes your post production and editing life **faster** and **lots more fun** (everything is better with more buttons!). 🎛️
+**CommandPost v3** is a insanely powerful software platform that makes your post production and editing life **faster** and **lots more fun** (everything is better with more buttons!). 🎛️
 
-[![](/static/commandpost-logo.jpg)](/static/commandpost-logo.png "View the full-resolution CommandPost artwork")
+It runs on **Mac**, **iPhone**, **iPad**, **Vision Pro and Apple Watch. 🤯
+
+[![](/static/commandpost-logo.jpg)]()
 
 This isn't some new vibe-coded... thing. It's grown over the last **decade**, based on feedback from industry professionals.
 
