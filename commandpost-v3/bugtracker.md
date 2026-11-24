@@ -14,6 +14,10 @@ To submit a new bug report, simply sign up for a free GitHub account and post an
 
 Here's a list of the **30 most popular** CommandPost bug reports:
 
+- [Improve removing Monogram/Palette panels (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3550)
+- [Do further testing and review of Monogram / Palette Control Surfaces (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3549)
+- [Game Controller Bugs & Issues (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3548)
+
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/CommandPost/issues).
 
 ---
@@ -21,6 +25,10 @@ The above list is pulled from our [GitHub issues site](https://github.com/Comman
 ### Recently Added
 
 Here's a list of the **30 most recently added** CommandPost bug reports:
+
+- [Improve removing Monogram/Palette panels (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3550)
+- [Do further testing and review of Monogram / Palette Control Surfaces (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3549)
+- [Game Controller Bugs & Issues (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3548)
 
 The above list is pulled from our [GitHub issues site](https://github.com/CommandPost/CommandPost/issues).
 
