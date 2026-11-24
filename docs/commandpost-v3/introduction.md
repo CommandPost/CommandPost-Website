@@ -8,23 +8,27 @@ We're currently testing **CommandPost v3** on TestFlight and are awaiting Apple'
 
 **CommandPost v3** is a insanely powerful software platform that makes your post production and editing life **faster** and **lots more fun** (everything is better with more buttons!). 🎛️
 
-It runs on **Mac**, **iPhone**, **iPad**, **Vision Pro and Apple Watch. 🤯
+It runs on **Mac**, **iPhone**, **iPad**, **Vision Pro** and **Apple Watch**. 🤯
 
 [![](/static/commandpost-logo.jpg)]()
 
-This isn't some new vibe-coded... thing. It's grown over the last **decade**, based on feedback from industry professionals.
+This isn't some new vibe-coded... _thing_. It's grown over the last **decade**, based on feedback from industry professionals.
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
-All of the 2024-2026 **Apple Worldwide Developer Conference (WWDC)** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost v2. 🥳
+All of the 2024-2026 **Apple Worldwide Developer Conference (WWDC)** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost v2. 🎚️
 
 **CommandPost v3** has been written in Swift and SwiftUI, and optimised for modern Apple Silicon Mac's.
 
 It adds **tens of thousands** of actions for Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) to make it even better and more enjoyable to edit with.
 
-It has **extensive** control surface support - allowing you to control your Mac anyway you want.
+It also has deep support for **Avid Media Composer**, **Adobe Creative Cloud** and **Blackmagic DaVinci Resolve** - it's the go-to tool for professional video editors.
 
-It has MCP support - so LLM's can drive every aspect of CommandPost.
+It has **extensive** control surface support that doesn't require any additional software - allowing you to control your Mac _anyway_ you want.
+
+It has MCP support - so LLM's can drive _every_ aspect of CommandPost.
+
+It's the most powerful assistant editor you'll ever have.
 
 ![](/static/commandpost-v3-01.png){loading="lazy"}
 
@@ -37,6 +41,8 @@ Rather than produce our own video tutorials - CommandPost is so popular that the
 Watch this awesome introduction video by Arthur Moore on [YouTube](https://www.youtube.com/watch?v=2IkCYS9Svrw) on 14th September 2019:
 
 [![](/static/arthur-moore-youtube.jpg){loading="lazy"}](https://www.youtube.com/watch?v=_tHdyD9TGCA)
+
+You can find lots more videos on the [CommandPost v2 section](/commandpost-v2/videos/).
 
 ---
 
@@ -53,6 +59,8 @@ We've also built custom tools for Denmark’s second largest production company,
 
 [![](/static/blood-and-gold.jpg){loading="lazy"}](https://www.youtube.com/watch?v=mqNzrsUerYw)
 
+We can't wait to see what people do with CommandPost v3!
+
 ---
 
 ### Deeply integrated into Apple Creator Studio
@@ -61,7 +69,7 @@ We've also built custom tools for Denmark’s second largest production company,
 
 It has built-in actions for Final Cut Pro v13's new `fcptool`.
 
-It has deep support of Final Cut Pro, and includes a powerful Workflow Extension.
+It has deep support of Final Cut Pro, and includes an insanely powerful Workflow Extension.
 
 ![](/static/commandpost-v3-06.png){loading="lazy"}
 
@@ -71,7 +79,7 @@ It has deep support of Final Cut Pro, and includes a powerful Workflow Extension
 
 **CommandPost v3** has deep LLM support - with built-in support for the **Model Context Protocol (MCP)**.
 
-Anything CommandPost can do... can be triggered by Claude, Codex, Copilot, Siri, or your local LLM.
+Anything CommandPost can do... can be triggered by Claude, Codex, Copilot, Siri, or your favourite local LLM.
 
 ![](/static/commandpost-v3-07.png){loading="lazy"}
 
@@ -84,7 +92,7 @@ Anything CommandPost can do... can be triggered by Claude, Codex, Copilot, Siri,
 
 CommandPost has been **built by filmmakers, for filmmakers**.
 
-However, it's also used by developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
+However, it's also used by photographers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
 ![](/static/commandpost-v3-02.png){loading="lazy"}
 
@@ -97,12 +105,12 @@ However, it's also used by developers, scientists and macOS power users all over
 
 CommandPost has deep support for a wide range of **control surfaces**.
 
-It even brings back **[Razer](/commandpost-v2/control-surfaces/razer/)** keypad support to the Mac!
+It even brings back support for discontinued devices, such as Razer keypads and the Monogram Creative Console.
 
 > _“ Chris's support is the best you will find anywhere on the planet. He was proactive and able to implement features for me on the spot. 5 STAR product 5 STAR support. ControllerMate is what I used to use. CommandPost is faster and easier. ”_<br />
 > **[Ross Batten](https://www.roscoaudio.com.au)** <font size="2">- _Senior Sound Designer (ProTools)_</font>
 
-You can basically control **ANYTHING** in Final Cut Pro with a huge range of control surfaces.
+You can basically control **ANYTHING** on your Mac with a huge range of control surfaces.
 
 **[Tangent](/commandpost-v2/control-surfaces/tangent/)**, **[Monogram](/commandpost-v2/control-surfaces/monogram/)** and **[Loupedeck](/commandpost-v2/control-surfaces/loupedeck/)** all officially rely on CommandPost v2 for Final Cut Pro support.
 
@@ -128,9 +136,9 @@ Like Spotlight, this is accessible system-wide, and is also used to quickly assi
 > _“ CommandPost is so many things for so many people. For me it is a Final Cut Pro automation system that unlocks hidden features and uniquely supports advanced workflows. CommandPost’s secret weapon? Deep connections with the postproduction community which mean that it constantly improves as the needs of editors and post professionals evolve. ”_<br />
 > **[Alex ‘4D’ Gollner](https://alex4d.com)** <font size="2">- _Motion Template Creator_</font>
 
-CommandPost allows you to do things in Final Cut Pro that are otherwise not possible.
+CommandPost allows you to do things on your Mac that are otherwise not possible.
 
-There's literally hundreds of actions in CommandPost for controlling Final Cut Pro in almost unlimited ways.
+There's literally hundreds of actions in CommandPost for controlling your favourite apps in almost unlimited ways.
 
 ![](/static/commandpost-v3-03.png){loading="lazy"}
 
