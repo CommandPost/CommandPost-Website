@@ -1,7 +1,7 @@
 # CommandPost v3
 
 !!!warning Coming soon!
-We're currently testing **CommandPost v3** on TestFlight and are awaiting Apple's approval for the Mac App Store!
+We're currently waiting for Apple to approve **CommandPost v3** on the Mac App Store. Stay tuned!
 !!!
 
 **The Swiss Army Knife for Post Production Professionals**
