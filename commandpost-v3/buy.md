@@ -1,7 +1,9 @@
 # Buy on Mac App Store
 
-!!!warning Coming soon!
-We're currently waiting for Apple to approve **CommandPost v3** on the Mac App Store. Stay tuned!
+!!!warning Currently on TestFlight!
+Apple has approved the CommandPost v3 iPhone/iPad/Watch app! 🥳
+
+We're currently waiting for Apple to approve **CommandPost v3** for Mac & Vision Pro. Stay tuned!
 !!!
 
 **CommandPost v3** is a one-time payment of **AUD$79.99** in Australia and **USD$79.99** elsewhere in the world.
