@@ -1,5 +1,4 @@
 - [Better Final Cut Pro Collaboration (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3553)
-- [Improve Learn Mode in MIDI Control Surfaces (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3552)
 - [Add better learn modes for control surfaces (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3551)
 - [Make Tangent Ripple User Interface better match hardware (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3547)
 - [Ulanzi Creative Deck Stream D200x (June 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3520)
