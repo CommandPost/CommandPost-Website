@@ -1,7 +1,9 @@
 # CommandPost v3
 
-!!!warning Coming soon!
-We're currently waiting for Apple to approve **CommandPost v3** on the Mac App Store. Stay tuned!
+!!!warning Currently on TestFlight!
+Apple has approved the CommandPost v3 iPhone/iPad/Watch app! 🥳
+
+We're currently waiting for Apple to approve **CommandPost v3** for Mac & Vision Pro. Stay tuned!
 !!!
 
 **The Swiss Army Knife for Post Production Professionals**
