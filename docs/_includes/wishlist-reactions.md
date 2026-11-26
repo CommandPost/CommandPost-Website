@@ -1,6 +1,5 @@
-- [Better Final Cut Pro Collaboration (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3553)
 - [Add better learn modes for control surfaces (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3551)
-- [Make Tangent Ripple User Interface better match hardware (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3547)
+- [Better Final Cut Pro Collaboration (November 24, 2026)](https://github.com/CommandPost/CommandPost/issues/3553)
 - [Ulanzi Creative Deck Stream D200x (June 10, 2026)](https://github.com/CommandPost/CommandPost/issues/3520)
 - [Add support for Yamaha CC1 USB Controller (January 23, 2026)](https://github.com/CommandPost/CommandPost/issues/3473)
 - [Add support for Binepad panels (October 4, 2024)](https://github.com/CommandPost/CommandPost/issues/3385)
