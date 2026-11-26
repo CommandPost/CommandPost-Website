@@ -4,6 +4,8 @@
 Apple has approved the CommandPost v3 iPhone/iPad/Watch app! 🥳
 
 We're currently waiting for Apple to approve **CommandPost v3** for Mac & Vision Pro. Stay tuned!
+
+Join the [FCP Cafe Discord](https://ltnt.tv/discord) if you're interested in joining TestFlight.
 !!!
 
 **The Swiss Army Knife for Post Production Professionals**
@@ -30,7 +32,7 @@ It has **extensive** control surface support that doesn't require any additional
 
 It has MCP support - so LLM's can drive _every_ aspect of CommandPost.
 
-It's the most powerful assistant editor you'll ever have.
+It's the most powerful assistant editor you'll ever have, regardless of what software or hardware you use. 🔥
 
 ![](/static/commandpost-v3-01.png){loading="lazy"}
 
